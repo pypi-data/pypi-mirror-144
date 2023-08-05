@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+cvslicer/CVSlicer.py
+cvslicer/__init__.py
+cvslicer/get_image_size.py
+cvslicer.egg-info/PKG-INFO
+cvslicer.egg-info/SOURCES.txt
+cvslicer.egg-info/dependency_links.txt
+cvslicer.egg-info/requires.txt
+cvslicer.egg-info/top_level.txt
+test/test_CVSlicer.py

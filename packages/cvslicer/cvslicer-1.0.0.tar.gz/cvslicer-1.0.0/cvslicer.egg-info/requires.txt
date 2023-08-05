@@ -1,0 +1,5 @@
+numpy
+Pillow
+
+[extra]
+opencv-python
