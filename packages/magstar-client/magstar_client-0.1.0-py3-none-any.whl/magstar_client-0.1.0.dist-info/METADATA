@@ -1,0 +1,68 @@
+Metadata-Version: 2.1
+Name: magstar-client
+Version: 0.1.0
+Summary: A Python client library for interfacing with the CPI Magstar system
+Home-page: https://github.com/CPIProductionDataLab/magstar-python-client
+Author: Robert P. Cope (Computational Physics Inc.)
+Author-email: rcope@cpi.com
+License: MIT
+Project-URL: Computational Physics Inc., https://www.cpi.com/GMD.html
+Keywords: magstar,magnetometers,gmd,space weather
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Scientific/Engineering :: Physics
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Typing :: Typed
+Requires-Python: >=3.6, <4
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: requests (<3,>=2)
+Requires-Dist: dataclasses (>=0.8)
+
+# magstar-python-client
+
+A Python client library for Computational Physics Inc.'s Magstar magnetometer networks.
+
+## Installing
+
+Either install directly from git:
+
+```
+git clone https://github.com/CPIProductionDataLab/magstar-python-client.git
+cd magstar-python-client
+python setup.py install
+```
+
+or install from PyPI:
+
+```
+pip install magstar-client
+```
+
+## Usage
+
+```python
+
+from magstar_client import MagstarV1API
+
+BASE_URL = "???"
+YOUR_API_KEY = "???"
+
+api = MagstarV1API(BASE_URL, YOUR_API_KEY)
+print(api.get_stations())
+```
+
+
+
