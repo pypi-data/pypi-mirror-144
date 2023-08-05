@@ -1,0 +1,7 @@
+LICENSE
+README.md
+setup.py
+DSSATTools/DSSATTools.egg-info/PKG-INFO
+DSSATTools/DSSATTools.egg-info/SOURCES.txt
+DSSATTools/DSSATTools.egg-info/dependency_links.txt
+DSSATTools/DSSATTools.egg-info/top_level.txt
