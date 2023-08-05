@@ -1,0 +1,11 @@
+build_vc/__init__.py,sha256=aTJJmDmYMkbNfcLZVDM1NjhYFx0Lb4mJCP8g8QSnVLo,501
+build_vc/cffi_helpers.py,sha256=SlHqxFNU1O5FiFQnm00dumnOH32-BBjSglhSrtLApuE,1295
+pystm32flash/__init__.py,sha256=aTJJmDmYMkbNfcLZVDM1NjhYFx0Lb4mJCP8g8QSnVLo,501
+pystm32flash/cffi_helpers.py,sha256=swzlJWANSEtNm5mm1jIxzAtNWaophbnajRq4XxQGd6c,1401
+pystm32flash_src/__init__.py,sha256=aTJJmDmYMkbNfcLZVDM1NjhYFx0Lb4mJCP8g8QSnVLo,501
+pystm32flash_src/cffi_helpers.py,sha256=swzlJWANSEtNm5mm1jIxzAtNWaophbnajRq4XxQGd6c,1401
+pystm32flash-0.0.2.dist-info/LICENSE,sha256=bx5iLIKjgAdYQ7sISn7DsfHRKkoCUm1154sJJKhgqnU,35184
+pystm32flash-0.0.2.dist-info/METADATA,sha256=g48jGenkRjauzS63y1rzY3H851X0X04lqOLstqad-RA,582
+pystm32flash-0.0.2.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+pystm32flash-0.0.2.dist-info/top_level.txt,sha256=QakypPfx_coeFuskV11S6Ho1lqdxbtRAl7xRx3gt2bM,39
+pystm32flash-0.0.2.dist-info/RECORD,,

@@ -1,0 +1,3 @@
+build_vc
+pystm32flash
+pystm32flash_src
