@@ -1,0 +1,7 @@
+/target
+Cargo.lock
+test_data
+**/__pycache__
+**/.hypothesis
+**/.pytest_cache
+nbs
