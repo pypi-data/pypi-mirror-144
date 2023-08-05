@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: kitdo
+Version: 0.0.1
+Summary: UNKNOWN
+Home-page: https://github.com/menglycheng/kitdo
+Author: mengly
+Author-email: menglycheng2@gmail.com
+License: MIT
+Keywords: odoo,odoo module,create odoo module
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Description-Content-Type: text/markdown
+Requires-Dist: click (==7.1.2)
+Requires-Dist: twine
+
+# kitdo
+kitdo is a cli command which is use to create odoo module.
+
+## Installation
+```pip install kitdo```
+
+## How to use ? 
+- Step1: install this cli into your odoo virtual environment.
+- Step2: ``` kitdo -name <your module name > ```
+
+## License
+
+© 2022 Mengly
+
+This repository is licensed under the MIT license. See LICENSE for details.
+
+

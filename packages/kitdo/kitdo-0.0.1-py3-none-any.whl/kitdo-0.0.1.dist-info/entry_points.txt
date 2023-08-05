@@ -1,0 +1,3 @@
+[console_scripts]
+kitdo = kitdo.__main__:main
+
