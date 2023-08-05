@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/LogisiticRegression_PavanAdapa.egg-info/PKG-INFO
+src/LogisiticRegression_PavanAdapa.egg-info/SOURCES.txt
+src/LogisiticRegression_PavanAdapa.egg-info/dependency_links.txt
+src/LogisiticRegression_PavanAdapa.egg-info/top_level.txt
+src/LogisticRegression/Accuracy.py
+src/LogisticRegression/Cost.py
+src/LogisticRegression/Optimize.py
+src/LogisticRegression/Predict.py
+src/LogisticRegression/Sigmoid.py
+src/LogisticRegression/__init__.py
