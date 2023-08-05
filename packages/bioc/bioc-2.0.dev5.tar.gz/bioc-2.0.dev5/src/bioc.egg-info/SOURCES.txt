@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/bioc.egg-info/PKG-INFO
+src/bioc.egg-info/SOURCES.txt
+src/bioc.egg-info/dependency_links.txt
+src/bioc.egg-info/entry_points.txt
+src/bioc.egg-info/requires.txt
+src/bioc.egg-info/top_level.txt
