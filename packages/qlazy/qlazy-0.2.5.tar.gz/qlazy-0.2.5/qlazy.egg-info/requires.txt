@@ -1,0 +1,5 @@
+Qulacs>=0.3.0
+amazon-braket-sdk>=0.34.2
+numpy>=1.21.0
+pyzx>=0.7.0
+qiskit>=0.34.2
