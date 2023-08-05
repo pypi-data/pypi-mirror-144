@@ -1,0 +1,12 @@
+Metadata-Version: 1.1
+Name: pyinput
+Version: 0.3.0
+Summary: Python library to send inputs to an executable.
+Home-page: https://github.com/GaryFrazier/PyInput
+Author: Gary Frazier
+Author-email: garyfrazier95@yahoo.com
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Microsoft :: Windows

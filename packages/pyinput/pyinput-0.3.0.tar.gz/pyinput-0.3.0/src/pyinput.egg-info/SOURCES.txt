@@ -1,0 +1,10 @@
+README.md
+setup.py
+src/pyinput/__init__.py
+src/pyinput/pyinput.py
+src/pyinput/pyinputkeycodes.py
+src/pyinput.egg-info/PKG-INFO
+src/pyinput.egg-info/SOURCES.txt
+src/pyinput.egg-info/dependency_links.txt
+src/pyinput.egg-info/requires.txt
+src/pyinput.egg-info/top_level.txt
