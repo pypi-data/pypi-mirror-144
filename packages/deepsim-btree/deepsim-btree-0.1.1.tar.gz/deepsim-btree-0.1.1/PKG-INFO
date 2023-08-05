@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: deepsim-btree
+Version: 0.1.1
+Summary: A Behaviour Tree library for DeepSim Toolkit.
+Home-page: https://github.com/aws-deepracer/deepsim/tree/main/deepsim_btree
+Author: Amazon Web Services
+License: Apache License 2.0
+Keywords: ML RL Amazon AWS AI DeepSim
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+License-File: LICENSE.txt
+
+## DeepSim Behaviour Tree
+
+The DeepSim Behaviour Tree package is a part of DeepSim Toolkit that provides a behaviour tree implementation. 
+
+## License
+
+The source code is released under [Apache 2.0](https://aws.amazon.com/apache-2-0/).
+
+
