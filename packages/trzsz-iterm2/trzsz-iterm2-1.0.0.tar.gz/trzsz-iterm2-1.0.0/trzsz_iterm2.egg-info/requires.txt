@@ -1,0 +1,2 @@
+trzsz-libs==1.0.0
+iterm2>=2.0
