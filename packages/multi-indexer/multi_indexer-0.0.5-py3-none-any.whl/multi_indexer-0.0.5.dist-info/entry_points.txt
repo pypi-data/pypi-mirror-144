@@ -1,0 +1,2 @@
+[console_scripts]
+multi_indexer = multi_indexer.main:main
