@@ -1,0 +1,17 @@
+.gitignore
+README.md
+data_preprocessing_bart.py
+data_preprocessing_t5.py
+requirements.txt
+setup.py
+example/example.txt
+example/example_out_bart.csv
+example/example_out_t5.csv
+telephone/__init__.py
+telephone/main.py
+telephone.egg-info/PKG-INFO
+telephone.egg-info/SOURCES.txt
+telephone.egg-info/dependency_links.txt
+telephone.egg-info/not-zip-safe
+telephone.egg-info/requires.txt
+telephone.egg-info/top_level.txt
