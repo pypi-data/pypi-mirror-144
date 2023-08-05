@@ -1,0 +1,3 @@
+[nile_plugins]
+greet=nile_greet.main.greet
+
