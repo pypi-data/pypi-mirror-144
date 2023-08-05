@@ -1,0 +1,7 @@
+matplotlib
+packaging
+pillow
+pip
+torch
+
+[dev]

@@ -1,0 +1,66 @@
+Metadata-Version: 2.1
+Name: imstack
+Version: 0.0.2
+Summary: Represent an image as a stack of different sized tensors
+Home-page: https://github.com/johnowhitaker/imstack/tree/{branch}/
+Author: Jonathan Whitaker
+Author-email: johnowhitaker@gmail.com
+License: Apache Software License 2.0
+Description: # Project name here
+        > Summary description here.
+        
+        
+        This file will become your README and also the index of your documentation.
+        
+        ## Install
+        
+        `pip install imstack`
+        
+        ## How to use
+        
+        Fill me in please! Don't forget code examples:
+        
+        ```python
+        1+1
+        ```
+        
+        
+        
+        
+            2
+        
+        
+        
+        ```python
+        ims = ImStack(n_layers=3)
+        ims.plot_layers()
+        ```
+        
+        
+            
+        ![png](https://raw.githubusercontent.com/johnowhitaker/imstack/{branch}/docs/images/output_6_0.png)
+            
+        
+        
+        ```python
+        from nbdev.export import notebook2script; notebook2script() # Export via nbdev
+        ```
+        
+            Converted 00_core.ipynb.
+            Converted index.ipynb.
+        
+        
+Keywords: image
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: License :: OSI Approved :: Apache Software License
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Provides-Extra: dev
