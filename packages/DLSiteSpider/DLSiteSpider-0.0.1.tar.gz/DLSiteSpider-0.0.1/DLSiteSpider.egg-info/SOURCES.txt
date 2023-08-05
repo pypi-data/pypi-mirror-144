@@ -1,0 +1,7 @@
+README.md
+pyproject.toml
+setup.cfg
+DLSiteSpider.egg-info/PKG-INFO
+DLSiteSpider.egg-info/SOURCES.txt
+DLSiteSpider.egg-info/dependency_links.txt
+DLSiteSpider.egg-info/top_level.txt
