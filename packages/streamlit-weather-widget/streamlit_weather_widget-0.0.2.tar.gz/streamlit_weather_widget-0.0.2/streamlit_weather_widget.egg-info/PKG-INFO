@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: streamlit-weather-widget
+Version: 0.0.2
+Summary: A component loading forecast data from OpenWeather and uses react-open-weather React component
+Home-page: UNKNOWN
+Author: ateeb
+Author-email: 
+License: UNKNOWN
+Description: A component loading forecast data from OpenWeather and uses react-open-weather React component
+Platform: UNKNOWN
+Requires-Python: >=3.7
+Description-Content-Type: text/plain

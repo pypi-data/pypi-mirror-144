@@ -1,0 +1,9 @@
+MANIFEST.in
+README.md
+setup.py
+streamlit_weather_widget/__init__.py
+streamlit_weather_widget.egg-info/PKG-INFO
+streamlit_weather_widget.egg-info/SOURCES.txt
+streamlit_weather_widget.egg-info/dependency_links.txt
+streamlit_weather_widget.egg-info/requires.txt
+streamlit_weather_widget.egg-info/top_level.txt
