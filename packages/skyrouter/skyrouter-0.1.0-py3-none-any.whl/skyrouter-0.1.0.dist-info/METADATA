@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: skyrouter
+Version: 0.1.0
+Summary: Python API Client for Sky Routers (Sky Hubs)
+Home-page: https://github.com/tombulled/skyrouter
+License: MIT
+Keywords: skyrouter,skyhub,sky,router,hub
+Author: Tom Bulled
+Author-email: 26026015+tombulled@users.noreply.github.com
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: beautifulsoup4 (>=4.10.0,<5.0.0)
+Requires-Dist: furl (>=2.1.3,<3.0.0)
+Requires-Dist: httpx (>=0.22.0,<0.23.0)
+Project-URL: Repository, https://github.com/tombulled/skyrouter
+Description-Content-Type: text/markdown
+
+# skyrouter
+Python API Client for Sky Routers (Sky Hubs)
+
