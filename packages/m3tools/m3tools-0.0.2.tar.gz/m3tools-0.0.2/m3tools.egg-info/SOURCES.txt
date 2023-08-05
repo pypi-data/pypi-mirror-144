@@ -1,0 +1,6 @@
+LICENSE
+setup.py
+m3tools.egg-info/PKG-INFO
+m3tools.egg-info/SOURCES.txt
+m3tools.egg-info/dependency_links.txt
+m3tools.egg-info/top_level.txt
