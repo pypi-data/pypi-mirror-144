@@ -1,0 +1,8 @@
+LICENSE
+pyproject.toml
+setup.cfg
+src/replopen.egg-info/PKG-INFO
+src/replopen.egg-info/SOURCES.txt
+src/replopen.egg-info/dependency_links.txt
+src/replopen.egg-info/top_level.txt
+src/timestomp/__init__.py
