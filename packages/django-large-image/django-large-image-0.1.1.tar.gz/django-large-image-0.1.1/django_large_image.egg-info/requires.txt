@@ -1,0 +1,10 @@
+django
+django-extensions
+django-girder-utils
+djangorestframework
+drf-yasg
+large-image>=1.9.0
+
+[colormaps]
+matplotlib
+cmocean
