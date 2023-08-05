@@ -1,0 +1,58 @@
+netservice
+=====
+
+A Python ToolBox for Python Programmers
+
+Author Website :  https://netservice.shop
+
+Features
+=============
+ * works with Python 3.x
+ * to easy
+ * possibility to cache results
+
+
+$ pip3 install netservice
+===================
+
+> import netservice
+
+> netservice.sendgmail(username='yourGmail', password='yourPassword', to='toGmail', text='yourText')
+
+Sending Gmail
+
+> netservice.qrcode(text='netservice.ir', Format='svg')
+
+Creating QRcode   # Formats are svg, eps, terminal
+
+> print(netservice.DNS(url='netservice.ir'))
+
+Website DNS
+
+> netservice.download(url='fileURL')
+
+Download a file
+
+> netservice.screensh()
+
+getting screen shot
+
+> print(netservice.myip())
+
+Your IP
+
+> print(netservice.timeNow())
+
+> print(netservice.dateNow())
+
+Get Time And Date
+
+
+
+get Information from netservice
+
+> netservice.__author__
+
+> netservice.__website__
+
+> netservice.__version__

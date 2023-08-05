@@ -1,0 +1,10 @@
+README
+setup.cfg
+setup.py
+netservice/__init__.py
+netservice/netservice.py
+netservice.egg-info/PKG-INFO
+netservice.egg-info/SOURCES.txt
+netservice.egg-info/dependency_links.txt
+netservice.egg-info/requires.txt
+netservice.egg-info/top_level.txt
