@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: snakesay
+Version: 0.9.0
+Summary: speaking snake
+License: MIT
+Author: PythonAnywhere Developers
+Author-email: developers@pythonanywhere.com
+Requires-Python: >=3.7
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
