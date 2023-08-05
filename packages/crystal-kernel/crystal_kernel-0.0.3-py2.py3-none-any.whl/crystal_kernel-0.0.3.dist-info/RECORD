@@ -1,0 +1,10 @@
+crystal_kernel/__init__.py,sha256=A-Ga_orizMpt-PM3VuKUUpLcNi5CeoXnVGDyFwrT398,68
+crystal_kernel/__main__.py,sha256=QWdG6fzIdlfPAXMqJ7N7wQqtiLZ9wISlfGVGJZy-_TQ,135
+crystal_kernel/install.py,sha256=qX7EgnQUWRJwsvMm6kkWF73T8-Y3NCZk_fH338yBhFY,2181
+crystal_kernel/kernel.py,sha256=tEN6ZEeNg6SNjG2L6ms0e16YwsRkYS3oORdlNG_q_js,5246
+crystal_kernel/resources/__init__.py,sha256=zlzeBRQTth7LT9Ipnw2Qjpb5tAuJAeHKiGsjZo3kNJs,69
+crystal_kernel/resources/logo-32x32.png,sha256=RJiAbYT67PVkvb_Xc0HTqc7dHHoaLGov85p9P2XgJ4o,917
+crystal_kernel/resources/logo-64x64.png,sha256=fVTUtvBioOagc3HYNgs251G6TQ6DCIG-wT7YRuwZh_0,1937
+crystal_kernel-0.0.3.dist-info/WHEEL,sha256=96_DCfscDnVj9fVNwi1rfifiRwfpxLjwXWglVksjj_E,99
+crystal_kernel-0.0.3.dist-info/METADATA,sha256=YiYktwFfZbtnuEzQasOhQE7yDhFTOs5TLyBcrdpxqPo,1565
+crystal_kernel-0.0.3.dist-info/RECORD,,
