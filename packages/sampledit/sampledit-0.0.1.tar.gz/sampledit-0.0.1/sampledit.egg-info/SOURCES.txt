@@ -1,0 +1,9 @@
+LICENCE.txt
+README.txt
+setup.py
+sampledit/__init__.py
+sampledit.egg-info/PKG-INFO
+sampledit.egg-info/SOURCES.txt
+sampledit.egg-info/dependency_links.txt
+sampledit.egg-info/requires.txt
+sampledit.egg-info/top_level.txt
