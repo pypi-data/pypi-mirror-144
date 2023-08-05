@@ -1,0 +1,7 @@
+package_joey_pypi_demo/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+package_joey_pypi_demo/main.py,sha256=6geKnVubeGHn1Ss1aMDpWdlSAnFZ8u3xveMcqnh5l8E,427
+package_joey_pypi_demo-1.0.1.dist-info/LICENSE,sha256=ACwmltkrXIz5VsEQcrqljq-fat6ZXAMepjXGoe40KtE,1069
+package_joey_pypi_demo-1.0.1.dist-info/METADATA,sha256=MbJftFhgSIc9OuLMplZzpTVItpYDg9ZDGx8NUPzK3fU,978
+package_joey_pypi_demo-1.0.1.dist-info/WHEEL,sha256=z9j0xAa_JmUKMpmz72K0ZGALSM_n-wQVmGbleXx2VHg,110
+package_joey_pypi_demo-1.0.1.dist-info/top_level.txt,sha256=sEhz5OMJG_8_v8HX3UGvCsVvgpFooif6BeL5XyTclIg,23
+package_joey_pypi_demo-1.0.1.dist-info/RECORD,,
