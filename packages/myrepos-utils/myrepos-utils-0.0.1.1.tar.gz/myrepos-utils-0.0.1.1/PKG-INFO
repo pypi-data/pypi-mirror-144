@@ -1,0 +1,40 @@
+Metadata-Version: 2.1
+Name: myrepos-utils
+Version: 0.0.1.1
+Summary: Additional utilities for myrepos
+Home-page: https://git.sr.ht/~michel-slm/myrepos-utils
+Author: Michel Alexandre Salim
+Author-email: michel@michel-slm.name
+License: GPLv2+
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: Console
+Classifier: License :: OSI Approved :: GNU General Public License v2 or later (GPLv2+)
+Description-Content-Type: text/markdown
+Provides-Extra: dev
+Provides-Extra: release
+Provides-Extra: test
+License-File: COPYING.md
+
+# myrepos-utils
+
+## Usage
+
+Let's say you have the following repositories configured in `~/.mrconfig`:
+
+```
+[src/github/owner1/projA]
+...
+
+[src/github/owner2/projB]
+...
+```
+
+This will let you quickly switch to `~/src/github/owner1/projA`:
+```
+cd (mr-utils find github projA)
+```
+
+If there are multiple matches, they will be printed out.
+
+
