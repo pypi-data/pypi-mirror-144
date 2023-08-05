@@ -1,0 +1,14 @@
+uengineer/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+uengineer/dataset.py,sha256=7JxQs3rT2F-bFoZxdPBeEbyPksyLoClpNxmCibFXTjI,3134
+uengineer/modelpyfe3d.py,sha256=3HOZrpRF7JYeSY9LE9IVr1fSul_2QzAsHbgO-xSe-t8,14097
+uengineer/models.py,sha256=68-mvOOAWwDEASlv-7hD60lKb4Qb4upcRdh7aNRbEXQ,614
+uengineer/version.py,sha256=kUR5RAFc7HCeiqdlX36dZOHkUI5wI6V_43RpEcD8b-0,22
+uengineer-0.1.0.data/data/AUTHORS,sha256=agLhWr8yewuludIMbWgxDTm6u7VLmC_yqHtMtrAVw6I,98
+uengineer-0.1.0.data/data/LICENSE,sha256=IwPduSOYhpGjb8hCo4KFmZ9RVHi4mZ4LRx5eCeulQmI,1581
+uengineer-0.1.0.data/data/README.md,sha256=T6UVSYxt7pU7WYVBgBi_RNbXc4lF3sb1bhhQ11jRbec,620
+uengineer-0.1.0.dist-info/AUTHORS,sha256=agLhWr8yewuludIMbWgxDTm6u7VLmC_yqHtMtrAVw6I,98
+uengineer-0.1.0.dist-info/LICENSE,sha256=IwPduSOYhpGjb8hCo4KFmZ9RVHi4mZ4LRx5eCeulQmI,1581
+uengineer-0.1.0.dist-info/METADATA,sha256=xr9eRA3YbqYBsHwJrCCrtPfx4O0GQm4aCGq7aupJd4I,1866
+uengineer-0.1.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+uengineer-0.1.0.dist-info/top_level.txt,sha256=X6cbSq-i0rjYvX6A3E2jpeaZf4dBv5lY80oiloZomhw,10
+uengineer-0.1.0.dist-info/RECORD,,
