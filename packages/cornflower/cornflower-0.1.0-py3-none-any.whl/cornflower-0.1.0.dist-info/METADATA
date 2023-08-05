@@ -1,0 +1,88 @@
+Metadata-Version: 2.1
+Name: cornflower
+Version: 0.1.0
+Summary: Library for writting simple AMQP handlers with type hints and pydantic support
+Home-page: https://github.com/jakub-figat/cornflower
+License: MIT
+Author: jakub-figat
+Requires-Python: >=3.9,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: kombu (>=5.2.3,<6.0.0)
+Requires-Dist: pika (>=1.2.0,<2.0.0)
+Requires-Dist: pydantic (>=1.9.0,<2.0.0)
+Project-URL: Repository, https://github.com/jakub-figat/cornflower
+Description-Content-Type: text/markdown
+
+## Cornflower
+### Library for writing RabbitMQ message handlers with [pydantic](https://github.com/samuelcolvin/pydantic) validation.
+
+
+## Example use:
+
+
+Handler callback can accept zero or one argument of `pydantic.BaseModel` type. Message body will be validated automatically against specified schema.
+
+```python
+from cornflower import MessageQueue, OutputMessage, MessageDeliveryMode
+from pydantic import BaseModel
+
+
+class UserMessage(BaseModel):
+    username: str
+    message: str
+
+
+queue = MessageQueue(url="amqp://user:password@host:port")
+
+
+@queue.listen(routing_key="user.registered")
+def handle_user_register(message: UserMessage) -> None:
+    # do something with validated message
+    ...
+
+
+@queue.listen(routing_key="user.login")
+def handle_user_login() -> None:
+    # callback with no arguments, handle message without
+    # validating its body
+    
+    # sending message
+    user_message = UserMessage(username="example", message="this is example")
+    
+    queue.dispatch(
+        message=OutputMessage(
+            body=user_message.dict(),
+            routing_key="user.logout",
+            delivery_mode=MessageDeliveryMode.PERSISTENT,
+        )
+    )
+
+
+if __name__ == "__main__":
+    queue.run()
+```
+
+
+## Optional configuration
+
+```python
+from cornflower import MessageQueue
+from cornflower.options import QueueOptions, TransportOptions, ConsumerOptions
+
+queue = MessageQueue(
+    queue_options=QueueOptions(
+        durable=True,
+        exclusive=False,
+        auto_delete=False,
+    ),
+    consumer_options=ConsumerOptions(
+        prefetch_count=10
+    ),
+    transport_options=TransportOptions(
+        confirm_publish=True,
+    )
+)
+```
