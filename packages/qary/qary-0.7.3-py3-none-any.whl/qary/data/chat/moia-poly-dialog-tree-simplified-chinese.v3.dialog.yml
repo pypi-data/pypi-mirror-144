@@ -1,0 +1,183 @@
+# Simplified Chinese + English dialog tree
+-
+  id: select-language
+  level: 0
+  buttons:
+    __all__: |+
+      English
+      Spanish (Español)
+      Chinese - Simplified (简体中文)
+      Chinese - Traditional (繁體中文)
+#   User could not have selected zh (Chinese-simplified) yet, this is their first interaction, nonetheless:
+    zh: |+
+      English
+      Spanish (Español)
+      Chinese - Simplified (简体中文)
+      Chinese - Traditional (繁體中文)
+  triggers:
+    all:
+      English: selected-english
+      british: selected-english
+      us: selected-english
+      en: selected-english
+      american: selected-english
+
+      Spanish (Español): selected-spanish
+      Spanish: selected-spanish
+      mexican: selected-spanish
+      spain: selected-spanish
+      Español: selected-spanish
+
+      Chinese - Simplified (简体中文): selected-chinese-simplified
+      simplified chinese: selected-chinese-simplified
+      Chinese: selected-chinese-simplified
+      简体中文: selected-chinese-simplified
+      ch: selected-chinese-simplified
+      zh: selected-chinese-simplified
+
+      Chinese - Traditional (繁體中文): selected-chinese-traditional
+      traditional chinese: selected-chinese-simplified
+      繁體中文: selected-chinese-traditional
+-
+  id: selected-language-welcome
+  level: 1
+  actions:
+    en: |+
+      I'm part of the Let's Talk NYC team and I'm here to help you learn about our resources and services.
+
+      Before we start, can I ask you a few questions? Select "Yes" when ready
+    zh: |+
+      我是"我们聊聊"纽约市团队的一员，我来这里是为了帮助您了解我们的资源和服务。
+
+      在我们开始之前，我能问您几个问题吗？准备就绪后请选择“是”
+
+      > 是
+  buttons:
+    zh:
+      "是": is-this-your-first
+      "是是": is-this-your-first
+    en:
+      "yes": is-this-your-first
+  triggers:
+    zh:
+      "是": is-this-your-first
+    en:
+      "yes": is-this-your-first
+-
+  id: selected-english
+  level: 1
+  actions:
+    update_context:
+      lang: en
+  triggers:
+    timeout:
+      0: selected-language-welcome
+-
+  id: selected-chinese-simplified
+  level: 1
+  actions:
+    update_context:
+      lang: zh
+  triggers:
+    timeout:
+      0: selected-language-welcome
+-
+  id: selected-chinese-simplified
+  level: 1
+  actions:
+    update_context:
+      lang: zh
+  triggers:
+    timeout:
+      0: selected-language-welcome
+-
+  id: is-this-your-first-time
+  level: 2
+  en: Is this your first time talking to me?
+  zh: 这是您第一次和我说话吗？
+  triggers:
+    en:
+      "yes": is-this-your-first-yes
+      "no": is-this-your-first-no
+    zh:
+      "是": is-this-your-first-yes
+      "否": is-this-your-first-no
+-
+  id: is-this-your-first-yes
+  level: 3
+  en: |+
+    Which of the following do you represent?
+  zh: |+
+    欢迎来到我们网站！
+    您代表下列哪一个？
+  triggers:
+    zh:
+      WSNYC学生: wsnyc-students
+      WSNYC志愿者+教育工作者: wsnyc-volunteer
+      普通网站访问者: regular-website-visitor
+    en:
+      WSNYC Student: wsnyc-students
+      WSNYC Volunteer + Educator: wsnyc-volunteer
+      General Website Visitor: regular-website-visitor
+-
+  id: is-this-your-first-no
+  level: 3
+  zh: 您代表下列哪一个？
+  triggers:
+    zh:
+      WSNYC学生: wsnyc-students
+      WSNYC志愿者+教育工作者: wsnyc-volunteer
+      普通网站访问者: regular-website-visitor
+    en:
+      WSNYC students: wsnyc-students
+      WSNYC Volunteer + Educator: wsnyc-volunteer
+      regular website visitor: regular-website-visitor
+-
+  id: wsnyc-students
+  level: 4
+  en: ""
+-
+  id: wsnyc-volunteer
+  level: 4
+  en: ""
+-
+  id: regular-website-visitor
+  level: 4
+  zh: 有什么可以帮到您？
+  en: Can I help you?
+  triggers:
+    zh:
+      学习英语: learn-english
+      加入课程: signup-for-course
+      连接到我们的资源: connect-to-resource
+    en:
+      learning English: learn-english
+      join a course: signup-for-course
+      Connect to our resource: connect-to-resource
+-
+  id: learn-english
+  level: 5
+-
+  id: signup-for-course
+  level: 5
+-
+  id: connect-to-resource
+  level: 5
+  zh: 有很多资源提供给您。如果您没有看到您要查找的内容，请点击“向我显示更多选项”。
+  en: There are many resources available to you. If you don't see what you're looking for, click "Show me more options."
+  triggers:
+    zh:
+      新冠检测+疫苗资源: resource-crown-vaccine
+      仇恨犯罪+歧视资源: resource-hate-crime
+      我的孩子可用的学校资源: resource-school-child
+      工作培训: resource-job-training
+    en:
+      New crown detection + vaccine resources: resource-crown-vaccine
+      Hate Crime + Discrimination Resources: resource-hate-crime
+      School resources available to my child: resource-school-child
+      job training: resource-job-training
+-
+  id: resource-crown-vaccine
+  level: 6
+
+

@@ -1,0 +1,41 @@
+-
+  Q: "What can I do to improve my data storytelling for the Starbucks dataset of menu items?"
+  A: |+
+    A story , like a good movie, needs:
+    1. setup - build empathy for the protagonist as someone like the viewer/reader
+    2. some obstacles or villains enter the stage
+    3. exploring some engaging mystery or puzzle
+    4. some climax or epiphany where it all comes together at the end
+
+    The way that works for me is where I find one column in a table of data that contains a variable I would be interested in maximizing or minimizing if I knew some or all of the other variables in the table (or other pieces of information about the objects in the table).
+    Then I engineer a bunch of features and find some unexpected/surprising relationship between a feature and the target.
+    A Freakonomics episode (Levitt and Dubner) did this with Starbucks data once (I think). They found out how Starbucks was cleverly allowing customers to self-select for wealth and disposable income. The price was their target variable. And some of the input variables included the cost to produce the products on the menu (cost of ingredients like coffee beans). Turns out the raw ingredient costs were uncorrelated with the target. "
+-
+  Q: "What did you think of my final report for my Data Science bootcamp project?"
+  A: |+
+    I hope to see you at future SDML and SD Python User Group Meetings or maybe Portland Python Pirates.
+
+    ### Slack communities:
+    * proai.org/sdml-slack
+    * proai.org/sdpython-slack
+    * proai.org/tangibleai-slack  - Tangible AI interns & alumni
+
+    ### Remote Zoom meetups:
+    * proai.org/mob-twitch - Wed 5:30 pm "mob programming" - ucsd.zoom.us/my/hobsonlane
+    * proai.org/mob-zoom - Fri 11:00 am "mob programming" - ucsd.zoom.us/my/hobsonlane
+    * proai.org/sdml-meetup - Sat noon "ML book club"
+    * proai.org/sdml-meetup - Sat 1:30 pm kaggle & project discussion
+    * proai.org/sdpy - 3rd Thurs each month 7 pm - ucsd.zoom.us/my/hobsonlane
+    * proai.org/sdpy-meetup - Sat 10am "study group" - ucsd.zoom.us/my/purplediane
+-
+  Q: "What did you think of my final report for my Data Science bootcamp project?"
+  A: |+
+    Good presentation. Here are some improvement opportunities. These are things to think about for almost any Data Science or Machine Learning  presentation:
+    1. Don't display redundant information with color on any 2D plot or 3rd dim in 3D scatter plots
+    2. The color of markers in a scatterplot or the bars in a barplot or historgram is best used for categorical variables, espcially the target variable in a classification problem. It's called `hue` in matplotlib scatterplots.
+    3. Unscale (scaler.inverse_transform) any data you want to derive insights from, otherwise you will get confused about what it means in the real world.
+    4. Use points (tiny 1-pixel circles) for scatter plots with 1000s of points or more. Don't use pin icons on maps, unless you have a small dataset and your audience does not include data scientists. You can make your scatter plot points stand out if they are a bright color and the background map image is grayscale.
+    5. Look for oportunities to use the alpha argument or transparency feature in many plots, especially when they have overlapping markers or bars
+    6. Plot overlapping histograms on the same plot rather than pairs or tripplets of separate histogram plots
+    7. Analyze (think deeply) about individual plots to derive objective/accurate/correct/quantitative insights- discuss the coefficients of your best linear model or the decision boundaries of a decision tree for your best model that is "explainable"
+    8. Try to find data that contradicts what you expected to see in a plot - "listen" carefully  to what the data is trying to tell you and ignore any "domain knowledge" or expertise or experience you have in the real world with similar problems.
