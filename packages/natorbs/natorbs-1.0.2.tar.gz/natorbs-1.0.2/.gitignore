@@ -1,0 +1,7 @@
+MANIFEST
+dist
+build
+*.pyc
+natorbs.egg-info
+.python-version
+natorbs/_version.py

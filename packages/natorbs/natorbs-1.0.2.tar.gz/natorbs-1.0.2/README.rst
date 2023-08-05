@@ -1,0 +1,95 @@
+Natorbs computes natural orbitals and natural spin-density orbitals
+based  on canonical unrestricted (UHF-type) orbitals resulting from HF
+or DFT calculations. It can also compute natural orbitals for chemical
+valence (NOCVs) based on the orbitals of a molecule and its
+constituing  fragments.
+
+The program was created in response to the demand in the course of our
+own studies on the electronic structure of open-shell systems,
+especially transition-metal complexes.  By generating natural/spin
+orbitals one can immediately identify the orbitals carrying unpaired
+electrons among, possibly, hundreds of orbitals, most of which are
+empty or describe closed shells. Such a diagnosis tool is particularly
+valuable for complicated electronic structure (broken-symmetry
+solutions / antiferromagnetic coupling / biradicals and
+multiradicals).  It could be useful, however, to facilitate
+interpretation of any open-shell UHF-type calculations.
+
+Natorbs is designed as post-processing tool for the results of
+quantum-chemical (QC) calculations. It was with the aim of being
+independent on any particular QC package and indeed could be used with
+many  of them. Natorbs reads the input data (geometry and MOs) either
+using the cclib (http://cclib.sourceforge.net) library or via
+Molden format (http://www.cmbi.ru.nl/molden).  Natorbs saves the output
+orbitals (the desired flavour of natural orbitals) in Molden format, so
+that they can be visualized with programs like Molden or Gabedit.
+
+Note that the distinguising feature of Natorbs, that makes it
+independent of any partcular QC package, is that it reconstructs the
+overlap integrals of the atomic basis functions from the provided
+molecular orbitals (LCAO coefficients). The obtained overlap integrals
+are exact if all the virtuals are provided as input data or
+approximate otherwise.
+
+License
+-------
+Program Natorbs is made available free of charge under the terms of
+the terms of the 3-clause BSD license.
+Copyright 2021 Uniwersytet Jagielloński, Dr hab. Mariusz Radoń.
+For details, see attached file LICENSE.txt .
+
+
+Documentation
+---------------
+To get help and the list of options::
+
+    natorbs --help
+
+There is also a man page. To use it, make sure that
+``(prefix)/share/man`` is included in yout ``MANPATH``.
+This README file and the LICENSE file are provided in
+``(prefix)/share/doc``.
+
+Recommended Citation
+--------------------
+- Mariusz Radoń, *Natorbs v1.0.2*, Jagiellonian University, Krakow,
+  Poland, 2021; available from https://tungsten.ch.uj.edu.pl/~mradon/natorbs
+
+Further Information
+-------------------
+Definitions of natural/natural-spin orbitals can be found in
+quantum-chemistry literature. Basically, they are defined as
+eigenvectors of one-particle density or spin-density matrix,
+respectively.
+
+The connection between spin-unrestricted orbitals and
+natural orbitals is explained in the seminal paper:
+
+- A. Amos and G. Hall, *Proc. Roy. Soc. A*, **1961**, *263*, 483,
+  doi: 10.1098/rspa.1961.0175
+
+For description of the NOCV method see the following paper:
+
+- M. Mitoraj and A. Michalak, *J. Mol. Model.*, **2007**, *13*, 347,
+  doi: 10.1007/s00894-006-0149-4
+
+The pairing property of NOCVs:
+
+- M. Radon *Theor. Chem. Acc.*, **2008**, *120*, 337, doi:
+  10.1007/s00214-008-0428-5
+
+Papers mentioning applications of programs Natorbs, mainly the NOCV
+stuff, can be found in the following papers:
+
+- M. Radon, E. Broclawik, *J. Chem. Theory Comput.*, **2007**, *3*,
+  728-734, doi 10.1021/ct600363a
+- M. Radon, P. Kozyra, A. Stepniewski, J. Datka, E. Broclawik,
+  *Can. J. Chem.*, **2013**, *91*, 538-543,
+  doi: 10.1139/cjc-2012-0536
+- P. Kozyra, M. Radon, J. Datka E. Broclawik *Struct. Chem.*, **2012**, *23*,
+  1349-1356, doi: 10.1007/s11224-012-0050-y
+- K. Gora-Marek, A. Stepniewski, M. Radon, E. Broclawik,
+  *Phys. Chem. Chem. Phys.*, **2014**, *16*, 24089-24098,
+  doi: 10.1039/C4CP03350G
+- E. Broclawik, A. Stepniewski, M. Radon, *J. Inorg. Biochem.*, **2014**,
+  *136*, 147-153, doi 10.1016/j.jinorgbio.2014.01.010

@@ -1,0 +1,8 @@
+include README.rst LICENSE.txt
+include natorbs/*.py
+include scripts/natorbs
+include doc/natorbs.1
+prune testing
+prune examples
+prune doc/presentations
+prune requirements.txt

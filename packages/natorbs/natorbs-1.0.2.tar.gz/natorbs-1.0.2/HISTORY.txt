@@ -1,0 +1,43 @@
+March 2022
+v1.0.2
+- minor bug fixing
+- fixes to avoid warning messages for newer numpy
+- changes in the build system, versioning
+- updated README
+
+v1.0.1
+- adaptations needed for pypi, otherwise v1.0
+
+March 2021
+v1.0
+- enhancements and stability improvements
+- new features (still not yet fully tested/documented): 
+  Mulliken atomic shares, overlaps between two sets of MOs,
+  overlaps between natorbs and original MOs 
+  (identify the MO having maximum overlap with a given natorb)
+- works with Crystal orbitals, --rebase-coeffs
+- ported to Python3 
+- use argparse
+- BSD 3-clause license
+
+May 2016
+v0.4
+-- good working support for cclib, test with g09 outputs
+-- support for gzip-compressed files
+-- numerous bug fixes
+
+21 May 2010
+v0.3.0pre2
+- Preliminary NOCV (for few revs already there)
+- Added Differential Density Orbitals (DDO)
+
+08 Sep 2007
+v0.2.0
+NEWS in this version:
+ - significant code reorganization
+ - improved installation facility
+ - (partially) integrated with cclib
+ - slightly changed LICENSE agreement
+
+16 Jul 2007 --- Initial realease v0.1.0
+
