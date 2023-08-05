@@ -1,0 +1,2 @@
+lyberry_api>=0.1.2
+dmenu

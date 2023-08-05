@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.cfg
+src/lyberry_dmenu/__init__.py
+src/lyberry_dmenu/__main__.py
+src/lyberry_dmenu/lyberrydmenu.py
+src/lyberry_dmenu.egg-info/PKG-INFO
+src/lyberry_dmenu.egg-info/SOURCES.txt
+src/lyberry_dmenu.egg-info/dependency_links.txt
+src/lyberry_dmenu.egg-info/entry_points.txt
+src/lyberry_dmenu.egg-info/requires.txt
+src/lyberry_dmenu.egg-info/top_level.txt
