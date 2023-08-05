@@ -1,0 +1,147 @@
+Metadata-Version: 2.1
+Name: BinaryLens
+Version: 0.0.1
+Summary: Gravitational Lensing by Binary Star
+Home-page: https://github.com/tt-nakamura/GLBS
+Author: Takahiro Nakamura
+Author-email: a41757@gmail.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/tt-nakamura/GLBS/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# BinaryLens: Gravitational Lensing by Binary Star
+```
+BinaryLens(q, d, phi=0):
+  q = binary mass ratio m1/m2
+  d = binary separation / Einstein radius rE
+      rE = (4GM/c^2 d_L(d_S-d_L)/d_L)^{1/2}
+      d_L,d_S = distances to lens and source
+  phi = angle between x-axis and binary axis / radian
+  return BinaryLens-Object
+-------------------------------------------------------------
+methods in BinaryLens-Object:
+
+map(z):
+  mapping from lens plane to source plane
+  z = point on lens plane (complex number)
+  return w = point on source plane (complex number)
+  ray from w through z is deflected to observer
+
+det_invmap(z):
+  magnification factor of image at z
+  (including sign of image parity)
+  z = point on lens plane (complex number)
+  return det(jacobian of inverse lens mapping)
+
+crit(N=100):
+  critical curve on lens plane
+  return z = points on lens plane (complex number)
+             at which magnification diverge
+  z.shape = (N,4)
+
+caustic(N=100):
+  critical curve on source plane
+  return w = points on source plane (complex number)
+             at which magnification diverge
+  w.shape = (N,4)
+
+image(w):
+  inverse of lens mapping
+  w = source position (complex number)
+  assume w is scalar or 1d-array
+  return z = image position (complex number)
+  if w is scalar, z.shape = (number of images,)
+  if w is 1d-array, z.shape = (len(w), 5)
+    if the number of images is less than 5,
+    z is padded with nan in shape (len(w),5)
+
+mag(w, r=0, atol=1e-3, rtol=1e-3):
+  magnification factor of source at w
+  w = source position (complex number)
+  r = source radius of disk shape
+  return mu = magnification factor
+    (sum of |det_invmap| over all images)
+  if r>0, mu is averaged over finite source size
+    assuming uniform brightness over disk
+  atol = tolerance for absolute error in averaging
+  rtol = tolerance for relative error in averaging
+    atol and rtol are used only if r>0
+  w is vectorized so that mu.shape = w.shape
+  (w can be array of any shape)
+-------------------------------------------------------------
+reference:
+  P. Schneider, J. Ehlers and E. E. Falco
+    "Gravitational Lenses" section 8.3
+```
+# example code:
+```
+import numpy as np
+import matplotlib.pyplot as plt
+from BinaryLens import BinaryLens
+
+q,d = 0.5, 0.7
+w0,r1,r2 = 0.1, 0.1, 0.05
+N = 400
+w1 = w0 + r1*np.exp(1j*np.linspace(0, 2*np.pi, N))
+w2 = w0 + r2*np.exp(1j*np.linspace(0, 2*np.pi, N))
+
+b = BinaryLens(q,d)
+
+zc = b.crit()
+wc = b.map(zc)
+z1 = b.image(w1)
+z2 = b.image(w2)
+
+plt.figure(figsize=(8,4))
+
+plt.subplot(1,2,1)
+plt.axis('equal')
+plt.axis([-1.5,1.5,-1.5,1.5])
+plt.plot(np.real(wc), np.imag(wc), 'k:')
+plt.plot(np.real(w1), np.imag(w1), 'r')
+plt.plot(np.real(w2), np.imag(w2), 'b')
+plt.title('source plane')
+
+plt.subplot(1,2,2)
+plt.axis('equal')
+plt.axis([-1.5,1.5,-1.5,1.5])
+plt.plot(np.real(zc), np.imag(zc), 'k:')
+plt.plot(np.real(z1), np.imag(z1), 'r')
+plt.plot(np.real(z2), np.imag(z2), 'b')
+plt.plot(np.real(b.z), np.imag(b.z), '+')
+plt.title('lens plane')
+
+plt.show()
+```
+# example code:
+```
+import numpy as np
+import matplotlib.pyplot as plt
+from BinaryLens import BinaryLens
+
+q,d = 0.789, 1.213
+u0 = 0.35
+phi = (133.66 + 90)/180*np.pi
+x1,x2,y1,y2 = -1,1,-1,1
+
+b = BinaryLens(q,d)
+
+x,y = np.meshgrid(np.r_[x1:x2:128j], np.r_[y1:y2:128j])
+w = x + 1j*y
+m = b.mag(w)
+plt.imshow(np.log(m), cmap='gray', extent=(x1,x2,y1,y2))
+
+w = (u0 + 1j*np.linspace(-1.4, 1.4, 2))*np.exp(1j*phi)
+plt.plot(np.real(w), np.imag(w), 'w', lw=0.5)
+
+plt.axis([x1,x2,y1,y2])
+plt.title('OGLE-2003BLG170')
+plt.show()
+```
+
