@@ -1,0 +1,9 @@
+README.md
+setup.py
+teachable-machine-lite/__init__.py
+teachable-machine-lite/teachable_machine_lite.py
+teachable_machine_lite.egg-info/PKG-INFO
+teachable_machine_lite.egg-info/SOURCES.txt
+teachable_machine_lite.egg-info/dependency_links.txt
+teachable_machine_lite.egg-info/requires.txt
+teachable_machine_lite.egg-info/top_level.txt
