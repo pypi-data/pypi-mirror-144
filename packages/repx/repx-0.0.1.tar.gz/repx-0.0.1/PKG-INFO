@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: repx
+Version: 0.0.1
+Summary: Search and replace in files with regular expressions
+Home-page: https://github.com/malthejorgensen/repx
+License: BSD-2-Clause
+Author: Malthe Jørgensen
+Author-email: malthe.jorgensen@gmail.com
+Requires-Python: >=3.7,<4.0
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: System Administrators
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Text Processing
+Project-URL: Repository, https://github.com/malthejorgensen/repx
