@@ -1,0 +1,9 @@
+README.md
+pyproject.toml
+setup.py
+src/FEWS.egg-info/PKG-INFO
+src/FEWS.egg-info/SOURCES.txt
+src/FEWS.egg-info/dependency_links.txt
+src/FEWS.egg-info/top_level.txt
+src/svdd/__init__.py
+src/svdd/svdd.py
