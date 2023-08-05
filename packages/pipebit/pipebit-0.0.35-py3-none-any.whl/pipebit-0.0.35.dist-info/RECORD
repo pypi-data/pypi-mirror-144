@@ -1,0 +1,9 @@
+pipebit/__init__.py,sha256=wOb5MHVjl1WbHpf960Ue1H2edciSL-HYXvUxHMMvLT8,257
+pipebit/initial_config.py,sha256=3fC4x0yQgBxwDk-QcCz3YqxaCFoeIrzZQAo6eQoVMVw,3429
+pipebit/safereceiver.py,sha256=YNmwsEOPaTboZyxhilkjUqZx2VRqkL-s5PFVwaIL94M,4556
+pipebit/safesender.py,sha256=4MJ6Z5vMdOmjW6KIj9Ke2X9qExWO1ixMAMTdE6k7P1I,2596
+pipebit-0.0.35.dist-info/LICENSE,sha256=JoTeFzAOCkNGhvHsf4r2BFIHpLRXo_4EsrnOZV58XVA,17098
+pipebit-0.0.35.dist-info/METADATA,sha256=bqEXXRauht_ViHyxBmdBl2yPePVPpLEKYQ2sx7ilT0U,641
+pipebit-0.0.35.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+pipebit-0.0.35.dist-info/top_level.txt,sha256=RWIFv_ItOqmDaUTeQMJLj3nQrVAxmmVX_8oatdgBmGw,8
+pipebit-0.0.35.dist-info/RECORD,,
