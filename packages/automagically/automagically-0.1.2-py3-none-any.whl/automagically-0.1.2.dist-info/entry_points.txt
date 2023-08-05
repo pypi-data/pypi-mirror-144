@@ -1,0 +1,3 @@
+[console_scripts]
+automagically=automagically.cli:main
+
