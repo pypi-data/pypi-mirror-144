@@ -1,0 +1,6 @@
+Changelog
+---------
+
+0.0.1 - Made vbspython but it doesnt work
+0.0.2 - Made it work
+0.0.7 - Made a press keys will press any keys of choice. A sleep that will make the .vbs file sleep. And a presskey that will press a special key leave empty for a list of keys.
