@@ -1,0 +1,2 @@
+trzsz-libs==1.0.0
+trzsz-svr==1.0.0
