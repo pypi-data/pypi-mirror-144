@@ -1,0 +1,3 @@
+[flake8.extension]
+PLY80 = play_8:Plugin
+

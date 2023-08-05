@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: play_8
+Version: 0.10.0
+Summary: an extension to flake8 to help with Playwright-specific needs
+Home-page: https://github.com/sophie-arsenault/play_8
+Author: Sophie Arsenault
+Author-email: sophie@sophiecodes.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Framework :: Flake8
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Software Development :: Quality Assurance
+License-File: LICENSE
+
+UNKNOWN
+
