@@ -1,0 +1,7 @@
+LICENSE
+README.md
+setup.py
+textscrub.egg-info/PKG-INFO
+textscrub.egg-info/SOURCES.txt
+textscrub.egg-info/dependency_links.txt
+textscrub.egg-info/top_level.txt
