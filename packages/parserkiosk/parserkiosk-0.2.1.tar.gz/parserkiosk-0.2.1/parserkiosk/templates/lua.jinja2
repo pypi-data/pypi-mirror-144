@@ -1,0 +1,23 @@
+{{ import_string }}
+lu = require('luaunit')
+
+{% for t_name, t in tests.items() %}
+function {{ t_name }}()
+   -- {{ t.info }}
+   {%- if t.input.type == "file" %}
+   local f = io.open('{{t.input.arg}}', 'r')
+   local data = file:read "*a"
+   f:close()
+   {%- elif t.input.type == "raw" %}
+   local data = {{ t.input.arg }}
+   {%- elif t.input.type == "str" %}
+   local data = '{{t.input.arg}}' 
+   {%- endif %}
+   {% if t.assert.func != "fail" -%}
+   local serialized_data = {{func}}(data)
+   lu.assertTrue({{ t.assert.func }}(serialized_data, {{ t.assert.arg }}))
+   {% else -%}
+   lu.assertError({{ func }}, data)
+   {% endif %}
+end
+{% endfor %}
