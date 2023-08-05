@@ -1,0 +1,11 @@
+name: ndcsv
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - pytest
+  - coverage
+  - numpy
+  - pandas
+  - pshell
+  - xarray

@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: ndcsv
+Version: 1.1.0
+Summary: Store N-dimensional labelled arrays from xarray or pandas into human-readable CSV
+Home-page: https://github.com/crusaderky/ndcsv
+Author: Guido Imperiale
+Author-email: crusaderky@gmail.com
+License: Apache
+Keywords: CSV,pandas,xarray
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Scientific/Engineering
+Classifier: Intended Audience :: Science/Research
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Requires-Python: >=3.8
+License-File: LICENSE
+
+UNKNOWN
+
