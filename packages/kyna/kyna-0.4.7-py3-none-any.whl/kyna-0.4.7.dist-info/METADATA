@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: kyna
+Version: 0.4.7
+Summary: A 
+Home-page: https://github.com/alannxq/kyna
+Download-URL: https://github.com/alannxq/kyna/archive/refs/tags/0.4.tar.gz
+Author: Alan Koterba
+Author-email: alankoterba12321@gmail.com
+License: MIT
+Keywords: LOL,JSON,DB
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+
+UNKNOWN
+
