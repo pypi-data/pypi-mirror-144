@@ -1,0 +1,16 @@
+httpx>=0.21.3
+jsonloader>=0.8.1
+typeguard>=2.13.3
+asyncstdlib>=3.10.3
+more_itertools>=8.12.0
+
+[dev]
+pytest>=7.0.1
+mypy>=0.931
+coverage>=6.3
+build>=0.7.0
+flake8>=4.0.1
+twine>=3.8.0
+sphinx>=4.4.0
+ipython
+ipdb
