@@ -1,0 +1,173 @@
+six
+
+[all]
+six
+codecov
+scikit-build
+cmake
+ninja
+pybind11
+
+[all:platform_system == "Windows"]
+colorama
+
+[all:python_version < "2.8.0" and python_version >= "2.7.0"]
+pytest
+pytest-cov
+
+[all:python_version < "3.10.0" and python_version >= "3.7.0"]
+pytest
+
+[all:python_version < "3.5.0" and python_version >= "2.7.0"]
+Pygments
+
+[all:python_version < "3.5.0" and python_version >= "3.4.0"]
+pytest
+pytest-cov
+
+[all:python_version < "3.6.0" and python_version >= "3.5.0"]
+pytest
+pytest-cov
+
+[all:python_version < "3.6.1" and python_version >= "3.6"]
+jupyter_client
+
+[all:python_version < "3.7" and python_version >= "3.6"]
+IPython
+ipykernel
+
+[all:python_version < "3.7.0" and python_version >= "3.6.0"]
+pytest
+
+[all:python_version <= "3.4"]
+typing
+
+[all:python_version >= "3.10.0"]
+pytest
+
+[all:python_version >= "3.5.0"]
+Pygments
+
+[all:python_version >= "3.6"]
+debugpy
+jedi
+jinja2
+attrs
+jupyter_core
+
+[all:python_version >= "3.6.0"]
+pytest-cov
+nbconvert
+
+[all:python_version >= "3.6.1"]
+jupyter_client
+
+[all:python_version >= "3.7"]
+IPython
+ipykernel
+
+[colors]
+
+[colors:platform_system == "Windows"]
+colorama
+
+[colors:python_version < "3.5.0" and python_version >= "2.7.0"]
+Pygments
+
+[colors:python_version >= "3.5.0"]
+Pygments
+
+[jupyter]
+
+[jupyter:python_version < "3.6.1" and python_version >= "3.6"]
+jupyter_client
+
+[jupyter:python_version < "3.7" and python_version >= "3.6"]
+IPython
+ipykernel
+
+[jupyter:python_version >= "3.6"]
+debugpy
+jedi
+jinja2
+attrs
+jupyter_core
+
+[jupyter:python_version >= "3.6.0"]
+nbconvert
+
+[jupyter:python_version >= "3.6.1"]
+jupyter_client
+
+[jupyter:python_version >= "3.7"]
+IPython
+ipykernel
+
+[optional]
+
+[optional:platform_system == "Windows"]
+colorama
+
+[optional:python_version < "3.5.0" and python_version >= "2.7.0"]
+Pygments
+
+[optional:python_version < "3.6.1" and python_version >= "3.6"]
+jupyter_client
+
+[optional:python_version < "3.7" and python_version >= "3.6"]
+IPython
+ipykernel
+
+[optional:python_version >= "3.5.0"]
+Pygments
+
+[optional:python_version >= "3.6"]
+debugpy
+jedi
+jinja2
+attrs
+jupyter_core
+
+[optional:python_version >= "3.6.0"]
+nbconvert
+
+[optional:python_version >= "3.6.1"]
+jupyter_client
+
+[optional:python_version >= "3.7"]
+IPython
+ipykernel
+
+[tests]
+codecov
+scikit-build
+cmake
+ninja
+pybind11
+
+[tests:python_version < "2.8.0" and python_version >= "2.7.0"]
+pytest
+pytest-cov
+
+[tests:python_version < "3.10.0" and python_version >= "3.7.0"]
+pytest
+
+[tests:python_version < "3.5.0" and python_version >= "3.4.0"]
+pytest
+pytest-cov
+
+[tests:python_version < "3.6.0" and python_version >= "3.5.0"]
+pytest
+pytest-cov
+
+[tests:python_version < "3.7.0" and python_version >= "3.6.0"]
+pytest
+
+[tests:python_version <= "3.4"]
+typing
+
+[tests:python_version >= "3.10.0"]
+pytest
+
+[tests:python_version >= "3.6.0"]
+pytest-cov
