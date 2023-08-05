@@ -1,0 +1,10 @@
+
+[examples]
+gym
+pygame
+
+[tests]
+flake8
+isort
+black
+pytest
