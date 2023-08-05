@@ -1,0 +1,81 @@
+Metadata-Version: 2.1
+Name: pantsbuild.pants
+Version: 2.12.0.dev0
+Summary: The ergonomic and hermetic software build system for Python, Java, Scala, Go, and Shell. Pants lets you fearlessly scale up your codebase.
+Home-page: https://github.com/pantsbuild/pants
+License: Apache License, Version 2.0
+Project-URL: Documentation, https://www.pantsbuild.org/
+Project-URL: Source, https://github.com/pantsbuild/pants
+Project-URL: Tracker, https://github.com/pantsbuild/pants/issues
+Project-URL: Changelog, https://www.pantsbuild.org/docs/changelog
+Project-URL: Twitter, https://twitter.com/pantsbuild
+Project-URL: Slack, https://pantsbuild.slack.com/join/shared_invite/zt-d0uh0mok-RLvVosDiX6JDpvStH~bFBA#/shared-invite/email
+Project-URL: YouTube, https://www.youtube.com/channel/UCCcfCbDqtqlCkFEuENsHlbQ
+Project-URL: Mailing lists, https://groups.google.com/g/pants-devel
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python
+Classifier: Topic :: Software Development :: Build Tools
+Description-Content-Type: text/markdown
+Requires-Dist: PyYAML (<7.0,>=6.0)
+Requires-Dist: ansicolors (==1.1.8)
+Requires-Dist: fasteners (==0.16.3)
+Requires-Dist: humbug (==0.2.7)
+Requires-Dist: ijson (==3.1.4)
+Requires-Dist: packaging (==21.3)
+Requires-Dist: pex (==2.1.73)
+Requires-Dist: psutil (==5.9.0)
+Requires-Dist: python-lsp-jsonrpc (==1.0.0)
+Requires-Dist: setproctitle (==1.2.2)
+Requires-Dist: setuptools (<58.0,>=56.0.0)
+Requires-Dist: toml (==0.10.2)
+Requires-Dist: types-PyYAML (==6.0.3)
+Requires-Dist: types-setuptools (==57.4.7)
+Requires-Dist: types-toml (==0.10.3)
+Requires-Dist: typing-extensions (==4.0.1)
+
+Pants is an Apache2 licensed build tool written in Python and Rust.
+
+The latest documentation can be found at [pantsbuild.org](https://www.pantsbuild.org/).
+
+
+# 2.12.x Release Series
+
+---------------------------------------------------------------------
+
+## 2.12.0.dev0 (Mar 25, 2022)
+
+### New Features
+
+* Add Protobuf formatting using buf format ([#14907](https://github.com/pantsbuild/pants/pull/14907))
+
+* add registration for the Go Protobuf backend ([#14874](https://github.com/pantsbuild/pants/pull/14874))
+
+### User API Changes
+
+* Remove `--use-deprecated-python-macros` in favor of always using target generators ([#14842](https://github.com/pantsbuild/pants/pull/14842))
+
+* Add `django-dotenv`, `django-safedelete` and `factory-boy` to default Python module mapping ([#14848](https://github.com/pantsbuild/pants/pull/14848))
+
+* Add cattrs to Python's DEFAULT_MODULE_MAPPING ([#14845](https://github.com/pantsbuild/pants/pull/14845))
+
+* hcl parser 3.0.5 ([#14878](https://github.com/pantsbuild/pants/pull/14878))
+
+### Plugin API Changes
+
+* FmtResult now operates on Snapshots ([#14865](https://github.com/pantsbuild/pants/pull/14865))
+
+### Bug fixes
+
+* add cache key for all Go SDK invocations ([#14897](https://github.com/pantsbuild/pants/pull/14897))
+
+* Unify glob-matching implementations to fix malformed snapshot created by subsetting ([#14889](https://github.com/pantsbuild/pants/pull/14889))
+
+* Adds `ClasspathEntryRequest` classification for codegen target generators ([#14893](https://github.com/pantsbuild/pants/pull/14893))
+
+* Adds `jvm_jdk` field to protobufs when the Scala backend is enabled ([#14891](https://github.com/pantsbuild/pants/pull/14891))
+
+
