@@ -1,0 +1,11 @@
+composipy/__init__.py,sha256=6coPAD36-qcogbgEZTMMY1qk0oo22BZ2oOWfFyzMMK4,213
+composipy/_version.py,sha256=EjMNBdjK5FrKKt8zHyCtxSgQ6Q6PpZMHAJ99CDm3Kmk,17
+composipy/laminate_class.py,sha256=mjTkq611vCG7MkO5ummE28gdP915tw6EzdOv_uD5XgQ,8074
+composipy/load_class.py,sha256=IfGCJzVbx4blA78FP6pMA0NLx6F7PPg_zR7hXbcTJhA,3631
+composipy/ply_class.py,sha256=PhcpnHXrZwNguLRm4CKiAX3cnPwJejY54422btr8m7w,6189
+composipy/strength_class.py,sha256=5SiIWWcP3oARCkYPJHb3mqolmqBk6OeP_jlXkwZEVbA,9609
+composipy-0.3.1.dist-info/LICENSE,sha256=zsnAPo7kNJB1fY7AKyabEgMLXtLjCoU3_TclCKH-uIc,1092
+composipy-0.3.1.dist-info/METADATA,sha256=EnYwF1VUDallr2je6UcSTvi4O-_XsIRVz015A7kfkzo,1875
+composipy-0.3.1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+composipy-0.3.1.dist-info/top_level.txt,sha256=Alu9kwIbTTcksz03MQwjgwkdycOLhqtKwOv0_Ra-KFg,10
+composipy-0.3.1.dist-info/RECORD,,
