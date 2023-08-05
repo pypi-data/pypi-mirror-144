@@ -1,0 +1,6 @@
+[
+  "test.py::test_gensim_custom",
+  "test.py::test_gensim_default",
+  "test.py::test_individual_transformer",
+  "test.py::test_spacy_embeddings"
+]
