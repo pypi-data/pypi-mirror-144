@@ -1,0 +1,9 @@
+matplotlib
+wplotlib
+sklearn
+shap
+numpy==1.22.1
+ipython
+pandas
+xgboost
+torch
