@@ -1,0 +1,24 @@
+version: 2
+
+# bottlneck does not install with python 3.10
+build:
+  os: ubuntu-20.04
+  apt_packages:
+    - graphviz
+  tools:
+    python: "3.9"
+
+sphinx:
+  builder: html
+  configuration: docs/conf.py
+  fail_on_warning: true
+
+python:
+  install:
+    - method: pip
+      path: .
+      extra_requirements:
+        - docs
+        - all
+
+formats: []
