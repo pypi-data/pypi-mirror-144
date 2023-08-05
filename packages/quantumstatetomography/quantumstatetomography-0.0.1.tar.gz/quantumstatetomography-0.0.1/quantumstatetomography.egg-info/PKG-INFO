@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: quantumstatetomography
+Version: 0.0.1
+Summary: A python package used to perform quantum state tomography.
+Home-page: UNKNOWN
+Author: Lana Bozanic
+Author-email: lbozanic@uottawa.ca
+License: UNKNOWN
+Description: # Quantum State Tomography
+        This is a simple library is dedicated to performing tomography on an arbitrary amount of qubits / qudits. It uses the Maximum Likelihood Technique as described in [J.B. Altepeter et al.](http://research.physics.illinois.edu/QI/Photonics/tomography-files/tomo_chapter_2004.pdf) to approximate the density matrix of a given quantum state. It is able to perform QST on an arbitary amount of qubits and qudits. Please note that although it can perform these computations the approximation of quantum states gets worse as the amount of qubits / qudits scales.
+        
+        
+        # Usage
+        
+        
+        
+        
+Keywords: python
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
