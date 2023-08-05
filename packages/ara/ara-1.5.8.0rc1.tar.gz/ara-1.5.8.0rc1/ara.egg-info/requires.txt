@@ -1,0 +1,30 @@
+pbr!=2.1.0,>=2.0.0
+cliff
+requests>=2.14.2
+
+[postgresql]
+psycopg2<2.9
+
+[server]
+Django<3.0,>=2.1.5
+djangorestframework>=3.9.1
+django-cors-headers
+django-filter
+django-health-check
+tzlocal<3.0
+whitenoise
+pygments
+
+[server:python_version < "3.6"]
+dynaconf[yaml]<3.0.0
+
+[server:python_version >= "3.6"]
+dynaconf[yaml]!=3.1.3,<4.0.0,>=3.0.0
+
+[test]
+factory-boy
+bandit>=1.1.0
+coverage
+flake8
+black==19.3b0
+isort
