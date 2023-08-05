@@ -1,0 +1,17 @@
+constants:
+  type_chars:
+    symlink: l
+    dir: d
+    file: "[dim]-[/]"
+    fifo: p
+    socket: s
+    char_device: c
+    block_device: b
+    unknown: "[dim red]?[/]"
+  type_suffixes:
+    symlink: "@"
+    dir: "/"
+    socket: "="
+    fifo: "|"
+    unknown: "[dim red]?[/]"
+    broken: "⚠"
