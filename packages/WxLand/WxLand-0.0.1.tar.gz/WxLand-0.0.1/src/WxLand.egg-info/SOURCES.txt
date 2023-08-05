@@ -1,0 +1,11 @@
+README.md
+setup.py
+src/WxL/WxCore.py
+src/WxL/WxWidgets.py
+src/WxL/__init__.py
+src/WxLand.egg-info/PKG-INFO
+src/WxLand.egg-info/SOURCES.txt
+src/WxLand.egg-info/dependency_links.txt
+src/WxLand.egg-info/entry_points.txt
+src/WxLand.egg-info/requires.txt
+src/WxLand.egg-info/top_level.txt
