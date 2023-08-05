@@ -1,0 +1,27 @@
+black
+cryptography>=3.1
+grpcio
+grpcio-tools
+isort
+jinja2
+jsonschema
+lxml>=4.4.0
+xmlschema
+zeroconf
+
+[:python_version < "3.8"]
+importlib-metadata
+
+[dev]
+pytest
+pytest-cov
+pyproject-flake8
+
+[docs]
+sphinx
+sphinxcontrib-napoleon
+sphinxcontrib-runcmd
+
+[test]
+pytest
+pytest-cov
