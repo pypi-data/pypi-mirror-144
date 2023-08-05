@@ -1,0 +1,16 @@
+dbt/adapters/impala/__init__.py,sha256=IfG3Sm2P2Q-LUwfBgwCCe10gpdufJRasURI3uVRg0fQ,1069
+dbt/adapters/impala/__version__.py,sha256=L_KxUrtNrsjA1JOeqJINtip7mT7cIG6JtbLhI7wbo4Y,585
+dbt/adapters/impala/column.py,sha256=QqYGbpvk5HLqb8U97udE-D-zl0jr2YkAJyj09rm6Fnc,2840
+dbt/adapters/impala/connections.py,sha256=dOmzKZvwf_fkzojlNqR51n-kPHkI966FH0efXUHU9_I,5791
+dbt/adapters/impala/impl.py,sha256=bW_ihdCJrvGS46WDlE_b78le-iS3WfZdcN6TwYBIWgw,8564
+dbt/adapters/impala/relation.py,sha256=38h9iCOcGtxT9TQJYCS5ydp_6Yj5690_U86oS4E3UD0,1295
+dbt/include/impala/__init__.py,sha256=ITuXY4-j508al2JGVbsvBEFj4ZklrJXxJ_rwj70JdvY,629
+dbt/include/impala/dbt_project.yml,sha256=WMnba3kcDujAO2Q3RJuEHMR3UM9nwXIvSsuK3AwbiKM,651
+dbt/include/impala/sample_profiles.yml,sha256=TbVq-bapS_ZOPARH7PTtpadrVlo5IZOCpyzzr2i2-wI,779
+dbt/include/impala/macros/adapters.sql,sha256=EbKpZSKOtyxvKUMBfoeqmEfCh8gv3oIpavX8tUmqJ5w,13121
+dbt/include/impala/macros/catalog.sql,sha256=pF7Z0Tp7xqRijzDkizMZP7A76qw45ilCVdeUg1G1BVk,785
+dbt_impala-1.0.1.dist-info/LICENSE,sha256=allJ-J6NmJwOqMlRUNhLdS_Ro1wEz6RcNCRroD1aXCc,10837
+dbt_impala-1.0.1.dist-info/METADATA,sha256=XmPYmFjZ53svi-xkQiWUg29sQHISr_iW13RQCc5a0UQ,1858
+dbt_impala-1.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+dbt_impala-1.0.1.dist-info/top_level.txt,sha256=B2YH4he17ajilEWOGCKHbRcEJlCuZKwCcgFcLPntLsE,4
+dbt_impala-1.0.1.dist-info/RECORD,,
