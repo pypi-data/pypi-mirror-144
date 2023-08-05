@@ -1,0 +1,17 @@
+Metadata-Version: 1.1
+Name: ralifore
+Version: 0.0.1
+Summary: Raff Libraries for Effective Data Visualization
+Home-page: UNKNOWN
+Author: Rafka Imanda Putra
+Author-email: rafka.0312@gmail.com
+License: UNKNOWN
+Description: Make your data visualization more attractive and effective with Ralifore. Built from Matplotlib and Seaborn which will make it easy for you to tell stories with data effectively. Can be used for exploratory analysis, explanatory analysis, and even reporting at once. Enjoy the convenience of creating effective graphics with Ralifore: Raff Libraries for Effective Data Visualization.
+Keywords: python,data visualization
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Education
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
