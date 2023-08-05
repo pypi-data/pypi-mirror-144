@@ -1,0 +1,40 @@
+#ignore the following files
+build/
+dist/
+.cache/
+*.egg-info/
+*.o
+*.so
+*.pyc
+*.in
+*.log
+*.out
+*.tfrecords
+*.pkl
+*.edn
+*.lammps
+*.yml
+*.yaml
+*.pt
+.idea
+.DS_Store
+ERROR_REPORT
+FINAL_FITTED_PARAMS
+ann_kim.params
+examples/Si_training_set
+libs/geodesicLMv1.1
+tests/echo*
+tests/fingerprints/
+tmp_*
+*_kliff_trained/
+
+# dataset
+Si_training_set_4_configs
+Si_training_set
+SiC_training_set
+
+# special for docs
+docs/build
+docs/source/_static
+docs/source/_templates
+
