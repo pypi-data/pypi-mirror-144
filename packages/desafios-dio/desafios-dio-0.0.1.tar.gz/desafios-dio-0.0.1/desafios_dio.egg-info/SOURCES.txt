@@ -1,0 +1,6 @@
+README.md
+setup.py
+desafios_dio.egg-info/PKG-INFO
+desafios_dio.egg-info/SOURCES.txt
+desafios_dio.egg-info/dependency_links.txt
+desafios_dio.egg-info/top_level.txt
