@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+dremio/__init__.py
+dremio/exceptions.py
+dremio/wrapper.py
+dremio_api_wrapper.egg-info/PKG-INFO
+dremio_api_wrapper.egg-info/SOURCES.txt
+dremio_api_wrapper.egg-info/dependency_links.txt
+dremio_api_wrapper.egg-info/requires.txt
+dremio_api_wrapper.egg-info/top_level.txt
