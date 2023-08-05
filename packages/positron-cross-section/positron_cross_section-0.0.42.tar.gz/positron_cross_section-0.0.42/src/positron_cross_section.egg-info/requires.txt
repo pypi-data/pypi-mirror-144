@@ -1,0 +1,8 @@
+typer
+pytest
+pandas
+pandas-stubs
+numpy
+matplotlib
+pydantic
+uncertainties

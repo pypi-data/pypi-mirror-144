@@ -1,0 +1,2 @@
+[console_scripts]
+positron-cross-section = positron_cross_section.main:main
