@@ -1,0 +1,15 @@
+matplotlib
+numpy
+scipy
+argparse
+
+[test]
+pytest
+coverage
+pytest-cov
+collective.checkdocs
+pygments
+matplotlib
+numpy
+scipy
+argparse

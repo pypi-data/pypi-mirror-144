@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: GAVS
+Version: 1.0.0
+Summary: A tool for GROMACS results analysis and visualization
+Home-page: UNKNOWN
+Author: YinleiHan
+Author-email: 
+License: UNKNOWN
+Description: GAVS: a tool to analyse and visualize the GMX results files.
+Platform: cross-platform
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: License :: OSI Approved :: GNU General Public License v2 (GPLv2)
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Scientific/Engineering :: Bio-Informatics
+Classifier: Topic :: Scientific/Engineering :: Chemistry
+Classifier: Intended Audience :: Science/Research
+Description-Content-Type: text/markdown
+Provides-Extra: test
