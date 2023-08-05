@@ -1,0 +1,9 @@
+shoosh/__init__.py,sha256=tV9Tiqu2IZDEyhAaZYCsH110wp2Gb68xqbSonKRZd_s,1045
+shoosh/_docker.py,sha256=LWQm7L2LwseEPYDYhDSRabmvujuxnZhuUej-HU8Owbo,1634
+shoosh/_log.py,sha256=3leRe6IagLO1a_uVvjWK4fG3TQ6avpTscT0Fdq9XR9w,1728
+shoosh/_sh.py,sha256=TwT5psEXI81BsNEDoZXYCkQXN1pXt2jo94-8t8UkOWU,5154
+shoosh/_version.py,sha256=uh8N05NKmrkmSwecWh8JniCafRuJ1oGbn_9bHlcMnvo,499
+shoosh-1.2rc1.dist-info/METADATA,sha256=Q3gjTV8Na6pJEu9vsn-tkvvecbqww6WNEW8LFlJPYHA,4773
+shoosh-1.2rc1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+shoosh-1.2rc1.dist-info/top_level.txt,sha256=dMDuGsjn2c5jikgulxhm0MorVMgxCkxlAypnoE0Qt-U,7
+shoosh-1.2rc1.dist-info/RECORD,,
