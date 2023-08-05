@@ -1,0 +1,5 @@
+pyarrow
+milksnake
+
+[test]
+pytest<7.0.0
