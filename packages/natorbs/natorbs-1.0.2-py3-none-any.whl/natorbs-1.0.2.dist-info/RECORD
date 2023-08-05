@@ -1,0 +1,16 @@
+natorbs/__init__.py,sha256=MTxLYfzjGsykgl6IRAfpm3dltb4Zkdf-ga6zottF2uk,432
+natorbs/_version.py,sha256=MauXrpYR0xP8vYLv3Kc7OgBI6t17F4_5t3c9S3T7sbQ,142
+natorbs/diff.py,sha256=rb3J6z9tdOvaewAS1N27WixwKOXaLOYc7Z5goxurcpk,14669
+natorbs/moldata.py,sha256=kuBQhg4hAK3xpyz4qorGhQfVM2yDJxa9SCzLJ9UbNPQ,26888
+natorbs/mulliken.py,sha256=9aTHMnMbvuh0wEl6_m-4d3s2rs-pg3eXTWRpjlRkzV4,1355
+natorbs/mutual_overlaps.py,sha256=o_C7qgjOoJiUrWtLT6iRXPdz8r3VqjvA2zn0XIIlsNg,905
+natorbs/natural.py,sha256=VlFiEt0hsVI_CWsSrT86as_vBASfswXnP94mxHZiE7k,9290
+natorbs-1.0.2.data/data/share/doc/natorbs/LICENSE.txt,sha256=bWKAhDbBOUxxLqwi0ePq5xC77Ae5VLwU4ejB8_jfEow,1517
+natorbs-1.0.2.data/data/share/doc/natorbs/README.rst,sha256=UsLmlBPdER5QjhqrCtTL6wkhnxlcMoYX-basy46W704,4002
+natorbs-1.0.2.data/data/share/man/man1/natorbs.1,sha256=lwkvJR8mzcdZgX5aYpgv9Dr6lK0sY3SQwV0bO-wsuVY,5345
+natorbs-1.0.2.data/scripts/natorbs,sha256=P2NLiQ-2qq4oB-zw5xatl_1qMc_mcpZ1eK2tFkGgoPo,9396
+natorbs-1.0.2.dist-info/LICENSE.txt,sha256=bWKAhDbBOUxxLqwi0ePq5xC77Ae5VLwU4ejB8_jfEow,1517
+natorbs-1.0.2.dist-info/METADATA,sha256=GrXlU6STTGlNax9GQBv1-PCU9VctB9r0rVY7hXTdhn8,4975
+natorbs-1.0.2.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+natorbs-1.0.2.dist-info/top_level.txt,sha256=K9UJ_KAua6dCZPytVamXoaZdgYd2SCAi8C58cgfsUm0,8
+natorbs-1.0.2.dist-info/RECORD,,
