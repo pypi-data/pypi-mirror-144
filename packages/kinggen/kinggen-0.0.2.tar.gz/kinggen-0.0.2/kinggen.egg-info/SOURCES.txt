@@ -1,0 +1,7 @@
+setup.py
+kinggen/__init__.py
+kinggen.egg-info/PKG-INFO
+kinggen.egg-info/SOURCES.txt
+kinggen.egg-info/dependency_links.txt
+kinggen.egg-info/requires.txt
+kinggen.egg-info/top_level.txt
