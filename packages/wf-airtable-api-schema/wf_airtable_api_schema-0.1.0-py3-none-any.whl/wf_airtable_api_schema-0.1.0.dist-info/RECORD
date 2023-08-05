@@ -1,0 +1,16 @@
+wf_airtable_api_schema/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+wf_airtable_api_schema/models/educators.py,sha256=vGyOAsq1mrQtVs4dJKk5XLaQbBnKyIeBFE6NcjUbG9o,8081
+wf_airtable_api_schema/models/educators_schools.py,sha256=VtbxtcYfVfWOpsS5qm18Wbz3yZrKnizwd8xDSQA34IE,399
+wf_airtable_api_schema/models/guides_schools.py,sha256=Y_oyPokiS7QiXvyVs9usfzqgt2zM_65xVr-ztLJ_sRw,369
+wf_airtable_api_schema/models/hubs.py,sha256=9AdT0kvQGDpAndJcLuzyArbi7NWWfISMxiUfHJhSoZI,567
+wf_airtable_api_schema/models/languages.py,sha256=LjGtIiapPgvmhpWYj1DDKFqpZ27iQdDfT5YujsuNWpE,328
+wf_airtable_api_schema/models/location_contacts.py,sha256=-lb3AcLMusyiZ9i6BQU5cgse0fmBTAi2VPrP7tI5XrM,985
+wf_airtable_api_schema/models/montessori_certifications.py,sha256=7tdBPcyifcPfoAFWkSttScAYyfa8bUCaM18abrlkewU,411
+wf_airtable_api_schema/models/partners.py,sha256=q-Eu5S3BgbJ9480hqMriE-rbXHshXKUS_SJIlhtobhg,828
+wf_airtable_api_schema/models/pods.py,sha256=VEpDnMQoaunlvLDyvF9Ddx2dqQwn4IvveygBMm_LLyE,550
+wf_airtable_api_schema/models/response.py,sha256=JLbro_w40_tAjlLY4HTCUsGY8ysl39qUAUW-MEMGc1A,798
+wf_airtable_api_schema/models/schools.py,sha256=qXe_yIL0UyYsgJfVNUL0aDqqAF-boMwTKK33JT_uVNw,1883
+wf_airtable_api_schema-0.1.0.dist-info/LICENSE,sha256=VV4EHqsjRsZIw9RC6SYL63Tm9kzPQsYaZn7a1cT9X3w,1088
+wf_airtable_api_schema-0.1.0.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+wf_airtable_api_schema-0.1.0.dist-info/METADATA,sha256=nxzvKel1tV_aU8rA1zLH6HRfIR1EpDKBpZm3ZK54cX0,513
+wf_airtable_api_schema-0.1.0.dist-info/RECORD,,
