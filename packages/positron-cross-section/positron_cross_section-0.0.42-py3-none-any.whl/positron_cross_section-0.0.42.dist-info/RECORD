@@ -1,0 +1,11 @@
+positron_cross_section/__init__.py,sha256=HehRxEUB_QT6Mz0XVCW_bqRvbMs3ZyaW5Ccj0i4b9Kk,59
+positron_cross_section/gas.py,sha256=1_22NmK_lDGx07vjw45DtVJJqmQiG3SqGcc73oFFRO8,683
+positron_cross_section/gtcs.py,sha256=KVjnjARwZRXrB42iO8hscUbr-tsB5fqFr5Q-DexLRiU,11906
+positron_cross_section/main.py,sha256=ESbEKlZFaytH_ePEW8d18-q_N1YupcL3F70cN8mvWoU,848
+positron_cross_section/plot.py,sha256=Rvjz1ig2zMvAwx1HvSHocFPJdmT1P-6wIqzXTHluIXw,836
+positron_cross_section-0.0.42.dist-info/LICENSE,sha256=wGfIpIEjCSQfO50M9fcZilS0vk8GFNDh-MJxG1TlEj8,1051
+positron_cross_section-0.0.42.dist-info/METADATA,sha256=nKr6dzOtLHf0gkNnwKO8biE2ZUDn-kLxWUMxoWPrFEo,4025
+positron_cross_section-0.0.42.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+positron_cross_section-0.0.42.dist-info/entry_points.txt,sha256=cH-jYCauGNq3LVvYE7hFYNprwlPyt775or_ixtGy9Cs,76
+positron_cross_section-0.0.42.dist-info/top_level.txt,sha256=dDunL9wzroK9gSmCcZfBs629hNC7z4CEuPxWShJuBUE,23
+positron_cross_section-0.0.42.dist-info/RECORD,,
