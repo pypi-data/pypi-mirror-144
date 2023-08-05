@@ -1,0 +1,15 @@
+Jinja2
+dill
+numpy
+pandas
+platformdirs
+prettytable
+astropy
+
+[docs]
+sphinx
+pydata_sphinx_theme
+sphinx-autodoc-typehints
+
+[test]
+pytest
