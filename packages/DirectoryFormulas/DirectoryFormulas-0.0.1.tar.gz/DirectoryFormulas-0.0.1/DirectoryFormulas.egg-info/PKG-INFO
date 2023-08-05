@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: DirectoryFormulas
+Version: 0.0.1
+Summary: Module for Directory Value and other formulas
+Home-page: UNKNOWN
+Author: FrankieOliverTrading
+Author-email: ceruttifra@gmail.com
+License: MIT
+Keywords: calculator
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.9
+License-File: LICENCE.txt
+
+NotThatLong
+
