@@ -1,0 +1,8 @@
+nlopt/_nlopt.so,sha256=vFgWIQKkXF5tusCE7OUD_4me6D7l9IGf5bGQl9iqcLI,1505208
+nlopt/nlopt.py,sha256=lXKMBSsByWwgogdmCcQKyGlnGYXsAJdeEZZKBz5MhTs,15613
+nlopt/__init__.py,sha256=LSAeibf_0dQ_t_hnBFXlcZrfIn1qi6rOwZqzFE3ZPHo,44
+nlopt-2.7.1.dist-info/LICENSE,sha256=UKMtr6i6RObmjdWUZteo1-kMBilPZyyatVwytg_kqOY,2235
+nlopt-2.7.1.dist-info/METADATA,sha256=wQOzHPc1Qu4h1vay23LEbtbT15z1L94MCRgp5eupzaQ,2067
+nlopt-2.7.1.dist-info/top_level.txt,sha256=M_MBIr2R4B0VZtq8N0NaQUid2k_mNshSIN1_-MasI3E,6
+nlopt-2.7.1.dist-info/RECORD,,
+nlopt-2.7.1.dist-info/WHEEL,sha256=FGGRUrvefXOiAJfyJCZAiu4TpTMkXB_CzdEp3x2T96E,150
