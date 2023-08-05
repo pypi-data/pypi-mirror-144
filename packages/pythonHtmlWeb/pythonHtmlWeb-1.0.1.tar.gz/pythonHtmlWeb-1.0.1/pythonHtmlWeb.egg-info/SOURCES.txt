@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+pythonHtmlWeb/__init__.py
+pythonHtmlWeb/htmlCode.py
+pythonHtmlWeb.egg-info/PKG-INFO
+pythonHtmlWeb.egg-info/SOURCES.txt
+pythonHtmlWeb.egg-info/dependency_links.txt
+pythonHtmlWeb.egg-info/top_level.txt

@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: pythonHtmlWeb
+Version: 1.0.1
+Summary: A compiler that compiles python into html code
+Home-page: https://pypi.org/manage/projects/
+Author: BeAbledKote
+Author-email: 1808873428@qq.com
+Maintainer: BeAbledKote
+Maintainer-email: 1808873428@qq.com
+License: Public domain
+Platform: any
+License-File: LICENSE
+
+A compiler that compiles python into html code
+
