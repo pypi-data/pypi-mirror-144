@@ -1,0 +1,10 @@
+README.md
+setup.py
+tradutor/__init__.py
+tradutor/tradutor_pten.py
+tradutor/translate_enpt.py
+tradutor.egg-info/PKG-INFO
+tradutor.egg-info/SOURCES.txt
+tradutor.egg-info/dependency_links.txt
+tradutor.egg-info/requires.txt
+tradutor.egg-info/top_level.txt
