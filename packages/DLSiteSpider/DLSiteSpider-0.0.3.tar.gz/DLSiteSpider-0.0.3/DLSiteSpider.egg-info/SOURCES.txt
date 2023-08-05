@@ -1,0 +1,13 @@
+README.md
+pyproject.toml
+setup.cfg
+DLSiteSpider/__init__.py
+DLSiteSpider/dynamic.py
+DLSiteSpider/static.py
+DLSiteSpider/test_dynamic.py
+DLSiteSpider/test_static.py
+DLSiteSpider/utils.py
+DLSiteSpider.egg-info/PKG-INFO
+DLSiteSpider.egg-info/SOURCES.txt
+DLSiteSpider.egg-info/dependency_links.txt
+DLSiteSpider.egg-info/top_level.txt
