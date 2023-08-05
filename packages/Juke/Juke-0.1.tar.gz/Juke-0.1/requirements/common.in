@@ -1,0 +1,9 @@
+appdirs
+arrow
+blazeutils
+click
+flake8
+requests
+python-dotenv
+
+git+ssh://git@github.com/level12/shiv-utils#egg=shiv_utils

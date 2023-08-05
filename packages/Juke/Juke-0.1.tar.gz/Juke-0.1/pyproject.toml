@@ -1,0 +1,27 @@
+[build-system]
+requires = ["flit_core >=3.2,<4"]
+build-backend = "flit_core.buildapi"
+
+[project]
+name = "Juke"
+description = "TBD"
+authors = [{name = "Level 12", email = "devteam@level12.io"}]
+license = {file = "LICENSE"}
+classifiers = ["License :: OSI Approved :: MIT License"]
+dynamic = ["version"]
+
+[project.scripts]
+juke = "juke.cli:cli"
+
+[project.urls]
+Home = "https://github.com/level12/juke"
+
+[tool.black]
+skip-string-normalization = true
+line-length = 100
+
+[tool.flit.module]
+name = "juke"
+
+[tool.isort]
+profile = 'black'
