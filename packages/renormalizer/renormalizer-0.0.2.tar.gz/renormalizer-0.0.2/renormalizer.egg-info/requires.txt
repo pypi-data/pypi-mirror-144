@@ -1,0 +1,10 @@
+numpy
+scipy
+pytest
+h5py
+typing
+PyYAML
+recommonmark
+sphinx_rtd_theme
+opt_einsum
+qutip
