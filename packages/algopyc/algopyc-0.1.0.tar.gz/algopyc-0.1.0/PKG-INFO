@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: algopyc
+Version: 0.1.0
+Summary: UNKNOWN
+Home-page: https://github.com/Seonwhee-Genome/PyCextension
+Author: Seonwhee Jin
+Maintainer: Seonwhee Jin
+License: GPLv2+
+Keywords: edit distance,Levenshtein,Wagner-Fischer
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: GNU General Public License v2 or later (GPLv2+)
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: C++
+Classifier: Programming Language :: Python :: Implementation :: CPython
+
+UNKNOWN
+

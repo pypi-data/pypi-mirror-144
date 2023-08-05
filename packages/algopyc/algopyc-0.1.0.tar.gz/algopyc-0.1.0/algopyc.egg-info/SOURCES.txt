@@ -1,0 +1,9 @@
+MANIFEST.in
+algorithm.cpp
+levenshtein.cpp
+levenshtein.h
+setup.py
+algopyc.egg-info/PKG-INFO
+algopyc.egg-info/SOURCES.txt
+algopyc.egg-info/dependency_links.txt
+algopyc.egg-info/top_level.txt
