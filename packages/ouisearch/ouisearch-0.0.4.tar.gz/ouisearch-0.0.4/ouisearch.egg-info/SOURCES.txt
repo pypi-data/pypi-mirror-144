@@ -1,0 +1,11 @@
+LICENSE
+README.md
+oui.py
+pyproject.toml
+setup.cfg
+setup.py
+ouisearch.egg-info/PKG-INFO
+ouisearch.egg-info/SOURCES.txt
+ouisearch.egg-info/dependency_links.txt
+ouisearch.egg-info/requires.txt
+ouisearch.egg-info/top_level.txt
