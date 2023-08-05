@@ -1,0 +1,11 @@
+README.md
+setup.cfg
+setup.py
+src/post_from_os/__init__.py
+src/post_from_os/find_file.py
+src/post_from_os/post_to_twitter_obj.py
+src/post_from_os.egg-info/PKG-INFO
+src/post_from_os.egg-info/SOURCES.txt
+src/post_from_os.egg-info/dependency_links.txt
+src/post_from_os.egg-info/requires.txt
+src/post_from_os.egg-info/top_level.txt
