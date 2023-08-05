@@ -1,0 +1,16 @@
+kharazmi/__init__.py,sha256=GNfWKrkOTCTMyQC_B6w50hJTVv7ENW5CkQhGiwDhDzw,121
+kharazmi/__main__.py,sha256=OBjr-u9x47rQLeeSt9QBB6t1M7m5u1cwz8pIcm7D9us,1071
+kharazmi/builtin_math.py,sha256=q5xKC_KyJu5fVxoWkDRWS9DLToVCA6jjiTMg14rIfzA,1340
+kharazmi/exceptions.py,sha256=--zglioz3qRplrLGvc26AOBJzC2GeFPJQKKZG5-MJr4,489
+kharazmi/lexer.py,sha256=Fb_bs8uou4b4kY939kMVxvicXMDWzo16kIDtwzSexr0,685
+kharazmi/models.py,sha256=-HTN0MWW5Qe9p8ybs4KK6ETvJYfDXLyvh80ZSbJk5F0,9845
+kharazmi/parser.py,sha256=CKeSMmIUMaxzc2gATAnbkj1U6vlMb7oulJ8ilwp-ZYI,3022
+kharazmi/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+kharazmi/types.py,sha256=tm-AlHEgFu1Emvb0vMjYXEdstjLiwmdCtNnW06C5MJ8,1248
+kharazmi-0.1.2.dist-info/AUTHORS.md,sha256=g7LOigtXevVa_4QkrUWttek0IdDRaYWVcnfKkTSQ9H0,30
+kharazmi-0.1.2.dist-info/LICENSE,sha256=aErsE3vAjWB-z6LCTRg5gBqtLh31KTn_rq56uhfzm7g,1071
+kharazmi-0.1.2.dist-info/METADATA,sha256=uAphyW7jJDDQW1f3BdurhagBy5PWCjH901uNTP7nM7U,4596
+kharazmi-0.1.2.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+kharazmi-0.1.2.dist-info/top_level.txt,sha256=AFGvI0dqI9QorugtFWJMWq7kndXsrbHXbX8yqAWTdJg,9
+kharazmi-0.1.2.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+kharazmi-0.1.2.dist-info/RECORD,,
