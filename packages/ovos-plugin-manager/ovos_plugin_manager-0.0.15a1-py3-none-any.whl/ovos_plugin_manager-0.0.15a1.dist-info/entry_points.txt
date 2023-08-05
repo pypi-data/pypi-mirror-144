@@ -1,0 +1,3 @@
+[intentbox.segmentation]
+ovos-segmentation-plugin-quebrafrases=ovos_plugin_manager.templates.segmentation:Segmenter
+
