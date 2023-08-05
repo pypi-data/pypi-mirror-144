@@ -1,0 +1,3 @@
+[console_scripts]
+gavs = GAVS.GAVS:main
+
