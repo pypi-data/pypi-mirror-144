@@ -1,0 +1,5 @@
+Changelog
+---------
+
+0.0.1 - Made vbspython but it doesnt work
+0.0.2 - Made it work

@@ -1,0 +1,14 @@
+CHANGELOG.txt
+MANIFEST.in
+README.txt
+__init__.py
+setup.py
+var.txt
+files/ben.vbs
+vbscript.egg-info/SOURCES.txt
+vbscript.egg-info/dependency_links.txt
+vbscript.egg-info/top_level.txt
+vbspython.egg-info/PKG-INFO
+vbspython.egg-info/SOURCES.txt
+vbspython.egg-info/dependency_links.txt
+vbspython.egg-info/top_level.txt
