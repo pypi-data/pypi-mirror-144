@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: apns2-up
+Version: 0.7.4
+Summary: A python library for interacting with the Apple Push Notification Service via HTTP/2 protocol
+Home-page: https://github.com/vasanski/PyAPNs2
+Author: Eduard Vasanski
+Author-email: eduard.vasanski@gmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Software Development :: Libraries
+License-File: LICENSE
+Requires-Dist: hyper-up (>=0.8)
+Requires-Dist: PyJWT (>=1.4.0)
+Requires-Dist: cryptography (>=1.7.2)
+Provides-Extra: tests
+Requires-Dist: freezegun ; extra == 'tests'
+Requires-Dist: pytest ; extra == 'tests'
+
+UNKNOWN
+
