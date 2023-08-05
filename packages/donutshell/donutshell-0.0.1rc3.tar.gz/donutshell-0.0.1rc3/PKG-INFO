@@ -1,0 +1,49 @@
+Metadata-Version: 2.1
+Name: donutshell
+Version: 0.0.1rc3
+Summary: A Shell built-in Python but not meant for daily use.
+Home-page: https://github.com/loldonut/donutshell
+Author: loldonut
+License: MIT
+Keywords: shell,terminal,console
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: Console
+Classifier: Topic :: System :: Shells
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Typing :: Typed
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# DonutShell
+
+A Custom Shell I made in Python for fun, which means it sucks lmao
+
+_This package is not meant for daily use._
+
+## Installation
+
+**Using `PIP`:**
+
+```
+pip install donutshell
+```
+
+**By cloning the repo:**
+
+```sh
+git clone https://github.com/loldonut/donutshell
+cd donutshell/donutshell
+
+python .
+# or
+py .
+```
+
+## Docs
+
+[See docs here...](https://github.com/loldonut/donutshell/blob/main/DOCS.md)
+
+
