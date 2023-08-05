@@ -1,0 +1,11 @@
+myrepos_utils/__init__.py,sha256=1bQHYyP-zbqHjdzG72zNt3k-P_je0E3IUhP0yekstl0,413
+myrepos_utils/__main__.py,sha256=SWbqoR4uCB27rINyiT92SJdo_gq7TM13NK_uRMjLf3M,450
+myrepos_utils/cli.py,sha256=ECs3YdQ_Fg68T_idInHS-X-GIuAsj2zA5jGnHLXkFxU,713
+myrepos_utils/utils.py,sha256=rX93xD7Q4pKnpC0bCC7DHea007X2cMWf0-xX01m1lWI,872
+myrepos_utils/tests/__init__.py,sha256=oW1a8aX6redRpHKEzxw-L8tvqIypeV7a2x3NmtN-uG8,390
+myrepos_utils/tests/test_utils.py,sha256=jD6vQ_p_alT6DuhuwQPSCdGH2q93u3k_AX61UX0_xck,1059
+myrepos_utils-0.0.1.dist-info/METADATA,sha256=0qzELo05oJeWBp5XuxYgIuWJkaCbJbTfuQ1MbBU24_Y,1169
+myrepos_utils-0.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+myrepos_utils-0.0.1.dist-info/entry_points.txt,sha256=tDB2ue4sr3UTzAVR4_KBQM8j--_jULGhyEUTWxPr-X8,51
+myrepos_utils-0.0.1.dist-info/top_level.txt,sha256=kpRP70EXKOZFVC1YhlF2ScNbLqpMnb3Bq-VpGI1zzjI,14
+myrepos_utils-0.0.1.dist-info/RECORD,,
