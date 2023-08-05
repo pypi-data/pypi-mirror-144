@@ -1,0 +1,6 @@
+plico>=0.24
+plico_motor>=0.0.4
+numpy
+psutil
+pyserial
+pipython
