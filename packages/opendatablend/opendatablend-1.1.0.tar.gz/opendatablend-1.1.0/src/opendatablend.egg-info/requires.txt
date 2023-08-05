@@ -1,0 +1,5 @@
+frictionless>=4.0.0
+requests
+azure-storage-blob>=12.10.0
+boto3
+botocore
