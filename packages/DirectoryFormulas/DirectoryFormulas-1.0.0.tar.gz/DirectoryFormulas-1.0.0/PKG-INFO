@@ -1,0 +1,49 @@
+Metadata-Version: 2.1
+Name: DirectoryFormulas
+Version: 1.0.0
+Summary: Module for Directory Value and other formulas
+Home-page: UNKNOWN
+Author: FrankieOliverTrading
+Author-email: ceruttifra@gmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.9
+Description-Content-Type: text/markdown
+
+
+# Directory Formula
+A small demo library for setting proprietary Directory and formulas
+
+### Installation
+```
+pip install DirectoryFormulas
+```
+
+### Get started
+Get your Directory:
+
+```Python
+from DirectoryFormulas import DirX
+
+# Instantiate a Multiplication object
+DirX.Directory()
+
+# Call the multiply method
+DirX.DirectoryLocal()
+
+DirX.DirectoryCloud()
+
+DirX.FileOrder(Mininbars) # integer needed
+# Fldict = {1:'-A-',5:'-B-',10:'-C-',15:'-D-',30:'-E-'}
+# FileOrder = (Fldict.get(Mininbars))
+DirX.DivByZero_int(a,b)
+DirX.DivByZero_float(a,b)
+
+DirX.RunCSV_Saver(fromdate, DirectoryTrigger)
+```
+
+
