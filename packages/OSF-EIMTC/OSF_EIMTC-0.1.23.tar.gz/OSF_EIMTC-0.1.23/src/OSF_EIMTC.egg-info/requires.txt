@@ -1,0 +1,8 @@
+scikit-learn
+NFStream
+pandas
+numpy
+runstats
+scapy
+pyasn
+click
