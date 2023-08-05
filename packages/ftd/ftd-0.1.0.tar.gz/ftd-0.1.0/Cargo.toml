@@ -1,0 +1,20 @@
+[package]
+name = "ftd-py"
+version = "0.1.0"
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+[lib]
+name = "ftd"
+crate-type = ["cdylib"]
+
+[dependencies]
+pyo3 = { version = "0.14", features = ["extension-module"] }
+pyo3-asyncio = { version = "0.14", features = ["tokio-runtime"] }
+fpm = { git = "https://github.com/FifthTry/fpm", rev = "b76522f0e08d50ae513e587cc98c1e0c353a0aba" }
+
+# This is added to resolve
+# Error: "failed to run custom build command for `openssl-sys v0.9.72`"
+# for linux github workflow in CI.yml
+# Worflow link: https://github.com/FifthTry/ftd-py/runs/5696299223?check_suite_focus=true
+openssl = { version = "0.10", features = ["vendored"] }
