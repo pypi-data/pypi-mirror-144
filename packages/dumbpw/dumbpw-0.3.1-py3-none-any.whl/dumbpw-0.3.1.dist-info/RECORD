@@ -1,0 +1,12 @@
+dumbpw/__init__.py,sha256=dJto9durK7MIZi6fb2u2mIgw8cgV2jB1-txj4JdQYcQ,163
+dumbpw/candidate.py,sha256=wepDFomO761rAW4qaUijfKMb0Y5xDHSmyX4WDHAsLxQ,6708
+dumbpw/charspace.py,sha256=IF9rzzSJ9bpN4REls2e90WLUqdRMeKsetEVrzl8yacA,2104
+dumbpw/cli.py,sha256=G5nmJaQfZ7dyr0Arg7Uy3O6Iaod_QI-jUh25tOIDzKw,1776
+dumbpw/constants.py,sha256=ufbqBg8AjcSJwIK-O5qS3KbmeFciWShsuTVvewAXN_E,67
+dumbpw/exceptions.py,sha256=-wzj7i_-YQAZA7FGJlJexJdiW6qqauP0Et_aiV3tE6s,101
+dumbpw/pwgen.py,sha256=-lEGs2rbbbnvAUCRASImO_gWBfWklCcreriWz83D6qQ,2872
+dumbpw-0.3.1.dist-info/entry_points.txt,sha256=T__N0Px3j6GI8H0N8ZRA4I7jtZAYhcXYGuqcg-_5KjA,41
+dumbpw-0.3.1.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+dumbpw-0.3.1.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+dumbpw-0.3.1.dist-info/METADATA,sha256=j8vhImwIAEphmJEMPSCQZ-pZsrKb-ui1cna1RnUO3ks,4602
+dumbpw-0.3.1.dist-info/RECORD,,
