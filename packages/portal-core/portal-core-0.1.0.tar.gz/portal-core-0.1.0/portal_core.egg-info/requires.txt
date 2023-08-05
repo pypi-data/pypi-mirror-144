@@ -1,0 +1,5 @@
+Django
+jpholiday
+python-dateutil
+chardet
+janome
