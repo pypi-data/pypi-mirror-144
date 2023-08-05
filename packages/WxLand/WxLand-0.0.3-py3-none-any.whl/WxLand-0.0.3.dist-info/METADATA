@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: WxLand
+Version: 0.0.3
+Summary: WxPython组合
+Home-page: https://github.com/XiangQinxi
+Author: XiangQinxi
+Author-email: XiangQinxi@outlook.com
+Maintainer: XiangQinxi
+Maintainer-email: XiangQinxi@outlook.com
+License: MIT License
+Project-URL: WxLand, https://github.com/XiangQinxi/Gibox
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.6
+License-File: LICENSE
+Requires-Dist: wxpython
+
+# WxLand
+
+---
+
+None
+
