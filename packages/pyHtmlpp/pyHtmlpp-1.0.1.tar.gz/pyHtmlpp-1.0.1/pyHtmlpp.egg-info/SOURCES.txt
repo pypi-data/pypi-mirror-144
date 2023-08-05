@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+pyHtmlpp.egg-info/PKG-INFO
+pyHtmlpp.egg-info/SOURCES.txt
+pyHtmlpp.egg-info/dependency_links.txt
+pyHtmlpp.egg-info/top_level.txt
+pyWebpp/__init__.py
+pyWebpp/htmlCode.py
