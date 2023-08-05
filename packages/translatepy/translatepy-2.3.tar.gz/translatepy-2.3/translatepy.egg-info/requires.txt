@@ -1,0 +1,8 @@
+requests
+safeIO>=1.2
+beautifulsoup4
+pyuseragents
+inquirer>=2.8.0
+
+[:python_version < "3.5"]
+typing
