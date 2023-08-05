@@ -1,0 +1,18 @@
+# Table of contents
+# Learn more at https://jupyterbook.org/customize/toc.html
+
+format: jb-book
+root: index
+parts:
+  - caption: {{ cookiecutter.project_name }}
+    numbered: False
+    chapters:
+      - file: chapters/1
+  - caption: Setup
+    chapters:
+      - file: installation
+      - file: usage
+{% if cookiecutter.create_author_file == 'y' -%}      - file: authors
+{% endif -%}      
+      - file: contributing
+      - file: history
