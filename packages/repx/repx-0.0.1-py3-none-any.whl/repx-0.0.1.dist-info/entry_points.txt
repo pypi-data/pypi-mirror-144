@@ -1,0 +1,3 @@
+[console_scripts]
+repx=repx.main:cmdline_entry_point
+
