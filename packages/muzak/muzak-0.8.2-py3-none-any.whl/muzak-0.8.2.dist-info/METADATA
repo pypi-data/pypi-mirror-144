@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: muzak
+Version: 0.8.2
+Summary: A library organizing music
+Home-page: https://github.com/gageleblanc/muzak
+Author: Gage LeBlanc
+Author-email: gleblanc@symnet.io
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: clilib (>=3.5.1)
+Requires-Dist: pytaglib (>=1.5.0)
+Requires-Dist: tabulate
+
+long_description
+
