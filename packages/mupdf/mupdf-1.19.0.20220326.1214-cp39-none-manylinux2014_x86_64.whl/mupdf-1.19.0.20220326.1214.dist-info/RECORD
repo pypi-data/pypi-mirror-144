@@ -1,0 +1,7 @@
+libmupdf.so,sha256=b'8pPH99UhJ3vf-tmJ0mEr1M9pp3WAUoZv7Lk4baX00IU=',51486832
+libmupdfcpp.so,sha256=b'4-wH4P7M16JBgzSbrFIhITUiyS99HzU3qUtWYMKFj5s=',3992048
+_mupdf.so,sha256=b'QqqF86Q-dqnUVm30DQb-8IS8bQ9Pg_wkuObM0cd256s=',10856408
+mupdf.py,sha256=b'nPGlQLjoW08yXwiUCYf9hrffBde_48CYdLAwb0SRrw8=',1739937
+mupdf-1.19.0.20220326.1214.dist-info/WHEEL,sha256=b'cmNV9UVyc1fkzed_yJf3qd1VrQ29VhbuYhJfK0FbXFk=',93
+mupdf-1.19.0.20220326.1214.dist-info/METADATA,sha256=b'6hxHnFc-7-_Y6EjYCkKpt_RmEMdBUPcweaHqHgdx_hM=',4535
+mupdf-1.19.0.20220326.1214.dist-info/COPYING,sha256=b'V8j_M8nAz8PvAOZQocyRDX7keai8UJ9skgmnwqETmdY=',34520
