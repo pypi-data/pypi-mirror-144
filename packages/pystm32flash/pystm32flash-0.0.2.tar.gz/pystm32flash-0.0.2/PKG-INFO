@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: pystm32flash
+Version: 0.0.2
+Summary: Library using stm32flash in python.
+Home-page: https://github.com/Jiangshan00001/pystm32flash
+Author: jiangshan00001
+Author-email: 710806594@qq.com
+License: MIT
+Description: # pystm32flash
+        python bindings of stm32flash serial/i2c flash lib
+        
+        
+        c code is mostly from:
+        https://github.com/ARMinARM/stm32flash
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
