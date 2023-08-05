@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: add2numbers-jamesbond
+Version: 0.1.0
+Summary: add two numbers
+License: MIT
+Author: James Bond
+Author-email: JamesBond07@gmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Description-Content-Type: text/markdown
+
+
