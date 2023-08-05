@@ -1,0 +1,10 @@
+LICENSE
+README.rst
+setup.cfg
+setup.py
+datatask/__init__.py
+datatask/datatask.py
+datatask.egg-info/PKG-INFO
+datatask.egg-info/SOURCES.txt
+datatask.egg-info/dependency_links.txt
+datatask.egg-info/top_level.txt
