@@ -1,0 +1,47 @@
+Metadata-Version: 2.1
+Name: torchq
+Version: 0.0.1
+Summary: PyTorch Quantization Book
+Author-email: xinetzone <735613050@qq.com>
+Maintainer-email: xinetzone <735613050@qq.com>
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python :: 3
+Classifier: Framework :: Sphinx
+Classifier: Framework :: Sphinx :: Theme
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Requires-Dist: d2py
+Requires-Dist: pydata_sphinx_theme
+Requires-Dist: pytest-cov ; extra == "coverage"
+Requires-Dist: codecov ; extra == "coverage"
+Requires-Dist: torchq[test] ; extra == "coverage"
+Requires-Dist: pyyaml ; extra == "dev"
+Requires-Dist: pre-commit ; extra == "dev"
+Requires-Dist: torchq[coverage] ; extra == "dev"
+Requires-Dist: myst-nb ; extra == "doc"
+Requires-Dist: pytest ; extra == "doc"
+Requires-Dist: pytest-regressions ; extra == "doc"
+Requires-Dist: sphinxext-rediraffe ; extra == "doc"
+Requires-Dist: sphinx_copybutton ; extra == "doc"
+Requires-Dist: pytest ; extra == "test"
+Requires-Dist: torchq[doc] ; extra == "test"
+Project-URL: Home, https://github.com/xinetzone/torch-qat
+Provides-Extra: coverage
+Provides-Extra: dev
+Provides-Extra: doc
+Provides-Extra: test
+
+# PyTorch 下的 QAT 教程
+
+[![PyPI](https://img.shields.io/pypi/v/torch-quantization.svg)](https://pypi.org/project/torch-quantization/) [![GitHub issues](https://img.shields.io/github/issues/xinetzone/torch-quantization)](https://github.com/xinetzone/torch-quantization/issues) [![GitHub forks](https://img.shields.io/github/forks/xinetzone/torch-quantization)](https://github.com/xinetzone/torch-quantization/network) [![GitHub stars](https://img.shields.io/github/stars/xinetzone/torch-quantization)](https://github.com/xinetzone/torch-quantization/stargazers) [![GitHub license](https://img.shields.io/github/license/xinetzone/torch-quantization)](https://github.com/xinetzone/torch-quantization/blob/main/LICENSE) ![repo size](https://img.shields.io/github/repo-size/xinetzone/torch-quantization.svg) [![contributors](https://img.shields.io/github/contributors/xinetzone/torch-quantization.svg)](https://github.com/xinetzone/torch-quantization/graphs/contributors) [![watcher](https://img.shields.io/github/watchers/xinetzone/torch-quantization.svg)](https://github.com/xinetzone/torch-quantization/watchers) [![watcher](https://img.shields.io/github/watchers/xinetzone/pytorch-book.svg)](https://github.com/xinetzone/pytorch-book/watchers) [![Downloads](https://pepy.tech/badge/torch-quantization/week)](https://pepy.tech/project/torch-quantization)
+
+## 支持 PyPI
+
+需要安装 `torchq` 包：
+
+```shell
+pip install torchq
+```
+
