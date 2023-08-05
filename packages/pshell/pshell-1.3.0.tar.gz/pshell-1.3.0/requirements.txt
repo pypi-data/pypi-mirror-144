@@ -1,0 +1,2 @@
+# This file is redundant with setup.cfg but it is needed by github to follow dependencies
+psutil >= 5.4
