@@ -1,0 +1,8 @@
+README.md
+setup.py
+FEWS.egg-info/PKG-INFO
+FEWS.egg-info/SOURCES.txt
+FEWS.egg-info/dependency_links.txt
+FEWS.egg-info/top_level.txt
+svdd/__init__.py
+svdd/svdd.py

@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: FEWS
+Version: 1.0.1
+Summary: 早期故障预警系统工具
+Home-page: UNKNOWN
+Author: 胡迪-华中科技大学
+Author-email: hudi_0011@yeah.net
+License: UNKNOWN
+Description: # 早期故障预警系统
+        
+        ## 1.基于数据描述的方法
+        
+        
+        ## 2.基于预测残差的方法
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
