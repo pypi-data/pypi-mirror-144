@@ -1,0 +1,3 @@
+[console_scripts]
+mdbttack = mdbttack.mdbttack:main
+
