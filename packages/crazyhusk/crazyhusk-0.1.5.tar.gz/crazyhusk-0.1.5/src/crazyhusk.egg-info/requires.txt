@@ -1,0 +1,16 @@
+
+[:python_version < "3.8"]
+importlib-metadata
+
+[dev]
+pytest
+isort
+black
+mypy
+pycodestyle
+pydocstyle
+pre-commit
+pre-commit-hooks
+
+[test]
+pytest
