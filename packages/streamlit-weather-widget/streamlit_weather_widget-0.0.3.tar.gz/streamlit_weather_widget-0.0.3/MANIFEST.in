@@ -1,0 +1,1 @@
+recursive-include streamlit_weather_widget/frontend/build *
