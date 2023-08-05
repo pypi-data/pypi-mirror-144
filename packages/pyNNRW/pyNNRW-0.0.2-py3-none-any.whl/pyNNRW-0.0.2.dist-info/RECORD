@@ -1,0 +1,13 @@
+pyNNRW/DTC.py,sha256=eIjRSunOVkk5Pumt6hfxnsvUYpUbvlQb34qCOvSdagk,125
+pyNNRW/ELM.py,sha256=aKBtysW2cuIeHX0PNXikgszxCu9BNYvER2G4VKB2j_8,8909
+pyNNRW/KNN.py,sha256=YSYi_bijyPl-O9mboO1-070VkE0GVVcwO5mnwyQCutw,128
+pyNNRW/LR.py,sha256=FgYgdk_qMkKupIHKa_m47edQeeIf4L5DsD23Md-M0NA,118
+pyNNRW/MLP.py,sha256=q2ldWHySNuNriHDF6ji59e1SRJB_R5ntRfVZgZ2NHKI,4086
+pyNNRW/RVFL.py,sha256=Tgi4T7UOyc2oVZzRa4YTgAkVTCWVqkVnafh38mF28uU,5686
+pyNNRW/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pyNNRW/pyNNRW.py,sha256=NYqY79UzuiaZo5r8lSum6HHF-TJRIWKJNq5DxXxEOMw,13538
+pyNNRW-0.0.2.dist-info/LICENCE,sha256=RoiJkcc9eOhh-ylbnlFNfK3h5SkygQRXZm-TEpVR7ps,214
+pyNNRW-0.0.2.dist-info/METADATA,sha256=X9gzzqqvR0cWez_bvU5zkXjRpQrFpbKH56dXItYjh6o,772
+pyNNRW-0.0.2.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+pyNNRW-0.0.2.dist-info/top_level.txt,sha256=xj_08edTUIjbvwiZNn8ykVdRui4kXVHEh617CKUzhkc,7
+pyNNRW-0.0.2.dist-info/RECORD,,
