@@ -1,0 +1,75 @@
+# eui
+eui means easy UI. It is a fast and simple micro-framework for small browser-based applications.
+Python and JS communicate through websocket protocol.
+
+## install
+```cmd
+pip install eui
+```
+## example
+### Step 1:
+create python file, `main.py`:
+```python
+import webbrowser
+
+import eui
+
+
+def say_hello(message):
+    print('receive message from js:', message)
+    eui.js('''
+    (msg) => { 
+        alert('receive message from py: ' + msg)
+    }
+    ''', message)
+
+
+def startup_callback():
+    webbrowser.open(f'http://localhost:{eui.get_port()}/static/index.html')
+
+
+handlers = {
+    'say_hello': say_hello,
+    'exit': eui.exit
+}
+
+eui.start(handlers=handlers, callback=startup_callback)
+
+
+```
+
+### Step 2:
+create UI file `index.html` in `static` folder:
+
+```html
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>eui test</title>
+    <script src="eui.js"></script>
+    <script type="text/javascript">
+      function sendMessage() {
+         var message = document.getElementById('message').value;
+         eui.py('say_hello', message);
+      }
+    
+    </script>
+
+</head>
+
+<body>
+<input id="message">
+<button onclick="sendMessage()">Send</button>
+
+</body>
+
+</html>
+
+```
+
+### Step 3:
+run `main.py`
+snapshot:
+![snapshot](https://gitee.com/lixkhao/eui/raw/main/static/snapshot1.png)
