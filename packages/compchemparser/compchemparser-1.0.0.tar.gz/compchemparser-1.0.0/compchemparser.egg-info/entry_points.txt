@@ -1,0 +1,3 @@
+[console_scripts]
+ccparse = compchemparser.main:main
+
