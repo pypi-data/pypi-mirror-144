@@ -1,0 +1,2 @@
+[console_scripts]
+pyupgrade-docs = pyupgrade_docs:main
