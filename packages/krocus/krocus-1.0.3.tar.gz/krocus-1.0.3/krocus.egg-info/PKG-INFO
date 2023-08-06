@@ -1,0 +1,15 @@
+Metadata-Version: 1.1
+Name: krocus
+Version: 1.0.3
+Summary: krocus: multi-locus sequence typing from uncorrected long reads
+Home-page: https://github.com/andrewjpage/krocus
+Author: Andrew J. Page
+Author-email: andrewjpage+krocus@gmail.com
+License: GPLv3
+Description: krocus: multi-locus sequence typing from uncorrected long reads
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering :: Bio-Informatics
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
