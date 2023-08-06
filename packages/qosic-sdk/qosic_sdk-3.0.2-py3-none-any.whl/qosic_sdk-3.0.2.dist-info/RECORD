@@ -1,0 +1,12 @@
+qosic/__init__.py,sha256=PQ5I7rRPzoXGLClItfgSmo5THdLOAXdLSk7hfejAy5s,245
+qosic/api.py,sha256=NoNaiV2l6w1Q0eenGmTAcwG3G4lNzIqJVszmOPWtKA4,2279
+qosic/config.py,sha256=BGFnoSch_3wnxtMSLd-a-N4fW_oIg_UW06Y0Z0rlsTI,443
+qosic/errors.py,sha256=MwsWzQPx7WiB59eZ1sl2EM2w1M_qfWgEbTmuSGCzf8w,302
+qosic/protocols.py,sha256=1os4Xd5ETdPYYzCpnu0l8CMyxyhUXYQuFUXVSVqKzuQ,407
+qosic/providers.py,sha256=5a8YGOZpwR6_kqwEF3NPU4BvVisr0eY_NOTqTeWZaL4,6081
+qosic/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+qosic/utils.py,sha256=zFQyiJqAJJrawUIyaq3sC5Vp6SlNXVkv_JBMX1peh9k,1864
+qosic_sdk-3.0.2.dist-info/LICENSE,sha256=ehi2kvydgs3O-hT95pLNG0e6tvn094FBHr31bRWCN8Q,1070
+qosic_sdk-3.0.2.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+qosic_sdk-3.0.2.dist-info/METADATA,sha256=bHLY-RuEa4KKIUFaDarUf1cUoZiPJHhbeMPsAmaob9I,3581
+qosic_sdk-3.0.2.dist-info/RECORD,,
