@@ -1,0 +1,9 @@
+luffy/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+luffy/version.py,sha256=CHUdJvPS3l7PphMt_r17ufrpB0TIJkmifpqmTNjwh84,22
+luffy/models/__init__.py,sha256=L_UGr3AX5tLaV90FGBEiz4yL5op-QzO-v41vOedXJeE,47
+luffy/models/efficientnet.py,sha256=-X_4S3dFGX_4JyabdFFNKGgULNMyvuGpriWir1fT6WI,11482
+luffy-0.0.6.dist-info/LICENSE,sha256=zHQJaa1fWOBN6vtlGosK4WQdyMFu6J8RYRVyMCA1CTU,1064
+luffy-0.0.6.dist-info/METADATA,sha256=8mzd-vnWPEAXqHUCi9vvoNxC_oCwtJfGPnJsgUxPIKs,715
+luffy-0.0.6.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+luffy-0.0.6.dist-info/top_level.txt,sha256=aEb1xdnI526zgObR2zpSMD9bp9yR6u1XsrWPEnOBYQo,6
+luffy-0.0.6.dist-info/RECORD,,
