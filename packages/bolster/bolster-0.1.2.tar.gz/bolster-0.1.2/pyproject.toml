@@ -1,0 +1,69 @@
+[tool.poetry]
+name = "bolster"
+version = "0.1.2"
+description = "Bolster's Brain, you've been warned"
+authors = ["Andrew Bolster <me@andrewbolster.info>"]
+readme = "README.rst"
+homepage = "https://github.com/andrewbolster/bolster"
+repository = "https://github.com/andrewbolster/bolster"
+documentation = "https://bolster.readthedocs.io"
+classifiers = [
+    'Development Status :: 2 - Pre-Alpha',
+    'Intended Audience :: Developers',
+    'License :: OSI Approved :: GNU General Public License v3 (GPLv3)',
+    'Natural Language :: English',
+    'Programming Language :: Python :: 3',
+    'Programming Language :: Python :: 3.8',
+    'Programming Language :: Python :: 3.9',
+]
+
+[tool.poetry.dependencies]
+python = ">=3.8.0,<3.10"
+click = "^8.0.1"
+click-log = ">=0.3.2,<0.5.0"
+psycopg2-binary = "^2.9.1"
+tqdm = "^4.62.1"
+bs4 = "^0.0.1"
+requests = "^2.26.0"
+numpy = "^1.21.2"
+pandas = "^1.3.2"
+scipy = "^1.7.1"
+boto3 = "^1.18.29"
+requests-cache = "^0.9.3"
+openpyxl = "^3.0.9"
+
+[tool.poetry.scripts]
+bolster = "bolster.cli:main"
+
+[tool.poetry.urls]
+Changelog = "https://github.com/andrewbolster/bolster/releases"
+
+
+[tool.poetry.dev-dependencies]
+pip = "21.1.1"
+bump2version = "1.0.1"
+wheel = "0.36.2"
+watchdog = "2.1.7"
+flake8 = "4.0.1"
+tox = "3.24.5"
+coverage = "6.3.2"
+twine = "3.8.0"
+pytest = "7.1.1"
+pytest-cov = "3.0.0"
+Sphinx = "4.4.0"
+sphinx-click = "3.1.0"
+sphinx-issues = "3.0.1"
+nbsphinx = "^0.8.8"
+sphinx-rtd-theme = "1.0.0"
+sphinx-autodoc-typehints = "1.17.0"
+autoapi = "2.0.1"
+sphinx-autoapi = "1.8.4"
+sphinxcontrib-apidoc = "0.3.0"
+nox-poetry = "^0.9.0"
+nox = "^2022.1.7"
+flake8-annotations = "^2.7.0"
+
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
