@@ -1,0 +1,1 @@
+https://github.com/ariaghora/mpstemmer.git#egg=mpstemmer-0.1.0
