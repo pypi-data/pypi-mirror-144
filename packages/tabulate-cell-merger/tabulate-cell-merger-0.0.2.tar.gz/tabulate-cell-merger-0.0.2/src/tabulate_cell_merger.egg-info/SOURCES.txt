@@ -1,0 +1,10 @@
+LICENSE.txt
+README.md
+pyproject.toml
+setup.cfg
+src/tabulate_cell_merger/__init__.py
+src/tabulate_cell_merger/tabulate_cell_merger.py
+src/tabulate_cell_merger.egg-info/PKG-INFO
+src/tabulate_cell_merger.egg-info/SOURCES.txt
+src/tabulate_cell_merger.egg-info/dependency_links.txt
+src/tabulate_cell_merger.egg-info/top_level.txt

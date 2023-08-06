@@ -1,0 +1,64 @@
+Metadata-Version: 2.1
+Name: tabulate-cell-merger
+Version: 0.0.2
+Summary: Merge cells while tabulating tables.
+Home-page: https://github.com/pypa/sampleproject
+Author: Lolrenz Omega
+Author-email: llurygalbe@yahoo.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/pypa/sampleproject/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
+# Tabulate Cell Merger
+
+This is a package to merge cells when tabulating table. A table is a list of lists which can be represented into rows and columns.
+It is inspired in the already existing tabulate package.
+
+### How to import the module
+Module's name for importing:
+```
+import tabulate_cell_merger.tabulate_cell_merger
+```
+
+### How to use
+The module contains **one** function for you to use: `tabulate()`. This function accepts three arguments as following:
+```
+tabulate(table, colspan, rowspan)
+```
+`colspan` and `rowspan` are optional arguments. The `table` argument is required.
+
+To merge cells *horizontally*, use the colspan argument.<br>
+To merge cells *vertically*, use the rowspan argument.<br>
+These arguments are **dictionaries**.<br>
+They allow you to stretch cells over others.<br>
+Syntax:
+```
+colspan = {(y, x): value}
+rowspan = {(y, x): value}
+```
+For each cell you want to stretch, you have to associate its coordinates, having then a tuple as key, to a stretching value: 1 generates no stretching, 2 stretches over one other cell (to the right or to downwards), etc.<br>
+Here, `y` is the cell row, `x` the cell column, and `value` the stretching value.
+
+#### An example
+Input:
+```
+table = [['a1', 'b1'], ['a2', 'b2']]
+colspan = {(0, 0): 2}
+rowspan = {(0, 1): 2}
+```
+Output:
+```
++----+----+
+| a1      |
++----+    +
+| a2 |    |
++----+----+
+```
+
+
