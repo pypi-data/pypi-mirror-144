@@ -1,0 +1,2 @@
+django-river==3.3.0
+django==1.11.29
