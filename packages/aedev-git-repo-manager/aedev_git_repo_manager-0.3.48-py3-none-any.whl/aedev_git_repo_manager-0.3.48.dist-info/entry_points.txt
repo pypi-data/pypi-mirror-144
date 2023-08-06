@@ -1,0 +1,2 @@
+[console_scripts]
+grm = aedev.git_repo_manager:main
