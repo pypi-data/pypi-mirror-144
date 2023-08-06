@@ -1,0 +1,8 @@
+setup.py
+py_sonify/__init__.py
+py_sonify/functions.py
+py_sonify.egg-info/PKG-INFO
+py_sonify.egg-info/SOURCES.txt
+py_sonify.egg-info/dependency_links.txt
+py_sonify.egg-info/requires.txt
+py_sonify.egg-info/top_level.txt
