@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: hikyong
+Version: 0.0.1
+Summary: Hi Kyong!
+Home-page: UNKNOWN
+Author: Yieh Yuheng
+Author-email: yiehyuheng@gmail.com
+License: UNKNOWN
+Keywords: python,first package
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Education
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+
+A pythonic way to say hi to our prof, prof Kyong. Inspired by https://github.com/tsivinsky/hi-mom.
+
+
