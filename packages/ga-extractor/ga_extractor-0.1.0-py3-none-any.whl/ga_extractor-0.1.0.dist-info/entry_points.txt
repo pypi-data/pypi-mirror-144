@@ -1,0 +1,3 @@
+[console_scripts]
+ga-extractor=ga_extractor.extractor:extractor
+
