@@ -1,0 +1,3 @@
+[console_scripts]
+pysampling = pysampling.scripts.run:main
+
