@@ -1,0 +1,3 @@
+setuptools-scm
+ebs-linuxnode-coregui-kivy
+kivy_garden.ebs.marquee
