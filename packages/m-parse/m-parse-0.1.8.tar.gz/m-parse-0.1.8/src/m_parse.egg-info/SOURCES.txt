@@ -1,0 +1,11 @@
+setup.py
+src/m_parse/__init__.py
+src/m_parse/main.py
+src/m_parse/parse_json.py
+src/m_parse/version.py
+src/m_parse.egg-info/PKG-INFO
+src/m_parse.egg-info/SOURCES.txt
+src/m_parse.egg-info/dependency_links.txt
+src/m_parse.egg-info/entry_points.txt
+src/m_parse.egg-info/requires.txt
+src/m_parse.egg-info/top_level.txt
