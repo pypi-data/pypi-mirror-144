@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+super_colored_print/__init__.py
+super_colored_print/colored_print.py
+super_colored_print.egg-info/PKG-INFO
+super_colored_print.egg-info/SOURCES.txt
+super_colored_print.egg-info/dependency_links.txt
+super_colored_print.egg-info/top_level.txt
