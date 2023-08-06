@@ -1,0 +1,9 @@
+tga/__init__.py,sha256=cOK9b7CsCUPMaM-1URozxe9X7UeemrcFGFN_i337CNw,95
+tga/color.py,sha256=7syK_JJ-LANybGxT19NSG7A02QsD7YaLxXfYhNOhfO4,660
+tga/image.py,sha256=noLS6lUeOysW7cX5Y9_vnbQt0hZk2Cl8okMIbk67CzI,4157
+tga/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tga-0.0.2.dist-info/LICENSE.txt,sha256=R4NlpVHuJeZDfT5N3vYUAVqT8jVlVzh7Wpc2YOZh3ik,1080
+tga-0.0.2.dist-info/METADATA,sha256=_lb-C580x-dVPdwH2vWczzdJIH2IuWKi7LlZiIBkUPQ,2581
+tga-0.0.2.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+tga-0.0.2.dist-info/top_level.txt,sha256=TfGrBLWjEwn4dHwJqjhjCURR-u0Lwe6HDG0eED3azeg,4
+tga-0.0.2.dist-info/RECORD,,
