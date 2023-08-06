@@ -1,0 +1,13 @@
+wxPython>=4.0
+numpy>=1.0
+scipy>=0.8
+matplotlib>=1.0
+pillowfight
+xlrd>=0.7
+xlwt>=0.7
+mahotas>=0.5
+EllipseFitter>=0.1.3
+FilenameSort>=0.2.2
+GifTiffLoader>=0.2.4
+ImageContour>=0.2.7
+np_utils>=0.5.4
