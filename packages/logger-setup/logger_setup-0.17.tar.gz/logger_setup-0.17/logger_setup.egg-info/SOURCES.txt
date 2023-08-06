@@ -1,0 +1,11 @@
+LICENSE
+README.rst
+setup.cfg
+setup.py
+logger_setup/__init__.py
+logger_setup/crashlogger.py
+logger_setup/logger_setup.py
+logger_setup.egg-info/PKG-INFO
+logger_setup.egg-info/SOURCES.txt
+logger_setup.egg-info/dependency_links.txt
+logger_setup.egg-info/top_level.txt

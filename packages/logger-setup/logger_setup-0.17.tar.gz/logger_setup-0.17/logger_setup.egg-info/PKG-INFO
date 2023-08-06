@@ -1,0 +1,30 @@
+Metadata-Version: 1.1
+Name: logger-setup
+Version: 0.17
+Summary: Collects log setup and handling from all projects into one central place.
+Home-page: UNKNOWN
+Author: Christopher Toth
+Author-email: q@q-continuum.net
+License: UNKNOWN
+Description: logger_setup: Logging configuration used by accessible apps
+        ===========================================================
+        
+        This repository contains a collection of logging functions used mainly by applications from
+        `accessible apps <http://getaccessibleapps.com>`_.
+        
+        While you are more than welcome to include this module standalone, it was meant specifically for use with continuum projects and might be considered somewhat uncompromising otherwise.
+        
+        Features
+        --------
+        
+        * A CrashLogger to handle unplanned application crashes
+        * Initialization of debug and error logs
+        * Optionally logs all unhandled tracebacks for later analysis
+        * Support for remote logging to a syslog server
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Topic :: Software Development :: Libraries
