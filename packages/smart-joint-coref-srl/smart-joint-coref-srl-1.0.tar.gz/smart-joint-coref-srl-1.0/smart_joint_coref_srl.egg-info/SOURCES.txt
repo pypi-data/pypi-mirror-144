@@ -1,0 +1,6 @@
+setup.py
+smart_joint_coref_srl.egg-info/PKG-INFO
+smart_joint_coref_srl.egg-info/SOURCES.txt
+smart_joint_coref_srl.egg-info/dependency_links.txt
+smart_joint_coref_srl.egg-info/requires.txt
+smart_joint_coref_srl.egg-info/top_level.txt
