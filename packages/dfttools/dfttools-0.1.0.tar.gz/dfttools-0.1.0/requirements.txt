@@ -1,0 +1,8 @@
+scipy
+numpy
+numericalunits
+matplotlib
+svgwrite
+requests
+pycoordinates
+attrs
