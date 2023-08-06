@@ -1,0 +1,11 @@
+Metadata-Version: 1.2
+Name: aicore_cloudword
+Version: 0.0.2
+Summary: A simple package to generate wordclouds from Google Sheets
+Home-page: UNKNOWN
+Author: Ivan Ying
+Author-email: ivan@theaicore.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.6
