@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: purpleml
+Version: 0.2.0
+Summary: Collection of tools for everyday machine learning and data science tasks
+Home-page: https://github.com/pyscaffold/pyscaffold/
+Author: Martin Becker
+Author-email: mgbckr@stanford.edu
+License: MIT
+Project-URL: Documentation, https://pyscaffold.org/
+Platform: any
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python
+Description-Content-Type: text/markdown; charset=UTF-8; variant=GFM
+Provides-Extra: testing
+License-File: LICENSE.txt
+
+# purpleml
+
+Collection of tools for everyday machine learning and data science tasks ... probaby hopelessly overengineered.
+
+TODO: This is an initial commit and needs some docmentation.
+
+<!-- pyscaffold-notes -->
+
+## Note
+
+This project has been set up using PyScaffold 4.2.1. For details and usage
+information on PyScaffold see https://pyscaffold.org/.
+
+
