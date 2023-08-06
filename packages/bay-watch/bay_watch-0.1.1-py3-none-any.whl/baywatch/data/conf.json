@@ -1,0 +1,16 @@
+{
+    "mirror": "https://tpb23.ukpass.co",
+    "command": "peerflix '{}' --mpv -r -d -t",
+    "command_multifile": "peerflix '{}' --mpv -r -d -t -l",
+    "user_agent": "baywatch-v{}",
+    "transmission": {
+        "username": null,
+        "password": null,
+        "host": "localhost",
+        "port": 9091,
+        "path": "/transmission/",
+        "download_dir": "~/Downloads/",
+        "try_open": true,
+        "command": "transmission-gtk"
+    }
+}
