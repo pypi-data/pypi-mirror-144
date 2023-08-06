@@ -1,0 +1,84 @@
+Metadata-Version: 2.1
+Name: calculator_102
+Version: 0.1.7
+Summary: Simple calculator package
+Author-email: Jolanta <jolanta3210@gmail.com>
+Description-Content-Type: text/markdown
+Classifier: License :: OSI Approved :: MIT License
+
+## calculator_102
+
+calculator_102 is a Python package that contains functions for simple calculation.
+
+## Installation
+Use the package manager pip to install calculator_102.
+```
+pip install calculator_102
+```
+
+## Usage
+Calculator has its own memory, meaning it can manipulate its starting number 0 until it is reset.
+
+Features:
+```
+>>> calculator = Calculator()
+```
+- memory
+
+  shows current value in memory:
+```
+# Memory value = 50
+>>> calculator.memory()
+50
+```
+- add
+
+    adds number to memory value:
+```
+# Memory value = 0
+>>> calculator.add(2)
+2
+```
+- subtract
+
+    subtracts number from memory value:
+```
+# Memory value = 10
+>>> calculator.subtract(4)
+6
+```
+- multiply
+
+    multiplies memory value by number:
+```
+# Memory value = 10
+>>> calculator.multiply(2)
+20
+```
+- divide
+
+    divides memory value by number:
+```
+# Memory value = 10
+>>> calculator.divide(2)
+5.0
+```
+- n_root
+
+    finds the root of memory value by the inputted number:
+```
+# Memory value = 100
+>>> calculator.n_root(2)
+10.0
+```
+- reset
+
+    resets memory value to its initial value - 0:
+```
+# Memory value = 100
+>>> calculator.reset()
+# Memory value = 0
+```
+
+## License
+[MIT](https://choosealicense.com/licenses/mit/)
