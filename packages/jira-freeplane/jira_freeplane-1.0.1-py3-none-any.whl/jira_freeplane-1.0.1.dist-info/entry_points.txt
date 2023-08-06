@@ -1,0 +1,3 @@
+[console_scripts]
+jira-freeplane=jira_freeplane.runtime:run_mindmap_to_jira
+
