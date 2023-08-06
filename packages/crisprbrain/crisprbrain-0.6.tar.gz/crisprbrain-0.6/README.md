@@ -1,0 +1,41 @@
+This is the official package to access to metadata and data of [CRISPRbrain](https://crisprbrain.org) screens.
+
+
+[CRISPRbrain](https://crisprbrain.org) is a Data Commons for functional genomics screens in differentiated human cell types. Its goal is to organize and standardize results from such screens carried out by different research groups, and to enable users to explore, visualize, and compare them. CRISPRbrain complements Data Commons focused on screens in cancer cell lines for survival-related phenotypes, such as the [Cancer Dependency Map](https://depmap.org/portal/). 
+
+CRISPRbrain is an open-access, cloud-based platform striving to make data and code easily accessible to the scientific community enabling scientific transparency and replication #OpenScience.
+
+CRISPRbrain is developed by the scientists and engineers at the [Kampmann Lab (UCSF)](http://kampmannlab.ucsf.edu) 
+and [Data Tecnica International](https://www.datatecnica.com/). 
+CRISPRbrain is funded by the 
+[Center for Alzheimer’s and Related Dementias (CARD)](https://www.nia.nih.gov/research/card) of the 
+[National Institutes of Health (NIH)](https://www.nih.gov/) under Award Number 
+[ZO1 AG000534-02](https://intramural.nih.gov/search/searchview.taf?ipid=114409&ts=1618927049), and by NIH/NIA grant
+[R01 AG062359](https://reporter.nih.gov/project-details/9950942).  The content is solely the responsibility of
+the authors and does not necessarily represent the official views of the National Institutes of Health.
+
+
+# Installation
+```bash
+pip install crisprbrain
+````
+
+# Usage
+```python
+import crisprbrain
+
+# Initialize the CRISPRbrain API Client
+client = crisprbrain.Client()
+
+# List Available Screens
+print("Available Screens are:", str.join(", ", client.screens.keys()))
+
+# Access a Screen
+screen = client.screens["Glutamatergic Neuron-Survival-CRISPRi"]
+screen_type = screen.metadata["Screen Type"]
+print(screen_type, "RNA-seq")
+
+# Access the Screen Data
+df = screen.to_data_frame()
+print(df.describe())
+```

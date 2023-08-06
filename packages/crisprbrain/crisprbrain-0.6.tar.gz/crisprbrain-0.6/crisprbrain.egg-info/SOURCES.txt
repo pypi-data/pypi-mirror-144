@@ -1,0 +1,9 @@
+README.md
+setup.py
+crisprbrain/__init__.py
+crisprbrain/client.py
+crisprbrain.egg-info/PKG-INFO
+crisprbrain.egg-info/SOURCES.txt
+crisprbrain.egg-info/dependency_links.txt
+crisprbrain.egg-info/requires.txt
+crisprbrain.egg-info/top_level.txt
