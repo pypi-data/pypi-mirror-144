@@ -1,0 +1,84 @@
+Metadata-Version: 2.1
+Name: extraire
+Version: 0.1.4
+Summary: Dumps onboard SHSH blobs with a valid generator for jailbroken iOS devices
+License: 0BSD
+Keywords: ios,jailbreak,iboot,img4,shsh,blob
+Author: beerpiss
+Author-email: lacvtg.a1.2023@gmail.com
+Requires-Python: >=3.6.2,<3.11
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Utilities
+Requires-Dist: fabric (>=2.7.0,<3.0.0)
+Requires-Dist: pyasn1 (>=0.4.8,<0.5.0)
+Requires-Dist: rich (>=12.0.1,<13.0.0)
+Project-URL: Bug Tracker, https://github.com/beerpiss/extraire/issues
+Description-Content-Type: text/markdown
+
+<h1 align="center">extraire</h1>
+
+<p align="center">
+<a href="https://github.com/beerpiss/extraire/actions"><img alt="Actions Status" src="https://github.com/beerpiss/extraire/actions/workflows/build.yaml/badge.svg"></a>
+<a href="https://github.com/psf/black"><img alt="Code style: black" src="https://img.shields.io/badge/code%20style-black-000000.svg"></a>
+<a href="https://github.com/beerpiss/extraire/blob/trunk/LICENSE"><img alt="License: 0BSD" src="https://img.shields.io/static/v1?label=License&message=0BSD&color=brightgreen"></a>
+<img alt="Supported Python versions: 3.6.2, 3.7, 3.8, 3.9, 3.10" src="https://img.shields.io/badge/python-3.6.2%20%7C%203.7%20%7C%203.8%20%7C%203.9%20%7C%203.10-blue">
+</p>
+
+> extraire (verb): to extract
+
+Simple program to dump onboard SHSH blobs with a valid generator for **jailbroken** iOS devices. Supports Windows, macOS and Linux.
+
+## What's this?
+This program dumps the IMG4 ApTicket from /dev/disk1 on the device, copies it to your computer and converts it to a valid SHSH blob, no external dependencies required.
+
+Even though the dumped SHSH blob is valid, you will still be limited by a few factors:
+- SEP/Baseband/Rose firmware compatibility with the currently signed iOS version
+- If you've updated to your current iOS version with the Settings app, you cannot use the dumped blob without a bootROM exploit (e.g. checkm8).
+
+## Requirements
+OpenSSH Server installed on your jailbroken device. That's it!
+
+## Installation
+### From PyPI
+```
+pip install -U extraire
+```
+### Standalone binaries
+Standalone binaries for Windows, macOS and Linux can be found [here.](https://github.com/beerpiss/extraire/releases/tag/v0.1.4)
+
+You will need to allow executable permission for macOS and Linux after downloading. Run `chmod +x /path/to/extraire` in a terminal (replace `/path/to/extraire` with the actual path).
+
+## Usage
+Run `extraire` only for an interactive guide.
+
+```
+❯ extraire --help
+usage: extraire [-h] [-p PASSWORD] [-o OUTPUT] [--non-interactive] [HOST[:PORT]]
+
+positional arguments:
+  HOST[:PORT]           The device's IP address
+
+optional arguments:
+  -h, --help            show this help message and exit
+  -p PASSWORD, --password PASSWORD
+                        The device's root user password
+  -o OUTPUT, --output OUTPUT
+                        Where to save the dumped blob
+  --non-interactive     Don't interactively ask for missing value (assume default if missing)
+```
+
+## Ugh, I don't like standalone binaries?
+Fine. Clone this repo, install the dependencies with `poetry install` or `pip install .`, and run `python3 -m extraire`
+
+## Credits
+[tihmstar](https://github.com/tihmstar): without his [img4tool](https://github.com/tihmstar/img4tool) code I wouldn't be able to write code for dealing with IMG4s in Python.
+
