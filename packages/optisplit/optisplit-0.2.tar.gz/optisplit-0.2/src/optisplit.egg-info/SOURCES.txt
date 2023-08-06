@@ -1,0 +1,11 @@
+LICENCE.txt
+pyproject.toml
+setup.cfg
+setup.py
+src/optisplit/__init__.py
+src/optisplit/cv_balance.py
+src/optisplit.egg-info/PKG-INFO
+src/optisplit.egg-info/SOURCES.txt
+src/optisplit.egg-info/dependency_links.txt
+src/optisplit.egg-info/requires.txt
+src/optisplit.egg-info/top_level.txt
