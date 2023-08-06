@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: metalogistic
+Version: 0.0.8
+Summary: A Python package for the metalogistic distribution. The metalogistic or metalog distribution is a highly flexible probability distribution that can be used to model data without traditional parameters.
+License: GNU Affero General Public License v3
+Author: tadamcz
+Author-email: tmkadamcz@gmail.com
+Requires-Python: >=3.8,<3.9
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Requires-Dist: matplotlib (>=3.5.1,<4.0.0)
+Requires-Dist: numpy (>=1.22.3,<2.0.0)
+Requires-Dist: scipy (>=1.8.0,<2.0.0)
