@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: bashbox
+Version: 1.0.0
+Summary: Bash's textbox package.
+Home-page: https://github.com/bash-elliott/bashbox
+Author: Bash Elliott
+Author-email: spicethings9@gmail.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/bash-elliott/bashbox/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# bashbox
+[![Upload Python Package](https://github.com/bash-elliott/textbox-python/actions/workflows/python-publish.yml/badge.svg)](https://github.com/bash-elliott/textbox-python/actions/workflows/python-publish.yml)
+
+Bash's textbox package in Python.
+
+
