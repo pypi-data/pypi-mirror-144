@@ -1,0 +1,15 @@
+LICENSE.txt
+README.md
+setup.cfg
+setup.py
+src/PyDB/__init__.py
+src/PyDB/db/__init__.py
+src/PyDB/db/economy_db.py
+src/PyDB/db/errors.py
+src/PyDB/db/level_db.py
+src/PyDB/db/warns_db.py
+src/PyDcDB.egg-info/PKG-INFO
+src/PyDcDB.egg-info/SOURCES.txt
+src/PyDcDB.egg-info/dependency_links.txt
+src/PyDcDB.egg-info/requires.txt
+src/PyDcDB.egg-info/top_level.txt
