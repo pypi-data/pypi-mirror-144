@@ -1,0 +1,10 @@
+setup.cfg
+setup.py
+litAPI/UlyssesAPI.py
+litAPI/__init__.py
+litAPI.egg-info/PKG-INFO
+litAPI.egg-info/SOURCES.txt
+litAPI.egg-info/dependency_links.txt
+litAPI.egg-info/not-zip-safe
+litAPI.egg-info/requires.txt
+litAPI.egg-info/top_level.txt
