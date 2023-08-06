@@ -1,0 +1,9 @@
+certbot/__init__.py,sha256=-P9yzaIT65eRJZ9ivJKM5SI8HzsSNa_JKCHMTrd14vI,20756
+certbot/py.typed,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+certbot/_jsii/__init__.py,sha256=p3TKC8-w40_63YVQqv1Y99Tl3F79Avxt1qPUU1EUg2w,702
+certbot/_jsii/cdk-library-certbot@1.1.38.jsii.tgz,sha256=t4DWA2Pgr9nwhNpudobxuwG344uWE1rrnKIpXF5ZqqQ,18391710
+renovosolutions.aws_cdk_certbot-1.1.38.dist-info/LICENSE,sha256=z8d0m5b2O9McPEK1xHG_dWgUBT6EfBDz6wA0F7xSPTA,11358
+renovosolutions.aws_cdk_certbot-1.1.38.dist-info/METADATA,sha256=gySV7cUCr_HgBYP_t3UJy3sgzjk8Xp51niXKCWxn2mI,3870
+renovosolutions.aws_cdk_certbot-1.1.38.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+renovosolutions.aws_cdk_certbot-1.1.38.dist-info/top_level.txt,sha256=a6gAvfJ6cTFzjcQajUGP6DAhzcrQso-CgjGw1NXaXfI,8
+renovosolutions.aws_cdk_certbot-1.1.38.dist-info/RECORD,,
