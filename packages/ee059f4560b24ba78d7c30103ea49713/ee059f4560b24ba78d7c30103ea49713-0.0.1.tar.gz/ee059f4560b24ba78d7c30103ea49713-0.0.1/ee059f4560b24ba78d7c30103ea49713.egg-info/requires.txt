@@ -1,0 +1,1 @@
+python-lorem>=1.1.2

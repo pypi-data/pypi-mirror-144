@@ -1,0 +1,12 @@
+LICENSE.txt
+README.md
+setup.cfg
+setup.py
+bin/generate-text.py
+ee059f4560b24ba78d7c30103ea49713/__init__.py
+ee059f4560b24ba78d7c30103ea49713/paragraphs.py
+ee059f4560b24ba78d7c30103ea49713.egg-info/PKG-INFO
+ee059f4560b24ba78d7c30103ea49713.egg-info/SOURCES.txt
+ee059f4560b24ba78d7c30103ea49713.egg-info/dependency_links.txt
+ee059f4560b24ba78d7c30103ea49713.egg-info/requires.txt
+ee059f4560b24ba78d7c30103ea49713.egg-info/top_level.txt
