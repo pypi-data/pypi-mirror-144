@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: marilyn-api
+Version: 0.1.0
+Summary: Async client for Marilyn API
+Home-page: https://github.com/pavelmaksimov/marilyn-api
+Keywords: client,api,python,marilyn
+Author: pmaksimov
+Author-email: vur21@ya.ru
+Requires-Python: >=3.7,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: aiohttp (>=3.8.1,<4.0.0)
+Description-Content-Type: text/markdown
+
+```bash
+python Examples/statistics_detailed.py --help
+python Examples/statistics_detailed.py -r https://app.mymarilyn.ru -a 100500 -t MytoKeN12345 -c Examples/detailed-stats-config.json
+```
+
+```bash
+python Examples/project_placements.py.py --help
+python Examples/project_placements.py.py -r https://app.mymarilyn.ru -a 100500 -p 12345 -t MytoKeN12345
+```
+
+
