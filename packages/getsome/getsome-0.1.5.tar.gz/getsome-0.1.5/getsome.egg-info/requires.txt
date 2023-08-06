@@ -1,0 +1,4 @@
+SQLAlchemy==1.4.29
+click==7.1.2
+feedparser==6.0.8
+requests==2.27.1
