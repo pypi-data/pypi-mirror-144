@@ -1,0 +1,13 @@
+# pkg deps
+tcs-protowhat==2.1.4
+antlr-ast~=0.8.1
+
+# test deps
+pytest~=3.7.2
+codecov~=2.0.15
+pytest-cov~=2.5.1
+pexpect~=4.6.0
+
+# doc deps
+sphinx~=1.7.7
+sphinx_rtd_theme~=0.4.1
