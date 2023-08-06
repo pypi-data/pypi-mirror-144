@@ -1,0 +1,6 @@
+README.md
+setup.py
+deepton/deepton.egg-info/PKG-INFO
+deepton/deepton.egg-info/SOURCES.txt
+deepton/deepton.egg-info/dependency_links.txt
+deepton/deepton.egg-info/top_level.txt
