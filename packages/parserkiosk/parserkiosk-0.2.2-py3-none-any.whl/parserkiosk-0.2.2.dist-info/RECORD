@@ -1,0 +1,15 @@
+parserkiosk/__init__.py,sha256=VHiClilO8IMp4FIBS5UUhTxmNt1dV4fjErnN1tTfWIc,115
+parserkiosk/colors.py,sha256=XC9fn0pPxhVsqSEFssTC1XEU770DtzM5DYmbXQWfOeE,829
+parserkiosk/parserkiosk.py,sha256=L00AQFHUa9AhD3CgEYMTQRs0K9MawwgNSyyX4CgYyIE,5773
+parserkiosk/schema.py,sha256=NqvO0BmYclf4mJ7CM8suPhkYHKUH8xa6KC8lqWGA8x8,2470
+parserkiosk/schemas/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+parserkiosk/schemas/config_schema.yaml,sha256=b4aV6Jle1EX_XVbLS21FKLxLLTBIvTSiSaqNpuY6Qms,134
+parserkiosk/schemas/test_schema.yaml,sha256=vMXOlmVAgeTtfzfmyu69A-9fpv_7-lKh3gpxBI8cjRQ,326
+parserkiosk/templates/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+parserkiosk/templates/node_js.jinja2,sha256=T-m_91YKVYqec9i8-nLh1uXJDNRW2U9OsiYE6iSPB5s,1327
+parserkiosk/templates/python.jinja2,sha256=1z5_WkLvYKtaM3Ws1fr6DZYlsO7_xqn3P-wDEV2Ae8E,1412
+parserkiosk-0.2.2.dist-info/entry_points.txt,sha256=BO8EuD-hHCG6CPRu7dWXwqR-Nu4At2TU9DitRnHRk1Y,48
+parserkiosk-0.2.2.dist-info/LICENSE.md,sha256=21vTwQQUKfxAdExFYWPNLCom9_jCM-rQTuQhvXhGJ1k,35150
+parserkiosk-0.2.2.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+parserkiosk-0.2.2.dist-info/METADATA,sha256=DI1P2LS6GvYAJHj0nrXLusP88uN2TKbMGiM18Dr7QdU,5039
+parserkiosk-0.2.2.dist-info/RECORD,,
