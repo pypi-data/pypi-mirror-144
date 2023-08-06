@@ -1,0 +1,13 @@
+_rostpy.cpython-38-i386-linux-gnu.so,sha256=Vog9YVdcD8Y26PFJAUEE9I7sdXJTy72hWuX-qX2L0To,786216
+_rostpy.pypy38-pp73-x86-linux-gnu.so,sha256=OQieYzJUkHqYVnqRyr-AbddDajfT5taS5nx1pJKVYB8,787848
+rostpy-0.1.3.dist-info/RECORD,,
+rostpy-0.1.3.dist-info/entry_points.txt,sha256=A_XkDORh8m59_O_lROuwEJxilNSzKZk9YGzDDqKdQ7g,47
+rostpy-0.1.3.dist-info/METADATA,sha256=bJbSdtnyqJdR-jOUwkYP0OPXXAAvk7qI-IIGwvULW44,2096
+rostpy-0.1.3.dist-info/LICENSE.txt,sha256=QzJlKwb-UATH8dwVpRtqq1G6tPWxqBw4iBYsHgUR-Sg,1082
+rostpy-0.1.3.dist-info/WHEEL,sha256=g6G_oxbQCy4PB4CoAO1VhTWsiJhnX5JjS_hxGwqyO6U,158
+rostpy-0.1.3.dist-info/top_level.txt,sha256=xF6xGD93bXPlMQ8nK9qh_e4t0QIJR6biC3ricJPykqs,15
+rostpy/_version.py,sha256=EmE9e3SDY8LFG36toeKzMsdfCdJPAswq0Y7LpEvajJY,142
+rostpy/__init__.py,sha256=0zpsWt00F3aNBiEFMO_Yi9PhErODlmLmX6van23bOKA,253
+rostpy/utils.py,sha256=FpaxJXKRy11bH0elp6oHgT9ZBPTx2LEtiiWNGjuEeJc,4516
+rostpy/bindings.cpp,sha256=Yg4TkJxNkVqc4hfa6-g0XbHe3CgbSRw1vf_wQ2d2yJI,5059
+rostpy/__main__.py,sha256=v0uH9_PZEvgNo-BKslmpj1xDxN6F1rd_fBXe71_tGjg,12702
