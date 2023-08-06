@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+get_unipa.egg-info/PKG-INFO
+get_unipa.egg-info/SOURCES.txt
+get_unipa.egg-info/dependency_links.txt
+get_unipa.egg-info/requires.txt
+get_unipa.egg-info/top_level.txt
+unipa/__init__.py
