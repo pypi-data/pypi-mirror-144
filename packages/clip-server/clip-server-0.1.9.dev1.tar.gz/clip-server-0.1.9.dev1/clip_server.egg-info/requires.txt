@@ -1,0 +1,10 @@
+ftfy
+jina>=3.2.10
+regex
+torch
+torchvision
+
+[onnx]
+onnx
+onnxruntime
+onnxruntime-gpu
