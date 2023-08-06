@@ -1,0 +1,13 @@
+copypastor/__init__.py,sha256=v9z4Os-UakDphGGgSd4uqdCFL3VYniQ6V7dNk1T4ZfY,25
+copypastor/copypastor.py,sha256=KrQEJ7rNkS1qqlLl5VWIbRIvvnJHD-EUFxo96WAZbEs,6792
+copypastor/config/__init__.py,sha256=vfAjkRsoHnOzqzePPJzdC8fls1IS5O_szG3Fcd6WNwI,23
+copypastor/config/default_config.py,sha256=3_ta6tbdBKAkMXH4BvEMjpV3hVXiQH7DWXv7Huc7Kzo,1447
+copypastor/src/__init__.py,sha256=Kyrg_TN-ioN0et4v9npoiVXL8ok431VZZeHIzG1HAKE,20
+copypastor/src/client.py,sha256=ddac6mS2oVG5KcDANdA4ppSMNUosuvklNIzTg5o33Uk,2661
+copypastor/src/server.py,sha256=o_UhrT3vr5qUETBYdvq5RhwzB9hcl5rcamyq2YDAACA,3110
+copypastor-1.0.0.dist-info/LICENSE.md,sha256=R5hmDk19rePuVqzxSqgx82lIsGiXL-1V1dndGoi95JE,1079
+copypastor-1.0.0.dist-info/METADATA,sha256=5pj6DTP8oGjKaal3NcG1iAi_lrJkoD8LeYBUP0Cw0Ag,4424
+copypastor-1.0.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+copypastor-1.0.0.dist-info/entry_points.txt,sha256=hI-3oqujEcMNlcShJt6vc4GxMzQySLv55ju2FUeeFlQ,60
+copypastor-1.0.0.dist-info/top_level.txt,sha256=raK1qsDFWgLWr20yee2upGH3_3ZhpG-j--F8pO7SXZc,11
+copypastor-1.0.0.dist-info/RECORD,,
