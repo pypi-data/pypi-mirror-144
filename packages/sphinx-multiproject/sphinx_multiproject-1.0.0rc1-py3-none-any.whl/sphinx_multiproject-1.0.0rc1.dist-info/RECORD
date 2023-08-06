@@ -1,0 +1,11 @@
+multiproject/__init__.py,sha256=GHa77fu-wKZ_xMBouHg09-Qy7P5QyW9MLDMiAJ4PW_E,63
+multiproject/extension.py,sha256=frmbASVZU_3vP-k42qY5PZ3yCzH9DUwJ2c-AqC4zAwY,3056
+multiproject/utils.py,sha256=ZTuID5BB5WXkN6a_EtXvB3TWUoDzkturAKUQmuYTKiA,797
+sharedconf/__init__.py,sha256=nrv7UdJSfBzPlzkd0iEY5MO5xD9HhUXNY_tIFQclL40,24
+sharedconf/extension.py,sha256=z5A931NpOgrc8rptqYi0VSmO1SXulBJB5KahuQRgZZI,2544
+sharedconf/utils.py,sha256=o8dzWzUO71FKcObqsj6Oig7QmsGRQ9dCBq4hKFg0DT0,779
+sphinx_multiproject-1.0.0rc1.dist-info/LICENSE,sha256=OYcXv8e7JGxgReyYE9DPEMC9F5NjWH9V4lDi0iX2ku8,1070
+sphinx_multiproject-1.0.0rc1.dist-info/METADATA,sha256=E3wG5jUqZKpbu-vLW-SElzEZj3H9k3l97dwJbPjZOp0,1647
+sphinx_multiproject-1.0.0rc1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+sphinx_multiproject-1.0.0rc1.dist-info/top_level.txt,sha256=UjU_EDyi_tsaYKYHaVlRn4ORvhs6IvHN4fgyXNj06xc,13
+sphinx_multiproject-1.0.0rc1.dist-info/RECORD,,
