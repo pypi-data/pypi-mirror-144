@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: motif-c
+Version: 0.0.1
+Summary: motif related function
+Home-page: UNKNOWN
+Author: wzp
+Author-email: wangzipengnv@163.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Requires-Python: >=3.6, <3.8
+Requires-Dist: networkx
+Requires-Dist: tqdm
+Requires-Dist: pandas
+
+UNKNOWN
+
+
