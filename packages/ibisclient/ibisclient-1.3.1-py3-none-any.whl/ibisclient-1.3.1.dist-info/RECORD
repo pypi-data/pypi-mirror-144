@@ -1,0 +1,8 @@
+ibisclient/__init__.py,sha256=Am8hshZxjpswvyEBK1aHl0gj8BNN52oHvlfwiE-dc1U,1118
+ibisclient/connection.py,sha256=KceBEhk09QCtQufE2NWUi4i6ucxQx6tSbjtAELew_b0,11301
+ibisclient/dto.py,sha256=CVll9E2BucPYDZPVvG1K6lFkJsxEFEvsgT9UWYpyOeU,52403
+ibisclient/methods.py,sha256=Jd8RudVJ0L1OJTqfIIYhEhYnKK6tSvs7Nt6kv5tpGLI,96894
+ibisclient-1.3.1.dist-info/METADATA,sha256=0ZUcrJCGyyjyhyhU3Qk8Zk2IHqLziecQU83enys5u6w,208
+ibisclient-1.3.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+ibisclient-1.3.1.dist-info/top_level.txt,sha256=j45HB9ZuruFYaNwVfLBtsTN2EnT0zwenHgl7DX-8cbI,11
+ibisclient-1.3.1.dist-info/RECORD,,
