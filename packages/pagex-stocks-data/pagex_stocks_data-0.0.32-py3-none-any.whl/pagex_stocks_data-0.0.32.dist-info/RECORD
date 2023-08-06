@@ -1,0 +1,9 @@
+pagexdata/__init__.py,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+pagexdata/database.py,sha256=NGBvrSR2b_fJuu4_HiOJedxJts1s_lylElEGHqAPPRI,976
+pagexdata/database_service.py,sha256=ocORJ14QaULo1O5Vf-yMAE933uRA1AwrjSTm8yLiqxQ,4110
+pagexdata/entities.py,sha256=d2VzBnYbmEp71xCpiTIgO4np-Zkrk2LEO85PHqhXOMw,8291
+pagex_stocks_data-0.0.32.dist-info/LICENSE,sha256=2jxJliiyQQWVWFPplpiNLPaHZQwFxwLmusoy7XrXqII,1071
+pagex_stocks_data-0.0.32.dist-info/METADATA,sha256=-hJu1FAz81kUPcWsQZEdDcliJnt4wRCk58TeYxCEfhI,1128
+pagex_stocks_data-0.0.32.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+pagex_stocks_data-0.0.32.dist-info/top_level.txt,sha256=JvVqg_IsgA6abiXUkh8b4GK0VG6Vdo3Jtw021rIoMh4,10
+pagex_stocks_data-0.0.32.dist-info/RECORD,,
