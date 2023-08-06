@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: dicom-image-reader
+Version: 0.0.2
+Summary: Python package to read images from DICOM files
+Home-page: UNKNOWN
+Author: Dibakar Saha
+Author-email: dibakarsaha1234@gmail.com
+License: UNKNOWN
+Keywords: python,first package
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Education
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Requires-Dist: pydicom
+Requires-Dist: pylibjpeg-libjpeg
+Requires-Dist: python-gcm
+
+Read pixel data from DICOM files like an image
+
+
