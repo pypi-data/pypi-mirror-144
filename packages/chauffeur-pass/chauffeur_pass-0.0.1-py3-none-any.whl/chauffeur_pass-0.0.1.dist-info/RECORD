@@ -1,0 +1,11 @@
+chauffeur/__init__.py,sha256=00PAfRD1UKavoVCaxsm2y0c7-fDR7jE_nGt56wxpvX0,147
+chauffeur/filters.py,sha256=WbiaxqJYza_1siJPgqmB8yDwfPGCt_4rG_Fk-tWyxrE,4659
+chauffeur/formats.py,sha256=1n64zLczsnrSYMhOgtbclOPORgbW0bQQbLQAmGkwiJg,2796
+chauffeur/grammar.py,sha256=V0A1SB43SHZ_MYteaQRF1ylTB1Oxgo6oHhiuIu9OA3M,3682
+chauffeur/query.py,sha256=9o8gZJvYomEGJqD2KgM6wnX1poHwcmssDcl3fQ7KAZI,4526
+chauffeur/settings.py,sha256=Wda9Vfzg-X7_5osw9O6d6x2gxrWDVshjYROqqfBlWic,2806
+chauffeur_pass-0.0.1.dist-info/LICENSE,sha256=6GmDsLoOOXACqbR3NmryxFL3LeNC8qRXoqfQaHfVguk,1075
+chauffeur_pass-0.0.1.dist-info/METADATA,sha256=Lw4r87GBoWmuhF-UGz_64dGFxEYMazAm2C_T_pTzZ0o,6801
+chauffeur_pass-0.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+chauffeur_pass-0.0.1.dist-info/top_level.txt,sha256=XoaQNVTo93kd3Qv81td64VMAvhxHynOwUm1L6pZWwWM,10
+chauffeur_pass-0.0.1.dist-info/RECORD,,
