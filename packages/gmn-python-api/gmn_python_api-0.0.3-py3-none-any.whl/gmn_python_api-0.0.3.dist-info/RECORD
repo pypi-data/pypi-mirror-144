@@ -1,0 +1,12 @@
+gmn_python_api/__init__.py,sha256=JuZXDsVcbv7TYsQ-hZ70UG_XrF4X5OduUjPz8kU9GqQ,409
+gmn_python_api/__main__.py,sha256=5IrXk10Cdj2aSi7C2t3fwMDviNnNTau-rqo1q84rnLI,266
+gmn_python_api/data_directory.py,sha256=rffiHaZ4cxFz_NhdHzdpwQlQYp1v7fLfA3aKbiuzKNE,6482
+gmn_python_api/data_models/traj_summary_20220304_solrange_344.0-345.0.txt,sha256=Wi3AwHzKMy6HYRgj5ezZfNbO3OEj59avNa6fqJJwf-s,496793
+gmn_python_api/iau_showers.py,sha256=FifTCWkZbLRfDDoVCTBT7CfI_KSDFbyJE-hAHZqOs3g,1258
+gmn_python_api/trajectory_summary_reader.py,sha256=406uQp-rMm6RnOFCGkGuJagXy9EwlSbYRh4lMkF5j6U,5127
+gmn_python_api/trajectory_summary_schema.py,sha256=QeCkHFzg0lxIDsw0kp_ro9wmwUYAcrDnJLsTL_zwM9o,1379
+gmn_python_api-0.0.3.dist-info/entry_points.txt,sha256=XeKc2irCLM4nA3Nbhpekq9Mktikj7pn57RuqiL5vlgw,63
+gmn_python_api-0.0.3.dist-info/LICENSE.rst,sha256=NliEQM8c-dQQDpU6c5QwIxO3y4fhNdmryYq1xaOCg-o,1084
+gmn_python_api-0.0.3.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+gmn_python_api-0.0.3.dist-info/METADATA,sha256=gMpRzW7DV4z60qPTrcWGH2CuHSyZm0IM-TY3Qmo1H74,7319
+gmn_python_api-0.0.3.dist-info/RECORD,,
