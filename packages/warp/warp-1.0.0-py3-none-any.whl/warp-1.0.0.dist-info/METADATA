@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: warp
+Version: 1.0.0
+Summary: WARP: Wrapper around Replicated Processes
+Home-page: https://github.com/woop/warp
+Author: Willem Pienaar
+Author-email: pypi@willem.co
+License: Apache-2.0
+Platform: UNKNOWN
+Requires-Dist: pykka
+Requires-Dist: pandas
+Requires-Dist: nucleonic
+
+UNKNOWN
+
+
