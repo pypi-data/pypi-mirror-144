@@ -1,0 +1,11 @@
+program exit
+./parseFq() [0x410b10]
+./parseFq() [0x411980]
+/lib64/libc.so.6(+0x39ce9) [0x7f526b359ce9]
+/lib64/libc.so.6(+0x39d37) [0x7f526b359d37]
+./parseFq() [0x41bf74]
+./parseFq() [0x4126d4]
+./parseFq() [0x412a2e]
+./parseFq() [0x4081eb]
+/lib64/libc.so.6(__libc_start_main+0xf5) [0x7f526b342555]
+./parseFq() [0x408a4f]
