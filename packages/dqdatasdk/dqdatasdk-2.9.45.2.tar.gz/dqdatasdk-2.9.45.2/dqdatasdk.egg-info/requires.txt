@@ -1,0 +1,2 @@
+rqdatac<=2.9.46,>=2.9.46
+requests
