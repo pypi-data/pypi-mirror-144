@@ -1,0 +1,16 @@
+LICENSE
+README.md
+setup.py
+gitalong/__info__.py
+gitalong/__init__.py
+gitalong/cli.py
+gitalong/enums.py
+gitalong/exceptions.py
+gitalong/functions.py
+gitalong/repository.py
+gitalong.egg-info/PKG-INFO
+gitalong.egg-info/SOURCES.txt
+gitalong.egg-info/dependency_links.txt
+gitalong.egg-info/entry_points.txt
+gitalong.egg-info/requires.txt
+gitalong.egg-info/top_level.txt
