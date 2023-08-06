@@ -1,0 +1,14 @@
+sapiens/__init__.py,sha256=Tu7udwVOUpe0kXGa4VptjH-ZvjEMY3z9H-6bjGAIANs,305
+sapiens/__version__.py,sha256=3KXfAcA5rzzQXMtfwpHphgbJNZdA0XWaW96kdWVSZJw,22
+sapiens/predict.py,sha256=JwwxZBc1Keu02ZnR5o_0ZhTWYcVSoLqk27l4XjCg458,2670
+sapiens/roberta.py,sha256=4EgdQhub4V_kXHNn0ve1OzwRYWkHZMjHMRz6At_1zAk,4218
+sapiens/smooth_masked_lm.py,sha256=4uF-aAEjaFc4UpyuJE4c5IUkBiBNQevuBSinyZllyCc,3637
+sapiens/models/v1/checkpoint_vh.pt,sha256=QyVGZumsDVqo_BIPEqwCtv8ILNHxB8OJAjwblH8hSCU,4590491
+sapiens/models/v1/checkpoint_vl.pt,sha256=Vwpjpr3WB1DCzC0oCkGcMA-v_4q4PzQ_jjhH_QeQP24,4573875
+sapiens/models/v1/dict.txt,sha256=j_XB0QxOkh_7bE72Fh5ViAwdnvscfHT6OzllRHARjc0,80
+sapiens-1.0.1.dist-info/LICENSE,sha256=GOQ5-AWWbOasdNDMqBdMp8R0--JX3LB15qnIz9sC15M,1141
+sapiens-1.0.1.dist-info/LICENSES_THIRD_PARTY,sha256=M76NjXdIE9cD3QItDtIxP5EWUR2g53eMgDc1Q8LaSrc,1835
+sapiens-1.0.1.dist-info/METADATA,sha256=zXV8AtWGQCrg7KyTCpvCA3rTjbi12PfHcxHFbZYb1TQ,5775
+sapiens-1.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+sapiens-1.0.1.dist-info/top_level.txt,sha256=wZ0odCaa8j1HJmpciiKGKatr7EfGmfj20FuWVE_o5x4,8
+sapiens-1.0.1.dist-info/RECORD,,
