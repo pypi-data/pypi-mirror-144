@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: alma-hilse
+Version: 0.2.0
+Summary: ALMA Hardware-In-the-Loop Simulation Environment monitoring and verification package
+Home-page: https://bitbucket.sco.alma.cl/projects/ESG/repos/alma-hilse
+Author: Jose L. Ortiz / ADE
+Author-email: jose.ortiz@alma.cl
+License: MIT
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Provides-Extra: test
+License-File: LICENSE
+
+# alma-hilse
+
+ALMA Hardware-In-the-Loop Simulation Environment monitoring and testing package
+
+### Installation:
+
+    pip install alma-hilse
+
+
+
