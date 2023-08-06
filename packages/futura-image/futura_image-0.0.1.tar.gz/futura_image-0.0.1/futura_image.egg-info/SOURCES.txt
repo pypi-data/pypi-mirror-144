@@ -1,0 +1,8 @@
+README.md
+setup.cfg
+setup.py
+futura_image.egg-info/PKG-INFO
+futura_image.egg-info/SOURCES.txt
+futura_image.egg-info/dependency_links.txt
+futura_image.egg-info/entry_points.txt
+futura_image.egg-info/top_level.txt
