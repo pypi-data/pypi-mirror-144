@@ -1,0 +1,10 @@
+doplo/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+doplo/doplo_solver.py,sha256=qLEOxr20HjHPpkHSWGZK7eAmuQkXu_v_D3pWq5Zbg70,8861
+suguru/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+suguru/suguru_solver.py,sha256=QSsrrqcKhJ9c-ZpXUQB1kntJRX6j-YI2jzhyviZX-pc,3380
+yakuso/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+yakuso/yakuso_solver.py,sha256=N0FJ24mCE-_Ja858Ci5_eJdpQ2Y7y_1quBL00Kv2P8s,3993
+ortools_puzzle_solvers-0.0.1a0.dist-info/WHEEL,sha256=eGjM9T8LUFBfsaHKKY-i_vmgJxaYyUWmy-35tnjSGqI,88
+ortools_puzzle_solvers-0.0.1a0.dist-info/METADATA,sha256=NsoEx9VJ3wvcNXQRwWE1GB8IkSOG-Jz1-F0DPvehP3c,492
+ortools_puzzle_solvers-0.0.1a0.dist-info/license_files/LICENSE,sha256=LZcpW2L5vaW1L3AGJcq2G5YAqByFNhEiIXtRxrD-oac,1069
+ortools_puzzle_solvers-0.0.1a0.dist-info/RECORD,,
