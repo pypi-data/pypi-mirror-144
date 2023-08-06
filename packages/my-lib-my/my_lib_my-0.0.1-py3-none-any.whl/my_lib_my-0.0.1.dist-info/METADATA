@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: my-lib-my
+Version: 0.0.1
+Summary: Пакет
+Home-page: UNKNOWN
+Author: Dmitriy Ignatiev
+Author-email: dmitriy.ignatiev83@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: loguru
+
+
+Пакет
+
+
