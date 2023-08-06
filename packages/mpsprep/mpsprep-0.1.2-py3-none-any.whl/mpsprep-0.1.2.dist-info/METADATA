@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: mpsprep
+Version: 0.1.2
+Summary: State preparation for quantum computing using the Matrix Product States approach.
+Author: Prithvi Gundlapalli, Junyi Lee
+Requires-Python: >=3.7,<3.10
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: ipykernel (>=6.9.2,<7.0.0)
+Requires-Dist: matplotlib (==3.5)
+Requires-Dist: numpy (==1.21)
+Requires-Dist: pytest-cov (>=3.0.0,<4.0.0)
+Requires-Dist: scipy (==1.7)
+Requires-Dist: tqdm (==4.60)
