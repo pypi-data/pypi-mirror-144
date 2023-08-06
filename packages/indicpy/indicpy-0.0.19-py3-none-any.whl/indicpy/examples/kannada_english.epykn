@@ -1,0 +1,22 @@
+a = purnanka(tago("Modalane sankhye haaku: "))
+karya = tago("Yaav karya?: ")
+b = purnanka(tago("Eradane sankhye haaku: "))
+sari = nija
+
+hondisu karya:
+	aayke "+":
+		c = a + b
+	aayke "-":
+		c = a - b
+	aayke "*":
+		c = a * b
+	aayke "/":
+		c = a / b
+	aayke "%":
+		c = a % b
+	aayke _:
+		bare("Invalid operation")
+		sari = sullu
+
+onduvele (sari):
+	bare("Sum of above two numbers is: " + vaakya(c))
