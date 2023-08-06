@@ -1,0 +1,11 @@
+PyYAML
+matplotlib
+numpy==1.17.5
+opencv-python>=4.1
+pillow
+pycocotools
+tensorboard>=1.14
+thop
+torch==1.4.0
+torchvision==0.5.0
+tqdm
