@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: glitter_sdk
+Version: 0.0.2
+Summary: Glitter Protocol is a blockchain based database and index engine for developing and hosting web3 applications in decentralized storage networks.
+Home-page: https://docs.glitterprotocol.io/
+Author: ted
+Author-email: ted@glitterprotocol.io
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/blockved/glitter-sdk-py/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Example Package
+
+This is a simple example package. You can use
+[Github-flavored Markdown](https://guides.github.com/features/mastering-markdown/)
+to write your content.
+
