@@ -1,0 +1,7 @@
+easy_health_check/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+easy_health_check/middleware.py,sha256=QX4KAUHtJHe3SYE-t25V5AZWLjyjEv8M1GhKbvWLAkw,503
+easy_health_check/settings.py,sha256=zbKjoOhE1YzPSN1McQztOmuXUe4oekWCtv8iuFg5pOg,1729
+django_easy_health_check-1.0.1.dist-info/METADATA,sha256=0x0AQif07E0GhkIWZEKk3lfJSmSMDz0xbXLCx_60P5M,2895
+django_easy_health_check-1.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+django_easy_health_check-1.0.1.dist-info/top_level.txt,sha256=jxlfzCx6bCjaAhTU61_AF6a7wjPHM2Q1sR74BsSBWfs,18
+django_easy_health_check-1.0.1.dist-info/RECORD,,
