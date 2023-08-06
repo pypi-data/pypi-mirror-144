@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/numdoclinter/__init__.py
+src/numdoclinter/actions.py
+src/numdoclinter/linter.py
+src/numdoclinter/parse.py
+src/numdoclinter.egg-info/PKG-INFO
+src/numdoclinter.egg-info/SOURCES.txt
+src/numdoclinter.egg-info/dependency_links.txt
+src/numdoclinter.egg-info/entry_points.txt
+src/numdoclinter.egg-info/requires.txt
+src/numdoclinter.egg-info/top_level.txt
