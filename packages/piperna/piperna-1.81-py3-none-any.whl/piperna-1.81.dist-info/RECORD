@@ -1,0 +1,15 @@
+piperna/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+piperna/__main__-Scott’s iMac.py,sha256=kiyj41XQmmifC4n2NNL0zcTcZPcMAD7T6sRebO-aDwI,11509
+piperna/__main__.py,sha256=iB7-s4Li2zc4MoI-lNWt48lOX9FSUGBmocgcVFgUMyI,12680
+piperna/piperna-Scott’s iMac.py,sha256=bMME8zNVdMcdAK9vpJWdh7RuExLCda4MMndFAdeC1qc,26028
+piperna/piperna.py,sha256=Tmwm6BU5ivSeRjIhjC5F8Vit7ytozWQAN65W7Ss-pmc,26867
+piperna/data/environs-Scott’s iMac.json,sha256=qA87nORzQHOJ8jBrY5z6OdTx_UDNBRhwkowUbfKv77Q,2559
+piperna/data/environs.json,sha256=9d0mzeZrq5lE-UgS9YDLHPawl1UWN8CHDV8JPWBz2-M,2753
+piperna/data/genomes.json,sha256=u3ouQdH8Qn9uX-qTtgqzhxyt2_wPRUZyfmXGFvHO52c,2464
+piperna/scripts/summarize.R,sha256=Qf3nVMR56OkUWOx3vxdXVu4R9sT5MYIf3XBlSIVVYC4,3178
+piperna-1.81.dist-info/METADATA,sha256=oiVxxRC35-C9Xa4OaaKXEo0RthSeLv5FPeIF0LK1d5Y,15608
+piperna-1.81.dist-info/PKG-INFO-Scott’s iMac,sha256=yfVfo5PqCzeqF8VWxaMEAHpZdlEtu3VQ4cSIREvThAY,12087
+piperna-1.81.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+piperna-1.81.dist-info/entry_points.txt,sha256=A4jEkfOtSGvGHTDU_MtczQDwBQ4SZUM_OqmUZgSWWTg,57
+piperna-1.81.dist-info/top_level.txt,sha256=H6mDD6tNLxliA6UlL2JAwXwCydDJY7MwG6riF60FFaw,8
+piperna-1.81.dist-info/RECORD,,
