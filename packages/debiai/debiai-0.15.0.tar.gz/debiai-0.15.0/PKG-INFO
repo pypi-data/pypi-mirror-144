@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: debiai
+Version: 0.15.0
+Summary: DebiAI python module
+Home-page: https://https://github.com/debiai/py-debiai
+Author: IRT-SystemX
+Author-email: debiai@irt-systemx.fr
+License: Apache 2.0
+Description: # Debiai (Python package)
+        Package for debiai usage.
+        
+        ## Usage
+        ```from debiai import debiai``` is the only import needed.
+        
+        ## Contents
+        * `debiai` should be used to communicate data with the debiai app.
+        
+Keywords: DebiAI,Data vis,AI,Bias
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
