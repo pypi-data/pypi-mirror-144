@@ -1,0 +1,13 @@
+parsinorm/TTS_normalization.py,sha256=wwa1wHNDZN26CSvKxzTxN8VqMX4Nku-05qQU3iuCRrA,3646
+parsinorm/Tokenizer.py,sha256=gl1nZuMEwnCbvjMAUVZ-fbsZjetD9xPlRqM6kBbKlTk,10580
+parsinorm/abbreviation.py,sha256=7XuWPSoEamaPt26v1k2N5vHeUNvejyNb3z5TByS6BQo,27121
+parsinorm/date_time_to_text.py,sha256=IEFWiNjnWDx1fZnenyLytX17zEE0fqjt-mgsdjJtZDM,16942
+parsinorm/general_normalization.py,sha256=xKZAhVq51fLeB7a8zo2en9nzgZXEz3Nk1ZxZt89TjaQ,43059
+parsinorm/mail_url_cleaner.py,sha256=ZfCQN_e2ZXxjckOuRZn5ZfKP-wx4BJOTfnkxTTxcR6Y,2089
+parsinorm/special_numbers.py,sha256=IPTj7OTnWyvRbliCk_fz45llR5Cb7xEp7ICk58dj9z4,6193
+parsinorm/telephone_number.py,sha256=jC8uEykZx-UcWbjeCv_pd42y-ObBTYCksXjDkeyBWEU,8592
+parsinorm-0.0.1.dist-info/LICENSE,sha256=oyCFdDWjtv47axR9USGEmFgyeWvtl_NE262H5LZ-Gmg,1067
+parsinorm-0.0.1.dist-info/METADATA,sha256=UabjrU5M-GCumydHmu5WRGvL2yBXybt54llPPKHOM5k,7891
+parsinorm-0.0.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+parsinorm-0.0.1.dist-info/top_level.txt,sha256=TQu2ht4Fi5c0HPUEyHr_gQsUfLKCJh0_vzrZQK7lkSo,10
+parsinorm-0.0.1.dist-info/RECORD,,
