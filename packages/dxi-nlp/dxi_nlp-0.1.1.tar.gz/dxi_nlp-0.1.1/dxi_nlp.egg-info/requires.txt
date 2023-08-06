@@ -1,0 +1,9 @@
+numpy
+pandas
+spacy
+boto3
+s3fs
+matplotlib
+tqdm
+pyarrow
+labelbox

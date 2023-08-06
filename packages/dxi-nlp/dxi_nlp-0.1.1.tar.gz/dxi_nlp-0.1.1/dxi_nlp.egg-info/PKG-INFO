@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: dxi-nlp
+Version: 0.1.1
+Summary: UNKNOWN
+Home-page: https://github.com/Edelman-DxI/dxi-nlp.git
+Author: Amit Prusty
+Author-email: amit.prusty@edelmandxi.com
+License: Private
+Platform: UNKNOWN
+License-File: LICENSE
+
+# dxi-nlp
+
+A collection of modules that we reuse across dsml team.
+
+More information will be added soon.
+
