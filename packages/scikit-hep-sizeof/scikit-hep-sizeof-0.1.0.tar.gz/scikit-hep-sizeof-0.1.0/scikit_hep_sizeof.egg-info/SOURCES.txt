@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.cfg
+scikit_hep_sizeof/__init__.py
+scikit_hep_sizeof.egg-info/PKG-INFO
+scikit_hep_sizeof.egg-info/SOURCES.txt
+scikit_hep_sizeof.egg-info/dependency_links.txt
+scikit_hep_sizeof.egg-info/entry_points.txt
+scikit_hep_sizeof.egg-info/not-zip-safe
+scikit_hep_sizeof.egg-info/top_level.txt

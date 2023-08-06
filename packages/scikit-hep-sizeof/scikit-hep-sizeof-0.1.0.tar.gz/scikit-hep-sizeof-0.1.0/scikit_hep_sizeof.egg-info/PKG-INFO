@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: scikit-hep-sizeof
+Version: 0.1.0
+Summary: An implementation of the `sizeof` hook for scikit-hep types in Dask
+Home-page: https://github.com/agoose77/scikit-hep-sizeof
+Author: Angus Hollands
+Author-email: goosey15@gmail.com
+License: BSD-3-Clause
+Project-URL: Bug Tracker, https://github.com/agoose77/scikit-hep-sizeof/issues
+Keywords: dask,scikit-hep,awkward-array,uproot
+Platform: Any
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Dask `sizeof` Scikit-HEP Plugin
+This repository implements a plugin that registers the Scikit-HEP types with the `dask.sizeof` entrypoint.
+
+See https://github.com/dask/dask/pull/7688 
+
+
