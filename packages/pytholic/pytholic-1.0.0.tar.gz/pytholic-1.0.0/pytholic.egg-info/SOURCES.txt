@@ -1,0 +1,15 @@
+LICENSE.txt
+README.md
+setup.py
+pytholic/__init__.py
+pytholic/icons.py
+pytholic/prayers.py
+pytholic/variety.py
+pytholic.egg-info/PKG-INFO
+pytholic.egg-info/SOURCES.txt
+pytholic.egg-info/dependency_links.txt
+pytholic.egg-info/top_level.txt
+pytholic/bible/__init__.py
+pytholic/bible/_books.py
+pytholic/bible/_exceptions.py
+pytholic/bible/bible.py
