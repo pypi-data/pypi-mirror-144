@@ -1,0 +1,12 @@
+LICENCE.txt
+README.md
+setup.cfg
+setup.py
+PyFileCP/__init__.py
+PyFileCP/copyfile.py
+PyFileCP/replacetool.py
+PyFileCP/run.py
+PyFileCP.egg-info/PKG-INFO
+PyFileCP.egg-info/SOURCES.txt
+PyFileCP.egg-info/dependency_links.txt
+PyFileCP.egg-info/top_level.txt
