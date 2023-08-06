@@ -1,0 +1,9 @@
+README.md
+setup.py
+QvsPy.egg-info/PKG-INFO
+QvsPy.egg-info/SOURCES.txt
+QvsPy.egg-info/dependency_links.txt
+QvsPy.egg-info/requires.txt
+QvsPy.egg-info/top_level.txt
+qvspy/__init__.py
+qvspy/qvspy.py
