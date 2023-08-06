@@ -1,0 +1,12 @@
+pdm_lev/__init__.py,sha256=0IpTpnDXfbedHbLKPcCM6opduGXIJ0-Yznsp42AwupU,94
+pdm_lev/command.py,sha256=rk4-zRhXDlYA5zRPuRPDRCi-g8Gdctd0ctj3umu25cU,7613
+pdm_lev/parser.py,sha256=rUGOepubEA_heCMaCBdmDGmrnN9dT7EESnZdjUMhbkY,3060
+pdm_lev/templates/bin/.gitignore,sha256=6kA5AgFPwz5nj1o2FAmrGmpqTTpnusGc3Ze5eEXutw8,43
+pdm_lev/templates/bin/main.py,sha256=rubXe2XIEkJOkrN805we_fj6vHC4o88YkxDGTnexZco,324
+pdm_lev/templates/lib/main.py,sha256=VHKmWg6PTGAj8ns9E1Hv4PXG93MJ_EhItRIdpMo8sPA,190
+pdm_lev/templates/lib/module/__init__.py,sha256=gZ_qUZZOPYRFhOPwAkbqncy-tqUCh4JuAdFhvV7PkBw,389
+pdm_lev/templates/lib/root/.gitignore,sha256=YU40hL4hqNRozohrJAiIaj7xfr44X0YuoL5jjyPP_Hk,56
+pdm_lev-1.2.1.dist-info/entry_points.txt,sha256=bXgV5dAZXZUioByrqK8iIIE5RHeMZPSWnEUqrbitTmw,30
+pdm_lev-1.2.1.dist-info/WHEEL,sha256=eGjM9T8LUFBfsaHKKY-i_vmgJxaYyUWmy-35tnjSGqI,88
+pdm_lev-1.2.1.dist-info/METADATA,sha256=iW50pipEsX5if0bieZRWEwyY0bFdwQELKIeDxjA3a-w,180
+pdm_lev-1.2.1.dist-info/RECORD,,
