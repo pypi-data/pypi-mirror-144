@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: gsheets-plaid
+Version: 0.0.1
+Summary: Tool for syncing bank transaction data to Google Sheets with Plaid.
+Home-page: https://github.com/evanphilipsmith/gsheets-plaid
+Author: Evan Smith
+Author-email: evanphilipsmith@gmail.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/evanphilipsmith/gsheets-plaid/issues
+Keywords: google sheets gsheets plaid transactions banking
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: MacOS
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Topic :: Database
+Classifier: Topic :: Office/Business :: Financial
+Classifier: Topic :: Office/Business :: Financial :: Spreadsheet
+Classifier: Topic :: Utilities
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# GSheets-Plaid sandbox
+A spring break project to get my bank transaction data in Google Sheets without using Google Apps Script.
+
+
