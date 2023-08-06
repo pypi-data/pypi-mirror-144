@@ -1,0 +1,3 @@
+pykka
+pandas
+nucleonic
