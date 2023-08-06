@@ -1,0 +1,16 @@
+Binance_Data_Getter/Binance_Data_Getter.py,sha256=cjCADSOv_sWq66zczKzqfMsZr5Ja6tRYdsv_I3rIuLQ,93
+Binance_Data_Getter/Create_Candles.py,sha256=qzFSDn5AzksmA3Gqi-MmjHlH8ajUqgmW9Z3vWtjGEfc,1677
+Binance_Data_Getter/Temp_Fix_BTC.py,sha256=GdzbrEZSrnWx_Y4EmQEliNYvSL8amPg0G2CpaQ9gc2Y,4936
+Binance_Data_Getter/Unpack_Zips.py,sha256=V4RfvLAjdeL_PUxBIml4t-_Jd4rX9neDdkWPfW4mJ1M,799
+Binance_Data_Getter/__init__.py,sha256=7jykBDbj8pHv_1FTJx4H2Rx8DQLvH6Y0FSjbd1F6-CA,145
+Binance_Data_Getter/download-aggTrade.py,sha256=Oz8l8fcs-HvQ6ecOyRljhPL5eRUXmp4QIedbtHaepGc,3986
+Binance_Data_Getter/download-kline.py,sha256=YQfJc-ijSO0dPTwqh92GNl6ej0kfiJ3GDvFN6ryTCIo,4093
+Binance_Data_Getter/download-trade.py,sha256=UKpZF0T5-oglSnDOTD-LihjLYYrZcGQ4r_1iSOvic5E,3862
+Binance_Data_Getter/enums.py,sha256=XXUwD_63EvZ9_hAj49bymUwO2KlYs2cnigDWns1_m98,468
+Binance_Data_Getter/functions_and_stuff.py,sha256=MuoiM0qYr2x_P8kf8gkBTn2CapAeAOUSOzoAyOAFUzQ,6419
+Binance_Data_Getter/utility.py,sha256=4MntMeJ4nWMHkuA2xs8v9MjdAfqWS4H4wa_-LXtp2BA,5685
+Binance_Data_Getter-0.53.dist-info/LICENSE,sha256=mHifGOP5JAMdYBRNLidpbWMW3bde9WLEvZjRpiCLtwY,1075
+Binance_Data_Getter-0.53.dist-info/METADATA,sha256=-XMVt_Vazx6UoqmV9dk-zabvCtHNTCTIsVIS3a_GAfM,297
+Binance_Data_Getter-0.53.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+Binance_Data_Getter-0.53.dist-info/top_level.txt,sha256=i04lOMrJcCJeEcVs40YFGtM1mlvngW60cMO-6d_3LnA,20
+Binance_Data_Getter-0.53.dist-info/RECORD,,
