@@ -1,0 +1,2 @@
+[console_scripts]
+cpm_file = coding_parse.main:main
