@@ -1,0 +1,9 @@
+README.md
+setup.py
+Phisherman.egg-info/PKG-INFO
+Phisherman.egg-info/SOURCES.txt
+Phisherman.egg-info/dependency_links.txt
+Phisherman.egg-info/requires.txt
+Phisherman.egg-info/top_level.txt
+phisherman/__init__.py
+phisherman/errors.py
