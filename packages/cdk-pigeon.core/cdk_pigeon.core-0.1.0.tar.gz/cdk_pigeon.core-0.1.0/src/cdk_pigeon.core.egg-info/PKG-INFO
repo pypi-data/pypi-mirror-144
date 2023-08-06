@@ -1,0 +1,53 @@
+Metadata-Version: 2.1
+Name: cdk-pigeon.core
+Version: 0.1.0
+Summary: AWS Synthetics Canary alternative built for minimal cost 
+Home-page: https://github.com/thomasstep/cdk-pigeon.git
+Author: Thomas Step<tstep916@gmail.com>
+License: Apache-2.0
+Project-URL: Source, https://github.com/thomasstep/cdk-pigeon.git
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: JavaScript
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Typing :: Typed
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Pigeon
+
+This is a cheaper version of AWS Synthetics Canary. Head to my [blog post](https://thomasstep.com/blog/why-do-aws-synthetics-canaries-cost-so-much) to read more about the inspiration for this CDK Construct.
+
+Pigeon is meant to be dead simple. It creates a Lambda Function that runs on a schedule and optionally alerts an email if the Lambda fails. Everything created is exposed, so if you want to create an alert different than the default, everything is there for you to do it.
+
+## Props
+
+`schedule: events.Schedule`
+
+`lambdaFunctionProps: lambda.FunctionProps`
+
+`lambdaTargetProps?: targets.LambdaFunctionProps`
+
+`alertOnFailure?: boolean`
+
+`emailAddress?: string`
+
+## Properties
+
+`lambdaFunction!: lambda.Function`
+
+`rule!: events.Rule`
+
+`alarm?: cloudwatch.Alarm`
+
+`topic?: sns.Topic`
+
+
