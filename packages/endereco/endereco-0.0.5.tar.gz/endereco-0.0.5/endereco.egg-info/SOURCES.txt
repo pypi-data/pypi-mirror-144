@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+endereco/__init__.py
+endereco.egg-info/PKG-INFO
+endereco.egg-info/SOURCES.txt
+endereco.egg-info/dependency_links.txt
+endereco.egg-info/requires.txt
+endereco.egg-info/top_level.txt
