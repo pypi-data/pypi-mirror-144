@@ -1,0 +1,13 @@
+LICENSE.txt
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+tga/__init__.py
+tga/color.py
+tga/image.py
+tga/py.typed
+tga.egg-info/PKG-INFO
+tga.egg-info/SOURCES.txt
+tga.egg-info/dependency_links.txt
+tga.egg-info/top_level.txt
