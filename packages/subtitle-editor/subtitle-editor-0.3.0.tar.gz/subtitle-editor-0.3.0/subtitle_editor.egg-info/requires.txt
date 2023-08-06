@@ -1,0 +1,5 @@
+click
+ffmpeg-python
+opencv-python
+pyaudio
+srt
