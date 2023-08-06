@@ -1,0 +1,17 @@
+Pillow
+future
+matplotlib
+numpy
+pandas
+psutil
+pytest
+pytest-cov
+requests
+scikit-image
+scikit-learn
+scipy
+six
+tensorflow
+torch
+torchvision<2.0
+yapf

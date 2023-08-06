@@ -1,0 +1,6 @@
+setup.py
+smart_SlimGAN.egg-info/PKG-INFO
+smart_SlimGAN.egg-info/SOURCES.txt
+smart_SlimGAN.egg-info/dependency_links.txt
+smart_SlimGAN.egg-info/requires.txt
+smart_SlimGAN.egg-info/top_level.txt
