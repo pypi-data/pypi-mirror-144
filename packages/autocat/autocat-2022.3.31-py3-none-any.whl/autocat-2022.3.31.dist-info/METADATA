@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: autocat
+Version: 2022.3.31
+Summary: Tools for automated generation of catalyst structures and sequential learning
+Home-page: https://github.com/aced-differentiate/auto_cat
+Author: Lance Kavalsky
+Author-email: lkavalsk@andrew.cmu.edu
+License: MIT
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Programming Language :: Python :: 3.9
+License-File: LICENSE
+Requires-Dist: numpy (<=1.22.0)
+Requires-Dist: ase
+Requires-Dist: pymatgen (<=2022.0.17)
+Requires-Dist: fire
+
+UNKNOWN
+
