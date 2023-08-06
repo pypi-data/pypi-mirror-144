@@ -1,0 +1,11 @@
+LICENSE.md
+pyproject.toml
+setup.cfg
+manim_ml/__init__.py
+manim_ml/neural_network.py
+manim_ml/probability_embedding.py
+manim_ml/util.py
+manim_ml.egg-info/PKG-INFO
+manim_ml.egg-info/SOURCES.txt
+manim_ml.egg-info/dependency_links.txt
+manim_ml.egg-info/top_level.txt
