@@ -1,0 +1,2 @@
+[dask.sizeof]
+scikit-hep-sizeof = scikit_hep_sizeof:register_sizeof
