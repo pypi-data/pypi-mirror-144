@@ -1,0 +1,10 @@
+utils_cv/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+utils_cv/utils_box.py,sha256=_m3YvpLaisG0wL42K4e4-80hWxQYyWQMU8XlA6wvx9g,4189
+utils_cv/utils_layout.py,sha256=ULlP8QcNSjWFa0Bp5hLFBhBzSEiInZFcMlOq60-Ukb8,4304
+utils_cv/utils_benchmark/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+utils_cv/utils_benchmark/end2end.py,sha256=Qf-ThZRgiS5cBsbpWg5ed6iLrvST1bK5sz2lMEEBsmQ,3381
+utils_cv_baiyigali-0.0.8.dist-info/LICENSE,sha256=2bm9uFabQZ3Ykb_SaSU_uUbAj2-htc6WJQmS_65qD00,1073
+utils_cv_baiyigali-0.0.8.dist-info/METADATA,sha256=xqDNi9BBwuRTfTFiP2sW_n4q09_jzMGhOG8y8HOaoQw,682
+utils_cv_baiyigali-0.0.8.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+utils_cv_baiyigali-0.0.8.dist-info/top_level.txt,sha256=1CFE3F9jlPS-NzGO7Nsw9Tlk3xxZV0hSU6iXrLnwGbo,9
+utils_cv_baiyigali-0.0.8.dist-info/RECORD,,
