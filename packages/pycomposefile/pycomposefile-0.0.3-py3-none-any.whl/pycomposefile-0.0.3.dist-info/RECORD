@@ -1,0 +1,9 @@
+pycomposefile/__init__.py,sha256=JSiB8OEuAAnxBuxcHT5PeYJqxLO3eqM09_iXDP16UbA,600
+pycomposefile/compose_element.py,sha256=m-jRD7NrQiyij4WkD6_NidmGyvBurgt5zC8QAccAlmk,4284
+pycomposefile/service.py,sha256=qYEWFTJkX2Q2RS5W9ObJACiWfdepFm21webybVcoJJE,2783
+pycomposefile/service_credential_spec.py,sha256=VNgy5ECinewMMBHgN7JMvQ4Zg7Szx3SN_YqAL9pPgD8,399
+pycomposefile/service_deploy.py,sha256=vqJdf8FJcA2ETF2rcmnY2Ej53URcKIM52sPpVLSEWWo,2478
+pycomposefile-0.0.3.dist-info/METADATA,sha256=wGmLsmgzuFo4y_fRWB5h75IXNZ_h_zoh69IJzbc4pYw,375
+pycomposefile-0.0.3.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+pycomposefile-0.0.3.dist-info/top_level.txt,sha256=nFmFqyx7rhz0EGEG27TuEH8ZcGKbVntwbvBsaaMj-Uo,14
+pycomposefile-0.0.3.dist-info/RECORD,,
