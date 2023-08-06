@@ -1,0 +1,5 @@
+Metadata-Version: 2.1
+Name: anuga
+Version: 3.0
+Summary: ANUGA models the effect of tsunamis and flooding upon a terrain mesh.
+Author-email: stoiver <stoiver@gmail.com>
