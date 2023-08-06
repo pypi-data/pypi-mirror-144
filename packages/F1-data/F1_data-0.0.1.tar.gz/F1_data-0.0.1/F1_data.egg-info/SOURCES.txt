@@ -1,0 +1,11 @@
+CHANGELOG.txt
+LICENSE.txt
+MANIFEST.in
+README.txt
+f1_library.py
+setup.py
+F1_data.egg-info/PKG-INFO
+F1_data.egg-info/SOURCES.txt
+F1_data.egg-info/dependency_links.txt
+F1_data.egg-info/requires.txt
+F1_data.egg-info/top_level.txt

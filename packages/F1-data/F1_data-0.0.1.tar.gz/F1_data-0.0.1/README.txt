@@ -1,0 +1,1 @@
+Formula 1 data library based on FastF1 library 
