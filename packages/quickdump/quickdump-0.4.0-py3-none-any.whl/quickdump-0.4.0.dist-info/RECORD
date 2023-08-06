@@ -1,0 +1,10 @@
+quickdump/__init__.py,sha256=rY_NVDKf3pKb-37AqpxdnWvcpYGMbg1KT-8uALmf5gI,161
+quickdump/const.py,sha256=E1EZ9j1_f7sQtTeh7yBFt4j6VkErqq_ghTaAup01Q60,703
+quickdump/dumper.py,sha256=nxII9auB28Z2nCHrr0oMqhNhRBISYEav_rh-js-RyrM,5112
+quickdump/server_http.py,sha256=WgV8JuTDm-0JGJpoboX0PevBmTU7svtW-Bx1KmWb4T4,1459
+quickdump/server_tcp.py,sha256=SUPGlfS8Nt2mn4JXr5wN5DBiqQFRkWwNYYAKQmNrul0,918
+quickdump/utils.py,sha256=vk3L_s4RQupvy5cqmY2ESXfvj1PAYjIbJ49KgzEEbuY,801
+quickdump-0.4.0.dist-info/entry_points.txt,sha256=ZlC-Jw5S6Vc_5VpjscdI3t-VnG_UQCeJiemtB8tFJLU,101
+quickdump-0.4.0.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+quickdump-0.4.0.dist-info/METADATA,sha256=6SluS62ZU3CXq8oXoDT71Out8Le2DKvZ5jFRhZGFncI,2087
+quickdump-0.4.0.dist-info/RECORD,,
