@@ -1,0 +1,3 @@
+robotframework>=3.2.1
+playwright==1.17.2
+pyppeteer==0.2.6
