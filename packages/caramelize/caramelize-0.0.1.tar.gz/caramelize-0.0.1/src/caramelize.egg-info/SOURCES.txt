@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/caramelize/__init__.py
+src/caramelize.egg-info/PKG-INFO
+src/caramelize.egg-info/SOURCES.txt
+src/caramelize.egg-info/dependency_links.txt
+src/caramelize.egg-info/top_level.txt
