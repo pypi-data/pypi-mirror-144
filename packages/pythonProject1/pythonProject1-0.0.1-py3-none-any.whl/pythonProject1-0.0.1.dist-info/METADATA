@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: pythonProject1
+Version: 0.0.1
+Summary: DIT document layout
+Author: sneha dhole
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: torch
+Requires-Dist: pyyaml
+Requires-Dist: torchvision
+Requires-Dist: opencv-python
+
+UNKNOWN
+
