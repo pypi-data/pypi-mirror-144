@@ -1,0 +1,47 @@
+Metadata-Version: 2.1
+Name: triple-walk
+Version: 0.0.3
+Summary: A pytorch extension library to perform triple walks on knowledge graphs
+Home-page: UNKNOWN
+Author: Sachin Gavali
+Author-email: saching@udel.edu
+License: UNKNOWN
+Description: > A simple algorithm to learn embeddings of entities in knowledge graph.
+        
+        ## What is it
+        TripleWalk is an algorithm to learn vector embeddings of entities in a knowledge graph by performing random walks on triples.
+        
+        ## Installation
+        
+        ***Please not this package is only available for python 3.8+ and Pytorch >= 1.9.0***
+        
+        #### Install from PyPI
+        ``` Python
+        pip install triple-walk
+        ```
+        
+        #### Install from Github
+        ``` bash
+        pip install git+https://github.com/udel-cbcb/triple_walk.git#egg=triple_walk
+        ```
+        
+        
+        # Triple Walk
+        Author : Sachin Gavali
+        
+        ## Requirements
+        ```
+        1. Pytorch >= 1.9.0
+        2. NVIDIA-GPU (Cuda Toolkit >= 11.4
+        3. AMD-GPU (ROCM == 4.0.1)
+        4. Python == 3.8
+        ```
+        
+        ## Examples
+        * SkipGram Triple Walk model : [SkipGramTriple](examples/skipgram_triple_walk.py)
+        * CBOW Triple Walk model : [CBOWTriple](examples/skipgram_triple_walk.py)
+        
+        
+        
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
