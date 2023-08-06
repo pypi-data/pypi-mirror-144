@@ -1,0 +1,13 @@
+fair_test/__init__.py,sha256=SsoF8eX9hrnBs2Utzj083Zjuovsd2eQANZJ764uvVJg,165
+fair_test/config.py,sha256=UIQK8bsKxg4IDgPP-uTgseU6gmy91yEHDvucUbzTCQU,685
+fair_test/fair_test.py,sha256=WbQzsy85JMkY1Re7hYvUlyP_iiQWHk1TXUjvd6S1jSs,5229
+fair_test/fair_test_api.py,sha256=r3XFMPmXbdffU8_zoRN0xn3hyKWU3FlA0rX5RFJX-QU,7938
+fair_test/fair_test_evaluation.py,sha256=MYRZvqrT0sA1JMCuHAOkyMh8QlR9MTPsV1I9D56IAwI,17746
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_metrics_auto.py,sha256=prRdHdXyl22Iv25Z3ScSwrTwc_5hEWcGFtotngNRueU,318
+tests/test_metrics_list.py,sha256=QWXNaQ7kNC3vOctYaDxpymcAd-8Ay_Uhe5D7CrzyrFk,4709
+fair_test-0.0.5.dist-info/LICENSE,sha256=y5u3hcVdFFSwdCyAmrzHTh6FKj9BafMkLjtIy4AMiFQ,1071
+fair_test-0.0.5.dist-info/METADATA,sha256=9FN3bnqxGadjq2fF-PKbJTGdVKrVCIxwYXSo6ftGuBg,3371
+fair_test-0.0.5.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+fair_test-0.0.5.dist-info/top_level.txt,sha256=PXgCQPB_NDfYAFdCsHAhW0myEAiu29jbY6614Z423U0,16
+fair_test-0.0.5.dist-info/RECORD,,
