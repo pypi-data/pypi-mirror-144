@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: gitsql
+Version: 0.1.0
+Summary: Query Git with SQL
+Home-page: https://github.com/tobegit3hub/gitsql
+Author: tobe
+Author-email: tobeg3oogle@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+License-File: LICENSE
+Requires-Dist: openmldb (>=0.4.2)
+Requires-Dist: openmldb-lab
+
+UNKNOWN
+
