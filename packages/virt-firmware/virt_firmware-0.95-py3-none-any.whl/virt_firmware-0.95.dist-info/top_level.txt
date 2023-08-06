@@ -1,0 +1,2 @@
+virt/firmware
+virt/firmware/efi
