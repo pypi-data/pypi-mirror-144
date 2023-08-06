@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: anthros-core
+Version: 1.0
+Summary: toolkit and development environment and distribution platform
+Home-page: https://vk.com/anthros
+Author: Tand
+Author-email: thunder.light.pegasys@gmail.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://vk.com/anthros
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Example Package
+
+Description will be available in a future update
+

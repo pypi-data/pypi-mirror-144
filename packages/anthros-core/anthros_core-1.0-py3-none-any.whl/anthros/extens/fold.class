@@ -1,0 +1,31 @@
+def __init__(self, pos: 'path'):
+    pos = simple.smart_path(str(pos))
+    if pos == None: raise Exception('folder does not exist')
+    pos = path(pos)
+    self.pos = pos
+
+    self.folders = dict()
+    self.files = dict()
+    for elem in os.listdir(str(self.pos)):
+        if os.path.isdir(str(self.pos + elem)):
+            self.folders[elem] = fold(self.pos + elem)
+        else:
+            self.files[elem] = data(self.pos + elem).get()
+
+def __str__(self):
+    return f'fold({", ".join(self.folders.keys())}, {", ".join(self.files.keys())})'
+
+def __dir__(self):
+    return list(self.folders.keys()) + list(self.files.keys())
+
+def __getattr__(self, attr):
+    if attr in self.folders.keys(): return self.folders[attr]
+    elif attr in self.files.keys(): return self.files[attr]
+    try: raise Exception('name not in fold')
+    except: stdinout.exception(sys.exc_info())
+
+def __getitem__(self, item):
+    if item in self.folders.keys(): return self.folders[item]
+    elif item in self.files.keys(): return self.files[item]
+    try: raise Exception('name not in fold')
+    except: stdinout.exception(sys.exc_info())

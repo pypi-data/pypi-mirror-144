@@ -1,0 +1,50 @@
+def __init__(self, pos: 'path'):
+    r'''Является виртуальным представлением скрипта *.py
+    *требует path.class
+    *Смотрит относительно расположения АС и Проекта'''
+    pos = simple.smart_path(str(pos))
+    if pos == None: raise Exception('file does not exist')
+    pos = path(pos)
+    self.pos = pos
+
+    pj_pos = path(info.project_path())
+    ac_pos = path(info.ac_path())
+    try:
+        rel_pos = pos - pj_pos
+        sys_pos = pj_pos
+    except:
+        try:
+            rel_pos = pos - ac_pos
+            sys_pos = ac_pos
+        except: raise Exception('script relative location not found')
+
+    self.rel_pos = rel_pos
+    self.name = rel_pos.name().split('.')[0]
+    if len(rel_pos) == 1:
+        save_pos = simple.pos_switch(str(sys_pos))
+        obj = __import__(self.name)
+        simple.pos_switch(save_pos)
+        self.obj = obj
+    else:
+        pass
+
+def __name__(self):
+    return self.name
+
+def __str__(self):
+    return str(self.obj)
+
+def __dir__(self):
+    return ['123']#dir(obj)
+
+def __getattr__(self, attr: 'str'):
+    return getattr(self.obj, attr)
+
+def pos():
+    r'''Возвращает абсолютную ссылку на файл скрипта'''
+    return self.pos
+
+def object(self):
+    r'''Возвращает вложеный объект пакета python'''
+    print('^~^')
+    pass
