@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/npm_analyser/__init__.py
+src/npm_analyser/npm_analyser.py
+src/npm_analyser.egg-info/PKG-INFO
+src/npm_analyser.egg-info/SOURCES.txt
+src/npm_analyser.egg-info/dependency_links.txt
+src/npm_analyser.egg-info/top_level.txt
