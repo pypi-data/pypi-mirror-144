@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: corebases
+Version: 0.1.1
+Summary: Full power of *asyncpg* with user friendly api of *sqlalchemy.core*
+Home-page: https://github.com/zueve/corebases
+License: BSD
+Author: Evgeny Zuev
+Author-email: zueves@gmail.com
+Requires-Python: >=3.7,<4.0
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: SQLAlchemy (>=1.4.0,<2.0.0)
+Requires-Dist: asyncpg (>=0.25,<0.26)
+Project-URL: Documentation, https://github.com/zueve/corebases
+Project-URL: Repository, https://github.com/zueve/corebases
