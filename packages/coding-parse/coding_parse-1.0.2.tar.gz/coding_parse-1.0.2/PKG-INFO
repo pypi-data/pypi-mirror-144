@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: coding_parse
+Version: 1.0.2
+Summary: Finding substrings in the lines of a file.
+Author: Laura Pérez Vera
+Author-email: lpvera22@gmail.com
+License: MIT
+Keywords: search keyword substring research substring
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+Package that takes as command-line input a file path specifying a source text and a search term and return the words in lines that contain the substring
+
