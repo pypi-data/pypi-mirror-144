@@ -1,0 +1,12 @@
+LICENSE,sha256=vjYMqYMp4lDhS_QWyPhZxn-MqGDF45oVUfgZIERh6cQ,1060
+flake8_spellcheck/__init__.py,sha256=Ie9leFilhXhmU45VD10RYEpeb8KQAVhcpT4UTuaikRs,7810
+flake8_spellcheck/django.txt,sha256=InIJtyxvQQiLushCKJSCWVyySfk7kzoES_b-gXLud0E,1914
+flake8_spellcheck/en_US.txt,sha256=So3EnmX3HdgbLwA0MSgjwHqwTgY-TudZ9APpk6exBmQ,1226094
+flake8_spellcheck/pandas.txt,sha256=2A54xxQoogxv48F5UTpeJKAM1FDHg3o2j_cY8ThLYZo,419
+flake8_spellcheck/python.txt,sha256=gbHq4tNWN5l-ZnHaet6jqO1FnjxPMl_3Cil0xNOd9b4,1420
+flake8_spellcheck/technical.txt,sha256=8rCe6m8ij_aZmAVfBN_SIL9T8wycrVTFfiYVk6Pcggw,848
+flake8_spellcheck-0.28.0.dist-info/entry_points.txt,sha256=hxydsZYmTdc_JdrD7QzQ3Zk_ZNSN6n5jQt9lwCP1YvI,58
+flake8_spellcheck-0.28.0.dist-info/LICENSE,sha256=vjYMqYMp4lDhS_QWyPhZxn-MqGDF45oVUfgZIERh6cQ,1060
+flake8_spellcheck-0.28.0.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+flake8_spellcheck-0.28.0.dist-info/METADATA,sha256=L8g1s_ssyNgefXB6p6M3v9KmVwvBek4XLd_cs9nG-I8,3620
+flake8_spellcheck-0.28.0.dist-info/RECORD,,
