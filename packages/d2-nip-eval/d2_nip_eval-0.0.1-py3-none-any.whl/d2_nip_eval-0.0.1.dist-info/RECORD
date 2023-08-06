@@ -1,0 +1,13 @@
+d2_nip_eval/NTIPAliasClass.py,sha256=N4LUDYb1KLmJLHC3WMbsBakgxVoRARttfk_OadEEpT8,112
+d2_nip_eval/NTIPAliasClassID.py,sha256=4hx_hDd1YmUdEa2w5zkknzBz4vT-WFgSrvMUrWktncY,43721
+d2_nip_eval/NTIPAliasFlag.py,sha256=JeOLj_u9ud61hMsUVWcT59dlBzdrmRrncQ_Cj0ngbeg,162
+d2_nip_eval/NTIPAliasQuality.py,sha256=Wpne3evHpjz1q9gO9iqrDbMUEwI_icb07idzxSifbyU,272
+d2_nip_eval/NTIPAliasStat.py,sha256=FzeJuU-_iSOCNMkaZdzylnDJECNWPgs9LkXUJGgbS80,26986
+d2_nip_eval/NTIPAliasType.py,sha256=WKLuo4T7iYMEZ0wnnAH24MO7PgwmNRZbXWOKgmbHhDw,3114
+d2_nip_eval/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+d2_nip_eval/lexer.py,sha256=8Bi8J8bRAsaxja45W8VYRDpxjRwJj4Aue1L2Ar4_6Kw,14259
+d2_nip_eval/tokens.py,sha256=GW7Uw7dTh_PPmcafDKkEdy-HMh7-cl8hPqBoWuK_NRk,1204
+d2_nip_eval-0.0.1.dist-info/METADATA,sha256=2l5droVsBazCnCjWVWrUnSV8B2sFhhZDUhh4ILUIk4I,3988
+d2_nip_eval-0.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+d2_nip_eval-0.0.1.dist-info/top_level.txt,sha256=QCmb0FbTYv5LdicTcm7t1eiWQyNL2Hlmsr8Q-bUxTlQ,12
+d2_nip_eval-0.0.1.dist-info/RECORD,,
