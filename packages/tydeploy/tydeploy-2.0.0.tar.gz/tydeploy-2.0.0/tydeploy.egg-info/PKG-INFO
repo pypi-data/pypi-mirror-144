@@ -1,0 +1,15 @@
+Metadata-Version: 1.1
+Name: tydeploy
+Version: 2.0.0
+Summary: Tianyi's Deploy Tool
+Home-page: https://github.com/baobao1270/tydeploy.git
+Author: Joseph Chris
+Author-email: joseph@josephcz.xyz
+License: GPL-3.0-or-later
+Description: Multiprocess deployer supports SSH (SFTP), Tencent COS, Zip and local FS
+Keywords: deployer
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Operating System :: OS Independent
