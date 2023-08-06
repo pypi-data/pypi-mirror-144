@@ -1,0 +1,29 @@
+Metadata-Version: 2.0
+Name: aucome
+Version: 0.5.1
+Summary: Automatic Comparison of Metabolism
+Home-page: https://github.com/aureme/aucome
+Author: AuReMe
+Author-email: gem-aureme@inria.fr
+License: GPLv3+
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Science/Research
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved
+Classifier: Natural Language :: English
+Classifier: Topic :: Scientific/Engineering :: Bio-Informatics
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Requires-Python: >=3.6
+Requires-Dist: matplotlib
+Requires-Dist: mpwt
+Requires-Dist: padmet
+Requires-Dist: rpy2 (==3.0.5)
+Requires-Dist: seaborn
+Requires-Dist: supervenn
+Requires-Dist: tzlocal
+
+AuCoMe is a Python3 workflow that aims at reconstructing homogeneous metabolic networks from genomes with heterogeneous levels of annotations. More information on usage and troubleshooting on Github: https://github.com/aureme/aucome
+
+
