@@ -1,0 +1,17 @@
+tako.py,sha256=aEi-VUdasX0qmMOeEhpHsj_Kz-T7MpB9XSzsiu41-Hs,742
+takoyaki/__init__.py,sha256=FVYhILDrurj5UB2sZlHqj2Ezys31WxiVUr-Ncu3GnVU,27
+takoyaki/accounts.py,sha256=iTIIoMvcWk2wEOEcURueux55yJvTuxoMvUajWtK93KA,3095
+takoyaki/cli/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+takoyaki/main.py,sha256=InR7je35H6kRdmhW6ofSlgIGdRRNbu6gzKoPysGXUf4,4915
+takoyaki/sute/__init__.py,sha256=nL3g1YYv2e6DJyGfsjTdOqfH_laEZcDngl0G-E3oGeE,49
+takoyaki/sute/client.py,sha256=-f5n0KAjF6zmABHsjvgRpqjnC9oHHLpm0eBgRQk8f7w,2874
+takoyaki/sute/config.py,sha256=z7Ph2QTEWv59WQN7xhKCAX7vdZkTiZhvpht3OIQPcH4,1716
+takoyaki/sute/exception.py,sha256=tbpWpwhjTyerOBKCfqMKksHrofs7pmhfH79jWmVsemU,641
+takoyaki/sute/function.py,sha256=BZHK9m1SGgkMjostgjq1chzuJtMutPRhKZMvESH0ytM,1360
+takoyaki/sute/objects.py,sha256=F2Yi9EcrNq-k_XlAIt51-qM9VfxP1ctJqB71-V-kw0M,3301
+takoyaki/sute/sute.py,sha256=t-L7YA4576zg-F-RRU8hpxtPO8ECQAnZhFq94he9j2w,2802
+takoyaki/tools.py,sha256=FWRLgwGfDvjHFpyujc5Y6EHdR0fsiwNDohq_kxf-EiI,7051
+takoyaki-2.dist-info/entry_points.txt,sha256=j8KxZ0iFEDp04XJ7UwNHJKE7bXy22pLErXpHUFQDqWA,34
+takoyaki-2.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+takoyaki-2.dist-info/METADATA,sha256=VFuzUAdLB_aptlc6vPmYJU4OL09XStdavkP7mNVdvqk,3975
+takoyaki-2.dist-info/RECORD,,
