@@ -1,0 +1,16 @@
+README.md
+setup.cfg
+setup.py
+futura_image/__init__.py
+futura_image/constants.py
+futura_image/image.py
+futura_image/image_2.py
+futura_image/image_PBM.py
+futura_image/image_data.py
+futura_image/mendoza_beltran_utilities.py
+futura_image/recipe.py
+futura_image.egg-info/PKG-INFO
+futura_image.egg-info/SOURCES.txt
+futura_image.egg-info/dependency_links.txt
+futura_image.egg-info/entry_points.txt
+futura_image.egg-info/top_level.txt
