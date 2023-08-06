@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: webarchiver
+Version: 0.1.2
+Summary: Python tool that allows you to take multiple full page screenshots of web pages without ads.
+Home-page: https://github.com/Knucklessg1/webarchive
+Author: Audel Rouhi
+Author-email: knucklessg1@gmail.com
+License: Unlicense
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: License :: Public Domain
+Classifier: Environment :: Console
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: Pillow
+Requires-Dist: piexif
+Requires-Dist: selenium
+Requires-Dist: webdriver-manager
+
+UNKNOWN
+
+
