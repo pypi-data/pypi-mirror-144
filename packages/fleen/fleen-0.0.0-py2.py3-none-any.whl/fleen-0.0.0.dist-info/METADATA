@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: fleen
+Version: 0.0.0
+Summary: Modular rigging system for Maya
+Home-page: https://github.com/lixaft/fleen
+Author: Fabien Taxil
+Author-email: fabien.taxil@gmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 2
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+
+<div  align="center">
+<img src="./docs/theme/images/fleen-red.svg" width="240">
+<h2>Modular Rigging System for Maya</h2>
+<a href="https://github.com/lixaft/ice-cream/actions"><img alt="Actions Status" src="https://github.com/lixaft/ice-cream/workflows/CI/badge.svg"></a>
+<a href="https://results.pre-commit.ci/latest/github/lixaft/fleen/main"><img alt="pre-commit.ci status" src="https://results.pre-commit.ci/badge/github/lixaft/fleen/main.svg"></a>
+<a href="https://codecov.io/github/lixaft/fleen?branch=main"><img src="https://codecov.io/github/lixaft/fleen/coverage.svg?branch=main"></a>
+<a href="https://pypi.org/project/fleen/"><img src="https://img.shields.io/pypi/v/fleen.svg"></a>
+<a href="https://github.com/psf/black/blob/main/LICENSE"><img alt="License: MIT" src="https://img.shields.io/badge/licence-MIT-blue"></a>
+<img src=https://img.shields.io/badge/python-2.7%20|%203.7+-blue>
+<img src=https://img.shields.io/badge/maya-2020+-green>
+</div>
+
+
