@@ -1,0 +1,7 @@
+LICENSE
+pyproject.toml
+setup.cfg
+src/synpeaks.egg-info/PKG-INFO
+src/synpeaks.egg-info/SOURCES.txt
+src/synpeaks.egg-info/dependency_links.txt
+src/synpeaks.egg-info/top_level.txt
