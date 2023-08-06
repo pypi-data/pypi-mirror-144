@@ -1,0 +1,10 @@
+setup.py
+TupleLanguage/ColorGrading.py
+TupleLanguage/Shell.py
+TupleLanguage/SingleLineInterpreter.py
+TupleLanguage/__init__.py
+TupleLanguage/base.py
+TupleLanguage.egg-info/PKG-INFO
+TupleLanguage.egg-info/SOURCES.txt
+TupleLanguage.egg-info/dependency_links.txt
+TupleLanguage.egg-info/top_level.txt
