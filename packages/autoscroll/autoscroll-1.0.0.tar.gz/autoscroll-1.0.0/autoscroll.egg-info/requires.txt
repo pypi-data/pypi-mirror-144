@@ -1,0 +1,4 @@
+pynput
+
+[icon]
+pyside6
