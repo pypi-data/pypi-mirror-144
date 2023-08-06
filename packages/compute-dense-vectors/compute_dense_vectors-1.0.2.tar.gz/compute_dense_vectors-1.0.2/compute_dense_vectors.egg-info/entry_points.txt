@@ -1,0 +1,2 @@
+[console_scripts]
+compute_dense_vectors = compute_dense_vectors.cli:main

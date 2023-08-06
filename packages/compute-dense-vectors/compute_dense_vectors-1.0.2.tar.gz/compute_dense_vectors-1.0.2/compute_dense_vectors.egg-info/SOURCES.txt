@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+requirements.txt
+setup.cfg
+setup.py
+compute_dense_vectors/__init__.py
+compute_dense_vectors/cli.py
+compute_dense_vectors.egg-info/PKG-INFO
+compute_dense_vectors.egg-info/SOURCES.txt
+compute_dense_vectors.egg-info/dependency_links.txt
+compute_dense_vectors.egg-info/entry_points.txt
+compute_dense_vectors.egg-info/requires.txt
+compute_dense_vectors.egg-info/top_level.txt
