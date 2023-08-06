@@ -1,0 +1,11 @@
+SparseArray/__init__.py,sha256=5qjeMXT6PcAqOwMmLFI6Sa3RPTHTGhIJOP4_lrSttQg,686
+SparseArray/sparse_array.c,sha256=7erL2TjJBFOAYLiTqczeeqxdi_C1R-SH9j8i78ATA1Q,1060302
+SparseArray/sparse_array.cp38-win_amd64.pyd,sha256=-sm3iAcXsPUUvTebpQ_LXNO9vwtQDgM9q-RFjPld9o0,137216
+SparseArray/sparse_array.pxd,sha256=v_GMv1wSQKR_IdVoLkzfiR_c63y8K-RoOshD5hrE0so,5704
+SparseArray/sparse_array.pyx,sha256=PJpqKlBE1hwcYtAdzXcrErj-mcUWXgnSIpdA8anUzdY,28120
+SparseArray/tests/test_sparse_array.py,sha256=O_BQ7f_KVtglsQGRW-5eTkOAEx6Wib5WXoMwWrJ9Rvk,22938
+SparseArray-0.8.16.dist-info/LICENSE,sha256=4DukHX-rIHAHaf5BGLq1DYAMt0-ZA1OgXS9f_xwig2M,11558
+SparseArray-0.8.16.dist-info/METADATA,sha256=Z3yu7Dop3b0YwjsZ9mDR97vddpTdsTnnJHKSOpCM754,697
+SparseArray-0.8.16.dist-info/WHEEL,sha256=M2GQ3lde8oJhlQPj2wbRvnqE3cuovPJasri5X5aCmck,100
+SparseArray-0.8.16.dist-info/top_level.txt,sha256=3Z2tDv7E4hgJX5PP9UZiVZj4QHIquW5z3s3UEE2TAkc,30
+SparseArray-0.8.16.dist-info/RECORD,,
