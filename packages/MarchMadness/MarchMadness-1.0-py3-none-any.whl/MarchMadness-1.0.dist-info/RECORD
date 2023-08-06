@@ -1,0 +1,10 @@
+MarchMadness-1.0.data/scripts/AIWeighting.py,sha256=tenwM3sRzflh5Twgxz_GIQE-MDJE9AuyLfLlse5aX5E,4753
+MarchMadness-1.0.data/scripts/MarchMadness.py,sha256=BGeCqpmnMb6fYg23sfwJBiPtT2dnULrKD9R1cTApiXI,13991
+MarchMadness-1.0.data/scripts/Simulate.py,sha256=zCQefFj1VWTxvdstC3tNJuiG2fdsr1OB-KLtzIFiDn8,11729
+MarchMadness-1.0.data/scripts/bracket.py,sha256=GtOWI5p9-p3m_ArmyP79-F0ZzJ_IZpiHKzqCcXgmG4I,15268
+test/__init__.py,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+test/test_MarchMadness.py,sha256=0YtUcdxEKIKxZ87VvHNZU5g9Mh8qNcvEHjEIfLmVxcM,325
+MarchMadness-1.0.dist-info/METADATA,sha256=DgcAigvl6lQB-PcKB95U_SajZRnO1kRnHw1-08q8N1M,10138
+MarchMadness-1.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+MarchMadness-1.0.dist-info/top_level.txt,sha256=8sobtsfpB9Btr-Roflefznazfk6Tt2BQItpS5szCb9I,5
+MarchMadness-1.0.dist-info/RECORD,,
