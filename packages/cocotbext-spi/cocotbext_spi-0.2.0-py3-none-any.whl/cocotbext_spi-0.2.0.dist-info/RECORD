@@ -1,0 +1,14 @@
+cocotbext/spi/__init__.py,sha256=zCNvkBLWmTBsc4jI2iZ3t-5UTSoNdXEUJxTxDayuLBM,1255
+cocotbext/spi/about.py,sha256=Zn1KFblwuFHiDRdRAiRnDBRkbPttWh44jKa5zG2ov0E,22
+cocotbext/spi/spi.py,sha256=9bXTT1Am6aD08_0TQ_pmfzk69vc_XtVSCLtryWdwoFY,15604
+cocotbext/spi/devices/generic.py,sha256=keNys7L8LvxDHBuCOfYxRxdGYJ5enqFXF_4zyBn5tpE,2892
+cocotbext/spi/devices/TI/ADS8028.py,sha256=WMwGDpTZOLZN_94NvLrNf-JSD4zaG3O4WmuBitsRyOY,4539
+cocotbext/spi/devices/TI/DRV8304.py,sha256=gLsQWl2S7DPDWH_5ml_UcYaGgORhaQLGVqSH3NqP4Ng,3277
+cocotbext/spi/devices/TI/__init__.py,sha256=1mmTK4zrkHFUyztyFrm5upSJtZmD8FfGaI_Zjj2oxpI,1726
+cocotbext/spi/devices/Trinamic/TMC4671.py,sha256=1qZ3Bfigeyr9VP74HSesBrMSuyuf04DooXcelCTzkCc,5625
+cocotbext/spi/devices/Trinamic/__init__.py,sha256=1mmTK4zrkHFUyztyFrm5upSJtZmD8FfGaI_Zjj2oxpI,1726
+cocotbext_spi-0.2.0.dist-info/COPYING,sha256=Jct97_CO4l29Ifmef2yltRO0d3iy9sYf4vnnCJnanBg,1055
+cocotbext_spi-0.2.0.dist-info/METADATA,sha256=p3tv-kVwehDg-9sQDQk68pjKpiHSDH0Bs5dJAev_XG4,7578
+cocotbext_spi-0.2.0.dist-info/WHEEL,sha256=_NOXIqFgOaYmlm9RJLPQZ13BJuEIrp5jx5ptRD5uh3Y,92
+cocotbext_spi-0.2.0.dist-info/top_level.txt,sha256=CEzgDDbvABi5X1TOqXPbyRc2Bsf41BTwKc5T8riPRPM,10
+cocotbext_spi-0.2.0.dist-info/RECORD,,
