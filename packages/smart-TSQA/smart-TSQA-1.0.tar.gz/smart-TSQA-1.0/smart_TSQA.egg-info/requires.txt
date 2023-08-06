@@ -1,0 +1,6 @@
+argparse
+jieba>=0.42.1
+pandas
+sklearn
+torch==1.5.1
+tqdm

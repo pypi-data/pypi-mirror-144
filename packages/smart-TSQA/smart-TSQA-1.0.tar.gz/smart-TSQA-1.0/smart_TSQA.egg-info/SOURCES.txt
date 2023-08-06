@@ -1,0 +1,6 @@
+setup.py
+smart_TSQA.egg-info/PKG-INFO
+smart_TSQA.egg-info/SOURCES.txt
+smart_TSQA.egg-info/dependency_links.txt
+smart_TSQA.egg-info/requires.txt
+smart_TSQA.egg-info/top_level.txt
