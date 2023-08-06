@@ -1,0 +1,71 @@
+Metadata-Version: 2.1
+Name: pytest-codeowners
+Version: 0.1.1
+Summary: Pytest plugin for selecting tests by GitHub CODEOWNERS.
+Home-page: https://github.com/Iress/pytest-codeowners
+Author: Rodney Marsh
+Author-email: rodney.marsh@iress.com
+License: Apache Software License 2.0
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Framework :: Pytest
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Testing
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: pytest (>=6.0.0)
+Requires-Dist: codeowners
+Provides-Extra: dev
+Requires-Dist: setuptools (>=38.6) ; extra == 'dev'
+Requires-Dist: wheel ; extra == 'dev'
+
+# pytest-codeowners
+Pytest plugin for selecting tests by GitHub CODEOWNERS.
+
+## Quickstart
+Install with:
+```shell
+pip install pytest-codeowners
+```
+
+## Usage
+Like so: 
+```shell
+pytest --codeowners-file docs/CODEOWNERS \
+  --codeowners-owner @org/team-name \
+  --codeowners-owner my@email.com \
+  --codeowners-owner @MyUsername
+```
+
+## Building
+To build this library as a wheel:
+```sh
+python setup.py bdist_wheel --universal
+```
+
+## Testing
+First, make sure you install the package:
+```sh
+python setup.py install
+```
+
+To run all tests, simply do:
+```sh
+pytest
+```
+
+## Legal
+Copyright 2022 [IRESS Ltd](https://www.iress.com/).
+
+License: Apache License 2.0.
+
+

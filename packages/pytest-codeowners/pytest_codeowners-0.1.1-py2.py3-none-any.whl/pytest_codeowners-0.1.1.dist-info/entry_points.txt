@@ -1,0 +1,3 @@
+[pytest11]
+codeowners = pytest_codeowners
+
