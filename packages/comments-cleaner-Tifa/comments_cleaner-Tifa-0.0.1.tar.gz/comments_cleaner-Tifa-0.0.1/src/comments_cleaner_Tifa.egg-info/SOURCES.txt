@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/comments_cleaner/__init__.py
+src/comments_cleaner/cpp.py
+src/comments_cleaner/python.py
+src/comments_cleaner_Tifa.egg-info/PKG-INFO
+src/comments_cleaner_Tifa.egg-info/SOURCES.txt
+src/comments_cleaner_Tifa.egg-info/dependency_links.txt
+src/comments_cleaner_Tifa.egg-info/top_level.txt
