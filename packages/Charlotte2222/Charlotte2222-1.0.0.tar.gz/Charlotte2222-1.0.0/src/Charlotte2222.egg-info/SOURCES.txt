@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/Charlotte2222.egg-info/PKG-INFO
+src/Charlotte2222.egg-info/SOURCES.txt
+src/Charlotte2222.egg-info/dependency_links.txt
+src/Charlotte2222.egg-info/top_level.txt
