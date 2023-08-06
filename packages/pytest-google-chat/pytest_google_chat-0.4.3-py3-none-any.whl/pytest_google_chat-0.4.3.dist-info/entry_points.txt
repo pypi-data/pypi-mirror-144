@@ -1,0 +1,3 @@
+[pytest11]
+pytest-google-chat = pytest_google_chat.plugin
+
