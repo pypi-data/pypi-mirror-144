@@ -1,0 +1,17 @@
+cerberus
+GitPython
+Jinja2
+ruamel.yaml
+tomli
+tomli-w
+
+[test]
+vmklib
+types-setuptools
+pylint
+flake8
+pytest
+pytest-cov
+mypy
+black
+isort
