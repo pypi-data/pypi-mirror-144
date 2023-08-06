@@ -1,0 +1,42 @@
+Metadata-Version: 2.1
+Name: unicode-nfd2c
+Version: 1.0.2
+Summary: Renames NFD Unicode names to NFC
+Home-page: https://github.com/xvim64/nfd2c
+Author: xvim64
+Author-email: xvim64@gmail.com
+License: GPLv2
+Keywords: mac,hangeul,hangul,unicode,nfd,nfc
+Platform: UNKNOWN
+Classifier: Environment :: Console
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v2 (GPLv2)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# nfd2c (nfd-to-nfc)
+
+Renames NFD UNICODE file and directory names to NFC
+
+
+# Usage
+
+```
+Usage: nfd2c [options] [Directory | File]
+    -x, --execute      Executes UNICODE NFD to NFC
+    -r, --recursive    Includes sub-directoies
+    -d, --dir-only     Directories only
+    -f, --file-only    Files Only
+    -h, --help         Help
+```
+
+
+# License
+
+GPL-2.0 License
+
+
+
+
