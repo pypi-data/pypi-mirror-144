@@ -1,0 +1,17 @@
+README.md
+setup.py
+indicpy.egg-info/PKG-INFO
+indicpy.egg-info/SOURCES.txt
+indicpy.egg-info/dependency_links.txt
+indicpy.egg-info/requires.txt
+indicpy.egg-info/top_level.txt
+src/indicpy/__init__.py
+src/indicpy/__main__.py
+src/indicpy/indicpy.py
+src/indicpy/language.py
+src/indicpy/test.py
+src/indicpy/examples/english.py
+src/indicpy/examples/hindi.pyhi
+src/indicpy/examples/kannada.pykn
+src/indicpy/keywords/hindi.yml
+src/indicpy/keywords/kannada.yml
