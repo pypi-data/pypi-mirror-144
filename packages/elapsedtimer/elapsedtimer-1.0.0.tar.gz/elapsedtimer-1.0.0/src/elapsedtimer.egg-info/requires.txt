@@ -1,0 +1,4 @@
+
+[test]
+pytest>=6.2
+flake8>=4.0

@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/elapsedtimer.py
+src/elapsedtimer.egg-info/PKG-INFO
+src/elapsedtimer.egg-info/SOURCES.txt
+src/elapsedtimer.egg-info/dependency_links.txt
+src/elapsedtimer.egg-info/requires.txt
+src/elapsedtimer.egg-info/top_level.txt
+src/elapsedtimer.egg-info/zip-safe
+test/test_elapsedtimer.py
