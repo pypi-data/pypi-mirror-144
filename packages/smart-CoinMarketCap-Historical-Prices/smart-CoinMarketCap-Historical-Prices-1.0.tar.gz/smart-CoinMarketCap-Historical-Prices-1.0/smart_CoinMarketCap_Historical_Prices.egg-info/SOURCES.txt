@@ -1,0 +1,6 @@
+setup.py
+smart_CoinMarketCap_Historical_Prices.egg-info/PKG-INFO
+smart_CoinMarketCap_Historical_Prices.egg-info/SOURCES.txt
+smart_CoinMarketCap_Historical_Prices.egg-info/dependency_links.txt
+smart_CoinMarketCap_Historical_Prices.egg-info/requires.txt
+smart_CoinMarketCap_Historical_Prices.egg-info/top_level.txt
