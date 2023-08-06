@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+
+{% block header %}
+  <h1>{% block title %}Answer{% endblock %}</h1>
+{% endblock %}
+
+{% block content %}
+  <dl>
+    {% for item in session['answer'] %}
+      <dt>{{ item['label'] }}</dt>
+      <dd>{{ item['value'] }}</dd>
+    {% endfor %}
+  </dl>
+{% endblock %}

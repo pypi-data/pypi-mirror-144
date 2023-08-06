@@ -1,0 +1,28 @@
+
+/*
+ * This initial style is taken from http://jsfiddle.net/cfYB9/
+ *
+ * This was given in an answer on Stack Overflow at https://stackoverflow.com/a/6991727
+ *
+ */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+dt {
+    float: left;
+    clear: both;
+    width: 10em;
+    font-weight: bold;
+}
+
+dt:after {
+    content: ":";
+}
+
+dd {
+    float: left;
+    width: 10em;
+}
