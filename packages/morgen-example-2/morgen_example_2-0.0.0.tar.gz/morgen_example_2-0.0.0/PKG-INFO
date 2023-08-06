@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: morgen_example_2
+Version: 0.0.0
+Summary: example for March 31st
+Home-page: https://github.com/pypa/sampleproject
+Author: Zhiwei Zhang
+Author-email: 528270265@qq.com
+Maintainer: zhiwei
+Maintainer-email: 528270265@qq.com
+License: Apache-2
+Platform: any
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Scientific/Engineering :: Electronic Design Automation (EDA)
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown; charset=UTF-8
+Provides-Extra: pdf
+Provides-Extra: rest
+License-File: LICENSE
+
+# Example Package
+
+This is a simple example package. You can use
+[Github-flavored Markdown](https://guides.github.com/features/mastering-markdown/)
+to write your content.
+

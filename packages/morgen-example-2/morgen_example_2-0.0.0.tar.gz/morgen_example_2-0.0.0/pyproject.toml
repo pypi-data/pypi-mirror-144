@@ -1,0 +1,14 @@
+
+[build-system]
+# setuptools_scm extract Python package versions from git 
+# and do not need to declare them as the version argument or in a SCM managed file.
+
+# ensure that setuptools_scm is present during the project's built step 
+# by specifying it as one of the build requirements.
+
+requires = ["setuptools>=46.1.0", "setuptools_scm[toml]>=5", "wheel"]
+build-backend = "setuptools.build_meta"
+# To enable version inference
+[tool.setuptools_scm]
+# See configuration details in https://github.com/pypa/setuptools_scm
+version_scheme = "no-guess-dev"
