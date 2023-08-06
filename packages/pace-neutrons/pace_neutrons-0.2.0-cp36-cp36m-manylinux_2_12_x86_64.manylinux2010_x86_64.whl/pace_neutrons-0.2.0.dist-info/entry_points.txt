@@ -1,0 +1,4 @@
+[console_scripts]
+pace_neutrons = pace_neutrons_cli:main
+worker_v2 = pace_neutrons_cli.worker:main
+
