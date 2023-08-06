@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: DocumentLayoutAnalysis
+Version: 0.0.2
+Summary: DIT document layout
+Author: sneha dhole
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: torch
+Requires-Dist: pyyaml
+Requires-Dist: torchvision
+Requires-Dist: opencv-python
+Requires-Dist: Pillow
+Requires-Dist: fvcore
+Requires-Dist: cloudpickle
+Requires-Dist: omegaconf
+Requires-Dist: pycocotools
+Requires-Dist: timm
+Requires-Dist: scipy
+Requires-Dist: shapely
+Requires-Dist: numpy
+
+UNKNOWN
+
