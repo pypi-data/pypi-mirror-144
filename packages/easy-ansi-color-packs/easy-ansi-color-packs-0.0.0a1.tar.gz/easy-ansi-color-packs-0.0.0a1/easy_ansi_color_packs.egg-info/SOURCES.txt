@@ -1,0 +1,13 @@
+CHANGELOG.md
+LICENSE
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+easy_ansi_color_packs.egg-info/PKG-INFO
+easy_ansi_color_packs.egg-info/SOURCES.txt
+easy_ansi_color_packs.egg-info/dependency_links.txt
+easy_ansi_color_packs.egg-info/top_level.txt
+easyansi/__init__.py
+easyansi/colorpacks/__init__.py
+easyansi/colorpacks/hello.py

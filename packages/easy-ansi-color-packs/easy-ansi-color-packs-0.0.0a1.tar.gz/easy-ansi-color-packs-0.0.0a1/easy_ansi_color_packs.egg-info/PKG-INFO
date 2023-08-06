@@ -1,0 +1,46 @@
+Metadata-Version: 2.1
+Name: easy-ansi-color-packs
+Version: 0.0.0a1
+Summary: RGB Color Packs for use with Easy ANSI.
+Home-page: https://gitlab.com/easy-ansi/easy-ansi-color-packs
+Author: Joey Rockhold
+Author-email: joey@joeysbytes.net
+License: UNKNOWN
+Project-URL: Source, https://gitlab.com/easy-ansi/easy-ansi-color-packs
+Project-URL: Change Log, https://gitlab.com/easy-ansi/easy-ansi-color-packs/-/blob/main/CHANGELOG.md
+Project-URL: Issues, https://gitlab.com/easy-ansi/easy-ansi-color-packs/-/issues
+Project-URL: License, https://gitlab.com/easy-ansi/easy-ansi-color-packs/-/blob/main/LICENSE
+Project-URL: All Documentation, https://gitlab.com/easy-ansi/easy-ansi-docs/-/blob/main/README.md
+Project-URL: All Easy ANSI, https://gitlab.com/easy-ansi
+Keywords: ANSI,easy,API,console,terminal,colors
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Topic :: Software Development
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Application Frameworks
+Classifier: Topic :: Software Development :: User Interfaces
+Classifier: Topic :: Terminals
+Classifier: Typing :: Typed
+Requires-Python: >=3.6,<4
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Easy ANSI Color Packs
+
+Color Packs are named RGB color values for use with your Easy ANSI projects.
+
+Coming in the near future, this is being actively developed now.
+
+
