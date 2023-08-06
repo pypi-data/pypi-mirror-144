@@ -1,0 +1,6 @@
+setup.py
+smart_cert_mailer.egg-info/PKG-INFO
+smart_cert_mailer.egg-info/SOURCES.txt
+smart_cert_mailer.egg-info/dependency_links.txt
+smart_cert_mailer.egg-info/requires.txt
+smart_cert_mailer.egg-info/top_level.txt
