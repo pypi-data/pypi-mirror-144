@@ -1,0 +1,11 @@
+CHANGELOG.txt
+LICENSE.txt
+MANIFEST.in
+README.txt
+__init__.py
+setup.cfg
+setup.py
+wiredcalc.egg-info/PKG-INFO
+wiredcalc.egg-info/SOURCES.txt
+wiredcalc.egg-info/dependency_links.txt
+wiredcalc.egg-info/top_level.txt
