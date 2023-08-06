@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: autospeX
+Version: 0.0.1
+Summary: Automated spectroscopic modelling. The first version is under testing.
+Home-page: https://github.com/zefang-shen/autospex.git
+Author: Zefang Shen
+Author-email: zefang2455@gmail.com
+License: MIT
+Description: # AutoSpectra
+        Automated spectroscopic modelling
+        
+        # Current Status
+        Developing Version 0.0.1
+        
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown

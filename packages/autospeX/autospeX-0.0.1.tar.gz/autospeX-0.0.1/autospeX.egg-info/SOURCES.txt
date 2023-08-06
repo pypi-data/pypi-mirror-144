@@ -1,0 +1,10 @@
+README.md
+setup.py
+autospeX/__init__.py
+autospeX/model.py
+autospeX.egg-info/PKG-INFO
+autospeX.egg-info/SOURCES.txt
+autospeX.egg-info/dependency_links.txt
+autospeX.egg-info/requires.txt
+autospeX.egg-info/top_level.txt
+autospeX.egg-info/zip-safe
