@@ -1,0 +1,61 @@
+Metadata-Version: 2.1
+Name: whispool
+Version: 0.1.2
+Classifier: Programming Language :: Python
+Description-Content-Type: text/markdown; charset=UTF-8; variant=GFM
+
+# Whispool
+> Fast in memory word frequency count, with Rust
+
+## Installation
+```shell
+pip install whispool
+```
+
+## Basic usage
+We assume we have n sentences, with each sentence broken into words. And each sentence is 
+```python
+# each sentence could have diffrent length of words
+sentence = [
+            ['This', 'is', 'a', 'sentence'],
+            ['This', 'is', 'another', 'sentence'],
+            ['This', 'is', 'a', 'third', 'sentence', 'here'],
+            ...
+        ]
+
+# each info list has to be IN THE SAME LENGTH
+info = list([
+            ['id1', 'category1', 'sci-fi', 'movie','Jan.'],
+            ['id2', 'category1', 'romance', 'movie','Jan.'],
+            ['id3', 'category2', 'sci-fi', 'tv','Feb.'],
+            ...
+        ])
+```
+### Put in data
+> Now we put in data
+
+```python
+from whispool import Whispool
+from pathlib import Path
+
+whisper_multi = Whispool(
+        directory=Path("test_data"), threads=2, capacity=200)
+
+whisper_multi.consume(sentence, info)
+whisper_multi.consume(sentence_batch2, info_batch2)
+...
+whisper_multi.consume(sentence_batchN, info_batchN)
+```
+
+### Fetch the result data
+Now we want to see the hot key words of ```Sci-Fi movies in January```.
+```python
+df = whisper_multi.final_stats(
+        [None, None, 'sci-fi', 'movie', 'Jan.'],
+        top_n=2)
+```
+
+## Build from rust
+```shell
+maturin build --release
+```
