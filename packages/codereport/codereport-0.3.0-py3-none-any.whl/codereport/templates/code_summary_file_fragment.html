@@ -1,0 +1,10 @@
+{% for srcfile, file_items in items %}
+<h3>{{srcfile.name}}</h3>
+
+{% for item in file_items | sort(attribute="line")  %}
+
+{{ highlight(item.path, item.line) }}
+
+{% endfor %}
+
+{% endfor %}
