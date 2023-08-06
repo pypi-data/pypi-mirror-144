@@ -1,0 +1,8 @@
+rest_api_payload/__init__.py,sha256=KQ-TKPsCWrcT0SmbdmTgIGYhgv7RyqHA_gM_pMhZUBA,988
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_init.py,sha256=ZE5JpfP19ejhtqkjLNJjEagTWAfBRUJhxDiHwoL7T9s,994
+rest_api_payload-0.0.5.dist-info/LICENSE.txt,sha256=PGnO3jqgeAIs1e2kbwpNvumOKuq9ny0Lv37Y8sc24g8,1066
+rest_api_payload-0.0.5.dist-info/METADATA,sha256=hqjyVeOz9uBUrHe-Zz40ni0ia4ue9zIKnBSHlWdd3Zc,4266
+rest_api_payload-0.0.5.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+rest_api_payload-0.0.5.dist-info/top_level.txt,sha256=ViffBejYT1f7IV2gvjxBw2f2r1V2xPBVzu24IxZSneY,23
+rest_api_payload-0.0.5.dist-info/RECORD,,
