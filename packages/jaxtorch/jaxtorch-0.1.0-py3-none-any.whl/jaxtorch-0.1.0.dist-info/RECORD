@@ -1,0 +1,17 @@
+jaxtorch/__init__.py,sha256=tPXKRXqERO2wj80dLsRLBCMzz1HVz1ODDmqBz3VSES4,151
+jaxtorch/_version.py,sha256=L6zbQIZKsAP-Knhm6fBcQFPoVdIDuejxze60qX23jiw,21
+jaxtorch/cbor.py,sha256=N7q-j4mlyF0xYvPhKIePFB5VJyJ2TX7oHEz-qD_QFjM,1519
+jaxtorch/core.py,sha256=uKJjunHmOBIPi08-wDv3mysZClU4utGBMerxddDlX1M,8983
+jaxtorch/image.py,sha256=TgvVJH_hhoNhzt8jNrA_VjKI7W0SWJU6-vNebxA9nmQ,4489
+jaxtorch/init.py,sha256=WkczzXmg3Ab7ze7h9ktX0BSel5l2eX0OFZ0irG6jVPQ,1349
+jaxtorch/monkeypatches.py,sha256=7ES_02P5P68i-I7xE0IJXoj073MIgZcl-wGFyMz3qcg,2038
+jaxtorch/pt.py,sha256=t0KDN6-kv6r8lUaj7tbe7FcdL_xBKp4Xd7Kb8CB5dDU,873
+jaxtorch/nn/__init__.py,sha256=ZOc5pdV2k_OVugQrTw7IPBUIAFyCBOp_AJuSmLJnwl4,89
+jaxtorch/nn/functional.py,sha256=x-9cvByF3-UxFLq-lQFL9GfBGEoSBGg7benuN0SWbV0,2529
+jaxtorch/nn/image.py,sha256=qb125DfxnDtG_fbId_LRPVsafQOOGucpiFsbozWILaI,630
+jaxtorch/nn/modules.py,sha256=rTQZZpKvkpIRM4vGXzw0iGMS3cytI7N10-3fu5hS0zc,8912
+jaxtorch-0.1.0.dist-info/COPYING,sha256=6hGzppgmDPV6bsxFFYJAIW8qJvkO4NQgTwhEmVe0OAU,1048
+jaxtorch-0.1.0.dist-info/METADATA,sha256=MD6NTE3v6Fo_nUlcBliaSiYFqZDomyO-6oMvpVzkMNo,2715
+jaxtorch-0.1.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+jaxtorch-0.1.0.dist-info/top_level.txt,sha256=R2vUxJFZGib9OD8fbrH0BenJIJ38s8SLA1AvEP5JmH4,9
+jaxtorch-0.1.0.dist-info/RECORD,,
