@@ -1,0 +1,10 @@
+zmapio/__init__.py,sha256=IeAhpfiMngkc-b9b1FRSBkcAXhUB0Mf8P1TXLCrPpTI,92
+zmapio/__version__.py,sha256=RaANGbRu5e-vehwXI1-Qe2ggPPfs1TQaZj072JdbLk4,22
+zmapio/reader.py,sha256=vYH2BkwKIdwWqXkcWNual6X-j4CXy5j7mXo9RCiahgg,2128
+zmapio/writer.py,sha256=-bXxnf8r8q8vwIphoVrgQDc1xhr_-SnfmGBgAju9WTU,1379
+zmapio/zmap.py,sha256=vk-knoZv4ZDWpzYMNL5nFAo76xe1WbwU78ckDnmiZo4,6244
+zmapio-0.7.0.dist-info/LICENSE,sha256=-6mDACKVY5zqxic327QtwmmMds63t8S8h1e4R3MBNks,1079
+zmapio-0.7.0.dist-info/METADATA,sha256=4NiqTQ369fQRNw40VGcDusqGqn2krKex67jHEE5q7YA,6952
+zmapio-0.7.0.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+zmapio-0.7.0.dist-info/top_level.txt,sha256=oFyRHziDxSD3bhO-Wdqv_HyAEj2wabVrYy2fM9FC1qg,7
+zmapio-0.7.0.dist-info/RECORD,,
