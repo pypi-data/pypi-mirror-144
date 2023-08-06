@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: hydrapyxl
+Version: 0.0.2
+Summary: HydraPyXl, Excel automation using Python.
+Home-page: 
+Author: Rizky Irswanda
+Author-email: rizky.irswanda115@gmail.com
+License: MIT
+Keywords: excel
+Platform: UNKNOWN
+Classifier: Development Status :: 6 - Mature
+Classifier: Intended Audience :: Information Technology
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+License-File: LICENSE.txt
+
+HydraPyXl is a library that enables users to easily work with Excel files using Python.
+
+Change Log
+==========
+
+0.0.1 (31/03/22)
+----------------
+- Release
+
+0.0.1 (31/03/22)
+----------------
+- Init file
+

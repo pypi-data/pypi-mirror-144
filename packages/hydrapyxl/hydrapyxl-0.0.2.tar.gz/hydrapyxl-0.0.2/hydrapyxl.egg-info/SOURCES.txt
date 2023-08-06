@@ -1,0 +1,11 @@
+CHANGELOG.txt
+LICENSE.txt
+MANIFEST.in
+README.txt
+__init__.py
+setup.py
+hydrapyxl.egg-info/PKG-INFO
+hydrapyxl.egg-info/SOURCES.txt
+hydrapyxl.egg-info/dependency_links.txt
+hydrapyxl.egg-info/requires.txt
+hydrapyxl.egg-info/top_level.txt
