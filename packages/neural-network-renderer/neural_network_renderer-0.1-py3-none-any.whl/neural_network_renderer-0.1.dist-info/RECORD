@@ -1,0 +1,11 @@
+neural-network-renderer/__init__.py,sha256=Ama1vEiGaXafjP2Y8VwKdzYLoXSxZluoj8EKf1Q10Zo,256
+neural-network-renderer/__main__.py,sha256=3VzpRptWNQF6IGgW7x9S9A8npyNXpa70tw74AkbNGvQ,1241
+neural-network-renderer/architecture.py,sha256=AXO74hb5k91kWgAG7f1RGi5FfIviw-n68XJuLR5b4HU,1717
+neural-network-renderer/colors.py,sha256=BVsMGvRSoSB89ZiSF2Q4D5GFiVrQ2sbyyn7fznIou7A,2038
+neural-network-renderer/layers.py,sha256=W63rAJR7P2499_uKB3H__K2V8iJs9k3rlGrrfYi5CvQ,19350
+neural-network-renderer/styles.py,sha256=wWPUwW2COToSKuvqTMmGdN0HPdGBX7sdSAFApLvx-ck,15172
+neural_network_renderer-0.1.data/scripts/neural-network-renderer,sha256=TBVbuq56fj5EIC4mPUSZi-ioQL3S2gxSIlJn7vAWnqg,25
+neural_network_renderer-0.1.dist-info/METADATA,sha256=I6-yHHqEdFebphAtqFVjCCHkf6Qr-RHHNf-odF3RDaU,2052
+neural_network_renderer-0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+neural_network_renderer-0.1.dist-info/top_level.txt,sha256=_rJ2k-932U7Q11JbIWO3Du0weh2fNAqzHm1wwa3aMLk,24
+neural_network_renderer-0.1.dist-info/RECORD,,
