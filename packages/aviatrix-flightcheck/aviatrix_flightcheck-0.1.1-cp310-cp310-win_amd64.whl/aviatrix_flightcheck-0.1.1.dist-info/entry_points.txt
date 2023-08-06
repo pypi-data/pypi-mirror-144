@@ -1,0 +1,2 @@
+[console_scripts]
+flightcheck = flightcheck:main
