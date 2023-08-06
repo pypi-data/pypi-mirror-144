@@ -1,0 +1,4 @@
+attrs>=18.2
+networkx==2.1
+pyclics>=2.0.0
+python-louvain
