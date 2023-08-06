@@ -1,0 +1,74 @@
+Metadata-Version: 2.1
+Name: zc.intid
+Version: 2.1.0
+Summary: Reduced-conflict Integer Id Utility
+Home-page: http://zcintid.readthedocs.io
+Author: Zope Corporation and Contributors
+Author-email: zope-dev@zope.org
+License: ZPL 2.1
+Keywords: zope3 integer id utility
+Platform: UNKNOWN
+Classifier: Environment :: Web Environment
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Zope Public License
+Classifier: Programming Language :: Python
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Internet :: WWW/HTTP
+Classifier: Framework :: Zope :: 3
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+License-File: LICENSE.txt
+Requires-Dist: setuptools
+Requires-Dist: BTrees
+Requires-Dist: zope.component
+Requires-Dist: zope.event
+Requires-Dist: zope.interface
+Requires-Dist: zope.security
+Requires-Dist: zope.lifecycleevent
+Requires-Dist: zope.intid (>=4.2)
+Requires-Dist: zope.keyreference
+Provides-Extra: docs
+Requires-Dist: Sphinx ; extra == 'docs'
+Requires-Dist: repoze.sphinx.autointerface ; extra == 'docs'
+Requires-Dist: sphinx-rtd-theme ; extra == 'docs'
+Provides-Extra: test
+Requires-Dist: zope.configuration ; extra == 'test'
+Requires-Dist: zope.site ; extra == 'test'
+Requires-Dist: zope.testrunner ; extra == 'test'
+
+==============================================
+zc.intid - Reduced-conflict integer id utility
+==============================================
+
+.. image:: https://github.com/zopefoundation/zc.intid/actions/workflows/tests.yml/badge.svg
+    :target: https://github.com/zopefoundation/zc.intid/actions/workflows/tests.yml
+
+.. image:: https://readthedocs.org/projects/zcintid/badge/?version=latest
+        :target: https://zcintid.readthedocs.io/
+        :alt: Documentation Status
+
+This package provides an API to create integer ids for any object.
+Objects can later be looked up by their id as well. This is similar to
+the ``zope.intid`` package, but it has the advantage of producing
+fewer conflicts.
+
+`Documentation`_, including installation and configuration
+instructions and a detailed `changelog`_ is hosted at
+http://zcintid.readthedocs.io.
+
+
+.. _Documentation: http://zcintid.readthedocs.io
+.. _changelog: http://zcintid.readthedocs.io/en/latest/changelog.html
+
+
