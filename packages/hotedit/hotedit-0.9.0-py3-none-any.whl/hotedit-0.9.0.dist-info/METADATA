@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: hotedit
+Version: 0.9.0
+Summary: Automatically find and launch an editor with a stream of text to edit; then save
+Author: Cory Dodt
+Author-email: corydodt@gmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Provides-Extra: test
+Requires-Dist: pytest (>=5.2,<6.0); extra == "test"
+Requires-Dist: pytest-cov (>=3.0.0,<4.0.0)
+Requires-Dist: pytest-flakes (>=4.0.5,<5.0.0); extra == "test"
