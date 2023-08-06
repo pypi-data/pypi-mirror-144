@@ -1,0 +1,15 @@
+LICENSE.txt
+MANIFEST.in
+README.rst
+Tool.py
+setup.py
+The_way_of_writing_paper.egg-info/PKG-INFO
+The_way_of_writing_paper.egg-info/SOURCES.txt
+The_way_of_writing_paper.egg-info/dependency_links.txt
+The_way_of_writing_paper.egg-info/top_level.txt
+the_way_of_writing_paper.egg-info/PKG-INFO
+the_way_of_writing_paper.egg-info/SOURCES.txt
+the_way_of_writing_paper.egg-info/dependency_links.txt
+the_way_of_writing_paper.egg-info/top_level.txt
+xzz/__init__.py
+xzz/xzzone.py
