@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: spsftp
+Version: 0.0.1
+Summary: Small library for sending/receiving files using the Serviceplatformen sftp 'simple file transfer'
+License: MPL-2.0
+Author: Magenta ApS
+Author-email: info@magenta.dk
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: paramiko (>=2.10.3,<3.0.0)
+Requires-Dist: xmltodict (>=0.12.0,<0.13.0)
