@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: simple-pass-manager
+Version: 0.0.1
+Summary: A small description like my d
+Home-page: UNKNOWN
+Author: Zhmishenko Valery Albertovich
+Author-email: my_real_email@zhopa.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.9.7
+Description-Content-Type: text/markdown
+Requires-Dist: setuptools (>=42)
+Requires-Dist: cryptography (>=36.0.2)
+
+my supa mega fancy lib big description like my d
+
