@@ -1,0 +1,5 @@
+# Install
+
+```
+github-secrets-mgmt
+```
