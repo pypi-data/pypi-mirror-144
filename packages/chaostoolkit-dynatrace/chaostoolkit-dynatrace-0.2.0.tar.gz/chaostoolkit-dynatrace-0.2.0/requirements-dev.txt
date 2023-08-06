@@ -1,0 +1,8 @@
+coverage
+pytest-cov
+pycodestyle
+pytest-sugar
+respx
+black
+isort
+flake8
