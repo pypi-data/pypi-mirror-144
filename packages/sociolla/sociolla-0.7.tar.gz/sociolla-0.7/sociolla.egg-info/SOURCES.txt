@@ -1,0 +1,11 @@
+LICENSE.txt
+setup.py
+sociolla/__init__.py
+sociolla/additionalfunc.py
+sociolla/getapi.py
+sociolla/supportvar.py
+sociolla.egg-info/PKG-INFO
+sociolla.egg-info/SOURCES.txt
+sociolla.egg-info/dependency_links.txt
+sociolla.egg-info/requires.txt
+sociolla.egg-info/top_level.txt
