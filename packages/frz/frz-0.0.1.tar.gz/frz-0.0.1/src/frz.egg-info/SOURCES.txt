@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/freeze/__init__.py
+src/freeze/freeze.py
+src/freeze/thaw.py
+src/frz.egg-info/PKG-INFO
+src/frz.egg-info/SOURCES.txt
+src/frz.egg-info/dependency_links.txt
+src/frz.egg-info/top_level.txt
