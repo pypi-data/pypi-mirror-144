@@ -1,0 +1,7 @@
+fpg/__init__.py,sha256=UkqGECZFzorNXqbRYGnH-KlhEI9tkb0MQohwcXnKeg4,43
+fpg/pgconn.py,sha256=uLfhx71skwCuaRtl78KXymDhS4Q1GK4na2EyYfd4kUo,49080
+fpg/pgdb.py,sha256=VClCYX8CqeB35E0m-tnpLVpF4EGHlo1HhPAJKnmo5Cg,4703
+fpg-1.14.dist-info/METADATA,sha256=O5Fj06b-UOxYse7sXlR-_MfnQsJtg712tgUt-JqpaAs,331
+fpg-1.14.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+fpg-1.14.dist-info/top_level.txt,sha256=P8-8CLkOq_X6YXgKTbfPZUgNDALh0dIu6dO2_7D95-E,4
+fpg-1.14.dist-info/RECORD,,
