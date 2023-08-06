@@ -1,0 +1,16 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+oqmscore/LLR.py
+oqmscore/OQM.py
+oqmscore/PESQ.py
+oqmscore/SSNR.py
+oqmscore/WSS.py
+oqmscore/__init__.py
+oqmscore.egg-info/PKG-INFO
+oqmscore.egg-info/SOURCES.txt
+oqmscore.egg-info/dependency_links.txt
+oqmscore.egg-info/not-zip-safe
+oqmscore.egg-info/requires.txt
+oqmscore.egg-info/top_level.txt

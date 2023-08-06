@@ -1,0 +1,4 @@
+pesq
+numpy
+librosa
+scipy
