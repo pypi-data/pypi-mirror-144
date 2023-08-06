@@ -1,0 +1,4 @@
+numpy<=1.22.0
+ase
+pymatgen<=2022.0.17
+fire
