@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+LatestEarthquake/__init__.py
+r2_LatestEarthquake.egg-info/PKG-INFO
+r2_LatestEarthquake.egg-info/SOURCES.txt
+r2_LatestEarthquake.egg-info/dependency_links.txt
+r2_LatestEarthquake.egg-info/top_level.txt
