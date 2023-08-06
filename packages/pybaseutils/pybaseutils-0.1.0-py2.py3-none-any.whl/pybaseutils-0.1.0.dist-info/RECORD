@@ -1,0 +1,15 @@
+base_utils_python/__init__.py,sha256=yjlto7TR6kEn9OoJdFvtJyu8ipqg_v2IUEBvRsWoHSw,194
+base_utils_python/base64_utils.py,sha256=9NcmsX6Yhj1hvwlBEp8oLccQsOT1vgyIPc2-5pwckIc,4242
+base_utils_python/classification_report.py,sha256=zcWnm-PjNSjf3C64jTqdAcD-JFa-Zm9G1XTlJBv3kL0,5450
+base_utils_python/debug.py,sha256=-HccJlAGEcemNcQx618BSmoXn7QVOGgNYgcqYTXJTB4,8308
+base_utils_python/file_utils.py,sha256=fae6DgzDOD8J0w_K0HQFVAP8Q9NwaZJh8ebhIx1KmCc,26902
+base_utils_python/geometry_tools.py,sha256=ejoKi7pZuDpfzxsp1z-qFGrth-tMv1giyXSd2l6iB_s,13058
+base_utils_python/image_utils.py,sha256=UHPFtVqRhZkLcrCP_davYF1FCpBVpdsnCNGn-0Du4vk,85235
+base_utils_python/numpy_tools.py,sha256=P22avNL9AwoE80QM0QZQtUwZuidNekDPvn3tSolbHpA,12102
+base_utils_python/plot_utils.py,sha256=DoWmhQGw0bqpz89hndds1S58IRy0VfZKMlHLC96ImHA,5345
+base_utils_python/yaml_utils.py,sha256=KcURNJYWB0E-W4o6kSPdqUfwIxl5rfI5iqppNaAEJeQ,1141
+pybaseutils-0.1.0.dist-info/LICENCE,sha256=2bm9uFabQZ3Ykb_SaSU_uUbAj2-htc6WJQmS_65qD00,1073
+pybaseutils-0.1.0.dist-info/METADATA,sha256=41ocRKWq_9uqzDdFgYntT4Ra6JX91hBw5MnQhcFWOEw,3116
+pybaseutils-0.1.0.dist-info/WHEEL,sha256=Z-nyYpwrcSqxfdux5Mbn_DQ525iP7J2DG3JgGvOYyTQ,110
+pybaseutils-0.1.0.dist-info/top_level.txt,sha256=PsnSW0nQV58zRnyn7ejDra8cRvZjNS2TD11s4veH1WI,18
+pybaseutils-0.1.0.dist-info/RECORD,,
