@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: pywatts
+Version: 0.3.0
+Summary: A python time series pipelining project
+Author: pyWATTS-TEAM
+Author-email: pywatts-team@iai.kit.edu
+License: MIT
+Keywords: preprocessing time-series machine-learning
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+License-File: LICENSE
+Requires-Dist: scikit-learn (>=1.0)
+Requires-Dist: cloudpickle
+Requires-Dist: holidays
+Requires-Dist: xarray (>=0.19)
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: matplotlib
+Requires-Dist: tensorflow (>=2)
+Requires-Dist: workalendar
+Requires-Dist: statsmodels
+Requires-Dist: tabulate
+Provides-Extra: dev
+Requires-Dist: pytest ; extra == 'dev'
+Requires-Dist: sphinx (>=4) ; extra == 'dev'
+Requires-Dist: pylint ; extra == 'dev'
+Requires-Dist: pytest-cov ; extra == 'dev'
+
+UNKNOWN
+
