@@ -1,0 +1,5 @@
+devpi-builder
+flake8
+isort
+pip-tools
+sphinx
