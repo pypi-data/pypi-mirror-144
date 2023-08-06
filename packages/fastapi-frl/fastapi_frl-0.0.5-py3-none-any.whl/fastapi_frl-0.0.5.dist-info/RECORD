@@ -1,0 +1,14 @@
+fastapi_frl/__init__.py,sha256=PEILhmCOWQQy3cvTNzI99L-ZuiJeWXffjGjbCMNo1BE,241
+fastapi_frl/backend.py,sha256=SdXZFiFCnpQVQL6ZyPCYSLwXVhO4az2HiIBGi-HIkn4,1110
+fastapi_frl/key.py,sha256=Iuv4YFandEjmkoA6krJ2mcwCrnJglk9TTfNLE_ivLq8,833
+fastapi_frl/limiter.py,sha256=y09kIHWO6yXWNNg8YjOjG8TYMHmc9E0F5RJw66PkmlQ,2067
+fastapi_frl/algorithms/__init__.py,sha256=zsaPcrTCxuH79FL-QAWw0jv1GivDyx5nuCFNthZ2OIY,213
+fastapi_frl/algorithms/base.py,sha256=02KkggGzQJWlWIZXcsXlBZHcIRAX-y6hfvXNHSIPRgI,215
+fastapi_frl/algorithms/bucket.py,sha256=Td5Cqy-im22cA4ptrO6rW7-YIIm9Swrf4gO9immerj0,325
+fastapi_frl/algorithms/simple.py,sha256=btvtqrXKT4WC_LzSMw3OzFp9yhUUsbEBaKstTNfTNfg,715
+fastapi_frl/algorithms/window.py,sha256=K83F-odXhXcxhYfs2pdjw9v6uGTZr67-NYsAZDgTi6g,2403
+fastapi_frl-0.0.5.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+fastapi_frl-0.0.5.dist-info/METADATA,sha256=nuh6x7oA6kSTqvWt0l1wrt6aAvOfRxt7eTy7mW_j_Z4,1242
+fastapi_frl-0.0.5.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+fastapi_frl-0.0.5.dist-info/top_level.txt,sha256=HBKXtLoW1SH6---xRHp5fCI9s8hlyHWE-TDbGI0ILyI,12
+fastapi_frl-0.0.5.dist-info/RECORD,,
