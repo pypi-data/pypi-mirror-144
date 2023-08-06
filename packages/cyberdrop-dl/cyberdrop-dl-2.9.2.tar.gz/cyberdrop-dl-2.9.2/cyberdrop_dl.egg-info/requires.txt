@@ -1,0 +1,9 @@
+aiofiles
+aiohttp
+certifi
+colorama
+gofile-client
+requests
+tqdm
+yarl
+beautifulsoup4
