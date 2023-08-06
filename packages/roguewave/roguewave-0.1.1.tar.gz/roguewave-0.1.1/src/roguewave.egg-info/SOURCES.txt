@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+src/roguewave.egg-info/PKG-INFO
+src/roguewave.egg-info/SOURCES.txt
+src/roguewave.egg-info/dependency_links.txt
+src/roguewave.egg-info/requires.txt
+src/roguewave.egg-info/top_level.txt
