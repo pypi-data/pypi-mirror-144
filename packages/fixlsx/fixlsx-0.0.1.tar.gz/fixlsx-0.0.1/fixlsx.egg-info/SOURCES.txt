@@ -1,0 +1,10 @@
+CHANGELOG.txt
+MANIFEST.in
+README.txt
+setup.py
+fixlsx/__init__.py
+fixlsx.egg-info/PKG-INFO
+fixlsx.egg-info/SOURCES.txt
+fixlsx.egg-info/dependency_links.txt
+fixlsx.egg-info/requires.txt
+fixlsx.egg-info/top_level.txt
