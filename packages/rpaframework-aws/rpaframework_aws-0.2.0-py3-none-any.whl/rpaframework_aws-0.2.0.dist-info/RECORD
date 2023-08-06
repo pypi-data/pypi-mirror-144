@@ -1,0 +1,6 @@
+RPA/Cloud/AWS/__init__.py,sha256=UU6yt2aIPteLx1mCXZGqUmXHnQn2KICjpnh65NE74d4,36604
+RPA/Cloud/AWS/textract.py,sha256=03WSTZed85xVkWkSvQE27e3HAvoQ0I0hn-4pfo0nghw,17375
+rpaframework_aws-0.2.0.dist-info/LICENSE,sha256=PjT5Pz2KtuQshio3J4Sr34dEfvQV_MFCSqRhJ1PCUdY,11560
+rpaframework_aws-0.2.0.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+rpaframework_aws-0.2.0.dist-info/METADATA,sha256=i8r6Wwu6xcfbYQyynNrBfq_1vKNcewcS6K0BrBgu4QY,1604
+rpaframework_aws-0.2.0.dist-info/RECORD,,
