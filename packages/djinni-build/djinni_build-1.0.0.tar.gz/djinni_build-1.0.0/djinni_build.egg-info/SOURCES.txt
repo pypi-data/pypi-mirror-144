@@ -1,0 +1,17 @@
+LICENSE
+README.md
+setup.py
+djinni_build/__init__.py
+djinni_build/android_build_context.py
+djinni_build/argparse_enums.py
+djinni_build/build_context.py
+djinni_build/darwin_build_context.py
+djinni_build/djinni_build.py
+djinni_build/linux_build_context.py
+djinni_build/print_prefixed.py
+djinni_build/windows_build_context.py
+djinni_build.egg-info/PKG-INFO
+djinni_build.egg-info/SOURCES.txt
+djinni_build.egg-info/dependency_links.txt
+djinni_build.egg-info/requires.txt
+djinni_build.egg-info/top_level.txt
