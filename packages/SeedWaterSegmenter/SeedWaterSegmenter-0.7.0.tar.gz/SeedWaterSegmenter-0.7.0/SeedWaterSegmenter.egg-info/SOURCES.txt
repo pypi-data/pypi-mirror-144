@@ -1,0 +1,36 @@
+CHANGES.txt
+LICENSE.txt
+MANIFEST.in
+README.md
+SeedWaterSegmenter V 0.5 Manual.txt
+Tips and tricks.txt
+Troubleshooting.txt
+create_sws_shortcut.py
+old-python2-install-instructions-mac.md
+requirements.txt
+setup.py
+SeedWaterSegmenter/ExcelHelper.py
+SeedWaterSegmenter/SWHelpers.py
+SeedWaterSegmenter/SeedWaterSegmenter.py
+SeedWaterSegmenter/ValueReceived.py
+SeedWaterSegmenter/__init__.py
+SeedWaterSegmenter/__main__.py
+SeedWaterSegmenter/_version.py
+SeedWaterSegmenter/mpl_polygon_lasso.py
+SeedWaterSegmenter/savitzky_golay.py
+SeedWaterSegmenter/wxcursor_demo.py
+SeedWaterSegmenter/wxcursor_demo_mod.py
+SeedWaterSegmenter.egg-info/PKG-INFO
+SeedWaterSegmenter.egg-info/SOURCES.txt
+SeedWaterSegmenter.egg-info/dependency_links.txt
+SeedWaterSegmenter.egg-info/requires.txt
+SeedWaterSegmenter.egg-info/top_level.txt
+SeedWaterSegmenter/icons/SeedWater.png
+SeedWaterSegmenter/icons/SeedWaterCircle.png
+SeedWaterSegmenter/icons/SeedWaterRounded.png
+SeedWaterSegmenter/icons/SeedWaterSegmenter.icns
+SeedWaterSegmenter/icons/SeedWaterSegmenter.ico
+SeedWaterSegmenter/icons/SeedWaterSegmenter.svg
+SeedWaterSegmenter/icons/SeedWaterSegmenter1024.png
+SeedWaterSegmenter/icons/SeedWaterSegmenter1024Circle.png
+SeedWaterSegmenter/icons/generate_icns.sh
