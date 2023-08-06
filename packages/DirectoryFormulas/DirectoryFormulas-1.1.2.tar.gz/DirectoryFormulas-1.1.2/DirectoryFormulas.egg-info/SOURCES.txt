@@ -1,0 +1,8 @@
+README.md
+setup.py
+DirectoryFormulas/Directory.py
+DirectoryFormulas/__init__.py
+DirectoryFormulas.egg-info/PKG-INFO
+DirectoryFormulas.egg-info/SOURCES.txt
+DirectoryFormulas.egg-info/dependency_links.txt
+DirectoryFormulas.egg-info/top_level.txt
