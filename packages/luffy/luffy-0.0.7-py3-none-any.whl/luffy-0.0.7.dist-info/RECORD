@@ -1,0 +1,14 @@
+luffy/__init__.py,sha256=Jzb_RfgvXCrm_SQ4AfeGVi1N36YybxnM5mpyxrnihgI,33
+luffy/version.py,sha256=7EgDv-timUu06OY6bkABnaoin_WSpRfqEKwS3w4SJZ4,22
+luffy/models/__init__.py,sha256=VmXx7Mb2YMidtUjY-4nQ3Dbfr81MYVl205KJsA8VaPw,47
+luffy/models/efficientnet.py,sha256=-Wm9rc5KoJZRLGx7U2Mm63zMHEHtK0wMZPP2cK76rSU,11685
+luffy/models/vit.py,sha256=AHPoeHVW0zIPQeLPmqCZWaupWipN_7AJiMAT9s7yutQ,2915
+luffy/models/layers/__init__.py,sha256=Q7XkwhDDwDQyYdreXWrX1tp8imVGrv9nnoP4ypeKSmc,72
+luffy/models/layers/attention.py,sha256=YzFWUPWmGEKSfB5DHaH2sl3H6od5xDz6THVr5H304VQ,1351
+luffy/models/layers/ffnn.py,sha256=Rk8hF3bAGVi04jPIzTKdgBGr3uSbwpuS-kV-3n59OQE,762
+luffy/models/layers/transformer.py,sha256=YmBJTnymdR13B0-Xb6rNuMbyhfX7X162Y73VFfgRkSo,883
+luffy-0.0.7.dist-info/LICENSE,sha256=zHQJaa1fWOBN6vtlGosK4WQdyMFu6J8RYRVyMCA1CTU,1064
+luffy-0.0.7.dist-info/METADATA,sha256=4LsbgKSWZl2doMgVsWyYhjvYG_ke64mvBQkOx7Fa2Gc,747
+luffy-0.0.7.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+luffy-0.0.7.dist-info/top_level.txt,sha256=aEb1xdnI526zgObR2zpSMD9bp9yR6u1XsrWPEnOBYQo,6
+luffy-0.0.7.dist-info/RECORD,,
