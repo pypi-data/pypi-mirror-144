@@ -1,0 +1,8 @@
+LICENSE
+README.md
+replacements.py
+setup.py
+replacements.egg-info/PKG-INFO
+replacements.egg-info/SOURCES.txt
+replacements.egg-info/dependency_links.txt
+replacements.egg-info/top_level.txt
