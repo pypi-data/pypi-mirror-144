@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: ringo_scanner
+Version: 0.1
+Summary: a framework for scanning the web for vulnerabilities
+Home-page: https://github.com/BBleae/RingoScanner
+Author: HarukawaSayaka
+Author-email: 
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# RingoScanner
+
+
+## What is it?
+RingoScanner is a framework for scanning the web for vulnerabilities.
+
+## Authors
+- [Harukawa Sayaka](https://github.com/BBleae)
+
+
