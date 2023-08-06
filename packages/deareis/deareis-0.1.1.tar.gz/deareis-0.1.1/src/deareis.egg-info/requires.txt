@@ -1,0 +1,4 @@
+dearpygui>=1.4.0
+pyimpspec>=0.1.0
+tabulate>=0.8.9
+xdg>=5.1.1
