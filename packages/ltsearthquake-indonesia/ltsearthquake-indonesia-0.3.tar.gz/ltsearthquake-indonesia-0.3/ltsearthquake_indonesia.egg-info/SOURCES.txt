@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+gempa_terkini/__init__.py
+ltsearthquake_indonesia.egg-info/PKG-INFO
+ltsearthquake_indonesia.egg-info/SOURCES.txt
+ltsearthquake_indonesia.egg-info/dependency_links.txt
+ltsearthquake_indonesia.egg-info/top_level.txt
