@@ -1,0 +1,6 @@
+pycryptodomex
+pandas
+tqdm
+requests
+types-requests
+ipython
