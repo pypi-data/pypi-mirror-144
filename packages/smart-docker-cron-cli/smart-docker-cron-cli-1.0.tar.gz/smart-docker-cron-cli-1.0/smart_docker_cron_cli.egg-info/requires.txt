@@ -1,0 +1,3 @@
+docker
+python-crontab
+requests<2.8,>=2.6.1
