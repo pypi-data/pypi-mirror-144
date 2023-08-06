@@ -1,0 +1,16 @@
+CHANGELOG.txt
+LICENSE
+MANIFEST.in
+README.md
+requirements.txt
+setup.cfg
+setup.py
+prevh/_PrevhClassifier.py
+prevh/prevh.py
+prevh/legacy/_PrevhClassifierLegacy.py
+prevh/legacy/_PrevhPlotLegacy.py
+prevh/prevhlib.egg-info/PKG-INFO
+prevh/prevhlib.egg-info/SOURCES.txt
+prevh/prevhlib.egg-info/dependency_links.txt
+prevh/prevhlib.egg-info/requires.txt
+prevh/prevhlib.egg-info/top_level.txt
