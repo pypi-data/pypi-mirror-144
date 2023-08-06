@@ -1,0 +1,14 @@
+torch
+ninja
+
+[all]
+imageio
+ninja
+
+[dev]
+isort
+black
+pytest
+pytest-cov
+pre-commit
+mypy
