@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: sherilan-easy-conf
+Version: 0.1.0
+Summary: Yet another yaml-based config lib for ML and other stuff.
+Home-page: https://github.com/sherilan/easy-conf
+Author: sherilan
+Author-email: sherilan@protonmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: python-version (>="3.5")
+Requires-Dist: PyYAML
+
+UNKNOWN
+
