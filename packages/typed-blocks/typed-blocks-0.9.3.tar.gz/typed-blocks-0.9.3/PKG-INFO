@@ -1,0 +1,66 @@
+Metadata-Version: 2.1
+Name: typed-blocks
+Version: 0.9.3
+Summary: Modular event-centric python library made for simplification typical stream applications development with python type system strong exploitation.
+Home-page: https://github.com/severstal-digital/typed-blocks
+Author: Daniil Zubakin
+Author-email: <daniilzubakin@gmail.com>
+License: Apache-2.0 License
+Project-URL: Bug Tracker, https://github.com/severstal-digital/typed-blocks/issues
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Provides-Extra: full
+Provides-Extra: schedule
+Provides-Extra: kafka
+Provides-Extra: redis
+Provides-Extra: postgres
+License-File: LICENSE
+
+# typed-blocks
+
+Modular event-centric python library made for simplification typical stream applications development with python type system strong exploitation.
+
+```python
+from dataclasses import dataclass
+
+from blocks import App, source, processor
+
+
+@dataclass
+class E:
+    x: int
+
+
+@dataclass
+class E2:
+    y: int
+
+
+@source
+def generator() -> E:
+    return E(1)
+
+
+@processor
+def printer(e: E) -> E2:
+    print('1', e)
+    return E2(e.x)
+
+
+@processor
+def printer2(e: E2) -> None:
+    print('2', e)
+
+
+blocks = (generator(), printer(), printer2())
+App(blocks).run(once=True)
+```
+
