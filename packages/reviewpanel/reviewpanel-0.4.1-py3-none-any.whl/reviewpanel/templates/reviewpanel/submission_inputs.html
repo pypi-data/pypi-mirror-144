@@ -1,0 +1,24 @@
+
+<div class="inputs">
+  <form method="post">{% csrf_token %}
+    <input type="hidden" name="cohort_id" value="{{ cohort.id }}">
+  
+  {% for field in form %}
+    <div class="input-score{% if forloop.first %} input-primary{% endif %}">
+      {% if forloop.first %}
+        <div>{% if 0 %} {# TODO #} {% endif %}</div>
+      {% endif %}
+
+      {% if field.field.widget.input_type != 'text' %}
+        <div>{{ field.label }}</div>
+      {% endif %}
+      
+      <div>{{ field }}</div>
+      
+      {% if forloop.first %}
+        <div><input type="submit" name="next" value="&#x2192;"></div>
+      {% endif %}
+    </div>
+  {% endfor %}
+  </form>
+</div>
