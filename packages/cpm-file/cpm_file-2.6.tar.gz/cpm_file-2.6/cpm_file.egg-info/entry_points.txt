@@ -1,0 +1,3 @@
+[console_scripts]
+rcpm_file = cpm_file.src.parse_file_word:main
+

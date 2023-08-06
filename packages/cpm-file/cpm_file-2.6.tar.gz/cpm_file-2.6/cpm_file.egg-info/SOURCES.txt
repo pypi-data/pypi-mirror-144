@@ -1,0 +1,11 @@
+README.md
+setup.py
+cpm_file/main.py
+cpm_file.egg-info/PKG-INFO
+cpm_file.egg-info/SOURCES.txt
+cpm_file.egg-info/dependency_links.txt
+cpm_file.egg-info/entry_points.txt
+cpm_file.egg-info/not-zip-safe
+cpm_file.egg-info/top_level.txt
+cpm_file/src/parse_file_word/__init__.py
+cpm_file/src/parse_file_word/parse_word.py
