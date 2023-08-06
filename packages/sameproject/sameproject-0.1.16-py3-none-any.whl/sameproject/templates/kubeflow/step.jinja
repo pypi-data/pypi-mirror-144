@@ -1,0 +1,94 @@
+{% autoescape off %}from kfp.components import InputPath, OutputPath
+
+
+def component_fn(
+    input_context_path: InputPath(str),
+    output_context_path: OutputPath(str),
+    run_info="gAR9lC4=",
+    metadata_url="",
+):
+    from base64 import urlsafe_b64encode, urlsafe_b64decode
+    from pathlib import Path
+    import datetime
+    import requests
+    import tempfile
+    import dill
+    import os
+
+    # User code for step, which we run in its own execution frame.
+    CODE = dill.loads(urlsafe_b64decode("{{ inner_code }}"))
+
+    # Helper function for posting metadata to mlflow.
+    def post_metadata(json):
+        if metadata_url == "":
+            return
+
+        try:
+            req = requests.post(metadata_url, json=json)
+            req.raise_for_status()
+        except requests.exceptions.HTTPError as err:
+            print(f"Error posting metadata: {err}")
+
+    # Helper function for checking if objects are dill-serialisable.
+    def is_dillable(obj):
+        try:
+            dill.dumps(obj)
+        except TypeError:
+            return False
+        return True
+
+    # The context contains locally bound variables from the execution of
+    # previous steps, which we inject into this step's namespace to simulate
+    # the name resolution behaviour of Jupyter notebooks.
+    context_enc = "gAR9lC4="
+    if input_context_path is not None:
+        with Path(input_context_path).open("r") as reader:
+            context_enc = reader.read()
+    context = dill.loads(urlsafe_b64decode(context_enc))
+
+    # Post pre-run metadata to mlflow.
+    run_info = dill.loads(urlsafe_b64decode(run_info))
+    post_metadata({
+        "experiment_id": run_info["experiment_id"],
+        "run_id": run_info["run_id"],
+        "step_id": "{{ name }}",
+        "metadata_type": "input",
+        "metadata_value": context_enc,
+        "metadata_time": datetime.datetime.now().isoformat(),
+    })
+
+    # Move to writable directory as user might want to do file IO.
+    # TODO: won't persist across steps, might need support in SDK?
+    os.chdir(tempfile.mkdtemp())
+
+    # Runs the user code in a new execution frame with locals() and globals()
+    # both set to the given context. This imitates execution in a module block.
+    exec(CODE, context)
+
+    # Serialises the resulting context for the next step. The '__builtins__'
+    # key is automatically injected by exec(...), so no need to keep it.
+    output_context = {}
+    for k in context.keys():
+        if k == "__builtins__":
+            continue
+
+        if not is_dillable(context[k]):
+            continue
+
+        output_context[k] = context[k]
+    output_context_enc = urlsafe_b64encode(dill.dumps(output_context)).decode()
+
+    # Write resulting context to the output file.
+    with Path(output_context_path).open("w+") as writer:
+        writer.write(output_context_enc)
+
+    # Post post-run metadata to mlflow.
+    post_metadata({
+        "experiment_id": run_info["experiment_id"],
+        "run_id": run_info["run_id"],
+        "step_id": "{{ name }}",
+        "metadata_type": "output",
+        "metadata_value": output_context_enc,
+        "metadata_time": datetime.datetime.now().isoformat(),
+    })
+{% endautoescape %}
