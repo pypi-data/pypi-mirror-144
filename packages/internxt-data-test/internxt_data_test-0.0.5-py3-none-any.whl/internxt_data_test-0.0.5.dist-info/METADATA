@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: internxt-data-test
+Version: 0.0.5
+Summary: Internxt python data tools
+Home-page: https://github.com/internxt/internxt_data
+Author: Joan Mora
+Author-email: joanmoragrau@gmail.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/internxt/internxt_data/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU Affero General Public License v3 or later (AGPLv3+)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# Inxt Data Loaders
+
+
