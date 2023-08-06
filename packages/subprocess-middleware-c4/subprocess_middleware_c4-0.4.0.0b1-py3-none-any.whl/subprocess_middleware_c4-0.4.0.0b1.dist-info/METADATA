@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: subprocess-middleware-c4
+Version: 0.4.0.0b1
+Summary: Subprocess WSGI middleware and Pyramid tween.
+Author: 4dn-dcic
+Requires-Python: >=3.7,<3.8
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Requires-Dist: WebOb (>=1.8.7,<2.0.0)

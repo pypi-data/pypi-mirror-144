@@ -1,0 +1,14 @@
+subprocess_middleware/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+subprocess_middleware/response.py,sha256=vLvYVfyROYYl5tNHHIZ-fmpv0kgUhziuL-S1FGvRBgw,5476
+subprocess_middleware/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+subprocess_middleware/tests/conftest.py,sha256=UTm3ahuyfu9YO4YAYsvyM_901-Py5TKEsezqd4LjRf0,3389
+subprocess_middleware/tests/test_subprocess_middleware.py,sha256=cPVee54ZV6rt5tiP-rYL7BsNqVK9ex6DFpOvfx_r_wY,2041
+subprocess_middleware/tests/testing.py,sha256=5AEk3WeW3vD9nMZl2qSI3ojGfYvCFg7ZNLzyobDVc1Q,993
+subprocess_middleware/tests/testing_transform.py,sha256=4dIWJfNDxO-c_UvNz32MKdAQD4MaM7m5zV76OCcfDio,905
+subprocess_middleware/tween.py,sha256=td3bQ5OAP_OwNtO4AAO5AlCnJOBryZOeNxiMkGBWVMc,1569
+subprocess_middleware/worker.py,sha256=k2IiiKfsumQO8fpGNKLxZl9VWAokJwwjamh_U6cMXx8,3850
+subprocess_middleware/wsgi.py,sha256=cuDKKG5tVZrdTIbaQ2WsopSl0guk85AopWMRks6fJzs,3370
+subprocess_middleware_c4-0.4.0.0b1.dist-info/LICENSE.txt,sha256=wDexIzh0HttFcP5JoNqUsVR4_zIVGWpWwU1B4_5Ody8,1080
+subprocess_middleware_c4-0.4.0.0b1.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+subprocess_middleware_c4-0.4.0.0b1.dist-info/METADATA,sha256=APLp_OrHpveKCEEpwQd5KaJRGt-WH_ZghrtEPUVojMw,308
+subprocess_middleware_c4-0.4.0.0b1.dist-info/RECORD,,
