@@ -1,0 +1,15 @@
+Metadata-Version: 1.2
+Name: MagPy-TMS
+Version: 1.4
+Summary: A Python toolbox for controlling Magstim TMS stimulators via serial communication
+Home-page: http://github.com/nicolasmcnair/magpy
+Author: Nicolas McNair
+Author-email: nicolas.mcnair@sydney.edu.au
+License: UNKNOWN
+Description: A Python toolbox for controlling Magstim TMS stimulators via serial communication
+Keywords: TMS Magstim
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.3

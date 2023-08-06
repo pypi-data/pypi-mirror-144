@@ -1,0 +1,11 @@
+README.md
+setup.py
+MagPy_TMS.egg-info/PKG-INFO
+MagPy_TMS.egg-info/SOURCES.txt
+MagPy_TMS.egg-info/dependency_links.txt
+MagPy_TMS.egg-info/requires.txt
+MagPy_TMS.egg-info/top_level.txt
+magpy/__init__.py
+magpy/magstim.py
+magpy/rapid_config.yaml
+magpy/rapid_system_info.yaml
