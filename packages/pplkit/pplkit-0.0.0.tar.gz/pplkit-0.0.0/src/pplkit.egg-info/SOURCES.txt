@@ -1,0 +1,14 @@
+LICENSE
+README.rst
+setup.py
+src/pplkit/__about__.py
+src/pplkit/__init__.py
+src/pplkit.egg-info/PKG-INFO
+src/pplkit.egg-info/SOURCES.txt
+src/pplkit.egg-info/dependency_links.txt
+src/pplkit.egg-info/not-zip-safe
+src/pplkit.egg-info/requires.txt
+src/pplkit.egg-info/top_level.txt
+src/pplkit/data/__init__.py
+src/pplkit/data/interface.py
+src/pplkit/data/io.py
