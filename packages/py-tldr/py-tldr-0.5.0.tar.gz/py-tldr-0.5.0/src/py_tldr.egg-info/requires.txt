@@ -1,0 +1,11 @@
+toml
+click
+requests
+yaspin
+ipython
+
+[dev]
+pytest
+pytest-mock
+pytest-cov
+flake8
