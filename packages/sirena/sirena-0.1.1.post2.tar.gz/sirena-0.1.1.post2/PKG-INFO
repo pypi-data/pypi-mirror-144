@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: sirena
+Version: 0.1.1.post2
+Summary: 
+Author: Sam Phinizy
+Author-email: nipper@gmail.com
+Requires-Python: >=3.7,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Provides-Extra: luigi
+Requires-Dist: importlib-metadata (==0.12); python_version < "3.8"
+Requires-Dist: luigi (>=3.0.3,<4.0.0); extra == "luigi"
+Requires-Dist: pydantic (>=1.9.0,<2.0.0)
+Requires-Dist: tox (>=3.24.5,<4.0.0)
+Requires-Dist: typer (>=0.4.1,<0.5.0)
