@@ -1,0 +1,11 @@
+pandas
+numpy
+tqdm
+puzpy
+pdfkit
+pypdf2
+
+[test]
+pip-tools
+pytest
+black
