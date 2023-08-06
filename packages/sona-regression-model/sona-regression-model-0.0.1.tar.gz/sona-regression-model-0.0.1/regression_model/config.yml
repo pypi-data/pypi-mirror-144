@@ -1,0 +1,77 @@
+# Package Overview
+package_name: regression_model
+
+# Data Files
+training_data_file: train.csv
+test_data_file: test.csv
+
+# Variables
+# The variable we are attempting to predict (sale price)
+target: price
+
+pipeline_name: regression_model
+pipeline_save_file: regression_model_output_v
+
+# Will cause syntax errors since they begin with numbers
+variables_to_drop:
+  - county
+  - zipcode
+
+
+merge_features:
+  - bed
+  - bathroom
+  - year_built
+  - heating
+  - Property_type
+  - price
+  - county
+  - zipcode
+
+
+features:
+  - bed
+  - bathroom
+  - year_built
+  - heating
+  - Property_type
+  - area
+  - county
+  - zipcode
+
+all_features:
+  - bed
+  - bathroom
+  - year_built
+  - heating
+  - Property_type
+  - area
+  - county
+  - zipcode
+  - price
+
+# set train/test split
+test_size: 0.1
+
+# to set the random seed
+random_state: 0
+
+alpha: 0.001
+
+# categorical variables with NA in train set
+categorical_heating: heating
+
+
+categorical_property_type: Property_type
+
+cat_vars_to_num:
+  - bed
+  - bathroom
+
+temporal_year_built: year_built
+
+num_var: area
+
+cat_to_dummies:
+  - heating
+  - Property_type
