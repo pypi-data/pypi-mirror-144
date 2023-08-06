@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: eyeglass
+Version: 0.0.2
+Summary: Visualisation of data on glassy materials.
+Home-page: https://github.com/Robert-Forrest/eyeglass
+Author: Robert Forrest
+Author-email: robertforrest@live.com
+License: BSD 3-Clause License
+Platform: unix
+Platform: linux
+Platform: osx
+Platform: cygwin
+Platform: win32
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3
+Description-Content-Type: text/markdown
+Provides-Extra: dev
+License-File: LICENSE
+
+# Eyeglass
+
+![Tests](https://github.com/Robert-Forrest/eyeglass/actions/workflows/tests.yml/badge.svg)
+
+Visualisation for data on glassy materials.
+
+
+
