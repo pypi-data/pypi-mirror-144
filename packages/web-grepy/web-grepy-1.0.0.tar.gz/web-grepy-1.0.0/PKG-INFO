@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: web-grepy
+Version: 1.0.0
+Summary: web-grep written in Python3
+Home-page: https://github.com/cympfh/web-grepy/
+License: MIT
+Author: cympfh
+Author-email: cympfh@gmail.com
+Requires-Python: >=3.9,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: click (>=8.0.4,<9.0.0)
+Requires-Dist: easy-scraper-py (>=0.1.6,<0.2.0)
+Project-URL: Repository, https://github.com/cympfh/web-grepy/
+Description-Content-Type: text/markdown
+
+# web-grepy: CommandLine web-grep.py
+
+Re-implementation [web-grep](https://github.com/cympfh/web-grep) with Python3,  
+Scraping HTML or XML with simple Pattern Matching like `grep -o`.
+
+```bash
+# Requires Python3
+$ pip install web-grepy
+$ which web-grepy
+$ curl -sL https://example.com/xxx | web-grepy '<a href={}></a>'
+$ curl -sL https://example.com/xxx | web-grepy '<a href={link}>{text}</a>'  # ltsv by default
+$ curl -sL https://example.com/xxx | web-grepy '<a href={link}>{text}</a>' -f json
+```
+
