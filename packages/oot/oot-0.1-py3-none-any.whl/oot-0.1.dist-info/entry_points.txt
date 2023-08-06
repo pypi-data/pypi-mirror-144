@@ -1,0 +1,3 @@
+[console_scripts]
+oot = oot.cli:run
+

@@ -1,0 +1,12 @@
+oot/__init__.py,sha256=MqvQTsr-pSRmEhKxcoDnXyMX6s5VmBZekvZL0Swq1B0,180
+oot/assets_middleware.py,sha256=R2o0xZDcSp1mfYZdXhTQx36bEJ2tOxSzUcQCcOA9KBo,1505
+oot/cli.py,sha256=LJ4c-lgRp64CjFHPRkSlwsbjATVIuW-tVIl6OeYfqZk,3198
+oot/component.py,sha256=XYCAH8XitWCdqsKHQ_1GvGVOiTqgDrdLFD_yazvbwG4,6223
+oot/extension.py,sha256=YcTkzon_BNcPxhHDxTbrGn3vXishjSOaRoefnKGzc6g,2755
+oot/utils.py,sha256=71hP91pPcAx0ohHjHIVNljHUPT51YsVet9XMK2-vVsQ,2217
+oot-0.1.dist-info/METADATA,sha256=anuJrpEld8DiLU2Tsklz-6sM61ypGM8rmPWQOcXDFuI,1605
+oot-0.1.dist-info/MIT-LICENSE,sha256=c6ltEHNXmFQQOh12QjqMX34KBnm1hZUfMptEYbsa4KY,1076
+oot-0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+oot-0.1.dist-info/entry_points.txt,sha256=AKNADYepdjhGqqgI8C7vJr7u28aDPjbl95FAZ4jJtRw,37
+oot-0.1.dist-info/top_level.txt,sha256=B10Ty9Yi00R-tbyVBqvzEVUYx78v7P9wi5xv84NRnYk,4
+oot-0.1.dist-info/RECORD,,
