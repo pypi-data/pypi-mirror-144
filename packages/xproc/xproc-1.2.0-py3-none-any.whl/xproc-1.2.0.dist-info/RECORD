@@ -1,0 +1,15 @@
+CHANGELOG.md,sha256=ogwZ2cKVSnkNMhve4zVPo7VdEdLC7sKdcVLPUygNrWo,111
+xproc/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+xproc/console.py,sha256=z8zJcAQDOzHPA-Kqa-NMBpqMTgJNSYF7fdqmtV9UvmM,6107
+xproc/load.py,sha256=wEVNmOdIw9Fm6yGTpYCALFCu31XRHBkMLaCKK95jY-E,1143
+xproc/meminfo.py,sha256=bxN0rYLYxu0LdzZvM_3Ou7grO0UGovuWNfAo_r90DYQ,9270
+xproc/pidstatus.py,sha256=HZmxugXomTp3EftAbLwF9XzdXBHDxlmj1Ka5U6tWkZM,5336
+xproc/stat.py,sha256=fwDezJV5AQMHhd3mTpqOM6KFyuQO7Zv3HkpeETZc1Ws,2289
+xproc/util.py,sha256=bnYgokHPwEwMulPg71QeeTOWqySjTXil6Ryn6jq4_Sg,335
+xproc/value.py,sha256=jW-xn8lp-l-YfeR06tJ_M3jOnibSBCUkxVABv03CrhA,2981
+xproc/vmstat.py,sha256=VH1C8QDtI29k6daIFs5fg-JpLFF4w9k9k2qo8wsiiBw,12214
+xproc-1.2.0.dist-info/entry_points.txt,sha256=No3FK8qiGEEvYwRNMrk5-aava97jrfWzpS9mC-YLo8M,44
+xproc-1.2.0.dist-info/LICENSE,sha256=8vm0YLpxnaZiat0mTTeC8nWk_3qrZ3vtoIszCRHiOts,1062
+xproc-1.2.0.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+xproc-1.2.0.dist-info/METADATA,sha256=TnNL0OW1qedyucoryF8YaUyrM1KL99vmjs_m_ylDzIg,2919
+xproc-1.2.0.dist-info/RECORD,,
