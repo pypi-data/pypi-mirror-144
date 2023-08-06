@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: noaa-ftp
+Version: 0.1.0
+Summary: A python package to work wit NOAA FTP
+Author: javad
+Author-email: javad.rezvanpour@gmail.com
+Requires-Python: >=3.7,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: progressbar2 (==4.0.0)
+Requires-Dist: tqdm (==4.63.1)
