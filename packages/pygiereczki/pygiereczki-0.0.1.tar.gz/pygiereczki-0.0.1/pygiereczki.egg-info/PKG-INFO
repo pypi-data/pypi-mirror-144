@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: pygiereczki
+Version: 0.0.1
+Summary: Most advanced python library known to mankind
+Home-page: UNKNOWN
+Author: Giereczki incorporated
+Author-email: 
+License: MIT
+Keywords: giereczki
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+License-File: LICENSE.txt
+
+This is the most advanced python library ever made
+
+Change log
+==========
+
+0.0.1 (27/03/2022)
+------------------
+- First Release
+

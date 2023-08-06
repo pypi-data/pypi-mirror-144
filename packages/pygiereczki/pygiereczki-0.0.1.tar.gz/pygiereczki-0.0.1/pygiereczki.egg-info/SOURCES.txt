@@ -1,0 +1,10 @@
+CHANGELOG.txt
+LICENSE.txt
+MANIFEST.in
+README.txt
+setup.py
+pygiereczki/__init__.py
+pygiereczki.egg-info/PKG-INFO
+pygiereczki.egg-info/SOURCES.txt
+pygiereczki.egg-info/dependency_links.txt
+pygiereczki.egg-info/top_level.txt
