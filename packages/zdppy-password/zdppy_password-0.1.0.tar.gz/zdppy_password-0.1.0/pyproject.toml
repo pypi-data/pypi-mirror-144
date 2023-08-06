@@ -1,0 +1,35 @@
+[tool.poetry]
+name = "zdppy_password"
+version = "0.1.0"
+description = "Python用于处理数据和文件加密解密的库"
+authors = ["zhangdapeng520 <pygosuperman@outlook.com>"]
+license = "MIT"
+readme = "README.md"
+homepage = "https://github.com/zhangdapeng520/zdppy_password"
+repository = "https://github.com/zhangdapeng520/zdppy_password"
+keywords = ["poetry", "zhangdapeng", "zhangdapeng520", "password", "zdppy_password", "zdppy"]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Environment :: Console",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3 :: Only",
+]
+include = [
+    "LICENSE",
+    "README.md",
+]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+zdppy-log = "^0.1.7"
+rsa = "^4.8"
+pycryptodome = "^3.14.1"
+tinyec = "^0.4.0"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

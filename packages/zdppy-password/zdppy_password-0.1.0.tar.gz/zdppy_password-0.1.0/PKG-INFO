@@ -1,0 +1,80 @@
+Metadata-Version: 2.1
+Name: zdppy-password
+Version: 0.1.0
+Summary: Python用于处理数据和文件加密解密的库
+Home-page: https://github.com/zhangdapeng520/zdppy_password
+License: MIT
+Keywords: poetry,zhangdapeng,zhangdapeng520,password,zdppy_password,zdppy
+Author: zhangdapeng520
+Author-email: pygosuperman@outlook.com
+Requires-Python: >=3.9,<4.0
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: pycryptodome (>=3.14.1,<4.0.0)
+Requires-Dist: rsa (>=4.8,<5.0)
+Requires-Dist: tinyec (>=0.4.0,<0.5.0)
+Requires-Dist: zdppy-log (>=0.1.7,<0.2.0)
+Project-URL: Repository, https://github.com/zhangdapeng520/zdppy_password
+Description-Content-Type: text/markdown
+
+# zdppy_password
+Python密码工具
+
+项目地址：https://github.com/zhangdapeng520/zdppy_password
+
+## 版本历史
+- 2022年3月29日 版本0.1.0 兼容Python和Go的AES RSA加密解密算法
+
+## 常用命令
+生成私钥
+```shell
+openssl genrsa -out private.pem 1024
+```
+
+生成公钥
+```shell
+openssl rsa -in private.pem -pubout -out public.pem
+```
+
+## 使用案例
+### 案例1：AES加密和解密
+```python
+from zdppy_password.aes import Aes
+
+aes = Aes()
+res = aes.encrypt(b'{"cmd": 3000, "msg": "ok"}').decode(encoding='utf-8')
+print(res)
+print(aes.decrypt(res))
+
+# 从go复制过来的
+print(aes.decrypt("0qg69fOjmE0oR59muWdXoWhr5d4Z0XyQaC69684mAsw="))
+```
+
+## 案例2：RSA加密和解密
+```python
+from zdppy_password.rsa import Rsa
+import json
+
+rsa = Rsa()
+
+data = {"username": "张大鹏", "age": 22}
+data = json.dumps(data)
+print(data)
+
+# 加密
+secret = rsa.encrypt(data, "public.pem")
+
+# 解密
+print(json.loads(rsa.decrypt(secret, "private.pem")))
+
+# 从go复制过来的
+data = "NoA3e0HDMhj7nrwKUx975lUZgjRIA1ZFcEBLeAvgYQ7Nu7toic7xXtg9qmD+wr6soZzb6Gl37H1I5j9OlOTR9igQ+p1pXPOWo47DyDpw3UjiQ6eOAYmyT53lMUGylLZIKHhnbpea5Qpjl+dHrWVYsQ864/asS1ewe9k2hR+BlkBuZSP8p6oiJ+BBOVYckqPFf6PWBjAFGAMridMXglYrKZ2v7+QdwU4mq2YEBVD5XdY70lIEg4XIY8Wb6n5tBB5XkzLsqd22XcBhnEPGLmMC4fuEMyLptH5dMGF/Ogi9YDAP/rKvzdTTpFXPLPh5eeqMMXAS5+AigE1jx1M3w+7IUw=="
+print(rsa.decrypt(data, "private.pem"))
+```
