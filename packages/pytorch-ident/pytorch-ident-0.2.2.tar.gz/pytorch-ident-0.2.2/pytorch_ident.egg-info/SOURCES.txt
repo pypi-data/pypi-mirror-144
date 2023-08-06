@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+pytorch_ident.egg-info/PKG-INFO
+pytorch_ident.egg-info/SOURCES.txt
+pytorch_ident.egg-info/dependency_links.txt
+pytorch_ident.egg-info/requires.txt
+pytorch_ident.egg-info/top_level.txt
+torchid/__init__.py
+torchid/datasets.py
+torchid/metrics.py
