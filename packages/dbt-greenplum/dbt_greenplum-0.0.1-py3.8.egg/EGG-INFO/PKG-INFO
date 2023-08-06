@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: dbt-greenplum
+Version: 0.0.1
+Summary: The greenplum adapter plugin for dbt
+Home-page: UNKNOWN
+Author: Mark Poroshin
+Author-email: mark.poroshin@yandex.ru
+License: UNKNOWN
+Platform: UNKNOWN
+
+The greenplum adapter plugin for dbt
+
