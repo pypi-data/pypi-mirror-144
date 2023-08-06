@@ -1,0 +1,10 @@
+README.md
+setup.py
+zerocopy/__init__.py
+zerocopy/invoke.py
+zerocopy/rewrite.py
+zerocopy.egg-info/PKG-INFO
+zerocopy.egg-info/SOURCES.txt
+zerocopy.egg-info/dependency_links.txt
+zerocopy.egg-info/requires.txt
+zerocopy.egg-info/top_level.txt
