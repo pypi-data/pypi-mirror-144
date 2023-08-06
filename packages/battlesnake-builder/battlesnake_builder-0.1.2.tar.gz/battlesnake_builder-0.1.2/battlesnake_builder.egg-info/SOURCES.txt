@@ -1,0 +1,16 @@
+LICENSE
+README.md
+setup.py
+battlesnake_builder/__init__.py
+battlesnake_builder/battlesnake.py
+battlesnake_builder/board.py
+battlesnake_builder/coordinate.py
+battlesnake_builder/exceptions.py
+battlesnake_builder/game.py
+battlesnake_builder/reqdata.py
+battlesnake_builder/snake.py
+battlesnake_builder.egg-info/PKG-INFO
+battlesnake_builder.egg-info/SOURCES.txt
+battlesnake_builder.egg-info/dependency_links.txt
+battlesnake_builder.egg-info/requires.txt
+battlesnake_builder.egg-info/top_level.txt
