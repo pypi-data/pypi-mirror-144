@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+kik/__init__.py
+kik.py.egg-info/PKG-INFO
+kik.py.egg-info/SOURCES.txt
+kik.py.egg-info/dependency_links.txt
+kik.py.egg-info/requires.txt
+kik.py.egg-info/top_level.txt
