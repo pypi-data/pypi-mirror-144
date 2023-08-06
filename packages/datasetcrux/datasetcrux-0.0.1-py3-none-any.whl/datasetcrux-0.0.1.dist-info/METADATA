@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: datasetcrux
+Version: 0.0.1
+Summary: Dataset creation, management and analysis tool
+Home-page: https://github.com/datasetcrux/datasetcrux
+Author: Vinay Panchal
+Author-email: vinay.npanchal@gmail.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/datasetcrux/datasetcrux/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# datasetcrux
+
+Documentation will be added over here.
+
+
