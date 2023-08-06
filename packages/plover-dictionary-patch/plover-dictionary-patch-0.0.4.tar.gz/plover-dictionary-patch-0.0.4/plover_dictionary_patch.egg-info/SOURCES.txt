@@ -1,0 +1,14 @@
+.gitignore
+LICENSE.txt
+README.md
+setup.cfg
+setup.py
+plover_dictionary_patch/__init__.py
+plover_dictionary_patch/dictionary.py
+plover_dictionary_patch.egg-info/PKG-INFO
+plover_dictionary_patch.egg-info/SOURCES.txt
+plover_dictionary_patch.egg-info/dependency_links.txt
+plover_dictionary_patch.egg-info/entry_points.txt
+plover_dictionary_patch.egg-info/requires.txt
+plover_dictionary_patch.egg-info/top_level.txt
+plover_dictionary_patch.egg-info/zip-safe
