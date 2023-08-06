@@ -1,0 +1,8 @@
+setup.py
+cameo_hi/__init__.py
+cameo_hi/cameo_hi.py
+cameo_hi.egg-info/PKG-INFO
+cameo_hi.egg-info/SOURCES.txt
+cameo_hi.egg-info/dependency_links.txt
+cameo_hi.egg-info/requires.txt
+cameo_hi.egg-info/top_level.txt
