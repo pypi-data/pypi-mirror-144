@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+copiedMultielo/__init__.py
+copiedMultielo/_version.py
+copiedMultielo/multielo.py
+copiedMultielo/player_tracker.py
+copiedMultielo/score_functions.py
+copiedMultielo.egg-info/PKG-INFO
+copiedMultielo.egg-info/SOURCES.txt
+copiedMultielo.egg-info/dependency_links.txt
+copiedMultielo.egg-info/requires.txt
+copiedMultielo.egg-info/top_level.txt
