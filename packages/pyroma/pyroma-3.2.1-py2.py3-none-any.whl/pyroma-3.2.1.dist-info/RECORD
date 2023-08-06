@@ -1,0 +1,15 @@
+pyroma/__init__.py,sha256=czCDJhPIB9FGL8Ae3wUCw_KNA0wnMTXsQUDWjkd7Uz0,4037
+pyroma/__main__.py,sha256=rcmsOtJd3SA82exjrcGBuxuptcoxF8AXI7jNjiVq2BY,59
+pyroma/classifiers.py,sha256=6zCY61LjklFA6mSROGx564f_YRqeCb2aORYRtug_HlY,46400
+pyroma/distributiondata.py,sha256=gW363nXD9Pp6SIpPP3mbXo_eFq2oiQ3QZBqF6cwayCY,1051
+pyroma/projectdata.py,sha256=UIyjDz7KWB6mnE6KMjwh4aHWkqlSqboAkYB_sqghuXQ,6162
+pyroma/pypidata.py,sha256=eyL2QxdB4AY0OZzWi0jUQEUBdmpuyyfVy7rZyfUWwRs,2437
+pyroma/ratings.py,sha256=1947sJeCtQS_3hue1w85o2o_46AoXkHm-IFzjFR04-8,12783
+pyroma/tests.py,sha256=fdPADo01kxTLAED8lHw0orzSiCOx5uGbaJxkrgjEsnw,10457
+pyroma-3.2.1.dist-info/LICENSE.txt,sha256=VwgkpasvgsTaVCq8B12WWlU_sNaMrwLjOJrLJjoT1Cs,1076
+pyroma-3.2.1.dist-info/METADATA,sha256=xbu8O0eN_bpCzlWeyBEdiiTMp6QTaGG5oOs_13nXTuQ,12210
+pyroma-3.2.1.dist-info/WHEEL,sha256=kGT74LWyRUZrL4VgLh6_g12IeVl_9u9ZVhadrgXZUEY,110
+pyroma-3.2.1.dist-info/entry_points.txt,sha256=RyJ1iq4Y_uDzWx0ZZ2xWaP_PS7SJvLQ_9aTGT4LHB4E,99
+pyroma-3.2.1.dist-info/top_level.txt,sha256=YFrWqTZXICQhu3xJoK6Up81lCEQnktk8ZOpVG8wg-XY,7
+pyroma-3.2.1.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+pyroma-3.2.1.dist-info/RECORD,,
