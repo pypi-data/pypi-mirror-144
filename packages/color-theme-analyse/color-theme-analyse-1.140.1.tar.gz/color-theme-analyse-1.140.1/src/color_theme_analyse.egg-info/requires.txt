@@ -1,0 +1,31 @@
+
+[base]
+numpy>=1.21
+pillow>=8.3
+rich>=0.1
+Eel
+
+[dev]
+wheel
+twine
+setuptools
+setuptools_scm
+setuptools_scm_git_archive
+six
+
+[dev:platform_system == "Windows"]
+auto-py-to-exe>=2.16.0
+
+[merge]
+numpy>=1.21
+pillow>=8.3
+rich>=0.1
+wheel
+twine
+setuptools
+setuptools_scm
+setuptools_scm_git_archive
+Eel
+
+[merge:platform_system == "Windows"]
+auto-py-to-exe>=2.16.0

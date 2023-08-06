@@ -1,0 +1,35 @@
+include pyproject.toml
+
+include *.md
+
+include LICENSE
+
+include setup.py
+
+include .gitignore
+
+recursive-include src *
+
+global-include *.json
+global-include *.reg
+
+exclude python.ico
+
+global-exclude *__pycache__
+global-exclude *.pyc
+global-exclude *.log
+
+recursive-exclude .vscode *
+recursive-exclude src/.vs *
+recursive-exclude .git *
+recursive-exclude .history *
+recursive-exclude src/MMCQsc/src/compress *
+recursive-exclude src/MMCQsc/src/finish *
+recursive-exclude src/MMCQsc/src/prepare *
+recursive-exclude src/MMCQsc/src/reports *
+recursive-exclude src/MMCQsc/src index.css
+recursive-exclude src/MMCQsc/src index.js
+recursive-exclude src/MMCQsc_dpkg *
+
+global-include __init__.py
+
