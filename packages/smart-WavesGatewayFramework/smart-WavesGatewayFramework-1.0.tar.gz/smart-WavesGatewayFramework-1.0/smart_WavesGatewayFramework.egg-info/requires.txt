@@ -1,0 +1,8 @@
+Flask>=0.12.2
+PyWaves>=0.8.8
+base58>=0.2.5
+gevent>=1.2.2
+pymongo>=3.4.0
+python-doc-inherit>=0.3.0
+requests>=2.9.1
+simplejson>=3.11.1
