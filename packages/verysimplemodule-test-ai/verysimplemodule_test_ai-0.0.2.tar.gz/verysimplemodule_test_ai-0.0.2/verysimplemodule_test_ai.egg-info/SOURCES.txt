@@ -1,0 +1,11 @@
+setup.py
+verysimplemodule_test_ai/__init__.py
+verysimplemodule_test_ai/add.py
+verysimplemodule_test_ai/subtract.py
+verysimplemodule_test_ai.egg-info/PKG-INFO
+verysimplemodule_test_ai.egg-info/SOURCES.txt
+verysimplemodule_test_ai.egg-info/dependency_links.txt
+verysimplemodule_test_ai.egg-info/top_level.txt
+verysimplemodule_test_ai/extras/__init__.py
+verysimplemodule_test_ai/extras/divide.py
+verysimplemodule_test_ai/extras/multiply.py
