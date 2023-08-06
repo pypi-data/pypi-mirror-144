@@ -1,0 +1,9 @@
+LICENSE
+pyproject.toml
+setup.cfg
+src/sentimentarcs/__init__.py
+src/sentimentarcs/channel.py
+src/sentimentarcs.egg-info/PKG-INFO
+src/sentimentarcs.egg-info/SOURCES.txt
+src/sentimentarcs.egg-info/dependency_links.txt
+src/sentimentarcs.egg-info/top_level.txt
