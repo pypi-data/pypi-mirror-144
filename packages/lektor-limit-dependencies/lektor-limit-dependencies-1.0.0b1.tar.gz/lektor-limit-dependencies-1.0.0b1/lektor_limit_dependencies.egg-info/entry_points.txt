@@ -1,0 +1,2 @@
+[lektor.plugins]
+limit-dependencies = lektor_limit_dependencies:LimitDependenciesPlugin
