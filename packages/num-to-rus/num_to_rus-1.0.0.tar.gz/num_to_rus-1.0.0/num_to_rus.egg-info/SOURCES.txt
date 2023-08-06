@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+./num_to_rus/__init__.py
+./num_to_rus/converter.py
+./num_to_rus/data_dicts.py
+num_to_rus.egg-info/PKG-INFO
+num_to_rus.egg-info/SOURCES.txt
+num_to_rus.egg-info/dependency_links.txt
+num_to_rus.egg-info/top_level.txt
