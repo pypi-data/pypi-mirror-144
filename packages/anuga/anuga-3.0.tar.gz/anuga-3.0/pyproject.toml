@@ -1,0 +1,12 @@
+[build-system]
+requires = ["setuptools>=42",
+            "numpy", 
+            "cython", 
+            "future", 
+            ] 
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "anuga"
+authors = [{name = "stoiver", email = "stoiver@gmail.com"}]
+dynamic = ["version", "description"]
