@@ -1,0 +1,16 @@
+labelprop/DataLoading.py,sha256=XWxhCNeWsGuGUB4KQPvlOzr4FMqI7g_BX-j3c68qdMQ,3398
+labelprop/LabelProp.py,sha256=p4-YgR4dlLdhrDul8GLYXHIopyzN27lM6G_a2uW_wN8,9484
+labelprop/Pretraining_model.py,sha256=v5QpNF4-4bxLnnYAwFUNYRjsK3QH3c7VEUOz4gmNqx0,10694
+labelprop/__init__.py,sha256=4TTlxVIbEAxuIFF2o5yB23wdEulZ2l_R-Kuwm2WKnpY,141
+labelprop/api.py,sha256=JgtK_7PKeyDk2DJY5cKA72xRXJeDscrNS--HwQFCUPQ,1291
+labelprop/labelprop.py,sha256=h0hwdogXGFqerm-5ZPeT-irPn91pCcQRjiHThXsRzEk,19
+labelprop/napari_entry.py,sha256=VcL83iI_f6inXarHMQFnHVLT7bFx0s0lm2AUMd8Ny5Y,2953
+labelprop/script.py,sha256=doCNmqsvPPofwJffwnkspqCvjdketnu6hZ6P-DpeB0g,1358
+labelprop/train.py,sha256=ZZap1rUAji6LnSEjaSQ0I6WNDaR5pLKHkBBZMgs2vOI,11577
+labelprop/voxelmorph2d.py,sha256=rSGsjlbQE5IkWuDM5OrbH1Q0bift_Ah7CFdw72LxZGs,12553
+deep_labelprop-0.1.0.dist-info/AUTHORS.rst,sha256=YJmQDO_DVA_sOzC9y42g83Ei3g4DwN9mMo-m6rc0Qtc,170
+deep_labelprop-0.1.0.dist-info/LICENSE,sha256=EbnZm42tQtGNmwBDOzC-WODODg4E5xvxsm4omAHpeoQ,1072
+deep_labelprop-0.1.0.dist-info/METADATA,sha256=cqzGRZmZ6oed07a4KgUWgPfhTrZEnQp3smNVMXRhVG4,1161
+deep_labelprop-0.1.0.dist-info/WHEEL,sha256=z9j0xAa_JmUKMpmz72K0ZGALSM_n-wQVmGbleXx2VHg,110
+deep_labelprop-0.1.0.dist-info/top_level.txt,sha256=vJZULXngtTXfJvv9kw7blyJt9jeEdKARoQgk1NnKsPM,10
+deep_labelprop-0.1.0.dist-info/RECORD,,
