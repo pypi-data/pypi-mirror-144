@@ -1,0 +1,2 @@
+[console_scripts]
+occuprob = occuprob.cli:main
