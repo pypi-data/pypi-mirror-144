@@ -1,0 +1,3 @@
+[console_scripts]
+foresight=foresight.console.application:main
+
