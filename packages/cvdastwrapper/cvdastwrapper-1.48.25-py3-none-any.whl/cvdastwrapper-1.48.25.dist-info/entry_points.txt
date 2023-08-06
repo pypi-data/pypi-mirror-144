@@ -1,0 +1,2 @@
+[console_scripts]
+cvdast-wrapper = cvdastwrapper.entry:main
