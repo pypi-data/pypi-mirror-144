@@ -1,0 +1,8 @@
+README.md
+pyproject.toml
+setup.cfg
+flaskdrop/flaskdrop.egg-info/PKG-INFO
+flaskdrop/flaskdrop.egg-info/SOURCES.txt
+flaskdrop/flaskdrop.egg-info/dependency_links.txt
+flaskdrop/flaskdrop.egg-info/requires.txt
+flaskdrop/flaskdrop.egg-info/top_level.txt
