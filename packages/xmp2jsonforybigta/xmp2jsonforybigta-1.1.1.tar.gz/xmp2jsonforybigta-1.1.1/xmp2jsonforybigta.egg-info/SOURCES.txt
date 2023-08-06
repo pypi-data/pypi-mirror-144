@@ -1,0 +1,11 @@
+README.md
+setup.cfg
+setup.py
+xmp2jsonforybigta/__init__.py
+xmp2jsonforybigta/__version__.py
+xmp2jsonforybigta/xmp2jsonforybigta.py
+xmp2jsonforybigta.egg-info/PKG-INFO
+xmp2jsonforybigta.egg-info/SOURCES.txt
+xmp2jsonforybigta.egg-info/dependency_links.txt
+xmp2jsonforybigta.egg-info/not-zip-safe
+xmp2jsonforybigta.egg-info/top_level.txt

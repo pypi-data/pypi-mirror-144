@@ -1,0 +1,1 @@
+xmp2jsonforybigta.convert('xmp 파일 경로', 'base_preset.json 파일 경로')
