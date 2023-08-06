@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/kabbes_parent_class.egg-info/PKG-INFO
+src/kabbes_parent_class.egg-info/SOURCES.txt
+src/kabbes_parent_class.egg-info/dependency_links.txt
+src/kabbes_parent_class.egg-info/top_level.txt
+src/parent_class/ParentClass.py
+src/parent_class/__init__.py
