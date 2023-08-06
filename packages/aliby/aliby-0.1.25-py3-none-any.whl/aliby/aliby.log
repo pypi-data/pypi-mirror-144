@@ -1,0 +1,18 @@
+omero.gateway - DEBUG - islay.bio.ed.ac.uk
+omero.gateway - DEBUG - None
+omero.gateway - DEBUG - []
+omero.gateway - DEBUG - Connect attempt, sUuid=None, group=None, self.sUuid=None
+omero.gateway - DEBUG - Creating Session...
+omero.gateway - DEBUG - ## Creating proxies
+omero.gateway.utils - DEBUG - Setting 'omero.client.uuid' to 'b0f7aba2-c533-4e9e-895e-4d9c59ba4c28'
+omero.gateway.utils - DEBUG - Setting 'omero.session.uuid' to '03ebe4d9-237d-43f2-ab94-453121bd2bf5'
+omero.gateway.utils - DEBUG - Key 'omero.group' not found in <ServiceOptsDict: {'omero.client.uuid': 'b0f7aba2-c533-4e9e-895e-4d9c59ba4c28', 'omero.session.uuid': '03ebe4d9-237d-43f2-ab94-453121bd2bf5'}>
+omero.gateway.utils - DEBUG - Key 'omero.user' not found in <ServiceOptsDict: {'omero.client.uuid': 'b0f7aba2-c533-4e9e-895e-4d9c59ba4c28', 'omero.session.uuid': '03ebe4d9-237d-43f2-ab94-453121bd2bf5'}>
+omero.gateway - DEBUG - Session created
+omero.gateway - DEBUG - ## Reusing proxies
+omero.gateway - INFO - created connection (uuid=03ebe4d9-237d-43f2-ab94-453121bd2bf5)
+omero.gateway - DEBUG - .. connected!
+omero.gateway.utils - DEBUG - Setting 'omero.client.uuid' to 'b0f7aba2-c533-4e9e-895e-4d9c59ba4c28'
+omero.gateway.utils - DEBUG - Setting 'omero.session.uuid' to '03ebe4d9-237d-43f2-ab94-453121bd2bf5'
+omero.gateway.utils - DEBUG - Setting 'omero.group' to 3
+omero.gateway - INFO - closed connection (uuid=03ebe4d9-237d-43f2-ab94-453121bd2bf5)
