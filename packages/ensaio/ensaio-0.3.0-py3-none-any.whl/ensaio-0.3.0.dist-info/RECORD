@@ -1,0 +1,12 @@
+ensaio/__init__.py,sha256=8ADK3eFiUnhYSJrOkxWVkIa7obmiCI4a0LD9vhp1PaY,637
+ensaio/_fetchers.py,sha256=F1v0fx5eFqIHcKz2codwjskPJoPbZWQMPyKSFM_tHPE,21238
+ensaio/_version.py,sha256=hcrSZpm32-S6qUPArfumwytdGcUZS6H47iETmJLTQGc,524
+ensaio/_version_generated.py,sha256=YNd1dEdZGzG2MvXfaTQdmMYCLOQm-rV09_xmC5Hxu5Y,142
+ensaio/tests/__init__.py,sha256=b1PmpQSYo_kL6Oqmvq6Ekgb781n-neMYDy7wjMpLDb8,226
+ensaio/tests/test_fetchers.py,sha256=BRTAyldx8oHb1wOsbEwSoCworxK-cjQ-gyzveX3zhu8,2344
+ensaio-0.3.0.dist-info/LICENSE.txt,sha256=y5oBOhE0BJHhwR4Xa0eDBBsajAKvNpvALqcMITCPfYY,1496
+ensaio-0.3.0.dist-info/METADATA,sha256=inoNPucI90hdwsvZx23yY763xqO_pi6Gywzq8FhS_-E,4580
+ensaio-0.3.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+ensaio-0.3.0.dist-info/top_level.txt,sha256=rsIGB5Zf8EEB1LmMUCJceJMNIN8spmsVoi79zgtN0BM,7
+ensaio-0.3.0.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+ensaio-0.3.0.dist-info/RECORD,,
