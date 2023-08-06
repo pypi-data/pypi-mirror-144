@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+prot2vec/__init__.py
+prot2vec/constants.py
+prot2vec.egg-info/PKG-INFO
+prot2vec.egg-info/SOURCES.txt
+prot2vec.egg-info/dependency_links.txt
+prot2vec.egg-info/top_level.txt
+prot2vec/callbacks/__init__.py
+prot2vec/callbacks/experiment_logger.py
+prot2vec/callbacks/hint_termostat.py
