@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: auspost
+Version: 0.0.10
+Summary: A quick module for searching and pulling suburb data from the Australia Post website.
+License: MIT
+Keywords: australia post,suburb,postcode
+Author: James Hodgkinson
+Author-email: james@terminaloutcomes.com
+Requires-Python: >=3.7,<4.0
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Internet :: WWW/HTTP :: Dynamic Content
+Requires-Dist: MechanicalSoup (>=1.1.0,<2.0.0)
+Requires-Dist: lxml (>=4.8.0,<5.0.0)

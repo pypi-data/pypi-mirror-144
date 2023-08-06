@@ -1,0 +1,47 @@
+[tool.poetry]
+name = "auspost"
+version = "0.0.10"
+description = "A quick module for searching and pulling suburb data from the Australia Post website."
+authors = ["James Hodgkinson <james@terminaloutcomes.com>"]
+license = "MIT"
+keywords = [
+    "australia post",
+    "suburb",
+    "postcode",
+]
+classifiers=[
+    # How mature is this project? Common values are
+    #   3 - Alpha
+    #   4 - Beta
+    #   5 - Production/Stable
+    'Development Status :: 4 - Beta',
+
+    # Indicate who your project is intended for
+    'Intended Audience :: Developers',
+    'Topic :: Internet :: WWW/HTTP :: Dynamic Content',
+
+    # Pick your license as you wish (should match "license" above)
+    'License :: OSI Approved :: MIT License',
+
+    # Specify the Python versions you support here. In particular, ensure
+    # that you indicate whether you support Python 2, Python 3 or both.
+    'Programming Language :: Python :: 3',
+    'Programming Language :: Python :: 3.7',
+    'Programming Language :: Python :: 3.8',
+    'Programming Language :: Python :: 3.9',
+]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+MechanicalSoup = "^1.1.0"
+lxml = "^4.8.0"
+
+[tool.poetry.dev-dependencies]
+pytest = "^7.1.1"
+pylint = "^2.13.2"
+black = "^22.1.0"
+mypy = "^0.942"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
