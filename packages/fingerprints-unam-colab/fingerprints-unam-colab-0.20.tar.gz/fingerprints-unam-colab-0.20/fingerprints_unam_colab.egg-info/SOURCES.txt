@@ -1,0 +1,17 @@
+LICENSE
+README.md
+setup.py
+fingerprints_unam_colab.egg-info/PKG-INFO
+fingerprints_unam_colab.egg-info/SOURCES.txt
+fingerprints_unam_colab.egg-info/dependency_links.txt
+fingerprints_unam_colab.egg-info/entry_points.txt
+fingerprints_unam_colab.egg-info/requires.txt
+fingerprints_unam_colab.egg-info/top_level.txt
+huellas/__init__.py
+huellas/auxiliar.py
+huellas/extract_fp.py
+huellas/extraction.py
+huellas/gui.py
+huellas/gui_processing.py
+huellas/regions.py
+huellas/segmentation.py
