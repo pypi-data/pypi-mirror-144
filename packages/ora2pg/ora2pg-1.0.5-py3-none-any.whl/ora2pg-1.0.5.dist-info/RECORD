@@ -1,0 +1,9 @@
+ora2pg/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ora2pg/gen_pg_tabs.py,sha256=umyWmhEPdvNEzXbBOt581hAHjA96zDQEDeDoDtWm948,16922
+ora2pg/ora2pg.py,sha256=bwVGO2QYLJK60Pz6ZVMRoUBwf_Ks_VVlJLhSXmTX1Ec,16231
+ora2pg/pg2ora.py,sha256=M47SnMa07S-cSSXGRSuYrjboXhkp4_yXoo4B0TJu55o,9158
+ora2pg-1.0.5.dist-info/METADATA,sha256=E-Q4nULgH13mHicsJ6mRJxZ6SmPhiSd4gxXelJ17fXA,4748
+ora2pg-1.0.5.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+ora2pg-1.0.5.dist-info/entry_points.txt,sha256=Qn-ImONTWpsXktf_ESJxF7FrUPuSS1D4bmfc2J3pWIw,118
+ora2pg-1.0.5.dist-info/top_level.txt,sha256=6FTHZ6pwprEqN0qBWm8A3PkZZd7Xeau3liEot-9e6jo,7
+ora2pg-1.0.5.dist-info/RECORD,,
