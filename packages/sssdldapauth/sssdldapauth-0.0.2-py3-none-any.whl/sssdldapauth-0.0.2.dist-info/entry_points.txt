@@ -1,0 +1,3 @@
+[console_scripts]
+sssdldapauth = sssdldapauth.cli:root
+
