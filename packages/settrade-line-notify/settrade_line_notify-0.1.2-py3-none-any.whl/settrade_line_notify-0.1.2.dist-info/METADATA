@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: settrade-line-notify
+Version: 0.1.2
+Summary: Simple Line Notify for supporting Settrade Open API Python SDK (and also any other general purposes)
+Home-page: UNKNOWN
+Author: Julapat Julnual
+License: MIT
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+Requires-Dist: requests
+
+# Simple Line Notify for supporting Settrade Open API Python SDK (and also any other general purposes)
+## Usage
+```
+from settrade_line_notify.notification import LineNotify
+
+your_token = 'token'
+your_message = 'message'
+
+notifier = LineNotify(your_token)
+notifier.notify(your_message)
+```
+
