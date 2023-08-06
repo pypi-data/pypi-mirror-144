@@ -1,0 +1,16 @@
+LICENSE
+README.md
+setup.py
+hcaptcha_challenger/__init__.py
+hcaptcha_challenger/_settings.py
+hcaptcha_challenger/exceptions.py
+hcaptcha_challenger/solver.py
+hcaptcha_challenger/utils.py
+hcaptcha_challenger.egg-info/PKG-INFO
+hcaptcha_challenger.egg-info/SOURCES.txt
+hcaptcha_challenger.egg-info/dependency_links.txt
+hcaptcha_challenger.egg-info/requires.txt
+hcaptcha_challenger.egg-info/top_level.txt
+hcaptcha_challenger/solutions/__init__.py
+hcaptcha_challenger/solutions/sk_recognition.py
+hcaptcha_challenger/solutions/yolo.py
