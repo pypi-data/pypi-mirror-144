@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: inspect-requirements
+Version: 0.10.0
+Summary: Inspect requirements.txt files of multiple repositories.
+Home-page: https://github.com/Raekkeri/inspect-requirements
+Download-URL: https://github.com/raekkeri/inspect-requirements/tarball/0.10.0
+Author: Teemu Husso
+Author-email: teemu.husso@gmail.com
+License: UNKNOWN
+Keywords: requirements,pip
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+
+Inspect requirements
+
+
