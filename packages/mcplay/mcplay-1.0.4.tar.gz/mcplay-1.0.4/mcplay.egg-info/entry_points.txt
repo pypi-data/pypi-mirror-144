@@ -1,0 +1,3 @@
+[console_scripts]
+mcplay = mcplay.play:main
+
