@@ -1,0 +1,15 @@
+pictures/__init__.py,sha256=e6ssW7nw87V4lFuayrGWIf2t1PGX8PTA1yUV9Q2KPkw,175
+pictures/_version.py,sha256=zMp6YjykWhxVp649GBHCilNgW73m2mZGl-6H4JAwMzQ,139
+pictures/conf.py,sha256=9MnFBOKWKUjUq5NLG3IMNcY1zRWWDQGyFfEfepICKjQ,545
+pictures/models.py,sha256=tyBqZOxQg59OvY-9vJ-4wXBsYI8wLCSp9t19X9Z5dR0,5892
+pictures/urls.py,sha256=_r0eCpwAJQjU_0hHyqG8ZK76m2wxZiEXciK9NQBxRJM,214
+pictures/utils.py,sha256=gBU1ZOPC4KusrgyAeSyg5P0bFO4G7lo5dxU5Wa4lM8E,3593
+pictures/views.py,sha256=KgJnIxVjepq0fVBpWv04nxYANu_JPpVtX3fh-uQSgXU,717
+pictures/templates/pictures/attrs.html,sha256=UFPgCXXCAkbumxZE1NM-aJVE4VCe2RjCrHLNseibv3I,165
+pictures/templates/pictures/picture.html,sha256=i7YVVzA7auPOa8TvQDvEWhr6KLkblMnGQtrMNuawAJs,524
+pictures/templatetags/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pictures/templatetags/pictures.py,sha256=C91kccR49GTgF8JSvuIKqqQJqZnRxySV4D7HHDezwT0,1185
+django_pictures-1.0a1.dist-info/LICENSE,sha256=abMBHBStyx2UGqS03l3XoG3B0l4MoSBhGQt9y_lnZu4,1324
+django_pictures-1.0a1.dist-info/WHEEL,sha256=hfJxL4BjFtcsLdc9M7QmgP-fgzeNDbKrgf8rndEmLgc,81
+django_pictures-1.0a1.dist-info/METADATA,sha256=bemtMj0XvouZKqzC_GRjTFV7peXQjXz93RqPL0-SEGE,4502
+django_pictures-1.0a1.dist-info/RECORD,,
