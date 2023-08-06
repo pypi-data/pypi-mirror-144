@@ -1,0 +1,13 @@
+aiohttp
+aiosignal
+async-timeout
+asynctest
+attrs
+charset-normalizer
+deepmerge
+frozenlist
+idna
+multidict
+pkg-resources
+typing-extensions
+yarl
