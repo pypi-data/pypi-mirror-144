@@ -1,0 +1,7 @@
+[console_scripts]
+excel2json = programs.excel2json:main
+hjxdataconverter = programs.hjxdataconverter:main
+html2json = programs.html2json:main
+json2excel = programs.json2excel:main
+json2html = programs.json2html:main
+
