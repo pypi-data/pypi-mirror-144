@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+rubika-bot/__init__.py
+rubika-bot/bot.py
+rubika-bot/exceptions.py
+rubika-bot/schemas.py
+rubika_bot.egg-info/PKG-INFO
+rubika_bot.egg-info/SOURCES.txt
+rubika_bot.egg-info/dependency_links.txt
+rubika_bot.egg-info/requires.txt
+rubika_bot.egg-info/top_level.txt
