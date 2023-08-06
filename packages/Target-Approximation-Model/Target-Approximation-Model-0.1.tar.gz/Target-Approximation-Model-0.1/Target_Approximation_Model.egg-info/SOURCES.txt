@@ -1,0 +1,16 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+TargetApproximationModel/__init__.py
+TargetApproximationModel/harry_plotter.py
+TargetApproximationModel/target.py
+TargetApproximationModel/target_approximation_filter.py
+TargetApproximationModel/target_score.py
+TargetApproximationModel/target_sequence.py
+Target_Approximation_Model.egg-info/PKG-INFO
+Target_Approximation_Model.egg-info/SOURCES.txt
+Target_Approximation_Model.egg-info/dependency_links.txt
+Target_Approximation_Model.egg-info/requires.txt
+Target_Approximation_Model.egg-info/top_level.txt
+Target_Approximation_Model.egg-info/zip-safe

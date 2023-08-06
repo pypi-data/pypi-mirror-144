@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: Target-Approximation-Model
+Version: 0.1
+Summary: Target-Approximation-Model for Python
+Home-page: https://github.com/paul-krug/Target-Approximation-Model
+Author: Paul Krug
+Author-email: paul_konstantin.krug@tu-dresden.de
+License: MIT
+Keywords: speech synthesis,articulatory synthesis,articulatory modelling
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Science/Research
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: C++
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Topic :: Software Development
+Classifier: Topic :: Scientific/Engineering
+Classifier: Typing :: Typed
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: Unix
+License-File: LICENSE
+
+UNKNOWN
+
