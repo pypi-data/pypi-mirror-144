@@ -1,0 +1,27 @@
+[tool.poetry]
+name = "uw-it-build-fingerprinter"
+version = "0.1.1"
+description = "A library and CLI to aid in configuring layered fingerprints."
+license = "MIT"
+readme = "README.md"
+homepage = "https://github.com/uwit-iam/build-fingerprinter"
+authors = ["Tom Thorogood <goodtom@uw.edu>"]
+packages = [
+    { include = "build_fingerprinter" }
+]
+
+[tool.poetry.dependencies]
+python = ">=3.8"
+pydantic = "^1.9.0"
+PyYAML = "^6.0"
+
+[tool.poetry.dev-dependencies]
+black = "^22.3.0"
+tox = "^3.24.5"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+fingerprinter = 'build_fingerprinter.cli:main'
