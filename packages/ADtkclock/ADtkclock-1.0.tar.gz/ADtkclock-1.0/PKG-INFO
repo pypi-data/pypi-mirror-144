@@ -1,0 +1,71 @@
+Metadata-Version: 1.1
+Name: ADtkclock
+Version: 1.0
+Summary: ADtkclock can use for simple timer, digital clock and stopwatch
+Home-page: UNKNOWN
+Author: Shivang Srivastava
+Author-email: iamshivangsrivastava@gmail.com
+License: MIT
+Download-URL: https://github.com/PyDoceo/ADtkclock
+Description: #**_ADtkclock_**
+        
+        ADtkclock is simple and "programmable" clock used only in tkinter
+        project.
+        ### How to install
+        Installation via pip
+        ```commandline
+        pip install ADtkclock
+        ```
+        
+        ### Short Documentation
+        
+        ####***Digital Clock***
+        Code to make simple _**Digital Clock**_ in your tkinter window.
+        ```python
+        import tkinter
+        from ADtkclock import DigitalClock
+        root = tkinter.Tk()
+        label = tkinter.Label(root, font=("TkTextFont", 50))
+        label.pack()
+        DigitalClock(label)
+        root.mainloop()
+        ```
+        ####***Timer***
+        Code to make simple **_Timer_** in your tkinter window.
+        ```python
+        import tkinter
+        from ADtkclock import Timer
+        root = tkinter.Tk()
+        label = tkinter.Label(root, font=("TkTextFont", 50))
+        label.pack()
+        Timer(label, minute=10, second=10)
+        root.mainloop()
+        ```
+        ####***Stopwatch***
+        Code to make simple **_Timer_** in your tkinter window.
+        ```python
+        import tkinter
+        from ADtkclock import StopWatch
+        root = tkinter.Tk()
+        label = tkinter.Label(root, font=("TkTextFont", 50))
+        label.pack()
+        stopwatch = StopWatch(label)
+        stopwatch.start()
+        root.mainloop()
+        ```
+        
+        ####License
+        MIT
+Keywords: python,tkinter,clock,timer,stopwatch,shivang,ADtkclock
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
