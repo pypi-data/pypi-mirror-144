@@ -1,0 +1,2 @@
+[console_scripts]
+dcs-mizmerge = mizmerge.mizmerge:main
