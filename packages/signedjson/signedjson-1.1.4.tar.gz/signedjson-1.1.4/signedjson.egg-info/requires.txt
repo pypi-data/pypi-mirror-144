@@ -1,0 +1,13 @@
+canonicaljson>=1.0.0
+unpaddedbase64>=1.0.1
+pynacl>=0.3.0
+
+[:python_version < "3.5"]
+typing>=3.5
+
+[:python_version < "3.8"]
+typing_extensions>=3.5
+importlib_metadata
+
+[dev]
+typing_extensions>=3.5
