@@ -1,0 +1,3 @@
+[console_scripts]
+formee=formee.__main__:main
+

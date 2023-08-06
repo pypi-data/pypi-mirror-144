@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: formee
+Version: 0.1.2
+Summary: Formee is a tool that provides an easy way to create, edit and manage all of your forms from the command line. It uses a powerful GraphQL API and strives to make the process of working with forms as easy and simple as possible.
+Home-page: https://github.com/Arpan-206/formee
+License: MIT
+Author: Arpan Pandey
+Author-email: arpan@hackersreboot.tech
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: PyInquirer (>=1.0.3,<2.0.0)
+Requires-Dist: PyYAML (>=6.0,<7.0)
+Requires-Dist: aiohttp (>=3.8.1,<4.0.0)
+Requires-Dist: gql (>=3.1.0,<4.0.0)
+Requires-Dist: pyfiglet (>=0.8.post1,<0.9)
+Requires-Dist: python-dotenv (>=0.20.0,<0.21.0)
+Requires-Dist: requests (>=2.27.1,<3.0.0)
+Requires-Dist: rich (>=12.0.1,<13.0.0)
+Project-URL: Repository, https://github.com/Arpan-206/formee
+Description-Content-Type: text/markdown
+
+# Formee- The terminal forms
+Formee is a tool that provides an easy way to create, edit and manage all of your forms from the command line. It uses a powerful GraphQL API and strives to make the process of working with forms as easy and simple as possible.
