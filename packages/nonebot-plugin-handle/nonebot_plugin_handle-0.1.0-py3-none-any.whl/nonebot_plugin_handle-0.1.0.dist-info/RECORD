@@ -1,0 +1,10 @@
+nonebot_plugin_handle/__init__.py,sha256=KG-AaoidkQpvdKMJzsgXpSKu_ncZuZTId8MIj6PfSpM,5797
+nonebot_plugin_handle/data_source.py,sha256=kBmevF9YTCAHNQltt64rWYyibOK_dRsdhU7xFVydgUI,6344
+nonebot_plugin_handle/resources/data/idioms.txt,sha256=kQW9DIlkc8HlH4chSWk9A-DHBkUBCYDI5OHPJSCuKX8,342588
+nonebot_plugin_handle/resources/fonts/Consolas.ttf,sha256=QjUEaVo94fgMYY4-bq0hWmuJG-BsF5vwSLtagNXQ7aM,358460
+nonebot_plugin_handle/resources/fonts/SourceHanSerifSC-Regular.otf,sha256=kgeqp9v7t-MueOxF5GFK4ZpDgR8ZYBp9ZHZNPlvF_Mw,24430240
+nonebot_plugin_handle/utils.py,sha256=Nb0P-bXml3H-LqTQ5LrqNkYPqYe44dVpIfwdkKuDi9I,1864
+nonebot_plugin_handle-0.1.0.dist-info/LICENSE,sha256=MB9kjv_MMzk3mfQT1djd80kgH9jSNxiT7KyaGXg2IY4,1063
+nonebot_plugin_handle-0.1.0.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+nonebot_plugin_handle-0.1.0.dist-info/METADATA,sha256=o1WCTzlF7UwQp9BfYfBE0DQ6YqeUkkKr38F0N3W_wqQ,1795
+nonebot_plugin_handle-0.1.0.dist-info/RECORD,,
