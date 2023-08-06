@@ -1,0 +1,77 @@
+[build-system]
+requires = ["setuptools >=42", "wheel"]
+
+[tool.black]
+target-version = ["py38", "py39", "py310"]
+
+[tool.isort]
+profile = "black"
+
+[tool.mypy]
+python_version = "3.8"
+mypy_path = "$MYPY_CONFIG_FILE_DIR/src"
+show_error_codes = true
+enable_error_code = "ignore-without-code"
+strict = true
+warn_unreachable = true
+
+[tool.pylint.MASTER]
+jobs = 2
+load-plugins = [
+  "pylint_strict_informational",
+]
+persistent = false
+py-version = "3.8"
+[tool.pylint."MESSAGES CONTROL"]
+disable = [
+  "duplicate-code", # examples, https://github.com/PyCQA/pylint/issues/214
+  "fixme",
+  "format", # handled by black
+  "missing-class-docstring", # handled by pydocstyle
+  "missing-function-docstring", # handled by pydocstyle
+  "missing-module-docstring", # handled by pydocstyle
+  "wrong-import-order", # handled by isort
+]
+enable = [
+  "use-symbolic-message-instead",
+  "useless-suppression",
+]
+[tool.pylint.REPORTS]
+score = false
+
+[tool.pytest.ini_options]
+asyncio_mode = "auto"
+filterwarnings = ["error"]
+
+[tool.tox]
+legacy_tox_ini = """
+[tox]
+envlist = py38, py39, py310, py311, pypy3, pyston3
+skip_missing_interpreters = true
+[testenv]
+deps = -rrequirements-test.txt
+extras = examples
+commands =
+  {envpython} -X dev -bb -m pytest {posargs}
+  {envpython} -X dev -bb -W error -m pytekukko.examples.print_collection_schedules --help
+  {envpython} -X dev -bb -W error -m pytekukko.examples.print_invoice_headers --help
+  {envpython} -X dev -bb -W error -m pytekukko.examples.print_next_collections --help
+  {envpython} -X dev -bb -W error {env:PYTEKUKKO_CERTIFI_IMPORTLIB_RESOURCES_PATH_W:} -m pytekukko.examples.update_google_calendar --help
+[testenv:py311]
+setenv =
+  # https://github.com/aio-libs/aiohttp/issues/6600
+  AIOHTTP_NO_EXTENSIONS = 1
+  # https://github.com/aio-libs/yarl/issues/680
+  YARL_NO_EXTENSIONS = 1
+  # https://github.com/certifi/python-certifi/issues/170#issuecomment-952885966
+  PYTEKUKKO_CERTIFI_IMPORTLIB_RESOURCES_PATH_W = -W "default:path is deprecated:DeprecationWarning:certifi.core"
+[testenv:pyston3]
+basepython = pyston3
+[gh-actions]
+python =
+  3.8: py38
+  3.9: py39
+  3.10: py310
+  3.11: py311
+  pypy-3.9: pypy3
+"""
