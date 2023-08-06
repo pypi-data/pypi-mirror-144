@@ -1,0 +1,3 @@
+[console_scripts]
+disc=disc_tool.cli:build
+
