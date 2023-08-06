@@ -1,0 +1,41 @@
+Metadata-Version: 2.1
+Name: pytest-wiremock
+Version: 0.0.1
+Summary: A pytest plugin for programmatically using wiremock in integration tests
+Author: symonk
+Author-email: jackofspaces@gmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: httpx (>=0.22.0,<0.23.0)
+Requires-Dist: marshmallow (>=3.15.0,<4.0.0)
+Requires-Dist: pytest (>=7.1.1,<8.0.0)
+Description-Content-Type: text/markdown
+
+# pytest-wiremock
+A pytest plugin and DSL for easy integration testing with wiremock :rocket:
+
+[![forthebadge made-with-python](http://ForTheBadge.com/images/badges/made-with-python.svg)](https://www.python.org/)
+[![codecov](https://codecov.io/gh/symonk/pytest-wiremock/branch/main/graph/badge.svg?token=DT2823RGAG)](https://codecov.io/gh/symonk/pytest-wiremock)
+
+# Usage:
+
+```python
+# Todo: Update.
+```
+
+
+# Contributing
+---------------
+
+ - Install `docker`.
+ - Install `docker-compose`.
+ - Install `poetry`.
+ - Install `tox`.
+ - Run `pre-commit install`.
+ - Create and branch and make changes.
+ - execute `tox -e py38`
+ - Hooks will automatically run; NO PR's will be accepted with a decrease in coverage.
+
