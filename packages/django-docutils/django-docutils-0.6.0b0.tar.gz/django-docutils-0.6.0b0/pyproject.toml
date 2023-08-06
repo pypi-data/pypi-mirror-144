@@ -1,0 +1,101 @@
+[tool.poetry]
+name = "django-docutils"
+version = "0.6.0b0"
+description = "Documentation Utilities (Docutils, reStructuredText) for django.)"
+
+license = "MIT"
+
+authors = [
+    "Tony Narlock <tony@git-pull.com>"
+]
+
+readme = 'README.rst'
+packages = [
+    { include = "django_docutils" }
+]
+classifiers = [
+  'Development Status :: 2 - Pre-Alpha',
+  'Framework :: Django',
+  'Intended Audience :: Developers',
+  'License :: OSI Approved :: MIT License',
+  'Natural Language :: English',
+  'Programming Language :: Python :: 3',
+  'Programming Language :: Python :: 3.8',
+  'Programming Language :: Python :: 3.9',
+  'Programming Language :: Python :: 3.10'
+]
+keywords = ["django", "docutils", "reStructuredText"]
+
+homepage = "https://django-docutils.git-pull.com"
+
+[tool.poetry.urls]
+"Bug Tracker" = "https://github.com/tony/django-docutils/issues"
+Documentation = "https://django-docutils.git-pull.com"
+Repository = "https://github.com/tony/django-docutils"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+Django = ">=3.2"
+docutils = "*"
+tldextract =  {version="*", optional=true}
+tqdm =  {version="*", optional=true}
+pygments = "<3"
+django-extensions = "^2.2.5"
+django-randomslugfield =  "*"
+django-slugify-processor = "*"
+django-dirtyfields = ">1.3.0"
+lxml = "*"
+bitly-api = {version="*", python="<3"}
+bitly-api-py3 = {version="*", python=">=3"}
+
+[tool.poetry.dev-dependencies]
+### Docs ###
+sphinx = "*" 
+furo = "^2022.2.23"
+sphinx-autobuild = "^2021.3.14"
+sphinx-autodoc-typehints = "~1.17.0"
+sphinx-click = "*"
+sphinx-issues = "^3.0.0"
+sphinx-inline-tabs = "*"
+sphinxext-opengraph = "*"
+sphinx-copybutton = "^0.5.0"
+sphinxext-rediraffe = "*"
+myst_parser = "~0.17.0"
+
+### Testing ###
+pytest = "*"
+pytest-rerunfailures = "*"
+pytest-mock = "*"
+pytest-watcher = "^0.2.3"
+factory-boy = "*"
+pytest-factoryboy = "*"
+pytest-django = "*"
+dj-inmemorystorage = "*"
+responses = "*"
+
+### Coverage ###
+codecov = "*"
+coverage = "*"
+pytest-cov = "*"
+
+### Format ###
+black = "*"
+isort = "*"
+
+### Lint ###
+flake8 = "*"
+
+[tool.poetry.extras]
+favicon = ["tldextract", "tqdm"]
+intersphinx = ["tqdm"]
+
+# Development stuff
+docs = ["sphinx", "sphinx-issues", "sphinx-click", "sphinx-autodoc-typehints", "sphinx-autobuild", "sphinxext-rediraffe", "sphinx-copybutton", "sphinxext-opengraph", "sphinx-inline-tabs", "myst_parser", "furo"]
+test = ["pytest", "pytest-rerunfailures", "pytest-mock", "pytest-watcher", "factory-boy", "pytest-factoryboy", "pytest-django", "dj-inmemorystorage", "responses"]
+coverage = ["codecov", "coverage", "pytest-cov"]
+format = ["black", "isort"]
+lint = ["flake8"]
+
+[tool.black]
+skip-string-normalization = true
+include = '\.pyi?$'
