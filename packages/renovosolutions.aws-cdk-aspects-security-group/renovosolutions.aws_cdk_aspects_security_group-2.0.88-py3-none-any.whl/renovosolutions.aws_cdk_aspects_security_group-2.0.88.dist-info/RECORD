@@ -1,0 +1,9 @@
+aspects-security-group/__init__.py,sha256=8Y7Y6XEbqfntsRG-k3nJA73OboDDUHLicbAjWMGJ-TU,31775
+aspects-security-group/py.typed,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+aspects-security-group/_jsii/__init__.py,sha256=oWnGLF1ux5y8pPmbwUga5pkg_7R1Y-0oHmHdeFZ6q5A,433
+aspects-security-group/_jsii/cdk-aspects-library-security-group@2.0.88.jsii.tgz,sha256=k3cZgzOVQU1UzvSJ1SvQFBTgBpM83Zk25m5lmOWiZdw,29772
+renovosolutions.aws_cdk_aspects_security_group-2.0.88.dist-info/LICENSE,sha256=z8d0m5b2O9McPEK1xHG_dWgUBT6EfBDz6wA0F7xSPTA,11358
+renovosolutions.aws_cdk_aspects_security_group-2.0.88.dist-info/METADATA,sha256=3fX_SUA-9ffzCixsERNVdJ4F6HwnHp5zoDBTgvSdus0,3339
+renovosolutions.aws_cdk_aspects_security_group-2.0.88.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+renovosolutions.aws_cdk_aspects_security_group-2.0.88.dist-info/top_level.txt,sha256=rQ6rqwy_Jbvwlko0SMsNyhzqClEIgwHkGZ0G_WHyz44,23
+renovosolutions.aws_cdk_aspects_security_group-2.0.88.dist-info/RECORD,,
