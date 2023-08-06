@@ -1,0 +1,13 @@
+README.md
+setup.py
+datasette_vega_dashboards/__init__.py
+datasette_vega_dashboards.egg-info/PKG-INFO
+datasette_vega_dashboards.egg-info/SOURCES.txt
+datasette_vega_dashboards.egg-info/dependency_links.txt
+datasette_vega_dashboards.egg-info/entry_points.txt
+datasette_vega_dashboards.egg-info/requires.txt
+datasette_vega_dashboards.egg-info/top_level.txt
+datasette_vega_dashboards/static/inject.js
+datasette_vega_dashboards/static/vega-embed@6
+datasette_vega_dashboards/static/vega-lite@5
+datasette_vega_dashboards/static/vega@5

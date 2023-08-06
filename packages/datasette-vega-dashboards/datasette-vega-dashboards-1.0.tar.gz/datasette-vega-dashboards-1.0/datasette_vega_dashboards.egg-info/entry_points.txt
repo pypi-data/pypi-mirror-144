@@ -1,0 +1,3 @@
+[datasette]
+vega_dashboards = datasette_vega_dashboards
+
