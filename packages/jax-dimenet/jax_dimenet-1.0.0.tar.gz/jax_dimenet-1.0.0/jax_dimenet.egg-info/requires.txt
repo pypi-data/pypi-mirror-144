@@ -1,0 +1,6 @@
+jax>=0.2.12
+jaxlib>=0.1.65
+jax-md>=0.1.13
+dm-haiku>=0.0.4
+sympy
+chex

@@ -1,0 +1,16 @@
+LICENSE
+LICENSE_SHORT
+README.md
+setup.py
+jax_dimenet/__init__.py
+jax_dimenet/custom_space.py
+jax_dimenet/dimenet.py
+jax_dimenet/dimenet_basis_util.py
+jax_dimenet/layers.py
+jax_dimenet/sparse_graph.py
+jax_dimenet.egg-info/PKG-INFO
+jax_dimenet.egg-info/SOURCES.txt
+jax_dimenet.egg-info/dependency_links.txt
+jax_dimenet.egg-info/not-zip-safe
+jax_dimenet.egg-info/requires.txt
+jax_dimenet.egg-info/top_level.txt
