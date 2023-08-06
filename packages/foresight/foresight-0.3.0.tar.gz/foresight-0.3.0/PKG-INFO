@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: foresight
+Version: 0.3.0
+Summary: Time management tool.
+Home-page: https://github.com/etschz/foresight
+License: MIT
+Keywords: time,harvest,zoom,calendar,foresight
+Author: etschz
+Author-email: ethanschmitz214@gmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Dist: cleo (==1.0.0a4)
+Requires-Dist: google-api-python-client (>=2.42.0,<3.0.0)
+Requires-Dist: google-auth-httplib2 (>=0.1.0,<0.2.0)
+Requires-Dist: google-auth-oauthlib (>=0.5.1,<0.6.0)
+Requires-Dist: pendulum (>=2.1.2,<3.0.0)
+Requires-Dist: tomlkit (>=0.10.1,<0.11.0)
+Project-URL: Repository, https://github.com/etschz/foresight
+Description-Content-Type: text/markdown
+
+
