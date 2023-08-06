@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: deep-labelprop
+Version: 0.1.0
+Summary: Label propagation using deep registration
+Home-page: https://github.com/nathandecaux/labelprop
+Author: Nathan Decaux
+Author-email: nathan.decaux@imt-atlantique.fr
+License: MIT license
+Keywords: labelprop
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3.6
+License-File: LICENSE
+License-File: AUTHORS.rst
+
+=========
+LabelProp
+=========
+
+
+=======
+History
+=======
+
+0.1.0 (2022-03-29)
+------------------
+
+* First release on PyPI.
+
+
