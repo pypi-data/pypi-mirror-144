@@ -1,0 +1,7 @@
+pysdf/__init__.py,sha256=UyNK9s48q-TWklcHwgnYuFtBcxG0lBBlKO3sQKxjwAg,523
+pysdf/base.py,sha256=WW3w1-wKnNKKxPZtin_qGAdB0nJ5v6elmzjEwxPhkcQ,44143
+pysdf/sdf_types.py,sha256=WRCUm5eg6uSeCPlvHvEIb4WEU255yHlbQYKz_qFOGyw,9366
+python_sdformat-0.1.0.dist-info/LICENSE,sha256=MQ64MHHmym1XuRERzji4GRljU6bo8GBQunqYtFHGmk4,1299
+python_sdformat-0.1.0.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+python_sdformat-0.1.0.dist-info/METADATA,sha256=XxVsQzWI20j-awo1Bb8rlTrpTs4ZfoWGxgDEg7y2EKg,547
+python_sdformat-0.1.0.dist-info/RECORD,,
