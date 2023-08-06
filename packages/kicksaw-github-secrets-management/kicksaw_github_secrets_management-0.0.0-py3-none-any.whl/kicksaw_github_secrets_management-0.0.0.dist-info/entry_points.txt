@@ -1,0 +1,3 @@
+[console_scripts]
+github-secrets-mgmt=kicksaw_github_secrets_management.cli:main
+
