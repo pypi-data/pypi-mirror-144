@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: stnavbar
+Version: 0.0.1
+Summary: A navbar for streamlit
+Author: BugzTheBunny
+Author-email: 
+License: UNKNOWN
+Keywords: streamlit_nav,streamlit navbar,navbar,streamlit
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+
+
+# Streamlit Navbar item
+
