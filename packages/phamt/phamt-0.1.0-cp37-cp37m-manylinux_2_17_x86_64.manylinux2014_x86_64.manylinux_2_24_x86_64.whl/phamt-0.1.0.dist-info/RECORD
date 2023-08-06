@@ -1,0 +1,11 @@
+phamt/phamt.c,sha256=F-qK7mwAkIDcW2CUPgTPfPesu2LwFOgPC6vqut0q49c,28935
+phamt/py_core.py,sha256=uDo8pdOz4eHtXud-wt9tNWqtNeuVT3QCph0oB3D4ThU,19771
+phamt/c_core.cpython-37m-x86_64-linux-gnu.so,sha256=seDS8__4cGQw-EoR3i4izWkltFQ7Hpu290z9Ixe8gqM,221608
+phamt/__init__.py,sha256=W9OXdsU-VhcvSjx8rRtlTYguM3mHKKZV1O8nt89fFnA,407
+phamt/test/phamt.py,sha256=-SdvW2ct-juZ5-Lie9CRV6t6qxeppjp4b33UOVScipU,11568
+phamt/test/__init__.py,sha256=bXOHmLX_r5RmWc5ZyRdpQi0b4Bp4ZQa-7F6HoAG6Mbs,245
+phamt-0.1.0.dist-info/LICENSE,sha256=txh5kek_HdkpjZptSwqg2g2tmTShCD1cN1dLYtxreSE,1071
+phamt-0.1.0.dist-info/METADATA,sha256=YdAzFpBOegyhduPJj7iSqAe9OfUnb7xSdV_HtOtHcyw,1201
+phamt-0.1.0.dist-info/top_level.txt,sha256=30AiRBP_e0__jm44xqIFo6xEg3FVlrUzQax1yKUmc0c,6
+phamt-0.1.0.dist-info/RECORD,,
+phamt-0.1.0.dist-info/WHEEL,sha256=sfoDOQXw_WZKgifTpWQN6piGN_zV4nBL6WjqIw27nok,188
