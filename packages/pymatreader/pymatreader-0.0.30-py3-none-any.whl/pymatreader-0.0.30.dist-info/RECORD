@@ -1,0 +1,9 @@
+pymatreader/__init__.py,sha256=lbvY5PltFP0jAHAu3RIs2urwVVZ_P0-5BPHrDDUzY1I,1582
+pymatreader/_version.py,sha256=pPFn5z6ra4c_CJdvlM9VXLfbp5C1kLsEuRsyvBcCrIs,23
+pymatreader/pymatreader.py,sha256=C0ub5xszXMw30Iv17FU3jocclpU78hpdnp4AHL3SYsA,4236
+pymatreader/utils.py,sha256=jFZSsiFGaAAKP6fKXkLq4UClkFlUk44g2Mk8LOzh2AE,9079
+pymatreader-0.0.30.dist-info/LICENSE,sha256=Wp5wTcO2FyB6J3lcvnwtCLDuIxN8EXTuE1v8crCSPc8,1312
+pymatreader-0.0.30.dist-info/METADATA,sha256=1YbHIywd2EipqFjF6W_nQFSo8M9QEhhPN56m72rd4go,1442
+pymatreader-0.0.30.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+pymatreader-0.0.30.dist-info/top_level.txt,sha256=Q2pJTsoB_du49SdPF-NCrpas8oWKRlREM0j706FcWNI,12
+pymatreader-0.0.30.dist-info/RECORD,,
