@@ -1,0 +1,96 @@
+Metadata-Version: 2.1
+Name: greendeploy-cli
+Version: 0.0.10
+Summary: greendeploy-cli is a CLI for creating and using Dockerized Django projects.
+Home-page: https://github.com/greendeploy-org/greendeploy-cli/
+Author: GreenDeploy.io
+Author-email: developers@greendeploy.io
+License: Apache License 2.0
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: System Administrators
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Topic :: Software Development :: Code Generators
+Classifier: Topic :: System :: Systems Administration
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: pep517
+Requires-Dist: pip (~=21.3)
+Requires-Dist: pyfiglet (~=0.7)
+Requires-Dist: cookiecutter (~=1.7.3)
+Requires-Dist: gitpython (~=3.1)
+Requires-Dist: python-json-logger (~=2.0)
+Requires-Dist: pyyaml (<7.0,>=6.0)
+Requires-Dist: setuptools (>=38.0)
+Requires-Dist: wheel
+Requires-Dist: pip-tools (~=6.5) ; python_version > "3.6"
+Provides-Extra: local
+Requires-Dist: pytest ; extra == 'local'
+
+# GreenDeploy
+
+GreenDeploy is a framework that makes it easy to build Dockerized Django projects
+by providing uniform templates.
+
+This is mostly a cli software.
+
+## Release Schedule
+
+1. py3.8 will be on `to-be-frozen` status starting 2022-10. This serves as a 1 year countdown to `frozen` status where it will no longer be supported
+2. py3.8 will be supported till 2023-10 after which it will be on `frozen` status and removed from main brach and no longer supported.
+3. py3.9 will be on `to-be-frozen` status starting 2023-10. This serves as a 1 year countdown to `frozen` status where it will no longer be supported
+
+So the full schedule for this package is
+
+| Python | add | `to-be-frozen` status | `frozen` status and stop supporting | PSF start release | PSF stop full support | PSF stop security fix |
+|---|---|---|---|---|---|---|
+| 3.8 | since package inception | 2022-10 | 2023-10 | 2019-10 | 2021-05 | 2024-10 |
+| 3.9 | since package inception | 2023-10 | 2024-10 | 2020-10 | 2022-05 | 2025-10 |
+| 3.10 **(latest)** | since package inception | 2024-10 | 2025-10 | 2021-10 | 2023-05 | 2026-10 |
+| 3.11 *(preview)* | 2023-04 |2025-10 | 2026-10 | 2022-10 | 2024-05 | 2027-10 |
+
+## How to install
+
+Minimum python version: 3.8
+
+Recommended to have a venv running python 3.8 before you run
+
+```
+pip install greendeploy-cli
+```
+
+Latest greendeploy-cli version is 0.0.9
+
+Watch asciicast on installation
+
+[![asciicast](https://asciinema.org/a/481569.svg)](https://asciinema.org/a/481569)
+
+## How to use
+
+### Check info
+
+```
+greendeploy info
+```
+
+### Create a new dockerized django project from starter
+
+```
+greendeploy new
+```
+
+The starter is from https://github.com/GreenDeploy-io/greendeploy-starters/tree/main/starters/dockerized-django/default
+
+
+
+
+
+
