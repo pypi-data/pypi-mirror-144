@@ -1,0 +1,58 @@
+Metadata-Version: 2.1
+Name: aviatrix-flightcheck
+Version: 0.1.0
+Summary: Aviatrix FlightCheck
+Author: Aviatrix Automation
+Author-email: aviatrix-ps-dev@aviatrix.com
+License: UNKNOWN
+Project-URL: Changelog, https://github.com/aviatrix-automation/flightcheck/blob/master/CHANGELOG.rst
+Project-URL: Issue Tracker, https://github.com/aviatrix-automation/flightcheck/issues
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Cython
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Topic :: Utilities
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Requires-Dist: requests
+
+# Aviatrix FlightCheck
+
+Aviatrix FlightCheck automatically collects information about an Aviatrix environment by querying the Aviatrix Controller API.
+
+## Aviatrix Controller Requirements
+
+Update the security group for the Aviatrix Controller to allow TCP port 443 from the IP of the system where FlightCheck is installed.
+
+## AWS CloudFormation Template
+
+You can optionally use a [CloudFormation](https://aviatrix-cloudformation-templates.s3.us-west-2.amazonaws.com/aviatrix-flightcheck.yaml) template to deploy an Amazon Linux EC2 instance with FlightCheck automatically installed. SSH into the instance using the AWS Key Pair selected when deploying the CloudFormation template.
+
+```
+ssh -i <keypair> ec2-user@<IP of the deployed instance>
+```
+
+## Execute FlightCheck
+
+To excecute the FlightCheck, run the following command:
+
+```
+flightcheck --controller_ip x.x.x.x --username <controller_username>
+```
+
+You will be prompted to enter the password for the user. The account used can be a readonly account.
+
+FlightCheck will run a list of pre-defined checks and output the results to the screen. Save this output for offline review.
+
+
