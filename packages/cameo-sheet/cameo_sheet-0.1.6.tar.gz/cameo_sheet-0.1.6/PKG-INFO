@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: cameo_sheet
+Version: 0.1.6
+Summary: Read Google Sheet2022-04-01 v0.1.6 test_cameo_sheet.py ok, go.sh can work now.
+Home-page: https://github.com/bohachu/cameo_sheet
+Author: Bowen Chiu
+Author-email: bohachu@gmail.com
+License: BSD 2-clause
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+
+UNKNOWN
+
