@@ -1,0 +1,2 @@
+[pytest11]
+molecule = pytest_molecule
