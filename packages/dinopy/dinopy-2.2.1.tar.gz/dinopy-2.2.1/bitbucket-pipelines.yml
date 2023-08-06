@@ -1,0 +1,10 @@
+image: continuumio/miniconda3:latest
+
+pipelines:
+  default:
+    - step:
+        script:
+          - apt update && apt install -y build-essential
+          - conda create -n test_env -c conda-forge python=3.10 numpy cython nose2 tox tox-conda
+          - conda activate test_env
+          - tox
