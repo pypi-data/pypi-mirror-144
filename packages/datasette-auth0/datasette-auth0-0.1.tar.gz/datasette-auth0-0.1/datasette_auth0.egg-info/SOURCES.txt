@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+datasette_auth0/__init__.py
+datasette_auth0.egg-info/PKG-INFO
+datasette_auth0.egg-info/SOURCES.txt
+datasette_auth0.egg-info/dependency_links.txt
+datasette_auth0.egg-info/entry_points.txt
+datasette_auth0.egg-info/requires.txt
+datasette_auth0.egg-info/top_level.txt
