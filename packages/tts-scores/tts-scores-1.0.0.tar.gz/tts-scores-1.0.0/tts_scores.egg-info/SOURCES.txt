@@ -1,0 +1,13 @@
+README.md
+setup.cfg
+setup.py
+tts_scores/clvp.py
+tts_scores/compute.py
+tts_scores/intelligibility.py
+tts_scores/tokenizer.py
+tts_scores/utils.py
+tts_scores.egg-info/PKG-INFO
+tts_scores.egg-info/SOURCES.txt
+tts_scores.egg-info/dependency_links.txt
+tts_scores.egg-info/requires.txt
+tts_scores.egg-info/top_level.txt
