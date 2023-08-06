@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/codingTestPackage/__init__.py
+src/codingTestPackage/parse_word.py
+src/codingTestPackage.egg-info/PKG-INFO
+src/codingTestPackage.egg-info/SOURCES.txt
+src/codingTestPackage.egg-info/dependency_links.txt
+src/codingTestPackage.egg-info/top_level.txt
