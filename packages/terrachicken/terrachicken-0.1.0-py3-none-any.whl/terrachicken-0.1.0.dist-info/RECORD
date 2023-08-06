@@ -1,0 +1,16 @@
+terrachicken/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+terrachicken/functions/__init__.py,sha256=UdvmSHuHf8LV092HZf6wR3AJtVZX9Ru5ceN_ipAyco8,60
+terrachicken/functions/github_functions.py,sha256=fOcsc01nqqtymleMjYFiMLUg6-44i6Bw7-orcG2lyvc,943
+terrachicken/functions/tfc_functions.py,sha256=tMy3SBYwe8wMP51OwaLzIB4bGkqYTg7OKoewrGxizQM,4327
+terrachicken/main.py,sha256=wIv4IKIPrHs4ClrLbIfH10WUT2HTymRB3SgMNoNhJOw,643
+terrachicken/src/__init__.py,sha256=z3rksXY89Roedm_uW4GTd1hDq9NbiE2TfhttrWTNrCE,69
+terrachicken/src/create.py,sha256=BJ6ERtWTmQKJVvvAVs3qW7msk480qJKuYSBI7xAuQu4,3836
+terrachicken/src/delete.py,sha256=RmCEA7lcDnX89zcgptSwU2bSaV5CWy3QlH01Qw0j8wA,1064
+terrachicken/src/list.py,sha256=CEzSsQQWs2uWbq6WAP5MGQ6n5VhfGyYqM1q0ed54DqQ,456
+terrachicken/templates/terraform_block.jinja2,sha256=szSIQSSyCEiA3T-5pOm0KXJqtkxjbiUdB8pbzvQCP9I,189
+terrachicken/utils/__init__.py,sha256=ydMv-ODDCWGUSqom1x_HyHd3zQoXpNdzpDGEHwhILLM,28
+terrachicken/utils/pretty.py,sha256=-qjEL76kgXUDIU9YKR1uu9UPyiYIS_tT8Px75rbIUgI,459
+terrachicken-0.1.0.dist-info/entry_points.txt,sha256=q_YBpwy7ehPbBXfzFcWJBlo1o3rFhop-i8D76MnpJqY,54
+terrachicken-0.1.0.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+terrachicken-0.1.0.dist-info/METADATA,sha256=TVK7Q13NpggAt-odrxsY6Gwp9-pDIQI1ynUMUmQFomc,5245
+terrachicken-0.1.0.dist-info/RECORD,,

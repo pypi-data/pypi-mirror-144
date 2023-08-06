@@ -1,0 +1,3 @@
+[console_scripts]
+terrachicken=terrachicken.main:app
+
