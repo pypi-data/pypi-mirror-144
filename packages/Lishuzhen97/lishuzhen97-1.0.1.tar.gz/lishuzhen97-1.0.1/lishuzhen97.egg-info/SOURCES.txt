@@ -1,0 +1,7 @@
+README.md
+hello.py
+setup.py
+lishuzhen97.egg-info/PKG-INFO
+lishuzhen97.egg-info/SOURCES.txt
+lishuzhen97.egg-info/dependency_links.txt
+lishuzhen97.egg-info/top_level.txt
