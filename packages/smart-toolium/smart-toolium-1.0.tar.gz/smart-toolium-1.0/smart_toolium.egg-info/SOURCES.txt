@@ -1,0 +1,6 @@
+setup.py
+smart_toolium.egg-info/PKG-INFO
+smart_toolium.egg-info/SOURCES.txt
+smart_toolium.egg-info/dependency_links.txt
+smart_toolium.egg-info/requires.txt
+smart_toolium.egg-info/top_level.txt
