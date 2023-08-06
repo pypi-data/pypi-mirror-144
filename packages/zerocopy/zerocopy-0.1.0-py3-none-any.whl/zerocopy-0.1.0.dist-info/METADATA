@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: zerocopy
+Version: 0.1.0
+Summary: Zero-copy model loading for PyTorch and Ray.
+Home-page: https://github.com/frreiss/zero-copy-model-loading
+Author: IBM
+Author-email: frreiss@us.ibm.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Scientific/Engineering
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Requires-Dist: ray
+Requires-Dist: torch
+
+<!-- Package description for PyPI -->
+
+Functions to enable zero-copy loading of PyTorch models using Ray's
+in memory Plasma object store.
+
+See ["How to Load PyTorch Models 340 Times Faster
+with
+Ray"](https://medium.com/ibm-data-ai/how-to-load-pytorch-models-340-times-faster-with-ray-8be751a6944c)
+for more information.
+
+
+
