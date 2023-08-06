@@ -1,0 +1,2 @@
+[console_scripts]
+pyCTelebot = pyCTelebot.pyCTelebotBase:main
