@@ -1,0 +1,53 @@
+Metadata-Version: 2.1
+Name: hisa
+Version: 0.1.1
+Summary: A python module that translates a number into Malagasy letters.
+Home-page: https://github.com/rivo2302/Hisa
+Author: rivo2302
+Author-email: rivo.rajaonarivony@esti.mg
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/rivo2302/Hisa/issues
+Description: # Hisa
+        <p >
+            Hisa : Python module that translates a number 
+            into Malagasy🇲🇬 letters  </br> </br>
+            Author : rivo2302 | www.rivo.iteam-s.mg
+        </p>
+        
+        <h1 align=center><img src="https://readme-typing-svg.herokuapp.com?font=jetbrains+mono&color=%teal&size=23&center=true&vCenter=true&lines=ISA%2C+Number%2C+into%2C+Malagasy🇲🇬%2C+letters" alt="Description">
+        </h1>
+        
+        
+        
+        ## Dependencies:
+        - [Python 2.7+](https://www.python.org/)
+        
+        ## Installation
+        
+        ```s
+        pip install hisa
+        ```
+        ## Usage
+        
+        ```s
+        from hisa import Hisa
+        
+        letters = Hisa(155)
+        print(letters)
+        ```
+        
+        ###### Response
+        ```s
+        dimy amby dimampolo amby zato
+        ```
+        
+        <div align="center">
+        <img src="https://img.shields.io/badge/-Python-396E9B?style=for-the-badge&logo=python&logoColor=FFFFFF"/> 
+        </div>
+Keywords: MALAGASY,TRANSALATE,INTEGER
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=2.7
+Description-Content-Type: text/markdown
