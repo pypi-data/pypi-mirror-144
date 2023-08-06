@@ -1,0 +1,11 @@
+LICENSE
+setup.py
+wtot/__init__.py
+wtot/wtot.py
+wtot.egg-info/PKG-INFO
+wtot.egg-info/SOURCES.txt
+wtot.egg-info/dependency_links.txt
+wtot.egg-info/entry_points.txt
+wtot.egg-info/not-zip-safe
+wtot.egg-info/requires.txt
+wtot.egg-info/top_level.txt
