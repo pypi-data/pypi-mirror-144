@@ -1,0 +1,12 @@
+LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+paradigm_panes/__init__.py,sha256=VRLhrt2-dlEX16nddy0tDCE4AFtqMBAoeTTst4132Kg,133
+paradigm_panes/generation.py,sha256=KgyQkEWowdofR_lh-0yD6BuHkoWBOUJ8NY439qGDa3E,1236
+paradigm_panes/manager.py,sha256=wft23mkl5posQweIolUK46zJpT-IMPSbOYPl27YXMaQ,9994
+paradigm_panes/pane_generator.py,sha256=3LBir84v2GCDUH5LOB3YeLXWfub5AXwri4_X-CvkpKg,5945
+paradigm_panes/panes.py,sha256=OnSco2iJc_T7XqEYkTMrygTFhu5hUX6XeBl9u3l_rHQ,23267
+paradigm_panes/running_scenario.txt,sha256=fCjjymqCwmr-iw-8ivTmd9OUJH7VwlS2y3PCZfXHz5A,962
+paradigm_panes/settings.py,sha256=bGom3bSmW8q8C3XrdTtgs5bWDKQXcPF9fYqfPYcS5tg,2219
+paradigm_panes-0.3.1.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+paradigm_panes-0.3.1.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+paradigm_panes-0.3.1.dist-info/METADATA,sha256=kn_SAQyw4B3jNZA0_FZIremCQopKqtlmvpGbPwEB6mY,5510
+paradigm_panes-0.3.1.dist-info/RECORD,,
