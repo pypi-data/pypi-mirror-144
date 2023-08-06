@@ -1,0 +1,16 @@
+cofi/__init__.py,sha256=kHJz-gN0GTVTFecw3L-R7l4cKNTYxainUTZi0ZoUzaY,566
+cofi/_version.py,sha256=myXO_t_lN3utOWHQsd_WXS3Xw-numhSOZEpLqhwxJ7w,396
+cofi/base_problem.py,sha256=msujykIEPcBxs3UqjoXdZ2iMO9L2b2r2r-kPaCZ4w6Q,13850
+cofi/inversion_options.py,sha256=Q7BNz62ne7-cDw2rSHYQ-NPZGYGI3WU77LsRfjGL2bA,4503
+cofi/runner.py,sha256=Rntd1ezmeq4dTiZNPqll8wp7v4UdGwBoDuDrmROzWwg,3286
+cofi/inv_problems/__init__.py,sha256=nQoO9mX-Vu9udZOzifz6LyYH1zt9E_cNC0bGYBGn1aA,284
+cofi/inv_problems/_rfc.cp310-win_amd64.pyd,sha256=fnYjHA-pbA7rfRJQvshDRdymBc8DYTjU-G9gT1Z-ymY,73728
+cofi/inv_problems/base_forward.py,sha256=jArk0jbmEzpR3-eB3jFktgSsaj5HTBkH7oxcUCU6GfA,223
+cofi/inv_problems/polynomial.py,sha256=D_qnrYzdWjE1KSbs45EQ4U7TTtwSIBe_wRrxlaSVic4,1276
+cofi/inv_problems/polynomial_fwd.py,sha256=dWzbuBHWScD8wSL7XArOk07OU-mczqySLN3mJeccl3I,254
+cofi/inv_problems/rfc.py,sha256=yyefGxxUIYEfRRJZ-upZ_xlDZFVehnYJc4yWexcnfjE,3520
+cofi-0.1.1.dev0.dist-info/METADATA,sha256=7NJZGvEOqWXNCnVLnd__8qNHWFsgKnl_Te-KwiLKFqE,3892
+cofi-0.1.1.dev0.dist-info/WHEEL,sha256=ZnkJYhnGB7WdN4EqljWwYucv_6HPAbAl7Q0nk33DOTY,96
+cofi-0.1.1.dev0.dist-info/top_level.txt,sha256=vCySCZDIbVBf8wfTwMauck38Dx3QY3KQqApyA2KnKUs,5
+cofi-0.1.1.dev0.dist-info/zip-safe,sha256=frcCV1k9oG9oKj3dpUqdJg1PxRT2RSN_XKdLCPjaYaY,2
+cofi-0.1.1.dev0.dist-info/RECORD,,
