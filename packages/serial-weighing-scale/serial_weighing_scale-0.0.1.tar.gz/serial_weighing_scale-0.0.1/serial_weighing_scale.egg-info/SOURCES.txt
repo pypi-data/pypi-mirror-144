@@ -1,0 +1,17 @@
+.gitignore
+.pre-commit-config.yaml
+.toml
+LICENSE
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+serial_scale/serial_scale.ino
+serial_weighing_scale/__init__.py
+serial_weighing_scale/serial_scale_object.py
+serial_weighing_scale.egg-info/PKG-INFO
+serial_weighing_scale.egg-info/SOURCES.txt
+serial_weighing_scale.egg-info/dependency_links.txt
+serial_weighing_scale.egg-info/not-zip-safe
+serial_weighing_scale.egg-info/requires.txt
+serial_weighing_scale.egg-info/top_level.txt
