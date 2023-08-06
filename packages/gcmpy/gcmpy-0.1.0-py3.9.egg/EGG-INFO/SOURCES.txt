@@ -1,0 +1,12 @@
+LICENSE
+README.rst
+setup.cfg
+setup.py
+gcmpy/__init__.py
+gcmpy/version.py
+gcmpy.egg-info/PKG-INFO
+gcmpy.egg-info/SOURCES.txt
+gcmpy.egg-info/dependency_links.txt
+gcmpy.egg-info/not-zip-safe
+gcmpy.egg-info/requires.txt
+gcmpy.egg-info/top_level.txt
