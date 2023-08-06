@@ -1,0 +1,5 @@
+boto3
+datetime
+pandas==1.4.0
+requests
+urllib3
