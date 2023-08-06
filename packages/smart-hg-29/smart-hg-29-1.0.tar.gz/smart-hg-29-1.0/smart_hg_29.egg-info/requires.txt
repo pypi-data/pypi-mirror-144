@@ -1,0 +1,2 @@
+plone.api==1.10.4
+zope.interface==5.4.0
