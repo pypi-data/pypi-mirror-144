@@ -1,0 +1,8 @@
+no_ppap_milter/__init__.py,sha256=ShXQBVjyiSOHxoQJS2BvNG395W4KZfqMxZWBAR0MZrE,22
+no_ppap_milter/cli_no_ppap_milter.py,sha256=V4UBuEKTq7-hCxGOwaior3mN3BeqknqVrUW0BeZFsQk,859
+no_ppap_milter/libemail.py,sha256=U4Uasluob56HKJSttg4CWs1cD01egdC6Yo-0goAC1pA,1387
+no_ppap_milter/no_ppap_milter.py,sha256=hRynNobUHNKvh6vIOSQ1lnlOBaMgu2tUB4F3k19WYFU,2107
+no_ppap_milter-0.1.0.dist-info/entry_points.txt,sha256=2lk8746O7umsGcB1B2blhh5x2cgSl9LxypNdQKG3XV8,73
+no_ppap_milter-0.1.0.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+no_ppap_milter-0.1.0.dist-info/METADATA,sha256=38P-kFSQsNHHdGGzvGJAnw-TIb75j59VOHsOP6IMaAU,438
+no_ppap_milter-0.1.0.dist-info/RECORD,,
