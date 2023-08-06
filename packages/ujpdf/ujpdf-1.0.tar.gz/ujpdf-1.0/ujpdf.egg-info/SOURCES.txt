@@ -1,0 +1,7 @@
+LICENSE
+README.md
+setup.py
+ujpdf.egg-info/PKG-INFO
+ujpdf.egg-info/SOURCES.txt
+ujpdf.egg-info/dependency_links.txt
+ujpdf.egg-info/top_level.txt
