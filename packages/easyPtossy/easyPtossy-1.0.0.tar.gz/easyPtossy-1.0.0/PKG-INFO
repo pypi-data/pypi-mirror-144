@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: easyPtossy
+Version: 1.0.0
+Summary: Python wrapper of TossPayment API
+Home-page: https://github.com/jha929/easyPtossy
+Author: Jinsung Ha
+Author-email: jsung5381@naver.com
+License: MIT
+Description: # easyPtossy (이지피지 - tos 는 묵음입니다)
+        (읽고 쓰기) 쉬운 토스페이먼츠 파이썬 API
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown

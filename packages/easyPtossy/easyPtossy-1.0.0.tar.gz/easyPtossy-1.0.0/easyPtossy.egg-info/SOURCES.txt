@@ -1,0 +1,7 @@
+README.md
+setup.py
+easyPtossy.egg-info/PKG-INFO
+easyPtossy.egg-info/SOURCES.txt
+easyPtossy.egg-info/dependency_links.txt
+easyPtossy.egg-info/requires.txt
+easyPtossy.egg-info/top_level.txt
