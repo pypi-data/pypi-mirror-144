@@ -1,0 +1,2 @@
+[napari.manifest]
+napari-metroid = napari_metroid:napari.yaml
