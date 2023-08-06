@@ -1,0 +1,9 @@
+README.md
+setup.py
+estatistica/__init__.py
+estatistica/funcoes/__init__.py
+estatistica/funcoes/principal.py
+package_estatistica.egg-info/PKG-INFO
+package_estatistica.egg-info/SOURCES.txt
+package_estatistica.egg-info/dependency_links.txt
+package_estatistica.egg-info/top_level.txt
