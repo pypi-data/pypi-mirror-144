@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: pygrove
+Version: 0.1.1a8
+Summary: Common data science imports based on pyforest, with a NLP focus
+License: MIT
+Author: sileod
+Author-email: damien.sileo@gmail.com
+Requires-Python: >=3.7,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: pyforest (>=1.1.0,<2.0.0)
