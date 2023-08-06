@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: psgcgpacalc
+Version: 0.0.1
+Summary: A Package used for calculating GPA CGPA By Arjun K PSG ICE
+Home-page: UNKNOWN
+Author: Arjun K
+Author-email: arjunkrishnarajv@gmail.com
+License: MIT
+Keywords: psgcgpacalculatorp
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+License-File: LICENSE.txt
+
+This python package is developed by Arjun K PSG ICE (20-24) which can be used for calculating the GPA and CGPA of the students
+To calculate GPA pass a list in the format [Grade,Credits,Grade,Credits,........] to the function gpapsgcalc()
+To calculate CGPA pass a list in the format [CGPAUptoPreviousSem/GPA,........] to the function cgpapsgcalc()
+
+Change Log
+====================
+
+0.0.1 (29/03/22)
+--------------------
+- First Release
+

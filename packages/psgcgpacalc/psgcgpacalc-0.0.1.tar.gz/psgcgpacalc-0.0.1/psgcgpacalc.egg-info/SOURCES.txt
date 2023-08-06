@@ -1,0 +1,10 @@
+CHANGELOG.txt
+LICENSE.txt
+MANIFEST.in
+README.txt
+setup.py
+GPAPSG/__init__.py
+psgcgpacalc.egg-info/PKG-INFO
+psgcgpacalc.egg-info/SOURCES.txt
+psgcgpacalc.egg-info/dependency_links.txt
+psgcgpacalc.egg-info/top_level.txt
