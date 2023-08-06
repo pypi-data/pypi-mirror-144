@@ -1,0 +1,7 @@
+cryptography<3.4
+numpy
+scipy
+matplotlib
+pytest
+filterpy
+gitpython
