@@ -1,0 +1,17 @@
+zcbor/VERSION,sha256=zXhTTtFa1GkStxM50UF9DQQ9gwnCuUQV8-0bnR_frtA,5
+zcbor/__init__.py,sha256=3bQofB04TeuvJbJQ8rEVtOIZePUBLmsixu2eUUfpLus,367
+zcbor/zcbor.py,sha256=AMSKbpTjueDNskDuUg1CEjyV8KgsnkJrBdP4Py5EP6w,124022
+zcbor/cddl/prelude.cddl,sha256=ZPf2AYRXAE82wD_6qwGaq0m6TcUocSjQ9094eX4YCmY,1020
+zcbor-0.4.0.data/data/lib/zcbor/include/zcbor_common.h,sha256=MPIt-Q7OBVkFSLUb9dwFC9PBudAPNoQW0wZuBOXXlUA,13221
+zcbor-0.4.0.data/data/lib/zcbor/include/zcbor_debug.h,sha256=X0TghILtvykNBnL0U-drbTckxPOc7iAQ08AP7HemG-Q,1445
+zcbor-0.4.0.data/data/lib/zcbor/include/zcbor_decode.h,sha256=Qlp3-4cxUz3MZR-DDFBhk5EB0KeO-Mybnj7Di3pur2Q,14037
+zcbor-0.4.0.data/data/lib/zcbor/include/zcbor_encode.h,sha256=bSvLL6a3v_mOW5hqNr_Bt40krojrLDux00x2L9i_NWs,11558
+zcbor-0.4.0.data/data/lib/zcbor/src/zcbor_common.c,sha256=L1T-8-rE7iJRqQs17ZZh8_4IZx9BMTwJMWEj4Q7Fye0,5709
+zcbor-0.4.0.data/data/lib/zcbor/src/zcbor_decode.c,sha256=Fe7nm8UwQY-Dwd20qNpPISQ93WuxgFjkhWaF6lz08aY,20900
+zcbor-0.4.0.data/data/lib/zcbor/src/zcbor_encode.c,sha256=2sJ-KuCwCPs2qROYXIszvwStNDxYPcM4Cz-h-pUNJIE,13287
+zcbor-0.4.0.dist-info/LICENSE,sha256=z8d0m5b2O9McPEK1xHG_dWgUBT6EfBDz6wA0F7xSPTA,11358
+zcbor-0.4.0.dist-info/METADATA,sha256=ZyQNpGo5Be-UckFl7sRPHmQOI4pwZG38wmSS5lUeDYk,29684
+zcbor-0.4.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+zcbor-0.4.0.dist-info/entry_points.txt,sha256=enMEP3LPPpT5n22og6m1zYEPNAgLeguG0NA2rOA8r38,43
+zcbor-0.4.0.dist-info/top_level.txt,sha256=gdM5K7FUgDP91T1kUWPD2pQXPXKB6r0Ih68Xa0eL75Q,6
+zcbor-0.4.0.dist-info/RECORD,,
