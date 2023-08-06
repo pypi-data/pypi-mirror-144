@@ -1,0 +1,16 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+raudio_bot/__init__.py
+raudio_bot/__main__.py
+raudio_bot/bot.py
+raudio_bot/config.py
+raudio_bot.egg-info/PKG-INFO
+raudio_bot.egg-info/SOURCES.txt
+raudio_bot.egg-info/dependency_links.txt
+raudio_bot.egg-info/requires.txt
+raudio_bot.egg-info/top_level.txt
+raudio_bot/modules/BasicCommands.py
+raudio_bot/modules/Music.py
+raudio_bot/modules/__init__.py
