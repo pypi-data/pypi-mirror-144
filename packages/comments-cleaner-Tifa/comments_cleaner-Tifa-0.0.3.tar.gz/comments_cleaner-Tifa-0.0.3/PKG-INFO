@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: comments_cleaner-Tifa
+Version: 0.0.3
+Summary: Comments cleaner, Support C/C++, Python
+Home-page: https://github.com/Tiphereth-A/cmcleaner
+Author: Tifa
+Author-email: tiphereth-a@qq.com
+License: GNU General Public License v3.0
+Project-URL: Bug Tracker, https://github.com/Tiphereth-A/cmcleaner/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# cmcleaner
+
+![GitHub](https://img.shields.io/github/license/Tiphereth-A/cmcleaner)
+
+
