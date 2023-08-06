@@ -1,0 +1,13 @@
+pytypeclass/__init__.py,sha256=57baP0xsTtYHUXqKuDB7VhMkoKRpF7rhHG9aj73henA,302
+pytypeclass/io.py,sha256=i1QyEEfjFlk0N_SplapCdebhub7H56IiRpou7Zlmji8,1618
+pytypeclass/lst.py,sha256=jju9Qm75XnK28ak45kgSaSoL5KkKQQnGl2NwYaItJcg,1329
+pytypeclass/monad.py,sha256=pbR0W89uziAiaN13A4s4r9_wzL3O10mfJ6MyfNnySqI,1952
+pytypeclass/monoid.py,sha256=oLeJR21IWtdPgP1zO4DNTPEYI_gZWwXdxU49D6NJfh4,531
+pytypeclass/nonempty_list.py,sha256=vwgukol1ma-5r6ZzdgLccRtlr1rs8vsJuy_aIBkjRw8,1349
+pytypeclass/option.py,sha256=hOInZMVcKMiOpC7GkQinlzA83BQDuOtVkqkgCCOW66k,1094
+pytypeclass/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pytypeclass/result.py,sha256=2jBIy1a8W63nt7Ue1sXsqtLjgWB2GlZ7Y_A0yuPzlYE,1256
+pytypeclass/stateless_iterator.py,sha256=Dtm8W2CUxrH3UdRZtEq8GuhlUs_Qjfb44Jse55T2gLc,1047
+pytypeclass-0.1.1.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+pytypeclass-0.1.1.dist-info/METADATA,sha256=mtAeOj8kTgxffJxGjFrjRPi5cVQgCOsMsGe0E-fBLus,350
+pytypeclass-0.1.1.dist-info/RECORD,,
