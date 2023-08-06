@@ -1,0 +1,8 @@
+better_highlighting/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+better_highlighting/better_highlighting.py,sha256=0Rt2GNm5THN9twwv9ZT947jCmp-cBWRJSsYsMKDCGSw,5353
+better_highlighting/data_format.py,sha256=nbR8lIfJjd2V4pZmH0iQszT7dt7sCKdV0RLZe4WO3RU,3989
+better_highlighting/json_lexer.py,sha256=C5ofuD1ocl9EeFnGwFBnqfRiH-SibZf3_cW4YInDToA,7782
+better_highlighting/style_builders.py,sha256=5hl3bVBxRt81zqs0KuN3nxiIhxjuV6Y9DhevZkeUBkk,2649
+better_highlighting-0.1.0.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+better_highlighting-0.1.0.dist-info/METADATA,sha256=iMo3sq58Uz9e2mUFaJ_UfGoDT6WBaAG4zUVOj4AhBYg,2441
+better_highlighting-0.1.0.dist-info/RECORD,,
