@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: pandas-oop
+Version: 0.0.2
+Summary: Pandas dataframes with object oriented programming style
+Home-page: https://github.com/MayasMess/pandas-oop
+Author: Amayas Messara
+Author-email: amayas.messara@gmail.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/MayasMess/pandas-oop/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pandas
+
+![image](static/images/poop.jpg)
+Pandas dataframes with object oriented programming style
+
+Installation:
+- 
+
+```shell script
+  pip install pandas-oop
+```
+
+
+
