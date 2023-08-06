@@ -1,0 +1,8 @@
+awswrangler==2.14.0
+requests==2.27.1
+scipy
+
+[develop]
+mpmath==1.1.0
+regex==2021.8.3
+requests==2.27.1
