@@ -1,0 +1,11 @@
+HandyLib/__init__.py,sha256=GMZMsiK8HAY0vRHmNQQD01B8TaXsDD5hWMMaJHi56dI,1755
+HandyLib/count.py,sha256=OijVMnwH7dNDMECYta9q5x0Nsn3p40m-ia2A2QdzCQY,107
+HandyLib/erase_partition.py,sha256=K48BU87oyWt0OIDcfm-Y2ktBpJfDnBpcPKU8fOIr--c,1015
+HandyLib/file_operator.py,sha256=8qO4XprxYaPRmf-JgcIweY9tajT2fAJ--aWGjh08IRw,8700
+HandyLib/network.py,sha256=l4FXz8zncps_VuFohGQ2c6Reu9OvNE27Mn8itI4KVCo,1083
+HandyLib/read_meta.py,sha256=MlM_DscJbLi-A_DJz-A3LCNZsdEb3TXi1RV1QPiCO4M,880
+HandyLib-0.0.8.dist-info/LICENSE,sha256=YeOPbvwh2bDmNrGuVECcoDSFlMPkTXjve0DPp7LCV_E,1082
+HandyLib-0.0.8.dist-info/METADATA,sha256=np6sOb4EKjjQa_HCsmS_ZnCH95EW1keWXM2VyFM0QtY,581
+HandyLib-0.0.8.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+HandyLib-0.0.8.dist-info/top_level.txt,sha256=6y-ks1GqV17z6JaIDxxoxhY8EDqP9ByHH-vCaNwNRT8,9
+HandyLib-0.0.8.dist-info/RECORD,,
