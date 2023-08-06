@@ -1,0 +1,9 @@
+requests
+ua-parser
+ip3country
+
+[test]
+Flask
+requests
+user_agents
+semver
