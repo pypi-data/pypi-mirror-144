@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: DE_LogEventos
+Version: 0.0.7
+Summary: LogEventos
+Home-page: https://github.com/almirjgomes/DE_LogEventos.git
+Author: Almir J Gomes
+Author-email: almir.jg@hotmail.com
+License: MIT
+Platform: UNKNOWN
+License-File: Licence.txt
+
+Incluida condição de quebra de linha para a impressao na tela 'screen' 
+
