@@ -1,0 +1,4 @@
+requests
+progress
+mysql-connector-python
+paxstore-open-api-sdk
