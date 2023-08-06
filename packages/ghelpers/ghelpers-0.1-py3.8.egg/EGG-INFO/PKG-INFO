@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: ghelpers
+Version: 0.1
+Summary: Grouping of common functions used in Google Cloud Platform, intended to help other processes.
+Home-page: https://github.com/rimedinaz/ghelpers
+Author: Richard Medina
+Author-email: rimedinaz@gmail.com
+License: Apache License 2.0
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.4.*
+Description-Content-Type: text/markdown
+Provides-Extra: secretmanager
+License-File: LICENSE
+
+# ghelpers
+Grouping of functions commonly used in Google Cloud Platform, intended to help other processes and to carry out complementary actions.
+
+
