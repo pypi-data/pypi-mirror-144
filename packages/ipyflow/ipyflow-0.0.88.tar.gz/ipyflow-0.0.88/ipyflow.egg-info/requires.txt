@@ -1,0 +1,7 @@
+ipyflow-core
+jupyter
+jupyterlab>=3.0
+nbclassic>=0.2.8
+
+[dev]
+ipyflow-core[dev]
