@@ -1,0 +1,13 @@
+alice/__init__.py,sha256=tk5443vcEwsoTZ0Uzm5GogAZ5CL-LkBoOLvwdSFOcTs,380
+alice/__main__.py,sha256=vzM96RMqzy81XvybomEVtc_KVJPthqO6XBO6LDKuej8,38
+alice/cli.py,sha256=f4y0_V8YezvqRGl6iMZ7O61-OUeRiOGOzbqeiAIbsKw,1778
+alice/exceptions.py,sha256=hVKa_zlvW5bSDeNy2DRVQx1vhyJN-TyRaVvQsjZgEas,138
+alice/runnerfactory.py,sha256=cI37OvDq-bk5iid2GRPEBKKgxJPK2_J0miQu4rxlGHM,1321
+alice/utils.py,sha256=qVqpzbWvrcJQqX0IjCzDhMPy9lB7bsGh57VDjO8E2dY,1489
+alice/runners/__init__.py,sha256=FPEu0-EGCSOwztmb10t6BvR-wNHdEQQMA4yBetEMzcg,83
+alice/runners/dockerrunner.py,sha256=P2cMsMy4CDHomWNSKPm4uPuaRibhQeYnXo1pQKARloA,18
+alice/runners/pythonrunner.py,sha256=mq12IqWs7Kfv5cBVE6HePE6idYPTH9DqYDd21Lk7pd0,4459
+alice_ci-0.0.3.dist-info/METADATA,sha256=Kfg_fsirTY7AwGOiJUks8YxZBcDODenvKPdvOoT9yN8,900
+alice_ci-0.0.3.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+alice_ci-0.0.3.dist-info/top_level.txt,sha256=-HFl4wWw98SCTTgGQ0-dCQlhCiVkGrh3PPkqSMnXdnA,6
+alice_ci-0.0.3.dist-info/RECORD,,
