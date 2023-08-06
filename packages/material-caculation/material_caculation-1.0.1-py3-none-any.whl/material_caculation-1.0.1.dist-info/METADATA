@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: material-caculation
+Version: 1.0.1
+Summary: material caculation script
+Home-page: https://github.com/Jeffreyliming/pandas_test
+Author: jeffery
+Author-email: lizuobang@163.com
+License: MIT
+Platform: all
+Classifier: Environment :: Web Environment
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Text Processing :: Indexing
+Classifier: Topic :: Utilities
+Classifier: Topic :: Internet
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Programming Language :: Python :: 3.8
+Requires-Dist: pandas
+Requires-Dist: flask
+
+UNKNOWN
+
+
