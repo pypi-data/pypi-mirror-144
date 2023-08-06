@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+imgbeddings/__init__.py
+imgbeddings/imgbeddings.py
+imgbeddings/models.py
+imgbeddings/utils.py
+imgbeddings.egg-info/PKG-INFO
+imgbeddings.egg-info/SOURCES.txt
+imgbeddings.egg-info/dependency_links.txt
+imgbeddings.egg-info/requires.txt
+imgbeddings.egg-info/top_level.txt
