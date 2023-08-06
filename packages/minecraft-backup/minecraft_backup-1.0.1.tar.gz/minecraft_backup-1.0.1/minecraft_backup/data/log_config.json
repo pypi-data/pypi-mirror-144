@@ -1,0 +1,30 @@
+{
+    "version": 1,
+    "disable_existing_loggers": false,
+    "formatters": {
+        "simple": {
+            "format": "%(asctime)s %(name)s:%(lineno)s %(funcName)s [%(levelname)s]: %(message)s"
+        }
+    },
+    "handlers": {
+        "fileHandler": {
+            "class": "logging.FileHandler",
+            "level": "DEBUG",
+            "formatter": "simple",
+            "filename": "to be replaced",
+            "mode": "a"
+        }
+    },
+    "loggers": {
+        "__main__": {
+            "handlers": [
+                "fileHandler"
+            ],
+            "propagate": false
+        }
+    },
+    "root": {
+        "level": "DEBUG",
+        "handlers": ["fileHandler"]
+    }
+}
