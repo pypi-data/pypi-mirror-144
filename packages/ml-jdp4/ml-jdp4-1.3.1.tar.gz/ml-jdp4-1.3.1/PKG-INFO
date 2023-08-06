@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: ml-jdp4
+Version: 1.3.1
+Summary: An integrated quantum mechanics-machine learning approach for ultra-fast NMR structural elucidation.
+Home-page: https://github.com/ZanardiMM/ML_J_DP4
+Author: María M. Zanardi & Ariel M. Sarotti
+Author-email: zanardi@inv.rosario-conicet.gov.ar
+License: MIT
+Description: # ML_JDP4 Package
+        
+        ## An integrated quantum mechanics-machine learning approach for ultra-fast NMR structural elucidation
+        
+        Authors: María M. Zanardi & Ariel M. Sarotti
+        
+        Usage: ml_jdp4 
+        
+        for more information see ml_jdp4 manual in pdf file
+        
+Keywords: NMR structural elucidation
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
