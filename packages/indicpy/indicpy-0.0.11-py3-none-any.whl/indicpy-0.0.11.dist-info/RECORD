@@ -1,0 +1,10 @@
+indicpy/__init__.py,sha256=P4uWu2BJDOWBACihPR04h6oTI4yaP_xopmE6wv4UMos,260
+indicpy/__main__.py,sha256=lMRTJIUB0x3d3948mGoV4IZ5c0Iw5kJpNbjp20f1xho,46
+indicpy/indicpy.py,sha256=eAB-sroiu18I72i5qrY_7b1iXTZ7Pcz7JgszCuycyhc,3855
+indicpy/language.py,sha256=GL2ec_AKviPLx0TkY_-K8m2wiM4_MVlQao01Fe9TVFY,157
+indicpy/main.py,sha256=WITaI0e_D3X1h0g4D83JWJYw8UFptrBo9ZaDMIcb9Ig,3759
+indicpy/test.py,sha256=5ZkiqJbk_s66ufTykJ2UpNAfXQYPmHet474U2763tT8,110
+indicpy-0.0.11.dist-info/METADATA,sha256=5cp3s6aWulEwxnaUtFI_4d0i7IJ5AKDoPIvBCpzU0Rg,853
+indicpy-0.0.11.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+indicpy-0.0.11.dist-info/top_level.txt,sha256=5GjV0DGC3wc_k4y8i-VNwiX6hf25vojjOG_QdKGwwg8,8
+indicpy-0.0.11.dist-info/RECORD,,
