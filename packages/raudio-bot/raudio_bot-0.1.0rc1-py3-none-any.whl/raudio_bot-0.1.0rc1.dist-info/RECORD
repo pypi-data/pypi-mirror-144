@@ -1,0 +1,12 @@
+raudio_bot/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+raudio_bot/__main__.py,sha256=oLo6B0eAhXoNOiNUp_9f7fIxwtVCu44bOojbR_7QEow,892
+raudio_bot/bot.py,sha256=PwUJgiHpWXEq1eaKwh9WDaqT0mfLWTQ2bMnE5HhCkGA,1040
+raudio_bot/config.py,sha256=b4f86pqwP5pgp9vGY-FT5fpm5PEEjT7dmX8wij-0qAs,667
+raudio_bot/modules/BasicCommands.py,sha256=nvMNRLWyBMYgFD-5hZoQzPsk13JjRau38kakD33C7vY,1232
+raudio_bot/modules/Music.py,sha256=pIpk58NIS1z6BK6Eyb-Maf0yMo01Jjjdxz8UJYfTw0U,3235
+raudio_bot/modules/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+raudio_bot-0.1.0rc1.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+raudio_bot-0.1.0rc1.dist-info/METADATA,sha256=El9myvShcW8FV2sZwrf0Sk5UQDpKtn2ambKT1hLujC8,2583
+raudio_bot-0.1.0rc1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+raudio_bot-0.1.0rc1.dist-info/top_level.txt,sha256=bBTy1Np_PC78kiZr1sJA0d9VMWDPTbykqb6tb30jkjk,30
+raudio_bot-0.1.0rc1.dist-info/RECORD,,

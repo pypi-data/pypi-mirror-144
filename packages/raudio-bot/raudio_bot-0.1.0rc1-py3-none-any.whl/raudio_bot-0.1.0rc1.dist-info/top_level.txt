@@ -1,0 +1,2 @@
+raudio_bot
+raudio_bot/modules
