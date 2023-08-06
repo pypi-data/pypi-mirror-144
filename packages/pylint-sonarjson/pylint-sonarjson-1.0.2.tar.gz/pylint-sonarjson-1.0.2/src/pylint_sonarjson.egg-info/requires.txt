@@ -1,0 +1,2 @@
+pylint-plugin-utils>=0.7
+pylint<3,>=2.4
