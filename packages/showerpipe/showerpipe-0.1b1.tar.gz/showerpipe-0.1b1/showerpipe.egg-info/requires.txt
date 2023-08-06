@@ -1,0 +1,13 @@
+click
+requests
+lxml
+omegaconf
+numpy
+pandas
+mpi4py
+graphicle>=0.1
+heparchy>=0.2
+typicle>=0.1.4
+
+[dev]
+pre-commit
