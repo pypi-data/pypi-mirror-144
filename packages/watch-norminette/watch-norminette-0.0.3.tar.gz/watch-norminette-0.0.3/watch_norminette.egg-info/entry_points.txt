@@ -1,0 +1,3 @@
+[console_scripts]
+watch-norminette = wn.__main__:main
+wn = wn.__main__:main

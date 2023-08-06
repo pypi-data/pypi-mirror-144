@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+watch_norminette.egg-info/PKG-INFO
+watch_norminette.egg-info/SOURCES.txt
+watch_norminette.egg-info/dependency_links.txt
+watch_norminette.egg-info/entry_points.txt
+watch_norminette.egg-info/top_level.txt
+wn/__main__.py
