@@ -1,0 +1,13 @@
+torch
+pyyaml
+torchvision
+opencv-python
+Pillow
+fvcore
+cloudpickle
+omegaconf
+pycocotools
+timm
+scipy
+shapely
+numpy

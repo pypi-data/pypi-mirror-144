@@ -1,0 +1,7 @@
+setup.py
+DocumentLayoutAnalysis/__init__.py
+DocumentLayoutAnalysis.egg-info/PKG-INFO
+DocumentLayoutAnalysis.egg-info/SOURCES.txt
+DocumentLayoutAnalysis.egg-info/dependency_links.txt
+DocumentLayoutAnalysis.egg-info/requires.txt
+DocumentLayoutAnalysis.egg-info/top_level.txt
