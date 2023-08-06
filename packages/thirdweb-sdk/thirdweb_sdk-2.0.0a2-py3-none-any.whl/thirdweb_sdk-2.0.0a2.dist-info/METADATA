@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: thirdweb-sdk
+Version: 2.0.0a2
+Summary: 
+Author: thirdweb
+Author-email: sdk@thirdweb.com
+Requires-Python: >3.7.1,<3.10
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: dacite (>=1.6.0,<2.0.0)
+Requires-Dist: mypy-extensions (>=0.4.3,<0.5.0)
+Requires-Dist: thirdweb-contract-wrappers (>=2.0.4,<3.0.0)
+Requires-Dist: web3 (==5.27.0)
