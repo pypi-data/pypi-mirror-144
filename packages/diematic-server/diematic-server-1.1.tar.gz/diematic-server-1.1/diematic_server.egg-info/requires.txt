@@ -1,0 +1,16 @@
+certifi
+chardet
+daemon
+docutils
+idna
+influxdb
+lockfile
+pymodbus
+pyserial
+python-daemon
+python-dateutil
+pytz
+PyYAML
+requests
+six
+urllib3
