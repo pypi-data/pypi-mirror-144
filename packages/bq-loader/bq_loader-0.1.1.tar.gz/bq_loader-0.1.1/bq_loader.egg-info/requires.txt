@@ -1,0 +1,9 @@
+google-cloud-bigquery
+PyInquirer
+
+[dev]
+pytest
+coverage
+pytest-cov
+sphinx
+alabaster
