@@ -1,0 +1,29 @@
+['Frederick_Soddy', 'Henry_Hallett_Dale', 'Archer_John_Porter_Martin', 'Betty_Williams', 'Richard_Laurence_Millington_Synge', 'Alan_Lloyd_Hodgkin', 'John_Kendrew', 'Charles_Scott_Sherrington', 'T._S._Eliot', 'William_Randal_Cremer']
+['eng', 'eng', 'eng', 'eng', 'eng', 'eng', 'eng', 'eng', 'eng', 'eng']
+extracting features:
+[DONE]
+vectorize features:
+[DONE]
+fitting model:
+
+[DONE]
+train acc: 0.9476883089605923
+test acc: 0.8466521685861309
+              precision    recall  f1-score   support
+
+         mea       0.91      0.90      0.91      3112
+         chi       0.78      0.84      0.81      8649
+         eng       0.80      0.81      0.80      8734
+         frn       0.84      0.85      0.84     10625
+         vie       0.88      0.86      0.87      6623
+         spa       0.86      0.84      0.85      7066
+         ita       0.96      0.95      0.96      5237
+         ger       0.94      0.92      0.93      1130
+         jap       0.79      0.77      0.78      3247
+         rus       0.89      0.85      0.87      5988
+         ind       0.82      0.79      0.80      4622
+         kor       0.90      0.83      0.86       263
+
+    accuracy                           0.85     65296
+   macro avg       0.86      0.85      0.86     65296
+weighted avg       0.85      0.85      0.85     65296
