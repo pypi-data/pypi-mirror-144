@@ -1,0 +1,10 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+randall/__init__.py
+randall.egg-info/PKG-INFO
+randall.egg-info/SOURCES.txt
+randall.egg-info/dependency_links.txt
+randall.egg-info/not-zip-safe
+randall.egg-info/top_level.txt
