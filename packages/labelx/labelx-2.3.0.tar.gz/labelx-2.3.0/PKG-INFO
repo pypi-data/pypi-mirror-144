@@ -1,0 +1,133 @@
+Metadata-Version: 2.1
+Name: labelx
+Version: 2.3.0
+Summary: Label Creator for GitLab Projects.
+Home-page: https://github.com/dalwar23/labelxg
+Author: Dalwar Hossain
+Author-email: dalwar23@pm.me
+License: GNU General Public License v3
+Keywords: labelx
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Requires-Python: >=3.6
+License-File: LICENSE
+License-File: AUTHORS.rst
+
+======
+labelx
+======
+
+
+.. image:: https://img.shields.io/pypi/v/labelx.svg
+        :target: https://pypi.python.org/pypi/labelx
+
+.. image:: https://readthedocs.org/projects/labelx/badge/?version=latest
+        :target: https://labelx.readthedocs.io/en/latest/?badge=latest
+        :alt: Documentation Status
+
+
+
+
+Label Creator for GitLab Projects.
+
+
+* Free software: GNU General Public License v3
+* Documentation: https://labelx.readthedocs.io.
+
+
+Features
+--------
+
+* Show package information
+* Create labels for GitLab groups/projects
+* Create badges for GitLab groups/projects
+* Custom label/badge from `.yaml` file
+
+Requirements
+------------
+
+* python >= 3.6
+* ``config.yaml`` at ``~/.config/labelx/``
+
+.. code-block:: yaml
+
+   ---
+   login:
+     host: gitlab.company.com
+     protocol: https
+     token: KHGJIO**-dA76VGHs36
+
+Credits
+-------
+
+See `AUTHORS.rst <AUTHORS.rst>`_
+
+This package was created with Cookiecutter_ and the `audreyr/cookiecutter-pypackage`_ project template.
+
+.. _Cookiecutter: https://github.com/audreyr/cookiecutter
+.. _`audreyr/cookiecutter-pypackage`: https://github.com/audreyr/cookiecutter-pypackage
+
+
+=======
+History
+=======
+
+2.3.0 [30.03.2022]
+------------------
+* Updated documentation
+* Added group level support for labels and badges
+* Updated tests
+* Fixed spelling mistakes
+* Minor console output changes
+
+2.2.1 [28.03.2022]
+------------------
+
+* Add group level badges and labels
+* Fix version upgrade bug
+* Update documentation
+
+2.1.1 [19.06.2020]
+------------------
+
+* Fixed bug with license badge
+* Updated readme and docs
+
+2.1.0 [19.06.2020]
+------------------
+
+* Fixed bug with link_url
+* Changed look and feel
+
+1.0.5 [19.06.2020]
+------------------
+
+* Create badges with default values
+* Added tests
+* Fixed formatting
+
+1.0.4 [02.04.2020]
+------------------
+
+* Create labels with default values
+* Show package information
+* Added more tests
+* Re-newed documentation
+
+1.0.3 (unreleased) [30.03.2020]
+-------------------------------
+
+* Show package information
+* Added test cases
+
+
