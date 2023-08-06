@@ -1,0 +1,13 @@
+sdk/README.md,sha256=Gmar65HZnzeEZT08vYQlutApiKLdSDEqzak1omQmJLI,470
+sdk/__init__.py,sha256=AprHAq0ZTrM9uMWhszvXPBcWJYbiufzEKn5DN-org1A,161
+sdk/conda_env.py,sha256=TWZ2B4CCF2YrFsqBy2MYrSuodTdPXcfY40BAcd31huY,4587
+sdk/core.py,sha256=9saINdQhYVN5XR7rHWoLFZmFVvTm_GuZPLOV9vBGKa0,93
+sdk/dataset.py,sha256=N0uaP7Wmp9JFokU7DatQ1mitfoArv5cV6iIgru4XMa0,2100
+sdk/helpers.py,sha256=JGISGYusfcjGCblb9ohpyaAwLhU2F_-DEn3dj8d8ZOI,1348
+sdk/importer.py,sha256=gY0_tjagL6vn4ZT4gSw3-Tk16aUUgbcRF1z2FLfCsmc,5059
+sdk/parallel.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sameproject-0.1.13.dist-info/entry_points.txt,sha256=QA9SrbOrJ2_MMhiXA8HOe8ubRUGl0L8q_YyEWflzuhQ,46
+sameproject-0.1.13.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+sameproject-0.1.13.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+sameproject-0.1.13.dist-info/METADATA,sha256=KTfLQYTriCH1tKJCxqh7cpDN8KdcaLfnCIVtQnHmsR4,1196
+sameproject-0.1.13.dist-info/RECORD,,
