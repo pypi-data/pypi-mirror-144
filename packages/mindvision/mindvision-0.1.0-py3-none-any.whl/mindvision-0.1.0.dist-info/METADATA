@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: mindvision
+Version: 0.1.0
+Summary: An open source computer vision research tool box. Git version: [sha1]:9ca4be2, [branch]: (HEAD, origin/master, origin/HEAD, master)
+Home-page: https://gitee.com/mindspore/vision/tree/master/
+Author: MindVision Core Team
+License: Apache 2.0
+Project-URL: Sources, https://gitee.com/mindspore/vision
+Project-URL: Issue Tracker, https://gitee.com/mindspore/vision/issues
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: Apache Software License
+Requires-Dist: scipy (>=1.5.2)
+Requires-Dist: numpy (>=1.17.0)
+Requires-Dist: matplotlib (>=3.2.1)
+Requires-Dist: pillow (>=6.2.0)
+Requires-Dist: pytest (>=4.3.1)
+Requires-Dist: wheel (>=0.32.0)
+Requires-Dist: setuptools (>=40.8.0)
+Requires-Dist: scikit-learn (>=0.23.1)
+Requires-Dist: easydict (>=1.9)
+Requires-Dist: ml-collections
+Requires-Dist: opencv-python-headless
+Requires-Dist: opencv-contrib-python-headless
+Requires-Dist: tqdm
+
+UNKNOWN
+
+
