@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+requirements.txt
+setup.cfg
+setup.py
+compute_tf_idf_vectors/__init__.py
+compute_tf_idf_vectors/cli.py
+compute_tf_idf_vectors.egg-info/PKG-INFO
+compute_tf_idf_vectors.egg-info/SOURCES.txt
+compute_tf_idf_vectors.egg-info/dependency_links.txt
+compute_tf_idf_vectors.egg-info/entry_points.txt
+compute_tf_idf_vectors.egg-info/requires.txt
+compute_tf_idf_vectors.egg-info/top_level.txt
