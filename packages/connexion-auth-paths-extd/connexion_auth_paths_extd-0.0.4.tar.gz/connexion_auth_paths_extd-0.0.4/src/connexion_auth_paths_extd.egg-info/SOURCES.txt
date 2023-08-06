@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+src/connexion/extended/aiohttp.py
+src/connexion/extended/base.py
+src/connexion/extended/flask.py
+src/connexion_auth_paths_extd.egg-info/PKG-INFO
+src/connexion_auth_paths_extd.egg-info/SOURCES.txt
+src/connexion_auth_paths_extd.egg-info/dependency_links.txt
+src/connexion_auth_paths_extd.egg-info/requires.txt
+src/connexion_auth_paths_extd.egg-info/top_level.txt
