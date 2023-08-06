@@ -1,0 +1,25 @@
+BASE_URL = "pygradus.kiedanksi.com"
+
+[token]
+url = "/token"
+mode = "post"
+
+[users]
+url = "/users/me"
+mode = "get"
+
+[course]
+url = "/course"
+mode = "post"
+
+[exercise]
+url = "/exercise"
+mode = "post"
+
+[task]
+url = "/task"
+mode = "post"
+
+[attempt]
+url = "/attempt/"
+mode = "post"
