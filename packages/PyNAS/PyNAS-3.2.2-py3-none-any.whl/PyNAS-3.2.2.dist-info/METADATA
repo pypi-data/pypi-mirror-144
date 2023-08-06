@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: PyNAS
+Version: 3.2.2
+Summary: Python NAS, Based On Updog.
+Home-page: http://wufan.fun/
+Author: Fan Wu
+Author-email: issues@wufan.fun
+License: UNKNOWN
+Project-URL: Source Code, https://gitee.com/shwufan/nas/
+Keywords: NAS Netdisk Flask Login ConfFile
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Requires-Dist: click (==8.1.0)
+Requires-Dist: colorama (==0.4.4)
+Requires-Dist: Flask (==2.1.0)
+Requires-Dist: Flask-Login (==0.5.0)
+Requires-Dist: Flask-WTF (==1.0.0)
+Requires-Dist: itsdangerous (==2.1.2)
+Requires-Dist: Jinja2 (==3.1.1)
+Requires-Dist: MarkupSafe (==2.1.1)
+Requires-Dist: Werkzeug (==2.0.3)
+Requires-Dist: WTForms (==3.0.1)
+
+UNKNOWN
+
