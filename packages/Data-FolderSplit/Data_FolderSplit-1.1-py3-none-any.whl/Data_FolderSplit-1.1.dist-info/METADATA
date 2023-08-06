@@ -1,0 +1,59 @@
+Metadata-Version: 2.1
+Name: Data-FolderSplit
+Version: 1.1
+Summary: Returns folder and sub folders from the data table in csv. Basically a decision tree with folders.
+Home-page: https://www.linkedin.com/in/abhishek-venkatachalam-62121049/
+Author: Abhishek Venkatachalam
+Author-email: abhishek.venkatachalam06@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+<h1>Data_FolderSplit</h1>   
+_____________________________________________  
+
+Segregate the data table in a csv file into folders containing sub folders of sliced/ segmented data for a physical representation of a decision tree.
+
+
+_____________________________________________
+
+<h2>Instructions.</h2>  
+
+To install the package, perform:  
+
+```python
+pip install Data_FolderSplit
+```
+ 
+How to use the methods:  
+
+<h3>1. To create the folder structure:  </h3>
+
+```python
+#Importing Library.
+import Data_FolderSplit as DFS
+
+# filepath -> File path for the csv.
+# max_uniques -> Max uniques allowed.
+# output_folderpath -> Folder within which sub folders will be formed.
+
+#For example:
+filepath = r'D:\Everything\is\BS\Datasheet1.csv'
+max_uniques = 4
+parent_folder = r'D:\ChesterBennington\is\a\Legend'
+
+
+#To create the folders with sub folders.
+using_maxUniques(filepath, max_uniques, output_folderpath)
+```
+
+
+_____________________________________________
+
+<h3>Have fun. :-) </h3>
+
