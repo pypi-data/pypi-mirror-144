@@ -1,0 +1,33 @@
+# PyPl8
+
+Image analysis package for segmenting images of microbial communities and extracting quantitative features automatically. 
+
+## Background
+This package makes use of the cv2 and sci-kit image libraries for image processing. 
+
+It was developed in the Dudley lab at Pacific Northwest Research Institute and is currently most useful for analyzing images of rectangularly arrayed
+patches/colonies on agar plates photographed against a dark background.
+
+## Organization
+
+* **PyPl8.BarcodeMethods** contains the function `Rename()` which can be used to rename a folder of images based on the barcode visible in each image if an excel spreadsheet 
+relating barcode numbers to relevant plate information is provided in the current working directory. Barcodes are detected using pyzbar. 
+See their documentation for a list of recognizable barcode styles. 
+
+* **PyPl8.PreprocessingMethods** contains functions used to crop each image to relevant areas of interest prior to segmentation. 
+
+* **ProcessImages.py** contains the main functions for processing a single image, `ProcessImage()`, or a batch of images, `ProcessBatch()` and `ParallelProcessBatch()`.
+
+* There are several example images included in the package which can be used to test out the functions provided. These images are `Funnel()`, `PSAT1()`, and `OTC()`.
+There is only one test function provided, `ProcessImageTest()`, which can be used to process images already loaded into the workspace as arrays. 
+
+* To check which version of PyPl8 you have installed run
+
+    import PyPl8
+    PyPl8.__version__
+
+## Examples
+
+For more detailed documentation and to see examples of how to use these functions, visit the PyPl8 github page. 
+
+
