@@ -1,0 +1,66 @@
+Metadata-Version: 2.1
+Name: jira-freeplane
+Version: 1.0.7
+Summary: Make JIRA Epics, Tasks, and Sub-tasks via a freeplane mindmap
+Home-page: https://github.com/shollingsworth/jira-freeplane
+License: MIT
+Keywords: jira,freeplane,mindmap,mindmapping
+Author: Stevo
+Author-email: hollingsworth.stevend@gmail.com
+Maintainer: Stevo
+Maintainer-email: hollingsworth.stevend@gmail.com
+Requires-Python: >=3.8,<4
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: PyYAML (>=5.4.1,<7)
+Requires-Dist: jira (>=3.1.1,<4)
+Requires-Dist: untangle (>=1.1.1,<2)
+Requires-Dist: urllib3 (>=1.26.5,<2)
+Project-URL: Repository, https://github.com/shollingsworth/jira-freeplane
+Description-Content-Type: text/x-rst
+
+JIRA Freeplane issue creator
+=============================
+
+.. contents:: Page Contents
+
+.. image:: http://unmaintained.tech/badge.svg
+  :target: http://unmaintained.tech
+  :alt: No Maintenance Intended
+
+
+Long Description
+
+
+Installation
+------------
+
+.. code:: bash
+
+    pip install jira_freeplane
+
+
+Contribute
+----------
+
+- Issue Tracker: github.com/shollingsworth/$project/issues
+- Source Code: github.com/shollingsworth/$project
+
+Support
+-------
+
+Unfortunately, there is no support for this project. We do welcome
+contributions and pull requests though!
+
+
+License
+-------
+
+The project is licensed under the MIT license.
+see `LICENSE <https://github.com/shollingsworth/jira-freeplane/blob/main/LICENSE.txt>`_
+
