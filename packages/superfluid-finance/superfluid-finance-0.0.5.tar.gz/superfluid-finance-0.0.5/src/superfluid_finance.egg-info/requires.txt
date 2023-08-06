@@ -1,0 +1,6 @@
+eth-brownie
+web3
+
+[dev]
+pytest>=3.7
+python>=3
