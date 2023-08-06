@@ -1,0 +1,4 @@
+protobuf>=3.19.0
+grpcio>=1.43.0
+pyyaml>=6.0
+psutil>=5.9.0
