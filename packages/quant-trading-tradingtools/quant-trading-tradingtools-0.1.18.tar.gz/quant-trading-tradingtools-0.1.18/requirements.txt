@@ -1,0 +1,6 @@
+ccxt~=1.51.51
+pandas~=1.2.4
+pytz~=2021.1
+requests~=2.25.1
+tqdm~=4.61.1
+websockets~=9.1
