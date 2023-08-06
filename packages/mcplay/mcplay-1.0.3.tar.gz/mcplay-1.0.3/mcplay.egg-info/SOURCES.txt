@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+mcplay/play.py
+mcplay.egg-info/PKG-INFO
+mcplay.egg-info/SOURCES.txt
+mcplay.egg-info/dependency_links.txt
+mcplay.egg-info/entry_points.txt
+mcplay.egg-info/top_level.txt
