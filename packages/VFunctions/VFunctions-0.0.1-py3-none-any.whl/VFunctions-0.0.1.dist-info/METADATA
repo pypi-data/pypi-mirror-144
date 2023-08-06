@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: VFunctions
+Version: 0.0.1
+Summary: Some things that will make my work easier
+Author: sonkraft1
+Author-email: <skraft2727@gmail.com>
+License: UNKNOWN
+Keywords: python,video,stream,video stream,camera stream,sockets
+Platform: UNKNOWN
+Requires-Dist: shutil
+Requires-Dist: os
+Requires-Dist: tkinter
+Requires-Dist: webbrowser
+Requires-Dist: pygame
+Requires-Dist: pygame.camera
+Requires-Dist: selenium
+Requires-Dist: webdriver-manager.chrome
+Requires-Dist: time
+Requires-Dist: smtplib
+Requires-Dist: email.message
+Requires-Dist: imghdr
+Requires-Dist: playsound
+Requires-Dist: google-drive-downloader
+Requires-Dist: ctypes
+Requires-Dist: socket
+Requires-Dist: glob
+Requires-Dist: geocoder
+Requires-Dist: datetime
+Requires-Dist: pathlib
+
+UNKNOWN
+
