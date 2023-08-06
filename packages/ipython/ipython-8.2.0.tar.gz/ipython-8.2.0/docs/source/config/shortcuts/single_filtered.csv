@@ -1,0 +1,1 @@
+:kbd:`c-\\`	Always	On platforms that support SIGQUIT, send SIGQUIT to the current process
