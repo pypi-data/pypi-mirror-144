@@ -1,0 +1,3 @@
+[console_scripts]
+tenai = tenai.core:main
+
