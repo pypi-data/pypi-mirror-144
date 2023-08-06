@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/url_crawler/__init__.py
+src/url_crawler/url_crawler.py
+src/url_crawler.egg-info/PKG-INFO
+src/url_crawler.egg-info/SOURCES.txt
+src/url_crawler.egg-info/dependency_links.txt
+src/url_crawler.egg-info/top_level.txt
