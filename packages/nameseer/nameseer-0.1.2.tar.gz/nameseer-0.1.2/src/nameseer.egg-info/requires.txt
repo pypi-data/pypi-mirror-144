@@ -1,0 +1,4 @@
+abydos
+scikit-learn
+nltk
+pythainlp
