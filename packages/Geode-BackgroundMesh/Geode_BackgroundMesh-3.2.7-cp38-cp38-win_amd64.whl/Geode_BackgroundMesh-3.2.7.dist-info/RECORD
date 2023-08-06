@@ -1,0 +1,12 @@
+geode_backgroundmesh/Geode-BackgroundMesh_2d.dll,sha256=e8SsxE4DRM41qqcUtY8sULaT4g96W8c21gvVfwL7nBg,2167296
+geode_backgroundmesh/Geode-BackgroundMesh_3d.dll,sha256=YCp_aIpiVgaXeM-FJn7tWbrXesaprRc0D8wvmIRPh5g,2225664
+geode_backgroundmesh/Geode-BackgroundMesh_common.dll,sha256=MMnveHn2MSDD4WgBJIlfIXDmM-xPOe5XTTpiFJmYDZU,2172416
+geode_backgroundmesh/__init__.py,sha256=HNRnkD-jrGipsfElUmDn6JEP5A3hCG7Se-P0Wy-DwNQ,100
+geode_backgroundmesh/bmesh_2d.py,sha256=2k08tpsYgc5iiqRX5YCTSTFP0SuJ36zLHBvMKPqQZcg,254
+geode_backgroundmesh/geode_backgroundmesh_py_bmesh_2d.cp38-win_amd64.pyd,sha256=dt4byXHeayHYzNMjwxC41UeC4-7wF0zOqAT-aCHmAKI,109056
+geode_backgroundmesh/geode_backgroundmesh_py_bmesh_3d.cp38-win_amd64.pyd,sha256=UhtZ2iK6ngTE0R_Fx2h9m1j3A92MSHheeyvo2NoJviE,109056
+geode_backgroundmesh/geode_backgroundmesh_py_bmesh_common.cp38-win_amd64.pyd,sha256=UmrIOojd1zwPJIEXhTa9nFgJqq7NpSCkqM3MUGeaV78,109056
+Geode_BackgroundMesh-3.2.7.dist-info/METADATA,sha256=iyvE9F9CjiYoLlPTVMtfx9HUezkGUymFwYfZpOU1NKE,1136
+Geode_BackgroundMesh-3.2.7.dist-info/WHEEL,sha256=M2GQ3lde8oJhlQPj2wbRvnqE3cuovPJasri5X5aCmck,100
+Geode_BackgroundMesh-3.2.7.dist-info/top_level.txt,sha256=9Q4O4OZTCc1Fs9idU1MES8AUrXq-18vIoLZqi-17_tc,21
+Geode_BackgroundMesh-3.2.7.dist-info/RECORD,,
