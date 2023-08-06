@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+coding_parse.egg-info/PKG-INFO
+coding_parse.egg-info/SOURCES.txt
+coding_parse.egg-info/dependency_links.txt
+coding_parse.egg-info/entry_points.txt
+coding_parse.egg-info/not-zip-safe
+coding_parse.egg-info/requires.txt
+coding_parse.egg-info/top_level.txt
