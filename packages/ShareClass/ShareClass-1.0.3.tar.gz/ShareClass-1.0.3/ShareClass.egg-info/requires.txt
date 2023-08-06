@@ -1,0 +1,4 @@
+requests
+Pillow
+paramiko
+bs4
