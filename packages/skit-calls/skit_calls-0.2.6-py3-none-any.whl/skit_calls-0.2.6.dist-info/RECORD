@@ -1,0 +1,14 @@
+skit_calls/__init__.py,sha256=Oz5HbwHMyE87nmwV80AZzpkJPf-wBg7eDuJr_BXZkhU,22
+skit_calls/calls.py,sha256=m3MR99NJkNRfj3Tv6ZUQ3pFVPd8Ug7W22fboRpkKOGc,4277
+skit_calls/cli.py,sha256=0-7I1gQTFESww6vi_6gEm69DSZJkDfgAUmEsrNvOILE,6473
+skit_calls/constants.py,sha256=oM7M5sWeGC1Y15KrSsRx5lqxkWfJUoLVLKwbMNMIQP4,3647
+skit_calls/data/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+skit_calls/data/db.py,sha256=cHZz9-TLW31xDV0ctetjgNFtOkFZqVxZ2GNGLPeul0s,1025
+skit_calls/data/model.py,sha256=H37cTMchAbCqc48LLqL41Vzg5UpjpwQUJSHlFEGI_f0,5549
+skit_calls/data/query.py,sha256=uiolfMbRsyruEx_JyHnh1nwth7dR_cL98hDYCPwXg6U,3076
+skit_calls/utils.py,sha256=iUjrwKgvS1nwKlJsOoQlMC0RQxQQY_fk1QsrEeKUUK0,1857
+skit_calls-0.2.6.dist-info/entry_points.txt,sha256=-6Rn-wAbTOzCvCaqkCpRjeOcVBvzrCdLdZVsAXcqRVE,50
+skit_calls-0.2.6.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+skit_calls-0.2.6.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+skit_calls-0.2.6.dist-info/METADATA,sha256=x_xR9HFjJfH7TNh3coKoE2DlCokyohEKUmHrQ39oKvc,901
+skit_calls-0.2.6.dist-info/RECORD,,
