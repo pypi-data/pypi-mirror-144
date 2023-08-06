@@ -1,0 +1,6 @@
+setup.py
+smart_r2sql.egg-info/PKG-INFO
+smart_r2sql.egg-info/SOURCES.txt
+smart_r2sql.egg-info/dependency_links.txt
+smart_r2sql.egg-info/requires.txt
+smart_r2sql.egg-info/top_level.txt
