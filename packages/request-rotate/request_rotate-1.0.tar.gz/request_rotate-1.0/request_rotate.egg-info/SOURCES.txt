@@ -1,0 +1,8 @@
+setup.py
+request_rotate/__init__.py
+request_rotate/wrapper.py
+request_rotate.egg-info/PKG-INFO
+request_rotate.egg-info/SOURCES.txt
+request_rotate.egg-info/dependency_links.txt
+request_rotate.egg-info/requires.txt
+request_rotate.egg-info/top_level.txt
