@@ -1,0 +1,23 @@
+
+[:python_version < "3.9"]
+astunparse
+
+[dev]
+bump2version
+coverage[toml]
+prospector[with_pyroma]
+isort
+pytest
+pytest-cov
+tox
+
+[docs]
+sphinx
+sphinx_rtd_theme
+sphinx-autoapi
+myst_parser
+
+[publishing]
+build
+twine
+wheel
