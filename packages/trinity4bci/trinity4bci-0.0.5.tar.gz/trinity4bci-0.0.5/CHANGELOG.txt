@@ -1,0 +1,25 @@
+Change Log
+==========
+
+0.0.1 (3/25/2022)
+-----------------
+- Initial Release
+
+0.0.2 (3/25/2022)
+-----------------
+- Updated file imports
+
+0.0.4 (3/26/2022)
+-----------------
+- Updated file imports and fixed gnome call bug
+- Note: Does not work for windows environments yet
+- to run a basic demo, use:
+    from trinity4bci import master
+    master.RUN()
+
+0.0.5 (3/26/2022)
+-------------------
+- Updated typo in LR() where client is never opened
+- to run a basic demo, use:
+    from trinity4bci import master
+    master.RUN()
