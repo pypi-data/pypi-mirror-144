@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+sapero_math/__init__.py
+sapero_math/chebyshev.py
+sapero_math/lcm.py
+sapero_math/primegen.py
+sapero_math.egg-info/PKG-INFO
+sapero_math.egg-info/SOURCES.txt
+sapero_math.egg-info/dependency_links.txt
+sapero_math.egg-info/top_level.txt
