@@ -1,0 +1,7 @@
+numpy
+Cython
+future
+Pillow
+opencv-python
+PyInstaller
+Cython
