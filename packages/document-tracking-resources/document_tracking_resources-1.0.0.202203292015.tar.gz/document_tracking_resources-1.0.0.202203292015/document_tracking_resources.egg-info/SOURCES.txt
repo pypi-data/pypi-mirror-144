@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+requirements.txt
+setup.cfg
+setup.py
+document_tracking_resources/__init__.py
+document_tracking_resources/corpus.py
+document_tracking_resources/documents.py
+document_tracking_resources.egg-info/PKG-INFO
+document_tracking_resources.egg-info/SOURCES.txt
+document_tracking_resources.egg-info/dependency_links.txt
+document_tracking_resources.egg-info/requires.txt
+document_tracking_resources.egg-info/top_level.txt
