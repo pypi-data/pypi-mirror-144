@@ -1,0 +1,3 @@
+[console_scripts]
+gbkviz_webapp=gbkviz.scripts.launch_gbkviz_webapp:main
+
