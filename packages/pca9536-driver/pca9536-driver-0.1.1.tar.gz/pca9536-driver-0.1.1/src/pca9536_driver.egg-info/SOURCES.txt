@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/pca9536/__init__.py
+src/pca9536/pca9536.py
+src/pca9536_driver.egg-info/PKG-INFO
+src/pca9536_driver.egg-info/SOURCES.txt
+src/pca9536_driver.egg-info/dependency_links.txt
+src/pca9536_driver.egg-info/requires.txt
+src/pca9536_driver.egg-info/top_level.txt
+src/pca9536_driver.egg-info/zip-safe
