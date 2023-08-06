@@ -1,0 +1,2 @@
+[console_scripts]
+ngflask = ngflask.flask_ngrok:main
