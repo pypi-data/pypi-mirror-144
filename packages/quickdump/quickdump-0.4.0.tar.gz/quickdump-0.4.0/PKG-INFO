@@ -1,0 +1,68 @@
+Metadata-Version: 2.1
+Name: quickdump
+Version: 0.4.0
+Summary: Quickly store arbitrary Python objects in unique files.
+Home-page: https://github.com/pedrovhb/quickdump
+License: MIT
+Keywords: quickdump,dump,serialize,store
+Author: Pedro Batista
+Author-email: pedrovhb@gmail.com
+Requires-Python: >=3.7,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: cloudpickle (>=2.0.0,<3.0.0)
+Requires-Dist: lz4 (>=4.0.0,<5.0.0)
+Requires-Dist: multidict (>=6.0.2,<7.0.0)
+Requires-Dist: starlette[server] (>=0.19.0,<0.20.0)
+Requires-Dist: structlog (>=21.5.0,<22.0.0)
+Requires-Dist: uvicorn[server] (>=0.17.6,<0.18.0)
+Project-URL: Repository, https://github.com/pedrovhb/quickdump
+Description-Content-Type: text/markdown
+
+# quickdump
+
+Quickly store arbitrary Python objects in unique files.
+
+*Library status - this is an experimental work in progress that hasn't been
+battle-tested at all. The API may change often between versions, and you may
+lose all your data.*
+
+---
+
+### Features
+
+- Store arbitrary objects with `cloudpickle` locally
+- No config or boilerplate required
+- Dump from TCP server
+- Dump from HTTP server
+
+### Notes
+(todo - rewrite this in a coherent manner)
+
+  - If an object from a library is dumped, the Python interpreter (or virtual
+    environment) must have the library installed.
+  - Currently, compression is applied per call to `dump`. This isn't very efficient.
+  - Labels are slugified to prevent errors from invalid characters in the filename.
+
+---
+```python
+from quickdump import QuickDumper, iter_dumps
+
+if __name__ == "__main__":
+    qd = QuickDumper("some_label")
+    test_size = 1000
+    qd(*[("one", "two", i) for i in range(test_size)])
+
+    # In a separate run...
+    
+    for obj in iter_dumps("some_label"):
+        print(obj)
+    # or:
+    for obj in qd.iter_dumps():
+        print(obj)
+```
+
