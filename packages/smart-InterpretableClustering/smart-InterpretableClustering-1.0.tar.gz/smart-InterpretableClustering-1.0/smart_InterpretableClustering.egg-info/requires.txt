@@ -1,0 +1,8 @@
+TensorFlow==1.11.0
+dgl-cu101
+dynamicgem
+keras==2.2.4
+networkx
+numpy>=1.15.3
+scipy
+sklearn
