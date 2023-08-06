@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/spx17979/__init__.py
+src/spx17979/py.typed
+src/spx17979/spx17979.py
+src/spx17979_driver.egg-info/PKG-INFO
+src/spx17979_driver.egg-info/SOURCES.txt
+src/spx17979_driver.egg-info/dependency_links.txt
+src/spx17979_driver.egg-info/requires.txt
+src/spx17979_driver.egg-info/top_level.txt
+src/spx17979_driver.egg-info/zip-safe
