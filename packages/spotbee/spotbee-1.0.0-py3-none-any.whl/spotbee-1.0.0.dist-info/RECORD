@@ -1,0 +1,6 @@
+spotbee/__init__.py,sha256=6BsaFihsxVRtKbKGfMxSyw0LPL3p7PLxJerAHkHXm0E,969
+spotbee/spotify.py,sha256=leSQbY9_PmMS1nhg8ILzYEFSwrO5HcehlYJaZsuMFi8,1630
+spotbee/ytsearch.py,sha256=opAT5FF2neYrR_7bsoINSmqDDXC2cZE0AeCwq9MwxhA,2800
+spotbee-1.0.0.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+spotbee-1.0.0.dist-info/METADATA,sha256=d1tAnAnPEgeoVdYg0mU2cZd_mz3YElND1yb5JCjFeWw,1148
+spotbee-1.0.0.dist-info/RECORD,,
