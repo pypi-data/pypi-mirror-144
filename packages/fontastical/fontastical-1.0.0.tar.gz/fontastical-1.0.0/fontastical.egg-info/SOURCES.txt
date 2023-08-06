@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+fontastical/__init__.py
+fontastical.egg-info/PKG-INFO
+fontastical.egg-info/SOURCES.txt
+fontastical.egg-info/dependency_links.txt
+fontastical.egg-info/top_level.txt
