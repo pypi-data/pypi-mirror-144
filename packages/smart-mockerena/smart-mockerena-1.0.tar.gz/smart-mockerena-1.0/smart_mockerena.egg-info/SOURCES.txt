@@ -1,0 +1,6 @@
+setup.py
+smart_mockerena.egg-info/PKG-INFO
+smart_mockerena.egg-info/SOURCES.txt
+smart_mockerena.egg-info/dependency_links.txt
+smart_mockerena.egg-info/requires.txt
+smart_mockerena.egg-info/top_level.txt
