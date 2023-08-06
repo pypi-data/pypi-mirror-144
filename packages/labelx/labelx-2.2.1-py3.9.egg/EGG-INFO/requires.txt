@@ -1,0 +1,4 @@
+Click>=8.04
+requests>=2.27.1
+colorama>=0.4.4
+pyyaml>=6.0.0
