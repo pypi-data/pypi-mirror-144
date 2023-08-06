@@ -1,0 +1,8 @@
+attrs>=21
+numpy
+vector
+networkx
+pyhepmc_ng
+h5py
+pandas
+typicle
