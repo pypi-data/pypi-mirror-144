@@ -1,0 +1,14 @@
+numpy
+scipy
+matplotlib
+h5py
+numba
+dask
+dask-jobqueue
+dask-kubernetes
+torch>=1.7.0
+
+[cuda]
+cupy>=8.0
+gputil
+cusignal
