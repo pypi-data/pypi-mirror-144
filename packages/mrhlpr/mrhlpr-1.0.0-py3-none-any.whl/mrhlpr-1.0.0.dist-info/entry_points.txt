@@ -1,0 +1,3 @@
+[console_scripts]
+mrhlpr = mrhlpr.frontend:main
+mrtest = mrtest.frontend:main
