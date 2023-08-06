@@ -1,0 +1,13 @@
+LICENSE.txt
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+sssdldapauth/__init__.py
+sssdldapauth/deobfuscate.py
+sssdldapauth/py.typed
+sssdldapauth.egg-info/PKG-INFO
+sssdldapauth.egg-info/SOURCES.txt
+sssdldapauth.egg-info/dependency_links.txt
+sssdldapauth.egg-info/requires.txt
+sssdldapauth.egg-info/top_level.txt
