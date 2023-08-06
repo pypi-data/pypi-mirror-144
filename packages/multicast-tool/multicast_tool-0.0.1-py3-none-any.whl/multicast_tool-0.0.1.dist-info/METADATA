@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: multicast-tool
+Version: 0.0.1
+Summary: Multicast Sender and Receiver
+Home-page: https://github.com/barryCrunch/multicast-tool
+Author: Michael Barry
+Author-email: mbarry@packetdriving.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/barryCrunch/multicast-tool/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8.2
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Multicast-Tool
+A small multicast tool that can be used to test communication. It has the ability to both send and receive data
+
+## Receive Data
+
+## Send Data
+
+
+
+
