@@ -1,0 +1,15 @@
+.gitignore
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/smms/__init__.py
+src/smms/smms.py
+src/smms/utils.py
+src/smms_cascades.egg-info/PKG-INFO
+src/smms_cascades.egg-info/SOURCES.txt
+src/smms_cascades.egg-info/dependency_links.txt
+src/smms_cascades.egg-info/entry_points.txt
+src/smms_cascades.egg-info/top_level.txt
+tests/avatar.jpeg
+tests/avatar.png
