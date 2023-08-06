@@ -1,0 +1,3 @@
+[console_scripts]
+pqon=pqon.cli:entry
+

@@ -1,0 +1,8 @@
+pqon/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pqon/cli.py,sha256=61QvUuLDY9EQ-pR66aK9jem7yNlrnKtsX_Yd2h5BT1A,1633
+pqon/parser.py,sha256=4QcCcmVQyhNxppQ3nBvbBnkrun4L_Cuxej0mlRDanqg,6270
+pqon-0.0.1.dist-info/entry_points.txt,sha256=-pVLwjmCEy0Wc5G4CX2orkHeALY7MCuazo6_flnGi2s,39
+pqon-0.0.1.dist-info/LICENSE,sha256=m7YgU-ELOf8ZId2auyWWe1TJibkPKyYt5y-UL9xjOHk,1074
+pqon-0.0.1.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+pqon-0.0.1.dist-info/METADATA,sha256=XRFg7-lrRaA-37rGM0qMa-8NLQSquyzdfTjxnrik9PI,547
+pqon-0.0.1.dist-info/RECORD,,
