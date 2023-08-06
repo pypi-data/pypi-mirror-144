@@ -1,0 +1,10 @@
+LICENSE.txt
+README.md
+pyproject.toml
+setup.py
+src/swift_module_copiseded.egg-info/PKG-INFO
+src/swift_module_copiseded.egg-info/SOURCES.txt
+src/swift_module_copiseded.egg-info/dependency_links.txt
+src/swift_module_copiseded.egg-info/top_level.txt
+src/swift_package/__init__.py
+src/swift_package/swift.py
