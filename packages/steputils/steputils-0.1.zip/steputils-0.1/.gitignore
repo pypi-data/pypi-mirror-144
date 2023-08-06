@@ -1,0 +1,15 @@
+.tox
+.cache
+.eggs
+.pytest_cache
+.vscode
+build/*
+dist/*
+.idea/*
+/src/steputils.egg-info/*
+data/p21examples/*/*.stp
+data/p21examples/*/*.ifc
+docs/build/*
+__pycache__
+*.bat
+tox.ini
