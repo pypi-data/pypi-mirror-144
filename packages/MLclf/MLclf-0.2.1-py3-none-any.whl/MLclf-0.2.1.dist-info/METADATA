@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: MLclf
+Version: 0.2.1
+Summary: mini-imagenet dataset transformed to fit classification task.
+Home-page: https://github.com/tiger2017/mlclf
+Author: Daniel Cao
+Author-email: supercxman@gmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering
+Classifier: Operating System :: MacOS
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: torch
+
+## The project Machine Learning CLassiFication (MLclf) 
+### The project is to transform the mini-imagenet dataset which is initially created for the few-shot learning (other dataset will come soon...) to the format that fit the classification task.
+
+### The transformed dataset is divided into train, validation and test dataset, each dataset of which includes 100 classes.
+
+##
+
+##### How to use this package:
+
+```python
+from MLclf import MLclf
+# Download the original mini-imagenet data:
+MLclf.miniimagenet_download(Download=True)
+# transform the original data into the format that fits the task for classification.
+train_dataset, validation_dataset, test_dataset = MLclf.miniimagenet_clf_dataset(ratio_train=0.6, ratio_val=0.2, seed_value=None, shuffle=True, save_clf_data=True)
+```
+
