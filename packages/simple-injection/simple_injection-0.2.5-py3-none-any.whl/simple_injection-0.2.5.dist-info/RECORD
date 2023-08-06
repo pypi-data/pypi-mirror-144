@@ -1,0 +1,16 @@
+simple_injection/__init__.py,sha256=qNXssze6QUPG4q9HpoCyztZx8f0t34_TIhF_2I8zwFg,72
+simple_injection/service_collection.py,sha256=KRjp9SVKFVHLGAyGdGduWH5k0KiTnjho9fn-yaizjSM,12727
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/classes.py,sha256=QsZR85Z3GnOA7Lm7B2Bk7Qg30UTGXGX-DWmXkvHDYvs,999
+tests/test_auto_resolve.py,sha256=w4zZYcWZZsHZKp9WEaJxYCgdd-0zk9YygpwdYnanPrA,208
+tests/test_exceptions.py,sha256=25OCKZZp1Ky2z8XFqGtZKPYeUG1p3XUha3KyrRgIfJ4,624
+tests/test_instance.py,sha256=ts_B0pEUSDtHA7phAIGEEnaHIQSYDCNnYRaSEAanUyg,1406
+tests/test_optional.py,sha256=oL9O50pO5ihViaZ7Xyx6sYnuOZsS_KFjz9uTIhwpUjQ,1330
+tests/test_run_function.py,sha256=VUhAqeXCiQhFlyEOytTxdK3B2t2MNKbj-3WxMRFYchw,305
+tests/test_singleton.py,sha256=imMDI2bCXvIGWEJOZPM2Qef9nqFyJxyXaFAb7B-Mgbk,1979
+tests/test_transient.py,sha256=MfPaZNXGw9N5lRi8IaRzipOZj6DieOPB10THxDyG8YM,1805
+simple_injection-0.2.5.dist-info/LICENSE,sha256=kXaBu25offK0UswlsQaqsmiJPDAzueoHYz7jO5QlfII,1079
+simple_injection-0.2.5.dist-info/METADATA,sha256=FJ87ujPZK0bS2R8xMNUDWtEdHFYxxDzIVlNQhe2P5ZE,4428
+simple_injection-0.2.5.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+simple_injection-0.2.5.dist-info/top_level.txt,sha256=0JFnETQb56H8AbbEOn97gJRq0uddKzoOVCJzFl4pOjs,23
+simple_injection-0.2.5.dist-info/RECORD,,
