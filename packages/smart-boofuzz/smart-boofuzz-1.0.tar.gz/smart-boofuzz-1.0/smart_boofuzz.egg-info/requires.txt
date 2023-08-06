@@ -1,0 +1,10 @@
+Flask~=1.0
+attrs
+click
+colorama
+future
+impacket
+psutil
+pydot
+pyserial
+tornado~=4.0
