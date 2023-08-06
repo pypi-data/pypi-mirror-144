@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: showmemutil
+Version: 0.1.1
+Summary: Show memory utilization in the terminal (sort of like htop)
+Home-page: https://github.com/vhxs/showmemutil
+License: MIT
+Author: Vikram Saraph
+Author-email: vikram.saraph.22@gmail.com
+Requires-Python: >=3.9,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: colorama (>=0.4.4,<0.5.0)
+Requires-Dist: psutil (>=5.9.0,<6.0.0)
+Project-URL: Repository, https://github.com/vhxs/showmemutil
+Description-Content-Type: text/markdown
+
+This is me simultaneously learning how to use Poetry and how to publish a Python package to PyPI.
+
+# Installation
+`pip install showmemutil`
+
