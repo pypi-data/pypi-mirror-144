@@ -1,0 +1,2 @@
+scrapy==2.5.0
+twisted==21.2.0
