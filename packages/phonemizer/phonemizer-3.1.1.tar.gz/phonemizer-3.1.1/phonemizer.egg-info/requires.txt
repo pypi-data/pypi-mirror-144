@@ -1,0 +1,8 @@
+joblib
+segments
+attrs>=18.1
+dlinfo
+typing-extensions
+
+[tests]
+pytest
