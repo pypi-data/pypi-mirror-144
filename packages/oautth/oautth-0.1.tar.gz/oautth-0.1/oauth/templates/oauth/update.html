@@ -1,0 +1,65 @@
+{% extends 'oauth/base-auth.html' %}
+{% load static %}
+{% block title %}Atualizar Perfil{% endblock %}
+{% block container %}
+    <div class="row align-items-center">
+
+        <div class="col-md-4 bg-primary h-100 d-flex views-info">
+            {% include 'oauth/partial/_extra-info-update-page.html' %}
+        </div>
+        <div class="col-md-8 ">
+            <a href="{% url 'oauth:dash' %}">Voltar</a>
+            <div class="form-oauth">
+
+                <form method="POST" action="{% url 'oauth:update-account' %}">
+                    {% csrf_token %}
+                    {% include 'components/messages.html' with alert_shadow=False show_icon=False %}
+                    <div class="mb-3">
+                        {{ form.first_name }}
+                    </div>
+                    <div class="mb-3">
+                        {{ form.last_name }}
+                    </div>
+                    <div class="mb-3">
+                        {{ form.email }}
+                    </div>
+                    <div class="mb-3">
+                        {{ form.password }}
+                    </div>
+                    <div class="mb-3">
+                        {{ form.password2 }}
+                    </div>
+
+                    <div class="mb-3">
+                        {{ info_form.address }}
+                    </div>
+
+                    <div class="mb-3">
+                        {{ info_form.number }}
+                    </div>
+
+                    <div class="mb-3">
+                        {{ info_form.complement }}
+                    </div>
+
+                    <div class="mb-3">
+                        {{ info_form.district }}
+                    </div>
+
+                    <div class="mb-3">
+                        {{ info_form.zip_code }}
+                    </div>
+
+                    <div class="mb-3">
+                        {{ info_form.city }}
+                    </div>
+
+                    <div class="mb-3">
+                        {{ info_form.state }}
+                    </div>
+                    <button type="submit" class="btn btn-primary w-100 text-light">Cadastrar</button>
+                </form>
+            </div>
+        </div>
+    </div>
+{% endblock %}

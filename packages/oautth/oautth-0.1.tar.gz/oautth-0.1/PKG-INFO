@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: oautth
+Version: 0.1
+Summary: App to user login, register and restore password
+Home-page: https://github.com/jarnunes
+Author: Jardel Nunes
+Author-email: jarnunesc@gmail.com
+License: MIT License
+Platform: UNKNOWN
+Classifier: Environment :: Web Environment
+Classifier: Framework :: Django :: 4.0
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.10
+Requires-Python: >=3.10
+License-File: LICENSE
+
+=================
+OAuth
+=================
+
+OAuth is app to register and user login.
+
+Quick start
+-----------
+
+1. Add "oauth" to your INSTALLED_APPS setting like this::
+
+    INSTALLED_APPS = [
+        ...
+        'oauth',
+    ]
+
+
+
