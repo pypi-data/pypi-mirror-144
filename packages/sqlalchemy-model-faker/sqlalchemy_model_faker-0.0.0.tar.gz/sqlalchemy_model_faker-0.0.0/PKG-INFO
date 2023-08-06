@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: sqlalchemy_model_faker
+Version: 0.0.0
+Summary: Generate SQLAlchemy models with fake data
+Home-page: https://github.com/rogervila/sqlalchemy_model_faker
+Download-URL: https://github.com/rogervila/sqlalchemy_model_faker/archive/0.0.0.tar.gz
+Author: Roger Vilà
+Author-email: rogervila@me.com
+License: MIT
+Keywords: package template,project template,pypi template
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
+# SQLAlchemy Model Faker
+
+<p align="center"><img height="150" alt="rogervila/sqlalchemy_model_faker" src="https://rogervila.es/static/img/sqlalchemy_model_faker.png" /></p>
+
+[![Coverage](https://sonarcloud.io/api/project_badges/measure?project=rogervila_sqlalchemy_model_faker&metric=coverage)](https://sonarcloud.io/dashboard?id=rogervila_sqlalchemy_model_faker)
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=rogervila_sqlalchemy_model_faker&metric=alert_status)](https://sonarcloud.io/dashboard?id=rogervila_sqlalchemy_model_faker)
+[![Maintainability Rating](https://sonarcloud.io/api/project_badges/measure?project=rogervila_sqlalchemy_model_faker&metric=sqale_rating)](https://sonarcloud.io/dashboard?id=rogervila_sqlalchemy_model_faker)
+
+Generate SQLAlchemy models with fake data.
+
+> Docs are not yet ready
+
+## License
+
+This project is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
+
