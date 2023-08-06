@@ -1,0 +1,11 @@
+CHANGELOG.txt
+LICENCE.txt
+MANIFEST.in
+README.txt
+setup.py
+viper/__init__.py
+vipercore.egg-info/PKG-INFO
+vipercore.egg-info/SOURCES.txt
+vipercore.egg-info/dependency_links.txt
+vipercore.egg-info/requires.txt
+vipercore.egg-info/top_level.txt

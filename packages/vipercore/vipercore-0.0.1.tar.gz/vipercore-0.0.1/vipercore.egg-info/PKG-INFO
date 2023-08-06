@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: vipercore
+Version: 0.0.1
+Summary: Viper/Sage Apps Dev ENV
+Home-page: UNKNOWN
+Author: Sage
+Author-email: naitikpgupta@gmail.com
+License: MIT
+Keywords: viper pkgs
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+License-File: LICENCE.txt
+
+This is the offical Python3 Viper Module. This module allows the DEV version of all Viper Apps.
+
+Currently, we support Equo. 
+
+Command: viperequo()
+
+Change Log
+==========
+
+0.0.1 (30/3/22)
+---------------
+- First Release
+
