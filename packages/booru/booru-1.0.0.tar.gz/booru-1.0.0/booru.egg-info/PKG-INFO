@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: booru
+Version: 1.0.0
+Summary: Python bindings for Booru imageboards
+Home-page: https://github.com/sinkaroid/booru
+Author: sinkaroid
+Author-email: anakmancasan@gmail.com
+License: MIT
+Description: # Booru
+        WIP
+Keywords: booru
+Platform: UNKNOWN
+Description-Content-Type: text/markdown

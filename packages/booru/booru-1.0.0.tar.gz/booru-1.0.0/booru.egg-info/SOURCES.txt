@@ -1,0 +1,16 @@
+LICENSE
+MANIFEST.in
+README.md
+requirements.txt
+setup.cfg
+setup.py
+booru.egg-info/PKG-INFO
+booru.egg-info/SOURCES.txt
+booru.egg-info/dependency_links.txt
+booru.egg-info/requires.txt
+booru.egg-info/top_level.txt
+scathach/__init__.py
+scathach/dict.py
+scathach/errors.py
+scathach/http.py
+scathach/scathach.py
