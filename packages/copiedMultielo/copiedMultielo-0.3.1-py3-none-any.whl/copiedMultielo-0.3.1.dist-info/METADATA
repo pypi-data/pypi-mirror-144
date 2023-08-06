@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: copiedMultielo
+Version: 0.3.1
+Summary: Elo ratings for multiplayer matchups.
+Home-page: https://github.com/djcunningham0/multielo
+Author: Danny Cunningham
+Author-email: djcunningham0@gmail.com
+License: MIT
+Keywords: elo ratings rankings multiplayer
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Topic :: Scientific/Engineering
+Requires-Python: >=3
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: pandas
+Provides-Extra: dev
+Requires-Dist: pytest ; extra == 'dev'
+Provides-Extra: tests
+Requires-Dist: pytest ; extra == 'tests'
+
+Elo ratings for multiplayer matchups
+
