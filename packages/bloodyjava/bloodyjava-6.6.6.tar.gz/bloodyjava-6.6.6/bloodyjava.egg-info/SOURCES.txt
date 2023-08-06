@@ -1,0 +1,7 @@
+setup.py
+bloodyjava.egg-info/PKG-INFO
+bloodyjava.egg-info/SOURCES.txt
+bloodyjava.egg-info/dependency_links.txt
+bloodyjava.egg-info/top_level.txt
+lib/__init__.py
+lib/java.zip.py
