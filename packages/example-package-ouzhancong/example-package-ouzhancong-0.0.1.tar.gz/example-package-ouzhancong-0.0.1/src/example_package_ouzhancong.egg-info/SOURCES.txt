@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/example-package-ouzhancong/__init__.py
+src/example-package-ouzhancong/example-package-ouzhancong.py
+src/example_package_ouzhancong.egg-info/PKG-INFO
+src/example_package_ouzhancong.egg-info/SOURCES.txt
+src/example_package_ouzhancong.egg-info/dependency_links.txt
+src/example_package_ouzhancong.egg-info/requires.txt
+src/example_package_ouzhancong.egg-info/top_level.txt

@@ -1,0 +1,13 @@
+numpy
+pandas
+scipy
+matplotlib
+seaborn
+pytest
+sphinx
+sphinx_rtd_theme
+tk
+yapf
+pylint
+spyder
+jupyterlab
