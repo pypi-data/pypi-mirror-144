@@ -1,0 +1,13 @@
+PyZohoBooksAPI/__init__.py,sha256=PLV3sF3Y7LfB9eNUgOdFaldQTANl3KzJUFpTXVNRlRA,110
+PyZohoBooksAPI/api/__init__.py,sha256=SwVg2fAtn_vfZLil5_EPczsUQL1DQemftM2GiyoxJ38,20
+PyZohoBooksAPI/api/api.py,sha256=gKcQa7GfMfD2RikZovXrYrhY8H4MPj1tqBrz6Ky8wDk,719
+PyZohoBooksAPI/auth/__init__.py,sha256=76apNewir_GUSwTZkj5j-sLvc1-eQOZ--Nu7PyrMNCo,27
+PyZohoBooksAPI/auth/auth.py,sha256=vPX6Gom7KwuWwfaWUsVkunKeUEhiIVFzKXvSzQ-D5As,1263
+PyZohoBooksAPI/contacts/__init__.py,sha256=36KbTOzVT8y0oBTx0PPOiL1kr53WxifATrxZux7EVpE,31
+PyZohoBooksAPI/contacts/contacts.py,sha256=2xT3L5NKXkjZLrksM8mbssLoEPASPLN3FAokoBby0BU,1580
+PyZohoBooksAPI/invoices/__init__.py,sha256=Uu61lhAhbWWkhqYMVC0VOo2minn5-2zi99pdvvAVyDc,31
+PyZohoBooksAPI/invoices/invoices.py,sha256=INnXtMCXShf3zvyhtnNlJXHADp8rHws4om_LqdSA44Q,984
+PyZohoBooksAPI-0.0.0.dist-info/METADATA,sha256=Ijq8vPbJN9bxsPXGkUK04vayj6fs7by_tfnkK7QN8vI,2470
+PyZohoBooksAPI-0.0.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+PyZohoBooksAPI-0.0.0.dist-info/top_level.txt,sha256=M3vALJa3rKQcd0CA-eJ1ppdQ-ZTs-bQ6XPrJASOMS30,15
+PyZohoBooksAPI-0.0.0.dist-info/RECORD,,
