@@ -1,0 +1,10 @@
+LICENCE
+README.md
+pyproject.toml
+setup.cfg
+src/colourpy/__init__.py
+src/colourpy/colourpy.py
+src/colourpy.egg-info/PKG-INFO
+src/colourpy.egg-info/SOURCES.txt
+src/colourpy.egg-info/dependency_links.txt
+src/colourpy.egg-info/top_level.txt
