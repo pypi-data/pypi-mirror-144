@@ -1,0 +1,4 @@
+json
+nonebot_adapter_onebot
+nonebot_plugin_apscheduler
+requests
