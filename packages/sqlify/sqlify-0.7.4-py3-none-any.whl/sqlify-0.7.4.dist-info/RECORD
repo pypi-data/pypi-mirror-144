@@ -1,0 +1,12 @@
+sqlify/__init__.py,sha256=GvDHE0YC8GdNvSDzvjA8sCdpTOa6Ipv-u7g71AzOFnM,726
+sqlify/builder.py,sha256=REbjzTNWw6myUSvS-IR9e1FntGxHY7PnMLOeuWHPYX4,12594
+sqlify/cli.py,sha256=ZdACxI7akIqhrNm_0XwZNW7bev1lM-F_abs5JX-lUEw,2522
+sqlify/exceptions.py,sha256=kAi0aiZtXKOFj_56avUzkaiFbCk2SguRKHvFE3H19_4,105
+sqlify/migrations.py,sha256=U4l-9Ce8H8kpIJUFVIQmPYMyWmqNpHV_174UG_0aZKQ,5221
+sqlify/operators.py,sha256=EOvkVqNbATx1zcsy51HeD797uc-SIc_Tsdg25oL1zDg,171
+sqlify/session.py,sha256=6GgJvH9rkb4iIUnRvn4kcmy64Edakzo7oT11NSjpa5w,2231
+sqlify/value_objects.py,sha256=v1QcO4k2JcwlZvu6WEBa4V9W0xdp6BtYstQz-zzpx3I,208
+sqlify-0.7.4.dist-info/LICENSE,sha256=0lqypwmUlpSOlCRbo9LiHi2XUDbRY2zzGiuIzeA0xO4,1517
+sqlify-0.7.4.dist-info/WHEEL,sha256=4TfKIB_xu-04bc2iKz6_zFt-gEFEEDU_31HGhqzOCE8,81
+sqlify-0.7.4.dist-info/METADATA,sha256=dAhcTIZQaQWhaZOc9JBY13LhzQUchWiQE7kAts7mcag,10756
+sqlify-0.7.4.dist-info/RECORD,,
