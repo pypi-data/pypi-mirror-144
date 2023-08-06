@@ -1,0 +1,12 @@
+.gitignore
+CHANGELOG.md
+LICENSE
+README.md
+requirements.txt
+setup.py
+src/remove_directory/__init__.py
+src/remove_directory/version.py
+src/remove_directory.egg-info/PKG-INFO
+src/remove_directory.egg-info/SOURCES.txt
+src/remove_directory.egg-info/dependency_links.txt
+src/remove_directory.egg-info/top_level.txt
