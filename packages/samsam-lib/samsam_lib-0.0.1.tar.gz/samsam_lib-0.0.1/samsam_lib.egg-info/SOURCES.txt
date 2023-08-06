@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+samsam_lib/__init__.py
+samsam_lib/compute.py
+samsam_lib/greeting.py
+samsam_lib/util.py
+samsam_lib.egg-info/PKG-INFO
+samsam_lib.egg-info/SOURCES.txt
+samsam_lib.egg-info/dependency_links.txt
+samsam_lib.egg-info/top_level.txt
