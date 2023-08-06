@@ -1,0 +1,23 @@
+name: ndpyramid
+channels:
+  - conda-forge
+  - nodefaults
+dependencies:
+  - esmpy>=8.2.0
+  - dask
+  - netcdf4
+  - numpy
+  - pooch
+  - pytest
+  - pytest-cov
+  - pytest-mypy
+  - rasterio
+  - rioxarray
+  - scipy
+  - xarray
+  - xesmf
+  - zarr
+  - pip
+  - mpich
+  - pip:
+      - xarray-datatree==0.0.3
