@@ -1,0 +1,3 @@
+[console_scripts]
+cvapirisk = cvsvc_apirisk.score.spec_security.cv_apirisk_assessment:main
+cvapiriskserver = cvsvc_apirisk.score.spec_security.cv_apirisk_server:main
