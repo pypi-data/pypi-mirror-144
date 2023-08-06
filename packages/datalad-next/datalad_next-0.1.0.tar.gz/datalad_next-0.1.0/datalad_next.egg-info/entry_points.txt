@@ -1,0 +1,3 @@
+[datalad.extensions]
+next = datalad_next:command_suite
+

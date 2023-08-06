@@ -1,0 +1,5 @@
+datalad>=0.15.6
+
+[devel]
+coverage
+nose
