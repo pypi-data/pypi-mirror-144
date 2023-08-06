@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: nonebot-plugin-params
+Version: 0.1.0
+Summary: 提供协议适配时常用的注入函数
+License: MIT
+Author-email: iyume <iyumelive@gmail.com>
+Requires-Python: >=3.7.3
+Project-URL: Homepage, https://github.com/iyume/nonebot-plugin-params
+Project-URL: repository, https://github.com/iyume/nonebot-plugin-params
+Description-Content-Type: text/markdown
