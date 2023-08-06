@@ -1,0 +1,3 @@
+[console_scripts]
+Xsinfo = Xsinfo.script._standalone_xsinfo:standalone_xsinfo
+

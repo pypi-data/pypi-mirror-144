@@ -1,0 +1,14 @@
+MANIFEST.in
+README.md
+setup.py
+Xsinfo/__init__.py
+Xsinfo/xsinfo.py
+Xsinfo.egg-info/PKG-INFO
+Xsinfo.egg-info/SOURCES.txt
+Xsinfo.egg-info/dependency_links.txt
+Xsinfo.egg-info/entry_points.txt
+Xsinfo.egg-info/requires.txt
+Xsinfo.egg-info/top_level.txt
+Xsinfo/script/__init__.py
+Xsinfo/script/_standalone_xsinfo.py
+Xsinfo/test/snap.txt
