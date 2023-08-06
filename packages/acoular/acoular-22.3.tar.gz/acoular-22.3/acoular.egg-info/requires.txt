@@ -1,0 +1,7 @@
+numba
+numpy<1.22
+setuptools
+scipy>=1.1.0
+scikit-learn
+tables>=3.4.4
+traits>=6.0
