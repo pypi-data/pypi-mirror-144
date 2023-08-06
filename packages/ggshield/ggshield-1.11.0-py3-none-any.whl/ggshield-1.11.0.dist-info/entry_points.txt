@@ -1,0 +1,2 @@
+[console_scripts]
+ggshield = ggshield.cmd:cli_wrapper
