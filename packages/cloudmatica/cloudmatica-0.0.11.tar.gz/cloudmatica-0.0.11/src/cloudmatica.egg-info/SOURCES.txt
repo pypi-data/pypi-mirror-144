@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/cloudmatica/__init__.py
+src/cloudmatica.egg-info/PKG-INFO
+src/cloudmatica.egg-info/SOURCES.txt
+src/cloudmatica.egg-info/dependency_links.txt
+src/cloudmatica.egg-info/entry_points.txt
+src/cloudmatica.egg-info/requires.txt
+src/cloudmatica.egg-info/top_level.txt
