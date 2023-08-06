@@ -1,0 +1,6 @@
+include themesaver/*
+include themesaver/Cli/*
+include themesaver/DesktopEnvironments/*
+include themesaver/WindowManagers/*
+include themesaver/GUI/*
+include themesaver/Misc/*
