@@ -1,0 +1,10 @@
+basewebapi/__init__.py,sha256=EBgG3gqIIJckusNyANiBEzwAxhz_s_MGO2x9OaULfaY,159
+basewebapi/basewebapi.py,sha256=aaD7jNXzUZ2iERUWKc5lipCZn7QWBQD2yyRs2TL6Dvo,4101
+basewebapi/json_objects.py,sha256=96yX-BCGwzwBzwnwNxnU_zf_n8M0yUVwZuN-OLXhmLo,3520
+basewebapi/asyncbasewebapi/__init__.py,sha256=VkXBf4sTsYLltvHwVinHux-lEKT8e5f3XWGHyRgi0_g,115
+basewebapi/asyncbasewebapi/abasewebapi.py,sha256=-oikWcqY4lIEyjwezJmJNQvMDGVq75JxLqh21juTXJ8,6081
+basewebapi-0.4.5.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+basewebapi-0.4.5.dist-info/METADATA,sha256=Xa3MP9tSufMluE-NZ2tQ5Yx5xeabKqIkg2rNMIQvu_E,6145
+basewebapi-0.4.5.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+basewebapi-0.4.5.dist-info/top_level.txt,sha256=9_VIsyPTXjA7uEn_6fP3li7H2afW4J1BhAKOAr7s6qQ,11
+basewebapi-0.4.5.dist-info/RECORD,,
