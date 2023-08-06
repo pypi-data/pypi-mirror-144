@@ -1,0 +1,8 @@
+aim_spacy/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+aim_spacy/displacy_wrapper.py,sha256=3051exzkSpP8AhpVbK8HKEXgzpwbO6nmWnqwU-vdYWc,647
+aim_spacy/handler.py,sha256=WPntXMSuVdp-eE4MpPqVLTBxwQu4eodcsNhObQwAcBc,925
+aim_spacy/utils.py,sha256=JHa1KfUXif_d47_PBIErXdlC_w7U-jkP3-trd2Ym-p8,846
+aim_spacy-0.1.0.dist-info/METADATA,sha256=CHdO9R5ldGiOKFxrV7em5-wZJiFIdpSh9aqxgJs_ogQ,825
+aim_spacy-0.1.0.dist-info/WHEEL,sha256=z9j0xAa_JmUKMpmz72K0ZGALSM_n-wQVmGbleXx2VHg,110
+aim_spacy-0.1.0.dist-info/top_level.txt,sha256=vmd0KLl4I87p-tZPBLfbs8o17xc19gj2NhubcWAuFEE,10
+aim_spacy-0.1.0.dist-info/RECORD,,
