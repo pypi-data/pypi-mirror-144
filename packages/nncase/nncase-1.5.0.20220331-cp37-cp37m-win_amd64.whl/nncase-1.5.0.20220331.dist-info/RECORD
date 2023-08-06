@@ -1,0 +1,15 @@
+_nncase.pyd,sha256=F2ZW-iEbR2AgN1ZnQv8fhjd8BdWoBk93ltzXzNgD-Vc,200192
+nncase.dll,sha256=mHuEfK8_YfUtF5C_e_mdGJfotf4PuIkbRonzwwrAkKA,9180160
+nncase.modules.k210.dll,sha256=D5s1Z3eCVRVinaHP99RS0MTUmbYNVue5d2kq_j0kxVs,195072
+nncase.modules.vulkan.dll,sha256=Zf2Xde4rx6BJ5gUuYtlN109o9Ezr1Cefo8UiAjAcd9Y,4570624
+nncase.targets.cpu.dll,sha256=Lm2GAAi3_GEgppjd9jhWoGxrrGHnJwvDNHdH-PBmXTQ,21504
+nncase.targets.k210.dll,sha256=8ciU7QDwtzFeZ5k2SGMWhYsfhSI_DdnS5XrtVwrj_Y0,58368
+nncase.targets.vulkan.dll,sha256=Zg6QDLHHgLct78AgVka-6OAWxboGsyEYK4Zm4Pf-V90,29184
+nncase/__init__.py,sha256=U1xp4mK9o0FZ9-x3zcpcKoztygNkH9WVoCBREpie0mE,1971
+nncase/base.py,sha256=dxuEdZmNuvtQ4QD90_w4nQ73PmG71FIUTvOoEBHWbnA,86
+nncase/simulator.py,sha256=y5MH41luo4vsXX53mJvI1Ai9aUNYxNdwuDFR-N8vRsk,524
+nncase-1.5.0.20220331.dist-info/LICENSE,sha256=Q4XthD3UklmywdlZeOrOfnTFQOKqmwmrjaHydPY3JAc,11544
+nncase-1.5.0.20220331.dist-info/METADATA,sha256=QBbBI9PT7uDabnduBxNeDcF1lzPrX7Twc6rElE93KRY,3003
+nncase-1.5.0.20220331.dist-info/WHEEL,sha256=-FqDJjo4HrkrIaThvtAYef2eEAn1_QvVe5nINCnUEbQ,101
+nncase-1.5.0.20220331.dist-info/top_level.txt,sha256=S_6nEOnooSRclRzthgIC297bTDVxSghNxQyc_7oNxq4,15
+nncase-1.5.0.20220331.dist-info/RECORD,,
