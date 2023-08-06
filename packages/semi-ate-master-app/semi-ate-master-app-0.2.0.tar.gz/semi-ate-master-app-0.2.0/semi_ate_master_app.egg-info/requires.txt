@@ -1,0 +1,6 @@
+aiohttp==3.7.4
+semi-ate-apps-common==0.2.0
+semi-ate-common==0.2.0
+semi-ate-plugins==0.2.0
+transitions
+xmltodict
