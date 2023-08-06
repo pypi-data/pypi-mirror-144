@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: django-version-viewer
+Version: 2.1.4
+Summary: Django app for viewing python packages and their versions
+Home-page: https://github.com/ImaginaryLandscape/django-version-viewer
+License: MIT
+Author: Imagescape
+Author-email: info@imagescape.com
+Requires-Python: >=3.8,<4.0
+Classifier: Framework :: Django
+Classifier: Framework :: Django :: 1.11
+Classifier: Framework :: Django :: 2.2
+Classifier: Framework :: Django :: 3.0
+Classifier: Framework :: Django :: 3.1
+Classifier: Framework :: Django :: 3.2
+Classifier: Framework :: Django :: 4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
