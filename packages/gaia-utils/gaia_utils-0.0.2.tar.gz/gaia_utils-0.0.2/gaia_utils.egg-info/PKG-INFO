@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: gaia-utils
+Version: 0.0.2
+Summary: gaia utils description
+Home-page: UNKNOWN
+Author: footprint dev
+Author-email: github@footprint.network
+License: MIT
+Description: gaia utils description
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.8.0
+Description-Content-Type: text/markdown
