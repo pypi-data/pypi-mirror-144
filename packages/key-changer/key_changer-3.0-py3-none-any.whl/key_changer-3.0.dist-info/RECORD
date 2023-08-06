@@ -1,0 +1,9 @@
+key_changer/__init__.py,sha256=XU9ZbHk14FJepXEbJhRMwIj6xVkuJKb2ZVQPQ8kfdyg,233
+key_changer/__main__.py,sha256=kJGCqTxOifZDio880XE-esKiTcrbcq5hd5vmgbTanBg,38
+key_changer/key_changer.py,sha256=RXMvascHuV7azPnQ_5s79pi3NFfLUkkWOygKFFW-KHA,2590
+key_changer/keyboard_map.py,sha256=_K1CsBI3Zc5sELhilGeuyfcWPOoRBgGFwThXl51-EMQ,2514
+key_changer-3.0.dist-info/LICENSE,sha256=-S2seF8yPRMitaCwCcGn6lRQTwgODbN7c4mKSvFmf0Y,1068
+key_changer-3.0.dist-info/METADATA,sha256=Q1hWgTmW3r4Zs1MBtWyiL0YzpUpEtA6SIc4wyitw0CY,6041
+key_changer-3.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+key_changer-3.0.dist-info/top_level.txt,sha256=CejqMyGjhm9m2hKfh77kMi33k_85N04g3HXvsMVMRmk,12
+key_changer-3.0.dist-info/RECORD,,
