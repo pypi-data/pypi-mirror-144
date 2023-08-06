@@ -1,0 +1,11 @@
+swh.core[http]>=0.3
+swh.model>=5.0.0
+swh.storage>=1.1.0
+swh.journal>=0.9.0
+
+[testing]
+pytest<7.0.0
+pytest-mock
+pyyaml
+swh.graph
+types-pyyaml
