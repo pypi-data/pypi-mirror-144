@@ -1,0 +1,8 @@
+pytristan/__init__.py,sha256=HY8faUYjOjDmYTh5qTkCvGDkiJgC7p5jdO-W9ty5wPo,20
+pytristan/_manager.py,sha256=YPTE0pphsaKDW3rDUKGVNPz2s0EdW9RcoGWeqWlfl7Q,366
+pytristan/grid.py,sha256=a-AMXt6kZLbCjnVAyjbYZxyArxHqZvEJ-7JO9e6Nw1k,22668
+pytristan-0.2a0.dist-info/LICENSE.txt,sha256=FosdLuDNsyO11mmjp_sZhZaDTzY05owPze1QP4IgQR4,1106
+pytristan-0.2a0.dist-info/METADATA,sha256=olNF2flSlvWxzB8YgS_xfmBllkn9bqDCgBifvv3VjCo,713
+pytristan-0.2a0.dist-info/WHEEL,sha256=z9j0xAa_JmUKMpmz72K0ZGALSM_n-wQVmGbleXx2VHg,110
+pytristan-0.2a0.dist-info/top_level.txt,sha256=hLtarYmvHw21qb-315uB4rBNKHYnkyv2u12uwFWR4u4,10
+pytristan-0.2a0.dist-info/RECORD,,

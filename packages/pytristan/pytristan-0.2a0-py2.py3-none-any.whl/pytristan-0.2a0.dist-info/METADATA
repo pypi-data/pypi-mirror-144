@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: pytristan
+Version: 0.2a0
+Summary: Differential operators in Python
+Home-page: https://github.com/YelyzavetaV/pytristan
+Author: Yelyzaveta Velizhanina and Bernard Knaepen
+Author-email: velizhaninae@gmail.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/YelyzavetaV/pytristan/issues
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+License-File: LICENSE.txt
+Requires-Dist: numpy
+
+UNKNOWN
+
