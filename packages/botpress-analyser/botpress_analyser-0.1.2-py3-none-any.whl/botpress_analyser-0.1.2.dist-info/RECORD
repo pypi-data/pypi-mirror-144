@@ -1,0 +1,11 @@
+nlp_analyser/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+nlp_analyser/analyser.py,sha256=WVM3vE7ru3Vbtm5iJjOGguQ3FmcYchZG2Has8o5fXXo,7640
+nlp_analyser/cli.py,sha256=CeqDZ7SpQ7f0Czyr3kxjc0I3K9x4k-rYgpzal9x14Pc,3071
+nlp_analyser/converter.py,sha256=KFlfAkjb4TZ6CEi-JtqlKK08dNWh52O6AN0M3egMfKM,483
+nlp_analyser/gui.py,sha256=QcJdiHO-SjVnxSjUZLY3LfF6G0DzuPzg9IRZdMe0II8,9648
+nlp_analyser/utils.py,sha256=WersQhAM4AIhHDOASIends1V4ZLqj0OmXUS1QOFQtZ4,1363
+botpress_analyser-0.1.2.dist-info/entry_points.txt,sha256=2DUQ5i2WWM6S65m-7xtueRxxebhb_MQ3trqsJHzxXFY,53
+botpress_analyser-0.1.2.dist-info/LICENSE,sha256=21Lj2q2SYKHMY4768_a3pr3q0jY2VYamAHipoodhMDc,34273
+botpress_analyser-0.1.2.dist-info/WHEEL,sha256=FMw6u7Kp3jrdDDtJRZ3hkPV-9adLQT8pbM4iifKUGfw,85
+botpress_analyser-0.1.2.dist-info/METADATA,sha256=RRIi2yABZWj3XuPKOAV307mH7Qu3VZ2VyLFElkKDmgo,4233
+botpress_analyser-0.1.2.dist-info/RECORD,,
