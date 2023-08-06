@@ -1,0 +1,6 @@
+google
+google-cloud
+google-cloud-secret-manager
+
+[secretmanager]
+google-cloud-secret-manager
