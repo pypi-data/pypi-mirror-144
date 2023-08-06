@@ -1,0 +1,12 @@
+levrt/__init__.py,sha256=l6Kip74hJX_hlchfm7_9mDHBO54NvaM3ruqXhALEEWU,101
+levrt/__init__.pyi,sha256=PaD68r1_QFtmt8WX5J1I1idq87g8R6v1LGArRR9UURo,2125
+levrt/core.cpython-310-darwin.so,sha256=eCQfkS5EF8Mqr8ehqflD8UVA6JEwXZxsd5ENHqItYxQ,476456
+levrt/progress.cpython-310-darwin.so,sha256=tkC__sq54gDLMag-pjtF9ETmTwkrSRUmqFQdF8ssyqY,145984
+levrt/utils.cpython-310-darwin.so,sha256=U1UVA6RJF1kx40Y7IvKMGHimxbBQSBjtc9Yr7QmPgnM,141168
+levrt/annot/__init__.py,sha256=_q-7VMbD5XclEAuhZJt3qeUKXam5ZLiTo1hoI7zob6A,1497
+levrt/annot/cats.py,sha256=4BX1-8JyvMc6jSoeXmjQcl1yO_mFyZF75NwXLrXxSDs,1751
+levrt/annot/core.cpython-310-darwin.so,sha256=XimconjwZvpODjm812_49v3jvLsw1ndRCoBZfyIM1n4,87368
+levrt-1.3.5.dist-info/METADATA,sha256=uPJH51_tczWVgKxRoYsgX_oW9upgsGP8fR-ZIox2N20,318
+levrt-1.3.5.dist-info/WHEEL,sha256=Mp26lirrtUNzLUWsPKBAjl3RVvrCg7YEjI0nue_kNcE,112
+levrt-1.3.5.dist-info/top_level.txt,sha256=DTP7Yu1BTtRceQ8NqRufYujRznq10KprVv_bNtgeKB0,6
+levrt-1.3.5.dist-info/RECORD,,
