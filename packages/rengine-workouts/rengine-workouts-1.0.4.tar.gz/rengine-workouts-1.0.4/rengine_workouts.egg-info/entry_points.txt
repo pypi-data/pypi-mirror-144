@@ -1,0 +1,2 @@
+[console_scripts]
+rengine = rengine.__main__:run
