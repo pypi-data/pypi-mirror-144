@@ -1,0 +1,11 @@
+nographs/__init__.py,sha256=DLPgsojIV_L2BdHIWieXwzPVzSqavf_erLse7Tfw21Y,1077
+nographs/edge_gadgets.py,sha256=K6faMTLDccv_bG2Oapx4JdjyGTZUtwDgzY3dKTa58bc,4978
+nographs/matrix_gadgets.py,sha256=KbpWIpVMw7T8jzUF5f_bWToow57beMQkIX1iMZ3CpGE,11027
+nographs/paths.py,sha256=YHwZdo-KrV740_Bh2pm-HEPT1Ip965l88T-aY9wRic8,8522
+nographs/strategies.py,sha256=wLJe3NWr5jw7pk8a66O-GSZYbYufgr2bHgOQVvyg8FQ,69824
+nographs/types.py,sha256=U0oTgOcfdSIYJsGeZ_NDp6bNEcZUD7RdTaTV_o726kg,429
+nographs-0.0.1.dev3.dist-info/LICENSE,sha256=fznjEzwQ0bwFflp-jW9gcZFUG0JsOndpyx3g2KjGpFk,1085
+nographs-0.0.1.dev3.dist-info/METADATA,sha256=QZqgZ4WOzw2E7J-Ua09v-G7Z0ZOWwYIg9Z-jKk2TSdE,7661
+nographs-0.0.1.dev3.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+nographs-0.0.1.dev3.dist-info/top_level.txt,sha256=smA4apNjLOoPaV263K8fuQqJYrtg1IdJhy6v4wnJtY8,9
+nographs-0.0.1.dev3.dist-info/RECORD,,
