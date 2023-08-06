@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+incase/__init__.py
+incase/__version__.py
+incase/classes.py
+incase/functions.py
+incase.egg-info/PKG-INFO
+incase.egg-info/SOURCES.txt
+incase.egg-info/dependency_links.txt
+incase.egg-info/entry_points.txt
+incase.egg-info/top_level.txt
