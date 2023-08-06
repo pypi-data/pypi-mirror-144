@@ -1,0 +1,20 @@
+CHANGES
+=======
+
+0.7.2
+-----
+
+* add promopt when crashreport output\_directory not provided
+* support list with tabulate
+* fix pull crashreport when directory is /
+* add tidevice crashreport support
+* little change
+* little change
+* Update README.md; use \_sync.rmtree for rm operation; other fixs
+* rm filter param
+* add crash sync command
+* tidevice use local-device first, fix again md\_too\_weak
+* comment set\_ciphers
+* fix #148, socket resource not released error
+* little change
+* add support for #186
