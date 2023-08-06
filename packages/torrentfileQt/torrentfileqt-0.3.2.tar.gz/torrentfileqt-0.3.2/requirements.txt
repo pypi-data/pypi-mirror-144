@@ -1,0 +1,5 @@
+wheel
+setuptools
+torrentfile==0.7.0
+PySide6
+pyben
