@@ -3,36 +3,10 @@
 This repo contains 40000 packages uploaded to PyPI between 
 2022-03-25 17:24 and 2022-04-01 10:01.
 
-The repo is 29% (11953/40000) complete.
+The repo is 34% (13937/40000) complete.
 
-## Packages:
+Package contents can be found [in the code branch](https://github.com/pypi-data/pypi-mirror-144/tree/code/packages).
 
-| Name  | Count |
-| ----- | ----- |
-| notecoin | 210 |
-| SH.py | 154 |
-| goldpy | 128 |
-| symba | 126 |
-| zenroom | 112 |
-| spanishconjugator | 108 |
-| cyluhn | 98 |
-| iminuit | 96 |
-| finlab | 96 |
-| pyagrum-nightly | 90 |
-| kiwisolver | 86 |
-| jetpack-io | 82 |
-| cdktf-cdktf-provider-newrelic | 82 |
-| gco | 79 |
-| pylsqpack | 76 |
-| ypricemagic | 74 |
-| stim | 72 |
-| sabyenc3 | 72 |
-| dependency-injector | 72 |
-| bitarray | 72 |
-| SQLAlchemy | 72 |
-| tf-nightly-cpu | 71 |
-| tf-nightly | 70 |
-| scylla-driver | 66 |
-| pysyd | 66 |
+A browsable package list for all repositories [all packages here](https://pypi-data.github.io/website/repositories/pypi-mirror-144).
 
 
