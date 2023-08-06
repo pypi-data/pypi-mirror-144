@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: pyencrypto
+Version: 1.0
+Summary: Python encryption module to help make the process easier for encryption data and decrypting.
+Home-page: https://github.com/koltenfluckiger/pyencrypto
+Author: Kolten Fluckiger
+Author-email: wrtunder@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.6.8
+
+UNKNOWN
+
