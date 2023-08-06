@@ -1,0 +1,10 @@
+numpy
+pandas
+pytest
+coverage
+requests
+pytest-cov
+setuptools
+abstractEasyT
+python-dotenv
+supportLibEasyT
