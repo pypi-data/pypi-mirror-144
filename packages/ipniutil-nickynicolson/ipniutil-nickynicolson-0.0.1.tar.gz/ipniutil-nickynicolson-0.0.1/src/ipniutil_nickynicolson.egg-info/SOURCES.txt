@@ -1,0 +1,9 @@
+README.md
+pyproject.toml
+setup.cfg
+src/ipniutil/__init__.py
+src/ipniutil/nameutil.py
+src/ipniutil_nickynicolson.egg-info/PKG-INFO
+src/ipniutil_nickynicolson.egg-info/SOURCES.txt
+src/ipniutil_nickynicolson.egg-info/dependency_links.txt
+src/ipniutil_nickynicolson.egg-info/top_level.txt
