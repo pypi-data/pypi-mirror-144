@@ -1,0 +1,14 @@
+ethnicseer/__init__.py,sha256=x8z0DnNCMLdAspvb5g4Lhml8QsmOrXx93TigbumhKkA,290
+ethnicseer/ethnic_classifier.py,sha256=G8NfD3DaMFQsL3BvDWxcIOJ00oG_9W6ErNBYKTnmVRk,6197
+ethnicseer/ethnicseer_meta.pk,sha256=0fqCG9VAvpntp2tWM53sTxJ8DXNC8ANJszRbYrxS16c,188
+ethnicseer/ethnicseer_model.pk,sha256=dTBfAOXSuQuxSIkHrbMC49FAFpp9XpHv9AXLU54P5lc,2400892
+ethnicseer/ethnicseer_vec.pk,sha256=lXOktzk7bruhaViNHwjRfnLGO2Em5uzsLK3BfhamTvc,1896973
+ethnicseer/experiment.py,sha256=tL0XYqGZExG5SkmiJtDV2ktgvUEWJPISp-y6OY38nvM,1513
+ethnicseer/__pycache__/__init__.cpython-39.pyc,sha256=Noz6SN4TZop89Ne6jTkr9dBuGj7RGkkorsc5_9vORP0,329
+ethnicseer/__pycache__/ethnic_classifier.cpython-39.pyc,sha256=LJIJejTC0Zw7rZSLkDL4LBQ5JPdkc3hHbc0vqK3p7BI,7746
+ethnicseer/__pycache__/experiment.cpython-39.pyc,sha256=NeeuqkhSap9kPJAhKOLXCa1SAkGvMaC-pswyQ5NeRlk,1753
+ethnicseer-0.1.0.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+ethnicseer-0.1.0.dist-info/METADATA,sha256=Gr6pcfAWA00KWM25QvV8oVHn2QfUWLhpAH0Tkx6VZTM,2453
+ethnicseer-0.1.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+ethnicseer-0.1.0.dist-info/top_level.txt,sha256=jysSdL8AJGbPUYCrOowAaOKHb2GUlFLuzM9NA0wzUt4,11
+ethnicseer-0.1.0.dist-info/RECORD,,
