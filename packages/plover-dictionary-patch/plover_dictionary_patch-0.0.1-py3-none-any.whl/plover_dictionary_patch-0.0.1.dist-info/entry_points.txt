@@ -1,0 +1,3 @@
+[plover.dictionary]
+dicp = plover_dictionary_patch:DictionaryPatch
+
