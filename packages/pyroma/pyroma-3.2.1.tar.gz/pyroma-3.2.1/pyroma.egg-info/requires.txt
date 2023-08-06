@@ -1,0 +1,8 @@
+docutils
+pygments
+requests
+setuptools
+
+[test]
+pytest
+pytest-cov
