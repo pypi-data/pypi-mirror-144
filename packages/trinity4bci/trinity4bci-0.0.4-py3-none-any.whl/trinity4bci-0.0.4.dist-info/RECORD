@@ -1,0 +1,13 @@
+trinity4bci/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+trinity4bci/_boardInfo.py,sha256=0OzBRsV1SxaVYDvlSJcXPvirf9Rb2OMInZUMqFNSYhw,817
+trinity4bci/client.py,sha256=r6gZ2V7DgmZplwX8hRLFylZapKc5nDoWHjEwzl4-MmE,2720
+trinity4bci/linux_run.py,sha256=0KwWGkA8YSAZ8pKhrzPgS0hvc3tiyxoDMyIQoAAcGac,4301
+trinity4bci/master.py,sha256=xs_CvQOqBCCntJDkxYs91vePFjLhHAyR0S3NiJIU7ek,326
+trinity4bci/out.py,sha256=4xe63tm01pV3wC1MfrXWSY8jEuTTdDraPwUGUPdGFtw,1069
+trinity4bci/sfpr.py,sha256=icdtI0VAKYE_utTy-5NI-y_8IzuHZUr4SwaLLYhD_W0,12510
+trinity4bci/win_run.py,sha256=QMfWi_NjCwla7E7r0Ef_Kaxsm7pbLF-lGug6EEY_POI,3087
+trinity4bci-0.0.4.dist-info/LICENSE,sha256=pYXGmaAhBXZl5fXXrLklwMX4EDaa0XwbCY6itJg38k4,27476
+trinity4bci-0.0.4.dist-info/METADATA,sha256=TGyin864ew6Kzjf554kcWneU3M-SzdKkkFrV9HVVzFQ,1285
+trinity4bci-0.0.4.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+trinity4bci-0.0.4.dist-info/top_level.txt,sha256=qziSEWtWxNDkTplsVgjzgXfwyyLF5mKJsvf_S074HxQ,12
+trinity4bci-0.0.4.dist-info/RECORD,,
