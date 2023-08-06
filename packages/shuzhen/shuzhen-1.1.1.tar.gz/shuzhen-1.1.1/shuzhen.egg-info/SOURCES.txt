@@ -1,0 +1,8 @@
+README.md
+setup.py
+shuzhen/__init__.py
+shuzhen/hello.py
+shuzhen.egg-info/PKG-INFO
+shuzhen.egg-info/SOURCES.txt
+shuzhen.egg-info/dependency_links.txt
+shuzhen.egg-info/top_level.txt
