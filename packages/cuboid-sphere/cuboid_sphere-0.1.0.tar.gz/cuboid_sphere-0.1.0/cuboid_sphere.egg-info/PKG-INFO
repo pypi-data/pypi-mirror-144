@@ -1,0 +1,66 @@
+Metadata-Version: 2.1
+Name: cuboid-sphere
+Version: 0.1.0
+Summary: Finding Cuboid and Sphere in 3D Image and 2D image
+Home-page: https://github.com/bendangnuksung/cuboid_sphere
+Author: bendangnuksung
+Author-email: bendangnuksungimsong@gmail.com
+License: MIT License
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+## Setup
+
+0. Pre Requirements:
+    * Install Docker: [Link](https://docs.docker.com/engine/install/)
+    * Install Docker Compose: `pip install docker-compose`
+
+1. Setup Docker:
+    ```bash
+    # Build docker
+    docker-compose up -d
+
+    # OR
+
+    # Pull prebuilt docker
+    docker pull bendang/cuboid_sphere &&  docker-compose up -d
+    ```
+
+2. Install package:
+    ```bash
+    pip install cuboid-sphere
+    ```
+
+
+## Test 
+
+```python
+from cuboid_sphere import call_2d, call_3d, display_2d_result, display_3d_result, save_point_cloud
+
+# if docker hosted locally
+# ip = 1.2.3.4  
+ip = "localhost" 
+
+# Port based on docker compose settings
+port = "8888"
+
+# Task 1
+# hdf5_path = "/PATH/TO/HDF5_FILE.hdf5"
+hdf5_path = 'test_data/cuboid-sphere.hdf5'
+result = call_3d(hdf5_path, ip=ip, port=port)
+save_point_cloud(result["point_cloud"], "/PATH/TO/SAVE.hdf5") # saving Point Cloud 
+display_3d_result(hdf5_path, result) # display volume, surface area, centroid and depth map
+
+
+# Task 2
+# image_path = "/PATH/TO/IMAGE.png"
+image_path = "test_data/cuboid-sphere.png"
+result = call_2d(image_path, ip=ip, port=port)
+display_2d_result(image_path, result)
+
+```
+
+
+
