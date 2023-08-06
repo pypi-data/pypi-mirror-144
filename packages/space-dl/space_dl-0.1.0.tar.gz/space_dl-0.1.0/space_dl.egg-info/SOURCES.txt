@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+space_dl/__init__.py
+space_dl/__main__.py
+space_dl/twitter_space.py
+space_dl.egg-info/PKG-INFO
+space_dl.egg-info/SOURCES.txt
+space_dl.egg-info/dependency_links.txt
+space_dl.egg-info/top_level.txt
