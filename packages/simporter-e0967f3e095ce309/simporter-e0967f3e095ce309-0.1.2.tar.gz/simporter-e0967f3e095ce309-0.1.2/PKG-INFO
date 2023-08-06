@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: simporter-e0967f3e095ce309
+Version: 0.1.2
+Summary: Flask JWT auth utils
+Home-page: https://github.com/Simporter/flask-jwt-auth
+Author: Yaroslav Kikvadze
+Author-email: yaroslav.k@simporter.com
+License: MIT
+Platform: UNKNOWN
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# flask-jwt-auth
+Package for an authorization functionality using JWT for Flask framework.
+
+## Settings:
+
+To decode token from another Auth API it's neccessary to set Flask `JWT_SECRET_KEY` env. It also could be required to set `JWT_AUDIENCE` env (default value is `"http://localhost:5000/"`)
+
+## Available functions:
+* decode_jwt_token - to get JWT payload
+* get_current_user - to get user username or ID (`sub` parameter in JWT)
+* jwt_required - decorator to validate JWT token and protect desired endpoints
+
+
