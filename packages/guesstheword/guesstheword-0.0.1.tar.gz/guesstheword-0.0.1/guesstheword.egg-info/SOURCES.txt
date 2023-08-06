@@ -1,0 +1,11 @@
+LICENSE.txt
+README.md
+setup.py
+guesstheword.egg-info/PKG-INFO
+guesstheword.egg-info/SOURCES.txt
+guesstheword.egg-info/dependency_links.txt
+guesstheword.egg-info/entry_points.txt
+guesstheword.egg-info/requires.txt
+guesstheword.egg-info/top_level.txt
+wordlehelper/__init__.py
+wordlehelper/words.py
