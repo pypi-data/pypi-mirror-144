@@ -1,0 +1,4 @@
+[console_scripts]
+sidechain-config=slk.config:create_config_files
+sidechain-shell=slk.run_shell:main
+
