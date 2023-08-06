@@ -1,0 +1,3 @@
+[console_scripts]
+ndlinter = numdoclinter.actions:main
+numdoclinter = numdoclinter.actions:main
