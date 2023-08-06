@@ -1,0 +1,52 @@
+Metadata-Version: 2.1
+Name: ltsearthquake-indonesia
+Version: 0.3.1
+Summary: This package will get the latest 
+Home-page: https://github.com/pypa/sampleproject
+Author: Rahman Aji Pratama 
+Author-email: pratamaxadjie@gmail.com
+License: UNKNOWN
+Project-URL: Website , https://github.com/pypa/sampleproject/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Development Status :: 5 - Production/Stable
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+## latest-IndonesiaEarthquake
+This package will get the latest Earthquake from BMKG Badan Meteorologi, Klimatologi, dan Geofisika
+
+## HOW IT WORKS 
+This packages will scrape from [BMKG](https://bmkg.co.id) to get latet quake happenend in Indonesia.
+
+## My-First Python code 
+Ini adl project pertama sy dengan python
+
+
+# Tahap 1 buat readme.md 
+# Tahap 2 copast project dr sebelah 
+# Tahap 3 Mengisikan setup.py
+
+
+## HOW TO USE 
+
+```import gempa_terkini
+
+if __name__ == '__main__':
+    print('Aplikasi  utama')
+    result = gempa_terkini.ekstraksi_data()
+    gempa_terkini.tampilkan_data(result)
+```
+
+#AUTHOR
+Adjie pratama  
+
+
+With SSH!  
+#Tahap1 : Membuat README.md 
+#Tahap2 : Copast Project dr sebelah 
+#Tahap3 : Mengisikan setup.py 
+
