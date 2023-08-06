@@ -1,0 +1,7 @@
+glcm_cupy/__init__.py,sha256=Fn1_Uf9uyRGvQC7HvvHpiwB0vHlwh_B8hgf5Z9Myg_Q,55
+glcm_cupy/conf.py,sha256=eqOqhR5uVSP_v36Y36gQAj-0MXT41bpMFtlITewmC9o,418
+glcm_cupy/glcm.py,sha256=6oy58ZfK007TGmyp8IyQm1w8xtTRF2jAQcyFUZKw7fw,12328
+glcm_cupy/kernel.py,sha256=OP8wAuVykHoXHyC9WXQfWT6DmaPw7_LoK5fUFaZgYr0,10814
+glcm_cupy-0.1.0.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+glcm_cupy-0.1.0.dist-info/METADATA,sha256=-K8ynncGkRST8a4jkP1U-fyMZc74Vuf_zM1QTmnSQJI,543
+glcm_cupy-0.1.0.dist-info/RECORD,,
