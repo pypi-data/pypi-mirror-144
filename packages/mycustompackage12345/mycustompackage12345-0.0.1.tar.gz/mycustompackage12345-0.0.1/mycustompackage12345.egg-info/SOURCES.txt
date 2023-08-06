@@ -1,0 +1,11 @@
+setup.py
+mycustompackage12345/__init__.py
+mycustompackage12345/add.py
+mycustompackage12345/subtract.py
+mycustompackage12345.egg-info/PKG-INFO
+mycustompackage12345.egg-info/SOURCES.txt
+mycustompackage12345.egg-info/dependency_links.txt
+mycustompackage12345.egg-info/top_level.txt
+mycustompackage12345/extras/__init__.py
+mycustompackage12345/extras/div.py
+mycustompackage12345/extras/mult.py
