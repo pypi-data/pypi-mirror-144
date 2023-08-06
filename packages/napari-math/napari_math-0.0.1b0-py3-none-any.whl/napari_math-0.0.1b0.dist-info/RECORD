@@ -1,0 +1,11 @@
+napari_math/__init__.py,sha256=L1ZUsiO0RGKlqoalbUPR70y5_ukUlw4cxNiCom_k2_M,49
+napari_math/_widget.py,sha256=CRYkPTwQ5u5xTUSMpCvq8elb_THWfeOk6nr6wLWm_TU,7967
+napari_math/napari.yaml,sha256=NyblGFIOsbMs-vDF1JM2wOlMAIhe4EHwJNV18wUe-NE,3845
+napari_math/_tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+napari_math/_tests/test_widget.py,sha256=Y4hStbxfSkhh99wLM4lydQX9nLIBi806aaALuQ9q06c,76
+napari_math-0.0.1b0.dist-info/LICENSE,sha256=Zj28_GX-OzxTimDj4cCGZoTVobqAMVNFR3SHhwQk1nQ,1078
+napari_math-0.0.1b0.dist-info/METADATA,sha256=6XejfDfK0-hEHPVncM3q_NBPbEqPEl23GMY2FHQc4D4,3885
+napari_math-0.0.1b0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+napari_math-0.0.1b0.dist-info/entry_points.txt,sha256=RcFGznMxOv_AEiXwG6gxE76E9pkbzYp7rRnDHYCQZi8,56
+napari_math-0.0.1b0.dist-info/top_level.txt,sha256=guWHQ0Zm4KgSCPxZZX6KfnWYU8PvFIEXhh5ho0fUJC8,12
+napari_math-0.0.1b0.dist-info/RECORD,,
