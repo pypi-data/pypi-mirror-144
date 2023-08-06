@@ -1,0 +1,11 @@
+LICENSE
+MANIFEST.in
+README.md
+dataspan.py
+setup.cfg
+setup.py
+dataspan_ai.egg-info/PKG-INFO
+dataspan_ai.egg-info/SOURCES.txt
+dataspan_ai.egg-info/dependency_links.txt
+dataspan_ai.egg-info/top_level.txt
+dataspan_ai.egg-info/zip-safe
