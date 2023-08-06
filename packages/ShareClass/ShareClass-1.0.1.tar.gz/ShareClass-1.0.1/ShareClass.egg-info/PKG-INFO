@@ -1,0 +1,11 @@
+Metadata-Version: 1.2
+Name: ShareClass
+Version: 1.0.1
+Summary: A code base to python common function management!
+Home-page: https://www.easylfe.com
+Author: beall
+Author-email: beallhuang@163.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: windows
+Requires-Python: >=3.6
