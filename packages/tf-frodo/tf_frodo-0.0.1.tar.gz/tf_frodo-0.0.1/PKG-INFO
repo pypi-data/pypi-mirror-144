@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: tf_frodo
+Version: 0.0.1
+Summary: FRODO for free rejection of out-of-distribution samples in deep learning
+Home-page: https://github.com/xarion/tf_frodo.git
+Author: Erdi Calli
+Author-email: erdicalli@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+## FRODO: Free rejection of Out-of-distribution samples
+
+use FRODO simply by
+
+```
+import model
+from tf_frodo import FRODO
+
+model_with_frodo = FRODO(model).fit(x_validation) 
+
+results = model_with_frodo.predict(x_test)
+
+assert results["model_outputs"] == model(x_test)
+results["FRODO"] # Rejection scores for each sample in x_test
+```
+
