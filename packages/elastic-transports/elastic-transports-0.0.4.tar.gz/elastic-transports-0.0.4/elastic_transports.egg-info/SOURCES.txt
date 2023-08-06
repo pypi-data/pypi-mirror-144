@@ -1,0 +1,6 @@
+README.md
+setup.py
+elastic_transports.egg-info/PKG-INFO
+elastic_transports.egg-info/SOURCES.txt
+elastic_transports.egg-info/dependency_links.txt
+elastic_transports.egg-info/top_level.txt
