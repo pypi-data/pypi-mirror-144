@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+mybible/__init__.py
+mybible/core.py
+mybible.egg-info/PKG-INFO
+mybible.egg-info/SOURCES.txt
+mybible.egg-info/dependency_links.txt
+mybible.egg-info/top_level.txt
