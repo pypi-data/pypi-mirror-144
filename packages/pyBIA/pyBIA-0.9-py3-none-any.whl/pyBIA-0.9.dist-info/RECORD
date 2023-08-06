@@ -1,0 +1,12 @@
+pyBIA/__init__.py,sha256=URS408kGQCSWbiVKXYwjkaI_6JvtUGYl-Kscy-a-Yj8,27
+pyBIA/data_augmentation.py,sha256=uPcXNWkdauIHRlQrWdyiDMn4iqKxX_JkjD3DrTlshNc,3181
+pyBIA/data_processing.py,sha256=widRtWLHxldEciyaCLGnqEdgkkX1K9k12L3z1AUl9SU,4535
+pyBIA/extract_objects.py,sha256=5lKXO5C9cmdbVLXAzylMCYeVI_3Qm30yHo1NX851sOM,554
+pyBIA/pyBIA.py,sha256=YUtuM08LDi9chi1a28vN011na3B8HYu-GT7haeT77CE,6007
+pyBIA/data/New_Model.h5,sha256=Wtx2J1xuUw3tfLGd0kyqz45_ek_-kssq_-uD4e0H4D8,98913472
+pyBIA/data/__init.py__,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pyBIA-0.9.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+pyBIA-0.9.dist-info/METADATA,sha256=lXPv4OFoCjUgnL2WVvXkjm_NV68yFLTZzCCuDUJ6gDo,693
+pyBIA-0.9.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+pyBIA-0.9.dist-info/top_level.txt,sha256=gwCmeMEPyXKffmOTVUP7RoJ1hERYnvgC7O8AgUU1KSc,6
+pyBIA-0.9.dist-info/RECORD,,
