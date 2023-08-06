@@ -1,0 +1,2 @@
+[console_scripts]
+cp = coding_parse.main:main
