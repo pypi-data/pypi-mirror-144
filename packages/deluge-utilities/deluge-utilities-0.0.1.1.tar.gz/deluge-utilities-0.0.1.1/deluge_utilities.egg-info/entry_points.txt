@@ -1,0 +1,4 @@
+
+    [console_scripts]
+    deluge_utilities = batch:master
+    
