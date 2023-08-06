@@ -1,0 +1,48 @@
+Metadata-Version: 2.1
+Name: cx-releaser
+Version: 0.5.0
+Summary: Python SDK to interact with docker registries
+Home-page: https://github.com/CiscoAandI/cx_releaser/
+Author: Aleksander Winski
+Author-email: awinski@cisco.com
+License: UNKNOWN
+Project-URL: Bug Reports, https://github.com/CiscoAandI/cx_releaser/issues
+Project-URL: Source, https://github.com/CiscoAandI/cx_releaser/
+Keywords: cx releaser
+Platform: UNKNOWN
+Classifier: Topic :: Software Development :: Build Tools
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+Requires-Dist: boto3 (==1.20.47)
+Requires-Dist: docker (==5.0.3)
+Requires-Dist: PyYaml (==6.0)
+Requires-Dist: semantic-version (==2.9.0)
+
+# CX Releaser
+
+Package to interact with docker registries
+
+Examples:
+
+1. Create new release with recently build image
+
+```python
+from cx_releaser.src.release import Release
+from cx_releaser.src.docker_registry import AwsRegistry
+new_release = Release.from_remote('my_image', AwsRegistry())
+new_release.next().push()
+```
+
+2. Rollback recently created release
+
+```python
+from cx_releaser.src.release import Release
+from cx_releaser.src.docker_registry import AwsRegistry
+all_releases = Release.get_all_from_remote('my_image', AwsRegistry())
+last, prev = all_releases[0], all_releases[1]
+last.rollback(prev)
+```
+
+## Command line script
+
+
