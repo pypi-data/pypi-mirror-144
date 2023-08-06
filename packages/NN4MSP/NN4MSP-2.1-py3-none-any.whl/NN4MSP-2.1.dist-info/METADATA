@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: NN4MSP
+Version: 2.1
+Summary: Neural network based control charting for multiple stream processes
+Home-page: https://github.com/unina-sfere/NN4MSP
+Author: Antonio Lepore, Biagio Palumbo, Gianluca Sposito
+Author-email: antonio.lepore@unina.it, biagio.palumbo@unina.it, gianluca.sposito@unina.it
+License: GNU General Public License v3.0
+Keywords: Multiple stream process,Artificial neural networks,Statistical process control,Multilayer perceptron,Railway HVAC systems
+Platform: UNKNOWN
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: Science/Research
+Classifier: Intended Audience :: Manufacturing
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+License-File: LICENSE.md
+Requires-Dist: numpy
+Requires-Dist: matplotlib
+Requires-Dist: sklearn
+Requires-Dist: tensorflow
+Requires-Dist: keras
+
+A Python package from the paper of Lepore, Palumbo, and Sposito, Neural network based control charting for multiple stream processes with an application to HVAC systems in passenger railway vehicles
+
