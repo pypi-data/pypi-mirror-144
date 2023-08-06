@@ -1,0 +1,8 @@
+six
+setuptools-scm
+appdirs
+kivy>=1.11.1
+kivy-garden
+kivy_garden.ebs.core
+kivy_garden.ebs.progressspinner
+ebs-linuxnode-core
