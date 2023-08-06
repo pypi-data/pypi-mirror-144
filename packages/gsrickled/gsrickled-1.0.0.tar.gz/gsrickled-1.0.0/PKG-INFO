@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: gsrickled
+Version: 1.0.0
+Summary: Tools for pickling Python objects in completely different way
+Home-page: UNKNOWN
+Author: Zipfian Science, Fabian Sperrle
+Author-email: fabian.sperrle@uni-konstanz.de
+License: Apache 2.0
+Keywords: Pickle,Python
+Platform: UNKNOWN
+Classifier: Intended Audience :: Science/Research
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Lotse Parser
+
+
+This project contains the yaml parser for Lotse, the guidance library.
+
+The parser has been forked from https://github.com/Zipfian-Science/rickled and heavily builds on previous work in that project. 
+
