@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: deatrisdev
+Version: 0.2
+Summary: Deatris Software Tools
+Home-page: UNKNOWN
+Author: Yagiz Alp Hos
+Author-email: yagizalphos@gmail.com
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
