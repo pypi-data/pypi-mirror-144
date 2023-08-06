@@ -1,0 +1,11 @@
+nbformat
+nbconvert
+typer
+rich
+
+[test]
+pytest
+pytest-cov
+coverage[toml]
+nox
+flake8
