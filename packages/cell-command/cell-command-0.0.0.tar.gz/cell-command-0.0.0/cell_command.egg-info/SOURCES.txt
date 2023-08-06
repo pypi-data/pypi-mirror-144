@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+cell_command/__init__.py
+cell_command.egg-info/PKG-INFO
+cell_command.egg-info/SOURCES.txt
+cell_command.egg-info/dependency_links.txt
+cell_command.egg-info/top_level.txt
