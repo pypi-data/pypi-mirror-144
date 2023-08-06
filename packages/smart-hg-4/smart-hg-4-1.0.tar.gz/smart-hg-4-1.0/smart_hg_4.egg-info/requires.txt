@@ -1,0 +1,1 @@
+products.zcatalog==6.0
