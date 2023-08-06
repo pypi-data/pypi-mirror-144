@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+tabler.py
+py_tabler.egg-info/PKG-INFO
+py_tabler.egg-info/SOURCES.txt
+py_tabler.egg-info/dependency_links.txt
+py_tabler.egg-info/top_level.txt
