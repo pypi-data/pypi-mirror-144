@@ -1,0 +1,9 @@
+shindan_cli/__init__.py,sha256=cWb1coDYoVs8MUVB_qddxj2r7YFsqX-sEIsEzAhoaAE,72
+shindan_cli/main.py,sha256=C9DAMOMW5Juw_4NcVdjLlJMtivRYUP1VHaPRxW2wDEo,1453
+shindan_cli/shindan.py,sha256=H5tKI2xJvbqRTESlpRHAxrgXHSDAe-s1JZ-wmY0KWZU,1517
+shindan_cli-0.9.dist-info/LICENSE,sha256=3GXiVdXRqpaby1jRaUXDaXFSjq4DmeGD67WACE1Wh5g,1066
+shindan_cli-0.9.dist-info/METADATA,sha256=Ngui5xCdFtJa8wcbW0vpBHcnHsJGY1Z5xVZAechLq4k,4523
+shindan_cli-0.9.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+shindan_cli-0.9.dist-info/entry_points.txt,sha256=owJVsbnML7zQvM_Qe3mEu5cshvUPs-PRg9f-07zPevY,51
+shindan_cli-0.9.dist-info/top_level.txt,sha256=hRiaOsWyfNYhYmwEQYJ80dG7Liu7Q7teevDg-8MJCuQ,12
+shindan_cli-0.9.dist-info/RECORD,,
