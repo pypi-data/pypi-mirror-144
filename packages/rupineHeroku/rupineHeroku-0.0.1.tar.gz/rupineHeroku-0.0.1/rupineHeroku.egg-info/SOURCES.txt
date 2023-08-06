@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+rupineHeroku.egg-info/PKG-INFO
+rupineHeroku.egg-info/SOURCES.txt
+rupineHeroku.egg-info/dependency_links.txt
+rupineHeroku.egg-info/requires.txt
+rupineHeroku.egg-info/top_level.txt
