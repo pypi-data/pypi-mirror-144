@@ -1,0 +1,55 @@
+Metadata-Version: 2.1
+Name: image-processing-test-project
+Version: 0.0.1
+Summary: Test Version - Image Processing - Projeto Karina Kato
+Home-page: https://github.com/Fehventura12/Image-Processing
+Author: Fernando Ventura
+Author-email: fernando_sventura@outlook.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
+# Projeto - Pacote de Processamento de Imagens
+
+Autora do Projeto - Karina Kato
+
+Bootcamp Cognizant Cloud Data Engineer - DIO
+
+
+DescriÃ§Ã£o
+O pacote "image-processing-test-project" Ã© usado para:
+
+MÃ³dulo "Processamento":
+
+CorrespondÃªncia de histograma;
+Similaridade estrutural;
+Redimensionar imagem;
+
+MÃ³dulo "Utils":
+
+Ler imagem;
+Salvar imagem;
+Plotar imagem;
+Resultado do grÃ¡fico;
+Plotar histograma;
+
+
+```bash
+pip install image-processing-test-project
+```
+
+## Usage
+
+```python
+from package_name.module1_name import file1_name
+file1_name.my_function()
+```
+
+# Author (Quem hospedou o projeto no Test Py)
+Fernando Ventura
+
+
+## License
+[MIT](https://choosealicense.com/licenses/mit/)
+
