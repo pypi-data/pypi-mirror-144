@@ -1,0 +1,11 @@
+numpy
+matplotlib
+seaborn
+pandas
+nltk
+scikit-learn
+wordcloud
+beautifulsoup4
+sastrawi
+mpstemmer@ git+https://github.com/ariaghora/mpstemmer.git#egg=mpstemmer-0.1.0
+python-Levenshtein
