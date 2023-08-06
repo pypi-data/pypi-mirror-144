@@ -1,0 +1,11 @@
+Pillow
+cloudpickle
+future
+fvcore
+matplotlib
+pydot
+tabulate
+tensorboard
+termcolor>=1.1
+tqdm>4.29.0
+yacs>=0.1.6
