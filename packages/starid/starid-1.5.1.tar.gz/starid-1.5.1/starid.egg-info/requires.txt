@@ -1,0 +1,5 @@
+cryptography<3.4
+gitpython
+matplotlib
+numpy
+pytest
