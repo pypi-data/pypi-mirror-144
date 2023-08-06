@@ -1,0 +1,8 @@
+LICENSE
+README.md
+modulehooks.py
+setup.py
+modulehooks.egg-info/PKG-INFO
+modulehooks.egg-info/SOURCES.txt
+modulehooks.egg-info/dependency_links.txt
+modulehooks.egg-info/top_level.txt
