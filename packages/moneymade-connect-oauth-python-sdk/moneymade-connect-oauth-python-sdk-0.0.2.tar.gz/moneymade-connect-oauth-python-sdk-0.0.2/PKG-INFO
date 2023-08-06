@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: moneymade-connect-oauth-python-sdk
+Version: 0.0.2
+Summary: Packages which makes simplier integration with MoneyMade OAuth feature
+Home-page: https://github.com/moneymadeio/moneymade-connect-python-sdk
+Author: MoneyMade.io
+Author-email: vitalik@moneymade.io
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/moneymadeio/moneymade-connect-python-sdk/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+## Docs will be written soon :)
+
+
+## Developers:
+
+### Testing version publishing commands:
+
+1. Install dev dependencies
+  ```python3 -m pip install --upgrade build```
+2. Build the package 
+  ```python3 -m build```
+3. Publish to test repository
+  ```python3 -m twine upload --repository testpypi dist/*```
+
+
