@@ -1,0 +1,5 @@
+noaa_ftp/__init__.py,sha256=GvjYqWGnSEJR-SigsAKUakoBxmr673Z7_h7YsJSv7bs,45
+noaa_ftp/noaa/__init__.py,sha256=miG94HPdwIX5-c9aQtK6gh97-oGVO9LaZaSpktNSSeM,1293
+noaa_ftp-0.1.5.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+noaa_ftp-0.1.5.dist-info/METADATA,sha256=2hvrqXHA6Jj6-rkkdcSKJs6F79-J5WnaJND-x57m8VY,470
+noaa_ftp-0.1.5.dist-info/RECORD,,
