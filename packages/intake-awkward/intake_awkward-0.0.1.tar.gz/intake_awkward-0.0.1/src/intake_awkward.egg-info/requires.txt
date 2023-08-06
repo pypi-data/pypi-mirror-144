@@ -1,0 +1,8 @@
+dask-awkward>=2022.3a0
+intake>=0.6.5
+
+[complete]
+pytest>=6.0
+
+[test]
+pytest>=6.0
