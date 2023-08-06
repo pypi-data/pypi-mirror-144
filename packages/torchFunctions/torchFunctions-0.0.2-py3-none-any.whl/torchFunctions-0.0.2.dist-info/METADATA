@@ -1,0 +1,56 @@
+Metadata-Version: 2.1
+Name: torchFunctions
+Version: 0.0.2
+Summary: This package makes the ease of using code in pytorch which needs to be used multiple times 
+Home-page: https://github.com/Karthik-VG/torchFunctions
+Author: Karthik-VG
+Author-email: karthikvg.engineer@gmail.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/{USER_NAME}/{PROJECT_NAME}/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pymongo (==4.0.2)
+Requires-Dist: pandas
+Requires-Dist: torch
+
+# torchFunctions - eleka12
+
+A small package for pytorch functions
+
+# How to use -
+
+* install the latest package 
+
+> * in jupyter notebook -
+```
+    !pip install torchFunctions
+```
+
+> * in command prompt -
+```bash    
+    pip install torchFunctions
+```
+
+* Now run below snippets of code in your jupyter-notebooks / python project to use pytorch defined functions
+
+## default use case -
+```python
+
+from torchFunctions.parameters import parameters
+
+model = "your model"
+
+parameters().count_params( model )
+```
+
+## pypi repo link -
+
+[torchFunctions] (https://pypi.org/project/torchFunctions/)
+
+
+
