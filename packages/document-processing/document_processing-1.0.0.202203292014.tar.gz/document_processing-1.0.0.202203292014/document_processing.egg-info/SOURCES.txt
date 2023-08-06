@@ -1,0 +1,14 @@
+AUTHORS
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+requirements.txt
+setup.cfg
+setup.py
+document_processing/__init__.py
+document_processing.egg-info/PKG-INFO
+document_processing.egg-info/SOURCES.txt
+document_processing.egg-info/dependency_links.txt
+document_processing.egg-info/requires.txt
+document_processing.egg-info/top_level.txt
