@@ -1,0 +1,15 @@
+edgedb_orm/__init__.py,sha256=8qGEDbMz48kndtCq4kTdPd9GwYHcK4lUd_zKbsmW72M,192
+edgedb_orm/batch.py,sha256=Tbo7AWQFYOQ8lAZl50uCeV7jk8tn5MtAvfv4itu6s54,3249
+edgedb_orm/cache.py,sha256=IY04nPUi4R2KNzdLxTAfYUIHoTrKs85zd1LBdK--Kvg,1265
+edgedb_orm/constants.py,sha256=2kk88Fc_UngqGrM0UhD7m5x9mTEOyZ_sghSpNnCAOM4,416
+edgedb_orm/creating_strings.py,sha256=-BwXA8CGcHdY4DOgy1koz2ZUDFhHgQYwFQjZ-WbHJRw,3377
+edgedb_orm/execute.py,sha256=mrqdIBA2pVGg4Lx1nWXG8RePyIn2v2Uj2CcpKHnWwEM,1718
+edgedb_orm/generator.py,sha256=XF4pCA347wF_QrwcY96uEOfMtgCbTkPbUVsamkeVA7c,18794
+edgedb_orm/introspection.py,sha256=GhSrW-dcj1Bckkn5pkxev3kEgXu_Et9LiCeRJAk7GmY,5938
+edgedb_orm/node.py,sha256=L6THZG8Mk6Ru-ofTkF93wvnGMYUxNwAOz6jr03Twz0E,22699
+edgedb_orm/resolver.py,sha256=piG0ZYUaBRCrfXtSvFyUbREI9g7bN8Me2A9lVh7zEZo,14562
+edgedb_orm/span.py,sha256=QqRpDvIvi4u04pMsOJrU_NsYLh0713tXz28Wux5jPgA,839
+edgedb_orm/unset.py,sha256=vc4n8eR8ITrNMaNPUM3A962iX0qse5KplFdpzdGdJyM,191
+edgedb_orm-0.1.8.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+edgedb_orm-0.1.8.dist-info/METADATA,sha256=-T-vapQCAKTTS9U-uxf-6X-fXi76s9KqjA7222-uttM,473
+edgedb_orm-0.1.8.dist-info/RECORD,,
