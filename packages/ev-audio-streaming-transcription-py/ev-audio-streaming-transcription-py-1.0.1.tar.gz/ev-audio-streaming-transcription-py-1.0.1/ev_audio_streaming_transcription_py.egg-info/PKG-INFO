@@ -1,0 +1,48 @@
+Metadata-Version: 2.1
+Name: ev-audio-streaming-transcription-py
+Version: 1.0.1
+Summary: Quick test package for RingCenTral Engage Voice Audio Streaming feature.
+Home-page: https://github.com/DaKingKong/ev-audio-streaming-transcription-py
+Author: Da Kong
+Author-email: da.kong@ringcentral.com
+License: MIT
+Description: # Engage Voice Audio Streaming Quick Test Package
+        
+        This package is to test basic functionality of Engage Voice Audio Streaming feature by using [Google Cloud Speech-To-Text Service](https://cloud.google.com/speech-to-text)
+        
+        ## Getting Started
+        
+        ### 1. Enable Google Cloud Speech-To-Text Service
+        
+        - [Google Cloud Account](https://cloud.google.com/)
+        - [Enable Google Speech To Text Service](https://console.cloud.google.com/speech/overview)
+        - [Google Service Account](https://cloud.google.com/docs/authentication/getting-started)
+        
+        After above steps, you will get a JSON key file in your local drive. Create a new environment variable with name as 'GOOGLE_APPLICATION_CREDENTIALS' and value as your file path(including file name).
+        
+        ### 2. Install This Package
+        
+        1. Create a new folder and do:
+        
+        `pip install`
+        
+        1. Create a new file `server.py` with code below in it:
+        
+        ```
+        from ev_audio_streaming_transcription_py import server
+        import asyncio
+        
+        port=3333
+        if __name__ == "__main__":  
+            asyncio.run(server.main(port))
+        ```
+        
+        3. Run the script
+        4. Install [ngrok](https://ngrok.com/) or other similar web tunneling tool, and run:
+        
+        `ngrok http 3333`
+        
+        You'll get a HTTPS address. Replace 'HTTPS' with 'WSS' and that is the address to be uploaded to your streaming profile.
+Platform: UNKNOWN
+Requires-Python: >=3.0
+Description-Content-Type: text/markdown
