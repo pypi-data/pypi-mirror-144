@@ -1,0 +1,7 @@
+setup.py
+ezjava.egg-info/PKG-INFO
+ezjava.egg-info/SOURCES.txt
+ezjava.egg-info/dependency_links.txt
+ezjava.egg-info/top_level.txt
+lib/__init__.py
+lib/ezjava.zip.py
