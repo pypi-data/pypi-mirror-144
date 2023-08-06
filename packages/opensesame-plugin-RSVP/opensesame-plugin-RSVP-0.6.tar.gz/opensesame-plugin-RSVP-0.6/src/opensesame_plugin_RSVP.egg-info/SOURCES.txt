@@ -1,0 +1,8 @@
+LICENSE
+MANIFEST.in
+pyproject.toml
+setup.cfg
+src/opensesame_plugin_RSVP.egg-info/PKG-INFO
+src/opensesame_plugin_RSVP.egg-info/SOURCES.txt
+src/opensesame_plugin_RSVP.egg-info/dependency_links.txt
+src/opensesame_plugin_RSVP.egg-info/top_level.txt
