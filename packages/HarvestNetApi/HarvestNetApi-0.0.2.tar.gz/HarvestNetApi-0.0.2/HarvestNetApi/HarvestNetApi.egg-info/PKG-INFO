@@ -1,0 +1,11 @@
+Metadata-Version: 1.2
+Name: HarvestNetApi
+Version: 0.0.2
+Summary: HarvestNet-Api
+Home-page: UNKNOWN
+Author: waterlily
+Author-email: b1929595403@gmail.com
+License: MIT License
+Description: HarvestNet-Api
+Platform: any
+Requires-Python: >=3.7.*
