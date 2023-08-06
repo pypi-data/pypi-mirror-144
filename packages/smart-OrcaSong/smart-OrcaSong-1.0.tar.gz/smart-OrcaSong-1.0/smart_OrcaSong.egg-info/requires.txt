@@ -1,0 +1,12 @@
+docopt
+h5py
+km3pipe
+matplotlib
+numpy==1.16.2
+numpydoc
+setuptools_scm
+sphinx
+sphinx-autoapi
+sphinx-rtd-theme
+toml
+twine
