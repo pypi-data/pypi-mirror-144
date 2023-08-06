@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: ensemble-transformers
+Version: 0.0.1
+Summary: Ensembling Hugging Face Transformers made easy
+Home-page: https://github.com/jaketae/ensemble-transformers
+Author: Jake Tae
+Author-email: jaesungtae@gmail.com
+License: UNKNOWN
+Description: # Ensemble Transformers
+        
+        Ensembling Hugging Face Transformers made easy!
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
