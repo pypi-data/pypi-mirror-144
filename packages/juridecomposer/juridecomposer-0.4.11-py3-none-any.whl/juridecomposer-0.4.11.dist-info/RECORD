@@ -1,0 +1,10 @@
+juridecomposer/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+juridecomposer/dict_to_dataframe.py,sha256=FSxh95IxLJ_oWBfbLZsXDagHDBWUISE4pBBKHg2Cnyc,12640
+juridecomposer/example.xml,sha256=FwEDs7K8Fka2GlGldptaJk00RoIZ-64_0OuciS_nFcQ,2532262
+juridecomposer/juridecomposer.py,sha256=3qtomKqyxMn-VqBBTvePLRd08CZ3lw2IAMBXffXPHEI,3402
+juridecomposer/wetten_xml_to_dict.py,sha256=5qMdOi9sw_CU0nR33RACvzqXNjZNvbBSRZgUJ4JOM7w,1319
+juridecomposer-0.4.11.dist-info/entry_points.txt,sha256=MHM1MpGnVQmG2haXbyG9BWsMOaPrj2iMe-x0yVsodm0,80
+juridecomposer-0.4.11.dist-info/LICENSE,sha256=VN_BPDNMganGo0Wtas5LC5KNbJMayE4AutysQxZPDfE,11690
+juridecomposer-0.4.11.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+juridecomposer-0.4.11.dist-info/METADATA,sha256=eHsrYBrPTF4QWbJjnr7KeYo4lz8Avw1SHrqEInjZJV4,1422
+juridecomposer-0.4.11.dist-info/RECORD,,

@@ -1,0 +1,39 @@
+Metadata-Version: 2.1
+Name: juridecomposer
+Version: 0.4.11
+Summary: 
+Home-page: https://gitlab.com/calculemus-flint/flintfillers/flintfiller-rlb
+License: Apache-2.0
+Author: Roos Bakker
+Author-email: roos.bakker@tno.nl
+Requires-Python: >=3.6.1,<3.7
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Requires-Dist: pandas (>=1.0.5,<2.0.0)
+Requires-Dist: xmltodict (>=0.12.0,<0.13.0)
+Project-URL: Repository, https://gitlab.com/calculemus-flint/flintfillers/flintfiller-rlb
+Description-Content-Type: text/markdown
+
+# Juridecomposer
+
+The Juridecomposer package can be used to transform Dutch laws structured as .xml files into pandas dataframes. 
+Input laws can be retrieved from [wetten.nl](https://wetten.overheid.nl/). 
+
+# Example usage
+
+    from juridecomposer.juridecomposer import xml_to_dataframe
+    output_dataframe = xml_to_dataframe("path/to/law/xml")
+
+The output dataframe will consist of the following columns:
+- Brontekst: raw extracted text;
+- Nummer: specifies the chapter (hoofdstuk) number;
+- Lid: specificies the section (afdeling) number;
+- Opsomming niveau 1: specifies the article (artikel) number;
+- Opsomming niveau 2: specifies the component (onderdeel) number;
+- Opsomming niveau 3: specifies the second component (onderdeel) number, if available; 
+- Versie: specifies the version number;
+- jc 1.3: permanent link to specific section.
+
+
+
+
