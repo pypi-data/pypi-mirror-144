@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/myqqa/__init__.py
+src/myqqa/send.py
+src/myqqa.egg-info/PKG-INFO
+src/myqqa.egg-info/SOURCES.txt
+src/myqqa.egg-info/dependency_links.txt
+src/myqqa.egg-info/top_level.txt
