@@ -1,0 +1,6 @@
+setup.py
+smart_ltiauthenticator.egg-info/PKG-INFO
+smart_ltiauthenticator.egg-info/SOURCES.txt
+smart_ltiauthenticator.egg-info/dependency_links.txt
+smart_ltiauthenticator.egg-info/requires.txt
+smart_ltiauthenticator.egg-info/top_level.txt
