@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: ezeriah
+Version: 0.0.5
+Summary: An encryption algorithm.
+Home-page: https://github.com/DaMuffinDev/ezeriah
+Author: DaMuffin
+License: MIT
+Keywords: ezeriah,ezeriah encryption,encryption,encrypt,decryption,decrypt,ezeriah decryption
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Requires-Python: >=3.10
+Description-Content-Type: text/plain
+
+Base init
+
