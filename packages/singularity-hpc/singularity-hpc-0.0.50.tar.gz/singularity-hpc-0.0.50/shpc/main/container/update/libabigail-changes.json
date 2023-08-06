@@ -1,0 +1,121 @@
+{"corpus": "/path/to/library",
+ "summary":[
+   {
+    "variables": {"removed": 0, "changed": 0, "added": 0},
+    "functions": {"removed": 7, "changed": 15, "added": 2, "filtered": 50},
+    "soname": {"previous": "libpkgconf.so.3", "current": "libpkgconf.so.2"}
+   }
+ ],
+ "changes": [
+    {"asset": "function", "type": "removed", "name": "pkgconf_client_dir_list_build", 
+     "signature": "function void pkgconf_client_dir_list_build(pkgconf_client_t*, const pkgconf_cross_personality_t*)"}
+    {"asset": "function", "type": "removed", "name": "pkgconf_cross_personality_deinit", 
+     "signature": "function void pkgconf_cross_personality_deinit(pkgconf_cross_personality_t*)"}
+    {"asset": "function", "type": "removed", "name": "pkgconf_cross_personality_find", 
+     "signature": "function pkgconf_cross_personality_t* pkgconf_cross_personality_find(const char*)"}
+    {"asset": "function", "type": "removed", "name": "pkgconf_fragment_copy_list", 
+     "signature": "function void pkgconf_fragment_copy_list(const pkgconf_client_t*, pkgconf_list_t*, const pkgconf_list_t*)"}
+    {"asset": "function", "type": "removed", "name": "pkgconf_parser_parse", 
+     "signature": "function void pkgconf_parser_parse(FILE*, void*, const pkgconf_parser_operand_func_t*, const pkgconf_parser_warn_func_t, const char*)"}
+    {"asset": "function", "type": "removed", "name": "pkgconf_path_copy_list", 
+     "signature": "function void pkgconf_path_copy_list(pkgconf_list_t*, const pkgconf_list_t*)"}
+
+    {"asset": "function", "type": "added", "name": "pkgconf_dependency_to_str", 
+     "signature": "function const char* pkgconf_dependency_to_str(const pkgconf_dependency_t*)"}
+    {"asset": "function", "type": "added", "name": "pkgconf_pkg_dir_list_build", 
+     "signature": "function void pkgconf_pkg_dir_list_build(pkgconf_client_t*)"}
+    {"asset": "function", "type": "change", "location": "audit.c:61:1", "name": "pkgconf_audit_log",
+     "signature": "function void pkgconf_audit_log(pkgconf_client_t*, const char*, ...)", 
+       "changes": [
+           {"type": "parameter_underlying_type", "number": 1, "parameter_type": "pkgconf_client_t*", "location": "libpkgconf.h:55:1", "pointer": true, "details": [
+               {"type": "size", "previous": 728, "current": 1664, "unit": "bits"} 
+               {"type": "data_member_deletion", "name": "bool already_sent_notice", "offset": 1664, "unit": "bits", "location": "libpkgconf.h:193:1"} 
+           ]}     
+     ]}
+
+    {"asset": "function", "type": "change", "location": "audit.c:86:1", "name": "pkgconf_audit_log_dependency",
+     "signature": "function void pkgconf_audit_log_dependency(pkgconf_client_t*, const pkgconf_pkg_t*, const pkgconf_dependency_t*)", 
+       "changes": [
+           {"type": "parameter_underlying_type", "number": 1, "parameter_type": "pkgconf_client_t*", "location": "libpkgconf.h:55:1", "pointer": true, "details": [
+               {"type": "size", "previous": 728, "current": 1664, "unit": "bits"} 
+               {"type": "data_member_deletion", "name": "bool already_sent_notice", "offset": 1664, "unit": "bits", "location": "libpkgconf.h:193:1"} 
+           ]}     
+     ]}
+
+
+]}
+
+  [C] ' at audit.c:86:1 has some indirect sub-type changes:
+
+    parameter 2 of type 'const pkgconf_pkg_t*' has sub-type changes:
+      in pointed to type 'const pkgconf_pkg_t':
+        in unqualified underlying type 'typedef pkgconf_pkg_t' at libpkgconf.h:50:1:
+          underlying type 'struct pkgconf_pkg_' at libpkgconf.h:127:1 changed:
+            type size changed from 2688 to 2496 (in bits)
+            3 data member deletions:
+              'pkgconf_client_t* owner', at offset 2496 (in bits) at libpkgconf.h:153:1
+              'pkgconf_tuple_t* orig_prefix', at offset 2560 (in bits) at libpkgconf.h:158:1
+              'pkgconf_tuple_t* prefix', at offset 2624 (in bits) at libpkgconf.h:159:1
+            no data member change (1 filtered);
+    parameter 3 of type 'const pkgconf_dependency_t*' has sub-type changes:
+      in pointed to type 'const pkgconf_dependency_t':
+        in unqualified underlying type 'typedef pkgconf_dependency_t' at libpkgconf.h:51:1:
+          underlying type 'struct pkgconf_dependency_' at libpkgconf.h:93:1 changed:
+            type size changed from 576 to 448 (in bits)
+            2 data member deletions:
+              'pkgconf_pkg_t* match', at offset 448 (in bits) at libpkgconf.h:100:1
+              'unsigned int flags', at offset 512 (in bits) at libpkgconf.h:102:1
+            no data member change (1 filtered);
+
+  [C] 'function pkgconf_pkg_t* pkgconf_cache_lookup(pkgconf_client_t*, const char*)' at cache.c:46:1 has some indirect sub-type changes:
+    parameter 1 of type 'pkgconf_client_t*' changed:
+      in pointed to type 'typedef pkgconf_client_t':
+        entity changed from 'typedef pkgconf_client_t' to 'const pkgconf_client_t'
+        type size changed from 1728 to 1664 (in bits)
+
+  [C] 'function void pkgconf_client_init(pkgconf_client_t*, pkgconf_error_handler_func_t, void*, const pkgconf_cross_personality_t*)' at client.c:59:1 has some indirect sub-type changes:
+    parameter 4 of type 'const pkgconf_cross_personality_t*' was removed
+
+  [C] 'function pkgconf_client_t* pkgconf_client_new(pkgconf_error_handler_func_t, void*, const pkgconf_cross_personality_t*)' at client.c:109:1 has some indirect sub-type changes:
+    parameter 3 of type 'const pkgconf_cross_personality_t*' was removed
+
+  [C] 'function pkgconf_dependency_t* pkgconf_dependency_add(const pkgconf_client_t*, pkgconf_list_t*, const char*, const char*, pkgconf_pkg_comparator_t, unsigned int)' at dependency.c:102:1 has some indirect sub-type changes:
+    parameter 6 of type 'unsigned int' was removed
+
+  [C] 'function void pkgconf_dependency_parse(const pkgconf_client_t*, pkgconf_pkg_t*, pkgconf_list_t*, const char*, unsigned int)' at dependency.c:314:1 has some indirect sub-type changes:
+    parameter 5 of type 'unsigned int' was removed
+
+  [C] 'function void pkgconf_dependency_parse_str(const pkgconf_client_t*, pkgconf_list_t*, const char*, unsigned int)' at dependency.c:171:1 has some indirect sub-type changes:
+    parameter 4 of type 'unsigned int' was removed
+
+  [C] 'function void pkgconf_fragment_copy(const pkgconf_client_t*, pkgconf_list_t*, const pkgconf_fragment_t*, bool)' at fragment.c:347:1 has some indirect sub-type changes:
+    parameter 3 of type 'const pkgconf_fragment_t*' has sub-type changes:
+      in pointed to type 'const pkgconf_fragment_t':
+        in unqualified underlying type 'typedef pkgconf_fragment_t' at libpkgconf.h:53:1:
+          underlying type 'struct pkgconf_fragment_' at libpkgconf.h:84:1 changed:
+            type size changed from 384 to 320 (in bits)
+            1 data member deletion:
+              'bool merged', at offset 320 (in bits) at libpkgconf.h:90:1
+
+  [C] 'function bool pkgconf_fragment_parse(const pkgconf_client_t*, pkgconf_list_t*, pkgconf_list_t*, const char*)' at fragment.c:613:1 has some indirect sub-type changes:
+    return type changed:
+      type name changed from 'bool' to 'void'
+      type size changed from 8 to 0 (in bits)
+
+  [C] 'function char* pkgconf_fragment_render(const pkgconf_list_t*, bool, const pkgconf_fragment_render_ops_t*)' at fragment.c:545:1 has some indirect sub-type changes:
+    parameter 3 of type 'const pkgconf_fragment_render_ops_t*' was removed
+
+  [C] 'function void pkgconf_fragment_render_buf(const pkgconf_list_t*, char*, size_t, bool, const pkgconf_fragment_render_ops_t*)' at fragment.c:493:1 has some indirect sub-type changes:
+    parameter 5 of type 'const pkgconf_fragment_render_ops_t*' was removed
+
+  [C] 'function size_t pkgconf_fragment_render_len(const pkgconf_list_t*, bool, const pkgconf_fragment_render_ops_t*)' at fragment.c:465:1 has some indirect sub-type changes:
+    parameter 3 of type 'const pkgconf_fragment_render_ops_t*' was removed
+
+  [C] 'function pkgconf_pkg_t* pkgconf_pkg_ref(pkgconf_client_t*, pkgconf_pkg_t*)' at pkg.c:453:1 has some indirect sub-type changes:
+    parameter 1 of type 'pkgconf_client_t*' changed:
+      in pointed to type 'typedef pkgconf_client_t':
+        entity changed from 'typedef pkgconf_client_t' to 'const pkgconf_client_t'
+        type size changed from 1728 to 1664 (in bits)
+
+  [C] 'function unsigned int pkgconf_pkg_traverse(pkgconf_client_t*, pkgconf_pkg_t*, pkgconf_pkg_traverse_func_t, void*, int, unsigned int)' at pkg.c:1422:1 has some indirect sub-type changes:
+    parameter 6 of type 'unsigned int' was removed

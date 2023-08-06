@@ -1,0 +1,25 @@
+# change this to a URL to describe your container, or to get help
+url: https://singularity-hpc.readthedocs.io
+
+# change this to your GitHub alias (or another contact or name)
+maintainer: Dinosaur
+
+# Any custom features?
+# features:
+#  gpu: true
+
+# Put custom aliases here
+# aliases:
+#  echo: /usr/bin/echo
+
+# custom environment variables
+# env:
+#  breakfast: pancakes
+
+# A description to describe your container
+description: A custom container to do X.
+latest:
+  latest: sha256:c487a2d2489cd7538f36cd48d074b1778c86a85b8f10e2dd7d4ed42f048c278b
+tags:
+  latest: sha256:c487a2d2489cd7538f36cd48d074b1778c86a85b8f10e2dd7d4ed42f048c278b
+path: sha256:c487a2d2489cd7538f36cd48d074b1778c86a85b8f10e2dd7d4ed42f048c278b.sif
