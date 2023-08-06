@@ -1,0 +1,12 @@
+markdown_anki_decks/__init__.py,sha256=LGVQyDsWifdACo7qztwb8RWWHds1E7uQ-ZqD8SAjyw4,22
+markdown_anki_decks/cli.py,sha256=Sm49eWqw_GAg1_hUQ68iIc1PjnpZa8l1vBDDrKl973s,9916
+markdown_anki_decks/styles/markdown.css,sha256=y89zAsUX9iwAEEQSXHt9m7Ai4AsVEpaMSOWpJpmx18I,156
+markdown_anki_decks/styles/pygments-dark.css,sha256=_LajPpL1ynxRuubTaup-J3Kbspm-gpnchrO0snpGbi0,5413
+markdown_anki_decks/styles/pygments.css,sha256=YCKEsYMK1KbxOnlEiF0itm8av1Lzg7RQXXXP_IE_26E,4880
+markdown_anki_decks/sync.py,sha256=k__hwSifakzptCWO3GnBBgLb9ThAX_TTGxf5U9jygpo,5298
+markdown_anki_decks/utils.py,sha256=WxmlVFsRTJU01bzDNWIKYTdEWvViYo20wHiRaal4qOc,223
+markdown_anki_decks-1.1.0.dist-info/entry_points.txt,sha256=J_peicXWmGbJSg0cLq3xFXuisrQ3BynUD4pRAe3c3-I,59
+markdown_anki_decks-1.1.0.dist-info/LICENSE.txt,sha256=oFzgiQ7vQ1z9Xd1fEaTbdtJLzjg2ZizgyaNPKO_8Puo,1050
+markdown_anki_decks-1.1.0.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+markdown_anki_decks-1.1.0.dist-info/METADATA,sha256=V9dBtObVMsN6ICAVcp3PmynEeQzgg6Oagl2t-0jPkW8,12864
+markdown_anki_decks-1.1.0.dist-info/RECORD,,
