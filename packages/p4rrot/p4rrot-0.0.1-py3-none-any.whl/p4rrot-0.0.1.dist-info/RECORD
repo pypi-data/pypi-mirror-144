@@ -1,0 +1,15 @@
+p4rrot/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+p4rrot/checks.py,sha256=fce3cgxNspCaUAhgdvcQ_ShHY6R0FwXF6z9hv_-qI2c,544
+p4rrot/generator_tools.py,sha256=R3thTrE99_mU3GdTrJZn8W3BVNNTO_5kju1xc2f5qNQ,16280
+p4rrot/known_types.py,sha256=7_vNdmeMJfqNtEmK8wTB-PssYF1vlqLxMhTNBCG3PuM,2812
+p4rrot/standard_fields.py,sha256=CHZw0cOQyC8OCXAibTqo4RUO7y-G5PQrT0ugapMGOt8,917
+p4rrot/core/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+p4rrot/core/commands.py,sha256=DlMdZKCP9bFu8wjMjGS5U4dFnFMGzKQAPpYTg6Abkuc,23009
+p4rrot/core/stateful.py,sha256=e6RB2_3mGmUIYUMLZnsUW9DdxHMAWHLTzpBn0IxmZeY,7267
+p4rrot/tofino/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+p4rrot/v1model/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+p4rrot-0.0.1.dist-info/LICENSE,sha256=TX0DmijSLO08YaCB0Q-sckV46AwlardDmlrDmdx0Lv8,1071
+p4rrot-0.0.1.dist-info/METADATA,sha256=BuvcgwGM2SaWHS8OCKLOglWzMwAAVaGFqxBRvilMj7k,1409
+p4rrot-0.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+p4rrot-0.0.1.dist-info/top_level.txt,sha256=mTquloJB3buMWziTyoR-HiTkiAzHCAmv25CqOSFIJzI,7
+p4rrot-0.0.1.dist-info/RECORD,,
