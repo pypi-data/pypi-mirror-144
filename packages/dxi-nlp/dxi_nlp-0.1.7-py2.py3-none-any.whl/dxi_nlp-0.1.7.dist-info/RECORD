@@ -1,0 +1,12 @@
+dxi_nlp-0.1.7-py3.9-nspkg.pth,sha256=9oYsN_u6tExe30IvdcYxBAwlujNXVgKkxqYT4Tws-s8,544
+dxi_nlp/labelling/__init__.py,sha256=qOZ3lAtfrpUmFGWpgwH0Ekdi5GlReOInsAI0LCSMvzs,154
+dxi_nlp/labelling/dxi_labelbox.py,sha256=kYhe3IHPcnbTEIVGgDspv-02iGhhPF2jsgTQmEPFMCk,4314
+dxi_nlp/relevancy/__init__.py,sha256=qOZ3lAtfrpUmFGWpgwH0Ekdi5GlReOInsAI0LCSMvzs,154
+dxi_nlp/relevancy/relevancy_utils.py,sha256=0GZeQWVD1tNMtTTRX5qKx6kclIO1iRUM6kPG6t6539s,10406
+dxi_nlp/relevancy/sentence.py,sha256=sg4FzPD9_j87wFct9Xg5o8ZQlBl9eKZuv7isiBjcPaI,3615
+dxi_nlp-0.1.7.dist-info/LICENSE,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dxi_nlp-0.1.7.dist-info/METADATA,sha256=ONL1w6B45ACwEgo6Lzsgbl8yySSWiObnQ1NeJTzqI_s,545
+dxi_nlp-0.1.7.dist-info/WHEEL,sha256=WzZ8cwjh8l0jtULNjYq1Hpr-WCqCRgPr--TX4P5I1Wo,110
+dxi_nlp-0.1.7.dist-info/namespace_packages.txt,sha256=SSpQhHCVxTXFRXP028zC2rtbhCoJqxzW_KP6y761on8,8
+dxi_nlp-0.1.7.dist-info/top_level.txt,sha256=SSpQhHCVxTXFRXP028zC2rtbhCoJqxzW_KP6y761on8,8
+dxi_nlp-0.1.7.dist-info/RECORD,,
