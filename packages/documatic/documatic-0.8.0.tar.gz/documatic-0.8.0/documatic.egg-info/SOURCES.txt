@@ -1,0 +1,12 @@
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+documatic/__init__.py
+documatic/cli.py
+documatic.egg-info/PKG-INFO
+documatic.egg-info/SOURCES.txt
+documatic.egg-info/dependency_links.txt
+documatic.egg-info/entry_points.txt
+documatic.egg-info/requires.txt
+documatic.egg-info/top_level.txt

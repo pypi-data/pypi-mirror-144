@@ -1,0 +1,4 @@
+[console_scripts]
+documatic = documatic.cli:generate_documentation
+documatic-init = documatic.utils.config:create_config
+

@@ -1,0 +1,5 @@
+requests
+python-dotenv
+toml
+doculog>=0.1.11
+astunparse

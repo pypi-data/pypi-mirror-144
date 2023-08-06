@@ -1,0 +1,14 @@
+[tool.isort]
+profile = "black"
+
+[tool.pytest.ini_options]
+markers = ["integration: marks integration tests"]
+
+[tool.documatic]
+name = "Documatic"
+local = true
+srcdir = "documatic"
+package = "documatic"
+
+[tool.doculog]
+name = "CHANGELOG"
