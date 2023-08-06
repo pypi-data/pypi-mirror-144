@@ -1,0 +1,15 @@
+bioc==1.2.3
+docstringtest
+fasteners
+future
+intervaltree
+lxml
+networkx
+numpy
+pytest_socket
+scikit-learn
+scipy
+six
+spacy
+sphinx==1.5.5
+sphinx_rtd_theme

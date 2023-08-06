@@ -1,0 +1,6 @@
+setup.py
+smart_kindred.egg-info/PKG-INFO
+smart_kindred.egg-info/SOURCES.txt
+smart_kindred.egg-info/dependency_links.txt
+smart_kindred.egg-info/requires.txt
+smart_kindred.egg-info/top_level.txt
