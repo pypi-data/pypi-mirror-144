@@ -1,0 +1,6 @@
+setup.py
+smart_SGRAF.egg-info/PKG-INFO
+smart_SGRAF.egg-info/SOURCES.txt
+smart_SGRAF.egg-info/dependency_links.txt
+smart_SGRAF.egg-info/requires.txt
+smart_SGRAF.egg-info/top_level.txt
