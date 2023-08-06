@@ -1,0 +1,11 @@
+README.md
+setup.py
+batchfilerename/__init__.py
+batchfilerename/rename.py
+batchfilerename.egg-info/PKG-INFO
+batchfilerename.egg-info/SOURCES.txt
+batchfilerename.egg-info/dependency_links.txt
+batchfilerename.egg-info/entry_points.txt
+batchfilerename.egg-info/top_level.txt
+batchfilerename/../description.txt
+batchfilerename/img/logo.gif
