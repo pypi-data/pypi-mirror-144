@@ -1,0 +1,6 @@
+setup.py
+src/m_parse.egg-info/PKG-INFO
+src/m_parse.egg-info/SOURCES.txt
+src/m_parse.egg-info/dependency_links.txt
+src/m_parse.egg-info/entry_points.txt
+src/m_parse.egg-info/top_level.txt
