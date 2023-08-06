@@ -1,0 +1,3 @@
+[build-system]
+requires = ["setuptools>=42", "pymongo>=4"]
+build-backend = "setuptools.build_meta"
