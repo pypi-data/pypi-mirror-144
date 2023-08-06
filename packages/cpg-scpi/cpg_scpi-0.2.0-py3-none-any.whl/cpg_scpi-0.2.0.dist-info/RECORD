@@ -1,0 +1,8 @@
+cpg_scpi/__init__.py,sha256=GRJXoqYMvW18PRRKnBwVG7jmBZT1mYYd2dLs5GUusFI,78833
+cpg_scpi/__main__.py,sha256=WYfDR7tIskB-WpCDu7HOyLWD9-LaQgQl_7NoAFy2xaA,42
+cpg_scpi/test/__init__.py,sha256=MTcH3wbTzlNi4ognvKyghAnSQW0M3tcJu5sUcHA0X-4,7763
+cpg_scpi-0.2.0.dist-info/LICENSE,sha256=1LKs2rAKo7uwS2fooezzK-NpG7kUwUGYCVmnvBkpBL4,1089
+cpg_scpi-0.2.0.dist-info/METADATA,sha256=Kzenf-1qZh8zbL_845Ud6WucB3bpx58tI333MTb1j3I,1913
+cpg_scpi-0.2.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+cpg_scpi-0.2.0.dist-info/top_level.txt,sha256=QUTubmkUYiF5phEb5dlIJ6ufC7QNTwfcoTsM7gGo_o4,9
+cpg_scpi-0.2.0.dist-info/RECORD,,
