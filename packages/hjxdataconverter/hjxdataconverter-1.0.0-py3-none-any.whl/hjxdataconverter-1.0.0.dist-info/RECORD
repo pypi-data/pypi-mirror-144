@@ -1,0 +1,11 @@
+programs/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+programs/excel2json.py,sha256=5oxgozz5mKVhN_l_TYqsr9GXfepkn8FJzZw7L17FhH0,1494
+programs/hjxdataconverter.py,sha256=UVmHragH7WXvxjD1lidFf9yF_Y7HL92BaImkzgCXvYs,282
+programs/html2json.py,sha256=Sh8WkA6ppNuPsoy2hjJGayxlA1v5SlPn2OPoJ3OscuE,1285
+programs/json2excel.py,sha256=dU0RGM-_X2NyhzZ1ZlCwEIpyFkBcRIxATqJ8NS3a4Kw,2269
+programs/json2html.py,sha256=ngyr7wLhTTQGgfO9QUHXE1Oz4HLYB21dT46Mk7DjkLQ,1777
+hjxdataconverter-1.0.0.dist-info/METADATA,sha256=9CZNpQIceZAT8EwQYfSpx8lkRwxST7G_vg75GV6qcH8,2020
+hjxdataconverter-1.0.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+hjxdataconverter-1.0.0.dist-info/entry_points.txt,sha256=OZk9z0squkHHsRV3IqMVhKW9WUbri3h6sMZQpefvTCs,217
+hjxdataconverter-1.0.0.dist-info/top_level.txt,sha256=jAvVenQxEA7YbmRQRpem92Hf0op-dJxHhI3E4jwlQF0,9
+hjxdataconverter-1.0.0.dist-info/RECORD,,
