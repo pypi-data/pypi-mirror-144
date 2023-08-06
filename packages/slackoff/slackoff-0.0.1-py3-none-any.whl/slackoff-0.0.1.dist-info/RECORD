@@ -1,0 +1,13 @@
+slackoff/__init__.py,sha256=R043xQLb9NbNZ5rL5VPwsnuJ8FOArNbPhxpKL9JTu4I,183
+slackoff/__main__.py,sha256=yhA0IdJ-Ab7IemDzUUuAAkAqhJwwpaRRXEFuBrIEdYA,113
+slackoff/cli.py,sha256=3is_b9winLCZus1DL15bz_n5kbmdLsJUHF2GBXhKO40,468
+slackoff/slack.applescript,sha256=RhQkYw-4auXwEaO6gkd4ipjLaNBiqFgPGuyXWKpShwY,479
+slackoff/tests/__init__.py,sha256=LURUPwwDqcFmVe1XvEzadPdXxro8RdEF-rTaMw-AfiI,34
+slackoff/tests/conftest.py,sha256=EffQgj1CGLH_NMojxA65U-shHYJ4UD_nlrPMsz7etBQ,267
+slackoff/tests/test_utils.py,sha256=80QFlsYz6oKaH5cQsEWlEPkuN8yxuyfsfxZ5SCLYolg,261
+slackoff/utils.py,sha256=vxJzpWAXUzn_kidLzQRVInUqpZNi9awUH44LfPfmDsk,462
+slackoff-0.0.1.dist-info/entry_points.txt,sha256=63N2Dk5_nmsdX2fYt8Vn0aT94-ecY41QVJMYnaVBh5M,46
+slackoff-0.0.1.dist-info/LICENSE.md,sha256=w4evPEzBMLuQrlEfZxfdTNcTGHI-NVr1ElO0ndJxjuE,1088
+slackoff-0.0.1.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+slackoff-0.0.1.dist-info/METADATA,sha256=iYPen_LJLSfYm9M_t1PvLbqrDUxRclNToy4eqkRwC34,2332
+slackoff-0.0.1.dist-info/RECORD,,
