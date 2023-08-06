@@ -1,0 +1,2 @@
+mozilla_django_oidc
+rest_framework_simplejwt
