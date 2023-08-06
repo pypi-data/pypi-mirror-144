@@ -1,0 +1,5 @@
+graphql-core==3.1.0
+python-gql==0.0.17
+starlette==0.13.3
+typing-extensions==3.7.4.2
+gql-subscriptions==0.0.2

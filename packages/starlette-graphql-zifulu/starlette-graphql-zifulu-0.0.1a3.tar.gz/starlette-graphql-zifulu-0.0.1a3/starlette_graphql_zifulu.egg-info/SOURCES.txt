@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+stargql/__init__.py
+stargql/__version__.py
+stargql/applications.py
+stargql/subscription.py
+starlette_graphql_zifulu.egg-info/PKG-INFO
+starlette_graphql_zifulu.egg-info/SOURCES.txt
+starlette_graphql_zifulu.egg-info/dependency_links.txt
+starlette_graphql_zifulu.egg-info/requires.txt
+starlette_graphql_zifulu.egg-info/top_level.txt
