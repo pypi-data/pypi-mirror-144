@@ -1,0 +1,12 @@
+allianceauth_graphql/__init__.py,sha256=mfGxf2X6iSOWAZv8TupkiG--0yAb_khQcS7qWaQKvWA,139
+allianceauth_graphql/admin.py,sha256=suMo4x8I3JBxAFBVIdE-5qnqZ6JAZV0FESABHOSc-vg,63
+allianceauth_graphql/apps.py,sha256=hxF5HHQA5hvlqijALlhFHSl-rBMVMkR2fbPGweec2D0,171
+allianceauth_graphql/models.py,sha256=Vjc0p2XbAPgE6HyTF6vll98A4eDhA5AvaQqsc4kQ9AQ,57
+allianceauth_graphql/authentication/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+allianceauth_graphql/migrations/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+allianceauth_graphql-0.1.0.dist-info/AUTHORS.rst,sha256=R1NNfTFfa0GzHtEjdFgaCYVux76H4TtVBvpZsWXz-kE,157
+allianceauth_graphql-0.1.0.dist-info/LICENSE,sha256=YHFG5CseG2L6HEpflMB3Fpch22hK3WVs1AsnNCfVpLc,1550
+allianceauth_graphql-0.1.0.dist-info/METADATA,sha256=x3pJXUJC_Yyx_qpVj8f1ogJqdTCB1BCWapdiGKuUzGg,1902
+allianceauth_graphql-0.1.0.dist-info/WHEEL,sha256=8zNYZbwQSXoB9IfXOjPfeNwvAsALAjffgk27FqvCWbo,110
+allianceauth_graphql-0.1.0.dist-info/top_level.txt,sha256=7-IqhzKocE1UwwSQ3BUAllvI-GPvTO2hjKMF1hao0s4,21
+allianceauth_graphql-0.1.0.dist-info/RECORD,,
