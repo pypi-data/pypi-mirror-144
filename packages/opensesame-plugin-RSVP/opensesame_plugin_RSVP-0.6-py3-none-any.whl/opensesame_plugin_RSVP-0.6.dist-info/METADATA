@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: opensesame-plugin-RSVP
+Version: 0.6
+Summary: Add an RSVP task to an OpenSesame experiment
+Home-page: https://github.com/robbertmijn/opensesame-plugin-RSVP
+Author: Robbert van der Mijn
+Author-email: robbertmijn@gmail.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/robbertmijn/opensesame-plugin-RSVP/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+UNKNOWN
+
