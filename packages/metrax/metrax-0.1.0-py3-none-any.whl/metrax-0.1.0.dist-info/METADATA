@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: metrax
+Version: 0.1.0
+Summary: 
+Home-page: https://github.com/monatis/metrax
+Keywords: metrax
+Author: Yusuf Sarıgöz
+Author-email: yusufsarigoz@gmail.com
+Requires-Python: >=3.9,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.9
+Project-URL: Repository, https://github.com/monatis/metrax
+Description-Content-Type: text/markdown
+
+## metrax
+
+
