@@ -1,0 +1,35 @@
+[tool.poetry]
+name = "secretfs"
+version = "0.1.0"
+description = "SecretFS is a security focused FUSE filesystem providing fine-grained access control to application secrets in a hardened Linux, MacOS, and FreeBSD."
+authors = ["Oscar Ibatullin <oscar.ibatullin@gmail.com>"]
+license = "BSD-3-Clause"
+readme = "README.md"
+homepage = "https://github.com/obormot/secretfs"
+repository = "https://github.com/obormot/secretfs"
+exclude = ["secretfs/demo/*"]
+
+keywords = ["security", "secrets", "fuse", "filesystem"]
+classifiers = [
+    "Environment :: Console",
+    "Operating System :: MacOS",
+    "Operating System :: POSIX :: Linux",
+    "Operating System :: POSIX :: BSD :: FreeBSD",
+    "Topic :: System :: Filesystems",
+    "Topic :: Security"
+]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+psutil = "^5.9.0"
+fusepy = "^3.0.0"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[tool.poetry.scripts]
+secretfs = 'secretfs:main'
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
