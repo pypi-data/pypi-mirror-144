@@ -1,0 +1,15 @@
+personmatchmodule/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+personmatchmodule/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+personmatchmodule/logics/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+personmatchmodule/logics/rules_generator.py,sha256=FlhzIby-_AJAeqSVob5Fvi_A1MvjVl6iJwyqb3J2cKg,10047
+personmatchmodule/logics/score_calculator.py,sha256=kLqVNQyRYHvUlKTOO8EN-BAGzcCxpSYxYdN95LerefI,2872
+personmatchmodule/models/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+personmatchmodule/models/constants.py,sha256=1--TiL0LJJgea2485M8ZG0OsgfV_Rl5bP_yXER2E_ME,2581
+personmatchmodule/models/rule.py,sha256=e_d_auPWIzE8tLjoyOqQCTt9uHJOOUyCbfGDFZ8gs7A,394
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_person_one_to_one_match.py,sha256=VoMSoXe19XV8ewswjidFWfvgwyJotNC2rMwa8RMWIVs,4108
+person_match_module-0.1.4.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+person_match_module-0.1.4.dist-info/METADATA,sha256=kdnclQkq05cs8P0bdo8YYdIZTzM72IGVQ2Z13MVpwsg,675
+person_match_module-0.1.4.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+person_match_module-0.1.4.dist-info/top_level.txt,sha256=FeAPBAAvPR1z4vw2ICGfBoQ7EwGgBgO0WyjtkzbWzPg,24
+person_match_module-0.1.4.dist-info/RECORD,,

@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: person-match-module
+Version: 0.1.4
+Summary: person match module
+Home-page: https://github.com/icanbwell/person-match-module
+Author: ChangSu
+Author-email: changsu.lee@icanbwell.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy (>=1.21.5)
+Requires-Dist: rapidfuzz (>=2.0.7)
+
+# person-match-module
+This is a Python module for matching FHIR Person data
+
+
