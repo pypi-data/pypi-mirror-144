@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: ufh
+Version: 1.0.1
+Summary: A package to redact unturned dat files
+Home-page: https://github.com/UntFileHelper/UFH.git
+Author: Cobalt-A
+Author-email: nikitos.eng@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.10
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# UFH
+
