@@ -1,0 +1,13 @@
+Pillow
+bs4
+click
+cryptography
+lxml
+openpyxl==2.5.14
+pyaes
+pyexcel
+pyexcel-xls
+pyexcel-xlsx
+pyscrypt
+sqlparse
+tabulate
