@@ -1,0 +1,8 @@
+model/__init__.py,sha256=fT6VEfEKVspyvPXgo6WTgDimPA3yVj6tX2vHmCCNoI8,79
+model/motif_counting.py,sha256=XS0FnX_rUcHb7TbqHb535KB7ovw-FyTIPV7tgXAJI3I,6434
+model/motif_list.py,sha256=Y-27IU4c3r0-da5dSezPT3Z9npL1UGK9BYTlC2suoAQ,11493
+motifcal-0.0.2.dist-info/LICENSE.txt,sha256=n_ynWDdiyjIG1DVbSzkKrShpbgsnntOazJdAhdN5p2Q,1093
+motifcal-0.0.2.dist-info/METADATA,sha256=EbcVJLaquTafTG4lrjM-jxPj6dbWO9M47VXHw9tK03U,613
+motifcal-0.0.2.dist-info/WHEEL,sha256=8zNYZbwQSXoB9IfXOjPfeNwvAsALAjffgk27FqvCWbo,110
+motifcal-0.0.2.dist-info/top_level.txt,sha256=mK1hol42g7at8kdLAbvhwn3mqtLOOoD_QUD-RzwU5pE,6
+motifcal-0.0.2.dist-info/RECORD,,
