@@ -1,0 +1,8 @@
+antchain_sdk_mq/__init__.py,sha256=z53h7h85asJsJUVEo4JM0thOJsClcUDRF2uUtyUVpck,22
+antchain_sdk_mq/client.py,sha256=3jI3G5kXlX0Vpe3uTgH8ledaPCgO_0pvZ6Gz-SB3Q4w,585423
+antchain_sdk_mq/models.py,sha256=POHOUYR3caIgZpcqeuEvsIUCoDH06Kyk_wIIe4-J-Pk,1331014
+antchain_mq-3.8.22.dist-info/LICENSE,sha256=0CFItL6bHvxqS44T6vlLoW2R4Zaic304OO3WxN0oXF0,600
+antchain_mq-3.8.22.dist-info/METADATA,sha256=piGohli2LvciXTcnbyyzEqHOXiIr-jvIlaHdxxPPshY,1995
+antchain_mq-3.8.22.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+antchain_mq-3.8.22.dist-info/top_level.txt,sha256=u_QiXmdn7zigHxMUbS-8n_ZL4FlhLYX5dm3VEwYjdc4,16
+antchain_mq-3.8.22.dist-info/RECORD,,
