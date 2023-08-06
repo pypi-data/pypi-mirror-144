@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: pca9536-driver
+Version: 0.1.0
+Summary: Python driver for PCA9536 GPIO expander
+License: BSD 3-Clause License
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Topic :: System :: Hardware :: Hardware Drivers
+Classifier: Typing :: Typed
+License-File: LICENSE
+Requires-Dist: smbus2 (>=0.3.0)
+
+# pca9536-driver
+Python driver for PCA9536 GPIO expander
+
+
