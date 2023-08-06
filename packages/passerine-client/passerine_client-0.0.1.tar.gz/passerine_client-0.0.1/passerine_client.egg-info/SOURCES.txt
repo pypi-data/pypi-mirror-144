@@ -1,0 +1,15 @@
+MANIFEST.in
+openapi_client_README.md
+pyproject.toml
+setup.py
+openapi_client/__init__.py
+openapi_client/api_client.py
+openapi_client/configuration.py
+openapi_client/exceptions.py
+openapi_client/model_utils.py
+openapi_client/rest.py
+passerine_client.egg-info/PKG-INFO
+passerine_client.egg-info/SOURCES.txt
+passerine_client.egg-info/dependency_links.txt
+passerine_client.egg-info/requires.txt
+passerine_client.egg-info/top_level.txt
