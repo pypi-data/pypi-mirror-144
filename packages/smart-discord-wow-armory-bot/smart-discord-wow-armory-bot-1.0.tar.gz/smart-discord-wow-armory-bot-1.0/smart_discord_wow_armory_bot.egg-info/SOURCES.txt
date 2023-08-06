@@ -1,0 +1,6 @@
+setup.py
+smart_discord_wow_armory_bot.egg-info/PKG-INFO
+smart_discord_wow_armory_bot.egg-info/SOURCES.txt
+smart_discord_wow_armory_bot.egg-info/dependency_links.txt
+smart_discord_wow_armory_bot.egg-info/requires.txt
+smart_discord_wow_armory_bot.egg-info/top_level.txt
