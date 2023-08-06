@@ -1,0 +1,11 @@
+LICENSE.md
+README.md
+setup.py
+NN4MSP/__init__.py
+NN4MSP/dataset.py
+NN4MSP/functions.py
+NN4MSP.egg-info/PKG-INFO
+NN4MSP.egg-info/SOURCES.txt
+NN4MSP.egg-info/dependency_links.txt
+NN4MSP.egg-info/requires.txt
+NN4MSP.egg-info/top_level.txt
