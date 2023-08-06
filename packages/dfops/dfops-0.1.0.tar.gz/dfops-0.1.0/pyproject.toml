@@ -1,0 +1,95 @@
+[tool.poetry]
+name = "dfops"
+version = "0.1.0"
+description = ""
+authors = ["Aviv Brook <avivbrook@gmail.com>"]
+packages = [
+    { include="dfops", from="src" }
+]
+include = [
+    { path = "tests", format = "sdist" },
+]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+
+PyYAML = "^6.0"
+identify = "^2.4.12"
+
+[tool.poetry.dev-dependencies]
+pre-commit = "^2.17.0"
+
+# Formatters
+black = "^22.3.0"
+isort = "^5.10.1"
+pyupgrade = "^2.31.1"
+
+# Typecheck
+mypy = "^0.942"
+
+# Lint
+pylint = "^2.13.4"
+
+# Test
+pytest = "^7.1.1"
+types-PyYAML = "^6.0.5"
+
+[tool.poetry.scripts]
+dfops = "dfops._internal.cli:main"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.black]
+target-version = ["py38"]
+
+[tool.isort]
+py_version = 38
+profile = "black"
+known_first_party = ["dfops"]
+
+atomic = true
+combine_as_imports = true
+combine_star = true
+remove_redundant_aliases = true
+color_output = true
+#add_imports = ["from __future__ import annotations"]
+
+[tool.pytest.ini_options]
+addopts = "-sra"
+testpaths = ["tests"]
+
+[tool.pylint.MASTER]
+jobs = 0
+py-version = 3.8
+
+[tool.pylint.'MESSAGES CONTROL']
+disable = ["missing-module-docstring", "missing-function-docstring", "missing-class-docstring"]
+
+[tool.pylint.BASIC]
+good-names = ["i", "id"]
+
+[tool.mypy]
+#mypy_path = "src"
+#custom_typing_module = "dfops._internal.types"
+python_version = "3.8"
+files = ["src", "tests"]
+
+disallow_untyped_defs = true
+no_implicit_optional = true
+disallow_any_generics = true
+show_error_codes = true
+warn_unused_ignores = true
+
+[[tool.mypy.overrides]]
+module = "tests.*"
+disallow_any_generics = false
+
+[[tool.mypy.overrides]]
+module = "dfops._internal.types.compat"
+ignore_errors = true
+
+[[tool.mypy.overrides]]
+module = "identify.*"
+ignore_missing_imports = true
