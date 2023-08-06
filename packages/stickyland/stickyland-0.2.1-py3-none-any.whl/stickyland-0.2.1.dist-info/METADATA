@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: stickyland
+Version: 0.2.1
+Summary: UNKNOWN
+Home-page: https://github.com/xiaohk/stickyland
+Author: Jay Wang
+Author-email: jay@zijie.wang
+License: BSD-3-Clause
+Keywords: Jupyter,JupyterLab,JupyterLab3
+Platform: Linux
+Platform: Mac OS X
+Platform: Windows
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Framework :: Jupyter
+Classifier: Framework :: Jupyter :: JupyterLab
+Classifier: Framework :: Jupyter :: JupyterLab :: 3
+Classifier: Framework :: Jupyter :: JupyterLab :: Extensions
+Classifier: Framework :: Jupyter :: JupyterLab :: Extensions :: Prebuilt
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: jupyterlab-stickyland
+
+This package is an alias package for [jupyterlab-stickyland](https://pypi.org/project/jupyterlab-stickyland/)
+
+See this [pypi page](https://pypi.org/project/jupyterlab-stickyland/) for more information: https://pypi.org/project/jupyterlab-stickyland/
+
+
