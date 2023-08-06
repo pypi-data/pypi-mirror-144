@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "subprocess-middleware-c4"
+version = "0.4.0.0b0"
+description = "Subprocess WSGI middleware and Pyramid tween."
+authors = ['4dn-dcic']
+packages = [
+    { include="subprocess_middleware", from="src"}
+]
+
+[tool.poetry.dependencies]
+python = ">=3.7,<3.8"
+WebOb = "^1.8.7"
+
+[tool.poetry.dev-dependencies]
+WebTest = "^3.0.0"
+pyramid = "^2.0"
+pytest = "^7.1.1"
