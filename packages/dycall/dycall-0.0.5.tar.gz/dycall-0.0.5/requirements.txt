@@ -1,0 +1,11 @@
+appdirs
+cxxfilt
+darkdetect
+desktop-app
+EasySettings
+importlib_metadata; python_version<"3.8"
+lief
+pywin32; platform_system == "Windows"
+tkinter-tooltip
+tksheet
+ttkbootstrap
