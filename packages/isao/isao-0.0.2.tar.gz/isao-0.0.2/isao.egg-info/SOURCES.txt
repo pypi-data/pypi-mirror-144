@@ -1,0 +1,5 @@
+setup.py
+isao.egg-info/PKG-INFO
+isao.egg-info/SOURCES.txt
+isao.egg-info/dependency_links.txt
+isao.egg-info/top_level.txt
