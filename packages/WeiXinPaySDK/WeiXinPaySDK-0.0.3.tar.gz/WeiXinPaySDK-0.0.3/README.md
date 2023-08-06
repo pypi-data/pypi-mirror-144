@@ -1,0 +1,141 @@
+# WeiXinPaySDK
+
+#### 介绍
+WeiXinPaySDK是基于微信支付开发的sdk
+
+### v2支付demo
+```python
+# -*- coding: utf-8 -*-
+
+from flask import Flask
+from WeiXinPaySDK.v2 import Weixin
+
+app = Flask(__name__)
+app.debug = True
+
+# 具体导入配
+# 根据需求导入仅供参考
+app.config.from_object(
+    dict(WEIXIN_APP_ID="", WEIXIN_APP_SECRET="", WEIXIN_MCH_ID="",
+         WEIXIN_MCH_KEY="", WEIXIN_NOTIFY_URL=""))
+
+# 初始化微信
+weixin = Weixin()
+weixin.init_app(app)
+
+
+@app.route("/pay")
+def pay():
+    data = {
+        "out_trade_no": "",
+        "body": "",
+        "total_fee": 1,
+        "trade_type": "NATIVE",
+        "product_id": "",
+        "notify_url": "",
+    }
+    res = weixin.unified_order(**data)
+    return res
+
+
+if __name__ == '__main__':
+    app.run()
+
+
+```
+
+### v3支付demo
+```python
+import qrcode
+import json
+import logging
+import os
+from io import BytesIO
+from random import sample
+from string import ascii_letters, digits
+from flask import Flask, jsonify, request, Response
+from WeiXinPaySDK.v3 import SignType, WeChatPay, WeChatPayType
+
+# 微信支付商户号（直连模式）或服务商商户号（服务商模式，即sp_mchid)
+MCHID = '12344567789'
+
+# 商户证书私钥
+with open('/path/to/apiclient_key.pem') as f:
+    PRIVATE_KEY = f.read()
+
+# 商户证书序列号
+CERT_SERIAL_NO = '4E81234E012345C4FEDA6BB571E9A5C6E8A191B6'
+
+# API v3密钥， https://pay.weixin.qq.com/wiki/doc/apiv3/wechatpay/wechatpay3_2.shtml
+APIV3_KEY = 'D8EpmvblVs4pimYE6uAK0rTciGN6Wnc8'
+
+# APPID，应用ID或服务商模式下的sp_appid
+APPID = 'wxce8b07245e345679'
+
+# 回调地址，也可以在调用接口的时候覆盖
+NOTIFY_URL = 'https://www.baidu.com/'
+
+# 微信支付平台证书缓存目录，减少证书下载调用次数
+# 初始调试时可不设置，调试通过后再设置，示例值:'./cert'
+CERT_DIR = None
+
+# 接入模式:False=直连商户模式，True=服务商模式
+PARTNER_MODE = False
+
+# 日志记录器，记录web请求和回调细节
+logging.basicConfig(filename=os.path.join(os.getcwd(), 'demo.log'), level=logging.DEBUG, filemode='a',
+                    format='%(asctime)s - %(process)s - %(levelname)s: %(message)s')
+LOGGER = logging.getLogger("demo")
+
+# 代理设置，None或者{"https": "http://10.10.1.10:1080"}，详细格式参见https://docs.python-requests.org/zh_CN/latest/user/advanced.html
+PROXY = None
+
+# 初始化
+wxpay = WeChatPay(
+    wechatpay_type=WeChatPayType.NATIVE,
+    mchid=MCHID,
+    private_key=PRIVATE_KEY,
+    cert_serial_no=CERT_SERIAL_NO,
+    apiv3_key=APIV3_KEY,
+    appid=APPID,
+    notify_url=NOTIFY_URL,
+    cert_dir=CERT_DIR,
+    logger=LOGGER,
+    partner_mode=PARTNER_MODE,
+    proxy=PROXY)
+
+app = Flask(__name__)
+app.debug = True
+
+
+@app.route('/pay')
+def pay():
+    # 以native下单为例，下单成功后即可获取到'code_url'，将'code_url'转换为二维码，并用微信扫码即可进行支付测试。
+    out_trade_no = ''.join(sample(ascii_letters + digits, 8))
+    description = 'demo-description'
+    amount = 1
+    code, message = wxpay.pay(
+        description=description,
+        out_trade_no=out_trade_no,
+        amount={'total': amount}
+    )
+    code = json.loads(message)
+    code_url = code.get("code_url")
+    qc = qrcode.QRCode(version=1,
+                       error_correction=qrcode.constants.ERROR_CORRECT_H,
+                       box_size=10,
+                       border=1)
+    qc.add_data(code_url)
+    img = qc.make_image()
+    byte_io = BytesIO()
+    img.save(byte_io, 'PNG')
+    # return jsonify({'code': code, 'message': message})
+    # return app.response_class(byte_io, mimetype='image/png')
+    response = Response(byte_io.getvalue(), content_type='image/png')
+    response.headers["Content-Type"] = 'images/png'
+    response.headers["Content-disposition"] = 'attachment; filename=%s' % "code.png"  # 如果不加上这行代码，导致下图的问题
+    return response
+
+if __name__ == '__main__':
+    app.run()
+```
