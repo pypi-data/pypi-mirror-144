@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: pyrepo-mcda
+Version: 0.0.2
+Summary: Package with Methods for Multi-Criteria Decision Analysis
+Home-page: https://github.com/energyinpython/pyrepo-mcda
+Author: Aleksandra Bączkiewicz
+Author-email: aleksandra.baczkiewicz@phd.usz.edu.pl
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.4
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: pandas
+
+# pyrepo-mcda
+
+The Python 3 library for Multi-Criteria Decision Analysis. Documentation of this library with instruction of installation and usage is 
+provided [here](https://pyrepo-mcda.readthedocs.io/en/latest/)
+
