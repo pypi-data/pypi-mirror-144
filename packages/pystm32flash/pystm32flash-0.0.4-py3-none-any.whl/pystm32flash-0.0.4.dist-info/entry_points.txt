@@ -1,0 +1,3 @@
+[console_scripts]
+pystm32flash = pystm32flash.tools:flash_cmd
+
