@@ -1,0 +1,3 @@
+[console_scripts]
+blogin = blogin.__init__:blogin
+
