@@ -1,0 +1,11 @@
+nlp_analyser/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+nlp_analyser/analyser.py,sha256=_7ScKAA39rCNLiUCkJ-DGI7ESh_Hq6ybyJkvW2CFZEs,9273
+nlp_analyser/cli.py,sha256=CeqDZ7SpQ7f0Czyr3kxjc0I3K9x4k-rYgpzal9x14Pc,3071
+nlp_analyser/converter.py,sha256=KFlfAkjb4TZ6CEi-JtqlKK08dNWh52O6AN0M3egMfKM,483
+nlp_analyser/gui.py,sha256=GNHWndg0IS4WlGH_xY3B-KgVz8ronylXAgeDLZ2bSGo,10924
+nlp_analyser/utils.py,sha256=WersQhAM4AIhHDOASIends1V4ZLqj0OmXUS1QOFQtZ4,1363
+botpress_analyser-0.1.3.dist-info/entry_points.txt,sha256=2DUQ5i2WWM6S65m-7xtueRxxebhb_MQ3trqsJHzxXFY,53
+botpress_analyser-0.1.3.dist-info/LICENSE,sha256=21Lj2q2SYKHMY4768_a3pr3q0jY2VYamAHipoodhMDc,34273
+botpress_analyser-0.1.3.dist-info/WHEEL,sha256=FMw6u7Kp3jrdDDtJRZ3hkPV-9adLQT8pbM4iifKUGfw,85
+botpress_analyser-0.1.3.dist-info/METADATA,sha256=50gXOAvO_FJ-F6jYhfhnenXuCNNxZvW5UQImLJ7GaSA,4253
+botpress_analyser-0.1.3.dist-info/RECORD,,
