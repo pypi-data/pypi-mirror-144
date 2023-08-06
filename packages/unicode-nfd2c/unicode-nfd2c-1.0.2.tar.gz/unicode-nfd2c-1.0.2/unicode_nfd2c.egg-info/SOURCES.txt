@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+nfd2c/__init__.py
+nfd2c/__main__.py
+nfd2c/nfd2c.py
+unicode_nfd2c.egg-info/PKG-INFO
+unicode_nfd2c.egg-info/SOURCES.txt
+unicode_nfd2c.egg-info/dependency_links.txt
+unicode_nfd2c.egg-info/entry_points.txt
+unicode_nfd2c.egg-info/top_level.txt
