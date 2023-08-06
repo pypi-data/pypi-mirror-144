@@ -1,0 +1,73 @@
+# HJXDataConverter
+
+Python command line program for converting data between json, html and excel. We have four different commands: `excel2json`, `json2excel`, `html2json`, and `json2html`.
+
+## `excel2json`
+`excel2json` converts an excel document to a json file.
+
+### Usage:
+```
+excel2json inputfile outputfile
+```
+where the inputfile can be an excel file, path or url, and the outputfile is the name of the json file which will be created.
+
+### Example:
+```
+excel2json file.xlsx file.json
+```
+```
+excel2json https://url file.json
+```
+
+
+## `json2excel`
+`json2excel` converts a json file to an excel document.
+
+### Usage:
+```
+json2excel inputfile outputfile
+```
+where the inputfile can be a json file, path or url, and the outputfile is the name of the excel document which will be created.
+
+### Example:
+```
+json2excel file.json file.xlsx
+```
+```
+json2excel https://url file.xlsx
+```
+
+
+## `html2json`
+`html2json` converts a html file to a json file.
+
+### Usage:
+```
+html2json inputfile outputfile
+```
+where the inputfile can be a html file, path or url, and the outputfile is the name of the json file which will be created.
+
+### Example:
+```
+excel2json file.html file.json
+```
+```
+excel2json https://url file.json
+```
+
+## `json2html`
+`json2html` converts a json file to a html file.
+
+### Usage:
+```
+excel2json inputfile outputfile
+```
+where the inputfile can be a json file, path or url, and the outputfile is the name of the html file which will be created.
+
+### Example:
+```
+json2html file.json file.html
+```
+```
+json2html https://url file.html
+```
