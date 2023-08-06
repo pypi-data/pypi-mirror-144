@@ -1,0 +1,5 @@
+pytest
+pytest-cov
+mypy==0.812
+twine
+freezegun
