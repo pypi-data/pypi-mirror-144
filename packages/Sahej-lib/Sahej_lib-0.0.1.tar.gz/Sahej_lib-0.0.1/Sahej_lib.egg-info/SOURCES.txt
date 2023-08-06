@@ -1,0 +1,10 @@
+setup.py
+Sahej_lib.egg-info/PKG-INFO
+Sahej_lib.egg-info/SOURCES.txt
+Sahej_lib.egg-info/dependency_links.txt
+Sahej_lib.egg-info/not-zip-safe
+Sahej_lib.egg-info/top_level.txt
+sahejlib/__init__.py
+sahejlib/math_funcs.py
+sahejlib/num_theory.py
+sahejlib/other.py
