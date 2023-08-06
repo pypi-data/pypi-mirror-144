@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: nerb
+Version: 0.0.1
+Summary: Named Entity Regex Builder (NERB): Streamlining named capture groups
+Home-page: UNKNOWN
+Author: Johnny Greco
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.8
+License-File: LICENSE
+Requires-Dist: pyyaml (==6.0)
+Provides-Extra: tests
+Requires-Dist: pytest ; extra == 'tests'
+Requires-Dist: mypy ; extra == 'tests'
+
+UNKNOWN
+

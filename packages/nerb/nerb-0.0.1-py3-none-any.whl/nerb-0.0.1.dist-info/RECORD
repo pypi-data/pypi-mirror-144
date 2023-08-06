@@ -1,0 +1,9 @@
+nerb/__init__.py,sha256=KLa0eMzY1xwkH8kr4oM_Sak6dgSUirwhsVmGgNca-98,432
+nerb/named_entities.py,sha256=b06kPOreV6MGk7gAt_LLwYZ5NlwldYQFsv-nLFPkC8w,3080
+nerb/regex_builder.py,sha256=3_8G2r7qAOnTo3LYF54cqOr107tXR37s6feoTjppw3Q,6557
+nerb/utils.py,sha256=O0G7C9dHwZfh-sbjRgrVnaBw8lmhAKZgxmQc64sSkHU,606
+nerb-0.0.1.dist-info/LICENSE,sha256=pA87-KP39jZVciHmXoRx4gFY5Slf-_KiOcSVN_VxJPk,1069
+nerb-0.0.1.dist-info/METADATA,sha256=yIDOkQYuRkdteGHx-BcqlHHoz_0soNhEUeYT0Bd1HF8,388
+nerb-0.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+nerb-0.0.1.dist-info/top_level.txt,sha256=T3Ue7VL6RvO0CXRqtgmxOEIFhKdnIPSOqlgMaFS2hmc,5
+nerb-0.0.1.dist-info/RECORD,,
