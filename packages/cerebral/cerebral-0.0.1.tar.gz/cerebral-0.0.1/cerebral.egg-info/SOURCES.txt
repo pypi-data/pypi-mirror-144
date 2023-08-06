@@ -1,0 +1,13 @@
+.gitignore
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+cerebral/__init__.py
+cerebral/py.typed
+cerebral.egg-info/PKG-INFO
+cerebral.egg-info/SOURCES.txt
+cerebral.egg-info/dependency_links.txt
+cerebral.egg-info/requires.txt
+cerebral.egg-info/top_level.txt
