@@ -1,0 +1,6 @@
+setuptools
+requests
+six
+websocket-client
+pathlib
+amino.fix
