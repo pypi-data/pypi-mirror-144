@@ -1,0 +1,4 @@
+Matplotlib>3.0
+Scipy>=1.2
+Jax>=0.2.12
+Jaxlib>=0.1.64
