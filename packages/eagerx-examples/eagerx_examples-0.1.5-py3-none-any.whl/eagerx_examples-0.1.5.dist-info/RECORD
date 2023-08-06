@@ -1,0 +1,11 @@
+data/with_actions.h5,sha256=jhvGVRYUzCIdAf6E7sDylr6QJeDyNGrJCJ5gYsa575I,28605248
+eagerx_examples/__init__.py,sha256=SIJraIajagv7HfGy2lDKUIcq21EycZiwP_qABibX9QQ,111
+eagerx_examples/classifier.py,sha256=FRO7G3j64QIH7RyxUf4WDjEkvpeot8rtqlBxCuohLRU,10315
+eagerx_examples/example_classifier.py,sha256=Muofb5c9dj07TkJlktvQOrEj0QWUVcu-JvCCSbySTAM,2387
+eagerx_examples/example_full_state.py,sha256=r2g6gN29AZc99f386oi20L7B9Ysw6FAj6hdZ9fleL-Y,1625
+eagerx_examples/example_pid_only.py,sha256=pt0MB5nv3BRV03LYYnmKjbwpArXP66DGrEtNgw4yAwc,1873
+eagerx_examples/pid.py,sha256=OP4iqgLhruYNOf66iZL0yFfnx9y8m-mG8pQToukdxgU,4006
+eagerx_examples-0.1.5.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+eagerx_examples-0.1.5.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+eagerx_examples-0.1.5.dist-info/METADATA,sha256=u7cu5Db6WEv0k0R-aE4YEkIzdjVaLUF-LDg0ydCy-tY,868
+eagerx_examples-0.1.5.dist-info/RECORD,,
