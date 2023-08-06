@@ -1,0 +1,8 @@
+setup.py
+sentimentarcs.egg-info/PKG-INFO
+sentimentarcs.egg-info/SOURCES.txt
+sentimentarcs.egg-info/dependency_links.txt
+sentimentarcs.egg-info/top_level.txt
+utils/__init__.py
+utils/divide.py
+utils/multiply.py
