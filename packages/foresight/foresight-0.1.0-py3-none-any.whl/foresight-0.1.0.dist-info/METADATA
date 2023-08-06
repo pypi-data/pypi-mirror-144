@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: foresight
+Version: 0.1.0
+Summary: A simple tool to aid in tracking your time.
+Author: ethan.schmitz
+Author-email: ethan.schmitz@mercuryds.com
+Requires-Python: >=3.9,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: cleo (>=0.8.1,<0.9.0)
