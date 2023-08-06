@@ -1,0 +1,9 @@
+pandas<2,>1
+aiohttp<4,>3
+asyncio<4,>3
+pytz
+requests<3,>2
+
+[dev]
+pytest<8,>7
+pyteset-asyncio<1,>0.17
