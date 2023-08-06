@@ -1,0 +1,6 @@
+setup.py
+smart_PaiConvMesh.egg-info/PKG-INFO
+smart_PaiConvMesh.egg-info/SOURCES.txt
+smart_PaiConvMesh.egg-info/dependency_links.txt
+smart_PaiConvMesh.egg-info/requires.txt
+smart_PaiConvMesh.egg-info/top_level.txt
