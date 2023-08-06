@@ -1,0 +1,13 @@
+alma_hilse/__init__.py,sha256=1KhrBItVjTCR-Sumh0o09b_aKrjTTcJrpTBh5GBw6Lk,21
+alma_hilse/__main__.py,sha256=PCne2VbYXhRwLEDUCrpMO8HdeCWjCh_1U1IGg1II4GE,1837
+alma_hilse/lib/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+alma_hilse/lib/corr/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+alma_hilse/lib/corr/drx.py,sha256=VeESoMyqZglsRTH56bjy7id7xyCpPg3o4byBOregpoI,3567
+alma_hilse/lib/lo_timing/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+alma_hilse/lib/lo_timing/lftrr.py,sha256=fvuqGhrbzMTzk-dP3qLGNmar7ArPvqrgmE_r_WDqHnQ,5860
+alma_hilse-0.2.0.dist-info/LICENSE,sha256=1AbvjzdrXWphjMIAgXaaTXIUyqz5k0BhDPgWZs5xgJ0,1087
+alma_hilse-0.2.0.dist-info/METADATA,sha256=t54vrFfpyQxOaYFYTv7HbC1AjWq3aE5rMawENRXRdkU,818
+alma_hilse-0.2.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+alma_hilse-0.2.0.dist-info/entry_points.txt,sha256=-qSLV7Wz_wOsZN2sIIyjtrzVkOjL7AQSHjOacPqa83o,158
+alma_hilse-0.2.0.dist-info/top_level.txt,sha256=hGEbUB41txBSSV18tEX9YY4b0iEqJ6lGjqRWNcnCpNc,11
+alma_hilse-0.2.0.dist-info/RECORD,,
