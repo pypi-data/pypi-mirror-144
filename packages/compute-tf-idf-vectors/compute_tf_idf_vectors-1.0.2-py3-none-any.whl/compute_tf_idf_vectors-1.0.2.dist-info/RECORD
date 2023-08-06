@@ -1,0 +1,8 @@
+compute_tf_idf_vectors/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+compute_tf_idf_vectors/cli.py,sha256=URQRqnnYNjDx8asijZXvxUqXqTYpnTJbm8mZwSOrYY8,13365
+compute_tf_idf_vectors-1.0.2.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+compute_tf_idf_vectors-1.0.2.dist-info/METADATA,sha256=o47r4nypUT9u2YdBD-0pEpOY43-zm3CB3KeZh0Xs72U,7165
+compute_tf_idf_vectors-1.0.2.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+compute_tf_idf_vectors-1.0.2.dist-info/entry_points.txt,sha256=WmRRAMwW6pdCe3IobB4W3QYdanqjSjjscvgLH_GWnYQ,75
+compute_tf_idf_vectors-1.0.2.dist-info/top_level.txt,sha256=VuK4WfZr8grdtEk87841Bt9N1-ABV_1gI0wUlRwcf40,23
+compute_tf_idf_vectors-1.0.2.dist-info/RECORD,,
