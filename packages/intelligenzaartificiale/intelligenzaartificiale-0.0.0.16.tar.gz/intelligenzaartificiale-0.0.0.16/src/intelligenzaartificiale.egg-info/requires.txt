@@ -1,0 +1,1 @@
+pydataset==0.2.0machinelearningsemplice==0.0.0.5texthero==1.1.0dtale==2.2.0numpy==1.17.4matplotlib==3.3.3pandas_profiling==3.1.0wordcloud==1.8.1seaborn==0.11.2pandas==1.2.0datatable==1.0.0scikit_learn==1.0.2
