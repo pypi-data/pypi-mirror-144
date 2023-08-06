@@ -1,0 +1,12 @@
+setup.cfg
+setup.py
+ethans_first_upload/Binomialdistribution.py
+ethans_first_upload/Gaussiandistribution.py
+ethans_first_upload/Generaldistribution.py
+ethans_first_upload/__init__.py
+ethans_first_upload/basic_math.py
+ethans_first_upload.egg-info/PKG-INFO
+ethans_first_upload.egg-info/SOURCES.txt
+ethans_first_upload.egg-info/dependency_links.txt
+ethans_first_upload.egg-info/not-zip-safe
+ethans_first_upload.egg-info/top_level.txt
