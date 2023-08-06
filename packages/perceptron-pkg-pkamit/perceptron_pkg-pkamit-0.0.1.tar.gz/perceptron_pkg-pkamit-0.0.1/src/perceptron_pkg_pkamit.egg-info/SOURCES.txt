@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/amitAi/__init__.py
+src/amitAi/perceptron.py
+src/perceptron_pkg_pkamit.egg-info/PKG-INFO
+src/perceptron_pkg_pkamit.egg-info/SOURCES.txt
+src/perceptron_pkg_pkamit.egg-info/dependency_links.txt
+src/perceptron_pkg_pkamit.egg-info/requires.txt
+src/perceptron_pkg_pkamit.egg-info/top_level.txt
