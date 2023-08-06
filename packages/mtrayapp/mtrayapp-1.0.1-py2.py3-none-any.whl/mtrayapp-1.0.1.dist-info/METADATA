@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: mtrayapp
+Version: 1.0.1
+Summary: Modification of Moses Palmér's pystray lib with some extra features
+Home-page: https://github.com/melianmiko/python-mtrayapp
+Author: Moses Palmér, melianmiko's mod
+Author-email: melianmiko@yandex.ru
+License: LGPLv3
+Keywords: system tray icon,systray icon
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU Lesser General Public License v3 (LGPLv3)
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows :: Windows NT/2000
+Classifier: Operating System :: POSIX
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3.4
+License-File: COPYING
+License-File: COPYING.LGPL
+Requires-Dist: Pillow
+Requires-Dist: six
+Requires-Dist: pyobjc-framework-Quartz (>=7.0) ; sys_platform == "darwin"
+Requires-Dist: python-xlib (>=0.17) ; sys_platform == "linux"
+
+UNKNOWN
+
