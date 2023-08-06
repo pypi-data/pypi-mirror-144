@@ -1,0 +1,10 @@
+README.md
+setup.cfg
+setup.py
+okjson/__init__.py
+okjson/validator.py
+okjson.egg-info/PKG-INFO
+okjson.egg-info/SOURCES.txt
+okjson.egg-info/dependency_links.txt
+okjson.egg-info/requires.txt
+okjson.egg-info/top_level.txt

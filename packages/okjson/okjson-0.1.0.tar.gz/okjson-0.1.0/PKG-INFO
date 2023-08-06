@@ -1,0 +1,12 @@
+Metadata-Version: 1.1
+Name: okjson
+Version: 0.1.0
+Summary: A fast, simple, and pythonic JSON Schema Validator.
+Home-page: https://github.com/mufeedvh/okjson
+Author: Mufeed VH
+Author-email: contact@mufeedvh.com
+License: MIT
+Download-URL: https://github.com/mufeedvh/okjson/archive/refs/tags/v0.1.0.tar.gz
+Description: UNKNOWN
+Keywords: json,schema,jsonschema,validation,validator
+Platform: UNKNOWN
