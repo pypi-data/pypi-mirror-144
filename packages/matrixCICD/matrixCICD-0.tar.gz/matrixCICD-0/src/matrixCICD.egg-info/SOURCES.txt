@@ -1,0 +1,10 @@
+README.md
+setup.cfg
+setup.py
+src/matrix/Matrix.py
+src/matrix/__init__.py
+src/matrixCICD.egg-info/PKG-INFO
+src/matrixCICD.egg-info/SOURCES.txt
+src/matrixCICD.egg-info/dependency_links.txt
+src/matrixCICD.egg-info/requires.txt
+src/matrixCICD.egg-info/top_level.txt
