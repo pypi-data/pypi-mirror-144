@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: egobox
+Version: 0.2.0
+Author: relf <remi.lafage@onera.fr>
+Author-email: relf <remi.lafage@onera.fr>
+Description-Content-Type: text/markdown; charset=UTF-8; variant=GFM
+
+[![tests](https://github.com/relf/egobox/workflows/tests/badge.svg)](https://github.com/relf/egobox/actions?query=workflow%3Atests)
+
+# egobox
+
+Rust toolbox dedicated to algorithms related to efficient global optimization and freely inspired from [SMT](https://github.com/SMTorg/smt). 
+
