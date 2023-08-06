@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: wiredcalc
+Version: 0.0.2
+Summary: an weird calulator
+Home-page: https://github.com/L-e-o-linux-das/wiredcalc/
+Author: Leo Mux
+Author-email: leo.das.nirjhar@gmail.com
+License: MIT
+Download-URL: https://github.com/L-e-o-linux-das/wiredcalc/archive/refs/tags/V_02.tar.gz
+Keywords: calc
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+License-File: LICENSE.txt
+
+This is a very weird calc, use with your own safety. BE CAREFULL!
+
+Change Log
+==========
+
+0.0.1 (19/04/2020)
+-------------------
+- First Release
+
