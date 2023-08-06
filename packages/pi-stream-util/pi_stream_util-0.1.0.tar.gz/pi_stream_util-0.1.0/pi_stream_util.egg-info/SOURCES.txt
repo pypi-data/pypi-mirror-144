@@ -1,0 +1,17 @@
+CHANGELOG.md
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+requirements.txt
+setup.py
+pi_stream_util/__init__.py
+pi_stream_util/__version__.py
+pi_stream_util/py.typed
+pi_stream_util/stream.py
+pi_stream_util.egg-info/PKG-INFO
+pi_stream_util.egg-info/SOURCES.txt
+pi_stream_util.egg-info/dependency_links.txt
+pi_stream_util.egg-info/not-zip-safe
+pi_stream_util.egg-info/requires.txt
+pi_stream_util.egg-info/top_level.txt
