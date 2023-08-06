@@ -1,0 +1,6 @@
+-r requirements.txt
+sphinx
+pandoc
+pytest
+pytest-cov
+codecov
