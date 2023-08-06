@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: sentimentarcs
+Version: 0.0.2
+Summary: SentimentArcs
+Home-page: UNKNOWN
+Author: Jon Chun
+Author-email: <jonchun@outlook.com>
+License: UNKNOWN
+Keywords: python,first package
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Programming Language :: Python :: 3
+
+SentimenArcs for NLP Time Series Sentiment Analysis
+
