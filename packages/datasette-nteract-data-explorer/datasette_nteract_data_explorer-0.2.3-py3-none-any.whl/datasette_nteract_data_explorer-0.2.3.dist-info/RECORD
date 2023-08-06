@@ -1,0 +1,11 @@
+datasette_nteract_data_explorer/__init__.py,sha256=gbCPi_aBVq-gi3I_o2xLcR4GkqUMhGS9WPvdENXz4lE,2018
+datasette_nteract_data_explorer/static/DatasetteDataExplorer.ad343328.js,sha256=CqMtp2-dRtkdF54_GbU9lhg7bROCH8OaSmh35d2s1SM,1394683
+datasette_nteract_data_explorer/static/DatasetteDataExplorer.fb57e92c.js,sha256=k1J7IXzSeIunaLyAKqTo9zDBwceKpEO5Iy91cDhqrUM,1367383
+datasette_nteract_data_explorer/static/index.25fe24fb.js,sha256=v9B06zSSL_i5_jSX6gphFCv9-8_EYFtnFj4F4IokCq0,11979
+datasette_nteract_data_explorer/static/index.a5d29b02.js,sha256=ieFEqRUkkNGoADpnPBvWHSKOZMUWPHRApmBpT7JEo9I,20347
+datasette_nteract_data_explorer-0.2.3.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+datasette_nteract_data_explorer-0.2.3.dist-info/METADATA,sha256=8kuWZ7V2JqCzYMTqw1h9tn5ZVTqxVskqbNEB4dbBNro,3293
+datasette_nteract_data_explorer-0.2.3.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+datasette_nteract_data_explorer-0.2.3.dist-info/entry_points.txt,sha256=zsximMmmrQVJj0w_tnKA_LrxBQ4R5S9A5qJpLa1IgIQ,68
+datasette_nteract_data_explorer-0.2.3.dist-info/top_level.txt,sha256=x2gg_g-hEpE-8D83MP3v0u_aFam_tqwanJYy0AcdAA4,32
+datasette_nteract_data_explorer-0.2.3.dist-info/RECORD,,
