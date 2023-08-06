@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: malcube
+Version: 0.0.2
+Summary: Next-generation reverse engineering engine and threat intelligence analyzer
+Home-page: https://github.com/malcube/malcube
+Author: JunWei Song
+Author-email: sungboss2004@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Security
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Malcube
+<p align="center">
+<img src="https://user-images.githubusercontent.com/16042160/160411291-c3011ceb-d27e-4c0a-963e-fb53458d4989.png" width="50%" height="50%"/>
+</p>
+
+Malcube is an all-in-one tool that can help you perform your malware analysis and threat intelligence gathering and even
+provides you with a friendly report.
+
+

@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.py
+malcube/__init__.py
+malcube/cli.py
+malcube/logo.py
+malcube/main.py
+malcube.egg-info/PKG-INFO
+malcube.egg-info/SOURCES.txt
+malcube.egg-info/dependency_links.txt
+malcube.egg-info/entry_points.txt
+malcube.egg-info/requires.txt
+malcube.egg-info/top_level.txt

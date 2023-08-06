@@ -1,0 +1,2 @@
+[console_scripts]
+malcube = malcube.cli:entry_point
