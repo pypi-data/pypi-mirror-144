@@ -1,0 +1,16 @@
+numpy>=1.20.0
+
+[dev]
+tox
+pytest
+pytest-flake8
+flake8<4
+reuse
+transplant
+oct2py
+scipy
+breathe
+matplotlib
+sphinx
+sphinx-rtd-theme
+sphinxcontrib-matlabdomain
