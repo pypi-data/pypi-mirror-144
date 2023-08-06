@@ -1,0 +1,5 @@
+dash
+plotly
+pyserial
+paho-mqtt
+mysql-connector-python
