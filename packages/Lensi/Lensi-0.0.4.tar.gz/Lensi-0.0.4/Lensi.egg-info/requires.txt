@@ -1,0 +1,7 @@
+bs4
+fuzzywuzzy
+fire
+requests
+configparser
+tqdm
+winshell
