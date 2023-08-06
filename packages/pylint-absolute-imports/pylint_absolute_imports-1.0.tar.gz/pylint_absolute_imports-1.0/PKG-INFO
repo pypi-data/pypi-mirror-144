@@ -1,0 +1,15 @@
+Metadata-Version: 1.1
+Name: pylint_absolute_imports
+Version: 1.0
+Summary: Pylint plugin which adds linter error for relatives imports.Read more about imports at https://peps.python.org/pep-0008/#imports
+Home-page: https://github.com/quentinn42/pylint_absolute_imports
+Author: Quentin Lieumont
+Author-email: quentin@lieumont.fr
+License: MIT License
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Plugins
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
