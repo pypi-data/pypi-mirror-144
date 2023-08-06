@@ -1,0 +1,70 @@
+Metadata-Version: 2.1
+Name: semi-ate-control-app
+Version: 0.2.0
+Summary: Shared helpers used by the different ate-apps, i.e. master-app, control-app, etc.)
+Home-page: UNKNOWN
+Author: The Semi-ATE Project Contributors
+Author-email: ate.organization@gmail.com
+License: GPL2
+Description: # The semi-ate-control-app package
+        
+        This package provides some a command line tool (`launch_control`). In order to use this application you have to configure it first. This tool should be run on some test node, i.e. some host controlling measurement instruments. It communicates with the master application from the `semi-ate-master-app` package by MQTT. The master application sends mqtt-messages to steer the control application. The control application itself is responsible for loading/unloading and executing some test-program. Test results, i.e. STDF records, are send back to the master application.
+        
+        ## Configuration
+        
+        Configuration of the control application is done by writing a JSON file called **control_config_file.json**. The following key-value-pairs have to be defined:
+        
+        ```JSON
+        {
+            "broker_host": "127.0.0.1",
+            "broker_port": 1883,
+            "device_id": "SCT-82-1F",
+            "site_id": "0",
+            "loglevel": 10
+        }
+        ```
+        
+        * `broker_host` defines the ip address of the mqtt broker.
+        * `broker_port` defines the prot of the mqtt broker.
+        * `device_id` defines a unique id of the so-called test-system. A test system can contain several host running he control applications. And some host running the master application.
+        * `site_id` is the unique identifier of the host running the control application
+        * `loglevel` defines the log-level of the control application
+        
+        The _device_id_ and _site_id_ is used to build unique mqtt-message-topics automatically. The idea is that no test-system influences some other test system.
+        
+        ## Starting the Control Application
+        
+        We assume that the semi-ate-control-app has been installed in the current python environment. Further configuration **control_config_file.json** file is located in the current folder.
+        
+        **IMPORTANT**: The configuration file has to be named **control_config_file.json**
+        
+        ```Console
+        (environment)> launch_control
+        control 0|21/03/2022 04:14:10 PM |INFO    |mqtt connected
+        control 0|21/03/2022 04:14:10 PM |INFO    |control state is: idle
+        ```
+        
+Keywords: Semiconductor ATE Automatic Test Equipment Spyder Plugin
+Platform: Windows
+Platform: Linux
+Platform: Mac OS-X
+Classifier: License :: OSI Approved :: GNU General Public License v2 (GPLv2)
+Classifier: Operating System :: MacOS
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: Science/Research
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Scientific/Engineering :: Electronic Design Automation (EDA)
+Classifier: Topic :: Scientific/Engineering :: Human Machine Interfaces
+Classifier: Topic :: Scientific/Engineering :: Interface Engine/Protocol Translator
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: Topic :: Software Development :: Code Generators
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Software Development :: Quality Assurance
+Description-Content-Type: text/markdown
