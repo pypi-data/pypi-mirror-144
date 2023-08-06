@@ -1,0 +1,14 @@
+nme/__init__.py,sha256=P55J0u-cvftIk5aSrwHHVXzNq8MuyiKtqHCS8wkoobA,1247
+nme/_class_register.py,sha256=OrCUcW8BM0GqKdRTflaODPe-Tl4-7bpoBBrWf6kwBss,11918
+nme/_json_hooks.py,sha256=YWMhSAqre1WEGgNBg-S191pvLFlC87AQ3pmbrJEp6Bw,4323
+nme/version.py,sha256=xwUxqNB1me5mfO6PXPXd-gWwNTAl_-Idf0ktsITBEpU,142
+tests/class_register_util.py,sha256=yKLy98ngGQlOWCVBLCpz66x8B66ug8GWTAp0MTbLKbc,78
+tests/conftest.py,sha256=uSgMwwdYTjRdqfXdQog650dXGZgXRzOYgy6qeGdK6yw,242
+tests/test_cbor_hooks.py,sha256=76vBSga5rxil63aM4u2EJ95uxuPxV0zW3WNASdwNJ9w,3343
+tests/test_class_register.py,sha256=EBXRV2mKdNejLzpjm3wVnfsTaW_KhKxsD67BdtRg5zQ,3019
+tests/test_json_hooks.py,sha256=V8oKLLoCd99XIZcKnGVyBiZSFPTKbzTraFklVT7StQs,8885
+nme-0.1.0.dist-info/LICENSE.txt,sha256=HqI4JRSHSAjvlR5Z1WYBdCYld1tuVdbmJwUap4JouZk,1059
+nme-0.1.0.dist-info/METADATA,sha256=kamTD7PEk2NhKOwHFJgxjE4rgpCMs14gZMdgNg_dmG0,6931
+nme-0.1.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+nme-0.1.0.dist-info/top_level.txt,sha256=ZOskB9V62bxTGuB0e4aC4lq86O869HSZH2HD-PeemQE,10
+nme-0.1.0.dist-info/RECORD,,
