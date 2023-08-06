@@ -1,0 +1,62 @@
+Metadata-Version: 2.1
+Name: bay-watch
+Version: 0.1.2
+Summary: todo
+Home-page: https://github.com/hdb/baywatch
+Author: Hudson Bailey
+Author-email: hudsondiggsbailey@gmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Topic :: Communications :: File Sharing
+Description-Content-Type: text/markdown
+Requires-Dist: requests (>=2.27.1)
+Requires-Dist: textual (==0.1.17)
+Requires-Dist: textual-inputs (==0.2.5)
+Requires-Dist: pyfiglet (==0.8.post1)
+Requires-Dist: transmission-rpc (==3.3.0)
+Requires-Dist: pyperclip (==1.8.2)
+
+```txt
+ |                                |        |
+ __ \   _` | |   |\ \  \   / _` | __|  __| __ \
+ |   | (   | |   | \ \  \ / (   | |   (    | | |
+_.__/ \__,_|\__, |  \_/\_/ \__,_|\__|\___|_| |_|
+            ____/
+```
+
+baywatch is a [Textual](https://github.com/Textualize/textual)-based TUI for The Pirate Bay that uses [Peerflix](https://github.com/mafintosh/peerflix) to stream torrents and [Transmission](https://transmissionbt.com/) to download them
+
+## Install
+
+
+```bash
+# install dependencies
+pip install git+https://github.com/Cvaniak/TextualListViewUnofficial.git@52ea0f2
+npm install -g peerflix
+
+# install via pip
+pip install bay-watch
+```
+
+### Transmission Install (optional)
+
+[https://transmissionbt.com/download/](https://transmissionbt.com/download/)
+
+
+## Usage
+
+Launch baywatch
+
+```bash
+baywatch
+```
+
+Open configuration editor
+
+```bash
+baywatch -c
+```
+
+
