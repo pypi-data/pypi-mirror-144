@@ -1,0 +1,11 @@
+MANIFEST.in
+README.md
+lisence.txt
+setup.py
+src/features.py
+src/igpd_l.py
+src/igpd_linux.egg-info/PKG-INFO
+src/igpd_linux.egg-info/SOURCES.txt
+src/igpd_linux.egg-info/dependency_links.txt
+src/igpd_linux.egg-info/requires.txt
+src/igpd_linux.egg-info/top_level.txt
