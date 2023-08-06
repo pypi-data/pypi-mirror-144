@@ -1,0 +1,54 @@
+Metadata-Version: 2.1
+Name: gtfsutils
+Version: 0.0.1
+Summary: GTFS command-line tool and Python GTFS utility library
+Home-page: https://github.com/triply-at/gtfsutils
+Author: Nikolai Janakiev
+Author-email: n.janakiev@triply.at
+License: MIT
+Platform: any
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: shapely
+Requires-Dist: geopandas
+
+# gtfsutils
+
+GTFS command-line tool and Python GTFS utility library
+
+## Installation
+
+```bash
+git clone git@github.com:triply-at/gtfsutils.git
+cd gtfsutils
+pip install .
+```
+
+## Usage
+
+```bash
+gtfsutils -h
+```
+
+```
+usage: gtfsutils [-h] [-i SRC] [-o DST] [--bounds BOUNDS] [-f OPERATION] [--overwrite] [-v] method
+
+GTFS Utilities
+
+positional arguments:
+  method                GTFS method: filter, bounds, merge
+
+optional arguments:
+  -h, --help            show this help message and exit
+  -i SRC, --input SRC   Input filepath
+  -o DST, --output DST  Output filepath
+  --bounds BOUNDS       Filter boundary
+  -f OPERATION, --filter-operation OPERATION
+                        Filter operation (within, intersects)
+  --overwrite           Overwrite if exists
+  -v, --verbose         Verbose output
+```
+
+
