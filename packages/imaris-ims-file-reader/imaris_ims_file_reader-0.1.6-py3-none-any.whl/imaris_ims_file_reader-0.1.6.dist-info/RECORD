@@ -1,0 +1,10 @@
+imaris_ims_file_reader/__init__.py,sha256=lvd2jiFyDsB5h7mdlTJE0S0nbb_k2PpsnGsYp47Aa20,125
+imaris_ims_file_reader/_version.py,sha256=fiA6rfWWh_lplcp3KwpZfQ75QJrebButOfBcRXq24L8,142
+imaris_ims_file_reader/ims.py,sha256=BuS10_QciQiUb3Pq8qIN8oaBkxh_wyqJWzlat-SabQk,26537
+imaris_ims_file_reader/_tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+imaris_ims_file_reader/_tests/test_imsClass.py,sha256=_dAudSv9zmUqx-_t0Dz22gWHCRTPZtsTU_bMsWDUrFg,776
+imaris_ims_file_reader-0.1.6.dist-info/LICENCE,sha256=dWiyEOunlrbZOvqIl6Yya4OBfQWc4etIqb0y4UY0IrE,1493
+imaris_ims_file_reader-0.1.6.dist-info/METADATA,sha256=DEa0MPcg9BdWX14TPO3im-8opjal-um8XxgdO0pi7ho,3336
+imaris_ims_file_reader-0.1.6.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+imaris_ims_file_reader-0.1.6.dist-info/top_level.txt,sha256=75nzvIcvUsp0ECavHElwINkGSP-Zw2jtlGjEYvh-EPM,23
+imaris_ims_file_reader-0.1.6.dist-info/RECORD,,
