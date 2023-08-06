@@ -1,0 +1,8 @@
+rich
+click
+requests
+colorama
+tdqm
+GitPython
+tabulate
+jinja2
