@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: measuresUnite
+Version: 0.0.1
+Summary: Package to declare physical measures (meaning values with units) and to convert units easily.
+Home-page: https://github.com/jasonsoti1/Unite
+Author: jasonsoti
+Author-email: jasonsoti1@gmail.com
+License: Apache License Version 2.0
+Platform: UNKNOWN
+Requires-Dist: numpy
+
+UNKNOWN
+
+
