@@ -1,0 +1,59 @@
+Metadata-Version: 2.1
+Name: basemigrator
+Version: 0.1.1
+Summary: 
+Home-page: https://github.com/EduardoThums/basemigrator
+License: MIT
+Author: Eduardo Cristiano Thums
+Author-email: eduardocristiano01@gmail.com
+Requires-Python: >=3.7,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: POSIX
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Database
+Requires-Dist: PyMySQL (>=1.0.2,<2.0.0)
+Requires-Dist: PyYAML (>=6.0,<7.0)
+Project-URL: Repository, https://github.com/EduardoThums/basemigrator
+Description-Content-Type: text/markdown
+
+# Base Migrator
+
+
+## Installation
+
+```
+$ pip install basemigrator
+```
+
+## Example
+
+```
+# changelog.yaml
+
+- file: Book/001-create-table-ddl.sql
+- file: Author/001-create-table-ddl.sql
+  context: dev, prod
+```
+
+```
+$ python
+>>> from migrator import migrate
+>>> from flask import Flask
+>>> from pathlib import Path
+>>> app = Flask(__name__)
+>>> changelog = f'Path(__file__).parent.absolute()}/migrations'
+>>> migrate(app, changelog)
+```
+
+## TODO
+
+- Improve documentation
+- CI/CD to code linting
+- Support different sql clients(postgres, sqlite3, etc)
+- Contributing section
+- tests/
+
