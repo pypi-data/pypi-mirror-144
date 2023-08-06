@@ -1,0 +1,11 @@
+README.md
+setup.py
+ms_distributions_2022/Binomialdistribution.py
+ms_distributions_2022/Gaussiandistribution.py
+ms_distributions_2022/Generaldistribution.py
+ms_distributions_2022/__init__.py
+ms_distributions_2022.egg-info/PKG-INFO
+ms_distributions_2022.egg-info/SOURCES.txt
+ms_distributions_2022.egg-info/dependency_links.txt
+ms_distributions_2022.egg-info/not-zip-safe
+ms_distributions_2022.egg-info/top_level.txt
