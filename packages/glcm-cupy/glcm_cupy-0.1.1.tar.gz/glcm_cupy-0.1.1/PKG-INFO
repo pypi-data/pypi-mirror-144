@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: glcm-cupy
+Version: 0.1.1
+Summary: Binned GLCM 5 Features implemented in CuPy
+License: MIT
+Author: Evening
+Requires-Python: >=3.8
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: GPU :: NVIDIA CUDA
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: scikit-image (>=0.18.3,<0.19.0)
+Requires-Dist: tqdm (>=4.63.0,<4.64.0)
