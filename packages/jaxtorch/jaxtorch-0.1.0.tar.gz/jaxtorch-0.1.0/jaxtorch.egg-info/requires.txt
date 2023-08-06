@@ -1,0 +1,7 @@
+cbor2
+torch
+jax
+jaxlib
+
+[dev]
+pytest
