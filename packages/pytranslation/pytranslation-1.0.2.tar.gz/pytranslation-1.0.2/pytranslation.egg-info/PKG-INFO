@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: pytranslation
+Version: 1.0.2
+Summary: It's just a simple translation that will be beautiful in the coming days
+Home-page: UNKNOWN
+Author: Enmn
+License: UNKNOWN
+Keywords: python,python3,pytranslation,translation,translator,translated
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+
+
+It's just a simple translation that will be beautiful in the coming days
+```c
+from pytranslation import Translation
+
+translate = Translation()
+
+print(translate.conversion('en', 'es', 'Hi'))
+```
+
