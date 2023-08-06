@@ -1,0 +1,14 @@
+flachtex/__init__.py,sha256=IH-Jzf3C7h410KYMKWtVk5a6qpEHXgFPak9xXnxstiM,113
+flachtex/cli.py,sha256=qaIzBm2qxr_tiUx5Pp_KY5LuHi6LdpZfZTwBqEW0cYU,788
+flachtex/comments.py,sha256=xSQlCXJGGlcFaUj7Y4Wm536X0AbQlFTYEMWWGkHCzXI,547
+flachtex/cycle_prevention.py,sha256=LOsym7CcXva6rnoVzwSYOMPW3fpw-IedSOPmxI7akNg,611
+flachtex/filefinder.py,sha256=WHwbK3QfLq9uSwhjUxLZDJVHydnoVF-dXR1rcIuf2vQ,3517
+flachtex/parser.py,sha256=i_ygBG6dj1sRqvMPSYtncy21B4wfB_H4ZqfHdf1IEk4,4188
+flachtex/rules.py,sha256=N1zKnC0J1JQ6SDFtCqCVD4IsfDy2rZTOe2xciwB7kx0,4273
+flachtex/tracrable_string.py,sha256=2_etm_qaSNsEKtGdhMP6_Hx9nsK7tjj5MEkKDd4gz-Y,3789
+flachtex-0.1.4.dist-info/LICENSE,sha256=8PRpSF_gvlxY4I1_yNtrFB9y5lumnfGfUyjQUJx5LxE,1071
+flachtex-0.1.4.dist-info/METADATA,sha256=eCAjo7cLGUpny8imzCEfRALEuR3TSemYaFNQM-4r7xc,1983
+flachtex-0.1.4.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+flachtex-0.1.4.dist-info/entry_points.txt,sha256=TylpR8IRpl5bLnOybkBMOA1tOtLVHYPA_N2wBDbNFnE,48
+flachtex-0.1.4.dist-info/top_level.txt,sha256=ZxIc9Yblym2jd7J3oXEEHqb-RxPuwVUx5uYxLdRMDDc,9
+flachtex-0.1.4.dist-info/RECORD,,
