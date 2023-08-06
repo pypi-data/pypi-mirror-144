@@ -1,0 +1,14 @@
+README.md
+setup.py
+windML/__init__.py
+windML.egg-info/PKG-INFO
+windML.egg-info/SOURCES.txt
+windML.egg-info/dependency_links.txt
+windML.egg-info/requires.txt
+windML.egg-info/top_level.txt
+windML/fewshot/__init__.py
+windML/oneshot/__init__.py
+windML/oneshot/modelfree/__init__.py
+windML/oneshot/modelfree/matrix_factorisation.py
+windML/oneshot/models/__init__.py
+windML/oneshot/models/extreme_learning_machine.py
