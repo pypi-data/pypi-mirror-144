@@ -1,0 +1,71 @@
+[build-system]
+requires = ["flit"]
+build-backend = "flit.buildapi"
+
+[tool.flit.metadata]
+module = "sensospot_parser"
+dist-name = "sensospot_parser"
+author = "Holger Frey"
+author-email = "frey@imtek.de"
+home-page = "https://git.cpi.imtek.uni-freiburg.de/holgi/sensospot_parser.git"
+description-file = "README.md"
+license = "Beerware"
+
+# see https://pypi.org/classifiers/
+classifiers = [
+    "Development Status :: 2 - Pre-Alpha",
+    "Intended Audience :: Developers",
+    "Programming Language :: Python :: 3.7",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3 :: Only",
+    "License :: Freely Distributable",
+]
+
+requires = [
+    "pandas >=1.0.0",
+    "defusedxml >=0.6.0",
+    "tables >=3.6.1",
+    "click",
+]
+
+requires-python = ">=3.7"
+
+[tool.flit.metadata.requires-extra]
+test = [
+    "pytest >=4.0.0",
+    "pytest-cov",
+    "pytest-mock",
+    "pytest-randomly >=3.5.0",
+    "tox",
+]
+dev = [
+    "black",
+    "flake8",
+    "flake8-comprehensions",
+    "isort",
+    "keyring",
+    "pre-commit",
+]
+
+[tool.flit.scripts]
+sensospot_parse = "sensospot_parser:main"
+
+[tool.black]
+line-length = 79
+target-version = ['py37']
+include = '\.pyi?$'
+exclude = '''
+/(
+    \.git
+  | \.tox
+  | \.venv
+  | build
+  | dist
+)/
+'''
+
+[tool.isort]
+line_length=79
+multi_line_output=3
+length_sort="True"
+include_trailing_comma="True"
