@@ -1,0 +1,3 @@
+[console_scripts]
+m-parse = m_parse.main:main
+
