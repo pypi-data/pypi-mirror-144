@@ -1,0 +1,3 @@
+[console_scripts]
+rcpm_file = cpm_file.main:main
+
