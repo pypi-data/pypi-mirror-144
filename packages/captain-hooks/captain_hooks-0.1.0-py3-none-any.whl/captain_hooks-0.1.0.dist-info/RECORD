@@ -1,0 +1,9 @@
+captain_hooks-0.1.0.dist-info/WHEEL,sha256=b-vTMyIz_exHPIyJnv9vTz4bc1Bit0GZ8_X-kPsVzeg,82
+captain_hooks-0.1.0.dist-info/METADATA,sha256=3Rm2LpzijymEVNZ8zSLta5VSuCVExWQnSwUuuByK0eo,2116
+captain_hooks-0.1.0.dist-info/entry_points.txt,sha256=XNjzxTQjv60JY_ClciEOY3MrXH1h9-D2vig6HG3OEo0,72
+captain_hooks/__init__.py,sha256=1xEpjtP-f1kx_IiA8R3fksiePEv9AqOhlwy0YwsSXDo,213
+captain_hooks/compat.py,sha256=I2yMebczIa_PsCq3G8zenu4gMSpQ9f_BeEsp_ZKkm18,457
+captain_hooks/meson_file_list.py,sha256=POWlTpTEcTQgYdTALw5-JtFlB0xKDLTBQ9udrmfQu5s,7539
+captain_hooks/vendored/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+captain_hooks/vendored/_argparse.py,sha256=izEDx9iB0LfjNt7EXwfQTjlW3B5UI5QSHER4r_L7SMo,2013
+captain_hooks-0.1.0.dist-info/RECORD,,
