@@ -1,0 +1,10 @@
+terminal_graphics/__init__.py,sha256=rLFiNE4Q6lZevhPbnJ4jMjkdmBrZykf-Z0mjAZjnarA,477
+terminal_graphics/__main__.py,sha256=hKFxyCL4brDQhKYx8heSHFu3Sci0-V-7nSw_rsRkpmI,30
+terminal_graphics/kitty.py,sha256=IelYFSiw8h7Slxp8sw3kVyTjzIcTAFnwTY60wg-iVuw,751
+terminal_graphics/version.py,sha256=0PaI2eSOCp5kkNcpKpUSbLHf66rL9xQzFpYyLGpEtyM,22
+terminal_graphics-0.5.0.dist-info/LICENSE,sha256=G-tpuV0BL9yAZwTr7Kyoz4xIakEXxQpJ4q77Zxq3Zwk,1069
+terminal_graphics-0.5.0.dist-info/METADATA,sha256=_ia7MAEpx8Vc_CDw6sZatA0G2qqEaZ3A8xCTalKSR7M,595
+terminal_graphics-0.5.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+terminal_graphics-0.5.0.dist-info/entry_points.txt,sha256=51VgrGh0FAz4KGa49reCKd_rFMVqqGWhy7GEjnSjBH0,62
+terminal_graphics-0.5.0.dist-info/top_level.txt,sha256=PFZ-tUUwM_6yIVFxwS0VjZ35mv2YSgde7Od4VDfHdAM,18
+terminal_graphics-0.5.0.dist-info/RECORD,,
