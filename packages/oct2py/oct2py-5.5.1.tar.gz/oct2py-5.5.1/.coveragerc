@@ -1,0 +1,14 @@
+# Configuration for coverage.py
+
+[run]
+branch = True
+omit =
+    */setup.py
+    oct2py/compat.py
+    oct2py/tests/*
+    oct2py/ipython/tests/*
+
+[report]
+exclude_lines =
+    def __repr__
+    if __name__ == .__main__.:
