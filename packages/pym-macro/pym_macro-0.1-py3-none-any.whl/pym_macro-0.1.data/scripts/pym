@@ -1,0 +1,88 @@
+#!python
+from collections import namedtuple
+from curses import A_ALTCHARSET
+import sys
+IsDebugMode = False
+OutputFileNameOption = False
+FileOutput = "out.py"
+fileInput = ""
+
+class Variable:
+	def __init__(self, name, value):
+		self.name = name
+		self.value = value
+
+VarArray = []
+
+for i in range(1, len(sys.argv)):
+	print(sys.argv[i])
+	if sys.argv[i] == "-d":
+		IsDebugMode = True
+	elif sys.argv[i] =="-o":
+		OutputFileNameOption = True
+		FileOutput = sys.argv[#!/bin/bash
+i + 1]
+		i += 1
+	else:
+		if fileInput == "":
+			fileInput = sys.argv[i]
+
+if IsDebugMode == True:
+	print(fileInput)
+	print(sys.argv)
+
+input = open(fileInput, "r")
+output = open(FileOutput, "w")
+linesInput = input.readlines()
+for line in linesInput:
+	if line.startswith("#m") or line.startswith("#macro"):
+		if line.startswith("#m"):
+			endMacroStartPos = 3; 
+		if line.startswith("#macro"):
+			endMacroStartPos = 7; 
+		instruction = line[endMacroStartPos:len(line)]
+		if instruction.startswith("echo"):
+			posAfterInstruction = endMacroStartPos + 5
+			stringToPrint = line[posAfterInstruction:len(line) - 1]
+			if IsDebugMode == True:
+				print("instruction : " + instruction)
+				print("stringToPrint : " + stringToPrint)
+			output.write("print('" + stringToPrint + "')" + "\n")
+		elif instruction.startswith("define"):
+			posAfterInstruction = endMacroStartPos + 7
+			VariableNameAndValue = line[posAfterInstruction:len(line) - 1]
+			name = ""
+			value = ""
+			i = 0
+			while VariableNameAndValue[i] != " ":
+				i += 1
+			if IsDebugMode == True:
+				print("VariableNameAndValue : " + VariableNameAndValue)
+			posNextSpace = i
+			posStartValue = i + 1
+			name = VariableNameAndValue[0:posNextSpace]
+			value = VariableNameAndValue[posStartValue:len(VariableNameAndValue)]
+			if IsDebugMode == True:
+				print("name : " + name)
+				print("value : " + value)
+			VarTemp = Variable(name, value)
+			VarArray.append(VarTemp)
+			
+	else:
+
+		for VariableActual in VarArray:
+			if line.find(VariableActual.name):
+				IsVar = True 
+				VarName = VariableActual.name
+				VarValue = VariableActual.value
+			else:
+				IsVar = False
+		if IsVar == True:
+			line.replace(VariableActual.name, VariableActual.value)
+			output.write(line + "\n")
+		else:
+			output.write(line + "\n")
+
+input.close()
+output.close()
+
