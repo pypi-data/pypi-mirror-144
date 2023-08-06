@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: palabras
+Version: 0.1.0
+Summary: (WIP) Look up Spanish words on Wiktionary
+Author-email: Paavo Pere <paavo@pere.fi>
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Classifier: License :: OSI Approved :: MIT License
+Requires-Dist: beautifulsoup4
+Requires-Dist: requests
+Project-URL: Home, https://github.com/paavopere/palabras
+
+# palabras
+(WIP) CLI app to look up Spanish words on Wiktionary
+
+Call from command line like this:
+```
+> python -m palabras olvidar
+olvidar
+- (transitive) to forget (be forgotten by)
+- (reflexive, intransitive) to forget, elude, escape
+- (with de, reflexive, intransitive) to forget, to leave behind
+```
