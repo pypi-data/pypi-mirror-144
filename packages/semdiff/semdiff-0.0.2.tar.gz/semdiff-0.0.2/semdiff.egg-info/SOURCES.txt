@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+semdiff
+setup.cfg
+semdiff.egg-info/PKG-INFO
+semdiff.egg-info/SOURCES.txt
+semdiff.egg-info/dependency_links.txt
+semdiff.egg-info/requires.txt
+semdiff.egg-info/top_level.txt
