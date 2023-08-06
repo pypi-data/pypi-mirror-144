@@ -1,0 +1,17 @@
+pyewjn/__init__.py,sha256=kUR5RAFc7HCeiqdlX36dZOHkUI5wI6V_43RpEcD8b-0,22
+pyewjn/baskets.py,sha256=X_adeMP8FkQLCiL9N0HvJvGkN0TP2uz-RA2op0jECWA,1491
+pyewjn/dielectric/__init__.py,sha256=BAnJWNplLivgeYgucu-HVn11qJyJWj0eZD_B9REZAxI,309
+pyewjn/dielectric/lindhard_dielectric.py,sha256=Dk-ciYrQMOagz9qIXdrPOEAOl-HbeemVjhT2ZvClUlA,1810
+pyewjn/dielectric/low_k_nam.py,sha256=dsHWiMnOxa27qkoqh1L91Df9NuEgcQD1SE5Xb9HFwV8,1284
+pyewjn/dielectric/nam_dielectric_coefficient_approximator.py,sha256=a3kFugnKrjK51U_Pc2jyZDAlg9iaMmLepqcQFuBaVPc,4447
+pyewjn/dielectric/sigma_nam.py,sha256=OmZE49b7ORZ_6iQh56VZCY0cvar-Bn9pXs6UROb6Tcc,1405
+pyewjn/dielectric/sigma_nam_keep_gap.py,sha256=U8Xcz7sdxMf6xhxv2f-0c4UIhXjiGeriGVl7P1zhdiY,1485
+pyewjn/noise/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pyewjn/noise/chi.py,sha256=1e0hHeL64E6hZEeHgd38z2ZcV-f7g6DWTKMssGkbMQE,493
+pyewjn/noise/im_ref.py,sha256=54pnqhtrWPYzhO02zWI7zWDW2wLFCsnvLEnqoMfkCBM,366
+pyewjn/noise/zeta.py,sha256=ElKtEUxDkr8HSNP2t9YGb_5pTGZDgy0QqOvTPo79iGU,2155
+pyewjn/util/__init__.py,sha256=wZbVzhIfjVLWTejPG0NvlgcfVdUhAL0KjDiIbUEDCHM,125
+pyewjn/util/complex_integrate.py,sha256=fR2S7lA3LuVRdByn5u5oQ5I8JGokwJv5NJ1_E_281yc,805
+pyewjn-0.3.0.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+pyewjn-0.3.0.dist-info/METADATA,sha256=HohOsiMZdNtuiofausjMvZaIGOpP056jsrQ-B8wTJK4,369
+pyewjn-0.3.0.dist-info/RECORD,,
