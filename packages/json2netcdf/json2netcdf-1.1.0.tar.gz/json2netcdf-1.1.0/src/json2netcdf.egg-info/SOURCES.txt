@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/json2netcdf/__init__.py
+src/json2netcdf/__main__.py
+src/json2netcdf/json2netcdf.py
+src/json2netcdf.egg-info/PKG-INFO
+src/json2netcdf.egg-info/SOURCES.txt
+src/json2netcdf.egg-info/dependency_links.txt
+src/json2netcdf.egg-info/entry_points.txt
+src/json2netcdf.egg-info/top_level.txt
