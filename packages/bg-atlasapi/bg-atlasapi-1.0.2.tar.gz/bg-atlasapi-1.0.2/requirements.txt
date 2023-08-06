@@ -1,0 +1,9 @@
+numpy
+tifffile
+treelib
+pandas
+requests
+meshio
+click
+rich>=9.0.0
+bg-space>=0.5.0
