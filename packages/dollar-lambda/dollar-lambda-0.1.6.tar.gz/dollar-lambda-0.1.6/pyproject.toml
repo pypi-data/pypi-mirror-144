@@ -1,0 +1,33 @@
+[tool.poetry]
+name = "dollar-lambda"
+version = "0.1.6"
+description = ""
+authors = ["Ethan Brooks <ethanabrooks@gmail.com>"]
+include = ["dollar_lambda/py.typed"]
+
+[tool.poetry.dependencies]
+python = ">=3.8,<4.0"
+pytypeclass = "^0.1.1"
+
+[tool.poetry.dev-dependencies]
+ipdb = "^0.13.9"
+ipython = "^8.0.1"
+black = "^22.1.0"
+pre-commit = "^2.17.0"
+jupyter = "^1.0.0"
+jupytext = "^1.13.7"
+jupyter-http-over-ws = "^0.0.8"
+mypy = "^0.931"
+pyre-check = "^0.9.10"
+flake8 = "^4.0.1"
+pyright = "^1.1.225"
+click = "^8.0.4"
+MiniMock = "^1.2.8"
+pdoc3 = "^0.10.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.mypy]
+exclude = ['readme\.py']
