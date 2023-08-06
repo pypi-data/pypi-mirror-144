@@ -1,0 +1,10 @@
+verysimplemodule_test_ai/__init__.py,sha256=4b_apZtMVLDpgz5f5HuJmF194P-a-ogzUPxP_Ahyzus,49
+verysimplemodule_test_ai/add.py,sha256=thh9V1tFIy81tGDEBOYAk-TIVxwIytQafmbk7GhrXsY,28
+verysimplemodule_test_ai/subtract.py,sha256=UM0EgCej9-NOW6-WqzJg1AiaXDJ921Iqbo-HWF7thdg,33
+verysimplemodule_test_ai/extras/__init__.py,sha256=PZSD5KBz18yWugN74-vhWwmkZBi_4rBaSBilLxZKDuA,55
+verysimplemodule_test_ai/extras/divide.py,sha256=rtyBrO1KfNVhsSHhOl4sUYOEqJ4kNkAaDmNklBHjDfU,31
+verysimplemodule_test_ai/extras/multiply.py,sha256=kFXmceb5JmjKKpJ8K3w-vrJ96L03elDyXAnrXELnJqc,33
+verysimplemodule_test_ai-0.0.2.dist-info/METADATA,sha256=f_KiEqYEOvfUOnSF3CU7X0YcVsB5dSVvMgVdy9On5EU,541
+verysimplemodule_test_ai-0.0.2.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+verysimplemodule_test_ai-0.0.2.dist-info/top_level.txt,sha256=0hkPqzwnNAEeJeUgRAnyGAGEjMRfYovS4yP6kxmBq9M,25
+verysimplemodule_test_ai-0.0.2.dist-info/RECORD,,
