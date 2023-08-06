@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: semi-ate-test-app
+Version: 1.0.0
+Summary: Application/Environment that executes a specific test program
+Home-page: UNKNOWN
+Author: The Semi-ATE Project Contributors
+Author-email: ate.organization@gmail.com
+License: GPL2
+Description: UNKNOWN
+Keywords: Semiconductor ATE Automatic Test Equipment Spyder Plugin
+Platform: Windows
+Platform: Linux
+Platform: Mac OS-X
+Classifier: License :: OSI Approved :: GNU General Public License v2 (GPLv2)
+Classifier: Operating System :: MacOS
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: Science/Research
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Scientific/Engineering :: Electronic Design Automation (EDA)
+Classifier: Topic :: Scientific/Engineering :: Human Machine Interfaces
+Classifier: Topic :: Scientific/Engineering :: Interface Engine/Protocol Translator
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: Topic :: Software Development :: Code Generators
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Software Development :: Quality Assurance
+Description-Content-Type: text/markdown
