@@ -1,0 +1,14 @@
+nlpstats/__init__.py,sha256=QTjoaHiDm8hksnA4t9zfwcy28VWdv4BNPj39zCIe11E,52
+nlpstats/version.py,sha256=IP23qqvqS6R0vFkAi9ynKYoIy3fjvehnYZeD6rjAbNo,80
+nlpstats/correlations/__init__.py,sha256=0sM2-bZES7FmLfivAXI7bl-NFayACZYlxlBnVNlf5yo,404
+nlpstats/correlations/bootstrap.py,sha256=iehm_b_GwYeMm0SHGiO1azBmbjLuXSXfaBYGnaN7EHY,1748
+nlpstats/correlations/correlations.py,sha256=xwH8cU7YVl-YkDbjeGYZq1KYy5pHWpaZ16MdzjCvksQ,5190
+nlpstats/correlations/fisher.py,sha256=b58h5-0sY22VHtaEfe5q_slvqqnG48yW1e-OsadvwOo,1811
+nlpstats/correlations/permutation.py,sha256=SNQ_lxrt4BAtO_BP8dhTK7DPuWUsMBmUXhlA8GK8un4,2520
+nlpstats/correlations/resampling.py,sha256=LsCKEwzwFJr23Dh-BxwsvMDiHAxDLj5Mn1xd0PG8wew,5225
+nlpstats/correlations/williams.py,sha256=G1t0aM7rhVuLTHp9Iaybxpv3YCLo0KEdEtMIZg1R3Hc,2278
+nlpstats-0.0.1.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+nlpstats-0.0.1.dist-info/METADATA,sha256=B24NyTV2P9Hb56ynM_Neh0JazvfsU7YaLwmY882TBBU,310
+nlpstats-0.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+nlpstats-0.0.1.dist-info/top_level.txt,sha256=tRHfNq0s1r--fZ5BC3BYRdRn55NOy1dBlBZcYbmjXIA,9
+nlpstats-0.0.1.dist-info/RECORD,,
