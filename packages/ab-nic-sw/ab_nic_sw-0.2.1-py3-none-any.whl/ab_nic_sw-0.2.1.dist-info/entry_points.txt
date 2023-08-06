@@ -1,0 +1,6 @@
+[console_scripts]
+change_port=ab_nic_sw.change_port:main
+compare_pcap=ab_nic_sw.compare_pcap:main
+eth_interface_rate=ab_nic_sw.eth_interface_rate:main
+pcap_to_hbm=ab_nic_sw.pcap_to_hbm:main
+
