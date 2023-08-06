@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: TelegramBotNotifications
+Version: 0.0.1
+Summary: UNKNOWN
+Home-page: https://github.com/giocaizzi/TelegramBotNotifications
+Author: giocaizzi
+Author-email: giocaizzi@gmail.com
+License: UNKNOWN
+Project-URL: Documentation, https://giocaizzi.github.io/TelegramBotNotifications/
+Project-URL: Bug Reports, https://github.com/giocaizzi/TelegramBotNotifications/issues
+Project-URL: Source, https://github.com/giocaizzi/TelegramBotNotifications
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Description-Content-Type: text/markdown
+Provides-Extra: dev
+
+# TelegramBotNotifications
+
+![Logo](docsrc/source/images/logo.png)
+
+[![codecov](https://codecov.io/gh/giocaizzi/TelegramBotNotifications/branch/main/graph/badge.svg?token=FKL8VKYSQ4)](https://codecov.io/gh/giocaizzi/TelegramBotNotifications)
+
+Simple wrapper of TelegramAPI for essential Bot functionalities, for notification purposes.
+
+
