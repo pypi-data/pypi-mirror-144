@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: ovmfctl
+Version: 0.95
+Summary: tools for ovmf firmware volumes
+Author: Gerd Hoffmann
+Author-email: kraxel@redhat.com
+License: GPLv2
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+Requires-Dist: virt-firmware
+
+
+This project has been renamed to `virt-firmware`.
+
+https://gitlab.com/kraxel/virt-firmware
+
+https://pypi.org/project/virt-firmware/
+
+

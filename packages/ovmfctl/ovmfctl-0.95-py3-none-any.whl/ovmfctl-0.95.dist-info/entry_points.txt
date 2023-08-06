@@ -1,0 +1,3 @@
+[console_scripts]
+ovmfctl = virt.firmware.vars:main
+ovmfdump = virt.firmware.dump:main
