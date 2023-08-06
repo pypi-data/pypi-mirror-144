@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+stocksera/__init__.py
+stocksera/client.py
+stocksera/exceptions.py
+stocksera.egg-info/PKG-INFO
+stocksera.egg-info/SOURCES.txt
+stocksera.egg-info/dependency_links.txt
+stocksera.egg-info/requires.txt
+stocksera.egg-info/top_level.txt
