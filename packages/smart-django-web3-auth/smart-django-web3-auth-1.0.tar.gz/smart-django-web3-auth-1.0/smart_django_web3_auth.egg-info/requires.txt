@@ -1,0 +1,2 @@
+Django>=2.0
+ethereum>=2.3.0
