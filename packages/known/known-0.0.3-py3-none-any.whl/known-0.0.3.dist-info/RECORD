@@ -1,0 +1,10 @@
+known/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+known/dummy.py,sha256=DXeYScx0VQqyI8cJQYuIHPGFfNG3HJBkEGABh5b-F_k,1765
+known/html.py,sha256=18Ud6YKfzFzeUsyTp0TsXjzHHhUiikxdm2YesVGSU7A,9597
+known/numsys.py,sha256=YhBUltFrlxkimtBMsLez1BSYHaY8cAEkC-Vbyluxik0,1457
+known/printer.py,sha256=hCJCOZP1V1fwKTzAFE4aU5Xvm6uVQX_-AJnIYnAqzF0,4540
+known-0.0.3.dist-info/LICENSE,sha256=HrhfyXIkWY2tGFK11kg7vPCqhgh5DcxleloqdhrpyMY,11558
+known-0.0.3.dist-info/METADATA,sha256=tAovhV-pj1yUzVKtZXV3RaeO6QoHt7GbDsUdS2jLFhM,272
+known-0.0.3.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+known-0.0.3.dist-info/top_level.txt,sha256=fNiiekLUsAhLtsamxH7noD56oi1k6VDWdvmnx6aPBNk,6
+known-0.0.3.dist-info/RECORD,,
