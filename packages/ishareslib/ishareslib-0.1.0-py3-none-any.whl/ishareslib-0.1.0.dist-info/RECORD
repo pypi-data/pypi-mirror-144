@@ -1,0 +1,15 @@
+ishareslib/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ishareslib/client.py,sha256=EZa2QnBcoVPt0k3QN8sAiZiTvWQ3WUzKzD_FTW_DA-8,35588
+ishareslib/core/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ishareslib/core/proxy_adapter.py,sha256=i7hOqqn1OL0E1TjXJ_5FWcsMJqVZXaCn7ZbByJCCX9Q,1296
+ishareslib/core/user_agent_adapter.py,sha256=KcYhGYqBdzaDkL1nzwq6dFA3pKieCbq4CC6Qy0fxkfw,1045
+ishareslib/ext/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ishareslib/ext/proxy/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ishareslib/ext/proxy/webshare_proxy_adapter.py,sha256=QvvQhiwuHde4av_ZZ58bGM8V0U3OBIXSIlvaFKZ5O7s,1791
+ishareslib/ext/user_agent/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ishareslib/ext/user_agent/human_user_agent_adapter.py,sha256=m30PyPzr82zQgV0--gSz-AC6QvOgnhbFSP8unBHXOOM,1357
+ishareslib-0.1.0.dist-info/LICENSE,sha256=PBkDDQVCxKXGCWLoUE4HdxrwWxGuLvJoOL_43k224bI,35219
+ishareslib-0.1.0.dist-info/METADATA,sha256=sf_MIdqouoedy_-R2502pqcPEsUF3f9tL5iIxcMepmw,3568
+ishareslib-0.1.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+ishareslib-0.1.0.dist-info/top_level.txt,sha256=BwGIAOVORKVds9uZHoYwMy2VuQMMEuZTUaeOy0Q_Zj0,11
+ishareslib-0.1.0.dist-info/RECORD,,
