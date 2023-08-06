@@ -1,0 +1,10 @@
+mycustompackage12345/__init__.py,sha256=zVET38YOEiSrKprOy4JyszQ3_S9q6u3Ja8ok82YWqa0,51
+mycustompackage12345/add.py,sha256=d2EOQ2s4vRmxU30lyatpgC5qENFu2LrqvP1y0UwExlA,29
+mycustompackage12345/subtract.py,sha256=z-b9ijUdlQGP-XJ_-QIHdefLD96NOFvajARhFJr-QpI,34
+mycustompackage12345/extras/__init__.py,sha256=62mx6Kd4SCXGYtbujxxVnBsGQRnClXa9qJyH805gLzc,43
+mycustompackage12345/extras/div.py,sha256=kmmps_7ukK_SFRYYaPfrazBJTJWY1jMh_7tcFq9Cc-c,29
+mycustompackage12345/extras/mult.py,sha256=uZZU442zstBgI3XFYqVYai1NS85PWzXQAycriHRA2yc,30
+mycustompackage12345-0.0.1.dist-info/METADATA,sha256=-lGX_XVDXUrc2_kPWpSCUL5XE7S_xhPhIou69yCCTkE,267
+mycustompackage12345-0.0.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+mycustompackage12345-0.0.1.dist-info/top_level.txt,sha256=EYjMPCSIAsBk_kEfUqUVNzCxMZV7SgolGobzWTFOFCk,21
+mycustompackage12345-0.0.1.dist-info/RECORD,,
