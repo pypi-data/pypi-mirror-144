@@ -1,0 +1,7 @@
+setup.py
+lib/__init__.py
+lib/ok.py
+lustforsql3.egg-info/PKG-INFO
+lustforsql3.egg-info/SOURCES.txt
+lustforsql3.egg-info/dependency_links.txt
+lustforsql3.egg-info/top_level.txt
