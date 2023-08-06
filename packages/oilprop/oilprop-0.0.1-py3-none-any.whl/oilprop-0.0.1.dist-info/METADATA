@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: oilprop
+Version: 0.0.1
+Summary: Oil properties calculator
+Author: Buzovskyi Vitalii
+Author-email: buzovskiy.v@gmail.com
+License: UNKNOWN
+Project-URL: Project on GitHub, https://github.com/Buzovskiy/oilprop/releases/tag/v0.0.1
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Oil properties
+
+A program for calculation of thermal physics and thermodynamics properties of oil
+
+## Install
+```
+pip install oilprop==0.0.1
+```
+
+
+
