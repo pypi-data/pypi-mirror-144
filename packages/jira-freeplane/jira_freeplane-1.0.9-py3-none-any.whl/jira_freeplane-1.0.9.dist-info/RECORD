@@ -1,0 +1,11 @@
+jira_freeplane/__init__.py,sha256=fH_2Jsl7ktEPTk_1Dnzv_A-ggcyGpvDXA3_r_OVI6rE,585
+jira_freeplane/common.py,sha256=fEOJLFeIfxF4o1NdqWmIF82Tvw70MMdbjoxZlMAWV3M,936
+jira_freeplane/libjira.py,sha256=yCxSqAhAZZwRpmfji_nIoPmALwMV5T5q-pym4Y5l0uY,11660
+jira_freeplane/mm.py,sha256=78urgaOoOG4WaEvdMhOKYtvNW7NnY2WhBPPvJSiiXFQ,9204
+jira_freeplane/mm_settings.py,sha256=psqCBt37OY-ZwRaBs50hLfEOCkRSychl2-qkFQFOvpo,7523
+jira_freeplane/runtime.py,sha256=rb8htLaG9pgRU2N80iYaNgClioPfZxDB-zgsTg-caVk,5050
+jira_freeplane-1.0.9.dist-info/entry_points.txt,sha256=YbV8nrHm9DuQdstbOlaNOU0lRH3263YKkL-bwdtUfWE,77
+jira_freeplane-1.0.9.dist-info/LICENSE.txt,sha256=FAjAZOzw7qkycEvtRm8xF7ydWkQ2EZ9i3ADJxQl5Fgo,1087
+jira_freeplane-1.0.9.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+jira_freeplane-1.0.9.dist-info/METADATA,sha256=PtpSWzPbkyEfx4vIIXo4uJAHUch-wNYy8-hyOoCg0ck,3312
+jira_freeplane-1.0.9.dist-info/RECORD,,
