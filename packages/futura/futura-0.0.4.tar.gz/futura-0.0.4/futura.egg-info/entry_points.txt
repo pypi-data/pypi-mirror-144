@@ -1,0 +1,6 @@
+[console_scripts]
+futura = futura_ui.bin.run_futura:main
+
+[gui_scripts]
+futura_ui = futura_ui.bin.run_futura_ui:main
+

@@ -1,0 +1,5 @@
+global-include *.ui
+global-include *.json
+global-include *.png
+
+global-include *.xlsx
