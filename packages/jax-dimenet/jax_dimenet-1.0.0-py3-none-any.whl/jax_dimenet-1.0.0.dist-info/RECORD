@@ -1,0 +1,12 @@
+jax_dimenet/__init__.py,sha256=UMwo4yV-I2NCrePst8keRF5gNX5YOtWnZnI-9XRJADA,791
+jax_dimenet/custom_space.py,sha256=-gYvpn3rJTk9qbFssVNn6iqImyvw-UT6xvOQCCrqZmg,1767
+jax_dimenet/dimenet.py,sha256=Yu1akeAIOTfOIQQ8do6zMawmiqD78EgB_WflyFlSnNg,15012
+jax_dimenet/dimenet_basis_util.py,sha256=Z4p9mm0PSRgL0PZF6vgo9EoCTAq4ZgxVDfq0Fd-NCV4,5817
+jax_dimenet/layers.py,sha256=76lgHvDxyDmgsjTFuIX8tiaV_dyEqpmA_WEwhTuIFhM,19586
+jax_dimenet/sparse_graph.py,sha256=ipizzvQJ6FM_O5o4Mp4JxprpUSX6KHzX9Vn1j18UmDs,24007
+jax_dimenet-1.0.0.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+jax_dimenet-1.0.0.dist-info/LICENSE_SHORT,sha256=uTr_iR426gwLE2El3pI9bg7qx_7tGc9wAnZGiUAgc-M,610
+jax_dimenet-1.0.0.dist-info/METADATA,sha256=KkCgHbdCN5GtqxLxyU_Up_rlsBOex5Fzrbenqe6GvPk,3570
+jax_dimenet-1.0.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+jax_dimenet-1.0.0.dist-info/top_level.txt,sha256=A3xStYWQzYteIndOazlsA4dPDwcXPtIqCEpkZa_aRKI,12
+jax_dimenet-1.0.0.dist-info/RECORD,,
