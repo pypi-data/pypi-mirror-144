@@ -1,0 +1,9 @@
+validate/__init__.py,sha256=BsVZosBYX5qXAfOqk-PQS87U9iLoXt-JV6onpV2jb78,17
+validate/schema.py,sha256=gd1O_mzvXjD4nsSdqfO6kfnNOIAD6GbdxtxJRnTWaZE,9533
+validate/validator.py,sha256=hWRWCexkvUJwC21UPNaO_hTk8XfCjI7l2EFjoxBdTg8,13481
+ss_validate-0.4.8.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+ss_validate-0.4.8.dist-info/METADATA,sha256=NX677Migd49iT3z_zUwPJDj9jTdlqP1ci7To_0ybInI,2771
+ss_validate-0.4.8.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+ss_validate-0.4.8.dist-info/entry_points.txt,sha256=s1yPvmRAQhor2iOvz-doytGr9AWm5I-_LNNakwszhT4,56
+ss_validate-0.4.8.dist-info/top_level.txt,sha256=9gdHXD9YnggI2V66Qe5ujRv1nPsTQTDpyP6jWtcu6mU,9
+ss_validate-0.4.8.dist-info/RECORD,,
