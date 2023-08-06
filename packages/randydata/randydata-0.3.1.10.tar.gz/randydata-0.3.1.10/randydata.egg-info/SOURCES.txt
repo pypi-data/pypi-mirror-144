@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.rst
+setup.py
+randydata/__init__.py
+randydata/data_layout.py
+randydata/welcome_data.py
+randydata.egg-info/PKG-INFO
+randydata.egg-info/SOURCES.txt
+randydata.egg-info/dependency_links.txt
+randydata.egg-info/requires.txt
+randydata.egg-info/top_level.txt
