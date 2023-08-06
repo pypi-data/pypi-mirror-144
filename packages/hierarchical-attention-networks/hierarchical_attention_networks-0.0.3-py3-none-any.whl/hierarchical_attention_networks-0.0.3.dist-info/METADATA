@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: hierarchical-attention-networks
+Version: 0.0.3
+Summary: An implementation of Hierarchical Attention Networks for Document Classification
+Home-page: https://github.com/nryotaro/han
+Author: Ryotaro Nakamura
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/nryotaro/han
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: torch (>=1.11.0)
+Requires-Dist: torchtext (>=0.12.0)
+Requires-Dist: torchmetrics (>=0.7.2)
+Requires-Dist: torchdata (>=0.3.0)
+Provides-Extra: dev
+Requires-Dist: build ; extra == 'dev'
+Requires-Dist: twine ; extra == 'dev'
+Requires-Dist: wheel ; extra == 'dev'
+Requires-Dist: python-lsp-server[all] ; extra == 'dev'
+Requires-Dist: black ; extra == 'dev'
+Requires-Dist: ipython ; extra == 'dev'
+Requires-Dist: pytest ; extra == 'dev'
+
+# Hierarchical Attention Networks
+
+
