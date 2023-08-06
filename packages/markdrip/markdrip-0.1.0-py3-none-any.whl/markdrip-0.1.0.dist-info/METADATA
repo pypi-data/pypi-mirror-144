@@ -1,0 +1,51 @@
+Metadata-Version: 2.1
+Name: markdrip
+Version: 0.1.0
+Summary: Simple MarkDown renderer
+Author: Comamoca
+Author-email: comamoca.dev@gmail.com
+Requires-Python: >=3.10,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Requires-Dist: Jinja2 (>=3.1.1,<4.0.0)
+Requires-Dist: click (>=8.0.4,<9.0.0)
+Requires-Dist: mistletoe (>=0.8.2,<0.9.0)
+Description-Content-Type: text/markdown
+
+# Markdrip
+
+MarkDrip is a simple HTML generator.
+Mistletoe is used for rendering.
+
+The site is [here](https://comamoca.github.io/markdrip.github.io/) even in the rendered result.
+
+## How to use
+
+`markdrip filename`
+
+### Options
+
+Run `markdrip --help`.
+
+```
+Usage: main.py [OPTIONS] TARGET
+
+Options:
+  --output TEXT  Output destination file path
+  --theme TEXT   Applicable CSS file name. Does not include extension.
+  --help         Show this message and exit.
+
+```
+
+## Custom CSS
+
+CSS is stored under `~ / .markdrip`.
+Note that when writing CSS, specify the tag name directly in the selector.
+
+Ex.)
+```
+h1, h2, h3, h4, h5 {
+	color: black
+}
+```
+
