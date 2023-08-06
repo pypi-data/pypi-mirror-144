@@ -1,0 +1,17 @@
+simpel_actions/__init__.py,sha256=EJ74dGTUAbfn90P6bUWj4yFPIorx_PHtKQxi4PuhE3g,116
+simpel_actions/admin.py,sha256=M3a-FE1OtQrgwYm3Tg-JKzpkP-ryOj3MWxonDMNv7sk,1088
+simpel_actions/apps.py,sha256=z4OwDR_imS_SyRajsa8VPXAq9NBNmYB6TvUsl7TnDxM,482
+simpel_actions/handlers.py,sha256=DN6elA7l5ysi5zOKf8wSa5m9vCTKuwRAq56LPBBujI8,1341
+simpel_actions/managers.py,sha256=mZvEOCVMvefVk9sx0nPBjjt7-xI-TtebmS31IXOgieY,97
+simpel_actions/mixins.py,sha256=Ozj1Kh7s-j6uMvZ1gfpzejZmvLKbM0LmsCzXB-Lso_o,15187
+simpel_actions/models.py,sha256=ZqxYkvw2lEdoX7nKmyUOZQCSvi7qmdckxWPU67bT9Ok,11822
+simpel_actions/signals.py,sha256=55saM9YK3PXszQ18nxBfEHl8WLrsmUJ5oBmNLBhT8sU,1117
+simpel_actions/version.py,sha256=9S4JGDTPKJgLfFMiqJIsZ1iMpOOjyhmCfVPwCwzSqiU,1477
+simpel_actions/admin/__init__.py,sha256=8yhXEMGlCyZPoAD9FgnzpZXfSbv_gKfUq6lbT4freQk,34
+simpel_actions/admin/deprecated.py,sha256=cph997Gkd3EuoX7jWwMFYIVUAhABQCXbQhwOdSvEQj8,9797
+simpel_actions/templates/simpel_actions/object_actions.html,sha256=MfZm0OVXzgdFlSzPkpGbchWILal08ym3EV0RCR2d1_U,828
+simpel_actions-0.1.1.dist-info/LICENSE,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+simpel_actions-0.1.1.dist-info/METADATA,sha256=HycVGcXh9G3-WX6qV-cpckk6r8_icxp-KQc7cTwNXtk,1419
+simpel_actions-0.1.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+simpel_actions-0.1.1.dist-info/top_level.txt,sha256=BUkKAPU4yZ30GXUchT4yad0p1924EdnvYS-I2SmSwGk,15
+simpel_actions-0.1.1.dist-info/RECORD,,
