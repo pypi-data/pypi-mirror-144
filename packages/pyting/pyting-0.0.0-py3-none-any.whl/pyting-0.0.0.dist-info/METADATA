@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: pyting
+Version: 0.0.0
+Summary: Data-Driven Shock Capturing
+Home-page: UNKNOWN
+Author: zoonature
+Author-email: zoonature@snu.ac.kr
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: pandas (==1.4.1)
+Requires-Dist: numpy (==1.21.5)
+Requires-Dist: matplotlib (==3.5.1)
+Requires-Dist: torch (==1.11.0)
+Requires-Dist: torchvision (==0.12.0)
+Requires-Dist: torchaudio (==0.11.0)
+
+UNKNOWN
+
