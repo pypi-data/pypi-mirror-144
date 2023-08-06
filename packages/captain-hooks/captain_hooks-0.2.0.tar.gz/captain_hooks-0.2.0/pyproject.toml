@@ -1,0 +1,67 @@
+[project]
+name = "captain_hooks"
+authors = [
+        {name="Toshio Kuratomi", email="a.badger@gmail.com"}
+]
+
+description = "Collection of pre-commit hooks"
+home-page = "https://github.com/abadger/captain_hooks"
+requires-python = "~=3.0"
+readme = "README.md"
+# ninja extra specified because meson needs some backend to work.
+dependencies = ["meson[ninja]!=0.62.0.*"]
+
+[project.urls]
+repository = "https://github.com/abadger/captain_hooks"
+documentation = "https://readthedocs.io/captain_hooks"
+
+[build-system]
+# meson dep explicitly added due to https://github.com/mesonbuild/meson/issues/10181
+# mesonpep517 from a checkout because 0.2.0 does not understand dependencies
+# Use my own fork of mesonpep517 because mesonpep517 uses meson to build so it
+# needs to have ninja added to its deps.
+requires = ["mesonpep517 @ git+https://gitlab.com/a.badger/mesonpep517@deps-fix", "meson[ninja]!==0.62.0.*"]
+build-backend = "mesonpep517.buildapi"
+
+[tool.mesonpep517.metadata]
+classifiers = [
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: GNU Affero General Public License v3 or later (AGPLv3+)",
+    "Programming Language :: Python :: 3",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+]
+meson-options = []
+meson-python-option-name = ""
+platforms = "any"
+# The following will go away when mesonpep517 impelements full PEP metadata
+summary = "Collection of pre-commit hooks"
+
+[tool.mesonpep517.entry-points]
+console_scripts = [
+    "meson-file-list = captain_hooks.meson_file_list:main",
+]
+
+[tool.yapf]
+based_on_style = "pep8"
+COALESCE_BRACKETS = true
+COLUMN_LIMIT = 100
+JOIN_MULTIPLE_LINES = false
+SPLIT_BEFORE_ARITHMETIC_OPERATOR = true
+SPLIT_BEFORE_DOT = true
+SPLIT_BEFORE_EXPRESSION_AFTER_OPENING_PAREN = true
+
+[tool.coverage.run]
+branch = true
+
+[tool.coverage.report]
+fail_under = 60
+skip_covered = true
+show_missing = true
+
+[tool.vulture]
+paths = ['captain_hooks', "vulture-false-positives"]
+exclude = ["_argparse.py"]
+
+[tool.mypy]
+show_error_codes = true
+exclude = ".*(vulture-false-positives.py)"
