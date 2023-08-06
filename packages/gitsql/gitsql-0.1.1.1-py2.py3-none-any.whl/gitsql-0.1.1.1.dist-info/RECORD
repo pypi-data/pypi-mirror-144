@@ -1,0 +1,9 @@
+gitsql/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+gitsql/cli.py,sha256=o98_cQjPm2wXH0KwcnqrhKKLhHZhSyxZsbLsqSDIYKA,1240
+gitsql/openmldb_importer.py,sha256=67RLoDfKTDNBvhw8iDnv9KyZUOeJ39vIsiddctkand8,4158
+gitsql-0.1.1.1.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+gitsql-0.1.1.1.dist-info/METADATA,sha256=Li2ERqiPDDjZx8tvQnC_eGsgkqwmpM_5fhsmsxjdOiQ,380
+gitsql-0.1.1.1.dist-info/WHEEL,sha256=z9j0xAa_JmUKMpmz72K0ZGALSM_n-wQVmGbleXx2VHg,110
+gitsql-0.1.1.1.dist-info/entry_points.txt,sha256=eaNZB6HONiWeXwiOAVC-09Bp5izPqKx3hQyDff05Jt8,44
+gitsql-0.1.1.1.dist-info/top_level.txt,sha256=RS556VQRvpYT02QIOd30nQ3gj3Er3vvgByc6DDRkuw0,7
+gitsql-0.1.1.1.dist-info/RECORD,,
