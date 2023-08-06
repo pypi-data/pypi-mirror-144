@@ -1,0 +1,5 @@
+setup.py
+affogato.egg-info/PKG-INFO
+affogato.egg-info/SOURCES.txt
+affogato.egg-info/dependency_links.txt
+affogato.egg-info/top_level.txt
