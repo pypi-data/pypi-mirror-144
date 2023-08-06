@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+vigor/__init__.py
+vigor/__main__.py
+vigor.egg-info/PKG-INFO
+vigor.egg-info/SOURCES.txt
+vigor.egg-info/dependency_links.txt
+vigor.egg-info/top_level.txt
