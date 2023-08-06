@@ -1,0 +1,12 @@
+.gitignore
+LICENSE
+README.md
+requirements.txt
+setup.py
+.github/ISSUE_TEMPLATE/i18n-challenge.md
+.github/ISSUE_TEMPLATE/question.md
+hcaptcha_challenger.egg-info/PKG-INFO
+hcaptcha_challenger.egg-info/SOURCES.txt
+hcaptcha_challenger.egg-info/dependency_links.txt
+hcaptcha_challenger.egg-info/requires.txt
+hcaptcha_challenger.egg-info/top_level.txt
