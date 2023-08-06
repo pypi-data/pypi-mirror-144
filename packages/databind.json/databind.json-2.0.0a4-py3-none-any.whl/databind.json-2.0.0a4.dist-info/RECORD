@@ -1,0 +1,9 @@
+databind/json/__init__.py,sha256=8muY21B9Me1TUnv9UoxCPpJyITQXVgzy4KmxfGWtcK0,2447
+databind/json/converters.py,sha256=DSszNG2r_EddU2gwXfVmHMkkUKOVDZNDP7BlhIGvE2g,28249
+databind/json/direction.py,sha256=benobJhnDOrvKPbYF4fx3pqF3heVA_aJibQyYFt8ox4,97
+databind/json/module.py,sha256=vva8xJj21LBoxF9UPfkQk5wNJ9bw4Z-rsYegFGVXjN8,1949
+databind/json/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+databind/json/settings.py,sha256=ZqioVA_mzY21hsBwD_IRhIt93GUdQJDYqxZrYutcmfI,121
+databind.json-2.0.0a4.dist-info/WHEEL,sha256=KXNDfOTTCr-VyxnCJDozfJ6nmi3hNN9RABDaCXBsNak,85
+databind.json-2.0.0a4.dist-info/METADATA,sha256=JKtqjLaFCdvbtkkNu-lULNpCvWAkTIEarUtCZXex8uA,1335
+databind.json-2.0.0a4.dist-info/RECORD,,
