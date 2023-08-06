@@ -1,0 +1,39 @@
+Metadata-Version: 2.1
+Name: p4rrot
+Version: 0.0.1
+Summary: Generating P4 Code for the Application Layer
+Home-page: https://github.com/gycsaba96/P4RROT
+Author: Csaba Gyorgyi
+Author-email: gycsaba96@gmail.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/gycsaba96/P4RROT/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# P4RROT
+
+Generating P4 Code for the Application Layer
+
+## Motivation
+
+Throughput and latency-critical applications (e.g. processing sensor data, robot control, or monitoring stock market streams) can often benefit if computations are performed close to the client. Performing these computations in the data plane can help us take it to the next level.
+
+P4 is excellent data plane programming language, and we all love it. However, it wasn't meant to implement application-layer tasks. Thus, offloading server-functionality can be challenging.
+
+P4RROT is a code generator that helps programmers overcome certain limitations and write shorter and easier-to-read code.
+
+## Supported targets
+
+P4RROT is a very young project. The current code base supports both the BMv2 and the Netronome NFP.
+
+We plan to add Tofino specific elements as well.
+
+## Getting started
+
+...
+
