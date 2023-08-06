@@ -1,0 +1,17 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+psyki/__init__.py
+psyki.egg-info/PKG-INFO
+psyki.egg-info/SOURCES.txt
+psyki.egg-info/dependency_links.txt
+psyki.egg-info/top_level.txt
+psyki/logic/__init__.py
+psyki/logic/datalog/__init__.py
+psyki/logic/datalog/grammar/__init__.py
+psyki/logic/datalog/grammar/adapters/__init__.py
+psyki/resources/__init__.py
+psyki/ski/__init__.py
+psyki/ski/injectors.py
+psyki/utils/__init__.py
