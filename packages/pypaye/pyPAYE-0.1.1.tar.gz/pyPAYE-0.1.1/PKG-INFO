@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: pypaye
+Version: 0.1.1
+Summary: This is a simple python cscript that calculates PAYE and NI tax payments in the U.K.
+Home-page: https://github.com/vsevolod-mineev/pyPAYE
+License: MIT
+Author: Vsevolod Mineev
+Author-email: vsevolod.mineev@gmail.com
+Requires-Python: >=3.9,<3.11
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.9
+Project-URL: Documentation, https://github.com/vsevolod-mineev/pyPAYE
+Project-URL: Repository, https://github.com/vsevolod-mineev/pyPAYE
