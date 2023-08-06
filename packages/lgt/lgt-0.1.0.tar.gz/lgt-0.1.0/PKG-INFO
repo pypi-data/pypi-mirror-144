@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: lgt
+Version: 0.1.0
+Summary: Python library for Lattice Gauge Theory
+Author: Sam Foreman
+Author-email: saforem2@gmail.com
+Requires-Python: >=3.8,<3.11
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: itermplot (>=0.331,<0.332)
+Requires-Dist: numpy (>=1.22.3,<2.0.0)
+Requires-Dist: scipy (>=1.8.0,<2.0.0)
+Requires-Dist: tensorflow (>=2.8.0,<3.0.0)
+Requires-Dist: torch (>=1.11.0,<2.0.0)
