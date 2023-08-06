@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: totareadme
+Version: 0.1.0
+Summary: Package to create Readme.md files easily
+Home-page: UNKNOWN
+Author: mat0ta
+Author-email: <mcnmatota21@gmail.com>
+License: UNKNOWN
+Keywords: python,readme,module,github,repository
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+
+UNKNOWN
+
