@@ -1,0 +1,7 @@
+LICENSE.md
+pyproject.toml
+setup.cfg
+manim_ml/manim_ml.egg-info/PKG-INFO
+manim_ml/manim_ml.egg-info/SOURCES.txt
+manim_ml/manim_ml.egg-info/dependency_links.txt
+manim_ml/manim_ml.egg-info/top_level.txt
