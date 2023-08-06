@@ -1,0 +1,7 @@
+pytorch-lightning==1.5.10
+transformers>=4.16.2
+
+[dev]
+setuptools>=57.4.0
+wheel>=0.37.0
+semantic-version==2.9.0

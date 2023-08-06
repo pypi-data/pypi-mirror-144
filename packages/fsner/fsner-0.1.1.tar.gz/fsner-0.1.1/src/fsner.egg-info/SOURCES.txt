@@ -1,0 +1,16 @@
+README.md
+setup.py
+src/fsner/__init__.py
+src/fsner/cmdline.py
+src/fsner/datamodule.py
+src/fsner/model.py
+src/fsner/tokenizer_utils.py
+src/fsner/trainer.py
+src/fsner/utils.py
+src/fsner/version.py
+src/fsner.egg-info/PKG-INFO
+src/fsner.egg-info/SOURCES.txt
+src/fsner.egg-info/dependency_links.txt
+src/fsner.egg-info/entry_points.txt
+src/fsner.egg-info/requires.txt
+src/fsner.egg-info/top_level.txt
