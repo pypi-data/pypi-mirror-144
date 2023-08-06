@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: metsim
+Version: 2.4.1
+Summary: Meteorology Simulator
+Home-page: https://github.com/UW-Hydro/MetSim
+Author: Andrew Bennett
+Author-email: bennett.andr@gmail.com
+License: UNKNOWN
+Keywords: meteorology,disaggregation,hydrology,climate,mtclim
+Platform: UNKNOWN
+Requires-Python: >3.6
+License-File: LICENSE
+
+UNKNOWN
+
