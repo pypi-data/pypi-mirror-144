@@ -1,0 +1,10 @@
+malcube/__init__.py,sha256=QvlVh4JTl3JL7jQAja76yKtT-IvF4631ASjWY1wS6AQ,22
+malcube/cli.py,sha256=Vi3UXC10FdAjpaUu9MJFF6KXqR6R7GTsO--CfPl73Vw,275
+malcube/logo.py,sha256=QJVDVufRF6kRwzK36t7eTrF5ODohyK2FxG-HmFg1x_4,461
+malcube/main.py,sha256=c97c0rfADqwc9pxk4Gb-scmR7AcSLr_PK_F_kvFSAb4,52
+malcube-0.0.2.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+malcube-0.0.2.dist-info/METADATA,sha256=2q6WgVEExtcrm2elye4uuiX28Q7wT59V8wTc9atY98Y,966
+malcube-0.0.2.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+malcube-0.0.2.dist-info/entry_points.txt,sha256=m5a2kTl2fRDOgGx9tL6ijTWc1-ufa34_9d6SbeqaVX8,52
+malcube-0.0.2.dist-info/top_level.txt,sha256=kOGTAfwF4nv4bSOPfPnpkXJXO0ZojrJGi_XRfTx_3oI,8
+malcube-0.0.2.dist-info/RECORD,,
