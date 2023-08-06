@@ -1,0 +1,14 @@
+zeldarose/__init__.py,sha256=LBK46heutvn3KmsCrKIYu8RQikbfnjZaj2xFrXaeCzQ,22
+zeldarose/common.py,sha256=r3v3uqYBBgiTr1WHnv90U3B_HUX6huu4GFBE-kVnOJk,1231
+zeldarose/data.py,sha256=n43oPYRoRsYFTICXOs57tla28ifFoYRX4oPW6jLs6c8,8136
+zeldarose/mlm.py,sha256=VoXH1XpxqSWlXgzjE3XVqEzKaH56Q7mORiznPx8ExGI,13058
+zeldarose/rtd.py,sha256=63rAEDJi7-mn_zO8j292Rai0eTeA5rKxcQDqoabWSIU,18129
+zeldarose/train_tokenizer.py,sha256=WAiix69r1vi-msJqEAoBDHc4wov3ktd8pWH2ypoXRxk,3531
+zeldarose/train_transformer.py,sha256=MujQdMAsKYh6bOv0FefOgVVqywaN-M6tZuXJXqJyZqM,16667
+zeldarose/utils.py,sha256=LpaR4DocRS9idUPv2G9QGs8ua5Ws6WFo45e6g847G_A,8384
+zeldarose-0.5.0.dist-info/LICENCE.md,sha256=AfpZCYtP4sT4olAIyMP7FIThGRl4mlkS5Uh8MbV_THw,1700
+zeldarose-0.5.0.dist-info/METADATA,sha256=XeNSAmfrBu47FhPmCkaFhr-EAoeydAv948Wyr5mt4P4,3721
+zeldarose-0.5.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+zeldarose-0.5.0.dist-info/entry_points.txt,sha256=TRVnSROPrrmBWJjMEx7tsJvyqozM3hUmmhT-fUvYxJ8,128
+zeldarose-0.5.0.dist-info/top_level.txt,sha256=NRMB0nDSVDrWE-id77X4S5icTrJESdu7f9yFOKYoJF8,10
+zeldarose-0.5.0.dist-info/RECORD,,
