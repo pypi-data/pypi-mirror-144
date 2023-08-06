@@ -1,0 +1,10 @@
+slurminade/__init__.py,sha256=zXNoi6ef6TrYcvdi8mhjIXQX2LL3KNVqAv3nEWLYBpY,104
+slurminade/conf.py,sha256=M8Iu4oF0H68p8eB1CUorK8-yA4u_CJcZMZLWE_Rk-uE,434
+slurminade/execute.py,sha256=Z1HJaEiebU1x7Y-d1rqkfLu2E1b3Ta-If01eJGm95yw,386
+slurminade/function.py,sha256=SHzkqLfOLmfzD5d1lnrQv9cVSt65PWW7tigHvmxgDMo,1830
+slurminade/guard.py,sha256=NRhz16aYhOX9cJXbTDKGxmewhYijp94fIRKnA8IoAH0,344
+slurminade-0.1.4.dist-info/LICENSE,sha256=8PRpSF_gvlxY4I1_yNtrFB9y5lumnfGfUyjQUJx5LxE,1071
+slurminade-0.1.4.dist-info/METADATA,sha256=NSvMYaGJ7_fTn755WbSU7rgP-S35J53gYckBIhD1Vok,1309
+slurminade-0.1.4.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+slurminade-0.1.4.dist-info/top_level.txt,sha256=YrWObMR3at2lbVLLw9gj1K_Q0JozAMXSCI3BEuTlIW4,11
+slurminade-0.1.4.dist-info/RECORD,,
