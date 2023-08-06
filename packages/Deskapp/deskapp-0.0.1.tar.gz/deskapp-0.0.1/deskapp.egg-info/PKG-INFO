@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: deskapp
+Version: 0.0.1
+Summary: An Open Source Terminal basesd Program Manager. Write and manage your own apps in this framework.
+Home-page: https://github.com/ruckusist/deskapp
+Author: Ruckusist
+Author-email: ruckusist@outlook.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+License-File: LICENSE.txt
+
+DeskApp!
+
+A console program manager for python apps.
+
+[Install]
+Install using the install script or via 'pip install deskapp'.
+
+[Run]
+'deskapp' from the console will invoke the app.
+
+-ruckusist.com (2022)
+
