@@ -1,0 +1,44 @@
+.oauth, body, html{
+    min-height: 100vh;
+}
+.bt-primary{
+    background: var(--bs-primary);
+}
+.views-info{
+    background: var(--bs-primary);
+    min-height: 100vh;
+    color: #FFFFFF;
+}
+
+.views-info{
+    color: #FFF;
+}
+.views-info h1,h2{
+    text-align: center;
+
+}
+
+.views-info img{
+    width: 40px;
+    margin-bottom: 5px;
+}
+
+.views-info span{
+    font-size: 12px;
+}
+
+.views-info .col{
+    margin-bottom: 5em;
+}
+
+.form-oauth{
+    width: 45%;
+    margin: 0 auto;
+}
+
+.logo-oauth{
+    width: 90px;
+    display: block;
+    margin: auto;
+    pointer-events: none;
+}

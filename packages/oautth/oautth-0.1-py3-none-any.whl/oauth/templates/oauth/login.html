@@ -1,0 +1,33 @@
+{% extends 'oauth/base-auth.html' %}
+{% load static %}
+{% block title %}Login{% endblock %}
+{% block container %}
+    <div class="row align-items-center">
+        <div class="col-md-6 ">
+            <div class="form-oauth">
+                <div class="logo d-block mb-4" style="text-align: center">
+                    <img class="logo-oauth mb-3" src="{% static 'images/logo.svg' %}" alt="logo">
+                    <span><span>Não possui uma conta? <a href="{% url 'oauth:register' %}"
+                                                         class="text-decoration-none text-primary">Cadastre-se!</a></span></span>
+                </div>
+                <form method="POST" action="{% url 'oauth:login' %}">
+                    {% csrf_token %}
+
+                    {% include 'components/messages.html' with alert_shadow=False show_icon=False %}
+                    <div class="mb-3">
+                        {{ login_form.user_email }}
+                    </div>
+                    <div class="mb-3">
+                         {{ login_form.password }}
+                    </div>
+                    <button type="submit" class="btn btn-primary w-100 text-light">Login</button>
+                </form>
+                <span><a href="{% url 'oauth:restore-password' %}" class="text-decoration-none text-primary">Recuperar senha?</a></span>
+            </div>
+        </div>
+
+        <div class="col-md-6 bg-primary h-100 d-flex views-info">
+            {% include 'oauth/partial/_extra-info-login.html' %}
+        </div>
+    </div>
+{% endblock %}

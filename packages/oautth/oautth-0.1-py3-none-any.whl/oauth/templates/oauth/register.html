@@ -1,0 +1,42 @@
+{% extends 'oauth/base-auth.html' %}
+{% load static %}
+{% block title %}Cadastro{% endblock %}
+{% block container %}
+    <div class="row align-items-center">
+
+        <div class="col-md-6 bg-primary h-100 d-flex views-info">
+            {% include 'oauth/partial/_extra-info-register.html' %}
+        </div>
+        <div class="col-md-6 ">
+            <div class="form-oauth">
+                <div class="logo d-block mb-4" style="text-align: center">
+                    <img class="logo-oauth mb-3" src="{% static 'images/logo.svg' %}" alt="logo">
+                        <span>
+                            Já possui uma conta?
+                            <a href="{% url 'oauth:login' %}" class="text-decoration-none text-primary">Faça Login</a>
+                        </span>
+                </div>
+                <form method="POST" action="{% url 'oauth:register' %}">
+                    {% csrf_token %}
+                    {% include 'components/messages.html' with alert_shadow=False show_icon=False %}
+                    <div class="mb-3">
+                        {{ form.first_name }}
+                    </div>
+                    <div class="mb-3">
+                        {{ form.last_name }}
+                    </div>
+                    <div class="mb-3">
+                        {{ form.email }}
+                    </div>
+                    <div class="mb-3">
+                        {{ form.password }}
+                    </div>
+                    <div class="mb-3">
+                        {{ form.password2 }}
+                    </div>
+                    <button type="submit" class="btn btn-primary w-100 text-light">Cadastrar</button>
+                </form>
+            </div>
+        </div>
+    </div>
+{% endblock %}
