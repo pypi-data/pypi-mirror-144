@@ -1,0 +1,28 @@
+[tool.poetry]
+name = "kicksaw-github-secrets-management"
+version = "0.0.1"
+description = "Provides a cli command for pushing secrets to a GitHub repo."
+readme = "README.md"
+repository = "https://github.com/Kicksaw-Consulting/kicksaw-github-secrets-management"
+authors = ["Alex Drozd <alex@kicksaw.com>"]
+keywords = ["kicksaw", "github", "secrets"]
+packages = [
+    { include = "kicksaw_github_secrets_management" }
+]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+click = "^8.1.1"
+PyGithub = "^1.55"
+PyNaCl = "^1.5.0"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+black = "^20.8b1"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+github-secrets-mgmt = 'kicksaw_github_secrets_management.cli:main'
