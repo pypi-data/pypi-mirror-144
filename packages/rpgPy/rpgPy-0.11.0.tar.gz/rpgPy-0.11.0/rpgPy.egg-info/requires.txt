@@ -1,0 +1,13 @@
+numpy<=1.21
+cython
+netCDF4
+tqdm
+pytz
+numba
+
+[test]
+pytest
+pylint
+mypy
+types-pytz
+pre-commit
