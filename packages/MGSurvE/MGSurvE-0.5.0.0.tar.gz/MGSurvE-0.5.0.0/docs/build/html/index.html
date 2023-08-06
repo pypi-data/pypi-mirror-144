@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MGSurvE’s documentation! &mdash; MGSurvE  documentation</title>
+      <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+      <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <!--[if lt IE 9]>
+    <script src="_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
+        <script src="_static/jquery.js"></script>
+        <script src="_static/underscore.js"></script>
+        <script src="_static/doctools.js"></script>
+    <script src="_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Installation" href="installation.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+            <a href="#" class="icon icon-home"> MGSurvE
+            <img src="_static/MGSurvE_Logo.png" class="logo" alt="Logo"/>
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul>
+<li class="toctree-l1"><a class="reference internal" href="installation.html">Installation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="breakdown.html">Pkg Breakdown</a></li>
+<li class="toctree-l1"><a class="reference internal" href="demos.html">Tutorials</a></li>
+<li class="toctree-l1"><a class="reference internal" href="benchmarks.html">Benchmarks</a></li>
+<li class="toctree-l1"><a class="reference internal" href="api.html">API</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="#">MGSurvE</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="#" class="icon icon-home"></a> &raquo;</li>
+      <li>MGSurvE’s documentation!</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="_sources/index.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="mgsurve-s-documentation">
+<h1>MGSurvE’s documentation!<a class="headerlink" href="#mgsurve-s-documentation" title="Permalink to this headline"></a></h1>
+<p><a class="reference external" href="https://github.com/Chipdelmal/MGSurvE">MGSurvE</a> is a python package designed to optimize the location of mosquito traps in complex spatially-heterogeneous environments.
+Have a look at our <a class="reference external" href="https://github.com/Chipdelmal/MGSurvE">github</a> repo for the latest code or <a class="reference external" href="./installation.html">install</a>  our package through <a class="reference external" href="https://pypi.org/project/MGSurvE/">pypi</a>.</p>
+<p>Our <a class="reference external" href="demos.html">tutorials</a> sections contains several examples on use-cases for our software!</p>
+<img alt="_images/demo.jpg" src="_images/demo.jpg" />
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>This project is under active development and testing.</p>
+</div>
+<section id="features">
+<h2>Features<a class="headerlink" href="#features" title="Permalink to this headline"></a></h2>
+<p><a class="reference external" href="https://github.com/Chipdelmal/MGSurvE">MGSurvE</a> aims to be a fairly flexible utility that serves as a tool to compare and contrast effectiveness of trapping schemes in a variety of situations.
+To this end, we have integrated the following features into our package (with more coming in future updates):</p>
+<ul class="simple">
+<li><p>Support for different point-types</p></li>
+<li><p>Random point-process landscape generators</p></li>
+<li><p>Customizable movement kernels</p></li>
+<li><p>Different movement kernels for male and female mosquitos</p></li>
+<li><p>Customizable trap attractiveness kernels</p></li>
+<li><p>Different attractiveness levels at specific point-type transitions</p></li>
+<li><p>Different trap attractiveness levels for male and female mosquitos</p></li>
+<li><p>Immovable traps</p></li>
+<li><p>Integrated plotting routines</p></li>
+<li><p>Integrated Map-plotting routines</p></li>
+<li><p>GA optimization routines integration</p></li>
+</ul>
+</section>
+<hr class="docutils" />
+<section id="site-s-map">
+<h2>Site’s Map<a class="headerlink" href="#site-s-map" title="Permalink to this headline"></a></h2>
+<div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="installation.html">Installation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="breakdown.html">Pkg Breakdown</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="breakdown.html#workflow">Workflow</a></li>
+<li class="toctree-l2"><a class="reference internal" href="breakdown.html#components">Components</a></li>
+<li class="toctree-l2"><a class="reference internal" href="breakdown.html#genetic-algorithm">Genetic Algorithm</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="demos.html">Tutorials</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="landscapeCreation.html">1. Landscape Creation</a></li>
+<li class="toctree-l2"><a class="reference internal" href="landscapeUpdate.html">2. Landscape Update</a></li>
+<li class="toctree-l2"><a class="reference internal" href="landscapeTraps.html">3. Sites and Trap Types</a></li>
+<li class="toctree-l2"><a class="reference internal" href="GA.html">4. GA Optimization</a></li>
+<li class="toctree-l2"><a class="reference internal" href="GA_custom.html">5. GA with Immovable Traps</a></li>
+<li class="toctree-l2"><a class="reference internal" href="GA_sites.html">6. GA Custom with Multi-Point Type</a></li>
+<li class="toctree-l2"><a class="reference internal" href="GA_complex.html">7. GA with Sex Kernels</a></li>
+<li class="toctree-l2"><a class="reference internal" href="OT_trapMask.html">8. Stage-Specific Traps</a></li>
+<li class="toctree-l2"><a class="reference internal" href="GA_STP.html">9. GA in a Realistic Landscape</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="benchmarks.html">Benchmarks</a></li>
+<li class="toctree-l1"><a class="reference internal" href="api.html">API</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="api.html#landscape">Landscape</a></li>
+<li class="toctree-l2"><a class="reference internal" href="api.html#optimization">Optimization</a></li>
+<li class="toctree-l2"><a class="reference internal" href="api.html#dataviz-point-processes-and-auxiliaries">DataViz, Point-Processes and Auxiliaries</a></li>
+</ul>
+</li>
+</ul>
+</div>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="installation.html" class="btn btn-neutral float-right" title="Installation" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2021, Hector M. Sanchez C..</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

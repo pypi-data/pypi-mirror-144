@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>4. GA Optimization &mdash; MGSurvE  documentation</title>
+      <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+      <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <!--[if lt IE 9]>
+    <script src="_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
+        <script src="_static/jquery.js"></script>
+        <script src="_static/underscore.js"></script>
+        <script src="_static/doctools.js"></script>
+    <script src="_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="5. GA with Immovable Traps" href="GA_custom.html" />
+    <link rel="prev" title="3. Sites and Trap Types" href="landscapeTraps.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+            <a href="index.html" class="icon icon-home"> MGSurvE
+            <img src="_static/MGSurvE_Logo.png" class="logo" alt="Logo"/>
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="installation.html">Installation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="breakdown.html">Pkg Breakdown</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="demos.html">Tutorials</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="landscapeCreation.html">1. Landscape Creation</a></li>
+<li class="toctree-l2"><a class="reference internal" href="landscapeUpdate.html">2. Landscape Update</a></li>
+<li class="toctree-l2"><a class="reference internal" href="landscapeTraps.html">3. Sites and Trap Types</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">4. GA Optimization</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#the-workflow">4.1. The Workflow</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#landscape-and-traps">4.2. Landscape and Traps</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#genetic-algorithm">4.3. Genetic Algorithm</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#summary-and-plotting">4.4. Summary and Plotting</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="GA_custom.html">5. GA with Immovable Traps</a></li>
+<li class="toctree-l2"><a class="reference internal" href="GA_sites.html">6. GA Custom with Multi-Point Type</a></li>
+<li class="toctree-l2"><a class="reference internal" href="GA_complex.html">7. GA with Sex Kernels</a></li>
+<li class="toctree-l2"><a class="reference internal" href="OT_trapMask.html">8. Stage-Specific Traps</a></li>
+<li class="toctree-l2"><a class="reference internal" href="GA_STP.html">9. GA in a Realistic Landscape</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="benchmarks.html">Benchmarks</a></li>
+<li class="toctree-l1"><a class="reference internal" href="api.html">API</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">MGSurvE</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="index.html" class="icon icon-home"></a> &raquo;</li>
+          <li><a href="demos.html">Tutorials</a> &raquo;</li>
+      <li><span class="section-number">4. </span>GA Optimization</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="_sources/GA.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="ga-optimization">
+<h1><span class="section-number">4. </span>GA Optimization<a class="headerlink" href="#ga-optimization" title="Permalink to this headline"></a></h1>
+<p>In this demo, we will be optimizing the traps’ positions to minimize the time it takes for a mosquito to get caught.
+This is done with the <a class="reference external" href="https://deap.readthedocs.io/en/master/">DEAP package</a>, as it allows much flexibility and implementation speedups.</p>
+<section id="the-workflow">
+<h2><span class="section-number">4.1. </span>The Workflow<a class="headerlink" href="#the-workflow" title="Permalink to this headline"></a></h2>
+<p>The way <a class="reference external" href="https://github.com/Chipdelmal/MGSurvE">MGSurvE</a> and <a class="reference external" href="https://deap.readthedocs.io/en/master/">DEAP</a> communicate to each other is through the traps’ positions and the fitness function.
+Our landscape object contains the information we need to calculate the migration and trapping metrics on our environment, and our optimizer should be able to modify the traps’ locations to test which positions are the best ones given a cost function.
+For this to happen, we will create a copy of our landscape object (as it will be modified in place), which will be constantly updated through the traps’ positions by the <a class="reference external" href="https://deap.readthedocs.io/en/master/">DEAP framework</a>:</p>
+<img alt="_images/MGSurvEDiagSingleSex.jpg" src="_images/MGSurvEDiagSingleSex.jpg" />
+</section>
+<section id="landscape-and-traps">
+<h2><span class="section-number">4.2. </span>Landscape and Traps<a class="headerlink" href="#landscape-and-traps" title="Permalink to this headline"></a></h2>
+<p>We are going to use a “donut” landscape as a testbed, so we define our pointset as:</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">ptsNum</span> <span class="o">=</span> <span class="mi">100</span>
+<span class="n">radii</span> <span class="o">=</span> <span class="p">(</span><span class="mi">75</span><span class="p">,</span> <span class="mi">100</span><span class="p">)</span>
+<span class="n">xy</span> <span class="o">=</span> <span class="n">srv</span><span class="o">.</span><span class="n">ptsDonut</span><span class="p">(</span><span class="n">ptsNum</span><span class="p">,</span> <span class="n">radii</span><span class="p">)</span><span class="o">.</span><span class="n">T</span>
+<span class="n">points</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">({</span><span class="s1">&#39;x&#39;</span><span class="p">:</span> <span class="n">xy</span><span class="p">[</span><span class="mi">0</span><span class="p">],</span> <span class="s1">&#39;y&#39;</span><span class="p">:</span> <span class="n">xy</span><span class="p">[</span><span class="mi">1</span><span class="p">],</span> <span class="s1">&#39;t&#39;</span><span class="p">:</span> <span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">*</span><span class="n">xy</span><span class="o">.</span><span class="n">shape</span><span class="p">[</span><span class="mi">1</span><span class="p">]})</span>
+<span class="n">mKer</span> <span class="o">=</span> <span class="p">{</span><span class="s1">&#39;params&#39;</span><span class="p">:</span> <span class="p">[</span><span class="mf">.075</span><span class="p">,</span> <span class="mf">1.0e-10</span><span class="p">,</span> <span class="n">math</span><span class="o">.</span><span class="n">inf</span><span class="p">],</span> <span class="s1">&#39;zeroInflation&#39;</span><span class="p">:</span> <span class="mf">.75</span><span class="p">}</span>
+</pre></div>
+</div>
+<p>And, as we are going to optimize our traps locations, we can define them all at coordinates <code class="code docutils literal notranslate"><span class="pre">(0,0)</span></code>, and for this example we are assuming
+all the traps are the same type (<code class="code docutils literal notranslate"><span class="pre">t=0</span></code>) and that they are all movable (<code class="code docutils literal notranslate"><span class="pre">f=0</span></code>):</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">nullTraps</span> <span class="o">=</span> <span class="p">[</span><span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">]</span>
+<span class="n">traps</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">({</span>
+    <span class="s1">&#39;x&#39;</span><span class="p">:</span> <span class="n">nullTraps</span><span class="p">,</span> <span class="s1">&#39;y&#39;</span><span class="p">:</span> <span class="n">nullTraps</span><span class="p">,</span>
+    <span class="s1">&#39;t&#39;</span><span class="p">:</span> <span class="n">nullTraps</span><span class="p">,</span> <span class="s1">&#39;f&#39;</span><span class="p">:</span> <span class="n">nullTraps</span>
+<span class="p">})</span>
+<span class="n">tKer</span> <span class="o">=</span> <span class="p">{</span><span class="mi">0</span><span class="p">:</span> <span class="p">{</span><span class="s1">&#39;kernel&#39;</span><span class="p">:</span> <span class="n">srv</span><span class="o">.</span><span class="n">exponentialDecay</span><span class="p">,</span> <span class="s1">&#39;params&#39;</span><span class="p">:</span> <span class="p">{</span><span class="s1">&#39;A&#39;</span><span class="p">:</span> <span class="mf">.5</span><span class="p">,</span> <span class="s1">&#39;b&#39;</span><span class="p">:</span> <span class="mf">.1</span><span class="p">}}}</span>
+</pre></div>
+</div>
+<p>With our landscape object being setup as:</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">lnd</span> <span class="o">=</span> <span class="n">srv</span><span class="o">.</span><span class="n">Landscape</span><span class="p">(</span>
+    <span class="n">points</span><span class="p">,</span> <span class="n">kernelParams</span><span class="o">=</span><span class="n">mKer</span><span class="p">,</span>
+    <span class="n">traps</span><span class="o">=</span><span class="n">traps</span><span class="p">,</span> <span class="n">trapsKernels</span><span class="o">=</span><span class="n">tKer</span>
+<span class="p">)</span>
+<span class="n">bbox</span> <span class="o">=</span> <span class="n">lnd</span><span class="o">.</span><span class="n">getBoundingBox</span><span class="p">()</span>
+</pre></div>
+</div>
+<p>For now, our landscape looks like this:</p>
+<img alt="_images/demo_GA1.jpg" src="_images/demo_GA1.jpg" />
+</section>
+<section id="genetic-algorithm">
+<h2><span class="section-number">4.3. </span>Genetic Algorithm<a class="headerlink" href="#genetic-algorithm" title="Permalink to this headline"></a></h2>
+<p>To get started with setting up the GA, we define the population size, generations (<code class="code docutils literal notranslate"><span class="pre">GENS</span></code>), mating (<code class="code docutils literal notranslate"><span class="pre">MAT</span></code>), mutation (<code class="code docutils literal notranslate"><span class="pre">MUT</span></code>) and selection (<code class="code docutils literal notranslate"><span class="pre">SEL</span></code>) parameters:</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="p">(</span><span class="n">GENS</span><span class="p">,</span> <span class="n">VERBOSE</span><span class="p">)</span> <span class="o">=</span> <span class="p">(</span><span class="mi">200</span><span class="p">,</span> <span class="kc">True</span><span class="p">)</span>
+<span class="n">POP_SIZE</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="mi">10</span><span class="o">*</span><span class="p">(</span><span class="n">lnd</span><span class="o">.</span><span class="n">trapsNumber</span><span class="o">*</span><span class="mf">1.25</span><span class="p">))</span>
+<span class="n">MAT</span> <span class="o">=</span> <span class="p">{</span><span class="s1">&#39;mate&#39;</span><span class="p">:</span> <span class="mf">.3</span><span class="p">,</span> <span class="s1">&#39;cxpb&#39;</span><span class="p">:</span> <span class="mf">0.5</span><span class="p">}</span>
+<span class="n">MUT</span> <span class="o">=</span> <span class="p">{</span><span class="s1">&#39;mean&#39;</span><span class="p">:</span> <span class="mi">0</span><span class="p">,</span> <span class="s1">&#39;sd&#39;</span><span class="p">:</span> <span class="nb">min</span><span class="p">([</span><span class="n">i</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span><span class="o">-</span><span class="n">i</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="n">bbox</span><span class="p">])</span><span class="o">/</span><span class="mi">5</span><span class="p">,</span> <span class="s1">&#39;mutpb&#39;</span><span class="p">:</span> <span class="mf">.5</span><span class="p">,</span> <span class="s1">&#39;ipb&#39;</span><span class="p">:</span> <span class="mf">.5</span><span class="p">}</span>
+<span class="n">SEL</span> <span class="o">=</span> <span class="p">{</span><span class="s1">&#39;tSize&#39;</span><span class="p">:</span> <span class="mi">3</span><span class="p">}</span>
+</pre></div>
+</div>
+<p>Next, as defined by the <a class="reference external" href="https://deap.readthedocs.io/en/master/examples/index.html">DEAP docs</a>, we register all the functions and operations
+that we are going to use in our optimization cycle. For this version, we’ll be using a pretty “vanilla” GA with
+cxBlend, gaussian mutation, and tournament selection.</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">toolbox</span> <span class="o">=</span> <span class="n">base</span><span class="o">.</span><span class="n">Toolbox</span><span class="p">()</span>
+<span class="n">creator</span><span class="o">.</span><span class="n">create</span><span class="p">(</span><span class="s2">&quot;FitnessMin&quot;</span><span class="p">,</span> <span class="n">base</span><span class="o">.</span><span class="n">Fitness</span><span class="p">,</span> <span class="n">weights</span><span class="o">=</span><span class="p">(</span><span class="o">-</span><span class="mf">1.0</span><span class="p">,</span> <span class="p">))</span>
+<span class="c1"># Population creation -----------------------------------------------------</span>
+<span class="n">creator</span><span class="o">.</span><span class="n">create</span><span class="p">(</span>
+    <span class="s2">&quot;Individual&quot;</span><span class="p">,</span> <span class="nb">list</span><span class="p">,</span>
+    <span class="n">fitness</span><span class="o">=</span><span class="n">creator</span><span class="o">.</span><span class="n">FitnessMin</span>
+<span class="p">)</span>
+<span class="n">toolbox</span><span class="o">.</span><span class="n">register</span><span class="p">(</span>
+    <span class="s2">&quot;initChromosome&quot;</span><span class="p">,</span> <span class="n">srv</span><span class="o">.</span><span class="n">initChromosome</span><span class="p">,</span>
+    <span class="n">trapsCoords</span><span class="o">=</span><span class="n">lndGA</span><span class="o">.</span><span class="n">trapsCoords</span><span class="p">,</span>
+    <span class="n">fixedTrapsMask</span><span class="o">=</span><span class="n">trpMsk</span><span class="p">,</span> <span class="n">coordsRange</span><span class="o">=</span><span class="n">bbox</span>
+<span class="p">)</span>
+<span class="n">toolbox</span><span class="o">.</span><span class="n">register</span><span class="p">(</span>
+    <span class="s2">&quot;individualCreator&quot;</span><span class="p">,</span> <span class="n">tools</span><span class="o">.</span><span class="n">initIterate</span><span class="p">,</span>
+    <span class="n">creator</span><span class="o">.</span><span class="n">Individual</span><span class="p">,</span> <span class="n">toolbox</span><span class="o">.</span><span class="n">initChromosome</span>
+<span class="p">)</span>
+<span class="n">toolbox</span><span class="o">.</span><span class="n">register</span><span class="p">(</span>
+    <span class="s2">&quot;populationCreator&quot;</span><span class="p">,</span> <span class="n">tools</span><span class="o">.</span><span class="n">initRepeat</span><span class="p">,</span>
+    <span class="nb">list</span><span class="p">,</span> <span class="n">toolbox</span><span class="o">.</span><span class="n">individualCreator</span>
+<span class="p">)</span>
+<span class="c1"># Mutation and Crossover --------------------------------------------------</span>
+<span class="n">toolbox</span><span class="o">.</span><span class="n">register</span><span class="p">(</span>
+    <span class="s2">&quot;mate&quot;</span><span class="p">,</span> <span class="n">tools</span><span class="o">.</span><span class="n">cxBlend</span><span class="p">,</span>
+    <span class="n">alpha</span><span class="o">=</span><span class="n">MAT</span><span class="p">[</span><span class="s1">&#39;mate&#39;</span><span class="p">]</span>
+<span class="p">)</span>
+<span class="n">toolbox</span><span class="o">.</span><span class="n">register</span><span class="p">(</span>
+    <span class="s2">&quot;mutate&quot;</span><span class="p">,</span> <span class="n">tools</span><span class="o">.</span><span class="n">mutGaussian</span><span class="p">,</span>
+    <span class="n">mu</span><span class="o">=</span><span class="n">MUT</span><span class="p">[</span><span class="s1">&#39;mean&#39;</span><span class="p">],</span> <span class="n">sigma</span><span class="o">=</span><span class="n">MUT</span><span class="p">[</span><span class="s1">&#39;sd&#39;</span><span class="p">],</span> <span class="n">indpb</span><span class="o">=</span><span class="n">MUT</span><span class="p">[</span><span class="s1">&#39;ipb&#39;</span><span class="p">]</span>
+<span class="p">)</span>
+<span class="c1"># Select and evaluate -----------------------------------------------------</span>
+<span class="n">toolbox</span><span class="o">.</span><span class="n">register</span><span class="p">(</span>
+    <span class="s2">&quot;select&quot;</span><span class="p">,</span> <span class="n">tools</span><span class="o">.</span><span class="n">selTournament</span><span class="p">,</span>
+    <span class="n">tournsize</span><span class="o">=</span><span class="n">SEL</span><span class="p">[</span><span class="s1">&#39;tSize&#39;</span><span class="p">]</span>
+<span class="p">)</span>
+<span class="n">toolbox</span><span class="o">.</span><span class="n">register</span><span class="p">(</span>
+    <span class="s2">&quot;evaluate&quot;</span><span class="p">,</span> <span class="n">srv</span><span class="o">.</span><span class="n">calcFitness</span><span class="p">,</span>
+    <span class="n">landscape</span><span class="o">=</span><span class="n">lndGA</span><span class="p">,</span>
+    <span class="n">optimFunction</span><span class="o">=</span><span class="n">srv</span><span class="o">.</span><span class="n">getDaysTillTrapped</span><span class="p">,</span>
+    <span class="n">optimFunctionArgs</span><span class="o">=</span><span class="p">{</span><span class="s1">&#39;outer&#39;</span><span class="p">:</span> <span class="n">np</span><span class="o">.</span><span class="n">mean</span><span class="p">,</span> <span class="s1">&#39;inner&#39;</span><span class="p">:</span> <span class="n">np</span><span class="o">.</span><span class="n">max</span><span class="p">}</span>
+<span class="p">)</span>
+</pre></div>
+</div>
+<p>It is important to note that we provide custom implementations for the <code class="code docutils literal notranslate"><span class="pre">initChromosome</span></code>, <code class="code docutils literal notranslate"><span class="pre">cxBlend</span></code>, and <code class="code docutils literal notranslate"><span class="pre">mutateChromosome</span></code>;
+to allow immovable traps to be laid in the landscape, but we will stick to <a class="reference external" href="https://deap.readthedocs.io/en/master/">DEAP’s’</a> implementations for this first exercise.</p>
+<p>We now register summary statistics for our algorithm:</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">pop</span> <span class="o">=</span> <span class="n">toolbox</span><span class="o">.</span><span class="n">populationCreator</span><span class="p">(</span><span class="n">n</span><span class="o">=</span><span class="n">POP_SIZE</span><span class="p">)</span>
+<span class="n">hof</span> <span class="o">=</span> <span class="n">tools</span><span class="o">.</span><span class="n">HallOfFame</span><span class="p">(</span><span class="mi">1</span><span class="p">)</span>
+<span class="n">stats</span> <span class="o">=</span> <span class="n">tools</span><span class="o">.</span><span class="n">Statistics</span><span class="p">(</span><span class="k">lambda</span> <span class="n">ind</span><span class="p">:</span> <span class="n">ind</span><span class="o">.</span><span class="n">fitness</span><span class="o">.</span><span class="n">values</span><span class="p">)</span>
+<span class="n">stats</span><span class="o">.</span><span class="n">register</span><span class="p">(</span><span class="s2">&quot;min&quot;</span><span class="p">,</span> <span class="n">np</span><span class="o">.</span><span class="n">min</span><span class="p">)</span>
+<span class="n">stats</span><span class="o">.</span><span class="n">register</span><span class="p">(</span><span class="s2">&quot;avg&quot;</span><span class="p">,</span> <span class="n">np</span><span class="o">.</span><span class="n">mean</span><span class="p">)</span>
+<span class="n">stats</span><span class="o">.</span><span class="n">register</span><span class="p">(</span><span class="s2">&quot;max&quot;</span><span class="p">,</span> <span class="n">np</span><span class="o">.</span><span class="n">max</span><span class="p">)</span>
+<span class="n">stats</span><span class="o">.</span><span class="n">register</span><span class="p">(</span><span class="s2">&quot;traps&quot;</span><span class="p">,</span> <span class="k">lambda</span> <span class="n">fitnessValues</span><span class="p">:</span> <span class="n">pop</span><span class="p">[</span><span class="n">fitnessValues</span><span class="o">.</span><span class="n">index</span><span class="p">(</span><span class="nb">min</span><span class="p">(</span><span class="n">fitnessValues</span><span class="p">))])</span>
+<span class="n">stats</span><span class="o">.</span><span class="n">register</span><span class="p">(</span><span class="s2">&quot;best&quot;</span><span class="p">,</span> <span class="k">lambda</span> <span class="n">fitnessValues</span><span class="p">:</span> <span class="n">fitnessValues</span><span class="o">.</span><span class="n">index</span><span class="p">(</span><span class="nb">min</span><span class="p">(</span><span class="n">fitnessValues</span><span class="p">)))</span>
+</pre></div>
+</div>
+<p>Where the statistics go as follow (more stats can be added as needed):</p>
+<ul class="simple">
+<li><p><code class="code docutils literal notranslate"><span class="pre">min</span></code>: Traps’ population minimum fitness (best in generation).</p></li>
+<li><p><code class="code docutils literal notranslate"><span class="pre">avg</span></code>: Traps’ population average fitness.</p></li>
+<li><p><code class="code docutils literal notranslate"><span class="pre">max</span></code>: Traps’ population maximum fitness (worst in generation).</p></li>
+<li><p><code class="code docutils literal notranslate"><span class="pre">traps</span></code>: Best traps positions in the current generation.</p></li>
+<li><p><code class="code docutils literal notranslate"><span class="pre">best</span></code>: Best fitness within populations.</p></li>
+<li><p><code class="code docutils literal notranslate"><span class="pre">hof</span></code>: Best chromosome across generations.</p></li>
+</ul>
+<p>Now, we run our optimization cycle:</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="p">(</span><span class="n">pop</span><span class="p">,</span> <span class="n">logbook</span><span class="p">)</span> <span class="o">=</span> <span class="n">algorithms</span><span class="o">.</span><span class="n">eaSimple</span><span class="p">(</span>
+    <span class="n">pop</span><span class="p">,</span> <span class="n">toolbox</span><span class="p">,</span> <span class="n">cxpb</span><span class="o">=</span><span class="n">MAT</span><span class="p">[</span><span class="s1">&#39;cxpb&#39;</span><span class="p">],</span> <span class="n">mutpb</span><span class="o">=</span><span class="n">MUT</span><span class="p">[</span><span class="s1">&#39;mutpb&#39;</span><span class="p">],</span> <span class="n">ngen</span><span class="o">=</span><span class="n">GENS</span><span class="p">,</span>
+    <span class="n">stats</span><span class="o">=</span><span class="n">stats</span><span class="p">,</span> <span class="n">halloffame</span><span class="o">=</span><span class="n">hof</span><span class="p">,</span> <span class="n">verbose</span><span class="o">=</span><span class="n">VERBOSE</span>
+<span class="p">)</span>
+</pre></div>
+</div>
+<p>This will take some time depending on the number of generations and the size of the landscape/traps (check out our <a class="reference external" href="./benchmarks.html">benchmarks</a> for more info) but once it’s done running, we can get our resulting optimized positions.</p>
+</section>
+<section id="summary-and-plotting">
+<h2><span class="section-number">4.4. </span>Summary and Plotting<a class="headerlink" href="#summary-and-plotting" title="Permalink to this headline"></a></h2>
+<p>Having the results of the GA in our hands, we can get our best chromosome (stored in the <code class="code docutils literal notranslate"><span class="pre">hof</span></code> object) and re-shape it so that it is structured as traps locations:</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">bestChromosome</span> <span class="o">=</span> <span class="n">hof</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span>
+<span class="n">bestPositions</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">reshape</span><span class="p">(</span><span class="n">bestChromosome</span><span class="p">,</span> <span class="p">(</span><span class="o">-</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">))</span>
+</pre></div>
+</div>
+<p>With these traps locations, we can update our landscape and get the stats for the GA logbook object in a dataframe form:</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">lnd</span><span class="o">.</span><span class="n">updateTrapsCoords</span><span class="p">(</span><span class="n">bestTraps</span><span class="p">)</span>
+<span class="n">dta</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">(</span><span class="n">logbook</span><span class="p">)</span>
+</pre></div>
+</div>
+<p>We can now plot our landscape with optimized traps positions:</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="p">(</span><span class="n">fig</span><span class="p">,</span> <span class="n">ax</span><span class="p">)</span> <span class="o">=</span> <span class="n">plt</span><span class="o">.</span><span class="n">subplots</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="n">figsize</span><span class="o">=</span><span class="p">(</span><span class="mi">15</span><span class="p">,</span> <span class="mi">15</span><span class="p">),</span> <span class="n">sharey</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span>
+<span class="n">lnd</span><span class="o">.</span><span class="n">plotSites</span><span class="p">(</span><span class="n">fig</span><span class="p">,</span> <span class="n">ax</span><span class="p">,</span> <span class="n">size</span><span class="o">=</span><span class="mi">100</span><span class="p">)</span>
+<span class="n">lnd</span><span class="o">.</span><span class="n">plotMigrationNetwork</span><span class="p">(</span><span class="n">fig</span><span class="p">,</span> <span class="n">ax</span><span class="p">,</span> <span class="n">alphaMin</span><span class="o">=</span><span class="mf">.6</span><span class="p">,</span> <span class="n">lineWidth</span><span class="o">=</span><span class="mi">25</span><span class="p">)</span>
+<span class="n">lnd</span><span class="o">.</span><span class="n">plotTraps</span><span class="p">(</span><span class="n">fig</span><span class="p">,</span> <span class="n">ax</span><span class="p">)</span>
+<span class="n">srv</span><span class="o">.</span><span class="n">plotClean</span><span class="p">(</span><span class="n">fig</span><span class="p">,</span> <span class="n">ax</span><span class="p">,</span> <span class="n">frame</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span> <span class="n">bbox</span><span class="o">=</span><span class="n">bbox</span><span class="p">)</span>
+<span class="n">srv</span><span class="o">.</span><span class="n">plotFitness</span><span class="p">(</span><span class="n">fig</span><span class="p">,</span> <span class="n">ax</span><span class="p">,</span> <span class="nb">min</span><span class="p">(</span><span class="n">dta</span><span class="p">[</span><span class="s1">&#39;min&#39;</span><span class="p">]))</span>
+<span class="n">fig</span><span class="o">.</span><span class="n">savefig</span><span class="p">(</span>
+    <span class="n">path</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">OUT_PTH</span><span class="p">,</span> <span class="s1">&#39;</span><span class="si">{}</span><span class="s1">_TRP.png&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">ID</span><span class="p">)),</span>
+    <span class="n">facecolor</span><span class="o">=</span><span class="s1">&#39;w&#39;</span><span class="p">,</span> <span class="n">bbox_inches</span><span class="o">=</span><span class="s1">&#39;tight&#39;</span><span class="p">,</span> <span class="n">pad_inches</span><span class="o">=</span><span class="mi">0</span><span class="p">,</span> <span class="n">dpi</span><span class="o">=</span><span class="mi">300</span>
+<span class="p">)</span>
+</pre></div>
+</div>
+<img alt="_images/demo_GA.jpg" src="_images/demo_GA.jpg" />
+<p>With the generations (x axis) versus fitness (y axis) plot:</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="p">(</span><span class="n">fig</span><span class="p">,</span> <span class="n">ax</span><span class="p">)</span> <span class="o">=</span> <span class="n">plt</span><span class="o">.</span><span class="n">subplots</span><span class="p">(</span><span class="n">figsize</span><span class="o">=</span><span class="p">(</span><span class="mi">15</span><span class="p">,</span> <span class="mi">15</span><span class="p">))</span>
+<span class="p">(</span><span class="n">fig</span><span class="p">,</span> <span class="n">ax</span><span class="p">)</span> <span class="o">=</span> <span class="n">srv</span><span class="o">.</span><span class="n">plotGAEvolution</span><span class="p">(</span><span class="n">fig</span><span class="p">,</span> <span class="n">ax</span><span class="p">,</span> <span class="n">dta</span><span class="p">)</span>
+<span class="n">pthSave</span> <span class="o">=</span> <span class="n">path</span><span class="o">.</span><span class="n">join</span><span class="p">(</span>
+    <span class="n">OUT_PTH</span><span class="p">,</span> <span class="s1">&#39;</span><span class="si">{}</span><span class="s1">_GAP&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">ID</span><span class="p">)</span>
+<span class="p">)</span>
+</pre></div>
+</div>
+<img alt="_images/demo_GAT.jpg" src="_images/demo_GAT.jpg" />
+<p>The code used for this tutorial can be found <a class="reference external" href="https://github.com/Chipdelmal/MGSurvE/blob/main/MGSurvE/demos/Demo_GA.py">in this link</a>.</p>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="landscapeTraps.html" class="btn btn-neutral float-left" title="3. Sites and Trap Types" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="GA_custom.html" class="btn btn-neutral float-right" title="5. GA with Immovable Traps" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2021, Hector M. Sanchez C..</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>
