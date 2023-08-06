@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+src/helloworld.py
+src/mewow.egg-info/PKG-INFO
+src/mewow.egg-info/SOURCES.txt
+src/mewow.egg-info/dependency_links.txt
+src/mewow.egg-info/requires.txt
+src/mewow.egg-info/top_level.txt
