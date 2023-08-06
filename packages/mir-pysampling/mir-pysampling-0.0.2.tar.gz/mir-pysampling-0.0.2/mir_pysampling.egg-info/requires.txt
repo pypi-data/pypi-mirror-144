@@ -1,0 +1,5 @@
+numpy
+matplotlib
+ase
+pyfile-utils>=1.0.5
+ndsimulator>=1.1.0
