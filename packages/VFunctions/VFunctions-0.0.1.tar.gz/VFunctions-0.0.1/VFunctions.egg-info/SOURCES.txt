@@ -1,0 +1,8 @@
+setup.py
+VFunctions.egg-info/PKG-INFO
+VFunctions.egg-info/SOURCES.txt
+VFunctions.egg-info/dependency_links.txt
+VFunctions.egg-info/requires.txt
+VFunctions.egg-info/top_level.txt
+libname/VFunctions.py
+libname/__init__.py
