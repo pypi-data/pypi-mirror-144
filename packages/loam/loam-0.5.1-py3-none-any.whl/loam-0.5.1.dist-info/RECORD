@@ -1,0 +1,13 @@
+loam/__init__.py,sha256=d6M14fRr89WdofBJ9dXzE1ZlxUwiY03B3Xn_88QVsjM,376
+loam/_internal.py,sha256=MKpw5dCTPgN07WER7uMAxW0k7rcbaIdOwjUXTTwhkHQ,2367
+loam/cli.py,sha256=BI0W2mjUzjSTEHXrlL-1bN-ZdzD12hhSWAVXvCEkJ2c,14410
+loam/error.py,sha256=_9dB-czynbfeqMGrlSCN-EFLyL98-d9wpha5-ba7o5k,1218
+loam/manager.py,sha256=TIx_ip6_p96MTu9SZjCZBi4mBdSIXWK9gdDXGUBedLo,12717
+loam/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+loam/tools.py,sha256=sdFOu3Es4LzR0T78BW_xz1jT8v2W1hGYlX2e7kfw1ZU,6407
+loam/types.py,sha256=CdUNbO3ZorP7QVfVh8vOG1hDlCZPS4kNq8IuXORubXc,2499
+loam-0.5.1.dist-info/LICENSE,sha256=ILcHjIABA03U4D-r-tIrb_StKZBrhlh8tXux9sM21Fs,1076
+loam-0.5.1.dist-info/METADATA,sha256=yXkesqZD6lMyYIfWpYmFgCbrQ8a-hEOfrkO2FZVfogg,1363
+loam-0.5.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+loam-0.5.1.dist-info/top_level.txt,sha256=4OEqeX9cam9KVOPsUh57RxDOWYbM_0M1XP6z0E3_fcU,5
+loam-0.5.1.dist-info/RECORD,,
