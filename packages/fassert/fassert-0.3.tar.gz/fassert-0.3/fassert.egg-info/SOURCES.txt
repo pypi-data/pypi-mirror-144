@@ -1,0 +1,9 @@
+LICENSE.txt
+README.md
+pyproject.toml
+setup.cfg
+fassert/__init__.py
+fassert.egg-info/PKG-INFO
+fassert.egg-info/SOURCES.txt
+fassert.egg-info/dependency_links.txt
+fassert.egg-info/top_level.txt
