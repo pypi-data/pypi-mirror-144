@@ -1,0 +1,4 @@
+Click
+pyqt5
+python-dotenv
+tqdm
