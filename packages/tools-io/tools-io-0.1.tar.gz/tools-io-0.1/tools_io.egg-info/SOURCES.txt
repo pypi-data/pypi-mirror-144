@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+tools_io/__init__.py
+tools_io/tools_io.py
+tools_io/tools_iterators.py
+tools_io/tools_path.py
+tools_io.egg-info/PKG-INFO
+tools_io.egg-info/SOURCES.txt
+tools_io.egg-info/dependency_links.txt
+tools_io.egg-info/top_level.txt
+tools_io.egg-info/zip-safe
