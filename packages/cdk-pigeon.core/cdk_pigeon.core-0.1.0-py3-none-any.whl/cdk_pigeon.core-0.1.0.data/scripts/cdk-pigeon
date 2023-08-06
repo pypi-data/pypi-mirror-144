@@ -1,0 +1,10 @@
+#!python
+
+import jsii
+import sys
+
+__jsii_assembly__ = jsii.JSIIAssembly.load(
+    "cdk-pigeon", "0.1.0", "cdk_pigeon.core", "cdk-pigeon@0.1.0.jsii.tgz"
+)
+
+__jsii_assembly__.invokeBinScript("cdk-pigeon", "cdk-pigeon", sys.argv[1:])
