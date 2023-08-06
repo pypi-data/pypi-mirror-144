@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+src/datacrux/__init__.py
+src/datacrux/datacrux.py
+src/datacrux.egg-info/PKG-INFO
+src/datacrux.egg-info/SOURCES.txt
+src/datacrux.egg-info/dependency_links.txt
+src/datacrux.egg-info/top_level.txt
