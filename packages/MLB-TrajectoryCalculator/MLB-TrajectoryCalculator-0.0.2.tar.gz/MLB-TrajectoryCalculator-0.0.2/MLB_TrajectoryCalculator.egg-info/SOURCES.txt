@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+MLB_TrajectoryCalculator.egg-info/PKG-INFO
+MLB_TrajectoryCalculator.egg-info/SOURCES.txt
+MLB_TrajectoryCalculator.egg-info/dependency_links.txt
+MLB_TrajectoryCalculator.egg-info/top_level.txt
+trajcalc/__init__.py
+trajcalc/__main__.py
+trajcalc/tests/__init__.py
