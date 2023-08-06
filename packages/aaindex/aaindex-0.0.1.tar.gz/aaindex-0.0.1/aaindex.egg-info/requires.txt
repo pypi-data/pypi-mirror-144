@@ -1,0 +1,5 @@
+numpy>=1.16.6
+pandas
+delayed
+scikit-learn==0.24.1
+requests
