@@ -1,0 +1,6 @@
+Pillow
+matplotlib==3.0.3
+numpy==1.16.4
+opencv-python
+scikit-image
+scipy
