@@ -1,0 +1,104 @@
+Metadata-Version: 2.1
+Name: kriptos-kii
+Version: 0.1.0
+Summary: Client for Kriptos Insight Ingestion API
+Home-page: https://bitbucket.org/kr-classifier-context/insight-ingestion-client-lib/src
+Author: Nelson Garzón
+Author-email: ngarzon@kriptos.io
+License: UNKNOWN
+Project-URL: Bug Tracker, https://kriptosteam.atlassian.net/jira/software/c/projects/KDT/boards/48/backlog?selectedIssue=ISS-316&epics=visible&issueLimit=100&selectedEpic=KDT-73
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Requires-Dist: aiohttp (==3.8.1)
+Requires-Dist: requests (==2.27.1)
+
+## Kriptos Insight Ingestion Client
+
+Esta librería fue creada para utilizar el servicio de ingestión 
+de insights de Kriptos.  El servicio recibe mensajes provenientes de
+aplicaciones del ecosistema Kriptos que contienen información para
+ser procesada (parsing), evaluada y distribuida según su naturaleza.
+
+### Modo de uso
+
+Para configurar el cliente *kii* instale la dependencia 
+correspondiente usando el administrador de paquetes *pip*:
+
+```
+python3 -m pip install kriptos-kii 
+```
+
+Luego, importe la librería de la siguiente manera:
+
+#### Asynchronously
+```
+from kii.domain.schemas.payloads import Log
+from kii.domain.schemas import Insight, InsightType
+from kii.asyn import Client as AioClient 
+```
+
+#### Synchronously
+```
+from kii.domain.schemas.payloads import Log
+from kii.domain.schemas import Insight, InsightType
+from kii.syn import Client 
+```
+
+La primera línea importará la clase Log que podrá utilizar para construir
+su payload.  Log es un tipo de payload, pero podrá encontrar más tipos 
+disponibles en el módulo **kii.domain.schemas.payloads**.
+
+Para construir un Insight de tipo Log, usted necesitará dos datos: el 
+nivel ("info", "warning", "error") y el mensaje.
+
+La segunda línea del anterior fragmento de código corresponde a la 
+importación de la clase Insight e Insight Type.  La primera es el objeto
+que enviaremos al servicio de ingestión.  La segunda, es una enumeración
+que define el tipo de insight con el que estamos trabajando.  
+En este caso, trabajaremos con un insight de tipo log.
+
+El siguiente ejemplo muestra la implementación de la librería *kii* en una
+función main:
+
+#### Asynchronously
+```
+async def main():
+    log = Log("info", "Insight test message!")
+    insight = Insight("7d2d1990-e733-44d2-a092-edec1cf3e2df", InsightType.LOG, log)
+
+    client = await AioClient(api_key="23er231-2333!ss").connect()
+    result = await client.write(insight)
+    print(result)
+```
+
+#### Synchronously
+```
+def main():
+    log = Log("info", "Insight test message!")
+    insight = Insight("4d231990-e389-92j3-h904-eujs4lk2f7ow", InsightType.LOG, log)
+
+    client = Client(api_key="23er231-2333!ss").connect()
+    result = client.write(insight)
+    print(result)
+```
+
+El log es de nivel *info*, y tiene su correspondiente mensaje de prueba.  
+Luego, parametrizando el *Id de la empresa* a la que pertenece el insight,
+el tipo de insight (una opción de la enumeración) y el objeto payload 
+(objeto log).
+
+Luego, haciendo una instancia del cliente, debemos parametrizar la API Key
+conexión.  Inmediatamente ejecutamos la función *connect* que nos permitirá 
+abrir un canal de comunicación persistente con el servicio.
+
+Finalmente, se escribe el insight enviándolo al servicio de ingestión.
+Esta última operación devuelve un objeto donde se define el estado del
+proceso, si fue exitoso y el mensaje de error en caso de haberse presentado
+algún problema en la comunicación con el servicio.
+
+
+
