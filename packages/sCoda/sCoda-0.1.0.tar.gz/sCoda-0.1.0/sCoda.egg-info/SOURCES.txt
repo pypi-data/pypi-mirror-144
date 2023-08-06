@@ -1,0 +1,13 @@
+README.md
+setup.py
+sCoda/__init__.py
+sCoda/settings.py
+sCoda.egg-info/PKG-INFO
+sCoda.egg-info/SOURCES.txt
+sCoda.egg-info/dependency_links.txt
+sCoda.egg-info/requires.txt
+sCoda.egg-info/top_level.txt
+test/test_composition.py
+test/test_mido.py
+test/test_plot.py
+test/test_util.py
