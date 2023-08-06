@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+./tm35fin/__init__.py
+./tm35fin/coordinates.py
+tm35fin.egg-info/PKG-INFO
+tm35fin.egg-info/SOURCES.txt
+tm35fin.egg-info/dependency_links.txt
+tm35fin.egg-info/top_level.txt
