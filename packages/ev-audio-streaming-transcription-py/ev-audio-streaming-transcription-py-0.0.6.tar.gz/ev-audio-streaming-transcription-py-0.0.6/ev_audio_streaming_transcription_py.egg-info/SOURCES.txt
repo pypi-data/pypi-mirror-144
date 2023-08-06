@@ -1,0 +1,7 @@
+LICENSE
+README.md
+ev_audio_streaming_transcription_py.egg-info/PKG-INFO
+ev_audio_streaming_transcription_py.egg-info/SOURCES.txt
+ev_audio_streaming_transcription_py.egg-info/dependency_links.txt
+ev_audio_streaming_transcription_py.egg-info/requires.txt
+ev_audio_streaming_transcription_py.egg-info/top_level.txt
