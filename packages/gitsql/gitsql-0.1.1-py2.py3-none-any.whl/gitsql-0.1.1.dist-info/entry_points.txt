@@ -1,0 +1,3 @@
+[console_scripts]
+gitsql = gitsql.cli:main
+
