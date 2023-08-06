@@ -1,0 +1,36 @@
+# SPDX-License-Identifier: LGPL-2.1-or-later
+# See Notices.txt for copyright information
+[package]
+name = "algebraics"
+version = "0.3.0"
+authors = ["Jacob Lifshay <programmerjake@gmail.com>"]
+edition = "2018"
+license = "LGPL-2.1-or-later"
+description = "algebraic numbers library"
+keywords = ["algebraic-numbers", "arbitrary-precision", "polynomials", "real-numbers", "exact-arithmetic"]
+repository = "https://salsa.debian.org/Kazan-team/algebraics"
+readme = "README.md"
+categories = ["algorithms", "data-structures", "science"]
+
+[features]
+default = []
+python = ["pyo3"]
+python-extension = ["python", "pyo3/extension-module"]
+
+[lib]
+name = "algebraics"
+crate-type = ["rlib", "cdylib"]
+
+[dependencies]
+num-traits = "0.2.14"
+num-bigint = "0.4.3"
+num-integer = "0.1.44"
+num-rational = "0.4.0"
+rand = "0.8.5"
+rand_pcg = "0.3.1"
+lazy_static = "1.4"
+
+[dependencies.pyo3]
+version = "0.16"
+optional = true
+features = ["num-bigint"]
