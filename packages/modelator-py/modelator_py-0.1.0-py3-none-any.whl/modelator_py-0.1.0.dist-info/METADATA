@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: modelator-py
+Version: 0.1.0
+Summary: Lightweight utilities to assist model writing and model-based testing activities using the TLA+ ecosystem
+Author: Daniel Tisdall
+Author-email: daniel@informal.systems
+Requires-Python: >=3.9.7,<4.0.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Requires-Dist: fire (>=0.4.0,<0.5.0)
+Requires-Dist: infix (==1.2)
+Requires-Dist: pathos (>=0.2.8,<0.3.0)
+Requires-Dist: ply (==3.10)
+Requires-Dist: recordclass (>=0.16.2,<0.17.0)
