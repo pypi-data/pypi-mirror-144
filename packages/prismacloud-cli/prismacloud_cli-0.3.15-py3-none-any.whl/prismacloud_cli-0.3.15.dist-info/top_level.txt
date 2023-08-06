@@ -1,0 +1,2 @@
+prismacloud
+prismacloud_cli
