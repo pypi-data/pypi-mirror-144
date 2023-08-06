@@ -1,0 +1,70 @@
+[dependencies]
+anyhow = "=1.0.48"
+env_logger = "0.9"
+libm = "0.2"
+log = "0.4"
+ndarray-linalg = "0.14"
+ndarray-npy = "0.8"
+ndarray-rand = "0.14"
+ndarray-stats = "0.5"
+nlopt = "0.5.3"
+numpy = "0.15.0"
+pyo3-log = "0.5.0"
+rand_isaac = "0.3"
+
+[dependencies.doe]
+path = "local_dependencies/doe"
+
+[dependencies.ego]
+path = "local_dependencies/ego"
+
+[dependencies.finitediff]
+features = ["ndarray"]
+version = "0.1"
+
+[dependencies.gp]
+path = "local_dependencies/gp"
+
+[dependencies.linfa]
+features = ["intel-mkl-static"]
+git = "https://github.com/relf/linfa.git"
+
+[dependencies.linfa-pls]
+default-features = false
+git = "https://github.com/relf/linfa.git"
+
+[dependencies.moe]
+path = "local_dependencies/moe"
+
+[dependencies.ndarray]
+features = ["rayon", "approx", "blas"]
+version = "0.15"
+
+[dependencies.pyo3]
+features = ["extension-module"]
+version = "0.15.1"
+
+[dev-dependencies]
+approx = "0.4"
+argmin_testfunctions = "0.1"
+criterion = "0.3"
+serde_json = "1"
+
+[dev-dependencies.linfa-datasets]
+features = ["linnerud"]
+git = "https://github.com/relf/linfa.git"
+
+[lib]
+crate-type = ["cdylib"]
+name = "egobox"
+
+[package]
+authors = ["relf <remi.lafage@onera.fr>"]
+edition = "2018"
+name = "egobox"
+version = "0.1.0"
+[package.metadata.maturin]
+python-source = "python"
+
+[workspace]
+members = ["doe", "gp", "moe", "ego"]
