@@ -1,0 +1,16 @@
+lotse/__init__.py,sha256=yZYwegJgjF-3WcA5VQk1uSWaz4j7Gbs30PJHxJAdNEo,225
+lotse/action.py,sha256=LIUtFjZ72Q87vkvPPXHxvGpmvtQY0CPJ531cPX9dZk4,5418
+lotse/context.py,sha256=To0SMoAOUaZKp7d_3MfxT8lQTZxHxVuD1_aONTXrP6Q,327
+lotse/meta_strategy.py,sha256=Njw86AXWMAjJmih7LlGdgAsbrgBwlUeXLVMVcGCOFLY,278
+lotse/strategy.py,sha256=5VcuV2LlEZPEwlb06WQJCuJVg5EyE0qMUhEVOnjXGWY,457
+lotse/suggestion.py,sha256=hkedgPoeWiPb5jB_AgvrBlp0LPaBOTDFYgoW--pX2S8,2959
+lotse/app/__init__.py,sha256=yZYwegJgjF-3WcA5VQk1uSWaz4j7Gbs30PJHxJAdNEo,225
+lotse/app/main.py,sha256=0U6rCSLyz5Tam30W59wEWRJgSLDlSj-ERyRXSqUlj2Y,12851
+lotse/app/guidance_engine/__init__.py,sha256=yZYwegJgjF-3WcA5VQk1uSWaz4j7Gbs30PJHxJAdNEo,225
+lotse/app/guidance_engine/lotse_engine.py,sha256=rt78SchL0QymbF45GP_1ZxMbzb_5fds-nsj9n2cqpD8,4003
+lotse/app/guidance_engine/socket_manager.py,sha256=oW0JDSN5so33NXIkIO3caZv3P409xocS06IGDYno9N4,984
+Lotse-1.0.0.dist-info/LICENSE,sha256=Eq1D8NiM49ymSfwX8mbaJ6NZvCh_sx_CUP-L4fMpDD4,1100
+Lotse-1.0.0.dist-info/METADATA,sha256=-e2NqcqLJNcmZqwR8zZmjNftVG8mGB9BW0iu-zMbQiQ,22257
+Lotse-1.0.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+Lotse-1.0.0.dist-info/top_level.txt,sha256=Vqq4TNxk9FqhOs_W6nl4b3AxIu2n0au9_Cgv6CkMUG0,6
+Lotse-1.0.0.dist-info/RECORD,,
