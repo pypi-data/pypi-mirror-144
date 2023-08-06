@@ -1,0 +1,6 @@
+Pillow
+matplotlib
+opencv-python==4.2.0.34
+tensorboard
+tensorboardX
+torchvision==0.3.0

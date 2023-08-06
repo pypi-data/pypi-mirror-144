@@ -1,0 +1,6 @@
+setup.py
+smart_One_shot_Human_Parsing.egg-info/PKG-INFO
+smart_One_shot_Human_Parsing.egg-info/SOURCES.txt
+smart_One_shot_Human_Parsing.egg-info/dependency_links.txt
+smart_One_shot_Human_Parsing.egg-info/requires.txt
+smart_One_shot_Human_Parsing.egg-info/top_level.txt
