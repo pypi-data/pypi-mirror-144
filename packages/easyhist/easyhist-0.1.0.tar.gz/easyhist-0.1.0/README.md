@@ -1,0 +1,38 @@
+# Easy Histogram
+This is a very small python package used to make histograms in python, and optionally plot them with `matplotlib`. The underlying histogramming tool is from `numpy`. This provides a very handy wrappers around them to easily make common histograms in 1d and 2d and plot with nice labels.
+
+# Installation
+
+```bash
+$ pip install easyhist
+```
+
+
+# Usage
+
+You can import the library and make histograms and plot them(optionally)
+
+
+```python
+import numpy as np
+import matplotlib.pyplot as plt
+import easyhist as eh
+
+
+# initialize data
+x = np.random.normal(0,1,10000)
+
+
+# make histogram
+h = eh.Hist1D(x,bins='auto')
+
+
+# This hist object contains histogram. If you want to plot it
+fig,ax = plt.subplots(1,1,figsize=(12,6))
+
+h.plot(ax)
+
+# h.plot(ax) will plot the histogram on the matplotlib axis.
+
+```
+
