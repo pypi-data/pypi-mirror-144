@@ -1,0 +1,15 @@
+boxhatter/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+boxhatter/__main__.py,sha256=3DuBMnNAl3rS8hENkxgTgLKkjTZUFpwKrwGJpPG4HP8,124
+boxhatter/backend.py,sha256=YLT0cnzjjCdzHdNB8Y0BFC1t2oyiHo7sotrDpNorw_g,4036
+boxhatter/common.py,sha256=OaksIJTzVyV19UXk4S6UT6xVaW8Cp2qavqB9hNfSADk,553
+boxhatter/json_schema_repo.json,sha256=8TrPaCG4wf8v__TfRf_beIjcbTKjBfYH5LxWs1TtOIY,1752
+boxhatter/main.py,sha256=_BhAC01hQifReplsa62yk8FtqKaYHHsBY3pG9zf6wpA,5248
+boxhatter/server.py,sha256=ZyVIKeVutCCDjB3Xyig_JNlFFOYFp5tcKySI6JAHBZQ,7562
+boxhatter/ui.py,sha256=En_MMGnfIZdYS4BWb3of6Sc1oz7n4u1VYYo6YR4wyAg,7319
+boxhatter/ui/main.css,sha256=BACLnZ1X08r4S99t-2X7kxVt5Cefs2Ng3ISgQadkpe8,817
+boxhatter-0.2.0.dist-info/LICENSE,sha256=jOtLnuWt7d5Hsx6XXB2QxzrSe2sWWh3NgMfFRetluQM,35147
+boxhatter-0.2.0.dist-info/METADATA,sha256=WY8I4r4iY12k5to8CqxDTOJ6uEkdgkUNYYtRN2HCFuI,3826
+boxhatter-0.2.0.dist-info/WHEEL,sha256=J6o_EVcUhZ99gpCSeF2DGIW9mETC6p0M-27vXCgDo6E,132
+boxhatter-0.2.0.dist-info/entry_points.txt,sha256=8TAgMJ3_YI3_TFKqB_hYtiTFQ852527kKxUgTAQL9GU,50
+boxhatter-0.2.0.dist-info/top_level.txt,sha256=vgU14BQQSqUI7DChlitLGZJ_rMwAqEqiwmTt2U_EPvk,10
+boxhatter-0.2.0.dist-info/RECORD,,
