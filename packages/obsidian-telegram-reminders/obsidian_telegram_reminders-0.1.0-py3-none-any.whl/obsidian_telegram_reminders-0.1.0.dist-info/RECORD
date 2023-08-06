@@ -1,0 +1,8 @@
+src/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+src/lib.py,sha256=Jf0Y7aQxAxopS0ynKMioenoRrRffQx73LepzxAM6oOg,1266
+src/main.py,sha256=JDaVUXwcReRILcgojNbx6N98PdccZQOljaRv3BnYcVI,682
+src/telegram.py,sha256=YVK7oulHhN53cpk6y1FnC7cMTDtaT-1TyFU1OJHcSC4,468
+obsidian_telegram_reminders-0.1.0.dist-info/entry_points.txt,sha256=acf9onaUBuk1_AX7R7BUGj1myQqBERnupVkxDX_SMt0,48
+obsidian_telegram_reminders-0.1.0.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+obsidian_telegram_reminders-0.1.0.dist-info/METADATA,sha256=9T2uvZApKn2lVAvrvPwtEfHoJEheMC8-kLet4zgee5E,452
+obsidian_telegram_reminders-0.1.0.dist-info/RECORD,,
