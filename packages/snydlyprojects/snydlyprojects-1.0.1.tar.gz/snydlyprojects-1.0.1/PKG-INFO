@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: snydlyprojects
+Version: 1.0.1
+Summary: My collection of personal projects I'm currently working on for personal development
+Home-page: UNKNOWN
+Author: Dylan Snyder
+Author-email: dylansnyder711@gmail.com
+License: MIT
+Keywords: private personal project
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+License-File: LICENSE.txt
+
+This is a bunch of personal projects
+
+Change Log
+==========
+
+1.0.0 (29/04/2022)
+------------------
+- First Release
+
+1.0.1 (29/04/2022)
+------------------
+- Small refactor
+
