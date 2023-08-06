@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: semdiff
+Version: 0.0.1
+Summary: CLI client for the semdiff API
+Home-page: https://github.com/semdiff-io/semdiff-cli
+Author: Semdiff.io
+Author-email: laszlo@nodebee.io
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/semdiff-io/semdiff-cli/issues
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Development Status :: 4 - Beta
+Classifier: Topic :: Software Development :: Quality Assurance
+Classifier: Topic :: Utilities
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# semdiff-cli
+CLI for the semdiff API
+
+
