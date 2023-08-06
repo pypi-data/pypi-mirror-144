@@ -1,0 +1,15 @@
+pyats.tcl-22.3-py3.8-nspkg.pth,sha256=e0Aa4MZQ9F423CwtNHHpsEDtEBEJtZolebDzazoPJyI,534
+pyats/tcl/__init__.py,sha256=qzZDFjpU3NSKjYFIDzY7p1W77fKzmt32BT7FEzRbEes,1478
+pyats/tcl/array.cpython-38-darwin.so,sha256=G9zK2I6aUDdiLyzzXda9cpcCbU94pMULb-DxHhIe5vA,89432
+pyats/tcl/history.cpython-38-darwin.so,sha256=MjL3SZsC-6CFs8L_OKWTL6H7OL8Y0IcZzDSFGTsB8OU,139352
+pyats/tcl/internal.cpython-38-darwin.so,sha256=J8DwJXxD6Y4AVjyD8Lhea7wkUNFhHcLKWtxVc3jICaw,256824
+pyats/tcl/interpreter.cpython-38-darwin.so,sha256=iBNAONH0iZ0Sfi5_TY907Ja_v7EWGugpCM5L3m1SdWM,266512
+pyats/tcl/keyedlist.cpython-38-darwin.so,sha256=bZjWdJg5xXjP8zMTguM1JlYwpzUNk4Rj320o0A0crQU,182672
+pyats/tcl/namespace.cpython-38-darwin.so,sha256=hOV80zI3FvnWOcoUOKDdMGzwPnUkN5TpnkYev29_Eew,614848
+pyats/tcl/q.cpython-38-darwin.so,sha256=mJM6hWhyOiLmaZHmt-typ8-J-OxXaE0MeLJAscj7zu8,112416
+pyats/tcl/tclstr.cpython-38-darwin.so,sha256=FatqtZ6jTIRhXHflXY-COabQjyPvrTsvwV4uW41_D7U,159720
+pyats.tcl-22.3.dist-info/METADATA,sha256=O6-efdXm4vGCVR29DElSNTj3JIeGUiJuE_uGB39Pkyw,3081
+pyats.tcl-22.3.dist-info/WHEEL,sha256=HLa92YN-e74uwFb2YrX5eWeaaWs135UbcO9-PwYKa3Y,110
+pyats.tcl-22.3.dist-info/namespace_packages.txt,sha256=jGeyqyHwW1slwU9TmXM_iib2O5fPdh4peKwkj0m-bZU,6
+pyats.tcl-22.3.dist-info/top_level.txt,sha256=jGeyqyHwW1slwU9TmXM_iib2O5fPdh4peKwkj0m-bZU,6
+pyats.tcl-22.3.dist-info/RECORD,,
