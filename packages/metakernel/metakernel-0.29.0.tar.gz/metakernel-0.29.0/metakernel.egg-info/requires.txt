@@ -1,0 +1,17 @@
+ipykernel>=5.5.6
+jupyter_core>=4.9.2
+pexpect>=4.8
+jedi>=0.18
+
+[activity]
+portalocker
+
+[parallel]
+ipyparallel
+
+[test]
+pytest
+pytest-cov
+requests
+jupyter_kernel_test
+pytest-timeout
