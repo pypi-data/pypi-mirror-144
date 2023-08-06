@@ -1,0 +1,53 @@
+Metadata-Version: 2.1
+Name: uengineer
+Version: 0.1.4
+Summary: Modules used by the UEngineer Community courses
+Home-page: https://github.com/saullocastro/uengineer
+Author: Saullo G. P. Castro, Vinicius L. Lemos
+Author-email: s.g.p.castro@gmail.com
+License: 3-Clause BSD
+Keywords: finite elements structural analysis static buckling vibration dynamics
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: Science/Research
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Scientific/Engineering :: Mathematics
+Classifier: Topic :: Education
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: Unix
+Description-Content-Type: text/markdown
+License-File: LICENSE
+License-File: AUTHORS
+Requires-Dist: numpy
+Requires-Dist: scipy
+Requires-Dist: pynastran
+Requires-Dist: pyfe3d
+Requires-Dist: sectionproperties
+Requires-Dist: requests
+Requires-Dist: matplotlib
+
+UEngineer Community
+-------------------
+
+Github Actions status:
+
+[![Actions Status](https://github.com/saullocastro/uengineer/workflows/pytest/badge.svg)](https://github.com/saullocastro/uengineer/actions)
+
+Coverage status:
+
+[![Codecov Status](https://codecov.io/gh/saullocastro/uengineer/branch/main/graph/badge.svg?token=MiXaW00ZME)](https://codecov.io/gh/saullocastro/uengineer)
+
+The functions herein included are easily accessed by any user that is careful
+enough to look on PyPi.org, where we distribute this module, or to look on the
+site-packages folder after running "pip install uengineer".
+
+
+
+
+
