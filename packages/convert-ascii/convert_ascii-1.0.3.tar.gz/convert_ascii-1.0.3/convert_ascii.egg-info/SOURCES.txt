@@ -1,0 +1,9 @@
+LICENSE.txt
+README.md
+setup.cfg
+setup.py
+convert_ascii/convert.py
+convert_ascii.egg-info/PKG-INFO
+convert_ascii.egg-info/SOURCES.txt
+convert_ascii.egg-info/dependency_links.txt
+convert_ascii.egg-info/top_level.txt

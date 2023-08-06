@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: convert-ascii
+Version: 1.0.3
+Summary: Um simples conversor de letra para decimal e vice e versa baseado na tabela ASCII
+Home-page: https://github.com/leidibeatriz/convert_ascii
+Author: Leidiane Beatriz Passos Rodrigues
+Author-email: leidianebeatrizpassosrodrigues@gmail.com
+License: MIT
+Project-URL: Código fonte, https://github.com/leidibeatriz/convert_ascii
+Project-URL: Download, https://github.com/leidibeatriz/convert_ascii/archive/1.0.3.zip
+Keywords: conversor de letra para decimal e vice e versa baseado na tabela ASCII
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: Portuguese (Brazilian)
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Software Development :: Internationalization
+Classifier: Topic :: Scientific/Engineering :: Physics
+License-File: LICENSE.txt
+
+Um simples conversor de letra para decimal e vice e versa baseado na tabela ASCIIpara linguagem Python
+
