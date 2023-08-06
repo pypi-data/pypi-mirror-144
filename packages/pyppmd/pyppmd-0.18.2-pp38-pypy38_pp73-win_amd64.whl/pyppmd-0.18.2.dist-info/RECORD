@@ -1,0 +1,11 @@
+pyppmd/__init__.py,sha256=zmBQZ835h0hUV6kzntHAVYnJfJhc1BH85iJmuYahP_g,7401
+pyppmd/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pyppmd/c/_ppmd.cp38-win_amd64.pyd,sha256=hy8AY3m3CAuwEXCmwLb5S3JMV3Sz1A1hBflWjd-rW7U,56832
+pyppmd/c/c_ppmd.py,sha256=gkSB0ciDCFL8GJZNtfwN0OxNLIdVZ75-eDge0YHUqVc,459
+pyppmd/cffi/_cffi_ppmd.pypy38-pp73-win_amd64.pyd,sha256=_y3dTPtzYhJMK81g5B2E0ofnPlEhIepmxLBsmH1B4K8,49664
+pyppmd/cffi/cffi_ppmd.py,sha256=msTdDIdhKfwVC-8tRGfqHf3bJQwSKefMEH8saYuxuwE,20188
+pyppmd-0.18.2.dist-info/LICENSE.rst,sha256=mh_z968XMGRxPDP631TaAz16Sb_C7RdF9jgH0n_G4GE,4087
+pyppmd-0.18.2.dist-info/METADATA,sha256=_zUeR2Bs4zV3Em2ryyFCx6-ffZM6B85gB0A1N5UQ-TY,9938
+pyppmd-0.18.2.dist-info/WHEEL,sha256=06TODGy9zsn9QCb4Oo1wjtnM2jOjgiTR78nw1cWltRU,107
+pyppmd-0.18.2.dist-info/top_level.txt,sha256=oI9A6TS272sAHjryEKAiyFJkIMwC7DxWsfF7zlFviFw,7
+pyppmd-0.18.2.dist-info/RECORD,,
