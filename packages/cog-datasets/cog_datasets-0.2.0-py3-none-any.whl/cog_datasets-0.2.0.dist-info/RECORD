@@ -1,0 +1,8 @@
+cog_datasets/__init__.py,sha256=dNBu7k5hsebj0R9rKckqU0qpDUIPmkJ_urxYzI7r15Y,15122
+cog_datasets/_version.py,sha256=wUEjdayrHuWaDWGTPch7BRlMsWVZ8QqscwSH0V762mk,497
+cog_datasets/download_utils.py,sha256=FSU4BNtv7FXHt_HNztV-uTTCeq9ls9ip8J5T6YkZ_4Q,9659
+cog_datasets/toydata.py,sha256=Y5J7_Zr-wsGjPDlFFVidWxiwdzsSe2vGvI5nx-HOKVA,6429
+cog_datasets-0.2.0.dist-info/METADATA,sha256=Yv2XPAUzsRAUnP5c995-ZQM63z9A_cVs3wuSFqRqi-U,661
+cog_datasets-0.2.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+cog_datasets-0.2.0.dist-info/top_level.txt,sha256=0OEr1LZ4xtGAlLmnuW7HcDapSVTQPA_7ilmQXl5qxJI,13
+cog_datasets-0.2.0.dist-info/RECORD,,
