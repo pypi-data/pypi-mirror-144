@@ -1,0 +1,9 @@
+README.rst
+setup.cfg
+setup.py
+jiayi_test/__init__.py
+jiayi_test/main.py
+jiayi_test.egg-info/PKG-INFO
+jiayi_test.egg-info/SOURCES.txt
+jiayi_test.egg-info/dependency_links.txt
+jiayi_test.egg-info/top_level.txt
