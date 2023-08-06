@@ -1,0 +1,8 @@
+setup.py
+run/__init__.py
+run/redis_connector.py
+zzha529_test.egg-info/PKG-INFO
+zzha529_test.egg-info/SOURCES.txt
+zzha529_test.egg-info/dependency_links.txt
+zzha529_test.egg-info/requires.txt
+zzha529_test.egg-info/top_level.txt
