@@ -1,0 +1,40 @@
+Metadata-Version: 2.1
+Name: MlTrackTool
+Version: 0.0.19
+Summary: Documetation and Ml tracking tool using jupyter extensions
+Home-page: https://github.com/anesh-ml/Document-and-ML-track-tool
+Author: Anesh
+Author-email: analytics955@gmail.com
+License: UNKNOWN
+Keywords: python,Machine learning,MLops,ML tracking system
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: ipysheet
+Requires-Dist: scikit-plot
+Requires-Dist: lime
+Requires-Dist: Shapely
+Requires-Dist: plotly
+Requires-Dist: flask
+Requires-Dist: jinja2
+Requires-Dist: psutil
+Requires-Dist: xlwt
+Requires-Dist: imagesize
+
+
+<h1 style="text-align:center"> Documenting and ML tracking tool</h1> 
+
+## Purpose of the app
+
+- This application is created to do some of the data science development work like documentation, compare supervised ML algorithms using jupyter notebook.
+
+For documentation visit, <a href='https://github.com/anesh-ml/Document-and-ML-track-tool'>this github link</a>
+
+
