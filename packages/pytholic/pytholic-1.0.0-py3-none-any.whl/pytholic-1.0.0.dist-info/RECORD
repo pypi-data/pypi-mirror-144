@@ -1,0 +1,13 @@
+pytholic/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pytholic/icons.py,sha256=omLJfeyi4CIR-ZwzFvkgumaOrcZNKrXHgfsdbFCTda0,34372
+pytholic/prayers.py,sha256=iuSNoL5SmvAg-J3FmEqI7Euu4FD9fXsLnXStd8U-RjQ,7778
+pytholic/variety.py,sha256=Rg8Uz-0QEiIALtlcl4HtvafCa52CeOCxWLk3T91w-hE,4086
+pytholic/bible/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pytholic/bible/_books.py,sha256=gvCTCJnFRr6Qw5St9wvJCx0GflgXRh6AvM6CCwv6HHQ,507008
+pytholic/bible/_exceptions.py,sha256=ttgx_52c4RARJtW_z7tAGo8KZIq5FjnZl48rfK0gcsE,692
+pytholic/bible/bible.py,sha256=LOys7fEQDjuHVSPp1Z6KaHTovhjMiXMDIuow3UFgJmU,756
+pytholic-1.0.0.dist-info/LICENSE.txt,sha256=S9s1goRhDL382mvaHgAxYWH7uOP-LmwC-M4fwPZqKRw,1086
+pytholic-1.0.0.dist-info/METADATA,sha256=jGpoYiF2dzKhNA4ibz7lh2DX9NQuQdP8382ahRRoIjU,2813
+pytholic-1.0.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+pytholic-1.0.0.dist-info/top_level.txt,sha256=rCazTumXsUGj8m2HBoYYuOSnTFdyraL6cZ-Tqmofbok,25
+pytholic-1.0.0.dist-info/RECORD,,
