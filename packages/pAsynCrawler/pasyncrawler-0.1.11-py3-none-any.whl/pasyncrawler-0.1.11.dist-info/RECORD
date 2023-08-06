@@ -1,0 +1,10 @@
+pAsynCrawler/__init__.py,sha256=NtbHCYVwlX3t3Ayrleuidqs70IWORSTUWp6rVfpeYPQ,221
+pAsynCrawler/file_cache.py,sha256=J_A4Bu0dmaqjibDOqv6EQP6ksriPVDUvxc-eaMabWjE,3228
+pAsynCrawler/parallels.py,sha256=FlX7XCv-L2e8NqQNCj9SyLOKFEfouIVqBNcjTpUTSoU,1369
+pAsynCrawler/pyasyncrawler.py,sha256=JCxfsMHafBpPMDsWoiY5WzLVj_kt06MX9TiWzPH1mjo,2518
+pAsynCrawler/urls_constructor.py,sha256=beH2j5OkV4ad3bSS5T-_MRGUYlSl715-J25tNk26YZ8,1581
+pAsynCrawler/utils.py,sha256=qjiSEcjZc8wqp8n0XmZOK0a-muWtnM1MW9vqWh8fhMM,395
+pasyncrawler-0.1.11.dist-info/LICENSE,sha256=8357ItjEVFHCfMHIp66_TKQNLq5N-hFTKpIlisL0DAk,1080
+pasyncrawler-0.1.11.dist-info/WHEEL,sha256=4TfKIB_xu-04bc2iKz6_zFt-gEFEEDU_31HGhqzOCE8,81
+pasyncrawler-0.1.11.dist-info/METADATA,sha256=CopF-adTOsQneii_hOTUIwqT6jp_v-SQsfiswjGiRV0,2245
+pasyncrawler-0.1.11.dist-info/RECORD,,
