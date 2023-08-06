@@ -1,0 +1,16 @@
+README.md
+setup.cfg
+setup.py
+diematic-client/__init__.py
+diematic-client/__version__.py
+diematic-client/boiler.py
+diematic-client/enums.py
+diematic-client/exceptions.py
+diematic-client/models.py
+diematic-client/parser.py
+diematic-client/serializer.py
+diematic_client.egg-info/PKG-INFO
+diematic_client.egg-info/SOURCES.txt
+diematic_client.egg-info/dependency_links.txt
+diematic_client.egg-info/requires.txt
+diematic_client.egg-info/top_level.txt
