@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: jipubetapi
+Version: 0.0.3
+Summary: This library makes it easier to access the API
+Home-page: https://github.com/DmitriyUsername/jipubetapi-lib/
+Author: Dmitrii Kazanin
+Author-email: dmitriikazanin@gmail.com
+License: UNKNOWN
+Download-URL: https://github.com/DmitriyUsername/jipubetapi-lib/archive/main.zip
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.7
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Description-Content-Type: text/markdown
+
+# jipubetapi
+## РЈСЃС‚Р°РЅРѕРІРєР° Р±РёР±Р»РёРѕС‚РµРєРё
+```python
+  pip install --upgrade jipubetapi
+```
+### Р‘РёР±Р»РёРѕС‚РµРєР° РїРѕР»РЅРѕСЃС‚СЊСЋ Р°СЃРёРЅС…СЂРѕРЅРЅР°
+________
+## РџСЂРёРјРµСЂ РёСЃРїРѕР»СЊР·РѕРІР°РЅРёСЏ
+```python
+import jipubetapi
+from jipubetapi import ApiError
+import asyncio
+api = jipubetapi.JipubetKey()
+async def main():
+  try:
+    print(await api.toad())
+   except ApiError:
+    print('api error')
+asyncio.run(main())
+```
+#### РџРѕРґСЂРѕР±РЅРµРµ РјРѕР¶РµС‚Рµ РїСЂРѕС‡РёС‚Р°С‚СЊ РІ РґРѕРєСѓРјРµРЅС‚Р°С†РёРё: _СЃРєРѕСЂРѕ_
+
+

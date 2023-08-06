@@ -1,0 +1,11 @@
+aiohttp
+aiosignal
+async-timeout
+asyncio
+attrs
+charset-normalizer
+frozenlist
+idna
+multidict
+typing
+yarl
