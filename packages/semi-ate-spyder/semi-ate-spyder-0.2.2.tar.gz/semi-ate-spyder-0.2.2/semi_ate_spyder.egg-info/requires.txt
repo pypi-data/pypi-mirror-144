@@ -1,0 +1,8 @@
+numpy
+pydantic
+qtawesome
+semi-ate-common==0.2.2
+semi-ate-plugins==0.2.2
+semi-ate-project-database==0.2.2
+semi-ate-sammy==0.2.2
+spyder>=5.2
