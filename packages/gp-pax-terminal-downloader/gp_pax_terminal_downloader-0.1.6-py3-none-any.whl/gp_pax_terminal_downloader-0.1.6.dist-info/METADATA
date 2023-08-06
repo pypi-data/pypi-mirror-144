@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: gp-pax-terminal-downloader
+Version: 0.1.6
+Summary: Green Pay Paxstore Terminals downloader
+Home-page: https://www.greenpayci.com
+Requires-Dist: requests
+Requires-Dist: progress
+Requires-Dist: progressbar
+Requires-Dist: mysql-connector-python
+Requires-Dist: paxstore-open-api-sdk
+
+Bug Tracker = https://www.greenpayci.com
+Author: François Joseph AMON D''ABY
+Author-email: ange_amon@live.fr
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# paxstore-openapi-python-sdk
+Green Pay Paxstore Terminals downloader
+
