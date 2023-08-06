@@ -1,0 +1,2 @@
+[console_scripts]
+xeuledoc = xeuledoc.core:main
