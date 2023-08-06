@@ -1,0 +1,12 @@
+cbor2>=5.4.1
+bech32>=1.2.0
+base58>=2.1.1
+pyscard>=2.0.2
+coincurve>=15.0.1
+bip32>=2.1
+
+[cli]
+click>=8.0.3
+pyqrcode>=1.2.1
+pypng>=0.0.21
+requests[socks]>=2.26.0
