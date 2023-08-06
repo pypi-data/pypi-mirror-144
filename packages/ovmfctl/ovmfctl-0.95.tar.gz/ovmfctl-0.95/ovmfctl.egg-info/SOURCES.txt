@@ -1,0 +1,10 @@
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+ovmfctl.egg-info/PKG-INFO
+ovmfctl.egg-info/SOURCES.txt
+ovmfctl.egg-info/dependency_links.txt
+ovmfctl.egg-info/entry_points.txt
+ovmfctl.egg-info/requires.txt
+ovmfctl.egg-info/top_level.txt
