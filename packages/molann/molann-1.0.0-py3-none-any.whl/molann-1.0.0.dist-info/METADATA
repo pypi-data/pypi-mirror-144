@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: molann
+Version: 1.0.0
+Summary: Artificial Neural Networks (ANNs) for Molecular Systems
+Home-page: https://github.com/zwpku/molann
+Author: Wei Zhang
+Author-email: wzhangpku@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: Unix
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# MolANN
+
+Artificial Neural Networks (ANNs) for Molecular Systems
+
+This package implements PyTorch ANN classes that include alignment layers and feature layers. 
+
+## Usage
+
+
+
