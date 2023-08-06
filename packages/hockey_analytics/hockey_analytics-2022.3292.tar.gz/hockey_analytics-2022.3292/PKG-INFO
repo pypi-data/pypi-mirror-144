@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: hockey_analytics
+Version: 2022.3292
+Summary: A python package to facilitate working with hockey data.
+Author-email: Brock Tibert <btibert3@gmail.com>
+Description-Content-Type: text/markdown
+Classifier: License :: OSI Approved :: MIT License
+Project-URL: Home, https://github.com/Btibert3/hockey-analytics
+
+# About
+
+
+A personal toolkit to help with all things analyzing hockey data
+
+
+## Use cases
+
+- utilities to help with NHL PBP event data
+- plotting
+- data cleaning
+- modeling
+- general nerdery
+
+
+
