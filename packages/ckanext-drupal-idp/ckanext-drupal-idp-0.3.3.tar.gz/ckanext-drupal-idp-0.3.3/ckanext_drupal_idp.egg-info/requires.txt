@@ -1,0 +1,6 @@
+typing-extensions
+blinker
+ckanext-toolbelt
+
+[mysql]
+mysqlclient
