@@ -1,0 +1,6 @@
+setup.py
+smart_HiGAN.egg-info/PKG-INFO
+smart_HiGAN.egg-info/SOURCES.txt
+smart_HiGAN.egg-info/dependency_links.txt
+smart_HiGAN.egg-info/requires.txt
+smart_HiGAN.egg-info/top_level.txt
