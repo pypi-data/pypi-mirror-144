@@ -1,0 +1,10 @@
+cosecurity-amqp-lib/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cosecurity-amqp-lib/consumer.py,sha256=eWa44pOxR2QFkMTVDhcrJS2Q2mdfDLwPH_pwW66UD8I,2502
+cosecurity-amqp-lib/producer.py,sha256=6nWk3ew9NR1I4mi1LcsETqhc7gWZkPBnUjRrcAJCgzw,1521
+cosecurity-amqp-lib/setting.py,sha256=kMV_LbuTAMnAM3L_lfRUp2R0DP2biCmtaiIPc3IUmbs,447
+cosecurity-amqp-lib/stub.py,sha256=QP5Bk-L1qqjfh-JCvivkQHqjMd8foakKJh6-bZ_c83M,949
+cosecurity_amqp_lib-0.0.1.dist-info/LICENSE,sha256=IjE6w7ONQhJ8iYtziJh9xLkDxIjp2rEpTnuZqRg_HTM,1066
+cosecurity_amqp_lib-0.0.1.dist-info/METADATA,sha256=SkIqRRg3G1le_HQCOhAbPr9qQA3RnZ7qlpowMf2LL1c,439
+cosecurity_amqp_lib-0.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+cosecurity_amqp_lib-0.0.1.dist-info/top_level.txt,sha256=nCHjupBSWNqWGs0A6C_qazCZ8fJGmjTosN3Z6zwWF6U,20
+cosecurity_amqp_lib-0.0.1.dist-info/RECORD,,
