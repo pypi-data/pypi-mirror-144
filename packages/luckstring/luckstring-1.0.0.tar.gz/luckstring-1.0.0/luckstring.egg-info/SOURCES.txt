@@ -1,0 +1,13 @@
+MANIFEST.in
+README.md
+setup.py
+luckstring/__init__.py
+luckstring/__version__.py
+luckstring/luckstring.py
+luckstring.egg-info/PKG-INFO
+luckstring.egg-info/SOURCES.txt
+luckstring.egg-info/dependency_links.txt
+luckstring.egg-info/top_level.txt
+luckstring.egg-info/zip-safe
+luckstring/__pycache__/__init__.cpython-310.pyc
+luckstring/__pycache__/luckstring.cpython-310.pyc
