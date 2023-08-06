@@ -1,0 +1,17 @@
+Metadata-Version: 1.1
+Name: pyfiscal
+Version: 2.0
+Summary: Pyfiscal 2.7-3.8 tax data calculation.
+Home-page: https://github.com/thomgonzalez/pyfiscal
+Author: Tomás Gonzalez
+Author-email: thom.sgonzalez@gmail.com
+License: UNKNOWN
+Description: UNKNOWN
+Keywords: RFC,CURP,NSS,fiscal
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.8
