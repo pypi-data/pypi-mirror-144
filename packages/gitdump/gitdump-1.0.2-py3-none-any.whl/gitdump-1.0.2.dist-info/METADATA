@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: gitdump
+Version: 1.0.2
+Summary: Dump all repos of a github account at once.
+Home-page: https://github.com/Divinemonk/gitdump/
+Author: Divinemonk
+Author-email: <v1b7rc8eb@relay.firefox.com>
+License: UNKNOWN
+Keywords: gitdump,divinemonk,gd,github,git
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: License :: OSI Approved :: MIT License
+Description-Content-Type: text/markdown
+Requires-Dist: rich
+
+```
+█▀▀ █ ▀█▀ █▀▄ █░█ █▀▄▀█ █▀█  version
+█▄█ █ ░█░ █▄▀ █▄█ █░▀░█ █▀▀  1.0.1  
+```
+
+
+# Usage
+
+```
+usage: gd [-h] [-u USERNAME] [-l LOCATION]
+
+Dump all repos of a github account at once.
+
+optional arguments:
+  -h, --help            show this help message and exit
+  -u USERNAME, --username USERNAME
+                        username of the github account
+  -l LOCATION, --location LOCATION
+                        location to save dumped repos
+```
+
