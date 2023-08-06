@@ -1,0 +1,10 @@
+orphe/__init__.py,sha256=rv2KpLRiT6etHd3-EKQT3dVziM0EeITJ3DEnrw-PGXI,757
+orphe/_analytics.py,sha256=2KAiUPbqYTbmba2UQTTWkcXCcTI5N7AMNkKJK5StoeY,21417
+orphe/_filter.py,sha256=euApYYYSXqKkEvv-7ijaCu4So5mJk1DJz8aYL89amwg,6893
+orphe/_gait.py,sha256=KrpZ7LGIWtA1J4ilpKFlVVJQQK9Vva7Jq-IxwLeaOPY,13785
+orphe/_pose.py,sha256=ZxArAICYzUBOV5Gu_a14QJU2cqRv7xaDvN8CgJVE078,6620
+orphe/_unit.py,sha256=3S76ioH2ZM5pwzwgDrGK4GLX1g60zK7eqyJh0fjeIRE,1970
+orphe-0.1.2.dist-info/METADATA,sha256=yFrHkS7msOdzMfoOmTuSzW8XROg4AbXQnpb27fz1V-c,4624
+orphe-0.1.2.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+orphe-0.1.2.dist-info/top_level.txt,sha256=8BsGLaR_HCnh0jfoLal_v56gdIuiLRQL1xuYfAR9kfo,6
+orphe-0.1.2.dist-info/RECORD,,
