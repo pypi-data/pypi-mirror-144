@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: area42
+Version: 0.0.1
+Summary: Experiments, packages, and other tools for performing automatic detection of animal sounds in audio recordings.
+Home-page: https://github.com/icr-ctl/area42
+Author: Conservation Technology Lab at the San Diego Zoo Wildlife Alliance
+License: MIT
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# area42
+Experiments, packages, and other tools for performing automatic detection of wildlife sounds in audio recordings 
+
+

@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+area42/__init__.py
+area42/hello_world.py
+area42.egg-info/PKG-INFO
+area42.egg-info/SOURCES.txt
+area42.egg-info/dependency_links.txt
+area42.egg-info/requires.txt
+area42.egg-info/top_level.txt
