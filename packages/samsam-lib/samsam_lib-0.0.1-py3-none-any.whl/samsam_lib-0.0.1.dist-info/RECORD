@@ -1,0 +1,9 @@
+samsam_lib/__init__.py,sha256=zjJav83kEGr8mAcLO2Gdq8woPDHNTPKe14xynGlgqpA,72
+samsam_lib/compute.py,sha256=BYCeTwuM-eiwVhIEkLPpWJfhkONRSaZQvRnIN1naTKo,33
+samsam_lib/greeting.py,sha256=Jp9iJIJAj6hRuTd4eIcElVUkJRtLlhtc70HIRxCLupM,49
+samsam_lib/util.py,sha256=cDFZ0Os1UpjaZXIHZFrpROGop3FfmxEiMpcLIheObik,15
+samsam_lib-0.0.1.dist-info/LICENSE,sha256=6cV6oQG0GSYV8HVfix-6ZhYa9WMhlukkUvF2qQpiQ-g,1075
+samsam_lib-0.0.1.dist-info/METADATA,sha256=cT02jaJxpARq22kRLSCdVKgZiws6S9jXBJu8LPsW14Y,426
+samsam_lib-0.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+samsam_lib-0.0.1.dist-info/top_level.txt,sha256=c2f1OPMZORiFUdTcs24CLMr6nYF_a7_B0VBaX1NZLeQ,11
+samsam_lib-0.0.1.dist-info/RECORD,,
