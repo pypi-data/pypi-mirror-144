@@ -1,0 +1,8 @@
+__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+deiteo_kafka/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+deiteo_kafka/log.py,sha256=FjGnTkT3W4kmpipYWwgDaGoXH5m8pN4hrs-trFr7DeA,476
+deiteo_kafka/producer/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+deiteo_kafka/producer/deiteo_kafka_aio_producer.py,sha256=xXLPUEh5Nae9CwJtjDR92TqU96wsy5O2l2cNyzZ7iHg,2714
+deiteo_kafka_client-0.0.1a0.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+deiteo_kafka_client-0.0.1a0.dist-info/METADATA,sha256=1YVTRO0qT4Z8n2f5M9vrb_Xly5nnnBSemWhrvXf0LFo,2886
+deiteo_kafka_client-0.0.1a0.dist-info/RECORD,,
