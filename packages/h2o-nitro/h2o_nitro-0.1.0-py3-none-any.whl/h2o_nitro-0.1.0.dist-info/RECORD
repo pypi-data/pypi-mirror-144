@@ -1,0 +1,17 @@
+h2o_nitro/__init__.py,sha256=kAUQLtZMsz4z2Ybu1dT-e7hER8qCMm9MtzIBJVzDejY,193
+h2o_nitro/core.py,sha256=QHygqJYdvv6lA7-62kLpjmcX-gkK-PFUsaaEQFt5uN8,18127
+h2o_nitro/www/asset-manifest.json,sha256=n0XDYC7Eepv3T0hTtH-GG5vYxaeVBVedWBHxJR7GkGM,517
+h2o_nitro/www/favicon.ico,sha256=PRD32mxgMXg0AIFmjErFs66XQ8qaJiqw_NMS-7n0i90,3870
+h2o_nitro/www/index.html,sha256=BPNZPwMKSPFgg_86mzMK12gFA82WfUrroDsnWls5GVU,979
+h2o_nitro/www/manifest.json,sha256=mmfu_4Wert7s5EINVB7SV3wZ_3WZwPtwylNoH-IMz5U,306
+h2o_nitro/www/static/css/main.2725cd43.css,sha256=As_jcbyj-dFBZkYRjAkbt2JkXcteSBlsnI3_1S5GtL4,1518
+h2o_nitro/www/static/css/main.2725cd43.css.map,sha256=zhHwSzHK_npY9f88Mdgh23geXAbo6_4ugjFjnrD-oVg,2172
+h2o_nitro/www/static/js/787.90924a69.chunk.js,sha256=vdBIfUJjDX_RYUZkJwHr6w3P5HO2R9pe2dLksPEdbxU,4329
+h2o_nitro/www/static/js/787.90924a69.chunk.js.map,sha256=6ndTL_TAEOf0yJpvkMQmt5Y-lnr2XjnUXw1WxziIkaw,9613
+h2o_nitro/www/static/js/main.1f6252f9.js,sha256=SI1UzLhuU3emu1gVHX-LfZGNLufSMGMDHBRy6p5LWho,1859014
+h2o_nitro/www/static/js/main.1f6252f9.js.LICENSE.txt,sha256=s_ZJpET_OleMbnxRl51Txaq10YYjXnRnWZfX1sJnl1c,2345
+h2o_nitro/www/static/js/main.1f6252f9.js.map,sha256=OwF_nxCPIF4CPIYPIpPmoUxaE1KbqCvVcBd2eRjyqOs,5405833
+h2o_nitro-0.1.0.dist-info/METADATA,sha256=AWaAmG1-RuO92WFpjBtbHSEGS6yf4mPTP02l-ww5_3w,1874
+h2o_nitro-0.1.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+h2o_nitro-0.1.0.dist-info/top_level.txt,sha256=HGM67rk7sGSM2rZo_3WSd2r0iMm4yiIh_ZMKiQf0HLc,10
+h2o_nitro-0.1.0.dist-info/RECORD,,
