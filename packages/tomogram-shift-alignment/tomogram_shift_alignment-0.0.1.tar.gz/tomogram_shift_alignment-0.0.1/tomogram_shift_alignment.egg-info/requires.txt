@@ -1,0 +1,9 @@
+numpy
+click==8.0.4
+starfile
+pandas
+thefuzz
+setuptools-scm
+typer
+mrcfile
+python-Levenshtein

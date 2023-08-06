@@ -1,0 +1,2 @@
+[console_scripts]
+tomogram_shift_alignment = tomogram_shift_alignment.tomogram_shift_alignment:cli
