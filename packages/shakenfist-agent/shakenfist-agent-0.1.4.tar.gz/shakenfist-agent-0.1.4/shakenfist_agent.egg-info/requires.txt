@@ -1,0 +1,5 @@
+click>=8.0.0
+flake8
+oslo.concurrency
+testtools
+tox
