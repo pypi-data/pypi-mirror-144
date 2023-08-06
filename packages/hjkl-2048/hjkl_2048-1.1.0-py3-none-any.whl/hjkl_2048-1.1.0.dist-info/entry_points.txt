@@ -1,0 +1,3 @@
+[console_scripts]
+hjkl-2048=hjkl_2048:main
+
