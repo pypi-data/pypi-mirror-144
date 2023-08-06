@@ -1,0 +1,3 @@
+dorianUtilsModulaire==4.3.2
+kaleido
+odfpy==1.4.1

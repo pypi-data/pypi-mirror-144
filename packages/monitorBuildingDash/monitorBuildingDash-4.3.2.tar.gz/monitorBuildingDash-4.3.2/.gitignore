@@ -1,0 +1,10 @@
+tests/.ipynb_checkpoints/
+__pycache__/
+build/
+dist/
+monitorBuildingDash.egg-info/
+spec/
+data/*
+monitorBuildingDash/confFiles/PLC_Config/
+monitorBuildingDash/confFiles/old/
+.env/
