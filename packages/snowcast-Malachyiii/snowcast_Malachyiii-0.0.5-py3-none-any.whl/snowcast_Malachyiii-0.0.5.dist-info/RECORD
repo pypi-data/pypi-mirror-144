@@ -1,0 +1,8 @@
+snowcast/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+snowcast/data_wrangling/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+snowcast/data_wrangling/pull_MODIS_list.py,sha256=dsX4XxzRoTXOdNaW8PujJBesilcdhUVk1L4bEajX03Q,3373
+snowcast_Malachyiii-0.0.5.dist-info/LICENSE,sha256=_pQjyb_PPOSTIgOY5kSCanpgr0tBPiEfrg0lpgTUVas,1088
+snowcast_Malachyiii-0.0.5.dist-info/METADATA,sha256=oDAxiwhrgp6yeNBQzG2AkeOudEWZ10e4wCHVAhDmqak,1495
+snowcast_Malachyiii-0.0.5.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+snowcast_Malachyiii-0.0.5.dist-info/top_level.txt,sha256=sWqp5bos1IKEAQ3raSq26rTkR4f0T-h5IRFTTpiBiMI,9
+snowcast_Malachyiii-0.0.5.dist-info/RECORD,,
