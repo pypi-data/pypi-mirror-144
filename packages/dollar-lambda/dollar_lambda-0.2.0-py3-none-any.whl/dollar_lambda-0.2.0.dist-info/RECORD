@@ -1,0 +1,13 @@
+dollar_lambda/__init__.py,sha256=6Hwvpq7BM9b_uBrkMd95vyGvIMnod1xYAAd3AvzueEc,21398
+dollar_lambda/args.py,sha256=NYrRkTRyBmcKXSLYImEeJRjSPieWNsiJF9rDEcj7OWM,6546
+dollar_lambda/decorators.py,sha256=wr5ORtF7J0pPOhCpydw7M5lpx8mB4q3KMWRZu27JGwQ,13350
+dollar_lambda/error.py,sha256=mybnzytUKQJjBGJhnHCv55cQvVxAextLDzOheqQlnKg,707
+dollar_lambda/key_value.py,sha256=DRDyQ7VwtaSZJTnIQfts9ztShLuBmnHRxlwXrnFw9nk,392
+dollar_lambda/parser.py,sha256=LTOc5IeHVJZCg4AFclj8osAYtl6n2TINOaIR4gKe_Cc,39375
+dollar_lambda/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dollar_lambda/result.py,sha256=Pycv9HjI5kylFjo23akba3qEpCbLE0D4dqam6EEaz_Q,2886
+dollar_lambda/sequence.py,sha256=EtrIbAhMdcY9kp7P3C1HaV05zhwbsNGpCgfHPrw9Zto,2416
+dollar_lambda-0.2.0.dist-info/LICENSE,sha256=SjHtAGVBMAowSpBjPrenOmBcRL_NNeBQmhScU19DEWY,1056
+dollar_lambda-0.2.0.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+dollar_lambda-0.2.0.dist-info/METADATA,sha256=1csBzMw9zbsJp91MLTKo2x_lYt3_Em6pzvTGBVoe64k,6102
+dollar_lambda-0.2.0.dist-info/RECORD,,
