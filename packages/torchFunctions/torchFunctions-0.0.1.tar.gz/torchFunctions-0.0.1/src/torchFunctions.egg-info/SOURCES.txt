@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/torchFunctions/__init__.py
+src/torchFunctions/parameters.py
+src/torchFunctions.egg-info/PKG-INFO
+src/torchFunctions.egg-info/SOURCES.txt
+src/torchFunctions.egg-info/dependency_links.txt
+src/torchFunctions.egg-info/requires.txt
+src/torchFunctions.egg-info/top_level.txt
