@@ -1,0 +1,68 @@
+Metadata-Version: 2.1
+Name: fetchabi
+Version: 0.12
+Summary: A quick python script used to fetch an ethereum smart contracts ABI, if it is available on etherscan.
+Home-page: https://github.com/kkayam/fetchabi
+Author: Koray
+Author-email: korre.remix@gmail.com
+License: MIT
+Download-URL: https://github.com/kkayam/fetchabi/archive/refs/tags/v_01.tar.gz
+Keywords: Ethereum,smart,contract,abi,fetch
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# fetch abi
+
+A quick python script used to fetch an ethereum smart contracts ABI, if it is available on etherscan.
+
+# How to use
+
+Simply import the fetch-abi function and use the contract address as an argument. Target smart contract must be verified thus have its ABI available on etherscan.
+
+    from fetchabi import *
+    abi = fetch_abi("0xe11c90922BB5d6fe661B44039DA64c04b5B153E9")
+    print(abi)
+
+Gives
+
+    {
+        "abi": [
+            {
+                "inputs": [],
+                "stateMutability": "nonpayable",
+                "type": "constructor"
+            },
+            {
+                "stateMutability": "payable",
+                "type": "fallback"
+            },
+            {
+                "inputs": [],
+                "name": "implementation",
+                "outputs": [
+                    {
+                        "internalType": "address",
+                        "name": "",
+                        "type": "address"
+                    }
+                ],
+                "stateMutability": "view",
+                "type": "function"
+            },
+            {
+                "stateMutability": "payable",
+                "type": "receive"
+            }
+        ]
+    }
+
+
