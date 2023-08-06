@@ -1,0 +1,8 @@
+secretfs/__init__.py,sha256=jsJEUiHEygWK7miVVs5udCafpgmbUUUaeHpJKiA4220,49
+secretfs/etc/secretfs.conf-example,sha256=guLE0X3u5_N31W-L1TH9qL--WP_FMFJB3ZCnhPYO01k,1004
+secretfs/secretfs.py,sha256=qbhB-e4dttXFLG88D2PElIWOF02AF3Eg389O-EcUx9s,9217
+secretfs-0.1.0.dist-info/entry_points.txt,sha256=x9baz8mj7O372WJVZ1R8lZl5floh1jAVtGRnLSbyWE4,42
+secretfs-0.1.0.dist-info/LICENSE,sha256=3XeQMVLAQ6UDi4gMzi4QN7ooj_jpEmzlilrm9FjFbJw,1523
+secretfs-0.1.0.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+secretfs-0.1.0.dist-info/METADATA,sha256=rTkH9IzYxZeA3o0gftqkr-Wkx5o5hUS4qxIt-qCGge8,6355
+secretfs-0.1.0.dist-info/RECORD,,
