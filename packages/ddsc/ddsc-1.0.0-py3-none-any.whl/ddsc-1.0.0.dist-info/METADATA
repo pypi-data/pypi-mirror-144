@@ -1,0 +1,63 @@
+Metadata-Version: 2.1
+Name: ddsc
+Version: 1.0.0
+Summary: Data-Driven Shock Capturing
+Home-page: UNKNOWN
+Author: zoonature
+Author-email: zoonature@snu.ac.kr
+License: UNKNOWN
+Platform: UNKNOWN
+
+# **DDSC : DATA-DRIVEN-SHOCK-CAPTURING PACKAGE** 
+
+---
+
+## **Description**
+The repository includes follwing features:  
+- to preprocess data
+- to make artifial neural network model
+- to train and test the model
+- to save the model to binary file
+
+---
+
+## **How to Install** (need to edit) --> package 배포
+```
+conda create --name <env_name> 
+conda activate <env_name>
+conda install --file requirements.txt
+conda install pytorch torchvision torchaudio cudatoolkit=11.3 -c pytorch
+```
+If you want to know more about conda (including command line), click [here](https://docs.conda.io/projects/conda/en/latest/user-guide/cheatsheet.html).
+
+---
+
+## **Prerequisite Packages**
+- Python (ver. 3.8)
+- PyTorch (ver. 1.11.0)
+- NumPy (ver. 1.21.5)
+- Pandas (ver. 1.4.1)
+- Matplotlib (ver. 3.5.1)  
+
+If you want to know more detail, you can see [requirements.txt].  
+If you have an error message that some packages are not installed although you followed the above manual, you can solve the problem just by installing them. ([hint]: use the "conda install [package name]" command line.) 
+
+---
+
+## **Directory** (need to edit)
+```
+├── data
+│   ├── train
+│   ├── test
+│   └── validation
+├── code
+│   ├── train.py
+│   ├── classify.py
+│   ├── model.py
+│   └── dataset.py
+└── run.sh
+``` 
+
+---
+
+
