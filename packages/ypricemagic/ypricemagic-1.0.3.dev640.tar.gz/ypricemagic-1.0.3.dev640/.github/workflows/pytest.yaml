@@ -1,0 +1,39 @@
+name: PyTest
+
+on: push
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    #timeout-minutes: 10
+
+    steps:
+      - name: Check out repository code
+        uses: actions/checkout@v2
+
+      - name: Setup Python (faster than using Python container)
+        uses: actions/setup-python@v2
+        with:
+          python-version: "3.9"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+      
+      - name: Install dev dependencies
+        run: pip install -r requirements-dev.txt
+      
+      - name: Setup brownie network
+        run: |
+          brownie networks modify mainnet host=${{ secrets.WEB3_PROVIDER }}
+      
+      - name: Cache brownie deployments
+        uses: actions/cache@v2
+        with:
+          key: brownie-deployments.db
+          path: ~/.brownie/deployments.db
+
+      - name: Run test suite
+        env:
+          BROWNIE_NETWORK_ID_MAINNET: mainnet
+          ETHERSCAN_TOKEN: ${{ secrets.ETHERSCAN_TOKEN }}
+        run: pytest
