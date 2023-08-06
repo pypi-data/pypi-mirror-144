@@ -1,0 +1,65 @@
+name: PyTest
+
+on:
+  push:
+    branches: [ master, dev ]
+  pull_request:
+    # The branches below must be a subset of the branches above
+    branches: [ master, dev ]
+
+jobs:
+  test:
+    runs-on: ${{ matrix.os }}
+    #timeout-minutes: 10
+    strategy:
+      matrix:
+        os: [ubuntu-latest, macos-latest, windows-latest]
+        include:
+        - os: ubuntu-latest
+          path: ~/.cache/pip
+        - os: macos-latest
+          path: ~/Library/Caches/pip
+        - os: windows-latest
+          path: ~\AppData\Local\pip\Cache
+
+    steps:
+      - name: Check out repository code
+        uses: actions/checkout@v2
+
+      - name: Setup Python (faster than using Python container)
+        uses: actions/setup-python@v2
+        with:
+          python-version: "3.9"
+
+      - name: Cache dependencies and joblib middleware cache
+        uses: actions/cache@v3
+        with:
+          key: ${{ runner.os }}-pip-${{ hashFiles('**/requirements') }}
+          path: |
+            ${{ matrix.path }}
+            ./cache/*/joblib/web3/middleware/filter/middleware
+
+      - name: Install dependencies
+        run: |
+          pip install -r requirements.txt
+          pip install -r requirements-dev.txt
+      
+      - name: Setup brownie network
+        run: |
+          brownie networks modify mainnet host=${{ secrets.WEB3_PROVIDER }}
+            
+      - name: Cache compilers and brownie deployments
+        uses: actions/cache@v3
+        with:
+          key: brownie-cache
+          path: |
+            ~/.brownie/deployments.db
+            /root/.solcx
+            /root/.vvm
+
+      - name: Run test suite
+        env:
+          BROWNIE_NETWORK_ID_MAINNET: mainnet
+          ETHERSCAN_TOKEN: ${{ secrets.ETHERSCAN_TOKEN }}
+        run: pytest
+        continue-on-error: true
