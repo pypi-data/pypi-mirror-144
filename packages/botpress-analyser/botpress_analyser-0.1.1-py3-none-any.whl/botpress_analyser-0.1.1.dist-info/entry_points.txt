@@ -1,0 +1,3 @@
+[console_scripts]
+nlp_analyser=nlp_analyser.cli:cli
+
