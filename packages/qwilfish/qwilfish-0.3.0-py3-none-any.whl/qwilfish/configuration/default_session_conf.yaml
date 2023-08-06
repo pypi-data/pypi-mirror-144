@@ -1,0 +1,5 @@
+grammar:
+  identifier: "lldp_grammar"
+courier:
+  identifier: "raw_socket_courier"
+  interface: "lo"
