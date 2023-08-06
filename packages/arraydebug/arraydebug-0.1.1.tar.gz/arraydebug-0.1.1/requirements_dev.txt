@@ -1,0 +1,9 @@
+flake8
+black
+pytest
+pytest-cov
+twine
+bump2version
+
+pandas
+torch
