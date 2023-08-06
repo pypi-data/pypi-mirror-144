@@ -1,0 +1,161 @@
+Metadata-Version: 2.1
+Name: PyDcDB
+Version: 0.4
+Summary: UNKNOWN
+Author: Dark-Light
+Author-email: darklight02014@gmail.com
+License: GNU
+Keywords: database sqlite3
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
+<h1> PyDB! A Library Focused Towards Making SQLITE for Discord Bots easier! </h1>
+
+<h4> Based on <strong>aiosqlite</strong>!</h4>
+
+<h3>Features: <strong>Economy Database Handler, Levelling Database Handler, Warns Database Handler</strong></h3>
+
+<hr>
+
+<h2> Example for Economy Databases! </h2>
+
+```python
+
+import disnake
+from disnake.ext import commands
+from PyDB import EconomyDB
+import random
+
+bot = commands.Bot(command_prefix='!', intents=disnake.Intents.all())
+db = EconomyDB()
+
+@bot.event
+async def on_ready():
+    await db.init_db()
+    print('Online')
+
+@bot.command()
+async def cf(ctx: commands.Context, amount: int):
+    user = await db.create_account(ctx.author.id, 500, 1000)
+
+    ch = random.choice([1, 2])
+
+    if ch == 1:
+        await ctx.send(f"You won {amount*2}")
+        return await db.update_account(ctx.author.id, wallet=user.wallet+amount*2)
+    await ctx.send(f"You lost {amount}")
+    return await db.update_account(ctx.author.id, wallet=user.wallet-amount)
+
+@bot.command()
+async def bal(ctx: commands.Context, member: disnake.Member=None):
+    member = ctx.author or member
+    user = await db.create_account(member.id, 500, 1000)
+    embed = disnake.Embed(description=f"Wallet: {user.wallet} | Bank: {user.bank}")
+    await ctx.send(embed=embed)
+
+bot.run("token")
+
+```
+
+<h4>Methods</h4>
+
+ - create_account(user_id INTEGER, initial_wallet_amount INTEGER, initial_bank_account INTEGER) [`Returns a Named Tuple if User exists or is added to the Database!`]
+
+ - read_data(user_id INTEGER) [`Returns a Named Tuple with user data`]
+
+ - update_account(user_id INTEGER, *, wallet_amount INTEGER, bank_amount INTEGER)
+
+<hr>
+
+<h2> Example for Levels Database! </h2>
+
+```python
+import disnake
+from disnake.ext import commands
+from PyDB import LevelDB
+
+bot = commands.Bot(command_prefix='!', intents=disnake.Intents.all())
+db = LevelDB()
+
+@bot.command()
+async def rank(ctx: commands.Context):
+    user = await db.create_account(ctx.author.id, 5, 1)
+    embed = disnake.Embed(description=f"Experience: {user.xp} | Level: {user.level}")
+    await ctx.send(embed=embed)
+    
+@bot.listen("on_ready")
+async def on_ready():
+    await db.init_db()
+    print('Online')
+
+@bot.listen("on_message")
+async def on_message(message: disnake.Message):
+    if message.author.bot: return
+
+    user = await db.create_account(message.author.id, 5, )
+    if user.xp + 5 % 50 == 0:
+        await db.update_account(message.author.id, xp=user.xp+5, level=user.level+1)
+        return  await message.channel.send(f"{message.author.mention} has levelled up to {user.level+1}")
+    await db.update_account(message.author.id, xp=user.xp+5, level=user.level)
+    
+bot.run("token")
+```
+
+<h4>Methods</h4>
+
+ - create_account(user_id INTEGER, initial_experience INTEGER, initial_level INTEGER) [`Returns a Named Tuple if User exists or is added to the Database!`]
+
+ - read_data(user_id INTEGER) [`Returns a Named Tuple with user data`]
+
+ - update_account(user_id INTEGER, *, experience INTEGER, level INTEGER)
+
+
+<hr>
+
+<h2> Example for Warns Database! </h2>
+
+```python
+import disnake
+from disnake.ext import commands
+from PyDB import WarnDB
+
+bot = commands.Bot(command_prefix="!", intents=disnake.Intents.all())
+db = WarnDB()
+
+@bot.listen("on_ready")
+async def on_ready():
+    await db.init_db()
+    print("online")
+
+@bot.command()
+#check for permissions
+async def warn(ctx: commands.Context, member: disnake.Member, *,reason: str):
+    user_data = await db.create_account(ctx.author.id, 0)
+    embed = disnake.Embed(title=f"Warning #{user_data.warns+1} from {ctx.guild.name}", description=f"Reason: {reason}", color=ctx.author.color).set_thumbnail(url=member.display_avatar.url)
+    try:
+        await member.send(embed=embed)
+        await ctx.send(f"warned! It was **{member}**'s warning number: {user_data.warns+1}")
+        await db.update_account(ctx.author.id, warnings=user_data.warns+1)
+    except disnake.Forbidden:
+        await ctx.send("could not warn that member!")
+
+@bot.command()
+async def infractions(ctx: commands.Context, member: disnake.Member=None):
+    member = ctx.author or member
+    user_data = await db.create_account(member.id, 0)
+    embed = disnake.Embed(title=f"Infractions for {ctx.author.name}", description=f"Warnings: {user_data.warns}")
+    await ctx.send(embed=embed)
+
+bot.run("token")
+```
+
+<h4>Methods</h4>
+
+ - create_account(user_id INTEGER, initial_warns INTEGER) [`Returns a Named Tuple if User exists or is added to the Database!`]
+
+ - read_data(user_id INTEGER) [`Returns a Named Tuple with user data`]
+
+ - update_account(user_id INTEGER, *, warns INTEGER)
+
+
