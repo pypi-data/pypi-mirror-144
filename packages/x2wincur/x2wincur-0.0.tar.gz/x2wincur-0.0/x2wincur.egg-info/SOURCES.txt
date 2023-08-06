@@ -1,0 +1,9 @@
+README
+setup.cfg
+setup.py
+x2wincur.egg-info/PKG-INFO
+x2wincur.egg-info/SOURCES.txt
+x2wincur.egg-info/dependency_links.txt
+x2wincur.egg-info/not-zip-safe
+x2wincur.egg-info/requires.txt
+x2wincur.egg-info/top_level.txt

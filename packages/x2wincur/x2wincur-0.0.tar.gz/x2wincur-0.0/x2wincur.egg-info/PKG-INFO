@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: x2wincur
+Version: 0.0
+Summary: win2xcur is a tool to convert Windows .cur and .ani cursors to Xcursor format.
+Home-page: https://pypi.python.org/pypi/win2xcur/
+Author: quantum
+Author-email: quantum2048@gmail.com
+Maintainer: UNKNOWN
+Maintainer-email: UNKNOWN
+License: UNKNOWN
+Platform: all
+
+Use `win2xcur <https://pypi.python.org/pypi/win2xcur/>`_ instead.
+
