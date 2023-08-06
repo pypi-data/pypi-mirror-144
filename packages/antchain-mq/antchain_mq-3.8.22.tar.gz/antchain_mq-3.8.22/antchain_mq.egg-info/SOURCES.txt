@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README-CN.md
+README.md
+setup.cfg
+setup.py
+antchain_mq.egg-info/PKG-INFO
+antchain_mq.egg-info/SOURCES.txt
+antchain_mq.egg-info/dependency_links.txt
+antchain_mq.egg-info/requires.txt
+antchain_mq.egg-info/top_level.txt
+antchain_sdk_mq/__init__.py
+antchain_sdk_mq/client.py
+antchain_sdk_mq/models.py
