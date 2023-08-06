@@ -1,0 +1,3 @@
+graft mxs/web/static
+graft mxs/web/templates
+global-exclude *.pyc
