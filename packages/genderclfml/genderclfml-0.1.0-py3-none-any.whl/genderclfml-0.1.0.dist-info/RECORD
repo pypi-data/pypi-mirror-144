@@ -1,0 +1,9 @@
+genderclfml/__init__.py,sha256=F5OcV6qaxlRFDEiXvkEoQ5WwcMH4BR3iua3loNjIT_g,66
+genderclfml/genderclfml.py,sha256=5TZMAekbykFAHeqx2SHt8HR31FKxcO8-cVGClz5V3X8,2501
+genderclfml/models/gender_dTree_model.pkl,sha256=Sn0_uAr7o8aYOGxYAI6M5BDToF4F6vZV2rGM6WUUUbM,3331924
+genderclfml/models/gender_logit_model.pkl,sha256=ehmCt98sjHRzb-xtokbepeeNz9ZypLc88xQH-OIvD48,760987
+genderclfml/models/gender_nv_model.pkl,sha256=onZM_hX_Ibi1Kka3DfgCeMjQ-vEEnLkb8d751shQb1A,3041468
+genderclfml/models/gender_vectorizer.pkl,sha256=HzRKzTj_0xmwUd0fSoZZQUFYxFNTDGnbO9Qw0CozkJk,1250613
+genderclfml-0.1.0.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+genderclfml-0.1.0.dist-info/METADATA,sha256=WYg-pDNPdMs-bls7FfU8jYK9gd-hsVJ0TIGK6FASb58,395
+genderclfml-0.1.0.dist-info/RECORD,,
