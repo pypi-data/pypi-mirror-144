@@ -1,0 +1,9 @@
+pandas
+numpy
+gspread
+oauth2client
+requests
+psycopg2-binary
+sqlalchemy
+PyYaml
+slack-sdk
