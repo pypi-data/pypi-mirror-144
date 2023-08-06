@@ -1,0 +1,11 @@
+InnerCensor/__init__.py,sha256=M2Xs9u1t5cQgMHcaxSoJd5hQe5Uv3gTMaRo9A-PadfY,1089
+InnerCensor/commands.py,sha256=zLrqb6CoQw56cNrDXbgoKDNbA33M9__7uIF0240zd2w,2624
+InnerCensor/main.py,sha256=qGgi5B1gBDbax09MvLy_XDocLnrJcY_GF8fb7nYvVyQ,2382
+InnerCensor/bin/run_censor.py,sha256=gfdKmx84BSSgFCCb9wUlFKBsaDCZsUuSKjD5YOG9CUw,4279
+incen-0.0.0.data/scripts/run_censor.py,sha256=Wgr2Pej0BEfRR3XWaPpuRGi2nJWatPN7m_Z8zXWBJt8,4265
+incen-0.0.0.dist-info/LICENSE,sha256=xHSkvcQH4jKjaq8VL5_3Rk0AHhAJAEa2gOp7HC-nlWw,1056
+incen-0.0.0.dist-info/METADATA,sha256=v03pQ0d-nj4H5H9vwmSQNXkh7bhjrCJT823G8dhzooM,1526
+incen-0.0.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+incen-0.0.0.dist-info/entry_points.txt,sha256=BKQo8YycoqXpJ73oUDM90602vrT4i5cRWvQ1rxN6TZY,59
+incen-0.0.0.dist-info/top_level.txt,sha256=6iY69MFDNKktqgXKZS_M3ke7AbLjGZMMJ_iDfpimEnU,12
+incen-0.0.0.dist-info/RECORD,,

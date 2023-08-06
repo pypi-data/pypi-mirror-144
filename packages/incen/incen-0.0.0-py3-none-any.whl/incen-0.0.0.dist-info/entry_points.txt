@@ -1,0 +1,3 @@
+[console_scripts]
+incen = InnerCensor.bin.run_censor:main
+
