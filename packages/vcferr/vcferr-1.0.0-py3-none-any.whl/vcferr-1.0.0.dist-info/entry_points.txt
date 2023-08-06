@@ -1,0 +1,2 @@
+[console_scripts]
+vcferr = vcferr.__main__:vcferr
