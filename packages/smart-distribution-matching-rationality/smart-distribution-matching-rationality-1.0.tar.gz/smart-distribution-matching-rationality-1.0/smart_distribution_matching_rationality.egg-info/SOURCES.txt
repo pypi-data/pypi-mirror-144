@@ -1,0 +1,6 @@
+setup.py
+smart_distribution_matching_rationality.egg-info/PKG-INFO
+smart_distribution_matching_rationality.egg-info/SOURCES.txt
+smart_distribution_matching_rationality.egg-info/dependency_links.txt
+smart_distribution_matching_rationality.egg-info/requires.txt
+smart_distribution_matching_rationality.egg-info/top_level.txt
