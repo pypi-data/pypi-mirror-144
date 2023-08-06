@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/py_to_mindustry/__init__.py
+src/py_to_mindustry/basic.py
+src/py_to_mindustry/ptm_types.py
+src/py_to_mindustry/py_to_mindustry.py
+src/py_to_mindustry.egg-info/PKG-INFO
+src/py_to_mindustry.egg-info/SOURCES.txt
+src/py_to_mindustry.egg-info/dependency_links.txt
+src/py_to_mindustry.egg-info/top_level.txt

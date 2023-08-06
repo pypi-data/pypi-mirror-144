@@ -1,0 +1,41 @@
+Metadata-Version: 2.1
+Name: py-to-mindustry
+Version: 0.0.4
+Summary: Translator from Python to Mindustry processor language
+Home-page: https://github.com/vitmalok/py_to_mindustry
+Author: Vitmalok
+Author-email: vitmalok@gmail.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/vitmalok/py_to_mindustry/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# py_to_mindustry
+
+Translator from Python to Mindustry processor language
+
+The following features are currently supported:
+- All built-in commands in Mindustry
+- Arbitrarily complex mathematical and logical expressions
+- Following keywords: `False`, `None`, `True`, `and`, `break`, `continue`, `def`, `elif`, `else`, `for`, `global`, `if`, `is`, `lambda`, `not`, `or`, `pass`, `return`, `while`
+
+# Usage
+
+```
+python -m pip install py_to_mindustry
+```
+```py
+from py_to_mindustry import py_to_mindustry
+print(py_to_mindustry(your_program_text))
+```
+
+# How to use Mindustry commands
+
+...
+
+
