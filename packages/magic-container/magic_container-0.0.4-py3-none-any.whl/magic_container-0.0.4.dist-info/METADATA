@@ -1,0 +1,61 @@
+Metadata-Version: 2.1
+Name: magic-container
+Version: 0.0.4
+Summary: Thread-safe, magical and persistent dict for Python.
+Home-page: https://github.com/KingKevin23/container
+Author: KingKevin23
+Author-email: code@kingkevin.de
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/KingKevin23/container/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: sqlitedict (>=1.7.0)
+
+# Magic Container
+
+Thread-safe, lightweight and persistent dict for Python with a magical touch.
+
+## Contents
+
+<!---
+* [Features](#features)
+-->
+* [Installation](#installation) 
+* [Examples](#examples) 
+
+### Installation:
+
+`pip install magic-container`
+
+### Examples:
+
+Use it like a dict:
+
+```python
+from container import container
+
+container["key"] = 3
+print(container["key"])
+del container["key"]
+```
+
+Or get the values while setting them if there aren't in the container:
+
+```python
+from container import container
+
+print(container["second_key"], lambda: 23)
+```
+
+### Limitations:
+
+1. Currently only works if installed and used in a virtual environment with write access to the venv folder.
+2. Currently keys can only be strings.
+3. Currently only the `get`, `set` and `delete` methods are defined.
+
+
