@@ -1,0 +1,7 @@
+LICENSE
+main.py
+setup.py
+MIDI2OSMapper.egg-info/PKG-INFO
+MIDI2OSMapper.egg-info/SOURCES.txt
+MIDI2OSMapper.egg-info/dependency_links.txt
+MIDI2OSMapper.egg-info/top_level.txt
