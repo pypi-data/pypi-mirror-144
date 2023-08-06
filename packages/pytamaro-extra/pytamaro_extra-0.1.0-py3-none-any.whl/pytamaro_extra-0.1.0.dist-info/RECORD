@@ -1,0 +1,10 @@
+pytamaro_extra/__init__.py,sha256=R1dce3BYDCcnyLnqnKNiSaq2ucHAYkut9GN_id8yUR4,118
+pytamaro_extra/de/__init__.py,sha256=QK0dVnjM2QCXUWuDO61pbNGpSG4D75gIOYLdk-ZMVw8,128
+pytamaro_extra/de/primitives.py,sha256=mK_w2HFBAOTofT3raqW6zjKs5Mt16MVRsxOOpgMkOaw,746
+pytamaro_extra/graphic.py,sha256=9CxtyGOmFxzfp_R2l7ZcnnywIY_sMCFDaY3Ixq8Ey0I,770
+pytamaro_extra/it/__init__.py,sha256=UIGn0-G0mW_eU4RhJTsbyP1xQYjhjXFzxUur2Rc5ilU,129
+pytamaro_extra/it/primitives.py,sha256=5b35_F5sCEi_JnoIyNgu13WPgpr5V8XzFPV4HhnqJiI,797
+pytamaro_extra/primitives.py,sha256=CJicAyYk1jVQh0Ro1SwxJwg3KrYoGsPYsfcIXWv66L0,688
+pytamaro_extra-0.1.0.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+pytamaro_extra-0.1.0.dist-info/METADATA,sha256=Lz23MAfH5h2Et2Ope9_zjUsjyAGSDU5Dryxl5KMkDFg,516
+pytamaro_extra-0.1.0.dist-info/RECORD,,
