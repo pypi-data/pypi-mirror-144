@@ -1,0 +1,8 @@
+README.md
+setup.py
+cpm_file.egg-info/PKG-INFO
+cpm_file.egg-info/SOURCES.txt
+cpm_file.egg-info/dependency_links.txt
+cpm_file.egg-info/entry_points.txt
+cpm_file.egg-info/not-zip-safe
+cpm_file.egg-info/top_level.txt
