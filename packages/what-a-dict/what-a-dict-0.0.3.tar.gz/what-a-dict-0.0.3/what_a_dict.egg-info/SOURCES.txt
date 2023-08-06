@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+wad/__init__.py
+wad/__version__.py
+wad/core.py
+what_a_dict.egg-info/PKG-INFO
+what_a_dict.egg-info/SOURCES.txt
+what_a_dict.egg-info/dependency_links.txt
+what_a_dict.egg-info/top_level.txt
