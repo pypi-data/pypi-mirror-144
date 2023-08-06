@@ -1,0 +1,4 @@
+[console_scripts]
+extract_fp = huellas.extract_fp:entry_point
+fp_unam = huellas.gui:entry_point
+

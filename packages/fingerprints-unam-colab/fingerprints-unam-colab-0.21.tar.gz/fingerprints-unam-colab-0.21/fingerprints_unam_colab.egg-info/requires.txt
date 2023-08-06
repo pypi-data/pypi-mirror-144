@@ -1,0 +1,9 @@
+wheel
+numpy
+scipy
+matplotlib
+opencv-python
+pandas
+scikit-image
+sklearn
+wxpython
