@@ -1,0 +1,13 @@
+install
+ohawf
+nltk
+httpx
+ohawf
+pandas
+art
+rich
+tldextract
+yake
+beautifulsoup4
+sqlitedict
+pyppeteer
