@@ -1,0 +1,15 @@
+README.md
+setup.py
+d2_nip_eval/NTIPAliasClass.py
+d2_nip_eval/NTIPAliasClassID.py
+d2_nip_eval/NTIPAliasFlag.py
+d2_nip_eval/NTIPAliasQuality.py
+d2_nip_eval/NTIPAliasStat.py
+d2_nip_eval/NTIPAliasType.py
+d2_nip_eval/__init__.py
+d2_nip_eval/lexer.py
+d2_nip_eval/tokens.py
+d2_nip_eval.egg-info/PKG-INFO
+d2_nip_eval.egg-info/SOURCES.txt
+d2_nip_eval.egg-info/dependency_links.txt
+d2_nip_eval.egg-info/top_level.txt
