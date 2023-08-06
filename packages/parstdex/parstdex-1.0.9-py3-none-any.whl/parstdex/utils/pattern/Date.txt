@@ -1,0 +1,533 @@
+﻿# Date
+
+# امروز
+RD
+# یکشنبه
+WD
+# پاییز
+SSN
+# امسال
+RY
+# فروردین
+MNTH
+
+# ماه فروردین
+MAH MNTH
+
+### with DN
+# یک فروردین
+DN MNTH
+# یک فروردین ۱۳۷۵
+DN MNTH NUM
+DN MNTH PN
+# یک فروردین ۱۳۷۵ هجری شمسی
+DN MNTH NUM CT
+DN MNTH PN CT
+# یک فروردین سال ۱۳۷۵
+DN MNTH SAL NUM
+DN MNTH SAL PN
+# یک فروردین سال ۱۳۷۵ هجری شمسی
+DN MNTH SAL NUM CT
+DN MNTH SAL PN CT
+
+### without DN
+# فروردین ۱۳۷۵
+MNTH NUM
+MNTH PN
+# فروردین ۱۳۷۵ هجری شمسی
+MNTH NUM CT
+MNTH PN CT
+# فروردین سال ۱۳۷۵
+MNTH SAL NUM
+MNTH SAL PN
+# فروردین سال ۱۳۷۵ هجری شمسی
+MNTH SAL NUM CT
+MNTH SAL PN CT
+
+### with MAH and DN
+# یک فروردین ماه
+DN MNTH MAH
+# یک فروردین ماه ۱۳۷۵
+DN MNTH MAH NUM
+DN MNTH MAH PN
+# یک فروردین ماه ۱۳۷۵ هجری شمسی
+DN MNTH MAH NUM CT
+DN MNTH MAH PN CT
+# یک فروردین ماه سال ۱۳۷۵
+DN MNTH MAH SAL NUM
+DN MNTH MAH SAL PN
+# یک فروردین ماه سال ۱۳۷۵ هجری شمسی
+DN MNTH MAH SAL NUM CT
+DN MNTH MAH SAL PN CT
+
+### with MAH without DN
+# فروردین ماه
+MNTH MAH
+# فروردین ماه ۱۳۷۵
+MNTH MAH NUM
+MNTH MAH PN
+# فروردین ماه ۱۳۷۵ هجری شمسی
+MNTH MAH NUM CT
+MNTH MAH PN CT
+# فروردین ماه سال ۱۳۷۵
+MNTH MAH SAL NUM
+MNTH MAH SAL PN
+# فروردین ماه سال ۱۳۷۵ هجری شمسی
+MNTH MAH SAL NUM CT
+MNTH MAH SAL PN CT
+
+### with MAH sticking near MNTH (MNTHMAH) and DN
+# یک تیرماه
+DN MNTHMAH
+# یک تیرماه ۱۳۷۵
+DN MNTHMAH NUM
+DN MNTHMAH PN
+# یک تیرماه ۱۳۷۵ هجری شمسی
+DN MNTHMAH NUM CT
+DN MNTHMAH PN CT
+# یک تیرماه سال ۱۳۷۵
+DN MNTHMAH SAL NUM
+DN MNTHMAH SAL PN
+# یک تیرماه سال ۱۳۷۵ هجری شمسی
+DN MNTHMAH SAL NUM CT
+DN MNTHMAH SAL PN CT
+
+### with MAH sticking near MNTH (MNTHMAH) without DN
+# تیرماه
+MNTHMAH
+# تیرماه ۱۳۷۵
+MNTHMAH NUM
+MNTHMAH PN
+# تیرماه ۱۳۷۵ هجری شمسی
+MNTHMAH NUM CT
+MNTHMAH PN CT
+# تیرماه سال ۱۳۷۵
+MNTHMAH SAL NUM
+MNTHMAH SAL PN
+# تیرماه سال ۱۳۷۵ هجری شمسی
+MNTHMAH SAL NUM CT
+MNTHMAH SAL PN CT
+
+
+### wihtout MNTH
+# سال ۱۳۷۵
+SAL NUM
+SAL PN
+# سال ۱۳۷۵ هجری شمسی
+SAL NUM CT
+SAL PN CT
+# ۱۳۷۵ هجری شمسی
+NUM CT
+PN CT
+
+
+# 1300/12/9
+NUM/N12/N31
+NUM\\N12\\N31
+NUM-N12-N31
+NUM\.N12\.N31
+
+# 9/12/1400
+N31/N12/NUM
+N31\\N12\\NUM
+N31-N12-NUM
+N31\.N12\.NUM
+
+# 1300/12/9 هجری شمسی
+NUM/N12/N31 CT
+NUM\\N12\\N31 CT
+NUM\.N12\.N31 CT
+NUM-N12-N31 CT
+
+# 9/12/1400 هجری شمسی
+N31/N12/NUM CT
+N31\\N12\\NUM CT
+N31-N12-NUM CT
+N31\.N12\.NUM CT
+
+# سه (سومین) بهار
+DN SSN
+NUM SSN
+
+
+# RY + MNTH + NXT + PRV
+# فروردین امسال
+MNTH RY
+# فروردین ماه امسال
+MNTH MAH RY
+# تیرماه امسال
+MNTHMAH RY
+# امسال فروردین
+RY MNTH
+# امسال فروردین ماه
+RY MNTH MAH
+# فروردین اخیر
+MNTH NXT
+# ژانویه آینده ۱۹۹۹
+MNTH NXT NUM
+MNTH NXT PN
+# ماه فروردین اخیر
+MAH MNTH NXT
+# فروردین ماه اخیر
+MNTH MAH NXT
+# تیرماه اخیر
+MNTHMAH NXT
+# آغاز فروردین
+PRV MNTH
+# آغاز فروردین ماه
+PRV MNTH MAH
+# آغاز تیرماه
+PRV MNTHMAH
+# آغاز ماه فروردین
+PRV MAH MNTH
+
+
+# RY + SSN + NXT + PRV
+# پاییز امسال
+SSN RY
+# امسال پاییز
+RY SSN
+# پاییز اخیر
+SSN NXT
+# آغاز پاییز
+PRV SSN
+
+
+# ماه نخست آعازین
+DU NXT NXT
+DUNXT NXT
+# سه هفته نخست
+DN DU NXT
+# سه هفته‌ای
+DN DUHSPACENXT
+# سه ماه‌ی نخست
+DN DUHSPACENXT NXT
+# سه ماه نخست آینده
+DN DU NXT NXT
+# سه هفته نخست ۱۴۰۰
+DN DU NXT NUM
+DN DU NXT PN
+# سه هفته نخست ماه
+DN DU NXT DU
+# سه هفته سوم
+DN DU DN
+
+# نیمه نخست ماه
+PRV NXT DU
+PRV NXT DU NUM
+PRV NXT DU PN
+# نیمه اول ماه
+PRV DN DU
+PRV DN DU NUM
+PRV DN DU PN
+
+# شروع پاییز
+PRV SSN
+# شروع پاییز ۱۳۷۵
+PRV SSN NUM
+PRV SSN PN
+
+# هفته ۳
+DU NUM
+DU PN
+# ۳ هفته
+NUM DU
+PN DU
+# سومین هفته
+DN DU
+# هفته سوم
+DU DN
+# هفته آینده
+DU NXT
+DU HSPACE NXT
+# آِغاز هفته
+PRV DU
+
+# سال کبیسه
+SAL KABISE
+# تاریخ فروردین
+TARIKH MNTH
+MOVAREKH MNTH
+# تاریخ ۳۱
+TARIKH DN
+MOVAREKH DN
+
+# همین هفته-امشب-امسال
+HAMIN DU
+HAMIN RD
+HAMIN RY
+
+# هر شنبه
+HAR WD
+# شنبه ها
+WD HA
+# شنبه‌ها
+WDHSPACEHA
+# هر هفته
+HAR DU
+# هر هفته سال
+HAR DU DU
+# ماه سال
+DU DU
+
+# بجز پنجشنبه
+PRV WD
+
+# فروردین هر سال
+MNTH HAR SAL
+# فروردین ماه هر سال
+MNTH MAH HAR SAL
+# تیرماه هر سال
+MNTHMAH HAR SAL
+# شنبه هر هفته
+WD HAR HAFTE
+# هر هفته شنبه
+HAR HAFTE WD
+# پاییز هر سال
+SSN HAR SAL
+# هر سال پاییز
+HAR SAL SSN
+
+# سه /هفته/ماه در هفته/سال/ماه
+DN DU DAR DU
+NUM DU DAR DU
+PN DU DAR DU
+# ۳هفته در ماه
+DNDU DAR DU
+NUMDU DAR DU
+PNDU DAR DU
+# سه بار در هفته
+DN BAR DAR DU
+NUM BAR DAR DU
+PN BAR DAR DU
+# ۲بار در هفته
+DNBAR DAR DU
+NUMBAR DAR DU
+PNBAR DAR DU
+# هر سه هفته یکبار
+HAR DN DU YEKBAR
+HAR NUM DU YEKBAR
+HAR PN DU YEKBAR
+# هر ۲هفته یکبار
+HAR DNDU YEKBAR
+HAR NUMDU YEKBAR
+HAR PNDU YEKBAR
+# هر xبار در هفته
+HAR DN BAR DAR DU
+HAR NUM BAR DAR DU
+HAR PN BAR DAR DU
+HAR DNBAR DAR DU
+HAR NUMBAR DAR DU
+HAR PNBAR DAR DU
+
+# هفته‌ای ۱۲ بار
+DU IEE PN BAR
+DU IEE NUM BAR
+DU IEE DN BAR
+DUHSPACEIEE PN BAR
+DUHSPACEIEE NUM BAR
+DUHSPACEIEE DN BAR
+
+# چند سال
+CHAND DU
+# طی چند سال
+TEY CHAND DU
+# طی ۳ ماه
+TEY DN DU
+# طول زمان
+TOOL ZAMAN
+
+# اول تا اواسط آذر
+DN CJ PRV DU
+DN CJ PRV SSN
+DN CJ PRV MNTH
+
+# سال سوم تا پنجم
+DU DN CJ DN
+MNTH DN CJ DN
+SSN DN CJ DN
+# سوم تا پنجم ماه
+DN CJ DN DU
+DN CJ DN MNTH
+DN CJ DN SSN
+# سوم ماه تا پنجم ماه
+DN DU CJ DN DU
+DN DU CJ DN MNTH
+DN DU CJ DN SSN
+
+# سوم فروردین تا
+DN MNTH CJ
+# ۳ تا ۵ فروردین
+DN CJ DN MNTH
+
+# امروز تا
+RD CJ
+# امروز و دیروز
+RD VA RD
+# یکشنبه تا
+WD CJ
+# دوشنبه و پنج‌شنبه
+WD VA WD
+# پاییز تا
+SSN CJ
+# پاییز و زمستان
+SSN VA SSN
+# امسال تا
+RY CJ
+# امسال و پیلارسال
+RY VA RY
+# فروردین تا
+MNTH CJ
+# فروردین و اردیبهشت
+MNTH VA MNTH
+
+# تا سال
+CJ DU
+
+# پنج تا ۵ هفته
+NUM CJ NUM DU
+NUM CJ PN DU
+PN CJ NUM DU
+PN CJ PN DU
+
+
+### Indefinite Date
+
+# هفته ها
+DU PF
+DU HSPACE PF
+
+# فروردین ها
+MNTH PF
+
+# پاییز ها
+SSN PF
+
+# ژانویه‌ی ۱۹۹۹
+MNTHHSPACE PF NUM
+MNTHHSPACE PF PN
+
+# ژانویه ی ۱۹۹۹
+MNTH PF NUM
+MNTH PF PN
+
+# ژانویه ی آینده ۱۹۹۹
+MNTH PF NXT NUM
+MNTH PF NXT PN
+
+# ژانویه آینده ی ۱۹۹۹
+MNTH NXT PF NUM
+MNTH NXT PF PN
+
+# ماه های آعازین
+DU PF NXT
+DUPF NXT
+
+# ماه های آعازین
+DU PF NXT
+DUPF NXT
+
+# سه هفته ای
+DN DU PF
+
+# سه ماه‌ی
+DN DUHSPACEPF
+# سه ماه‌ی نخست
+DN DUHSPACEPF NXT
+# سه ماه ی آینده
+DN DU PF NXT
+# سه هفته ی ۱۴۰۰
+DN DU PF NUM
+DN DU PF PN
+# سه هفته ی ماه
+DN DU PF DU
+
+
+# نیمه ی ماه
+PRV PF DU
+PRV PF DU NUM
+PRV PF DU PN
+
+
+### Complex or Ambiguous: datetime
+
+# روز
+SHABROOZ
+
+# تا شب
+CJ SHABROOZ
+
+# پنج روز
+DN SHABROOZ
+NUM SHABROOZ
+PN SHABROOZ
+
+# روزی
+SHABROOZ PF
+SHABROOZPF
+# روزی بعد
+SHABROOZ PF NXT
+SHABROOZPF NXT
+
+#  ۲۱/۱۲/۱۴۰۰ ۱۳:۳۴ میلادی
+N31/N12/NUM N24:N60 CT
+N31 / N12 / NUM N24:N60 CT
+N31\\N12\\NUM N24:N60 CT
+N31 \\ N12 \\ NUM N24:N60 CT
+N31-N12-NUM N24:N60 CT
+N31 - N12 - NUM N24:N60 CT
+N31\.N12\.NUM N24:N60 CT
+N31 \. N12 \. NUM N24:N60 CT
+
+# ۱۳۹۳/۱۲/۲۳ ۱۳:۳۴ میلادی
+NUM/N12/N31 N24:N60 CT
+NUM / N12 / N31 N24:N60 CT
+NUM\\N12\\N31 N24:N60 CT
+NUM \\ N12 \\ N31 N24:N60 CT
+NUM-N12-N31 N24:N60 CT
+NUM - N12 - N31 N24:N60 CT
+NUM\.N12\.N31 N24:N60 CT
+NUM \. N12 \. N31 N24:N60 CT
+
+
+# ۳ روز
+DN SHABROOZ
+MIN SHABROOZ
+NUM SHABROOZ
+PN SHABROOZ
+
+# سه روز پیش
+DN SHABROOZ NXT
+MIN SHABROOZ NXT
+NUM SHABROOZ NXT
+PN SHABROOZ NXT
+
+# ۳ روز بعد
+DN SHABROOZ BNP
+MIN SHABROOZ BNP
+NUM SHABROOZ BNP
+PN SHABROOZ BNP
+
+# بعد ۳ روز
+BNP DN SHABROOZ
+BNP MIN SHABROOZ
+BNP NUM SHABROOZ
+BNP PN SHABROOZ
+
+
+# از ۳ روز
+PRV DN SHABROOZ
+PRV MIN SHABROOZ
+PRV NUM SHABROOZ
+PRV PN SHABROOZ
+
+# سه شب تا چهار شب
+PN SHABROOZ CJ PN SHABROOZ
+NUM SHABROOZ CJ NUM SHABROOZ
+
+# پنج تا شیش شب
+NUM CJ NUM SHABROOZ
+NUM CJ PN SHABROOZ
+PN CJ NUM SHABROOZ
+PN CJ PN SHABROOZ
+
