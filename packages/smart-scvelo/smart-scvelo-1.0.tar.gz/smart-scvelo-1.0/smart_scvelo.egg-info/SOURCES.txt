@@ -1,0 +1,6 @@
+setup.py
+smart_scvelo.egg-info/PKG-INFO
+smart_scvelo.egg-info/SOURCES.txt
+smart_scvelo.egg-info/dependency_links.txt
+smart_scvelo.egg-info/requires.txt
+smart_scvelo.egg-info/top_level.txt
