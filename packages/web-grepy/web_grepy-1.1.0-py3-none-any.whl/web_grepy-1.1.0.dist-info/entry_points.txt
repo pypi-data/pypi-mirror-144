@@ -1,0 +1,3 @@
+[console_scripts]
+web-grepy=web_grepy.cli:main
+
