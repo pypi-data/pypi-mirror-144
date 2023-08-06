@@ -1,0 +1,14 @@
+MANIFEST.in
+README.md
+requirements.txt
+setup.py
+bin/grizzzly
+src/grizzzly/__init__.py
+src/grizzzly/__main__.py
+src/grizzzly/cli.py
+src/grizzzly.egg-info/PKG-INFO
+src/grizzzly.egg-info/SOURCES.txt
+src/grizzzly.egg-info/dependency_links.txt
+src/grizzzly.egg-info/entry_points.txt
+src/grizzzly.egg-info/requires.txt
+src/grizzzly.egg-info/top_level.txt
