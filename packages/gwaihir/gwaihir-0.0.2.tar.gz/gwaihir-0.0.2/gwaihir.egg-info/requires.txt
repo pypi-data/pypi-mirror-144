@@ -1,0 +1,13 @@
+numpy
+pandas
+matplotlib
+ipywidgets
+ipython
+ipyvolume
+ipyfilechooser
+scipy
+xrayutilities
+tables
+PyQt5
+h5py
+jupyter
