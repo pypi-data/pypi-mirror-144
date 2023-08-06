@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: ltbfiles
+Version: 1.0.0
+Summary: Module for loading of files created with spectrometers from LTB
+Home-page: https://gitlab.com/ltb_berlin/ltb_files
+Author: Sven Merk
+License: UNKNOWN
+Platform: UNKNOWN
+Provides-Extra: tests
+Provides-Extra: publish
+License-File: LICENSE_GPL_v3.txt
+
+UNKNOWN
+

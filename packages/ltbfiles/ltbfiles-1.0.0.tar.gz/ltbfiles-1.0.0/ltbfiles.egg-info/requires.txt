@@ -1,0 +1,7 @@
+numpy
+
+[publish]
+twine
+
+[tests]
+pytest
