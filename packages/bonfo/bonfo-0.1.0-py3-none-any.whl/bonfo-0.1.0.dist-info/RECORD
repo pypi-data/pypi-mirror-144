@@ -1,0 +1,16 @@
+bonfo/__init__.py,sha256=QuqSxJ_dv1zM2VOyWsuYEsUi0hcelf0rGbHsxYDowmg,156
+bonfo/cli.py,sha256=k5GI6QivnIGDfCEL4OFNmrUKRzJ10bsICs2gokWoOa8,4186
+bonfo/msp/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+bonfo/msp/board.py,sha256=vQCpuneJuwCUdg5kVbORBr3v3B7RRvzJRm8YNQroh5c,4237
+bonfo/msp/codes.py,sha256=BbUAohrF10pxFTeV80oLvXM1gi3wx4NrAcDAULJYLak,5314
+bonfo/msp/message.py,sha256=Oqc7hNxPuG2wyDjQEvXNCTuRL3mrT9WT-nCeLw8TQ3s,2403
+bonfo/msp/state.py,sha256=ifl0rpUoS4EmEYAoISYVrMMTZkohnqDNV2tngr_oE_M,14690
+bonfo/msp/structs/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+bonfo/msp/structs/adapters.py,sha256=ZsARAFTb9Z-kvTBbgpt-I7ALnohxVUDHNO3mDMoTS6I,638
+bonfo/msp/structs/config.py,sha256=0t6CPBnauelzjzNb7kDTvF9Y3vnbhLZN9XZEGiO_qG4,3982
+bonfo/msp/utils.py,sha256=RQ1l7iQaqGPjNyyCPkQkVlVqlDbH_tyDaCMUuRul2Jg,654
+bonfo-0.1.0.dist-info/entry_points.txt,sha256=A0O75Op7pd259eHoTFjCLVBUXWxVCUn2R6TpS7fmqWU,40
+bonfo-0.1.0.dist-info/LICENSE,sha256=O4gfGRewUVhqLw47veyjZ0x-PsOj2Tr0dIij4vcwZoQ,1075
+bonfo-0.1.0.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+bonfo-0.1.0.dist-info/METADATA,sha256=lStwDIU6r6ytK3YuzL7tZ33jlD9zi0s9-rd9DhHby9s,3418
+bonfo-0.1.0.dist-info/RECORD,,
