@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+sketchpy.egg-info/PKG-INFO
+sketchpy.egg-info/SOURCES.txt
+sketchpy.egg-info/dependency_links.txt
+sketchpy.egg-info/requires.txt
+sketchpy.egg-info/top_level.txt
