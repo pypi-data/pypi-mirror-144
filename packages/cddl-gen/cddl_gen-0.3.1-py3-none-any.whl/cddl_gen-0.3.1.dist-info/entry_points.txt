@@ -1,0 +1,2 @@
+[console_scripts]
+cddl-gen = cddl_gen.cddl_gen:main
