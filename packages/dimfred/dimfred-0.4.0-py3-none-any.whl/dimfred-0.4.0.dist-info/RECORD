@@ -1,0 +1,9 @@
+dimfred/__init__.py,sha256=Jc2U1_gVyasIneDWEs18FL8TgNq80owEtBt61EgDTrA,224
+dimfred/config.py,sha256=fBbLjmI6zlUHlhLF-rVf4g_kNjc0YCXh8ZcA5fErvds,639
+dimfred/fastapi_utils.py,sha256=l3WuV6LasySMwWMXLnMZjl05qAjFOSYdTKUJB4Ge4-M,869
+dimfred/pipe.py,sha256=uxdhpo6zr3Ni0-URh48z3bchNXUKeIhXsOlhvhCw1WU,718
+dimfred/stopwatch.py,sha256=sZVUpDu3Wp0zn2EH2VMHDFqkiqGf950fVYVnuIJyxww,246
+dimfred/worker.py,sha256=7BMelHLT--VZj0PG36vdObuwtplyYIhX1r0pClhj74I,802
+dimfred-0.4.0.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+dimfred-0.4.0.dist-info/METADATA,sha256=HtjC_g2T2ZVSH1c1ty8Ous06ZdP2Q18J1Ao02Us7kd0,648
+dimfred-0.4.0.dist-info/RECORD,,
