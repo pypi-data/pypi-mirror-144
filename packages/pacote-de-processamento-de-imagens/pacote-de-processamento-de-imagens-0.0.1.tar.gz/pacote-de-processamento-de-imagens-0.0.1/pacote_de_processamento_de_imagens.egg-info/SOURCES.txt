@@ -1,0 +1,14 @@
+README.md
+setup.py
+pacote-de-processamento-de-imagens/__init__.py
+pacote-de-processamento-de-imagens/image_processing/__init__.py
+pacote-de-processamento-de-imagens/image_processing/combination.py
+pacote-de-processamento-de-imagens/image_processing/transformation.py
+pacote-de-processamento-de-imagens/utils/__init__.py
+pacote-de-processamento-de-imagens/utils/io.py
+pacote-de-processamento-de-imagens/utils/plot.py
+pacote_de_processamento_de_imagens.egg-info/PKG-INFO
+pacote_de_processamento_de_imagens.egg-info/SOURCES.txt
+pacote_de_processamento_de_imagens.egg-info/dependency_links.txt
+pacote_de_processamento_de_imagens.egg-info/requires.txt
+pacote_de_processamento_de_imagens.egg-info/top_level.txt
