@@ -1,0 +1,56 @@
+# Package Overview
+package_name: classification_model
+
+# Data Files -- will need to check on this
+training_data_file: train.csv
+test_data_file: test.csv
+
+# Variables
+# The variable we are attempting to predict (sale price)
+target: survived
+
+pipeline_name: classification_model
+pipeline_save_file: classification_model_output_v
+
+# Will cause syntax errors since they begin with numbers
+variables_to_remove:
+  - name
+  - ticket
+  - boat
+  - body
+  - home.dest
+
+features:
+  - pclass
+  - sex
+  - age
+  - sibsp
+  - parch
+  - fare
+  - cabin
+  - embarked
+  - title  # added feature
+
+numerical_variables:
+  - pclass
+  - age
+  - sibsp
+  - parch
+  - fare
+
+categorical_variables:
+  - sex
+  - cabin
+  - embarked
+  - title
+
+cabin:
+  - cabin
+
+# set train/test split
+test_size: 0.1
+
+# to set the random seed
+random_state: 0
+
+C: 0.001
