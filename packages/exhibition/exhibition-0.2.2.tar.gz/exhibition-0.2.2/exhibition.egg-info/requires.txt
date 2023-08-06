@@ -1,0 +1,11 @@
+click
+jinja2<3.1
+markdown
+ruamel.yaml
+typogrify
+pypandoc
+
+[docs]
+sphinx
+sphinx_rtd_theme
+sphinx-click
