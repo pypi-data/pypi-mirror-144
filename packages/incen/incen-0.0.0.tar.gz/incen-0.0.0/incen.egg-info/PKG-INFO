@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: incen
+Version: 0.0.0
+Summary: A Telegram client for convenient compromising cleansing
+Home-page: https://github.com/RedSnail/incen
+Author: Oleg Demianchenko
+Author-email: oleg.demianchenko@gmail.com
+License: MIT
+Platform: OS Independent
+Requires-Python: >=3.4
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# English
+This Telegram client will help you to cleanse your messages in telegram, removing compromising messages so that if police stops you and check your phone they cold not find anything by typing "Ukraine" or "Putin" for example. I hope that this bunch of scripts will help you to feel safer.
+
+Putin is a huilo. Russia will be free.
+
+# Русский
+Это приложение Телеграм которое позволит вам удобнее вычищать ваши переписки от крамолы чтобы если вас остановят менты они бы ничего не нашли по слову "Украина" или "Путин" например. Надеюсь, эта кучка скриптов поможет вам чувствовать себя безопаснее.
+
+Путин хуйло. Россия будет свободной.
+
