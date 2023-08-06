@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/basiccalculator/__init__.py
+src/basiccalculator/basiccalculator.py
+src/basiccalculator_ByteVolx.egg-info/PKG-INFO
+src/basiccalculator_ByteVolx.egg-info/SOURCES.txt
+src/basiccalculator_ByteVolx.egg-info/dependency_links.txt
+src/basiccalculator_ByteVolx.egg-info/top_level.txt
