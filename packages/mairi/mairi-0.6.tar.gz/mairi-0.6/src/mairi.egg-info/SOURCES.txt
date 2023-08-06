@@ -1,0 +1,11 @@
+README.rst
+setup.cfg
+setup.py
+src/mairi/__init__.py
+src/mairi.egg-info/PKG-INFO
+src/mairi.egg-info/SOURCES.txt
+src/mairi.egg-info/dependency_links.txt
+src/mairi.egg-info/requires.txt
+src/mairi.egg-info/top_level.txt
+src/mairi/example/__init__.py
+src/mairi/example/custom_sklearn.py
