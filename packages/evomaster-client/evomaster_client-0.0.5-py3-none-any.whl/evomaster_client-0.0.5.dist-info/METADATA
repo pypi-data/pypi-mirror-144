@@ -1,0 +1,84 @@
+Metadata-Version: 2.1
+Name: evomaster-client
+Version: 0.0.5
+Summary: EvoMaster client for Python Flask RESTful applications
+Home-page: https://github.com/axelmaddonni/EvoMaster
+Author: Axel Maddonni
+Author-email: axel.maddonni@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Development Status :: 4 - Beta
+Classifier: Framework :: Flask
+Classifier: Topic :: Software Development :: Testing
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: click (>=7.1.2)
+Requires-Dist: gevent (>=20.9.0)
+Requires-Dist: astor (>=0.8.1)
+
+# EvoMaster Client for Python
+
+## About EvoMaster:
+
+[EvoMaster](https://github.com/EMResearch/EvoMaster) is the first open-source AI-driven tool for automatically generating system-level test cases (also known as fuzzing) for web/enterprise applications. Currently targeting whitebox and blackbox testing of REST APIs.
+
+## Evomaster-Client for Python Flask
+
+This library will let you integrate your Flask restful application to the EvoMaster core in order to automatically generate test cases for your API endpoints using the [unittest](https://docs.python.org/3/library/unittest.html) testing framework for Python.
+
+## Quick Start
+
+Installation:
+```
+pip3 install evomaster-client
+```
+
+Running the instrumented version of an application:
+```python
+python -m evomaster_client.cli run-instrumented -p 'evomaster_benchmark.ncs' -m 'evomaster_benchmark.ncs.app'
+
+```
+For example:
+```python
+python -m evomaster_client.cli run-instrumented -p 'evomaster_benchmark.ncs' -m 'evomaster_benchmark.ncs.app'
+```
+
+Running EvoMaster benchmark applications
+```python
+python -m 'evomaster_benchmark.ncs.app'
+python -m 'evomaster_benchmark.scs.app'
+python -m 'evomaster_benchmark.news.app'
+```
+
+Generating black-box tests
+```
+java -jar ../core/target/evomaster.jar --maxTime 60s  --outputFolder tests/generated/APP --outputFormat PYTHON_UNITTEST --blackBox true --bbTargetUrl http://localhost:8080/ --bbSwaggerUrl http://localhost:8080/swagger.json
+```
+
+Running EvoMaster benchmark handlers
+```python
+python -m evomaster_client.cli run-em-handler -m 'evomaster_benchmark.em_handlers.ncs' -c 'EMHandler'
+python -m evomaster_client.cli run-em-handler -m 'evomaster_benchmark.em_handlers.scs' -c 'EMHandler'
+python -m evomaster_client.cli run-em-handler -m 'evomaster_benchmark.em_handlers.news' -c 'EMHandler'
+```
+
+Generating white-box tests
+```
+java -jar ../core/target/evomaster.jar --maxTime 60s  --outputFolder tests/generated/APP --outputFormat PYTHON_UNITTEST
+```
+
+Running generated tests
+```
+python -m pytest tests/generated/path/to/test
+```
+
+Packaging
+```
+python -m build
+python -m twine upload dist/*
+```
+
