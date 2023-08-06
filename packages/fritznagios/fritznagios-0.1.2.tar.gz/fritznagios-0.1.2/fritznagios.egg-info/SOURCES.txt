@@ -1,0 +1,11 @@
+LICENSE
+README.md
+fritznagios.py
+pyproject.toml
+setup.py
+fritznagios.egg-info/PKG-INFO
+fritznagios.egg-info/SOURCES.txt
+fritznagios.egg-info/dependency_links.txt
+fritznagios.egg-info/entry_points.txt
+fritznagios.egg-info/requires.txt
+fritznagios.egg-info/top_level.txt
