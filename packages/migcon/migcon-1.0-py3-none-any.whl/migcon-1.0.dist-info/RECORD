@@ -1,0 +1,14 @@
+migcon/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+migcon/attachment_info.py,sha256=bWfjaVKUiJnMvGLFzZ8sLWD_cNebP81eAsU6E6PrdDM,3793
+migcon/con2jb.py,sha256=ZuOvzFm3z0iSAY_Lwk7dEdTwnuxf9ScN3GQhEmQqWE0,2413
+migcon/content_manager.py,sha256=ixqA8kZGUZtE8DpYMsF6sgV1Q50NJImM8uD0Nd39rk4,15163
+migcon/content_tree.py,sha256=BYbNVuWKDIjBA4oRsPrSqk_oY0EDXbd3y3QzZMJvkOk,2756
+migcon/drawio_handler.py,sha256=n98-kzsbca1ZBWCkCPMUL-jivgWY_i8yWEQVrcQNZLc,3416
+migcon/file_dups.py,sha256=GajOCBuF_CLmNMph_iv02ekSSAceD4Nh4Rg-3aU3dwc,521
+migcon/toc_generator.py,sha256=iBo0vgJiIKhrHkt5JL-CsT6gyRsNA3nOlIbMeSGWksQ,1097
+migcon-1.0.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+migcon-1.0.dist-info/METADATA,sha256=tD4-JPGPBVD_uvxJSea4ci_AoX3Q5LwN_NX9EDcG5pg,4255
+migcon-1.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+migcon-1.0.dist-info/entry_points.txt,sha256=MbBtjg5IrcEE_ZodITIM9KxIwQiH7DdxfiNj-Qz1EGM,47
+migcon-1.0.dist-info/top_level.txt,sha256=3FmgOCjC8PM_2fUR9g-X2NfM0dgWgwN7UFgpFDKSEjc,7
+migcon-1.0.dist-info/RECORD,,

@@ -1,0 +1,3 @@
+[console_scripts]
+con2jb = migcon.con2jb:main
+
