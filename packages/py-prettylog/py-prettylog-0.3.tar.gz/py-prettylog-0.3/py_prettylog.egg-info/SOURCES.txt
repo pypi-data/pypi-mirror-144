@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+prettylog/__init__.py
+prettylog/logger.py
+py_prettylog.egg-info/PKG-INFO
+py_prettylog.egg-info/SOURCES.txt
+py_prettylog.egg-info/dependency_links.txt
+py_prettylog.egg-info/requires.txt
+py_prettylog.egg-info/top_level.txt
