@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: pycodesearch
+Version: 0.1.1
+Summary: Search Python codebases and take advantage of AST information.
+Author-email: Samuel Stevens <samuel.robert.stevens@gmail.com>
+Requires-Python: >=3.8,<4
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Project-URL: Home, https://github.com/samuelstevens/pycodesearch
