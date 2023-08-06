@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+pandas_oop/modules/__init__.py
+pandas_oop/modules/custom_exceptions.py
+pandas_oop/modules/models.py
+pandas_oop/modules/tests/__init__.py
+pandas_oop/modules/tests/test_pandas_oop.py
+pandas_oop/pandas_oop.egg-info/PKG-INFO
+pandas_oop/pandas_oop.egg-info/SOURCES.txt
+pandas_oop/pandas_oop.egg-info/dependency_links.txt
+pandas_oop/pandas_oop.egg-info/top_level.txt
