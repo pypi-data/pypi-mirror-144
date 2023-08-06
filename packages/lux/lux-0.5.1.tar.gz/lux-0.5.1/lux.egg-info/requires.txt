@@ -1,0 +1,5 @@
+lux-api
+lux-widget
+
+[test]
+pytest
