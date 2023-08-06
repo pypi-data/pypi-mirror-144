@@ -1,0 +1,8 @@
+README.md
+setup.cfg
+setup.py
+Headmouse.egg-info/PKG-INFO
+Headmouse.egg-info/SOURCES.txt
+Headmouse.egg-info/dependency_links.txt
+Headmouse.egg-info/requires.txt
+Headmouse.egg-info/top_level.txt
