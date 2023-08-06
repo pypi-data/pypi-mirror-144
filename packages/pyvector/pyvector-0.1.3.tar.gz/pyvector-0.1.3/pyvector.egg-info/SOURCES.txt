@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+pyvector/__init__.py
+pyvector.egg-info/PKG-INFO
+pyvector.egg-info/SOURCES.txt
+pyvector.egg-info/dependency_links.txt
+pyvector.egg-info/not-zip-safe
+pyvector.egg-info/top_level.txt
