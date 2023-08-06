@@ -1,0 +1,84 @@
+Metadata-Version: 2.1
+Name: aviatrix-flightcheck
+Version: 0.1.1
+Summary: Aviatrix FlightCheck
+Author: Aviatrix Automation
+Author-email: aviatrix-ps-dev@aviatrix.com
+License: UNKNOWN
+Project-URL: Changelog, https://github.com/aviatrix-automation/flightcheck/blob/master/CHANGELOG.rst
+Project-URL: Issue Tracker, https://github.com/aviatrix-automation/flightcheck/issues
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Cython
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Topic :: Utilities
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Requires-Dist: requests
+
+# Aviatrix FlightCheck
+
+Aviatrix FlightCheck collects information about an Aviatrix environment by querying the Aviatrix Controller API.
+
+## Installation
+
+The recommended method for installing Aviatrix FlightCheck is to use the [CloudFormation](https://aviatrix-cloudformation-templates.s3.us-west-2.amazonaws.com/aviatrix-flightcheck.yaml) template. The CloudFormation template will create an Amazon Linux EC2 instance with FlightCheck automatically installed. SSH into the instance using the AWS Key Pair selected when deploying the template.
+
+```
+ssh -i <keypair> ec2-user@<IP of the deployed instance>
+```
+
+Optionally, you can manually install Aviatrix FlightCheck using pip. Refer to [pip documentation](https://pip.pypa.io/en/stable/installation/) for instructions on installing pip for your operating system.
+
+```
+pip3 install aviatrix-flightcheck
+```
+
+## Aviatrix Controller Requirements
+
+Update the security group for the Aviatrix Controller to allow TCP port 443 from the IP of the system where FlightCheck is installed. Use netcat to confirm the connectivity.
+
+```
+[ec2-user@ip-172-31-21-6 ~]$ nc -zv <controller-ip> 443
+Ncat: Version 7.50 ( https://nmap.org/ncat )
+Ncat: Connected to <controller_ip>:443.
+Ncat: 0 bytes sent, 0 bytes received in 0.01 seconds.
+```
+
+Verify the output says "Connected to <controller_ip>:443" and not "Connection timed out.".
+
+## Execute FlightCheck
+
+To excecute the FlightCheck, run the following command:
+
+```
+flightcheck --controller_ip x.x.x.x --username <controller_username>
+```
+
+You will be prompted to enter the password for the user. The account used can be a read-only account.
+
+FlightCheck will run a list of pre-defined checks and output the results to the screen. The output can be saved to a file for review offline using the following command:
+
+```
+flightcheck --controller_ip x.x.x.x --username <controller_username> > flightcheck-output.txt
+```
+
+If FlightCheck was run on a remote instance, copy the output to a local system. On the local system:
+
+```
+scp -i <keypair> ec2-user@<IP of FlightCheck instance>/home/ec2-user/flightcheck-output.txt <local path to save to>
+```
+
+Adjust paths and filenames as needed.
+
