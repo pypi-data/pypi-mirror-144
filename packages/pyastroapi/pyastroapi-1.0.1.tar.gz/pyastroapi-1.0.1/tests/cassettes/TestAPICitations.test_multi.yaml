@@ -1,0 +1,83 @@
+interactions:
+- request:
+    body: '{"bibcodes": ["2019ApJ...887...53F", "2020ApJ...902L..36F"]}'
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip, deflate, br
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '60'
+      Content-Type:
+      - application/json
+      User-Agent:
+      - python-requests/2.27.1
+      authorization:
+      - DUMMY
+    method: POST
+    uri: https://api.adsabs.harvard.edu/v1//citation_helper
+  response:
+    body:
+      string: '[{"bibcode": "2020ApJ...897..100V", "score": 3, "title": "Polluting
+        the Pair-instability Mass Gap for Binary Black Holes through Super-Eddington
+        Accretion in Isolated Binaries", "author": "van Son, L. A. C. et al."}, {"bibcode":
+        "1964ApJS....9..201F", "score": 2, "title": "Neutrino Processes and Pair Formation
+        in Massive Stars and Supernovae.", "author": "Fowler, William A. et al."},
+        {"bibcode": "1967ApJ...148..803R", "score": 2, "title": "Instabilities in
+        Highly Evolved Stellar Models", "author": "Rakavy, G. et al."}, {"bibcode":
+        "1967PhRvL..18..379B", "score": 2, "title": "Dynamics of Supernova Explosion
+        Resulting from Pair Formation", "author": "Barkat, Z. et al."}, {"bibcode":
+        "1968Ap&SS...2...96F", "score": 2, "title": "Supernovae Explosions Induced
+        by Pair-Production Instability", "author": "Fraley, Gary S. et al."}, {"bibcode":
+        "1976ApJ...210..440B", "score": 2, "title": "Compton scattering opacities
+        in a partially degenerate electron plasma at high temperatures.", "author":
+        "Buchler, J. R. et al."}, {"bibcode": "1980Ap&SS..69..115N", "score": 2, "title":
+        "Some Secondary Indications of Gravitational Collapse", "author": "Nadezhin,
+        D. K. et al."}, {"bibcode": "1982A&A...116..273H", "score": 2, "title": "Mass
+        loss from extreme helium stars.", "author": "Hamann, W. -R. et al."}, {"bibcode":
+        "1986Natur.323..310S", "score": 2, "title": "Determining the Hubble constant
+        from gravitational wave observations", "author": "Schutz, B. F. et al."},
+        {"bibcode": "1988ADNDT..40..283C", "score": 2, "title": "Thermonuclear Reaction
+        Rates V", "author": "Caughlan, Georgeann R. et al."}]
+
+        '
+    headers:
+      Access-Control-Allow-Credentials:
+      - 'true'
+      Access-Control-Allow-Headers:
+      - Accept, Authorization, Content-Type, Orcid-Authorization, X-BB-Api-Client-Version,
+        X-CSRFToken
+      Access-Control-Allow-Methods:
+      - DELETE, GET, OPTIONS, POST, PUT
+      Access-Control-Allow-Origin:
+      - http://0.0.0.0:8000, http://adsabs.harvard.edu, http://adsx.cfa.harvard.edu:8888,
+        http://hourly.adslabs.org, http://localhost:8000, http://ui.adsabs.harvard.edu,
+        http://ui.adslabs.org, https://arxiv.org, https://beta.arxiv.org, https://demo.adsabs.harvard.edu,
+        https://dev.adsabs.harvard.edu, https://devui.adsabs.harvard.edu, https://experimental-bumblebee.us-east-1.elasticbeanstalk.com,
+        https://prod.adsabs.harvard.edu, https://staging-bumblebee.elasticbeanstalk.com,
+        https://staging-bumblebee.us-east-1.elasticbeanstalk.com, https://ui.adsabs.harvard.edu
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '1601'
+      Content-Type:
+      - application/json
+      Date:
+      - Sat, 26 Mar 2022 15:46:20 GMT
+      Retry-After:
+      - '83803'
+      Set-Cookie: DUMMY
+      Vary:
+      - Origin
+      X-RateLimit-Limit:
+      - '5000'
+      X-RateLimit-Remaining:
+      - '4926'
+      X-RateLimit-Reset:
+      - '1648393384'
+    status:
+      code: 200
+      message: OK
+version: 1

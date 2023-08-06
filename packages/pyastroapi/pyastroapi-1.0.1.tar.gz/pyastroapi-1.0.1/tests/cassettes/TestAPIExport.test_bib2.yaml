@@ -1,0 +1,79 @@
+interactions:
+- request:
+    body: '{"bibcode": ["2020ApJ...902L..36F", "2020zndo...3678482F"]}'
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip, deflate, br
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '59'
+      Content-Type:
+      - application/json
+      User-Agent:
+      - python-requests/2.27.1
+      authorization:
+      - DUMMY
+    method: POST
+    uri: https://api.adsabs.harvard.edu/v1//export/bibtex
+  response:
+    body:
+      string: '{"msg": "Retrieved 2 abstracts, starting with number 1.", "export":
+        "@ARTICLE{2020ApJ...902L..36F,\n       author = {{Farmer}, R. and {Renzo},
+        M. and {de Mink}, S.~E. and {Fishbach}, M. and {Justham}, S.},\n        title
+        = \"{Constraints from Gravitational-wave Detections of Binary Black Hole Mergers
+        on the $^{12}$C({\\ensuremath{\\alpha}}, {\\ensuremath{\\gamma}})$^{16}$O
+        Rate}\",\n      journal = {\\apjl},\n     keywords = {Stellar evolution, Supernovae,
+        Core-collapse supernovae, Nuclear astrophysics, Stellar mass black holes,
+        Astrophysical black holes, Massive stars, Late stellar evolution, 1599, 1668,
+        304, 1129, 1611, 98, 732, 911, Astrophysics - High Energy Astrophysical Phenomena},\n         year
+        = 2020,\n        month = oct,\n       volume = {902},\n       number = {2},\n          eid
+        = {L36},\n        pages = {L36},\n          doi = {10.3847/2041-8213/abbadd},\narchivePrefix
+        = {arXiv},\n       eprint = {2006.06678},\n primaryClass = {astro-ph.HE},\n       adsurl
+        = {https://ui.adsabs.harvard.edu/abs/2020ApJ...902L..36F},\n      adsnote
+        = {Provided by the SAO/NASA Astrophysics Data System}\n}\n\n@MISC{2020zndo...3678482F,\n       author
+        = {{Farmer}, Robert},\n        title = \"{rjfarmer/mesaplot: Bug fixes}\",\n         year
+        = 2020,\n        month = feb,\n          eid = {10.5281/zenodo.3678482},\n          doi
+        = {10.5281/zenodo.3678482},\n      version = {v1.0.8},\n    publisher = {Zenodo},\n       adsurl
+        = {https://ui.adsabs.harvard.edu/abs/2020zndo...3678482F},\n      adsnote
+        = {Provided by the SAO/NASA Astrophysics Data System}\n}\n\n"}'
+    headers:
+      Access-Control-Allow-Credentials:
+      - 'true'
+      Access-Control-Allow-Headers:
+      - Accept, Authorization, Content-Type, Orcid-Authorization, X-BB-Api-Client-Version,
+        X-CSRFToken
+      Access-Control-Allow-Methods:
+      - DELETE, GET, OPTIONS, POST, PUT
+      Access-Control-Allow-Origin:
+      - http://0.0.0.0:8000, http://adsabs.harvard.edu, http://adsx.cfa.harvard.edu:8888,
+        http://hourly.adslabs.org, http://localhost:8000, http://ui.adsabs.harvard.edu,
+        http://ui.adslabs.org, https://arxiv.org, https://beta.arxiv.org, https://demo.adsabs.harvard.edu,
+        https://dev.adsabs.harvard.edu, https://devui.adsabs.harvard.edu, https://experimental-bumblebee.us-east-1.elasticbeanstalk.com,
+        https://prod.adsabs.harvard.edu, https://staging-bumblebee.elasticbeanstalk.com,
+        https://staging-bumblebee.us-east-1.elasticbeanstalk.com, https://ui.adsabs.harvard.edu
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '1572'
+      Content-Type:
+      - application/json
+      Date:
+      - Sat, 26 Mar 2022 15:41:20 GMT
+      Retry-After:
+      - '84104'
+      Set-Cookie: DUMMY
+      Vary:
+      - Origin
+      X-RateLimit-Limit:
+      - '5000'
+      X-RateLimit-Remaining:
+      - '4954'
+      X-RateLimit-Reset:
+      - '1648393385'
+    status:
+      code: 200
+      message: OK
+version: 1
