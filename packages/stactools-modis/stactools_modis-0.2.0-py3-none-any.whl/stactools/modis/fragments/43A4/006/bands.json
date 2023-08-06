@@ -1,0 +1,44 @@
+{
+    "Nadir_Reflectance_Band1": {
+        "title": "NBAR at local solar noon for band 1"
+    },
+    "Nadir_Reflectance_Band2": {
+        "title": "NBAR at local solar noon for band 2"
+    },
+    "Nadir_Reflectance_Band3": {
+        "title": "NBAR at local solar noon for band 3"
+    },
+    "Nadir_Reflectance_Band4": {
+        "title": "NBAR at local solar noon for band 4"
+    },
+    "Nadir_Reflectance_Band5": {
+        "title": "NBAR at local solar noon for band 5"
+    },
+    "Nadir_Reflectance_Band6": {
+        "title": "NBAR at local solar noon for band 6"
+    },
+    "Nadir_Reflectance_Band7": {
+        "title": "NBAR at local solar noon for band 7"
+    },
+    "BRDF_Albedo_Band_Mandatory_Quality_Band1": {
+        "title": "BRDF albedo mandatory quality for band 1"
+    },
+    "BRDF_Albedo_Band_Mandatory_Quality_Band2": {
+        "title": "BRDF albedo mandatory quality for band 2"
+    },
+    "BRDF_Albedo_Band_Mandatory_Quality_Band3": {
+        "title": "BRDF albedo mandatory quality for band 3"
+    },
+    "BRDF_Albedo_Band_Mandatory_Quality_Band4": {
+        "title": "BRDF albedo mandatory quality for band 4"
+    },
+    "BRDF_Albedo_Band_Mandatory_Quality_Band5": {
+        "title": "BRDF albedo mandatory quality for band 5"
+    },
+    "BRDF_Albedo_Band_Mandatory_Quality_Band6": {
+        "title": "BRDF albedo mandatory quality for band 6"
+    },
+    "BRDF_Albedo_Band_Mandatory_Quality_Band7": {
+        "title": "BRDF albedo mandatory quality for band 7"
+    }
+}
