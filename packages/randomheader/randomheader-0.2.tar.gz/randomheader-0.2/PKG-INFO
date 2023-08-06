@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: randomheader
+Version: 0.2
+Summary: Generates random HTTP headers for requests
+Author: elgransenor
+Requires-Python: >=3.5
+Description-Content-Type: text/markdown
+Classifier: License :: OSI Approved :: MIT License
+Project-URL: Home, https://github.com/joenano/randomheader
+
+## randomheader
+
+
