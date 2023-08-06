@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: player-on-court
+Version: 0.1.0
+Summary: README.rst
+Home-page: https://github.com/shufinskiy/player_on_court
+Author: Vladislav Shufinsky
+Author-email: shufinsky.90210@gmail.com
+License: MIT
+Keywords: nba,play-by-play
+Platform: any
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+License-File: LICENSE
+
+UNKNOWN
+
