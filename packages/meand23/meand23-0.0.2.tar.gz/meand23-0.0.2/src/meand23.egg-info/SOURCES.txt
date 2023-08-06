@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/meand23/__init__.py
+src/meand23/creds.py
+src/meand23/meand23.py
+src/meand23.egg-info/PKG-INFO
+src/meand23.egg-info/SOURCES.txt
+src/meand23.egg-info/dependency_links.txt
+src/meand23.egg-info/requires.txt
+src/meand23.egg-info/top_level.txt
