@@ -1,0 +1,3 @@
+[console_scripts]
+markdrip=markdrip.main:main
+
