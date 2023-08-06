@@ -1,0 +1,2 @@
+[console_scripts]
+summa-client = summa.aiosumma.cli:main

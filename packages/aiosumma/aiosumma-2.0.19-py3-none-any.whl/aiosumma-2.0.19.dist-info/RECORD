@@ -1,0 +1,17 @@
+/summa/proto/consumer_pb2.py,sha256=J5u_uoglDq04UY8Vm55YYpIaV1TO9CvJYgjjBHHSVWc,1275
+/summa/proto/consumer_pb2_grpc.py,sha256=1oboBPFxaTEXt9Aw7EAj8gXHDCNMhZD2VXqocC9l_gk,159
+/summa/proto/consumer_service_pb2.py,sha256=PTO8CeXQ7rFuJQPuKwfr2s5goCibIVAN87pbTn11clc,6478
+/summa/proto/consumer_service_pb2_grpc.py,sha256=adsTZ3FKk9hUap02gcSkLk1V-SKm5ROPPaN3Qgm2mJE,7986
+/summa/proto/index_pb2.py,sha256=ghc6TsrEJyPaqfK8-CJzL26xkz5vAQOZ6BztY6T9NwM,2460
+/summa/proto/index_pb2_grpc.py,sha256=1oboBPFxaTEXt9Aw7EAj8gXHDCNMhZD2VXqocC9l_gk,159
+/summa/proto/index_service_pb2.py,sha256=kkZhtxU6j8rCwTIZCJUK1wHpIuSunGorn3jHLiQVk8I,12997
+/summa/proto/index_service_pb2_grpc.py,sha256=BJS27Ir2-a3jwuQJijKmBSeCXXkFfpuXOUTn7Hv7_V4,14656
+/summa/proto/search_service_pb2.py,sha256=c_5yJUbnNC46jJRv15Kwd9yxtM3TFCx1JRjLMA2MKKc,2956
+/summa/proto/search_service_pb2_grpc.py,sha256=uoJsDtL0FnivhGCWASySxItz0BHX8EdZJC_TnwfU03Q,2612
+aiosumma-2.0.19.dist-info/METADATA,sha256=JFVs2stmxQRJF_wRU1a6VdgspA0D3kPaOl6nkeXZWJU,385
+aiosumma-2.0.19.dist-info/RECORD,,
+aiosumma-2.0.19.dist-info/WHEEL,sha256=sobxWSyDDkdg_rinUth-jxhXHqoNqlmNMJY3aTZn2Us,91
+aiosumma-2.0.19.dist-info/entry_points.txt,sha256=QswIgF2S0R51uge4609e5V_y1BiITYdzqqQqaogF4YI,56
+summa/aiosumma/__init__.py,sha256=cv6aTAaaC5a0U2km2576N6NykvD-Nm2H5boH5FO7XDA,59
+summa/aiosumma/cli.py,sha256=-UlUoF5WMxeV3IK7ML_7z37rYA4qVRZzUpfYIKxMi8I,558
+summa/aiosumma/client.py,sha256=y75vWnzscPLXA6h0nJcDGPIan5Gb_Eq4N5EdFQc3wd4,11905

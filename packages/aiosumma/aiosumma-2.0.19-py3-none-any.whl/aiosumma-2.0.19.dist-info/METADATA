@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: aiosumma
+Version: 2.0.19
+Author: Pasha Podolsky
+Author-email: ppodolsky@me.com
+Home-page: https://github.com/izihawa/aiosumma
+License: MIT License
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Internet :: WWW/HTTP :: Indexing/Search
+Requires-Python: >=3.9
+Requires-Dist: aiogrpcclient >= 1.0.2
+Requires-Dist: fire >= 0.3.1
+
+UNKNOWN
