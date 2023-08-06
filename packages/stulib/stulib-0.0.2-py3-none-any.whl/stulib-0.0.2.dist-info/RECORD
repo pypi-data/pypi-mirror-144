@@ -1,0 +1,9 @@
+stulib/__init__.py,sha256=FDws7fpzcxzsFeNwN4DO3BAnlj3a2NhVrE8oGQER4a0,73
+stulib/compute.py,sha256=-ucid4ekn9UD6Wi2_QqyQgUrSilfAcuNGRIVPoQgQeI,28
+stulib/greeting.py,sha256=d6Q--bXaxTYn9ifFVDGXG3BKNLIabvwIWdwfXH98df8,44
+stulib/web_parser.py,sha256=m2rtJJcG9FdoFlhw6yfyZ1Ce9Gz8B0tHxqhAddOD5ls,923
+stulib-0.0.2.dist-info/LICENSE,sha256=J3a0_e6RJr80esdM0HctVOAN4ILGzj0c88cBOuzehj8,1065
+stulib-0.0.2.dist-info/METADATA,sha256=0PxH1avVTWv5nUQ_ymogjWlrg1vJrTIXZsODZRJllSk,351
+stulib-0.0.2.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+stulib-0.0.2.dist-info/top_level.txt,sha256=EFzIaXflSVol2c3bwn6PY0pRbxxXHnyeHp3MZ11cAU8,7
+stulib-0.0.2.dist-info/RECORD,,
