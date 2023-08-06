@@ -1,0 +1,9 @@
+LICENSE
+pyproject.toml
+setup.cfg
+src/probpeaks/__init__.py
+src/probpeaks/channel.py
+src/probpeaks.egg-info/PKG-INFO
+src/probpeaks.egg-info/SOURCES.txt
+src/probpeaks.egg-info/dependency_links.txt
+src/probpeaks.egg-info/top_level.txt
