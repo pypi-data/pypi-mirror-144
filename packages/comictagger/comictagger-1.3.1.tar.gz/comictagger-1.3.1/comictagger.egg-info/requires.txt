@@ -1,0 +1,16 @@
+beautifulsoup4>=4.1
+configparser
+natsort>=8.1.0
+pillow>=4.3.0
+requests
+py7zr
+
+[CBR]
+unrar-cffi>=0.2.2
+
+[GUI]
+PyQt5<=5.15.3
+
+[all]
+PyQt5<=5.15.3
+unrar-cffi>=0.2.2
