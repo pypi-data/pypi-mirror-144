@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: nonebot-plugin-wordle-daily
+Version: 0.1.0
+Summary: UNKNOWN
+License: MIT
+Keywords: nonebot,onebot,wordle
+Author-email: iyume <iyumelive@gmail.com>
+Requires-Python: >=3.7.3
+Requires-Dist: Pillow>=8.4.0
+Requires-Dist: nonebot-adapter-onebot>=2.0.0b1
+Requires-Dist: nonebot-plugin-params>=0.1.0
+Requires-Dist: nonebot2>=2.0.0b1
+Project-URL: homepage, https://github.com/iyume/nonebot-plugin-wordle
+Project-URL: repository, https://github.com/iyume/nonebot-plugin-wordle
+Description-Content-Type: text/markdown
