@@ -1,0 +1,2 @@
+plone.api==1.10.4
+transaction==3.0.1
