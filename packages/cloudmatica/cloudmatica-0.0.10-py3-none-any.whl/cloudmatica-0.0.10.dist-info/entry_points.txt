@@ -1,0 +1,2 @@
+[console_scripts]
+cloudmatica = cloudmatica:main
