@@ -1,0 +1,8 @@
+h5py
+dask
+zarr
+matplotlib
+numpy
+IPython
+b2sdk
+dask_ndfilters
