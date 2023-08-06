@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: barotropic
+Version: 3.0.1
+Summary: A framework for barotropic analysis and modelling of the atmosphere
+Home-page: https://github.com/chpolste/barotropic
+Author: Christopher Polster
+License: UNKNOWN
+Platform: UNKNOWN
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: scipy
+Requires-Dist: pyspharm
+Provides-Extra: tests
+Requires-Dist: pytest ; extra == 'tests'
+Provides-Extra: with-optional
+Requires-Dist: matplotlib ; extra == 'with-optional'
+Requires-Dist: PyWavelets (>=1.1.0.dev) ; extra == 'with-optional'
+Requires-Dist: hn2016-falwa ; extra == 'with-optional'
+
+UNKNOWN
+
