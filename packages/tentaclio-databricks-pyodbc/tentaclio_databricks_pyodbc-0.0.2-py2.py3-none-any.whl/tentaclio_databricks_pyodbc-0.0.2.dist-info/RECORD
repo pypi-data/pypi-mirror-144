@@ -1,0 +1,9 @@
+tentaclio_databricks_pyodbc/__init__.py,sha256=XzDyc52uWikGRhTzFAXQpu9l_rWlZRa9i8G5aZWzHD8,264
+tentaclio_databricks_pyodbc/__main__.py,sha256=bXNjXKWnvuxmT_weLQ0xAHxqOovYfZ3HkuuilsQiQBQ,156
+tentaclio_databricks_pyodbc/clients/__init__.py,sha256=FRSm7eaquCUtXPiaba1oxaT2Lv6Zf4gRfqhcKIwPZKU,296
+tentaclio_databricks_pyodbc/clients/databricks_client.py,sha256=H3vAsDVWlthVEjNCmsV28d5OC4HHqSHWGCV1dw1YV4I,1286
+tentaclio_databricks_pyodbc-0.0.2.dist-info/LICENSE.txt,sha256=Aqv2h5R53YlGaQXl7XgUDMZPUxJK1HftERN2ExXJ_u4,1080
+tentaclio_databricks_pyodbc-0.0.2.dist-info/METADATA,sha256=9Z7L0OSXtKCD7F1_tNadHMYhpQ41VOTdipqbn6BNE3k,2388
+tentaclio_databricks_pyodbc-0.0.2.dist-info/WHEEL,sha256=WzZ8cwjh8l0jtULNjYq1Hpr-WCqCRgPr--TX4P5I1Wo,110
+tentaclio_databricks_pyodbc-0.0.2.dist-info/top_level.txt,sha256=dlX16uoSA3G1yeUjBdGPxbcxbrhoTWvzrev8HEY5PXA,28
+tentaclio_databricks_pyodbc-0.0.2.dist-info/RECORD,,
