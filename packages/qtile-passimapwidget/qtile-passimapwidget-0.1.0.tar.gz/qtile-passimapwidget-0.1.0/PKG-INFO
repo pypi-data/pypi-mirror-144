@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: qtile-passimapwidget
+Version: 0.1.0
+Summary: qtile imap widget with pass authentication
+Home-page: https://github.com/vert-rouge/qtile-passimapwidget
+Author: Arthur VertRouge
+Author-email: arthur@vert-rouge.fr
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/vert-rouge/qtile-passimapwidget/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# qtile-passimapwidget
+qtile-passimapwidget
+
+

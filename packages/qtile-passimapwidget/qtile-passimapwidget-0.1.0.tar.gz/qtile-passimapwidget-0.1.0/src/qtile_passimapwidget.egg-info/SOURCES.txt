@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/passimapwidget/__init__.py
+src/passimapwidget/passimapwidget.py
+src/qtile_passimapwidget.egg-info/PKG-INFO
+src/qtile_passimapwidget.egg-info/SOURCES.txt
+src/qtile_passimapwidget.egg-info/dependency_links.txt
+src/qtile_passimapwidget.egg-info/requires.txt
+src/qtile_passimapwidget.egg-info/top_level.txt
