@@ -1,0 +1,16 @@
+[flake8]
+ignore = W293
+show-source = True
+statistics = False
+exclude =
+    .git,
+    __pycache__,
+    docs/source/conf.py,
+    old,
+    build,
+    dist
+include =
+    runp,
+    tests
+max-complexity = 10
+max-line-length=127
