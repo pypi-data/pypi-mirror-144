@@ -1,0 +1,16 @@
+LICENSE.txt
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+adf2dms/__main__.py
+adf2dms/checksum.py
+adf2dms/enums.py
+adf2dms/main.py
+adf2dms/rle.py
+adf2dms.egg-info/PKG-INFO
+adf2dms.egg-info/SOURCES.txt
+adf2dms.egg-info/dependency_links.txt
+adf2dms.egg-info/entry_points.txt
+adf2dms.egg-info/requires.txt
+adf2dms.egg-info/top_level.txt
