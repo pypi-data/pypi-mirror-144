@@ -1,0 +1,48 @@
+import pytest
+
+{{ import_string }}
+from .commons import (  # isort: skip
+    {% for func in assert_funcs -%}
+    {{ func }},
+    {% endfor %}
+)
+
+{%- macro input(params, var_name) -%}
+    {%- if params.type == "file" %}
+    with open('fixtures/{{params.arg}}', 'rb') as file:
+        {{ var_name }} = file.read()
+    {%- elif params.type == "raw" %}
+    {{var_name}} = {{ params.arg }}
+    {%- elif params.type == "str" %}
+    {{ var_name }} = "{{ params.arg }}"
+    {%- endif %}
+{%- endmacro %}
+
+{% for t_name, t in tests.items() -%}
+def {{t_name}}():
+    {%- if t.info != '' %}
+    '''
+    {{t.info}}
+    '''
+    {%- endif -%}
+    {{ input(t.input, 'data') }}
+    {%- if is_dict(t.assert.arg) is true %}
+    {{ input(t.assert.arg, 'expected') }}
+    {%- elif t.assert.get('arg') is not none %}
+    expected = {{ t.assert.arg }}
+    {%- endif %}
+    {% if t.assert.func != "fail" -%}
+    serialized_data = {{func}}(data)
+    assert {{ t.assert.func }}(serialized_data, expected)
+    {% else -%}
+    try:
+        serialized_data = {{ func }}(data)
+        pytest.fail()
+    except Exception as e:
+        {%- if t.assert.get('arg') != None %}
+       assert str(e) == expected
+        {% else %}
+        pass
+        {% endif %}
+    {%  endif %}
+{% endfor %}
