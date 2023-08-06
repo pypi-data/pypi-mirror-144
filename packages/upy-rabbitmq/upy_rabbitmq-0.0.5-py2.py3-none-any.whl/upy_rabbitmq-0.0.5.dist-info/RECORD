@@ -1,0 +1,8 @@
+upy_rabbitmq/__init__.py,sha256=Su8jdD1QMTRypDu_n1dmPgba-ngOCbTW7zA4aCYkgxg,97
+upy_rabbitmq/base.py,sha256=KhnfOXuAdncCQF9GIlAi3B9jSNuDSKFkLOfHwUjeZfo,1137
+upy_rabbitmq/client.py,sha256=ljDBlsSmI4CokOso5gLLXPKrFq7vA9CESZd4t3PTT5s,648
+upy_rabbitmq/worker.py,sha256=rmAw2DB17lzNbqjbXeKvB3b9FKwtIX2EREKvQGTuqq4,522
+upy_rabbitmq-0.0.5.dist-info/METADATA,sha256=GDhnqS3jbNYcjAna5Hk_LdM_5Ood1xnUQ1eQMttcH6g,2449
+upy_rabbitmq-0.0.5.dist-info/WHEEL,sha256=z9j0xAa_JmUKMpmz72K0ZGALSM_n-wQVmGbleXx2VHg,110
+upy_rabbitmq-0.0.5.dist-info/top_level.txt,sha256=5vrvulS2c59ofoG0XU00g5R1wIm7eJY4XK_6ZZfd1fU,13
+upy_rabbitmq-0.0.5.dist-info/RECORD,,
