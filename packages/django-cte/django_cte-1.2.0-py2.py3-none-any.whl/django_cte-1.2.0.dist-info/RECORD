@@ -1,0 +1,12 @@
+django_cte/__init__.py,sha256=GUEFOGFBEXPjQMFOFt8Am7E3lX3YBXuhXQJ6FY0_cwA,158
+django_cte/cte.py,sha256=8oZdsDHSiCQ5elNb0XxcU7D6cgYXNEqeusyazsPMdxw,6231
+django_cte/expressions.py,sha256=Cmo4aNKcsTrfvSB1BXz8lhAUb3zVfBPdVF-4RyRFsOs,1914
+django_cte/join.py,sha256=5l_KfGnJ4Scv_kimVQR6PdNh6piR9vvHXrGl3Qfyd7M,3243
+django_cte/meta.py,sha256=rF7crpv6MblmG_P8ZjysXJOTBWf27PZExuh02N5GhzE,3615
+django_cte/query.py,sha256=twfSJ_Ef_ckYkdDu4qKI7-8mAvoKdoaRjxpnhPStli4,4682
+django_cte/raw.py,sha256=lWhn70-kHwDTjFFsi2KFmVUsmLfv-epfto0hlcSoPDI,1137
+django_cte-1.2.0.dist-info/LICENSE,sha256=mkLNw_QhpZ40jBEbuAosqH4ciA3KMrwb8aSYbTmy5gc,1508
+django_cte-1.2.0.dist-info/METADATA,sha256=5VErAiTa0tkgbu1IWE4erQUwK5Odcv68abLOteIKLDk,4417
+django_cte-1.2.0.dist-info/WHEEL,sha256=z9j0xAa_JmUKMpmz72K0ZGALSM_n-wQVmGbleXx2VHg,110
+django_cte-1.2.0.dist-info/top_level.txt,sha256=d35FVZfblYUT_Ej6tyCXAm3PmOJcMp0aNmlbfeGtN-0,11
+django_cte-1.2.0.dist-info/RECORD,,
