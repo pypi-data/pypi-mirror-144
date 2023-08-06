@@ -1,0 +1,10 @@
+pydantic
+requests
+fastapi
+boto3
+
+[dev]
+variation-normalizer
+click
+openpyxl
+pandas
