@@ -1,0 +1,3 @@
+[console_scripts]
+tap-rickandmorty=tap_rickandmorty.tap:TapRickAndMorty.cli
+
