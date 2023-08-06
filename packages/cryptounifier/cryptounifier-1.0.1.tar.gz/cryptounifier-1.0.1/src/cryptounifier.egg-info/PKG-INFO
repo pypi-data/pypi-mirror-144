@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: cryptounifier
+Version: 1.0.1
+Summary: CryptoUnifier API Python Integration.
+Home-page: https://github.com/cryptounifier/python-sdk
+Author: https://cryptounifier.io/
+License: MIT License
+Project-URL: Bug Tracker, https://github.com/cryptounifier/python-sdk/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.6
+License-File: LICENSE.md
+
+UNKNOWN
+
