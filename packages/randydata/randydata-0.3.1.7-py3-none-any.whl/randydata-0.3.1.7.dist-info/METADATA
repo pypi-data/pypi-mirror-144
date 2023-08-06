@@ -1,0 +1,72 @@
+Metadata-Version: 2.1
+Name: randydata
+Version: 0.3.1.7
+Summary: Tools for SQL or Excel of observational data handling.
+Home-page: https://github.com/JohannesRanderath/randydata
+Author: Johannes Randerath
+Author-email: randydata@randerath.eu
+License: MIT
+Keywords: excel sql data handling
+Platform: UNKNOWN
+License-File: LICENSE
+Requires-Dist: pandas (>=1.4.1)
+Requires-Dist: mysql (>=0.0.3)
+Requires-Dist: sqlalchemy (>=1.4.32)
+Requires-Dist: IPython (>=8.1.1)
+Requires-Dist: greenlet (>=1.1.2)
+Requires-Dist: numpy (>=1.22.3)
+Requires-Dist: python-dateutil (>=2.8.2)
+Requires-Dist: pytz (>=2021.3)
+Requires-Dist: six (>=1.16.0)
+Requires-Dist: appnope (>=0.1.2)
+Requires-Dist: backcall (>=0.2.0)
+Requires-Dist: decorator (>=5.1.1)
+Requires-Dist: jedi (>=0.18.1)
+Requires-Dist: parso (>=0.8.3)
+Requires-Dist: matplotlib-inline (>=0.1.3)
+Requires-Dist: traitlets (>=5.1.1)
+Requires-Dist: pexpect (>=4.8.0)
+Requires-Dist: ptyprocess (>=0.7.0)
+Requires-Dist: pickleshare (>=0.7.5)
+Requires-Dist: prompt-toolkit (>=3.0.28)
+Requires-Dist: wcwidth (>=0.2.5)
+Requires-Dist: pygments (>=2.11.2)
+Requires-Dist: setuptools (>=58.1.0)
+Requires-Dist: stack-data (>=0.2.0)
+Requires-Dist: asttokens (>=2.0.5)
+Requires-Dist: executing (>=0.8.3)
+Requires-Dist: pure-eval (>=0.2.2)
+Requires-Dist: protobuf (>=3.19.4)
+Requires-Dist: openpyxl (>=3.0.9)
+
+===============
+RandyData
+===============
+Purpose
+_______________
+*RandyData* serves as a simple tool to automate data handling tasks, when working with MySQL Databases and Excel tables,
+storing one observation per row.
+
+It helps reading the Excel table into a MySQL database and creates custom classes for every observation. Furthermore, it
+helps automate some basic formatting tasks to present your results.
+
+welcome_data
+________________
+The ``randydata.welcome_data`` module is made to simplify the process of importing excel files and reading SQL tables to
+memory. It uses an object oriented approach and dynamically creates a class, storing the observed parameters and adding
+user specified methods to make data handling more easy.
+
+data_layout
+_______________
+The ``randydata.data_layout`` module simplifies some more common formatting tasks to present the results you got from
+analysing the observed data. It uses html to quickly add some structure to your data.
+
+Docs
+_______________
+Sphinx docs are available at `readTheDocs <https://randydata.readthedocs.org>`_
+
+Feedback
+_______________
+I am very happy about any kind of feedback or suggestion by email: `randydata@randerath.eu <mailto:randydata@randerath.eu>`_
+
+
