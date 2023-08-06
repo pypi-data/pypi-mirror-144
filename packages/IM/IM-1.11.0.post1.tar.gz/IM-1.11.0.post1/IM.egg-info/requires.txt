@@ -1,0 +1,16 @@
+PyYAML
+RADL>=1.1.5
+ansible>=2.4
+apache-libcloud>=3.2.0
+boto>=2.29
+bottle
+cheroot
+defusedxml
+hvac
+netaddr
+paramiko>=1.14
+requests>=2.19
+scp
+suds-py3
+tosca-parser
+urllib3>=1.23
