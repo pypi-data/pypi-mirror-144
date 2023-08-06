@@ -1,0 +1,47 @@
+Metadata-Version: 2.1
+Name: ezephys
+Version: 0.4.3
+Summary: Tools for working with electrophysiological data.
+Home-page: https://github.com/efharkin/ez-ephys
+Author: Emerson Harkin
+Author-email: emerson@efharkin.com
+License: MIT
+Download-URL: https://pypi.org/project/ez-ephys/
+Keywords: neuroscience,electrophysiology
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Requires-Python: >=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*, !=3.4.*, !=3.5.*
+License-File: LICENSE.txt
+
+ez-ephys
+========
+
+Easy IO, inspection, and manipulation of electrophysiological data in
+Python.
+
+Philosophy
+----------
+
+Keep things simple so you can spend your time running experiments
+instead of learning a complicated API.
+
+Highlights
+----------
+
+-  ``rectools.Recording``: thin ``np.ndarray`` wrapper with a ``plot``
+   method for visualizing recordings
+-  ``pltools.add_scalebar``: add a set of automatically-sized scalebars
+   to a ``matplotlib`` plot
+-  ``stimtools``: take your experiments beyond current steps with a
+   simple system for generating complicated electrophysiological stimuli
+
+
