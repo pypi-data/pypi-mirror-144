@@ -1,0 +1,5 @@
+flatdict
+Jinja2
+pendulum
+PyYaml
+SQLAlchemy
