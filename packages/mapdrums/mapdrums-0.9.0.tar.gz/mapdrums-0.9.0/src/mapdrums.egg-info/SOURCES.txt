@@ -1,0 +1,13 @@
+README.md
+pyproject.toml
+setup.cfg
+src/mapdrums/__init__.py
+src/mapdrums/__main__.py
+src/mapdrums/main.py
+src/mapdrums.egg-info/PKG-INFO
+src/mapdrums.egg-info/SOURCES.txt
+src/mapdrums.egg-info/dependency_links.txt
+src/mapdrums.egg-info/entry_points.txt
+src/mapdrums.egg-info/requires.txt
+src/mapdrums.egg-info/top_level.txt
+src/mapdrums/data/template.drm
