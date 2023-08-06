@@ -1,0 +1,4 @@
+#TODO
+- Automatizzare Nevergrad
+- helper che mi dice tutte le funzioni per ogni cartella con breve descrizione
+- passare ai modelli l'array delle colonne e non X (che sarebbe df[array colonne])
