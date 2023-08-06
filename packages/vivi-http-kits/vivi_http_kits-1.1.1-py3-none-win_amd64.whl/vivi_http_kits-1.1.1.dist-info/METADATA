@@ -1,0 +1,52 @@
+Metadata-Version: 2.1
+Name: vivi-http-kits
+Version: 1.1.1
+Summary: null
+Home-page: https://soltus.github.io/color-theme-analyse/
+Author: Soltus
+Author-email: 694357845@qq.com
+License: MIT
+Project-URL: Bug Tracker, https://gitee.com/hi-windom/color-theme-analyse/issues
+Platform: Windows
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Win32 (MS Windows)
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: JavaScript
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: Natural Language :: Chinese (Simplified)
+Classifier: Natural Language :: English
+Classifier: Topic :: Multimedia :: Graphics
+Requires-Python: >=3.9.0,<=3.10.0
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Provides-Extra: base
+Requires-Dist: numpy (>=1.21) ; extra == 'base'
+Requires-Dist: pillow (>=8.3) ; extra == 'base'
+Requires-Dist: rich (>=0.1) ; extra == 'base'
+Requires-Dist: Eel ; extra == 'base'
+Provides-Extra: dev
+Requires-Dist: wheel ; extra == 'dev'
+Requires-Dist: twine ; extra == 'dev'
+Requires-Dist: setuptools ; extra == 'dev'
+Requires-Dist: setuptools-scm ; extra == 'dev'
+Requires-Dist: setuptools-scm-git-archive ; extra == 'dev'
+Requires-Dist: six ; extra == 'dev'
+Requires-Dist: auto-py-to-exe (>=2.16.0) ; (platform_system == "Windows") and extra == 'dev'
+Provides-Extra: merge
+Requires-Dist: numpy (>=1.21) ; extra == 'merge'
+Requires-Dist: pillow (>=8.3) ; extra == 'merge'
+Requires-Dist: rich (>=0.1) ; extra == 'merge'
+Requires-Dist: wheel ; extra == 'merge'
+Requires-Dist: twine ; extra == 'merge'
+Requires-Dist: setuptools ; extra == 'merge'
+Requires-Dist: setuptools-scm ; extra == 'merge'
+Requires-Dist: setuptools-scm-git-archive ; extra == 'merge'
+Requires-Dist: Eel ; extra == 'merge'
+Requires-Dist: auto-py-to-exe (>=2.16.0) ; (platform_system == "Windows") and extra == 'merge'
+
+UNKNOWN
+
