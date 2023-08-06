@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "disc_tool"
+version = "0.1.0"
+description = "A tool to build Discord implicit social graphs"
+authors = ["Tomás F. <contact@tomff.com>"]
+homepage = "https://github.com/tomasff/disc"
+repository = "https://github.com/tomasff/disc"
+readme = "README.md"
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+tqdm = "^4.63.1"
+"discord.py" = "^1.7.3"
+click = "^8.0.4"
+networkx = "^2.7.1"
+
+[tool.poetry.dev-dependencies]
+black = "^22.1.0"
+
+[tool.poetry.scripts]
+disc = "disc_tool.cli:build"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
