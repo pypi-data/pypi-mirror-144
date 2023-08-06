@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+bcolors/bcolors.egg-info/PKG-INFO
+bcolors/bcolors.egg-info/SOURCES.txt
+bcolors/bcolors.egg-info/dependency_links.txt
+bcolors/bcolors.egg-info/top_level.txt
