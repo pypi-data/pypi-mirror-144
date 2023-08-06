@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+discord.py_self_embed.egg-info/PKG-INFO
+discord.py_self_embed.egg-info/SOURCES.txt
+discord.py_self_embed.egg-info/dependency_links.txt
+discord.py_self_embed.egg-info/top_level.txt
+discord_self_embed/__init__.py
