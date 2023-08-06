@@ -1,0 +1,3 @@
+[console_scripts]
+virt-fw-dump = virt.firmware.dump:main
+virt-fw-vars = virt.firmware.vars:main
