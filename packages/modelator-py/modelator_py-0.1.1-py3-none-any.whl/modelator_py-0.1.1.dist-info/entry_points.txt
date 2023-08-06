@@ -1,0 +1,3 @@
+[console_scripts]
+cli=modelator_py.cli:cli
+
