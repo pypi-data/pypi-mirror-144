@@ -1,0 +1,12 @@
+arraydebug/__init__.py,sha256=kMFYIq1fe3xAZtkdp7U0cWbrndvUDp7KEbFmvBUVaBw,246
+arraydebug/array_like.py,sha256=XKu5Ptrsd_HlApTcaDh6FzZaasJJbVN06P8tuHE45Tg,1008
+arraydebug/core.py,sha256=hJWTjlaDF1BN1F0vHgyeOIlxlax0PZ9hjckXU07cloI,1125
+arraydebug/numpy.py,sha256=QkqlAt3iBRFuE4sxlZNKtug08jUvPqrTpH38Tb4fh_0,1350
+arraydebug/torch.py,sha256=oLsyyEHFn-OX1Sr-JaVCOSEBPjVwkwjMETJC-Dz7Jvk,870
+arraydebug-0.1.1.dist-info/AUTHORS.md,sha256=Jp70I_CAAkSNPoAVGuHjcqKUFeqQgxpoKZJiJluNaDU,110
+arraydebug-0.1.1.dist-info/LICENSE,sha256=m1k_9XqPy8WyF6fjOusg7V1wM9fMRO9r0WMAfEZ-UUA,1067
+arraydebug-0.1.1.dist-info/METADATA,sha256=bjsqVIPEWW7VmqTfdVpjCQ0v4NNlky6PsVjHvmEiPrM,4260
+arraydebug-0.1.1.dist-info/WHEEL,sha256=z9j0xAa_JmUKMpmz72K0ZGALSM_n-wQVmGbleXx2VHg,110
+arraydebug-0.1.1.dist-info/top_level.txt,sha256=aTo4nh6Oh8LXOQLJ_hrLPcCgKRUyavdSD4tTCs6TX0Q,11
+arraydebug-0.1.1.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+arraydebug-0.1.1.dist-info/RECORD,,
