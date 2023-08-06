@@ -1,0 +1,9 @@
+PyYAML
+flake8
+genbadge[all]
+handsdown
+jinja2==3.0
+pytest
+pytest-cov
+setuptools_scm
+wheel
