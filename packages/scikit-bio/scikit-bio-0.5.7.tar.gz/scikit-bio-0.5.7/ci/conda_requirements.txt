@@ -1,0 +1,16 @@
+pip
+numpy
+scipy
+matplotlib
+pandas
+pep8
+ipython
+pyflakes
+flake8
+python-dateutil
+decorator
+scikit-learn
+pytest
+coverage
+h5py >= 3.6.0
+cython
