@@ -1,0 +1,2 @@
+[napari.plugin]
+napari-psf-measures = napari_psf_analysis
