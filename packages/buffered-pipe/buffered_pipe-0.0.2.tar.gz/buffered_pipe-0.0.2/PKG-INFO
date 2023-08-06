@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: buffered_pipe
+Version: 0.0.2
+Summary: Buffered pipe through shared memory.
+Home-page: https://github.com/klae01/buffered_pipe
+Author: klae01
+Author-email: tspt2479@gmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.6.0
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+
+# buffered_pipe
+Buffered pipe through shared memory.
+
+
