@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: sammm_temp_package
+Version: 0.0.1
+Summary: A simple Longbug package
+Home-page: https://gitlab.nectec.or.th/c-tawayip/sam_temp_package
+Author: c-tawayip
+Author-email: piyawatchuangkrud@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+
+# sam_temp_package
+
+
