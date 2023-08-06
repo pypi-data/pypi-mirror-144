@@ -1,0 +1,6 @@
+numpy
+julia
+uncertainties
+awkward
+pygtc
+tqdm
