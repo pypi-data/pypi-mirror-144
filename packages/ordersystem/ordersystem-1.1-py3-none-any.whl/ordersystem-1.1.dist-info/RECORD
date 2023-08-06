@@ -1,0 +1,12 @@
+ordersystem/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ordersystem/custom_exceptions.py,sha256=oAZirqvACzH9mrekMOKgq9qh-XT51jYLVJ80vhLynaw,649
+ordersystem/meals.py,sha256=gZ6PolDVn8i7yXzDYNwB1BUVmBf6vxnPhAIK39pidME,3004
+ordersystem/menu.py,sha256=jopgQXml1VYiO9g1YBPJo-b1WRQt6z-29rlN9y8Dufc,4970
+ordersystem/order_system.py,sha256=5-5Fakv5Ef9-dJFOr1XPwn6_mlwpjveC8xVDgQDtaaM,1256
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/order_tests.py,sha256=sc1PHq4IBYl3fR3nxLaM8WAk5wfXQAR1nYb9blJxL8M,2173
+ordersystem-1.1.dist-info/LICENSE,sha256=QfxPBZqTYtVtybFTyHINA6xALblJu_eT1x40OvCWSNE,1079
+ordersystem-1.1.dist-info/METADATA,sha256=y6hh359bqqPU25OL-ntwC-89ywpjwTNvS14o65on5U8,4127
+ordersystem-1.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+ordersystem-1.1.dist-info/top_level.txt,sha256=kGCs-LpCRZep6GSTQRZ411CD0jLvGbf-qEvWy-B8dXs,18
+ordersystem-1.1.dist-info/RECORD,,
