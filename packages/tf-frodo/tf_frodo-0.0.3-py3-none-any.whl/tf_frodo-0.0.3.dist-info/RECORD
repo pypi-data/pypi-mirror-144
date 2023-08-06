@@ -1,0 +1,9 @@
+tf_frodo/__init__.py,sha256=4ofHFuAUAONHqmGjvTsVeWTre0svQKfPqSKctO3i0HU,25
+tf_frodo/frodo.py,sha256=pzk34yGSuSlyirbTJxWUsH0LvfkC00GSCL7h2Ogrl18,3662
+tf_frodo/test_model.py,sha256=RCu3tV3Zb5l3v6jwn2m96tDCbfmGEwqeupO9EpVbFCs,1420
+tf_frodo/utils.py,sha256=W5rh1CI-cTip1Y81fH1IMdY4BwFPUwywH7y_DRq06rA,1369
+tf_frodo-0.0.3.dist-info/LICENSE,sha256=1U2Ww9vv8FTAUTg8fq5tylRBC0BUcY8lZjKIIBLZlvc,1088
+tf_frodo-0.0.3.dist-info/METADATA,sha256=fwXNyoZROUivaHtULyiT8IG7Ka9fM1MAdksUjp22-_8,839
+tf_frodo-0.0.3.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+tf_frodo-0.0.3.dist-info/top_level.txt,sha256=vPgfBHoQzppZavOhGQBkcu_jr9cLcT8tr2UsJNfRLn0,9
+tf_frodo-0.0.3.dist-info/RECORD,,
