@@ -1,0 +1,9 @@
+README.md
+setup.py
+deatrisdev/__init__.py
+deatrisdev/deatrisdev.py
+deatrisdev.egg-info/PKG-INFO
+deatrisdev.egg-info/SOURCES.txt
+deatrisdev.egg-info/dependency_links.txt
+deatrisdev.egg-info/requires.txt
+deatrisdev.egg-info/top_level.txt
