@@ -1,0 +1,3 @@
+bitarray
+binary-rw
+terraria_apis_objects
