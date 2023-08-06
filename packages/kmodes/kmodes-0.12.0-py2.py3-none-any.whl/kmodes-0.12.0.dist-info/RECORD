@@ -1,0 +1,12 @@
+kmodes/__init__.py,sha256=qHJ_q-NtoZ98rdflBB5GKtBzx_sUvAVe96rJSun_DEU,23
+kmodes/kmodes.py,sha256=Nhd4jkEjvyXkAEm9wEei1FdH6RGlGForfwBx_Esmloc,15977
+kmodes/kprototypes.py,sha256=HO0YCyNVqMOkzcH9g3HhJu_GXqd6Biq5ozM3t9PX-j8,22102
+kmodes/util/__init__.py,sha256=u-p-5WsjWmu0R4G88ybQI7XlcTylhArKv2Q5pefJ-2I,2211
+kmodes/util/dissim.py,sha256=BRIvJywNZVVhgxymzFERR6xdFG6MEZlX6Dn6Wl-FomY,3473
+kmodes/util/init_methods.py,sha256=dKRpaQS0YSapdnOvOTJ5Owy8b6JOPlERwLANfPGJjjY,2509
+kmodes/util/testing.py,sha256=yZ_rdzd8tL_N-4ELwWtLlz__CrJAvMkHUq_3rlo7iJs,649
+kmodes-0.12.0.dist-info/LICENSE,sha256=oFHVmcZAhYSAmOLq3cwVeS5Mgr6rlXQC-RbmYGIjhvE,1097
+kmodes-0.12.0.dist-info/METADATA,sha256=PcbhardEXsLk2k-8nrA1sgHrxx85duphH85WDhUk4pc,7784
+kmodes-0.12.0.dist-info/WHEEL,sha256=Z-nyYpwrcSqxfdux5Mbn_DQ525iP7J2DG3JgGvOYyTQ,110
+kmodes-0.12.0.dist-info/top_level.txt,sha256=DvBzWF3F7JjKClf7VjRyg7iyBjkjirel-_27dJHItjE,7
+kmodes-0.12.0.dist-info/RECORD,,
