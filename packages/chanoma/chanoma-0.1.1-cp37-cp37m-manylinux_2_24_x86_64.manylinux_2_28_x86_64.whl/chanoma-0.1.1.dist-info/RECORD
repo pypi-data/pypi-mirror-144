@@ -1,0 +1,7 @@
+chanoma-0.1.1.dist-info/METADATA,sha256=rGIO2sE3Y_t_RWjl5Y56oExqW-eACsMNme8HU1uEeTA,4175
+chanoma-0.1.1.dist-info/RECORD,,
+chanoma-0.1.1.dist-info/top_level.txt,sha256=BVHUFhxmvoJt01rBnt14moe0VMKemo-P46SAfvnVscM,8
+chanoma-0.1.1.dist-info/WHEEL,sha256=MYsLwaNmUNnO6KG5DNqJBEDGu7IGXupCaYZIZc7DUkI,151
+chanoma/__init__.py,sha256=2vtR_hGbDJZrIMFMj0S0W_I7DzYrtF-SDpfkicHsjtU,23
+chanoma/chanoma.cpython-37m-x86_64-linux-gnu.so,sha256=cNm8KW20bxHB-Udb_kYCcBTrGOuOnB35bCz35kZ964c,4550000
+chanoma/test.py,sha256=Xsp3z25M3tR4vrDmadDxvgtXPK24XLq0nA8Ujn_1o68,665
