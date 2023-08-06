@@ -1,0 +1,9 @@
+spinsfast-104.2022.7.dist-info/LICENSE,sha256=EqxQR_KvBSLwZ5ixWJ_8RZm8KckflU14dOAyBjTnd8A,35122
+spinsfast-104.2022.7.dist-info/COPYING,sha256=jOtLnuWt7d5Hsx6XXB2QxzrSe2sWWh3NgMfFRetluQM,35147
+spinsfast-104.2022.7.dist-info/METADATA,sha256=WV47QilVaiDTZI3Pv-d8EjUC9QQu9NsGAXc2CWHP2_M,558
+spinsfast-104.2022.7.dist-info/top_level.txt,sha256=19x_G4jehzLSzGDR4A145MnHS4kM8yBbThPSAgJh1lE,10
+spinsfast-104.2022.7.dist-info/RECORD,,
+spinsfast-104.2022.7.dist-info/WHEEL,sha256=AENPUwuTc6qB95Mrn5JB5boXegWw6oDhuwuuX0q_ONg,152
+spinsfast/cextension.cpython-310-x86_64-linux-gnu.so,sha256=udExmkpPeYKvxSZ1Il2-Mt56XvUQH2LMGjSvmQNTRUE,244088
+spinsfast/__init__.py,sha256=GtvhLtcilFzM_DGF2EXiLzv2FWJcHNEiMdzIMw5BEPE,11919
+spinsfast.libs/libfftw3-17cc48a2.so.3.3.2,sha256=MNRmyR8sGmzAVZ3zf18eArh0xqeAI-Hbo3j814-Nqug,1631216
