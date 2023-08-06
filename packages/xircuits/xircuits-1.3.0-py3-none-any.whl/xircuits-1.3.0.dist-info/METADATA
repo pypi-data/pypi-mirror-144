@@ -1,0 +1,269 @@
+Metadata-Version: 2.1
+Name: xircuits
+Version: 1.3.0
+Summary: A JupyterLab extension for rendering and editing xircuit files.
+Home-page: https://github.com/XpressAI/xircuits
+Author: Xpress AI
+Author-email: eduardo@xpress.ai
+License: BSD-3-Clause
+Keywords: Jupyter,JupyterLab,JupyterLab3
+Platform: Linux
+Platform: Mac OS X
+Platform: Windows
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Framework :: Jupyter
+Classifier: Framework :: Jupyter :: JupyterLab
+Classifier: Framework :: Jupyter :: JupyterLab :: 3
+Classifier: Framework :: Jupyter :: JupyterLab :: Extensions
+Classifier: Framework :: Jupyter :: JupyterLab :: Extensions :: Prebuilt
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: Babel (==2.9.1)
+Requires-Dist: Jinja2 (==3.1.1)
+Requires-Dist: MarkupSafe (==2.1.1)
+Requires-Dist: Pygments (==2.11.2)
+Requires-Dist: Send2Trash (==1.8.0)
+Requires-Dist: anyio (==3.5.0)
+Requires-Dist: appnope (==0.1.2)
+Requires-Dist: argon2-cffi (==21.3.0)
+Requires-Dist: argon2-cffi-bindings (==21.2.0)
+Requires-Dist: asttokens (==2.0.5)
+Requires-Dist: async-generator (==1.10)
+Requires-Dist: attrs (==21.4.0)
+Requires-Dist: backcall (==0.2.0)
+Requires-Dist: beautifulsoup4 (==4.10.0)
+Requires-Dist: bleach (==4.1.0)
+Requires-Dist: certifi (==2021.10.8)
+Requires-Dist: cffi (==1.15.0)
+Requires-Dist: chardet (==4.0.0)
+Requires-Dist: charset-normalizer (==2.0.12)
+Requires-Dist: click (==8.1.0)
+Requires-Dist: colorama (==0.4.4)
+Requires-Dist: cycler (==0.11.0)
+Requires-Dist: debugpy (==1.6.0)
+Requires-Dist: decorator (==5.1.1)
+Requires-Dist: defusedxml (==0.7.1)
+Requires-Dist: deprecated (==1.2.13)
+Requires-Dist: deprecation (==2.1.0)
+Requires-Dist: entrypoints (==0.4)
+Requires-Dist: executing (==0.8.3)
+Requires-Dist: fonttools (==4.31.2)
+Requires-Dist: idna (==3.3)
+Requires-Dist: importlib-metadata (==4.11.3)
+Requires-Dist: ipykernel (==6.10.0)
+Requires-Dist: ipython (==8.2.0)
+Requires-Dist: ipython-genutils (==0.2.0)
+Requires-Dist: itsdangerous (==2.1.2)
+Requires-Dist: jedi (==0.18.1)
+Requires-Dist: json5 (==0.9.6)
+Requires-Dist: jsonschema (==4.4.0)
+Requires-Dist: jupyter-client (==7.2.0)
+Requires-Dist: jupyter-core (==4.9.2)
+Requires-Dist: jupyter-packaging (==0.12.0)
+Requires-Dist: jupyter-server (==1.15.4)
+Requires-Dist: jupyterlab (==3.3.2)
+Requires-Dist: jupyterlab-pygments (==0.1.2)
+Requires-Dist: jupyterlab-server (==2.12.0)
+Requires-Dist: kiwisolver (==1.4.2)
+Requires-Dist: matplotlib (==3.5.1)
+Requires-Dist: matplotlib-inline (==0.1.3)
+Requires-Dist: mistune (==0.8.4)
+Requires-Dist: nbclassic (==0.3.7)
+Requires-Dist: nbclient (==0.5.13)
+Requires-Dist: nbconvert (==6.4.5)
+Requires-Dist: nbformat (==5.2.0)
+Requires-Dist: nest-asyncio (==1.5.4)
+Requires-Dist: notebook (==6.4.10)
+Requires-Dist: notebook-shim (==0.1.0)
+Requires-Dist: numpy (==1.22.3)
+Requires-Dist: packaging (==21.3)
+Requires-Dist: pandocfilters (==1.5.0)
+Requires-Dist: parso (==0.8.3)
+Requires-Dist: pexpect (==4.8.0)
+Requires-Dist: pickleshare (==0.7.5)
+Requires-Dist: pillow (==9.0.1)
+Requires-Dist: prometheus-client (==0.13.1)
+Requires-Dist: prompt-toolkit (==3.0.28)
+Requires-Dist: psutil (==5.9.0)
+Requires-Dist: ptyprocess (==0.7.0)
+Requires-Dist: pure-eval (==0.2.2)
+Requires-Dist: pycparser (==2.21)
+Requires-Dist: pygithub (==1.55)
+Requires-Dist: pyjwt (==2.3.0)
+Requires-Dist: pynacl (==1.5.0)
+Requires-Dist: pyparsing (==3.0.7)
+Requires-Dist: pyrsistent (==0.18.1)
+Requires-Dist: python-dateutil (==2.8.2)
+Requires-Dist: pytz (==2022.1)
+Requires-Dist: pyzmq (==22.3.0)
+Requires-Dist: requests (==2.27.1)
+Requires-Dist: requests-unixsocket (==0.3.0)
+Requires-Dist: setuptools (==61.2.0)
+Requires-Dist: six (==1.16.0)
+Requires-Dist: sniffio (==1.2.0)
+Requires-Dist: soupsieve (==2.3.1)
+Requires-Dist: stack-data (==0.2.0)
+Requires-Dist: terminado (==0.13.3)
+Requires-Dist: testpath (==0.6.0)
+Requires-Dist: tomlkit (==0.10.1)
+Requires-Dist: tornado (==6.1)
+Requires-Dist: tqdm (==4.63.1)
+Requires-Dist: traitlets (==5.1.1)
+Requires-Dist: typing-extensions (==4.1.1)
+Requires-Dist: urllib3 (==1.26.9)
+Requires-Dist: wcwidth (==0.2.5)
+Requires-Dist: webencodings (==0.5.1)
+Requires-Dist: websocket-client (==1.3.2)
+Requires-Dist: wheel (==0.37.1)
+Requires-Dist: wrapt (==1.14.0)
+Requires-Dist: zipp (==3.7.0)
+Provides-Extra: full
+Requires-Dist: tensorflow ; extra == 'full'
+Requires-Dist: numpy ; extra == 'full'
+Requires-Dist: scikit-learn ; extra == 'full'
+Requires-Dist: opencv-python ; extra == 'full'
+Requires-Dist: pillow ; extra == 'full'
+Requires-Dist: tqdm ; extra == 'full'
+Requires-Dist: pandas ; extra == 'full'
+Requires-Dist: py4j ; extra == 'full'
+Requires-Dist: pyspark ; extra == 'full'
+Requires-Dist: matplotlib ; extra == 'full'
+
+<p align="center">
+<img src="https://user-images.githubusercontent.com/68586800/151280601-7ff2b7b2-10e5-4544-b3df-aa6a5a654dae.png" width="450"/>
+</p>
+
+<p align="center">
+  <a href="https://xircuits.io/">Docs</a> •
+  <a href="https://xircuits.io/docs/getting-started/Installation">Install</a> •
+  <a href="https://xircuits.io/docs/tutorials/tutorials">Tutorials</a> •
+  <a href="https://github.com/XpressAI/xircuits/blob/master/CONTRIBUTING.md">Contribute</a> •
+  <a href="https://blog.xpress.ai/">Blog</a> •
+  <a href="https://discord.com/invite/vgEg2ZtxCw">Discord</a>
+</p>
+
+<p>
+  <p align="center">
+    <a href="https://github.com/XpressAI/xircuits/blob/master/LICENSE">
+        <img alt="GitHub" src="https://img.shields.io/github/license/XpressAI/xircuits?color=brightgreen">
+    </a>
+    <a href="https://github.com/XpressAI/xircuits/releases">
+        <img alt="GitHub release" src="https://img.shields.io/github/release/XpressAI/xircuits.svg?color=yellow">
+    </a>
+    <a href="https://xircuits.io">
+        <img alt="Documentation" src="https://img.shields.io/website/http/certifai.ai.svg?color=orange">
+    </a>
+     <a>
+        <img alt="Python" src="https://img.shields.io/badge/python-3.9-blue">
+    </a>
+</p>
+
+![frontpage](https://user-images.githubusercontent.com/68586800/160965807-ba0fb65d-3912-4155-96fd-010ae082830b.gif)
+
+Xircuits is a Jupyterlab-based extension that enables visual, low-code, training workflows. It allows anyone to easily create executable python code in seconds.
+
+
+## Installation
+We recommend installing xircuits in a virtual environment.
+```
+$ pip install xircuits[full]
+```
+If you would like to install just the core functions, use:
+```
+$ pip install xircuits
+```
+### Launch
+```
+$ xircuits
+```
+### Download Examples
+```
+$ xircuits-examples
+```
+
+## Development
+
+
+### Prerequisites
+
+Xircuits requires nodejs and yarn to build. The test nvm version is 14.15.3. 
+You may also want to set yarn globally accessible by:
+
+```
+npm install --global yarn
+```
+
+### Build
+```
+git clone https://github.com/XpressAI/xircuits
+```
+Make and activate python env. The tested python versions are 3.9.6
+
+```
+python -m venv venv
+venv/Scripts/activate
+```
+
+Download python packages. 
+
+```
+pip install -r requirements.txt
+```
+
+Run the following commands to install the package in local editable mode and install xircuits into the JupyterLab environment.
+
+```
+# Install package in development mode
+pip install -e .
+# Link your development version of the extension with JupyterLab
+jupyter labextension develop . --overwrite
+# Enable the server extension
+jupyter server extension enable xircuits
+```
+### Running
+Start up xircuits using:
+```
+xircuits
+```
+Xircuits will open automatically in the browser.
+
+##### If additional arguments required, launch xircuits using:
+```
+jupyter lab 
+```
+### Rebuild
+Rebuild Xircuits after making changes.
+```
+# Rebuild Typescript source after making changes
+jlpm build
+# Rebuild Xircuits after making any changes
+jupyter lab build
+```
+### Rebuild (Automatically)
+You can watch the source directory and run Xircuits in watch mode to watch for changes in the extension's source and automatically rebuild the extension and application.
+```
+# Watch the source directory in another terminal tab
+jlpm run watch
+# Run Xircuits in watch mode in one terminal tab
+jupyter lab --watch
+```
+
+## Preview
+
+### Machine Learning
+![ML example](https://user-images.githubusercontent.com/68586800/160897662-cfe31276-fe33-4400-b0a8-4f4b32263d2b.gif)
+
+### PySpark
+![spark submit](https://user-images.githubusercontent.com/68586800/156138662-f3181471-6433-49dd-a8c1-2f73eea14d11.png)
+
+### AutoML
+![automl](https://user-images.githubusercontent.com/68586800/160885831-50278dfd-3ad1-402c-a0f7-e233b163dbbc.gif)
+
+
