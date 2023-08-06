@@ -1,0 +1,119 @@
+Metadata-Version: 2.1
+Name: hotblast
+Version: 0.0.2
+Summary: 一个轻型搜索工具。
+Home-page: https://gitee.com/huang-hongzhe/prioritization
+Author: 黄宏哲
+Author-email: 2528104776@qq.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# hotblast
+
+#### 介绍
+这是一款轻量级的搜索工具，你也可以把它当作一个框架。
+
+#### 运行环境
+windows
+
+#### 使用说明
+
+1.  设置config.py文件参数
+2.  运行initialize.py文件进行初始化
+3.  运行Search.py文件进行查找
+
+
+#### 参与贡献
+
+1.  黄宏哲 Fork 本仓库
+2.  黄宏哲 新建 master 分支
+3.  黄宏哲 提交代码
+4.  黄宏哲 新建 Pull Request
+
+
+
+# 文档教程
+
+##下载安装
+
+推荐你使用在线下载的方式
+```shell
+pip install hotblast
+```
+官方pypi地址:
+[hotblast](https://pypi.org/project/hotblast/)
+
+#### 一、配置文件
+编辑`config.py`
+
+```python
+Data = {
+    # 扫描文件夹路径
+    'total_folder_path': r'D:\源码文件夹',
+    # 序列化文件存放路径
+    'pickle_file_path': 'info',
+    # 选择扫描文件夹或者文件 [文件夹:1,文件:2,全部:3]
+    'select_file_or_folder': 2,
+    # 日志编码
+    'coding': 'gbk'
+}
+```
+#### 二、运行程序
+
+打开CMD命令行，切换到项目路径下输入:
+
+
+```shell
+py initialize.py
+```
+
+#### 三、使用Search进行搜索
+
+```shell
+py Search.py
+```
+
+初始化后的项目文档树如下:
+![输入图片说明](Prioritization/image.png)
+
+## 框架开发
+    开发是如此容易，只需要重写initialize.py文件中的Initialize类的scan方法即可。
+重写`Initialize`类的`scan`方法，必须返回一个`dict`类型。
+
+**设计思想**
+> hotbalst 支持你将任何信息与文件的路径绑定起来，它支持你这么去做。与Everthing软件不同，hotbalst是真正扫描磁盘，而不是读取文件系统的日志。blasthot初始化扫描后，是直接读取历史数据所以它也能一瞬间找到文件。
+
+> 另外，作为开发者，我想做的是一款兼容window xp 及以上 windows系统的搜素框架，它能做到扫描局域网地址文件(网上邻居等)，而Everything只能读取NTFS文件系统的日志，框架不同于一款软件，它能支持你开发出任何信息与文件路径进行绑定的事情，比如在众多Excel文件中，你想找到文件中含订单号1001信息的那个文件，那么hotblast就派上大用场了。
+### 示例
+
+```python
+from initialize import Initialize
+
+'''
+导入Initialize,定义一个子类用来继承Initialize
+重写scan方法,然后任由你发挥，写点什么吧~
+'''
+
+
+class hello(Initialize):
+
+    def scan(self) -> dict:
+        return {"name": "黄宏哲"}  # 必须返回一个dict
+
+
+hello().run()
+
+```
+如上，我们可以讲
+
+## 后期展望
+由于开发者是一个人进度较慢，下一步将着手优化扫描速度，加入异步程序，感兴趣的小伙伴请加入我，提意见。
+[联系开发者](https://qm.qq.com/cgi-bin/qm/qr?k=EdFD5a6UFu6zrJZetn_CCGqW1cWcShtj&noverify=0)
+
+
+
