@@ -1,0 +1,10 @@
+LICENCE.txt
+README.md
+pyproject.toml
+setup.py
+src/deltax/__init__.py
+src/deltax/robot.py
+src/deltax.egg-info/PKG-INFO
+src/deltax.egg-info/SOURCES.txt
+src/deltax.egg-info/dependency_links.txt
+src/deltax.egg-info/top_level.txt
