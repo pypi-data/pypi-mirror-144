@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: Fishconsole
+Version: 1.1111
+Summary: 小鱼整理的控制台输出辅助模块
+Home-page: https://space.bilibili.com/698117971?spm_id_from=333.1007.0.0
+Author: Fish Console
+Author-email: 2645602049@qq.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=2.7
+License-File: LICENSE
+
+小鱼整理的控制台输出辅助模块它是一个正在不断完善的集合目前整合的功能有分割线，标题，文字颜色虽然现在十分拉跨，但正努力前行，导入的语法是'from Fishcosole import logs可以用print(logs.help())查看内置教程或者检测升级本次更新：完善模块，补全功能
+
