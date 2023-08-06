@@ -1,0 +1,8 @@
+README.md
+setup.py
+socketrewritten/__init__.py
+socketrewritten/main.py
+socketrewritten.egg-info/PKG-INFO
+socketrewritten.egg-info/SOURCES.txt
+socketrewritten.egg-info/dependency_links.txt
+socketrewritten.egg-info/top_level.txt
