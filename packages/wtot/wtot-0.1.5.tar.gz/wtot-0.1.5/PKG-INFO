@@ -1,0 +1,43 @@
+Metadata-Version: 2.1
+Name: wtot
+Version: 0.1.5
+Summary: WordTranslationOnTerminal
+Home-page: https://pypi.org/project/wtot/
+Author: YeeKear
+Author-email: 554408064@sjtu.edu.cn
+License: UNKNOWN
+Keywords: python dictionary terminal
+Platform: UNKNOWN
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Topic :: Terminals
+
+##wtot
+
+-  A terminal word query tool by Baidufanyi API
+
+Install
+~~~~~~~
+
+::
+
+   pip install wtot
+
+Help
+~~~~
+
+::
+
+   Input:
+   wtot word1 word2 word3 ...
+
+   Output:
+   word1: Interpretation of word1
+   word2: Interpretation of word2
+   word3: Interpretation of word3
+   ...
+
+
