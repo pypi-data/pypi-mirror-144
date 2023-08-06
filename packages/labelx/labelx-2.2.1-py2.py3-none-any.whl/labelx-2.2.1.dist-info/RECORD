@@ -1,0 +1,17 @@
+labelx/__init__.py,sha256=b1pEbLiaja9ph7D_RTPbmNQ4hIcmcwxt9gMuHX1V1SE,795
+labelx/__version__.py,sha256=grC4kIzfm052Jt1cS9Yx3OAOEKMveYOHWGhfmygrUWc,276
+labelx/api_manager.py,sha256=MDcFTbmHp1AvXj-MtXP-6H90jFxCqnOLp9_D5-005w4,2436
+labelx/app.py,sha256=VLfX3ZHYEdSF8RYQPyWmn1Mc-6-Z-HH8hTxV99sdbPI,5062
+labelx/badges.yaml,sha256=Z2eOPH-MJuB4iVQLR01OrOUGxACzR2UHgSulOz1XXNY,1196
+labelx/config_manager.py,sha256=otJz_2nj5TDBZUvoM0v92BxQ38bASjyvymmFP_x_Jts,3203
+labelx/controller.py,sha256=vgUceyAWRS8hXJHt9uGhE6CGlqWcIsKCaF99NwSjlpc,2616
+labelx/labels.yaml,sha256=4Tcb3kv00b4_6_olgcb-MrAb11k7cJjMTtvJhM0BYi4,2145
+labelx/settings.py,sha256=d3PND1pVjQ7W-gEd_PvDix7uCC9sbinSJmNF3dxgD0I,4579
+labelx/utils.py,sha256=HCv5tlnKfLHdFgFen-jD2yZSJv4Uc1o7sOpC6XjMt3w,5555
+labelx-2.2.1.dist-info/AUTHORS.rst,sha256=zvBr2aY7k3LarsGXcDMARqLcYajqD-6iEtZXNRK9yBM,154
+labelx-2.2.1.dist-info/LICENSE,sha256=f27dHRm35C-TSLSIBxnQTd6fnBLyJkilKAVhEXMgDek,1551
+labelx-2.2.1.dist-info/METADATA,sha256=-BHC2qrKkWI04sxeCI_0IdisZCD4ZuFC4uLozM2mxz0,2048
+labelx-2.2.1.dist-info/WHEEL,sha256=z9j0xAa_JmUKMpmz72K0ZGALSM_n-wQVmGbleXx2VHg,110
+labelx-2.2.1.dist-info/entry_points.txt,sha256=7FzzoHIjr0HU1DOsTAEg6WzOtG56k8iZFqRIhrGvoqw,55
+labelx-2.2.1.dist-info/top_level.txt,sha256=5847sDDPZaq3KQ3aLzO5amI47WTaQACC9maMm_LMxRg,7
+labelx-2.2.1.dist-info/RECORD,,
