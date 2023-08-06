@@ -1,0 +1,8 @@
+Flask-SSLify==0.1.5
+Jinja2>=2.10.1
+MarkupSafe==0.23
+WTForms==2.1
+Werkzeug==0.11.11
+click==6.6
+flask>=0.12.3
+itsdangerous==0.24
