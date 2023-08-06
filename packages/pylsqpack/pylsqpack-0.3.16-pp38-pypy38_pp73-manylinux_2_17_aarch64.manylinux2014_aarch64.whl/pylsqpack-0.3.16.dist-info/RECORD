@@ -1,0 +1,11 @@
+pylsqpack-0.3.16.dist-info/LICENSE,sha256=ByBf5pndlRruDwnP5qPqqiCrhyzcULhiLw0AXL1JhQI,1515
+pylsqpack-0.3.16.dist-info/METADATA,sha256=DrusP2NSu7wa2kdVyYcletsv1IGJT35R4O5-4Th0OSU,1918
+pylsqpack-0.3.16.dist-info/top_level.txt,sha256=QS-Tl3rMYCkkfn67PH4TbFiOG1kpS_v96u4MIpw0LQ0,10
+pylsqpack-0.3.16.dist-info/RECORD,,
+pylsqpack-0.3.16.dist-info/WHEEL,sha256=M3fni4y1d6BNhAYBFySmuMK6JsiIpflYa0K_GcvlKOw,164
+pylsqpack/_binding.cpython-38-aarch64-linux-gnu.so,sha256=X_pI0-jo44z4rnQobeJNCNgghhPjRRpjiQ975RE-9sY,1175488
+pylsqpack/_binding.pypy38-pp73-aarch64-linux-gnu.so,sha256=ZPRDlntOAj8CLavQWtkJAOrPgtKxn6l92gxoevh3GPU,931800
+pylsqpack/py.typed,sha256=sow9soTwP9T_gEAQSVh7Gb8855h04Nwmhs2We-JRgZM,7
+pylsqpack/__init__.py,sha256=g-Vs2JN1XT9UrZk42GimdvicNTAY55jmgkD5WfUpSxA,191
+pylsqpack/about.py,sha256=NPspt4OTTU74-DvPTY_K0XbcsB4wKvkTwm1jG52Y2o8,241
+pylsqpack/__init__.pyi,sha256=DtFR_NjgfyjmN1gPTx00ywfvW6uXmj1KftXqmriKHoY,801
