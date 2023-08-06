@@ -1,0 +1,15 @@
+trytond/modules/account_de_skr03/__init__.py,sha256=Udga9tDUyjvWSXwU1QI0tD-U1MbErkU2RkAFXhxIbe0,377
+trytond/modules/account_de_skr03/account.py,sha256=2FVeLfWoMpaboTbh4quZjhTdbUWv4-fZA2hQNy811Fk,3010
+trytond/modules/account_de_skr03/account.xml,sha256=02eRLVsyc4PcQHFwohYUN_Slg9VZXYH1HhX7hADaZKA,757
+trytond/modules/account_de_skr03/account_de.xml,sha256=rLjO1jXnDzDQj1P30s2EgrL-KsVldOAhhV2qxl6uFGA,394438
+trytond/modules/account_de_skr03/tax_de.xml,sha256=wfu4zhV618aDoJFwDqtOYBn-h07wOdDGmIdnVEeFeqQ,131669
+trytond/modules/account_de_skr03/tryton.cfg,sha256=6Ox31CgWv88TfCFpnSSaSprKWBMR-Bx_0YxUXFa4czo,223
+trytond/modules/account_de_skr03/tests/__init__.py,sha256=0fiszsMM23-_OZvlFfcfEezfd4ZuJOfR2EV6_3bdD04,333
+trytond/modules/account_de_skr03/tests/test_account_de_skr03.py,sha256=TQYXrrOYx5VGx5q9JNNDiuVRTuKFWskkhyK-YdHuc_M,569
+trytond/modules/account_de_skr03/view/account_type_form.xml,sha256=rL7L3DzBHU0gvGmdf5V6zYaOY8Xi8LD0pp8WThjmWk0,315
+m9s_account_de_skr03-6.0.1.1.dist-info/LICENSE,sha256=jOtLnuWt7d5Hsx6XXB2QxzrSe2sWWh3NgMfFRetluQM,35147
+m9s_account_de_skr03-6.0.1.1.dist-info/METADATA,sha256=P4ln68vDGE7gSJTiPqjEw7061kl8HKXlBBt3UkJ37Q0,3635
+m9s_account_de_skr03-6.0.1.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+m9s_account_de_skr03-6.0.1.1.dist-info/entry_points.txt,sha256=MNmDBYrL-yfziHPvpJioB09WpvLdyDW2GkIoMj7fggo,83
+m9s_account_de_skr03-6.0.1.1.dist-info/top_level.txt,sha256=1UNriCfRfjRjutJbJ_B8i13huVUoV_Otp9RlW3mCfw4,8
+m9s_account_de_skr03-6.0.1.1.dist-info/RECORD,,
