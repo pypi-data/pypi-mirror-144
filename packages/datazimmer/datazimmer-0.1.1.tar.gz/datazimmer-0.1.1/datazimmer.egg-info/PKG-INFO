@@ -1,0 +1,69 @@
+Metadata-Version: 2.1
+Name: datazimmer
+Version: 0.1.1
+Summary: sscu-budapest utilities for scientific data engineering
+Home-page: https://github.com/sscu-budapest/datazimmer
+Author: Social Science Computing Unit Budapest
+License: Copyright 2022 Social Science Computing Unit Budapest
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+Project-URL: Home, https://github.com/sscu-budapest/datazimmer
+Platform: any
+Classifier: License :: OSI Approved :: MIT License
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Provides-Extra: parallel
+Provides-Extra: dev
+Provides-Extra: complete
+License-File: LICENSE
+
+# datazimmer
+
+[![Documentation Status](https://readthedocs.org/projects/datazimmer/badge/?version=latest)](https://datazimmer.readthedocs.io/en/latest)
+[![codeclimate](https://img.shields.io/codeclimate/maintainability/sscu-budapest/datazimmer.svg)](https://codeclimate.com/github/sscu-budapest/datazimmer)
+[![codecov](https://img.shields.io/codecov/c/github/sscu-budapest/datazimmer)](https://codecov.io/gh/sscu-budapest/datazimmer)
+[![pypi](https://img.shields.io/pypi/v/datazimmer.svg)](https://pypi.org/project/datazimmer/)
+
+Some utility function to help with
+
+- setting up data environments with invoke
+- simplified dvc pipeline registry
+
+these are used in the [artifact-template](https://github.com/sscu-budapest/project-template)
+
+Make sure that `python` points to `python>=3.8` and you have `pip` and `git`
+
+## Functions
+
+### Tinker
+
+> check out a table or few, with a notebook and some basic analysis to help
+
+### Engineer Research
+
+
+## Lookahead
+
+- overlapping names convention
+- resolve naming confusion with colassigner, colaccessor and table feature / composite type / index base classes
+- abstract composite type + subclass of entity class
+  - import ACT, inherit from it and specify 
+  - importing composite type is impossible now if it contains foreign key :(
+- automatic filter for env creation based on foreign key metadata
+- add option to infer data type of assigned feature
+  - can be problematic b/c pandas int/float/nan issue
+- sharing functions among projects
+  - functions specific to processing certain composite / named types
+  - e.g. function dealing with fitting into a limit in dogshow project 1
+- create similar sets of features in a dry way
+- detecting reliance of composite type given by assigner
+  - can wait, as initial import is just the assigner transformed to accessor
+- overlapping in entities
+  - detect / signal the same type of entity
+- properly assert importing
+
+
