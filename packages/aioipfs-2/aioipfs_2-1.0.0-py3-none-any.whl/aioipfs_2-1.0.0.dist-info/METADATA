@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: aioipfs-2
+Version: 1.0.0
+Author: Pasha Podolsky
+Author-email: ppodolsky@me.com
+Home-page: https://github.com/izihawa/aioipfs
+License: MIT License
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.9
+Requires-Dist: aiohttp>=3.7.4
+Requires-Dist: aiofiles>=0.4.0
+Requires-Dist: base58>=1.0.2
+Requires-Dist: orjson>=3
+
+# AioKIT
+
+Routines for asynchronous programming 
+
