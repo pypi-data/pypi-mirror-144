@@ -1,0 +1,5 @@
+Django>=2.0.0
+pynacl>=1.0.1
+
+[legacy]
+pycrypto>=2.6.1
