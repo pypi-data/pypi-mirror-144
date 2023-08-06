@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: ukw-tools
+Version: 0.0.2
+Summary: Package all around AI in colonoscopy.
+Home-page: https://github.com/Maddonix/ukw_tools
+Author: Thomas J. Lux
+Author-email: tlux14@gmail.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/pypa/sampleproject/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# ukw_tools
+Tools for the workgroup InExEn.
+
+## Requirements
+### Update requirements
+Command: pipreqs . --force
+
+## Commit
+### Bumpversion
+Update the packages version by entering "bumpversion major" (minor, patch)
+Add all files to include in the .bumpversion.cfg file.
+### Create new Build:
+python3 -m build
+### Upload to pypi
+python3 -m twine upload --repository testpypi dist/*
+python3 -m twine upload dist/*
+
