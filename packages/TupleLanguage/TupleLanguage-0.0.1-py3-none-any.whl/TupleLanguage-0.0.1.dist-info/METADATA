@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: TupleLanguage
+Version: 0.0.1
+Summary: Basic Programming Language built on python
+Home-page: UNKNOWN
+Author: HTG
+License: UNKNOWN
+Keywords: python,video,stream,video stream,camera stream,sockets
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+
+A package that allows to code on custom language built on python.
+
