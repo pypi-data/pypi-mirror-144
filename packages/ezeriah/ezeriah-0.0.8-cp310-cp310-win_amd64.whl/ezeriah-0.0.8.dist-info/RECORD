@@ -1,0 +1,9 @@
+_cyth.cp310-win_amd64.pyd,sha256=UQIBKQBZXn8DilvvKvfCWXEKY9XxS7bFEPqaOupQxXY,19968
+ezeriah/__init__.py,sha256=5MnC4DFP52n_gQUKYggW-9u6WXJJ8otap8Ghly93Bj4,60
+ezeriah/_cyth.cp310-win_amd64.pyd,sha256=0gGNXB8yAXdnWc4a73xq1hRiUV0iTnD5DuU8m4aHCEY,19968
+ezeriah/cyth.py,sha256=yKJoZ3BIaBtrDVsekxM3H4UxgtEgXy10w6sjWl8exvA,61
+ezeriah/init.py,sha256=xRkSfC4iGV6pDo6hwsdf__3h70MEJrkDUsEiJhPKPjg,44
+ezeriah-0.0.8.dist-info/METADATA,sha256=nRhVGZ1U_rl3lUMhdmM1H6qMV0uLuC-BJJpyES2zhgE,500
+ezeriah-0.0.8.dist-info/WHEEL,sha256=W26pYN7HLsBT1jrDSL9udgf_mdNKJmYmL23sIP-FcgM,102
+ezeriah-0.0.8.dist-info/top_level.txt,sha256=2Ibh9QdAt5TMvdomWgDkqR-ZNtBpdHojfjF_jQvxPsE,14
+ezeriah-0.0.8.dist-info/RECORD,,
