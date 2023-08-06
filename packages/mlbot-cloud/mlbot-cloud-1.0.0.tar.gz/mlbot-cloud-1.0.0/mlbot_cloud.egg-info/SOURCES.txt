@@ -1,0 +1,12 @@
+MANIFEST.in
+README.md
+mlbot.py
+setup.py
+artifacts/cluster/eks/torchelastic/etcd.yaml
+artifacts/docker/Dockerfile
+mlbot_cloud.egg-info/PKG-INFO
+mlbot_cloud.egg-info/SOURCES.txt
+mlbot_cloud.egg-info/dependency_links.txt
+mlbot_cloud.egg-info/entry_points.txt
+mlbot_cloud.egg-info/requires.txt
+mlbot_cloud.egg-info/top_level.txt
