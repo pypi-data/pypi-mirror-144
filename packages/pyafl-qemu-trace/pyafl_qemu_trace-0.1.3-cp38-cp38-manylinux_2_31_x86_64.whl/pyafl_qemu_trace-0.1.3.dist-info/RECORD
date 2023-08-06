@@ -1,0 +1,7 @@
+pyafl_qemu_trace/__init__.py,sha256=6SkYhSnocuEX8MG4zEBVMTOsRgpTV0iyTdIcmi78iRs,977
+pyafl_qemu_trace/binaries/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pyafl_qemu_trace/binaries/afl-qemu-trace-aarch64,sha256=Jko20zSkuuVws4Ju-QhzCcRrX7IA1U4yVUn4sQQfbiQ,10230848
+pyafl_qemu_trace/binaries/afl-qemu-trace-x86_64,sha256=7N0IkXV-u_HiopeQBmi6HuNq_Qo9w3sS1KKMiXbME2w,7082712
+pyafl_qemu_trace-0.1.3.dist-info/WHEEL,sha256=mOkm1JCvfKhxg2VAiYBmU21q-HjMBLQm669sSIu0xHE,103
+pyafl_qemu_trace-0.1.3.dist-info/METADATA,sha256=a_81qchiW4Ac0KOP8GES-h-WkiQnG0zOWjRwq9Wf1uI,2144
+pyafl_qemu_trace-0.1.3.dist-info/RECORD,,
