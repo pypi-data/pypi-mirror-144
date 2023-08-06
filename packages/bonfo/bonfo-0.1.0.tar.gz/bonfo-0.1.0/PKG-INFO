@@ -1,0 +1,76 @@
+Metadata-Version: 2.1
+Name: bonfo
+Version: 0.1.0
+Summary: Multiwii flight controller configuration management
+Home-page: https://github.com/destos/bonfo
+License: MIT
+Author: Patrick Forringer
+Author-email: patrick@forringer.com
+Requires-Python: >=3.8,<4.0
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Provides-Extra: dev
+Provides-Extra: doc
+Provides-Extra: test
+Requires-Dist: autoflake8 (>=0.3.1,<0.4.0); extra == "dev"
+Requires-Dist: black (>=21.5b2,<22.0); extra == "test"
+Requires-Dist: bump2version (>=1.0.1,<2.0.0); extra == "dev"
+Requires-Dist: click (==8.0.1)
+Requires-Dist: construct (>=2.10.67,<3.0.0)
+Requires-Dist: construct-typing (>=0.5.2,<0.6.0); extra == "dev"
+Requires-Dist: dataclass-wizard (>=0.22.0,<0.23.0)
+Requires-Dist: flake8 (>=3.9.2,<4.0.0); extra == "test"
+Requires-Dist: flake8-docstrings (>=1.6.0,<2.0.0); extra == "test"
+Requires-Dist: isort (>=5.8.0,<6.0.0); extra == "test"
+Requires-Dist: loca (>=2.0.1,<3.0.0)
+Requires-Dist: mkdocs (>=1.3.0,<2.0.0); extra == "doc"
+Requires-Dist: mkdocs-autorefs (>=0.4.1,<0.5.0); extra == "doc"
+Requires-Dist: mkdocs-include-markdown-plugin (>=3.3.0,<4.0.0); extra == "doc"
+Requires-Dist: mkdocs-material (>=8.2.8,<9.0.0); extra == "doc"
+Requires-Dist: mkdocs-material-extensions (>=1.0.3,<2.0.0)
+Requires-Dist: mkdocstrings (>=0.18.1,<0.19.0); extra == "doc"
+Requires-Dist: mypy (>=0.940,<0.941); extra == "test"
+Requires-Dist: pip (>=20.3.1,<21.0.0); extra == "dev"
+Requires-Dist: pre-commit (>=2.12.0,<3.0.0); extra == "dev"
+Requires-Dist: pyserial (>=3.5,<4.0)
+Requires-Dist: pytest (>=6.2.4,<7.0.0); extra == "test"
+Requires-Dist: pytest-cov (>=2.12.0,<3.0.0); extra == "test"
+Requires-Dist: pytest-watcher (>=0.2.3,<0.3.0); extra == "dev"
+Requires-Dist: rich (>=12.0.1,<13.0.0)
+Requires-Dist: rich-click (>=1.2.1,<2.0.0)
+Requires-Dist: toml (>=0.10.2,<0.11.0); extra == "dev"
+Requires-Dist: tox (>=3.20.1,<4.0.0); extra == "dev"
+Requires-Dist: twine (>=3.8.0,<4.0.0); extra == "dev"
+Requires-Dist: virtualenv (>=20.2.2,<21.0.0); extra == "dev"
+Description-Content-Type: text/markdown
+
+# Bonfo - Betaflight configuration management
+
+[![pypi](https://img.shields.io/pypi/v/bonfo.svg)](https://pypi.org/project/bonfo/)
+[![python](https://img.shields.io/pypi/pyversions/bonfo.svg)](https://pypi.org/project/bonfo/)
+[![Build Status](https://github.com/destos/bonfo/actions/workflows/dev.yml/badge.svg)](https://github.com/destos/bonfo/actions/workflows/dev.yml)
+[![codecov](https://codecov.io/gh/destos/bonfo/branch/main/graphs/badge.svg)](https://codecov.io/github/destos/bonfo)
+
+
+* Documentation: <https://destos.github.io/bonfo>
+* GitHub: <https://github.com/destos/bonfo>
+* PyPI: <https://pypi.org/project/bonfo/>
+* Free software: MIT
+
+## Features
+
+* Connects to Betaflight flight controllers
+* More soon ( lol )
+
+## Credits
+
+This package was created with [Cookiecutter](https://github.com/audreyr/cookiecutter) and the [waynerv/cookiecutter-pypackage](https://github.com/waynerv/cookiecutter-pypackage) project template.
+
