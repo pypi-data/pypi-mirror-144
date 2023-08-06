@@ -1,0 +1,50 @@
+Metadata-Version: 2.1
+Name: sixty
+Version: 0.1
+Summary: Python wrapper for SIXTE
+Home-page: https://github.com/ruizca/sixty
+Author: Angel Ruiz
+Author-email: angel.ruizca@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering :: Astronomy
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: POSIX :: Linux
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# sixty
+A simple python wrapper for [SIXTE](https://www.sternwarte.uni-erlangen.de/research/sixte/index.php), a software package for X-ray telescope observation simulations.
+
+This module assumes that a working installation of SIXTE and SIMPUT is available in your system. See the installation instructions in the [SIXTE website](https://www.sternwarte.uni-erlangen.de/research/sixte/simulation.php). I have only trested this on linux, I don't know if it would work on macOS.
+
+
+Example
+-------
+```
+import sixty
+
+sixty.run("sixteversion")
+```
+
+Any command available for SIXTE/SIMPUT can be called by the `run` method. For example, to run the first example presented in the SIXTE website, you can do (assuming you already have the required files):
+```
+sixty.run(
+  "simputfile",
+  RA=40.2,
+  Dec=12.8,
+  XSPECFile="example_spectrum.xcm",
+  LCFile=example_lightcurve.dat,
+  MJDREF=50800.0,
+  Emin=0.5,
+  Emax=10.0,
+  srcFlux=2.3e-12,
+  Simput="example_source.simput",
+)
+```
+
+
