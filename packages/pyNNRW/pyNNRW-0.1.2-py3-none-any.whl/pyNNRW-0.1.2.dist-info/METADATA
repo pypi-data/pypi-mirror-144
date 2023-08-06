@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: pyNNRW
+Version: 0.1.2
+Summary: A Python library for NNRW (neural network with random weights)
+Home-page: https://github.com/zhangys11/pyNNRW
+Author: Yinsheng Zhang (Ph.D.)
+Author-email: oo@zju.edu.cn
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/zhangys11/pyNNRW/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU Lesser General Public License v3 or later (LGPLv3+)
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Scientific/Engineering :: Mathematics
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENCE
+Requires-Dist: keras
+Requires-Dist: scikit-learn
+Requires-Dist: matplotlib
+Requires-Dist: numpy
+
+UNKNOWN
+
