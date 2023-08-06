@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/tf_frodo/__init__.py
+src/tf_frodo/frodo.py
+src/tf_frodo/test_model.py
+src/tf_frodo/utils.py
+src/tf_frodo.egg-info/PKG-INFO
+src/tf_frodo.egg-info/SOURCES.txt
+src/tf_frodo.egg-info/dependency_links.txt
+src/tf_frodo.egg-info/top_level.txt
