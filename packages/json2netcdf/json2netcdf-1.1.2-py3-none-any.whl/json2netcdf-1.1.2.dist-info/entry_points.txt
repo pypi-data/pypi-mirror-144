@@ -1,0 +1,2 @@
+[console_scripts]
+json2netcdf = json2netcdf.__main__:main
