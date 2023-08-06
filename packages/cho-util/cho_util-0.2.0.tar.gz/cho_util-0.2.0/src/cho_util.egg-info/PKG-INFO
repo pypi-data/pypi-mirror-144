@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: cho-util
+Version: 0.2.0
+Summary: Collection of python utilities for a roboticist
+Home-page: https://github.com/yycho0108/cho-util
+Author: Yoonyoung (Jamie) Cho
+Author-email: jchocholate@gmail.com
+License: MIT
+Description: # Cho-Util
+        
+        ![Python package](https://github.com/yycho0108/cho-util/workflows/Python%20package/badge.svg)
+        
+        Common utility functions generally targetted for robotics.
+        
+        Currently mostly implements mathematical operations and application-related utilities.
+        
+Keywords: robotics
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
