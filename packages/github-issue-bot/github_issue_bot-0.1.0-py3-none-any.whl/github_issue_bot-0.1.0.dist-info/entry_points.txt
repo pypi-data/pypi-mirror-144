@@ -1,0 +1,3 @@
+[console_scripts]
+github-issue-bot=github_issue_bot.__main__:cli
+
