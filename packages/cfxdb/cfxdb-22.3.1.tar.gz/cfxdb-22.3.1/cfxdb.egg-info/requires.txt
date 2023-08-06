@@ -1,0 +1,4 @@
+zlmdb>=22.3.1
+autobahn[serialization,twisted,xbr]>=22.3.1
+web3>=5.28.0
+argon2>=0.1.10
