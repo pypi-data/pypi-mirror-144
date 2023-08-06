@@ -1,0 +1,11 @@
+
+github_owner: "BMeyn"
+github_repo: "synapse_build"
+project_name: "Synapse Build"
+package_name: "synapse-build"
+package_description: "Automated build for synapse workspace artifacts"
+project_banner: "/docs/images/project-banner.png"
+project_feature: 
+    - "Build deployment files directly from the synapse artifact in git"
+    - "Automate workspace publish button"
+    - "Replace values with parameters in synapse json artifacts"
