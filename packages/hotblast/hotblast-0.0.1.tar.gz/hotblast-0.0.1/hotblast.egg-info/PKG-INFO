@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: hotblast
+Version: 0.0.1
+Summary: 一个轻型搜索工具。
+Home-page: https://gitee.com/huang-hongzhe/prioritization
+Author: 黄宏哲
+Author-email: 2528104776@qq.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# hotblast
+
+这是一个搜索程序更多信息，请查看:
+[官方网址](https://gitee.com/huang-hongzhe/prioritization)
+
+
