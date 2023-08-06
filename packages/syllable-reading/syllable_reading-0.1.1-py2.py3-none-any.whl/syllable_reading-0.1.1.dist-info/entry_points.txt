@@ -1,0 +1,3 @@
+[console_scripts]
+syllable_reading = syllable_reading.cli:main
+
