@@ -1,0 +1,16 @@
+click
+click-default-group
+fiona
+geojson
+numpy
+shapely
+tqdm
+
+[notebooks]
+jupyter
+matplotlib
+descartes
+
+[test]
+pytest
+pytest-xdist
