@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/pytermor/__init__.py
+src/pytermor/format.py
+src/pytermor/preset.py
+src/pytermor/sequence.py
+src/pytermor/string_filter.py
+src/pytermor.egg-info/PKG-INFO
+src/pytermor.egg-info/SOURCES.txt
+src/pytermor.egg-info/dependency_links.txt
+src/pytermor.egg-info/top_level.txt
