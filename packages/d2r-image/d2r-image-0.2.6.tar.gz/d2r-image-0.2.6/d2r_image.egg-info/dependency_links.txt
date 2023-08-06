@@ -1,0 +1,1 @@
+file://localhost/home/runner/work/d2r_image/d2r_image/dependencies/tesserocr-2.5.2-cp39-cp39-win_amd64.whl

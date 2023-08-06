@@ -1,0 +1,9 @@
+opencv-python
+keyboard
+pyparsing
+psutil
+mss
+tesserocr
+dataclasses-json
+parse
+rapidfuzz
