@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: cameo_fastapi
+Version: 0.1.0
+Summary: CAMEO FastAPI
+Home-page: https://github.com/bohachu/cameo_fastapi
+Author: Bowen Chiu
+Author-email: bohachu@gmail.com
+License: BSD 0-clause license
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+
+UNKNOWN
+
