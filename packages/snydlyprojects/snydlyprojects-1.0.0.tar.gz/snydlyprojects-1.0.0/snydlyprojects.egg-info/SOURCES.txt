@@ -1,0 +1,12 @@
+CHANGELOG.txt
+LICENSE.txt
+MANIFEST.in
+README.txt
+setup.py
+snydlyprojects/__init__.py
+snydlyprojects.egg-info/PKG-INFO
+snydlyprojects.egg-info/SOURCES.txt
+snydlyprojects.egg-info/dependency_links.txt
+snydlyprojects.egg-info/requires.txt
+snydlyprojects.egg-info/top_level.txt
+snydlyprojects/calculator/__init__.py
