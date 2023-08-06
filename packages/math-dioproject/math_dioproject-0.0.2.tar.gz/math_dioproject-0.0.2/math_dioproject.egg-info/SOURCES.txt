@@ -1,0 +1,12 @@
+README.md
+setup.py
+math_dioproject/__init__.py
+math_dioproject.egg-info/PKG-INFO
+math_dioproject.egg-info/SOURCES.txt
+math_dioproject.egg-info/dependency_links.txt
+math_dioproject.egg-info/top_level.txt
+math_dioproject/basicfunctions/__init__.py
+math_dioproject/basicfunctions/complex.py
+math_dioproject/basicfunctions/simples.py
+math_dioproject/verificador/__init__.py
+math_dioproject/verificador/verifier.py
