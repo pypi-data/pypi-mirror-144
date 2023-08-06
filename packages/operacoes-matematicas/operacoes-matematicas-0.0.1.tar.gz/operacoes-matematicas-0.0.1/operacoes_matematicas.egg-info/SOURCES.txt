@@ -1,0 +1,8 @@
+README.md
+setup.py
+operacoes-matematicas/__init__.py
+operacoes-matematicas/operations.py
+operacoes_matematicas.egg-info/PKG-INFO
+operacoes_matematicas.egg-info/SOURCES.txt
+operacoes_matematicas.egg-info/dependency_links.txt
+operacoes_matematicas.egg-info/top_level.txt
