@@ -1,0 +1,5 @@
+[console_scripts]
+modifty = hotblast:modifty_conf
+push = hotblast:push
+so = hotblast:finding
+
