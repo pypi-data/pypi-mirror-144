@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: rpaframework-aws
+Version: 0.1.0
+Summary: AWS library for RPA Framework
+License: Apache-2.0
+Author: RPA Framework
+Author-email: rpafw©robocorp.com
+Requires-Python: >=3.6.2,<4.0.0
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Description-Content-Type: text/markdown
+
+# rpaframework-aws
+
+This library enables Amazon AWS services for `RPA Framework`\_
+libraries, such as Textract and S3.
+
+.. \_RPA Framework: https://rpaframework.org
+
