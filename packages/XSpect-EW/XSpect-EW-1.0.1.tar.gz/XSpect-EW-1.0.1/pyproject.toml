@@ -1,0 +1,19 @@
+[build-system]
+requires = ["flit_core >=3.2,<4"]
+build-backend = "flit_core.buildapi"
+
+[project]
+name = "XSpect-EW"
+authors = [{name = "George Vejar", email = "forgeousgeorge@gmail.com"}]
+readme = "README.md"
+classifiers = ["License :: OSI Approved :: MIT License",]
+requires-python = ">=3.5"
+dynamic = ["version", "description"]
+dependencies = ["numpy >=1.2", "matplotlib >=3.4", "scipy >=1.6", "astropy >=4.0", "george >=0.4"]
+
+
+[project.urls]
+Home = "https://github.com/forgeousgeorge/XSpect"
+
+[tool.flit.module]
+name = "XSpect_EW"
