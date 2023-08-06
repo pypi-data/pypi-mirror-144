@@ -1,0 +1,6 @@
+setup.py
+smart_table_understanding_system.egg-info/PKG-INFO
+smart_table_understanding_system.egg-info/SOURCES.txt
+smart_table_understanding_system.egg-info/dependency_links.txt
+smart_table_understanding_system.egg-info/requires.txt
+smart_table_understanding_system.egg-info/top_level.txt

@@ -1,0 +1,15 @@
+argparse
+cvxopt==1.2.0
+numpy
+openpyxl==2.5.1
+pandas
+pslpython
+pyexcel-io==0.5.6
+pyexcel-xls==0.5.6
+pyexcel-xlsx==0.5.6
+pyexcel==0.5.7
+pystruct
+python-dateutil==2.7.5
+pyyaml==3.12
+sklearn
+xlrd==1.1.0
