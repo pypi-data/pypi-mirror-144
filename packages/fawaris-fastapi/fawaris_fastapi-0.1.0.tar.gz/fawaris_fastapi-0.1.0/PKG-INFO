@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: fawaris-fastapi
+Version: 0.1.0
+Summary: Stellar Anchor implementation using FastAPI
+License: Apache License Version 2.0
+Author: Yuri Escalianti
+Author-email: yuriescl@gmail.com
+Requires-Python: >=3.7,<4.0
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: aiosqlite (>=0.17.0,<0.18.0)
+Requires-Dist: databases (>=0.5.5,<0.6.0)
+Requires-Dist: fastapi (>=0.75.0,<0.76.0)
+Requires-Dist: fawaris (>=0.1.36,<0.2.0)
+Requires-Dist: overrides (>=6.1.0,<7.0.0)
+Requires-Dist: python-multipart (>=0.0.5,<0.0.6)
+Requires-Dist: typer (>=0.4.0,<0.5.0)
+Requires-Dist: uvicorn (>=0.17.6,<0.18.0)
