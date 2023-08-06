@@ -1,0 +1,13 @@
+HISTORY.rst
+LICENSE
+MANIFEST.in
+README.rst
+pyproject.toml
+requirements.txt
+setup.cfg
+src/tri.api.egg-info/PKG-INFO
+src/tri.api.egg-info/SOURCES.txt
+src/tri.api.egg-info/dependency_links.txt
+src/tri.api.egg-info/requires.txt
+src/tri.api.egg-info/top_level.txt
+src/tri_api/__init__.py

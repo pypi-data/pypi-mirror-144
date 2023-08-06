@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: tri.api
+Version: 4.0.0
+Summary: Client library for TriOptima APIs
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Natural Language :: English
+Requires-Python: >=3.6
+Description-Content-Type: text/x-rst
+License-File: LICENSE
+
+tri.api
+=======
+
+Client code for accessing the TriOptima APIs.
+
+
+License
+-------
+
+BSD
+
+
