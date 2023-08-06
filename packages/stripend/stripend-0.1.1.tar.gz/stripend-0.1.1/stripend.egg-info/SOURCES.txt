@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+stripend/__init__.py
+stripend/stripend.py
+stripend.egg-info/PKG-INFO
+stripend.egg-info/SOURCES.txt
+stripend.egg-info/dependency_links.txt
+stripend.egg-info/top_level.txt
