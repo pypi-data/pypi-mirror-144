@@ -1,0 +1,11 @@
+aquaparser/__init__.py,sha256=RqI7ee4JAbwsbti8I-X3TNEjJijBOidGQNVHJueFzzI,57
+aquaparser/__main__.py,sha256=N5Kejkr8r7VzGtXhdapCcowNYhdw-UYIUgbmOau8Fs4,412
+aquaparser/schemas.py,sha256=CxNIuzXzUI5TtFhbZNWy8x0mjLS4fkzSbDvhjSMmI0U,493
+aquaparser/parsers/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+aquaparser/parsers/parser.py,sha256=6bX-NeFl3wbk4zqftGvnd2j5SlO3VEcRwMWxxm9tEFI,912
+aquaparser/parsers/title_parser.py,sha256=7BXn9VYayAl59qimDm4TieU33UU5iZYbHt4I1yQ_UOw,833
+aquaparser/parsers/toc_parser.py,sha256=JAUJKbJpEOPJsxNQ2rAT8mJ2ECjejKmGH8pKAlA_hz4,1335
+aqua_parser-0.1.dist-info/LICENSE,sha256=HLwEvhzjI-VQHZ3v1SsxdnVd0O9WaqQ1sSadKzJ80pg,1067
+aqua_parser-0.1.dist-info/WHEEL,sha256=4TfKIB_xu-04bc2iKz6_zFt-gEFEEDU_31HGhqzOCE8,81
+aqua_parser-0.1.dist-info/METADATA,sha256=D4kfbbOTnpFnMpe4Q3ZyHy2JD71sAl9FnfsTsGF0V7o,4569
+aqua_parser-0.1.dist-info/RECORD,,
