@@ -1,0 +1,13 @@
+gitalong/__info__.py,sha256=fm8IUL4aAXVSJH6fPoZVqTwRuN01ee9G-CSEAiuE6cQ,157
+gitalong/__init__.py,sha256=PnGNCyegXx6oCthz-sXblFkXPAdgkz3Pc9Wq1EKBj9A,238
+gitalong/cli.py,sha256=VDvpTBiIONUg4hLUgmBcImkN7AU4zQjneWvXod5Yx9c,9337
+gitalong/enums.py,sha256=Zx9z5-qv_cXF9xXXkaor3O8YWjsxi_YzKGdI_rVCX4c,1097
+gitalong/exceptions.py,sha256=M8rZxtiAZQezK61u3Z5uB79EAYQShZIryGI8tbsdHMs,112
+gitalong/functions.py,sha256=PvK3xbvpD6ECgH-iEOrvKzXC1pSFhZlHZOMQryhOP_0,3406
+gitalong/repository.py,sha256=H6njOnDcPMP55sACf0VgHMwRDC0wdbb7V1cBSH43Imk,29863
+gitalong-0.1.0.dev5.dist-info/LICENSE,sha256=L_Gxl7jpU4ZCsGcCx9sKT2M01dynT-ed9aySQT1Vasc,1068
+gitalong-0.1.0.dev5.dist-info/METADATA,sha256=wBeiC4Uk_xCADDufwRdavPMwrDEfyIgnT12fRcChU50,9469
+gitalong-0.1.0.dev5.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+gitalong-0.1.0.dev5.dist-info/entry_points.txt,sha256=3SZNIjcsCjRNhUwiVMbAO1do-ZrP4yGoOW90zYJ4JEg,96
+gitalong-0.1.0.dev5.dist-info/top_level.txt,sha256=LdLspvuT2PMBGXqJC8iBf1hOk943PfkkXvNg5rjOGME,9
+gitalong-0.1.0.dev5.dist-info/RECORD,,
