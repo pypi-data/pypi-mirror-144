@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/hahahexample/__init__.py
+src/hahahexample/hahahexample.py
+src/hahahexample.egg-info/PKG-INFO
+src/hahahexample.egg-info/SOURCES.txt
+src/hahahexample.egg-info/dependency_links.txt
+src/hahahexample.egg-info/requires.txt
+src/hahahexample.egg-info/top_level.txt
