@@ -1,0 +1,6 @@
+[intentbox.segmentation]
+ovos-segmentation-plugin-quebrafrases=ovos_plugin_manager.templates.segmentation:Segmenter
+
+[intentbox.tokenization]
+ovos-tokenization-plugin-quebrafrases=ovos_plugin_manager.templates.tokenization:Tokenizer
+
