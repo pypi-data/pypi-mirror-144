@@ -1,0 +1,17 @@
+README.md
+setup.py
+IIIFpres/BCP47_tags.py
+IIIFpres/BCP47_tags_list.py
+IIIFpres/MediaTypes.py
+IIIFpres/__init__.py
+IIIFpres/dictmediatype.py
+IIIFpres/extensions.py
+IIIFpres/iiifpapi3.py
+IIIFpres/newfunc.py
+IIIFpres/plus.py
+IIIFpres/utilities.py
+IIIFpres/visualization_html.py
+pyIIIFpres.egg-info/PKG-INFO
+pyIIIFpres.egg-info/SOURCES.txt
+pyIIIFpres.egg-info/dependency_links.txt
+pyIIIFpres.egg-info/top_level.txt
