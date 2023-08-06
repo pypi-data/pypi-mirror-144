@@ -1,0 +1,11 @@
+conspiracies/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+conspiracies/about.py,sha256=IDjHgPVIyJAfMqz3cfoy2p3t-Me9ONGy1i08OEfzkeI,134
+conspiracies/download.py,sha256=H4uX6nt_RXnHhJudPR-FxnSQLvmy4TfjU38aXTtpu1Q,2553
+conspiracies/coref/CoreferenceModel.py,sha256=ojsjlmnky4y87fRlRHmscRAzKEHQ0cRrUfG7ZuH7xIU,2081
+conspiracies/coref/__init__.py,sha256=ACxXgvBxBxywZ6bNMcGKCQsEzFMMA3aKq46Z-gLtZR8,91
+conspiracies/coref/component.py,sha256=147lE5uvj-PLjnZRvw_W9H31IcOpP6YWihbnvEKpCqg,4641
+conspiracies-0.0.1.dist-info/LICENSE,sha256=er4Z7Ju3OzYUG5mbhh0krYVegIuv4PgehMzihVb2wpc,20131
+conspiracies-0.0.1.dist-info/METADATA,sha256=XHcNrFE7Y-OJQ6Gm24KeViU16CywEyotzdQTvPPl-MY,3092
+conspiracies-0.0.1.dist-info/WHEEL,sha256=z9j0xAa_JmUKMpmz72K0ZGALSM_n-wQVmGbleXx2VHg,110
+conspiracies-0.0.1.dist-info/top_level.txt,sha256=hRiFa3t2gWTpZI6nQ2pdPcr9e7GmLDilCjeM44Am-AA,13
+conspiracies-0.0.1.dist-info/RECORD,,
