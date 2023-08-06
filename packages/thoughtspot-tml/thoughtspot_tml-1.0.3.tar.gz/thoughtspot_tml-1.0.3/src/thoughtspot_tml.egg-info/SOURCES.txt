@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/thoughtspot_tml/__init__.py
+src/thoughtspot_tml/tml.py
+src/thoughtspot_tml.egg-info/PKG-INFO
+src/thoughtspot_tml.egg-info/SOURCES.txt
+src/thoughtspot_tml.egg-info/dependency_links.txt
+src/thoughtspot_tml.egg-info/top_level.txt
