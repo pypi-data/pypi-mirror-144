@@ -1,0 +1,4 @@
+Markdown
+pyYaml
+mdx_wikilink_plus
+pymdown-extensions
