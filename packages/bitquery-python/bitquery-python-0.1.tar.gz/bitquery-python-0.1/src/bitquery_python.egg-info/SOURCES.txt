@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/bitquery/__init__.py
+src/bitquery/bitquery.py
+src/bitquery_python.egg-info/PKG-INFO
+src/bitquery_python.egg-info/SOURCES.txt
+src/bitquery_python.egg-info/dependency_links.txt
+src/bitquery_python.egg-info/top_level.txt
