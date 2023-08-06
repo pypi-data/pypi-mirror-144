@@ -1,0 +1,1 @@
+This is a selection of functions providing loading functionalities for files created with ARYELLE series spectrometers from LTB Lasertechnik Berlin GmbH and the Sophi software.
