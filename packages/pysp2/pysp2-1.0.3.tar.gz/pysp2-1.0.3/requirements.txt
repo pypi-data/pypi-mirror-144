@@ -1,0 +1,8 @@
+pandas
+numpy
+scipy
+xarray
+act-atmos
+xlrd
+numba
+pytest
