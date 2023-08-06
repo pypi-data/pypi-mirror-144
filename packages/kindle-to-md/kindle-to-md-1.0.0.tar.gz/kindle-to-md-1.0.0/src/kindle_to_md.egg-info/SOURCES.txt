@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/kindle_to_md.py
+src/kindle_to_md.egg-info/PKG-INFO
+src/kindle_to_md.egg-info/SOURCES.txt
+src/kindle_to_md.egg-info/dependency_links.txt
+src/kindle_to_md.egg-info/entry_points.txt
+src/kindle_to_md.egg-info/top_level.txt
