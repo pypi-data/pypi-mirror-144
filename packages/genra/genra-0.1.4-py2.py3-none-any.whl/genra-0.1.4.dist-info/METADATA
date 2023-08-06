@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: genra
+Version: 0.1.4
+Summary: Generalised Read Across (GenRA) in Python
+Home-page: https://github.com/i-shah/genra-py
+Author: Imran Shah
+Author-email: UNKNOWN
+License: MIT
+Keywords: genra
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Requires-Dist: numpy
+Requires-Dist: scipy
+Requires-Dist: scikit-learn (==1.0.1)
+Requires-Dist: lxml
+
+UNKNOWN
+
+
