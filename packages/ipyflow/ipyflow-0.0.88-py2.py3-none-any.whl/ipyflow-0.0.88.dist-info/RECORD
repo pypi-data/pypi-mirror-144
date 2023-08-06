@@ -1,0 +1,17 @@
+ipyflow-0.0.88.data/data/etc/jupyter/nbconfig/notebook.d/ipyflow.json,sha256=7aXeeNmJHGXRV12Y_LmO0UEAYSn35cG2pP8QNmwyvuM,57
+ipyflow-0.0.88.data/data/share/jupyter/kernels/ipyflow/kernel.json,sha256=Dbl5lFBm-ECEfVkrQMIxQoRLiGfNFtFqbIUdYvjcZHU,160
+ipyflow-0.0.88.data/data/share/jupyter/kernels/ipyflow/logo-32x32.png,sha256=59g-LNGInKzYdAuSL_ZqeMIIrOLLQ671jaMrB9Fb7y0,2329
+ipyflow-0.0.88.data/data/share/jupyter/kernels/ipyflow/logo-64x64.png,sha256=cQYv1O24jbHDzE0sHNzxyqKKUZ7NeHKW5I0lSrUJDnE,5018
+ipyflow-0.0.88.data/data/share/jupyter/labextensions/jupyterlab-ipyflow/package.json,sha256=ARji4ZkhZLotxYKv1__qQqzHdWEc3sh_9yJTjhbZSjk,2382
+ipyflow-0.0.88.data/data/share/jupyter/labextensions/jupyterlab-ipyflow/static/549.e72de0e2a5b995503b78.js,sha256=5y3g4qW5lVA7eOfaSZC3OqCuQcjqdVvPlHupzRNlHxI,5004
+ipyflow-0.0.88.data/data/share/jupyter/labextensions/jupyterlab-ipyflow/static/568.46db3287b20e41aa2e91.js,sha256=Rtsyh7IOQaoukZpeeVsxyEt3WZGjcVnnmIsl2K050rk,5064
+ipyflow-0.0.88.data/data/share/jupyter/labextensions/jupyterlab-ipyflow/static/remoteEntry.460c7f4b3574a78d7e14.js,sha256=Rgx_SzV0p41-FPMcPtXaxZbh4Ck2-OcRoYeDHTcsAfo,6944
+ipyflow-0.0.88.data/data/share/jupyter/labextensions/jupyterlab-ipyflow/static/style.js,sha256=JkjrgLxr1IfEdDSkKcqmXsFdNZ6cZpBeyQpuT8ouOd0,162
+ipyflow-0.0.88.data/data/share/jupyter/labextensions/jupyterlab-ipyflow/static/third-party-licenses.json,sha256=P_VjLKCSMZ3sXuPckg8bDyB8Xn8JD7EsiIoRqvSP3h0,2452
+ipyflow-0.0.88.data/data/share/jupyter/nbextensions/ipyflow/index.js,sha256=l7GmE1UY1mjk0FN6vyfZphMy7EzGLrpjlqV56aEmVAU,14043
+ipyflow-0.0.88.data/data/share/jupyter/nbextensions/ipyflow/index.js.map,sha256=wJTM0eUYM7Pjfa3MJqz1g9CBGmlEDP34NphTtaA2nM0,41944
+ipyflow-0.0.88.dist-info/LICENSE.txt,sha256=khc4BM4h7m_i62dZOg8Ke6l1eZ1ul2BvgG3AW2l1NAM,1471
+ipyflow-0.0.88.dist-info/METADATA,sha256=X4urAk7b2dJzRmIuCb5R5XSG9oqptOYRLeocMSULMJo,7108
+ipyflow-0.0.88.dist-info/WHEEL,sha256=z9j0xAa_JmUKMpmz72K0ZGALSM_n-wQVmGbleXx2VHg,110
+ipyflow-0.0.88.dist-info/top_level.txt,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+ipyflow-0.0.88.dist-info/RECORD,,
