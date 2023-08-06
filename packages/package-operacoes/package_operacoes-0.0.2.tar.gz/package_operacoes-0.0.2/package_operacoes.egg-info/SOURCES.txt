@@ -1,0 +1,10 @@
+README.md
+calculadora.py
+requirements.txt
+setup.py
+package_operacoes/__init__.py
+package_operacoes/funcoes.py
+package_operacoes.egg-info/PKG-INFO
+package_operacoes.egg-info/SOURCES.txt
+package_operacoes.egg-info/dependency_links.txt
+package_operacoes.egg-info/top_level.txt
