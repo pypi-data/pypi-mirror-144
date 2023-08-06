@@ -1,0 +1,2 @@
+[console_scripts]
+openapi2awsapigateway = openapi2awsapigateway.main:main
