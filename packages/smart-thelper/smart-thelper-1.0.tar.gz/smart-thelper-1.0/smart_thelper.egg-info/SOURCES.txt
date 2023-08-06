@@ -1,0 +1,6 @@
+setup.py
+smart_thelper.egg-info/PKG-INFO
+smart_thelper.egg-info/SOURCES.txt
+smart_thelper.egg-info/dependency_links.txt
+smart_thelper.egg-info/requires.txt
+smart_thelper.egg-info/top_level.txt
