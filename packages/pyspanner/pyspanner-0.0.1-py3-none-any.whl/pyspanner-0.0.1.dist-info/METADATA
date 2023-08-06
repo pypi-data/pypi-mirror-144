@@ -1,0 +1,41 @@
+Metadata-Version: 2.1
+Name: pyspanner
+Version: 0.0.1
+Summary: Python Tools
+Home-page: https://github.com/haogooder666/cli_man
+Author: Haogooder
+Author-email: haogooder@163.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+License-File: LICENSE
+Requires-Dist: loguru (>=0.6.0)
+Requires-Dist: flask (==2.0.3)
+Requires-Dist: pymongo (==4.0.2)
+Requires-Dist: pyyaml (==6.0)
+Requires-Dist: redis (==4.1.4)
+Requires-Dist: kafka-python (==2.0.2)
+
+# pyspanner
+
+## 概述
+
+Python基础工具包，包含kafka/mongo/redis/log/str/yaml工具
+
+### 安装
+
+要求:
+python >= 3.6
+
+    $ pip install pyspanner
+
+
+
+
+
+
