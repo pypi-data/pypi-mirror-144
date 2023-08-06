@@ -1,0 +1,7 @@
+README.md
+setup.cfg
+setup.py
+caratxmp2json.egg-info/PKG-INFO
+caratxmp2json.egg-info/SOURCES.txt
+caratxmp2json.egg-info/dependency_links.txt
+caratxmp2json.egg-info/top_level.txt
