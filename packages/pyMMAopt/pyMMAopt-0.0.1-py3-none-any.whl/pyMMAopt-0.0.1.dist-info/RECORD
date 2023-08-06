@@ -1,0 +1,10 @@
+pyMMAopt/__about__.py,sha256=C3lULMaH70x6x2oyL66D24NI-q0-0cPVKyZ4XM90yHk,304
+pyMMAopt/__init__.py,sha256=DeEq0yp091pvgztIUp0pYESVE9MzFGn5VS6IQEwqWmw,190
+pyMMAopt/constraints.py,sha256=bwSiuyfv8_ov6HKkpHNKn9l9_O7PFVaxDHaFkMcXXmc,2176
+pyMMAopt/mma.py,sha256=rvul9AQz5Dq6OU2sAoJtlqtp61pGgsYHHrVu1IMCqkU,27093
+pyMMAopt/mma_solver.py,sha256=i2pKBJfvLHc2s1D6YwxTU1CODWMd-dvGBtm-jkfcjcg,14429
+pyMMAopt-0.0.1.dist-info/LICENSE,sha256=jF4RF6CXPVo-azx6Q_eooODy9cf0cuAvgIWs9ozc6ho,17712
+pyMMAopt-0.0.1.dist-info/METADATA,sha256=4u_2ppFDSY76jXNN9vhAboFdk6SxIQgaHcbUNPVWdVU,1393
+pyMMAopt-0.0.1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+pyMMAopt-0.0.1.dist-info/top_level.txt,sha256=q2OHjVNxqrW7Gwa7dxAS2F9b5OOgyDVHTQdjtsHeX4s,9
+pyMMAopt-0.0.1.dist-info/RECORD,,
