@@ -1,0 +1,6 @@
+setup.py
+smart_DocParser.egg-info/PKG-INFO
+smart_DocParser.egg-info/SOURCES.txt
+smart_DocParser.egg-info/dependency_links.txt
+smart_DocParser.egg-info/requires.txt
+smart_DocParser.egg-info/top_level.txt
