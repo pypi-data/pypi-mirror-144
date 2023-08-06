@@ -1,0 +1,10 @@
+Metadata-Version: 1.2
+Name: PyIng
+Version: 0.1.10
+Summary: Parses ingredient names into Name, Unit and Quantity
+Home-page: https://github.com/whitew1994WW/PyIng
+Author: Will White
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.7

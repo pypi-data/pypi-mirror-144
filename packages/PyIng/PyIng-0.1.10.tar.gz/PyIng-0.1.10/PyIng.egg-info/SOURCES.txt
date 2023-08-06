@@ -1,0 +1,9 @@
+README.md
+setup.py
+PyIng/__init__.py
+PyIng/ingredient_parser.py
+PyIng.egg-info/PKG-INFO
+PyIng.egg-info/SOURCES.txt
+PyIng.egg-info/dependency_links.txt
+PyIng.egg-info/requires.txt
+PyIng.egg-info/top_level.txt
