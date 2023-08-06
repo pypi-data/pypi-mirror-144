@@ -1,0 +1,2 @@
+[console_scripts]
+gumnut-assembler = gumnut_assembler.assembler:main
