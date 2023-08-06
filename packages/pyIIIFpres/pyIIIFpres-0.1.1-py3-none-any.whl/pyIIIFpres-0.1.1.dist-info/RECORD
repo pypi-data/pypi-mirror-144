@@ -1,0 +1,16 @@
+IIIFpres/BCP47_tags.py,sha256=FHBMO_se0y9j2Jo7HaaQPHpHNCGTdWATgh73th9tTaI,192978
+IIIFpres/BCP47_tags_list.py,sha256=cX8SegGOEbyhXCMbz5LtgjtHt7Uv4PRlLjhMWHQsf1w,55902
+IIIFpres/MediaTypes.py,sha256=tWMVsKsIta20X_EtHo7DpacMtf9YReco2-PyeJprCrY,104142
+IIIFpres/__init__.py,sha256=tGy5KK_r3CR6mAy4kKBJ4FDjEl3yt3cpn0qQl9J5_us,33
+IIIFpres/dictmediatype.py,sha256=YFEGSF85VhH9a0cDHl83pki2v8oWv86YpqZC-g-vEL0,60755
+IIIFpres/extensions.py,sha256=98WnR-wkmxWt9vk964MyYMDzun_3zBvuRMikspbYSQc,4519
+IIIFpres/iiifpapi3.py,sha256=SaStdN8xQDktfJWASXxnHlhDKWP45IhseU5drSwOe2A,83161
+IIIFpres/newfunc.py,sha256=6UOc5JdfQUYeq1UpQLriv264dQvpxb7ymSzPlQllGrI,538
+IIIFpres/plus.py,sha256=Ijl3wTklcSNJSZ8PnUnr57L6qYKaQeVZ21flzW9FiMQ,1064
+IIIFpres/utilities.py,sha256=9Cd6MbmAuuCKosm3Lj_tXghTysXQT5IAygLMvd89NIY,5178
+IIIFpres/visualization_html.py,sha256=rKindaK-ciiN4EQR0TqG1ECHbTVLckxY9GM0jBmOj4k,1318
+pyIIIFpres-0.1.1.dist-info/LICENSE,sha256=X3q-yNjoKVDuEOkM5kPVPxu67dZA4H5SlE2B288BHVg,1074
+pyIIIFpres-0.1.1.dist-info/METADATA,sha256=AuqH7qOivOZTFea5aPH4mkhBXfJOMbFYsrnjO4IKFds,5199
+pyIIIFpres-0.1.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+pyIIIFpres-0.1.1.dist-info/top_level.txt,sha256=BfdNY_1WF0S5DMN5chYP4F2Pqo5KdFXiz0PY-AKER4w,9
+pyIIIFpres-0.1.1.dist-info/RECORD,,
