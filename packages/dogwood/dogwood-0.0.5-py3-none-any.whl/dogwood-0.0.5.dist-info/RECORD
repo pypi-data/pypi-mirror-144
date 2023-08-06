@@ -1,0 +1,12 @@
+dogwood/__init__.py,sha256=MqLpA-zTqAsIB2WiIMNa5BYQY-ApYKH_eJAAf8BLoEs,140
+dogwood/errors.py,sha256=f6xqWXyb-dQDJf1gPQt8fjDZPoWG53-hCOdXLWIEg9A,862
+dogwood/model_expansion.py,sha256=f94Jh99NwkbHK_h3FKdz8y67OG47MNvtzxuSP3g-aMU,11198
+dogwood/pretraining/__init__.py,sha256=SEPZHLG7Ul7bgg5GZPMVX0Z0kGUYh-FjxXI8r8PJpBQ,52
+dogwood/pretraining/imagenet_data_processor.py,sha256=Zz_Iu9YIuWh8Uie2oaJMBIP57BmtBQil528s48Ky_rU,10025
+dogwood/pretraining/mini_imagenet_loader.py,sha256=YmaOly2eRp9PKB6QYIZY-EFBMGxO-UjTiqdBhJxWlMk,463
+dogwood/pretraining/pretraining_pool.py,sha256=QF8d7b9ltNVU_4dy-SXg-kQ5pvuz4r00Lw8UYwefBXc,10014
+dogwood-0.0.5.dist-info/LICENSE,sha256=cnDlU2Db3mBROt6MrxIg4Tvnq8LAoVI1mziRZ4eBDr0,1066
+dogwood-0.0.5.dist-info/METADATA,sha256=haiv8M7vuOfRARHAvNE-JBiAIpe-RGVUnIwSIpxi-aw,6503
+dogwood-0.0.5.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+dogwood-0.0.5.dist-info/top_level.txt,sha256=NPq7H6pUWfR19Fdi5cBgpiWMoqfh1HP0tHfaDtmJ580,8
+dogwood-0.0.5.dist-info/RECORD,,
