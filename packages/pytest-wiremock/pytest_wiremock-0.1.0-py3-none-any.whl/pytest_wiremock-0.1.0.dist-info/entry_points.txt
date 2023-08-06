@@ -1,0 +1,3 @@
+[pytest11]
+pytest-wiremock=pytest_wiremock.plugin
+
