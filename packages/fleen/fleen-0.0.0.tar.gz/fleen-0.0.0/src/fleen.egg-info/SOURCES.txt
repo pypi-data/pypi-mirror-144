@@ -1,0 +1,10 @@
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/fleen/__init__.py
+src/fleen/version.py
+src/fleen.egg-info/PKG-INFO
+src/fleen.egg-info/SOURCES.txt
+src/fleen.egg-info/dependency_links.txt
+src/fleen.egg-info/top_level.txt
