@@ -1,0 +1,11 @@
+phamt/__init__.py,sha256=ljyjnXAtGqvUhs-MVL4EFWamwctBLWNoE9LT8TtciY8,421
+phamt/c_core.cp37-win32.pyd,sha256=tpJQGuvtebKHsR_1-_Ter79Z5cJhj1SzXjqw_Kyb6oE,29184
+phamt/phamt.c,sha256=lwPUulDpvkI4ToEThFBIp6ZKqsDbdoBHb2ys8UUuO6g,29797
+phamt/py_core.py,sha256=XvUyPY1zw-nHfL5EgPZNJqaePtUm8L8SVNPC5sA__pU,20260
+phamt/test/__init__.py,sha256=vO5C2aA4IR4Tg47WC9uuS_YsnPwZAAz5oj55vCjIcFI,252
+phamt/test/phamt.py,sha256=sFcvedP59t2zsnSWw167lmo6LCuU1VoGC1WgY4d0uI8,11867
+phamt-0.1.0.dist-info/LICENSE,sha256=l5XRaVKSinAfYuNa36JFGl-Fs2c-soeH0BQrAD3HxnE,1092
+phamt-0.1.0.dist-info/METADATA,sha256=NY1Mn5rwYKWkuSz7CnKsCQIbZJ58FqwmYYpCEZPaz68,1180
+phamt-0.1.0.dist-info/WHEEL,sha256=cpY2CIQibwgnIWFRKvRDp2Kii5IPBXf6TQxjD0tLibE,97
+phamt-0.1.0.dist-info/top_level.txt,sha256=30AiRBP_e0__jm44xqIFo6xEg3FVlrUzQax1yKUmc0c,6
+phamt-0.1.0.dist-info/RECORD,,
