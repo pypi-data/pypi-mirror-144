@@ -1,0 +1,9 @@
+bsccm/__init__.py,sha256=Tp8El5PNYXX-esN70ONQereL5cu1lDubVECcRkwtcbI,129
+bsccm/_version.py,sha256=PGYTHiraXTHHOiYiVvpiYd_7wGYXmuR4otl1Bbt2UQ4,71
+bsccm/bsccm.py,sha256=5tWSLMPo9eQJtnRH-pgPda9vI0qej7S-vCb3PQiLbf4,6437
+bsccm/led_array_calibration.py,sha256=qrI3FkhVZdA-OuANZlAoLz_9aEUBir2oO6FtnW8xWmU,6091
+bsccm-0.1.0.dist-info/LICENSE,sha256=bXjKxEdknMLFJtMVu_Hpi7xK_KrRj8t0iUM8_HawkwE,1507
+bsccm-0.1.0.dist-info/METADATA,sha256=Pjr_VfffsE3zXq1-JcoBc-1JS5HTOlav9YIdd3fk4LM,759
+bsccm-0.1.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+bsccm-0.1.0.dist-info/top_level.txt,sha256=8m5pKQwZ0omOtN5MwDfFNofJqjk9h-Cfn7VRFlCG-uY,6
+bsccm-0.1.0.dist-info/RECORD,,
