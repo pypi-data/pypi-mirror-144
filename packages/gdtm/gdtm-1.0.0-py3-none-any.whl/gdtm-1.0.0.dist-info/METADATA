@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: gdtm
+Version: 1.0.0
+Summary: A Topic Modeling Package
+Home-page: https://github.com/pypa/gdtm
+Author: Rob Churchill
+Author-email: rjc111@georgetown.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/pypa/gdtm/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# topic-modeling
+A Python Package containing wrappers for topic models, including TND, NLDA, GTM, and temporal topic-noise models.
+
+
