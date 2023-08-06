@@ -1,0 +1,9 @@
+LICENCE
+README.md
+setup.cfg
+setup.py
+swoon_website_scraper.egg-info/PKG-INFO
+swoon_website_scraper.egg-info/SOURCES.txt
+swoon_website_scraper.egg-info/dependency_links.txt
+swoon_website_scraper.egg-info/requires.txt
+swoon_website_scraper.egg-info/top_level.txt
