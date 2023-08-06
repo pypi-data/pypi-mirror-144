@@ -1,0 +1,7 @@
+verysimplemodule_test_ai/__init__.cp310-win_amd64.pyd,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+verysimplemodule_test_ai/add.cp310-win_amd64.pyd,sha256=ORQSnZ5sIDVXYWYtvf_2oXju9YGhBPm2OpOReyD4MFA,26112
+verysimplemodule_test_ai/subtract.cp310-win_amd64.pyd,sha256=-ntGM7dFh2Ovg1vtC_PF2NTdnd_dev1SCgJ0UyRAyv4,25088
+verysimplemodule_test_ai-0.0.8.dist-info/METADATA,sha256=3lZPyfOdDYzK2E4bxUDOfcm6nT_7byCTfFvwyQmQRe0,531
+verysimplemodule_test_ai-0.0.8.dist-info/WHEEL,sha256=W26pYN7HLsBT1jrDSL9udgf_mdNKJmYmL23sIP-FcgM,102
+verysimplemodule_test_ai-0.0.8.dist-info/top_level.txt,sha256=0hkPqzwnNAEeJeUgRAnyGAGEjMRfYovS4yP6kxmBq9M,25
+verysimplemodule_test_ai-0.0.8.dist-info/RECORD,,
