@@ -1,0 +1,9 @@
+conllu
+numpy
+pandas
+prettytable
+seaborn
+torch>=1.3.0
+tqdm
+transformers
+ufal.udpipe
