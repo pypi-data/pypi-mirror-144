@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: selenium-oxide
+Version: 0.0.3
+Summary: A Selenium boilerplate for automating web exploits. Use responsibly and ethically.
+Home-page: https://github.com/ApprenticeofEnder/Selenium-Oxide
+Download-URL: https://github.com/ApprenticeofEnder/Selenium-Oxide
+Author: Robert Babaev
+Author-email: mail@robertbabaev.tech
+License: MIT License
+Keywords: Selenium,Web,Offensive Security
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+
+# Selenium-Oxide
+A Selenium boilerplate for automating web exploits. Use responsibly and ethically.
+
