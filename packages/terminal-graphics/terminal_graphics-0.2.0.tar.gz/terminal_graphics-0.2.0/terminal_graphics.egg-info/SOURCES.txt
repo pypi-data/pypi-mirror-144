@@ -1,0 +1,8 @@
+LICENSE
+README.rst
+setup.py
+terminal_graphics.egg-info/PKG-INFO
+terminal_graphics.egg-info/SOURCES.txt
+terminal_graphics.egg-info/dependency_links.txt
+terminal_graphics.egg-info/entry_points.txt
+terminal_graphics.egg-info/top_level.txt
