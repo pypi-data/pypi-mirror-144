@@ -1,0 +1,3 @@
+[console_scripts]
+cpm_file = cpm_file.cpm_file.main:main
+
