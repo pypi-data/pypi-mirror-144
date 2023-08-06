@@ -1,0 +1,41 @@
+Metadata-Version: 2.1
+Name: flaskdrop
+Version: 0.0.3
+Summary: A small http file drop server
+Home-page: https://github.com/bouni/flaskdrop
+Author: Bouni
+Author-email: bouni-flaskdrop@owee.de
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/bouni/flaskdrop/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+
+# FlaskDrop
+
+A small http file drop server.
+
+# Why?
+
+I was looking for a easy way to transfer files from my phone to a computer and found dozens of similar prjects but non has fit my needs.
+
+# How
+
+```
+# Install flaskdrop
+pip install flaskdrop
+
+# cd into the folder where you want the files to be dropped
+cd /home/me/upload
+
+# start flaskdrop
+python -m flaskdrop
+
+# You shoud see the debug output of the flask dev server that tells you which IP:port you need to access from you mobile phones browser
+# Something like Running on http://192.168.33.148:5000/ (Press CTRL+C to quit)
+```
+
+
