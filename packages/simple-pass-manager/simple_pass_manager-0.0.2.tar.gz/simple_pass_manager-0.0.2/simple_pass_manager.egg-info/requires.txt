@@ -1,0 +1,2 @@
+setuptools>=42
+cryptography>=36.0.2
