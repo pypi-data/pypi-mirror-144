@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+quicklooper/__init__.py
+quicklooper/looper.py
+quicklooper.egg-info/PKG-INFO
+quicklooper.egg-info/SOURCES.txt
+quicklooper.egg-info/dependency_links.txt
+quicklooper.egg-info/top_level.txt
