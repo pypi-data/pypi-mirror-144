@@ -1,0 +1,15 @@
+Metadata-Version: 1.2
+Name: starspot-backlights
+Version: 0.0.2
+Summary: Cartoon models of the effect of starspots on transiting planets.
+Home-page: https://github.com/zkbt/spotty-backlight
+Author: Zach Berta-Thompson
+Author-email: zach.bertathompson@colorado.edu
+License: MIT
+Description: For detailed usage, please see https://github.com/zkbt/starspot-backlights
+Platform: UNKNOWN
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: Science/Research
+Classifier: Programming Language :: Python
+Classifier: Topic :: Scientific/Engineering :: Astronomy
+Requires-Python: >=3.6
