@@ -1,0 +1,14 @@
+fawaris_fastapi/__init__.py,sha256=4vvJiVZ0sgjnHRQeg7Aj15qS_k6oc_qqnsB1lId4Upo,110
+fawaris_fastapi/exception_handlers.py,sha256=Y_RdK1H814gotzBE8bNTJSWUX9hjjpWMjTlUzmdwV2g,986
+fawaris_fastapi/exceptions.py,sha256=1dz0-bm_fy9LWMDWE8JKY9Z3ezZXwlG2xUX223oruBc,237
+fawaris_fastapi/main.py,sha256=bx5jQ0C_LylF7z-OALNb3t1cih63-qTDJwTGcxRwiw0,767
+fawaris_fastapi/scripts/create_tables.py,sha256=A5XvLl4Ojb9iid3LrVSkUYHoTvQkxGJhlQNRF-UpSc4,324
+fawaris_fastapi/scripts/task_all.py,sha256=fXVFsMkeXUybX8VwkQ51ALiohoP7GQRscF2mLpKao1k,1132
+fawaris_fastapi/sep10.py,sha256=Suc9mJulLy-dJzpc6RjKn-GVdoUkSsizk2kAq9YQU54,1309
+fawaris_fastapi/sep24.py,sha256=YVxF4KjODtKyx1FtLsMAsWY7qVI_RArDumv8kenWY-4,15052
+fawaris_fastapi/settings.py,sha256=mhhVQMxrf4sXJrubraB6LBhhkPqfUSawkvuct6gu0DU,593
+fawaris_fastapi/tables.py,sha256=Qa_XHkMDfXc4sdIA2_stQsctPTMkkaZZgE1ApgbES1w,2627
+fawaris_fastapi/utils.py,sha256=P7oxA9_jr117kObkzYrKzoq-ua3IrriSBeLaOwu-USM,7040
+fawaris_fastapi-0.1.1.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+fawaris_fastapi-0.1.1.dist-info/METADATA,sha256=CrrOQAfYAFiwud4ZS7l1llpALZahW0iML2ilEMil0nU,926
+fawaris_fastapi-0.1.1.dist-info/RECORD,,
