@@ -1,0 +1,10 @@
+AUTHORS.md,sha256=frwXBfZsyQZ8-khR_hKY9LSogglUndPy94fVFl4A_9g,294
+HISTORY.md,sha256=VvYnLybUlntw5e5heUwaCeUW4tefKcRr6AVqYg1moTs,234
+LICENSE,sha256=LX-nFUH8DKs2Qa2-10DhVFli8bkYpyHZrRvC-qN3kYY,1066
+minos/plugins/aiohttp/__init__.py,sha256=KblZA9tPZF_sJl3psc_VxLMARRe0cbBfwymQ2EXW_yU,234
+minos/plugins/aiohttp/connectors.py,sha256=_1-9pctxol9_1Xb5T-3luPNb61wTsl37YY3s0cUTZbs,3025
+minos/plugins/aiohttp/requests.py,sha256=H9KcnIqhICboi53UlKvzv1cIf1l9DmL81XCxocEkOEw,9352
+minos_http_aiohttp-0.6.0.dist-info/LICENSE,sha256=LX-nFUH8DKs2Qa2-10DhVFli8bkYpyHZrRvC-qN3kYY,1066
+minos_http_aiohttp-0.6.0.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+minos_http_aiohttp-0.6.0.dist-info/METADATA,sha256=tHqS9N02SXp6x1YfBwI9xqKwDijguKxlWvvBFSggTG8,3336
+minos_http_aiohttp-0.6.0.dist-info/RECORD,,
