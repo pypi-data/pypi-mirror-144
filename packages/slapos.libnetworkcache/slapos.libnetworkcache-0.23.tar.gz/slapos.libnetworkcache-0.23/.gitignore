@@ -1,0 +1,10 @@
+*pyc
+*pyo
+.installed.cfg
+bin/
+build/
+develop-eggs/
+dist/
+eggs/
+parts/
+slapos.libnetworkcache.egg-info/
