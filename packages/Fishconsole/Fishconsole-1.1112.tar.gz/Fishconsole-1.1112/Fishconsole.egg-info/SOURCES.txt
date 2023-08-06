@@ -1,0 +1,12 @@
+LICENSE
+setup.py
+Fishconsole.egg-info/PKG-INFO
+Fishconsole.egg-info/SOURCES.txt
+Fishconsole.egg-info/dependency_links.txt
+Fishconsole.egg-info/requires.txt
+Fishconsole.egg-info/top_level.txt
+Fishcosole/__init__.py
+Fishcosole/fcv.py
+Fishcosole/helps.py
+Fishcosole/logs.py
+Fishcosole/window.py
