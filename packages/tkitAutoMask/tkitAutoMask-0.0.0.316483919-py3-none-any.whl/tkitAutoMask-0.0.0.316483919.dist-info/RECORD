@@ -1,0 +1,9 @@
+tkitAutoMask/__init__.py,sha256=hdCcJiMw7dihAnrTve5nvoIZEocUlthIBEc6W2hoEvs,114
+tkitAutoMask/attention_mask.py,sha256=rz1E5CgO9baG1VYczFFytB3YxeP2KDq3NDMctAlDCZc,6300
+tkitAutoMask/mask.py,sha256=v8lCq3KzPfl5R6Q7QgmEW-KPg9h-YCt93YsQ26i3-1I,7844
+tkitAutoMask/spanmask.py,sha256=xvvIvSdDcMZrh3-8W-8i-TyoiOBzMbZRl-SxO6XVxpU,12791
+tkitAutoMask-0.0.0.316483919.dist-info/LICENSE,sha256=CfO_jZGRHc5TE9YraZeMwoy6cYUu7-ppHM4Tsf4p-gI,11357
+tkitAutoMask-0.0.0.316483919.dist-info/METADATA,sha256=JHeQuQBckNW_aHJYZ6h3PpzjjHKPy-RK-9hj28W-Z_M,10451
+tkitAutoMask-0.0.0.316483919.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+tkitAutoMask-0.0.0.316483919.dist-info/top_level.txt,sha256=GblG3ZAgKUs-AKFyKrOEmyD-X5roYUnta6BB51Ib-4U,13
+tkitAutoMask-0.0.0.316483919.dist-info/RECORD,,
