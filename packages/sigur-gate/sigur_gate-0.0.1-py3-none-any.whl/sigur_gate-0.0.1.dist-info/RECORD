@@ -1,0 +1,11 @@
+sigur_worker/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sigur_worker/functions.py,sha256=QbIJrTUplk-OUgYxRm2K3edNZ2b-74NXrRl4m-Rn8sA,205
+sigur_worker/main.py,sha256=Hqs3BUrEABIkqftswOP3i5QAue8My--jGlECoE-vZjc,1789
+sigur_worker/mixins.py,sha256=Z0snvm4UqMSAgJSgj1TZ00dMEoD9P3avmzxSu1FfCWo,287
+sigur_worker/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sigur_worker/tests/main_tests.py,sha256=P4wzYzUGn-AVjezFnSvsbPXAdnBGPObUgOo3EjUJEHQ,783
+sigur_gate-0.0.1.dist-info/LICENSE,sha256=6kbiFSfobTZ7beWiKnHpN902HgBx-Jzgcme0SvKqhKY,1091
+sigur_gate-0.0.1.dist-info/METADATA,sha256=1SNY2__e4C8fn3-Eb6okYlrZ6SPHZuf9CykJ6vIqGTY,300
+sigur_gate-0.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+sigur_gate-0.0.1.dist-info/top_level.txt,sha256=vtC_JRV_u7cejaHtEeNj4D7iJ-Ndf5lpM3pTPoxzCH4,13
+sigur_gate-0.0.1.dist-info/RECORD,,
