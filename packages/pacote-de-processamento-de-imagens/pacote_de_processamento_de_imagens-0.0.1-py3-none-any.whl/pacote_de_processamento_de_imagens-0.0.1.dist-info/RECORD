@@ -1,0 +1,11 @@
+pacote-de-processamento-de-imagens/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pacote-de-processamento-de-imagens/image_processing/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pacote-de-processamento-de-imagens/image_processing/combination.py,sha256=9Cde7Nf7A0pZ9AM1P6AQElpz51L_bDj49d5yruTPIaE,789
+pacote-de-processamento-de-imagens/image_processing/transformation.py,sha256=TxdqOt6gp_P8r8dgf_iVDcx2TlwxNRZoXLv6gcwlNy8,343
+pacote-de-processamento-de-imagens/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pacote-de-processamento-de-imagens/utils/io.py,sha256=fx9tQChZv0a_6HHDlNUR_7pv7u51vG2EcXYNkXf_Kw8,195
+pacote-de-processamento-de-imagens/utils/plot.py,sha256=7-eyn1UP0g1LeJ6ovQfdVxZ4y44mJWYYiLxyd5q8vnA,974
+pacote_de_processamento_de_imagens-0.0.1.dist-info/METADATA,sha256=9DZ22ww-R-5BPUH-UdqOKWk0cq1vtilmVa9eYpaT8gw,754
+pacote_de_processamento_de_imagens-0.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+pacote_de_processamento_de_imagens-0.0.1.dist-info/top_level.txt,sha256=UqfJHcVYRHWsmZ6fn6i0VTqmdYnWwgwzLqpqyCJgfA0,35
+pacote_de_processamento_de_imagens-0.0.1.dist-info/RECORD,,

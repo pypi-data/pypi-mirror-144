@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: pacote-de-processamento-de-imagens
+Version: 0.0.1
+Summary: eita
+Home-page: https://github.com/felixfabio
+Author: Fabio Felix
+Author-email: felixlfabio@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: matplotlib
+Requires-Dist: numpy
+Requires-Dist: skimage.image (>=0.16.1)
+
+# Image Processing
+
+Description.
+The Package image_processing is used to:
+    Processing:
+        - Histogram matching
+        - Structural similarity
+        - Resize image
+    Utils:
+        - Read Image
+        - Save Image 
+        - Plot Image
+        - Plot Result
+
+## Instalation
+
+Use the package menager [pip](https://pip.pypa.io/en/stable/) to install
+
+## Author
+Fabio
+
