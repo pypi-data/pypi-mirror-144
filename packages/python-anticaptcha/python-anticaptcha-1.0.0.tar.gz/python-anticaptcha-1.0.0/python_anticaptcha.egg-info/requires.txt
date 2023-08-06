@@ -1,0 +1,10 @@
+requests
+six
+
+[docs]
+sphinx
+
+[tests]
+retry
+nose2
+selenium
