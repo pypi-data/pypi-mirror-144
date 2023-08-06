@@ -1,0 +1,12 @@
+RotationLabelingTool/StartLabel.py,sha256=67Z-K-JmQmYwI11FLKUV0fXCw1E2PXvEBPtiLnqDlFA,267
+RotationLabelingTool/__init__.py,sha256=7C48rS_ARPelipqEQ2AtJQQa40CcSWCFHuNFkjsUXcw,219
+RotationLabelingTool/labelingTool/LabelingTool.py,sha256=f0nYmtfsBAyNjJ0J3U3fO9JINyAWaRfnz9_JnVXCiYk,10812
+RotationLabelingTool/labelingTool/__init__.py,sha256=ucRN1WMih7cam1LigAFsxqGv6p2UU-2S5pDgGceNYP0,136
+RotationLabelingTool/tools/CvTool.py,sha256=oUsGj35M77QarUD3fCoizDYvKkBaEr-FRgIuazw4BOY,4626
+RotationLabelingTool/tools/__init__.py,sha256=O8xps6x4orBMO1QA3YScv5ZIuWiwx9FsFVLW027lDDw,185
+RotationLabelingTool/ui/__init__.py,sha256=3srolsMztK-w-gXnbSRcdQ-DYzxXCH-FyqRyuqsL1_0,212
+RotationLabelingTool/ui/ui.py,sha256=R_TZYdL284u5AD_Bj9Gk4bxUI1rx4nnzeWuBASyiuAU,4535
+RotationLabelingTool-1.0.0.dist-info/METADATA,sha256=hGeAKVhXyIxyFgRZVePKkEjs1CNqNu7Ae2yrhFATFqo,372
+RotationLabelingTool-1.0.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+RotationLabelingTool-1.0.0.dist-info/top_level.txt,sha256=vtDZwItkvSjw3RD0kSd6mCHy4UVEfdGrKoNkpz_Dv-g,21
+RotationLabelingTool-1.0.0.dist-info/RECORD,,

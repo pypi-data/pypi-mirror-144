@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: RotationLabelingTool
+Version: 1.0.0
+Summary: Simple and general rotation detection framework 
+Home-page: https://dev.skyvm.com/wkx12138/
+Author: xidian wkx
+Author-email: 1594609920@qq.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: opencv-python (>=4.5.5.64)
+Requires-Dist: PyQt5 (>=5.15.6)
+Requires-Dist: setuptools (>=49.2.1)
+
+UNKNOWN
+
