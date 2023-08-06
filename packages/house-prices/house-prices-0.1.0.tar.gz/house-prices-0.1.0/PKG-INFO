@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: house-prices
+Version: 0.1.0
+Summary: 
+Author: Your Name
+Author-email: you@example.com
+Requires-Python: >=3.8,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: catboost (>=1.0.4,<2.0.0)
+Requires-Dist: category-encoders (>=2.4.0,<3.0.0)
+Requires-Dist: eli5 (>=0.11.0,<0.12.0)
+Requires-Dist: ipdb (>=0.13.9,<0.14.0)
+Requires-Dist: ipython (>=8.1.1,<9.0.0)
+Requires-Dist: jupyter (>=1.0.0,<2.0.0)
+Requires-Dist: lightgbm (>=3.3.2,<4.0.0)
+Requires-Dist: matplotlib (>=3.5.1,<4.0.0)
+Requires-Dist: optuna (>=2.10.0,<3.0.0)
+Requires-Dist: pandas-profiling (>=3.1.0,<4.0.0)
+Requires-Dist: plotly (>=5.6.0,<6.0.0)
+Requires-Dist: scikit-learn (>=1.0.2,<2.0.0)
+Requires-Dist: seaborn (>=0.11.2,<0.12.0)
+Requires-Dist: sklearn-transformer-extensions (>=0.2.2,<0.3.0)
+Requires-Dist: xgboost (>=1.5.2,<2.0.0)
