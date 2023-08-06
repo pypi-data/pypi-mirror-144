@@ -1,0 +1,9 @@
+Cython
+EasyDict==1.7
+json_tricks
+pandas
+pyyaml
+scikit-image
+scipy
+tensorboardX==1.6
+yacs>=0.1.5
