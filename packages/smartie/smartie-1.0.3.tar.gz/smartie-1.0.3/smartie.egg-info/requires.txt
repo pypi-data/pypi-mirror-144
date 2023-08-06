@@ -1,0 +1,8 @@
+
+[release]
+sphinx
+bump2version
+
+[test]
+pytest
+pytest-mock
