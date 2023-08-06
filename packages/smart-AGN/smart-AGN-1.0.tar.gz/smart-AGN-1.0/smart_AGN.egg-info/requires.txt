@@ -1,0 +1,7 @@
+Keras==2.3.1
+bert4keras
+boltons
+langml
+numpy
+scikit_learn
+seaborn
