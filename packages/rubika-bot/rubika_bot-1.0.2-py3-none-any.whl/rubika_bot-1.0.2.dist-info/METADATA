@@ -1,0 +1,60 @@
+Metadata-Version: 2.1
+Name: rubika-bot
+Version: 1.0.2
+Summary: Rubika Bot Library
+Home-page: https://github.com/alirn76/rubika-bot
+Author: Rubika Team
+Author-email: A.RajabNezhad@rubika.ir
+License: MIT
+Keywords: rubika,bot,rubika-bot
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.10
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: requests
+Requires-Dist: pydantic
+
+## Requirements
+<div class="termy">
+
+```console
+Python 3.10+
+```
+</div>
+
+<hr/>
+
+## Installation
+
+<div class="termy">
+
+```console
+$ pip install rubika-bot
+```
+</div>
+
+## Usage
+- #### Get Your Bot Information
+    <div class="termy">
+    
+    ```console
+    from rubika.bot import get_me
+    from rubika.schema import Bot
+  
+    bot: Bot = get_me(token=...)
+    ```
+    </div>
+
+- #### Send Keypad
+    <div class="termy">
+    
+    ```console
+    ...
+    ```
+    </div>
+
+
+
