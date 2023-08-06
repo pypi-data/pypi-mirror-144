@@ -1,0 +1,8 @@
+setup.py
+libname/__init__.py
+libname/hello.py
+testhelloAlberPrueba.egg-info/PKG-INFO
+testhelloAlberPrueba.egg-info/SOURCES.txt
+testhelloAlberPrueba.egg-info/dependency_links.txt
+testhelloAlberPrueba.egg-info/requires.txt
+testhelloAlberPrueba.egg-info/top_level.txt
